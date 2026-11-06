@@ -11,11 +11,15 @@ Each pack holds GROUP games in test order:
 
 packs.json preserves assignments. Retests get new rows; old rows stay unused.
 Empty groups and unused images are removed. Existing audio packs are moved
-to a private sibling directory; recordings are never included in the export."""
+to a private sibling directory; recordings are never included in the export.
+manifest.json lists the exact pack files the page uses, with size and SHA-256;
+any other entry left in packs/ is an error."""
 import hashlib
 import json
 import os
+import re
 import shutil
+import stat
 import subprocess
 import sys
 import tempfile
@@ -28,6 +32,7 @@ SHOTS = ("boot", "mid", "final")
 GROUP = 6
 THUMB, FULL = "320x240", "800x600"
 FORMAT = 1  # bump to rebuild every pack
+PACK_NAME = re.compile(r"g\d{3}-[0-9a-f]{8}-[tf]\.webp")
 
 
 # Match the artifact host reset in the standalone document.
@@ -120,6 +125,21 @@ def build(gi, members, slots, db, out):
     return base, want
 
 
+def write_manifest(out, keep):
+    """manifest.json: the exact pack files the page uses. Fails on anything else in packs/."""
+    packs = os.path.join(out, "packs")
+    for f in os.listdir(packs):
+        if f"packs/{f}" not in keep or not PACK_NAME.fullmatch(f) \
+                or not stat.S_ISREG(os.lstat(os.path.join(packs, f)).st_mode):
+            sys.exit(f"unexpected entry in {packs}: {f}")
+    files = []
+    for p in sorted(keep):
+        data = open(os.path.join(out, p), "rb").read()
+        files.append({"path": p, "size": len(data), "sha256": hashlib.sha256(data).hexdigest()})
+    with open(os.path.join(out, "manifest.json"), "w") as f:
+        json.dump({"files": files}, f, indent=0)
+
+
 def main():
     out = os.path.abspath(sys.argv[1])
     os.makedirs(os.path.join(out, "packs"), exist_ok=True)
@@ -134,6 +154,7 @@ def main():
     for f in os.listdir(os.path.join(out, "packs")):
         if f.lower().endswith(".webp") and f"packs/{f}" not in keep:
             os.remove(os.path.join(out, "packs", f))
+    write_manifest(out, keep)
     configs, games = {}, []
     for slug, g in sorted(db["games"].items(), key=lambda kv: (kv[1]["title"].lower(), kv[0])):
         entry = {"slug": slug, "title": g["title"], "file": g["file"], "size": g.get("size"),

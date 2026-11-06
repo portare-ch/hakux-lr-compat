@@ -17,7 +17,7 @@ listed configuration; a short test does not establish full-game compatibility.
 | `runner.py`, `compat.py`, `vpad.py` | Test runner, data tools and optional virtual gamepad |
 | `export_page.py`, `page_template.html`, `packs.json` | Web export and media-pack assignments |
 | `site/packs/` | Image packs for the web page, built from the full captures |
-| `deploy/` | Server script and systemd units that publish `main` |
+| `deploy/` | Server scripts and systemd units that check and publish `main` |
 | `issues/` | Issue drafts and filing records |
 
 Full PNG captures, recordings and logs stay on the test machine. Each game's
@@ -134,24 +134,36 @@ full captures, which stay on the test machine, so commit `site/packs/` and
 
 [hakuxlr.portareos.org](https://hakuxlr.portareos.org/) publishes `main`
 automatically. Every 5 minutes, `hakuxlr-sync.timer` fetches `main`. For a new
-commit, it runs `export_page.py` with the committed packs and copies `web.html`
-and `packs/` to `/var/www/hakuxlr`: new packs first, then the page, then it
-removes stale packs. If a result's pack is missing, the export fails and the
-previous page stays online; see `journalctl -u hakuxlr-sync`.
+commit, it:
+
+1. Rejects the commit if it contains a symlink or submodule anywhere, or
+   anything under `site/` other than `site/packs/gNNN-<hash>-t.webp` and `-f.webp`.
+2. Checks it out and runs `export_page.py`, which also writes
+   `site/manifest.json`: the exact packs the page uses, with size and SHA-256.
+3. Checks that the manifest matches the page's pack references and
+   `site/packs/` exactly, and that each pack is a regular WebP file without
+   metadata (EXIF, XMP). Only those files and the page are copied to
+   `/var/www/hakuxlr`: new packs first, then the page, then stale packs are
+   removed. Any other entry in the web root fails the run.
+
+The checks run from the server's installed `hakuxlr-publish.py`, never from the
+checkout. A missing pack fails the export, since the server has no captures.
+Any failure keeps the previous page online; see `journalctl -u hakuxlr-sync`.
 
 The server runs nginx on AlmaLinux (`/etc/nginx/conf.d/hakuxlr.conf`). Install
 the sync service as root from a checkout:
 
 ```sh
-dnf install -y git-core rsync python3
+dnf install -y git-core python3
 useradd --system --home-dir /var/lib/hakuxlr-sync --shell /sbin/nologin hakuxlr
 chown -R hakuxlr:hakuxlr /var/www/hakuxlr
 install -m 755 deploy/hakuxlr-sync.sh /usr/local/bin/hakuxlr-sync
+install -D -m 644 deploy/hakuxlr-publish.py /usr/local/lib/hakuxlr-sync/hakuxlr-publish.py
 install -m 644 deploy/hakuxlr-sync.service deploy/hakuxlr-sync.timer /etc/systemd/system/
 systemctl daemon-reload && systemctl enable --now hakuxlr-sync.timer
 ```
 
-`systemctl start hakuxlr-sync` publishes immediately.
+Reinstall after changing `deploy/`. `systemctl start hakuxlr-sync` publishes immediately.
 
 The embedded page can also be published as an artifact. Each image pack
 holds six games:
