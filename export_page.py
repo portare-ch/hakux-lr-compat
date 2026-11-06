@@ -8,14 +8,14 @@ Each pack holds GROUP games in test order:
 
   gNNN-<hash>-t.webp  320x240 thumbnails; boot, mid and final across each row
   gNNN-<hash>-f.webp  800x600 images for the screenshot viewer
-  gNNN-<hash>.ogg     SLOT seconds per game, consecutive 32 kbit/s Opus slots
 
 packs.json preserves assignments. Retests get new rows; old rows stay unused.
-Empty groups and unused output files are removed. Packing keeps the embedded
-page below the artifact host's 511-file limit."""
+Empty groups and unused images are removed. Existing audio packs are moved
+to a private sibling directory; recordings are never included in the export."""
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -26,7 +26,6 @@ import compat  # noqa: E402  (issue_search)
 PACKS = os.path.join(HERE, "packs.json")
 SHOTS = ("boot", "mid", "final")
 GROUP = 6
-SLOT = 46.0
 THUMB, FULL = "320x240", "800x600"
 FORMAT = 1  # bump to rebuild every pack
 
@@ -51,15 +50,17 @@ def key_of(r):
     return f"{r.get('config', {}).get('run_id')}|{r.get('tested_at')}"
 
 
-def has_recording(r):
-    """A recording with samples in it (a game that never played a sample leaves an empty file)."""
-    secs = (r or {}).get("auto", {}).get("audio_seconds")
-    return bool(r) and "audio" in r.get("captures", {}) and (secs is None or secs > 0.5)  # Older results may not include this field.
-
-
-def audio_from(r):
-    """Where the page's excerpt starts: the last SLOT seconds of the recording."""
-    return round(max(0.0, (r.get("auto", {}).get("audio_seconds") or 0) - SLOT), 1)
+def archive_recordings(out):
+    """Move legacy audio packs outside the export without deleting them."""
+    packs = os.path.join(out, "packs")
+    extensions = (".ogg", ".oga", ".opus", ".mp3", ".wav", ".flac", ".m4a", ".aac", ".aif", ".aiff", ".wma")
+    recordings = [name for name in os.listdir(packs) if name.lower().endswith(extensions)]
+    if not recordings:
+        return
+    private = tempfile.mkdtemp(prefix=os.path.basename(out) + "-private-audio-", dir=os.path.dirname(out))
+    for name in recordings:
+        shutil.move(os.path.join(packs, name), os.path.join(private, name))
+    print(f"Retained {len(recordings)} recordings outside the export: {private}")
 
 
 def assign(db):
@@ -104,9 +105,6 @@ def build(gi, members, slots, db, out):
             results.append(db["games"][slug]["results"][sid])
         else:
             results.append(None)
-    has_audio = any(has_recording(r) for r in results)
-    if has_audio:
-        want.append(base + ".ogg")
     if all(os.path.exists(os.path.join(out, w)) for w in want):
         return base, want
     with tempfile.TemporaryDirectory() as tmp:
@@ -119,25 +117,13 @@ def build(gi, members, slots, db, out):
                 imgs = [os.path.join(HERE, caps[s]) if s in caps else blank for s in SHOTS]
                 args += ["(", *imgs, "-resize", size + "!", "+append", ")"]
             run("magick", *args, "-append", "-quality", q, os.path.join(out, base + suffix))
-        if has_audio:
-            cmd, filt = ["ffmpeg", "-v", "error", "-y"], ""
-            for i, r in enumerate(results):
-                caps = (r or {}).get("captures", {})
-                if has_recording(r):
-                    cmd += ["-ss", str(audio_from(r)), "-i", os.path.join(HERE, caps["audio"])]
-                else:
-                    cmd += ["-f", "lavfi", "-t", str(SLOT), "-i", "anullsrc=r=48000:cl=stereo"]
-                filt += (f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"
-                         f"apad=whole_dur={SLOT},atrim=0:{SLOT},asetpts=N/SR/TB[a{i}];")
-            filt += "".join(f"[a{i}]" for i in range(len(results))) + f"concat=n={len(results)}:v=0:a=1[o]"
-            run(*cmd, "-filter_complex", filt, "-map", "[o]", "-c:a", "libopus", "-b:a", "32k",
-                os.path.join(out, base + ".ogg"))
     return base, want
 
 
 def main():
     out = os.path.abspath(sys.argv[1])
     os.makedirs(os.path.join(out, "packs"), exist_ok=True)
+    archive_recordings(out)
     db = json.load(open(os.path.join(HERE, "compat.json")))
     groups, slots = assign(db)
     bases, keep = {}, set()
@@ -146,7 +132,7 @@ def main():
         bases[gi] = (base, len(members))
         keep.update(files)
     for f in os.listdir(os.path.join(out, "packs")):
-        if f"packs/{f}" not in keep:
+        if f.lower().endswith(".webp") and f"packs/{f}" not in keep:
             os.remove(os.path.join(out, "packs", f))
     configs, games = {}, []
     for slug, g in sorted(db["games"].items(), key=lambda kv: (kv[1]["title"].lower(), kv[0])):
@@ -166,11 +152,6 @@ def main():
             gi, row = slots[f"{sid}/{slug}"]
             base, rows = bases[gi]
             shots = [{"name": s, "ok": s in caps, "t": res.get("shots", {}).get(s, {}).get("asked_s")} for s in SHOTS]
-            audio = None
-            if has_recording(r):
-                start = audio_from(r)
-                audio = {"at": row * SLOT, "from": start,
-                         "dur": min(SLOT, (res.get("audio", {}).get("seconds") or SLOT) - start)}
             tail = [ln[:180] for ln in res.get("core_log", {}).get("tail", [])
                     if not ln.startswith(("hakuX-hle-pb:", "hakuX-hle-emit:", "hakuX-hle-back: ff3d"))][-14:]
             entry["results"][sid] = {
@@ -181,7 +162,7 @@ def main():
                                                   "audio_peak_rms_dbfs", "audio_first_sound_s",
                                                   "audio_audible_fraction", "log_flags", "boot_stages", "exit",
                                                   "judge")},
-                "pack": base, "row": row, "rows": rows, "shots": shots, "audio": audio,
+                "pack": base, "row": row, "rows": rows, "shots": shots,
                 "run": run_id, "tested_at": r.get("tested_at"), "log_tail": tail,
             }
         games.append(entry)

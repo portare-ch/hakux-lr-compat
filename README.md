@@ -2,7 +2,7 @@
 
 Test results for [hakuX-lr](https://github.com/portare-ch/hakuX-lr), the original
 Xbox libretro core. Browse the [compatibility list](https://hakuxlr.portareos.org/)
-with screenshots and recordings, or use the [Markdown table](COMPATIBILITY.md).
+with screenshots and audio measurements, or use the [Markdown table](COMPATIBILITY.md).
 The library contains 662 discs, primarily NTSC-U. Results apply only to the
 listed configuration; a short test does not establish full-game compatibility.
 
@@ -131,14 +131,27 @@ Generated local views include `report.html` and
 The test server uses nginx on AlmaLinux, `/var/www/hakuxlr`, and
 `/etc/nginx/conf.d/hakuxlr.conf`.
 
-The embedded page is also published as a
-[Claude artifact](https://claude.ai/artifact/XHkeBBWZiDSu6znZzXbE76).
-Its limit is 511 files and 256 MB per version (one export: 255 files, 64 MB).
-Each pack holds six games:
+The embedded page can also be published as an artifact. Each image pack
+holds six games:
 
 - `gNNN-<hash>-t.webp`: 320×240 thumbnails, one row per game (boot, mid, final).
 - `gNNN-<hash>-f.webp`: 800×600 images for the screenshot viewer.
-- `gNNN-<hash>.ogg`: consecutive 46 s audio slots, 32 kbit/s Opus.
+
+Audio observations remain visible, but recordings are private. Exports contain
+no audio or playback controls. Legacy audio packs are moved to a private
+sibling directory named `<dir>-private-audio-*`; keep it outside deployments.
+Raw recordings on the test machine are unchanged.
+
+The web server must also block legacy audio URLs:
+
+```nginx
+location ~* \.(ogg|oga|opus|mp3|wav|flac|m4a|aac|aif|aiff|wma)$ {
+    add_header Cache-Control "no-store" always;
+    return 404;
+}
+```
+
+Previously published copies on other hosts must be unpublished separately.
 
 `packs.json` preserves assignments. Retests get new rows; old rows remain
 unused, and empty groups are dropped. File hashes change when a pack changes.

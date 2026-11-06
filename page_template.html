@@ -95,9 +95,6 @@ tr.detail td { padding: 0; border-top: 1px solid var(--line); background: var(--
 dl.hw { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 12px; font-size: 13px; }
 dl.hw dt { color: var(--muted); }
 dl.hw dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
-.audio { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
-.play { font: 500 12.5px/1 var(--f-body); padding: 6px 10px; border-radius: 5px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; font-variant-numeric: tabular-nums; }
-.play[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
 details { font-size: 13px; }
 summary { cursor: pointer; color: var(--muted); }
 details pre { font: 11.5px/1.45 var(--f-mono); background: var(--sunk); padding: 8px; border-radius: 4px; overflow-x: auto; margin: 6px 0 0; }
@@ -163,7 +160,7 @@ dialog::backdrop { background: rgba(0, 0, 0, .78); }
     <p>Each test uses a fresh RetroArch profile and console disk. Screenshots: <b>boot</b> at 10 s, <b>mid</b> at 45 s. Start/A alternate every 2.5 s from 10.5 s. From 30 s, Claude Haiku checks a frame every 20 s for player-controlled gameplay. Two consecutive gameplay verdicts end the run; the last frame becomes <b>final</b>. Otherwise it ends at 300 s (hard limit: 330 s). Menu stalls may use per-game input overrides. The 0.19.0 tests used a 45 s plan without a judge.</p>
     <p><b>Status</b> is the furthest stage confirmed by review: <b>Boot</b> (started or loading), <b>Intro</b> (logos, movies or legal screens), <b>Menu</b> (title screen, menus or a new game still loading or playing its opening), <b>In-game</b> (gameplay with a crash, freeze, silence, low frame rate or major graphics fault), <b>Playable</b> (gameplay with no observed problem that prevents play). Ratings use screenshots, frame rates, audio measurements and logs from a short run; they do not cover a full playthrough.</p>
     <p><b>Outcome:</b> Completed (plan finished and emulator closed), Crash (emulator or core stopped unexpectedly), Timeout (hard limit or unresponsive emulator), Needs manual input (set during review). A timeout alone does not establish incompatibility; reaching gameplay alone does not establish playability. Results apply only to the listed setup.</p>
-    <p><b>Audio</b> is measured from a private sink. Level means the loudest 0.5 s RMS window. Recordings contain the last 46 s of a run, encoded as 32 kbit/s Opus.</p>
+    <p><b>Audio</b> is measured from a private sink. Level means the loudest 0.5 s RMS window.</p>
     <p><b>Issues</b> searches hakuX-lr by title ID or name; a matching issue may not exist.</p>
   </details>
 </main>
@@ -281,7 +278,6 @@ function row(g) {
 }
 
 function rows() {
-  stopPlay();
   const shown = games.filter(matches).sort((a, b) => sortVal(a).localeCompare(sortVal(b)) * sortDir || a.title.localeCompare(b.title));
   document.getElementById("rows").innerHTML = shown.length ? shown.map(row).join("")
     : `<tr><td colspan="6" class="muted" style="padding:16px">No game matches this search.</td></tr>`;
@@ -324,7 +320,7 @@ function detail(g) {
       <div class="obs"><h3>Findings</h3>
         ${o.graphics ? `<p><b>Graphics:</b> ${esc(o.graphics)}</p>` : ""}
         ${o.notes ? `<p><b>Notes:</b> ${linkify(esc(o.notes))}</p>` : ""}
-        <div class="audio"><span><b>Audio:</b> ${esc(o.audio || "")}</span>${r.audio ? `<button type="button" class="play" data-g="${esc(g.slug)}" aria-pressed="false" title="${r.audio.from ? `from ${Math.round(r.audio.from)} s to the end of the run` : "the whole run"}">Play recording</button>` : ""}</div>
+        <p><b>Audio:</b> ${esc(o.audio || "")}</p>
         ${perf.length ? `<p class="muted">${perf.join(" · ")}</p>` : ""}
       </div>
       <div><h3>Tested on</h3><dl class="hw">${hw}</dl></div>
@@ -342,7 +338,7 @@ function toggle(slug, open) {
   const btn = tr.querySelector(".t-btn"), next = tr.nextElementSibling;
   const isOpen = !!next && next.classList.contains("detail");
   if (open === undefined) open = !isOpen;
-  if (isOpen && !open) { stopPlay(); next.remove(); tr.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); return; }
+  if (isOpen && !open) { next.remove(); tr.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); return; }
   if (!isOpen && open) {
     tr.insertAdjacentHTML("afterend", `<tr class="detail" id="d-${esc(slug)}"><td colspan="6">${detail(bySlug[slug])}</td></tr>`);
     tr.classList.add("open"); btn.setAttribute("aria-expanded", "true");
@@ -352,8 +348,6 @@ function toggle(slug, open) {
 document.getElementById("rows").addEventListener("click", e => {
   const t = e.target.closest(".t-btn");
   if (t) { toggle(t.closest("tr").dataset.g); return; }
-  const p = e.target.closest("button.play");
-  if (p) { play(p); return; }
   const b = e.target.closest(".shots button"); if (!b) return;
   const r = res(bySlug[b.dataset.g]);
   const idx = r.shots.map((s, i) => s.ok ? i : -1).filter(i => i >= 0);
@@ -385,40 +379,6 @@ lb.addEventListener("keydown", e => {
   if (e.key === "ArrowLeft") show(cur.slug, cur.k - 1);
   if (e.key === "ArrowRight") show(cur.slug, cur.k + 1);
 });
-
-// Play only this game's audio slot within the pack.
-const player = new Audio(); player.preload = "none";
-let playing = null;
-function stopPlay() {
-  if (!playing) return;
-  player.pause();
-  playing.btn.textContent = "Play recording"; playing.btn.setAttribute("aria-pressed", "false");
-  playing = null;
-}
-function play(btn) {
-  const slug = btn.dataset.g;
-  if (playing && playing.slug === slug) { stopPlay(); return; }
-  stopPlay();
-  const r = res(bySlug[slug]);
-  const src = new URL(`${r.pack}.ogg`, location.href).href;
-  playing = {slug, btn, at: r.audio.at, end: r.audio.at + r.audio.dur};
-  btn.textContent = "Loading…"; btn.setAttribute("aria-pressed", "true");
-  const me = playing;
-  const go = () => {
-    if (playing !== me) return;
-    player.currentTime = me.at;
-    player.play().catch(() => { if (playing === me) stopPlay(); });
-  };
-  if (player.src === src && player.readyState >= 1) go();
-  else { player.src = src; player.addEventListener("loadedmetadata", go, {once: true}); player.load(); }
-}
-player.addEventListener("timeupdate", () => {
-  if (!playing || player.paused) return;
-  if (player.currentTime >= playing.end) { stopPlay(); return; }
-  playing.btn.textContent = `Stop · ${Math.max(0, Math.floor(player.currentTime - playing.at))} s`;
-});
-player.addEventListener("ended", stopPlay);
-player.addEventListener("error", stopPlay);
 
 function fromHash() {
   const m = /^#g-([a-z0-9-]+)$/.exec(location.hash);
