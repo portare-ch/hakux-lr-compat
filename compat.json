@@ -25642,20 +25642,20 @@
   "conflict-desert-storm-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "SCi logo, title and the Load Game menus over the barracks scene render correctly.",
-      "audio": "sound from -0.0 s, audible in 5 % of the run, loudest -24.8 dBFS RMS",
-      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
+      "graphics": "Title, menus and the training camp with the squad portrait render correctly, 60 fps.",
+      "audio": "sound from -0.0 s, audible in 56 % of the run, loudest -23.0 dBFS RMS",
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start at the title, then A for Single Player and Training) the training mission is in play from about 45 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 49.84 s (judged from screenshots); stopped at 76.2 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.1,
+       "at_s": 76.3,
        "code": 0,
        "signal": null
       },
@@ -25668,16 +25668,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.7,
-      "fps_min": 26.8,
+      "fps_median": 59.0,
+      "fps_min": 26.6,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
+      "guest_swaps_median": 59.8,
       "longest_hang_s": 2.5,
       "longest_hang_after_frame": 100,
-      "audio_peak_rms_dbfs": -24.8,
+      "audio_peak_rms_dbfs": -23.0,
       "audio_first_sound_s": -0.0,
-      "audio_audible_fraction": 0.05,
-      "audio_seconds": 302.7,
+      "audio_audible_fraction": 0.57,
+      "audio_seconds": 74.3,
       "images": {
        "boot": {
         "mean": 0.0,
@@ -25685,77 +25685,37 @@
         "black": true
        },
        "mid": {
+        "mean": 0.363,
+        "sd": 0.2,
+        "black": false
+       },
+       "final": {
         "mean": 0.327,
         "sd": 0.192,
         "black": false
        },
-       "final": {
-        "mean": 0.233,
-        "sd": 0.158,
-        "black": false
-       },
-       "mid_final_rmse": 0.242
+       "mid_final_rmse": 0.137
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 49.84,
+       "stopped_at_s": 76.2,
        "verdicts": [
         [
-         29.84,
+         29.8,
          "OTHER"
         ],
         [
-         49.83,
-         "OTHER"
+         49.84,
+         "INGAME"
         ],
         [
-         69.81,
-         "OTHER"
+         69.83,
+         "INGAME"
         ],
         [
-         89.84,
-         "OTHER"
-        ],
-        [
-         109.82,
-         "OTHER"
-        ],
-        [
-         129.81,
-         "OTHER"
-        ],
-        [
-         149.84,
-         "OTHER"
-        ],
-        [
-         169.84,
-         "OTHER"
-        ],
-        [
-         189.83,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.81,
-         "OTHER"
-        ],
-        [
-         289.81,
-         "OTHER"
+         69.83,
+         "INGAME"
         ]
        ]
       }
@@ -25810,9 +25770,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-06T06:41:42+01:00",
+     "tested_at": "2026-11-06T07:51:48+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-06T07:38:21+01:00"
+     "reviewed_at": "2026-11-06T11:02:41+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -25832,19 +25792,19 @@
    "results": {
     "amd64-linux": {
      "stage": "Menu",
-     "outcome": "Needs manual input",
+     "outcome": "Timeout",
      "reviewed": true,
      "observations": {
-      "graphics": "Gotham Games logo, Team Select (22nd SAS, 1st SFOD Delta) and the soldier screens with animated models render correctly.",
-      "audio": "sound from 6.0 s, audible in 11 % of the run, loudest -8.6 dBFS RMS",
-      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
+      "graphics": "Gotham Games logo, the Single Player and difficulty menus, the Default Profile notice and the Al-Hadar mission briefing render correctly.",
+      "audio": "sound from 6.0 s, audible in 20 % of the run, loudest -19.3 dBFS RMS",
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start only: Single Player, New Game, Medium) the first mission's briefing appears at about 50 s, and loading stops there for the rest of the run. The vCPU spends 99 % of its time in the JIT compiler and nothing is drawn, as in Genma Onimusha and New Legends."
      },
      "auto": {
       "outcome": "Completed",
       "why": "the input plan ran to the end and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 301.1,
+       "at_s": 301.0,
        "code": 0,
        "signal": null
       },
@@ -25857,33 +25817,33 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.7,
-      "fps_min": 25.4,
+      "fps_median": 30.0,
+      "fps_min": 25.2,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
-      "longest_hang_s": 0.0,
-      "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -8.6,
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 226.64,
+      "longest_hang_after_frame": 2725,
+      "audio_peak_rms_dbfs": -19.3,
       "audio_first_sound_s": 6.0,
-      "audio_audible_fraction": 0.11,
-      "audio_seconds": 298.7,
+      "audio_audible_fraction": 0.2,
+      "audio_seconds": 298.8,
       "images": {
        "boot": {
-        "mean": 0.564,
-        "sd": 0.31,
+        "mean": 0.567,
+        "sd": 0.309,
         "black": false
        },
        "mid": {
-        "mean": 0.156,
-        "sd": 0.088,
+        "mean": 0.16,
+        "sd": 0.098,
         "black": false
        },
        "final": {
-        "mean": 0.137,
-        "sd": 0.181,
+        "mean": 0.127,
+        "sd": 0.275,
         "black": false
        },
-       "mid_final_rmse": 0.217
+       "mid_final_rmse": 0.28
       },
       "judge": {
        "model": "haiku",
@@ -25891,23 +25851,23 @@
        "stopped_at_s": null,
        "verdicts": [
         [
-         29.84,
+         29.85,
          "OTHER"
         ],
         [
-         49.83,
+         49.84,
          "OTHER"
         ],
         [
-         69.81,
+         69.82,
          "OTHER"
         ],
         [
-         89.84,
+         89.81,
          "OTHER"
         ],
         [
-         109.82,
+         109.81,
          "OTHER"
         ],
         [
@@ -25923,23 +25883,23 @@
          "OTHER"
         ],
         [
-         189.85,
+         189.8,
          "OTHER"
         ],
         [
-         209.85,
+         209.8,
          "OTHER"
         ],
         [
-         229.85,
+         229.8,
          "OTHER"
         ],
         [
-         249.85,
+         249.8,
          "OTHER"
         ],
         [
-         269.85,
+         269.8,
          "OTHER"
         ],
         [
@@ -25999,9 +25959,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-06T06:41:46+01:00",
+     "tested_at": "2026-11-06T07:51:51+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-06T07:38:21+01:00"
+     "reviewed_at": "2026-11-06T11:02:41+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -53502,20 +53462,20 @@
   "great-escape-the-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "MGM logo, Select Difficulty and the Options menu over the prison camp render correctly.",
-      "audio": "sound from 9.0 s, audible in 8 % of the run, loudest -23.3 dBFS RMS",
-      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
+      "graphics": "MGM logo, title, menus, the intro cinematic, the snowy camp and the bomber mission with HUD render correctly, 30 fps.",
+      "audio": "sound from 8.5 s, audible in 88 % of the run, loudest -14.2 dBFS RMS",
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start only through Preferences, New Game and Medium) the intro follows, and the bomber mission is in play from about 130 s ('Autopilot Engaged', with HUD), with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 129.85 s (judged from screenshots); stopped at 160.1 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.3,
+       "at_s": 160.3,
        "code": 0,
        "signal": null
       },
@@ -53529,15 +53489,15 @@
        "not-implemented"
       ],
       "fps_median": 30.0,
-      "fps_min": 26.5,
+      "fps_min": 25.4,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -23.3,
-      "audio_first_sound_s": 9.0,
-      "audio_audible_fraction": 0.08,
-      "audio_seconds": 300.0,
+      "audio_peak_rms_dbfs": -14.2,
+      "audio_first_sound_s": 8.5,
+      "audio_audible_fraction": 0.88,
+      "audio_seconds": 158.1,
       "images": {
        "boot": {
         "mean": 0.075,
@@ -53545,77 +53505,53 @@
         "black": false
        },
        "mid": {
-        "mean": 0.221,
-        "sd": 0.214,
-        "black": false
+        "mean": 0.018,
+        "sd": 0.01,
+        "black": true
        },
        "final": {
-        "mean": 0.252,
-        "sd": 0.258,
+        "mean": 0.073,
+        "sd": 0.068,
         "black": false
        },
-       "mid_final_rmse": 0.192
+       "mid_final_rmse": 0.097
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 129.85,
+       "stopped_at_s": 160.1,
        "verdicts": [
         [
-         29.85,
+         29.8,
          "OTHER"
         ],
         [
-         49.83,
+         49.84,
          "OTHER"
         ],
         [
-         69.81,
+         69.83,
+         "INGAME"
+        ],
+        [
+         89.81,
          "OTHER"
         ],
         [
-         89.84,
+         109.8,
          "OTHER"
         ],
         [
-         109.83,
-         "OTHER"
+         129.85,
+         "INGAME"
         ],
         [
-         129.82,
-         "OTHER"
+         149.84,
+         "INGAME"
         ],
         [
-         149.81,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.85,
-         "OTHER"
-        ],
-        [
-         209.85,
-         "OTHER"
-        ],
-        [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.84,
-         "OTHER"
-        ],
-        [
-         289.85,
-         "OTHER"
+         149.84,
+         "INGAME"
         ]
        ]
       }
@@ -53670,9 +53606,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-06T06:41:48+01:00",
+     "tested_at": "2026-11-06T07:51:54+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-06T07:38:21+01:00"
+     "reviewed_at": "2026-11-06T11:02:41+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"

@@ -1,24 +1,24 @@
 [
  {
   "game": "conflict-desert-storm-u",
-  "stage": "Menu",
-  "outcome": "Needs manual input",
-  "graphics": "SCi logo, title and the Load Game menus over the barracks scene render correctly.",
-  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, menus and the training camp with the squad portrait render correctly, 60 fps.",
+  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start at the title, then A for Single Player and Training) the training mission is in play from about 45 s, with sound."
  },
  {
   "game": "conflict-desert-storm-ii-back-to-baghdad-u",
   "stage": "Menu",
-  "outcome": "Needs manual input",
-  "graphics": "Gotham Games logo, Team Select (22nd SAS, 1st SFOD Delta) and the soldier screens with animated models render correctly.",
-  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
+  "outcome": "Timeout",
+  "graphics": "Gotham Games logo, the Single Player and difficulty menus, the Default Profile notice and the Al-Hadar mission briefing render correctly.",
+  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start only: Single Player, New Game, Medium) the first mission's briefing appears at about 50 s, and loading stops there for the rest of the run. The vCPU spends 99 % of its time in the JIT compiler and nothing is drawn, as in Genma Onimusha and New Legends."
  },
  {
   "game": "great-escape-the-u",
-  "stage": "Menu",
-  "outcome": "Needs manual input",
-  "graphics": "MGM logo, Select Difficulty and the Options menu over the prison camp render correctly.",
-  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "MGM logo, title, menus, the intro cinematic, the snowy camp and the bomber mission with HUD render correctly, 30 fps.",
+  "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. With the override (Start only through Preferences, New Game and Medium) the intro follows, and the bomber mission is in play from about 130 s ('Autopilot Engaged', with HUD), with sound."
  },
  {
   "game": "dave-mirra-freestyle-bmx-2-u",
