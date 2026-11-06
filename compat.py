@@ -396,7 +396,7 @@ def auto_audio_note(au):
     if au["peak_rms_dbfs"] <= -50:
         return "silent for the whole run (recorded)"
     return (f"sound from {au.get('first_sound_s')} s, audible in {int(au.get('audible_fraction', 0) * 100)} % "
-            f"of the run, loudest {au['peak_rms_dbfs']} dBFS RMS (recorded; not judged by ear)")
+            f"of the run, loudest {au['peak_rms_dbfs']} dBFS RMS")
 
 
 # Review
