@@ -1,0 +1,3220 @@
+{
+ "game_file": "Great Escape, The (U).chd",
+ "game_size": 1421492622,
+ "system": "amd64-linux",
+ "started": "2026-11-06T06:41:48+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w150",
+    "t": 149.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w190",
+    "t": 189.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w290",
+    "t": 289.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 302.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.81,
+   "watch",
+   "w150"
+  ],
+  [
+   150.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ],
+  [
+   170.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.85,
+   "watch",
+   "w190"
+  ],
+  [
+   190.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.85,
+   "watch",
+   "w210"
+  ],
+  [
+   210.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   250.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.85,
+   "watch",
+   "w290"
+  ],
+  [
+   290.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.01,
+   "release"
+  ],
+  [
+   300.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 653940
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 32.3,
+   "bytes": 716629
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.4,
+   "bytes": 753048
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.6,
+   "bytes": 748716
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 71.6,
+   "bytes": 744427
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 91.8,
+   "bytes": 790309
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 111.6,
+   "bytes": 748371
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 131.6,
+   "bytes": 745570
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.81,
+   "got_s": 151.8,
+   "bytes": 789337
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 171.6,
+   "bytes": 747603
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.85,
+   "got_s": 191.7,
+   "bytes": 744372
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.85,
+   "got_s": 211.8,
+   "bytes": 789996
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 231.6,
+   "bytes": 748043
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 251.6,
+   "bytes": 745210
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 271.8,
+   "bytes": 790323
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.85,
+   "got_s": 291.6,
+   "bytes": 748043
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.02,
+   "got_s": 302.0,
+   "bytes": 789334
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   114.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   120.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   126.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   132.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   138.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   139.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   140.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   144.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   145.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   146.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   150.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   151.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   152.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   156.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   157.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   158.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   159.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   160.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   162.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   163.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   164.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   165.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   166.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   168.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   169.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   170.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   171.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   172.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   173.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   174.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   176.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   177.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   178.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   179.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   180.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   181.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   182.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   183.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   184.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   185.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   186.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   187.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   188.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   189.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   190.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   191.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   192.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   193.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   194.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   195.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   196.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   197.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   198.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   199.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   201.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   202.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   203.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   204.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   205.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   207.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   208.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   209.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   210.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   211.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   212.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   213.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   214.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   215.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   216.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   217.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   218.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   219.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   220.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   221.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   222.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   223.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   224.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   225.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   226.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   227.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   228.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   229.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   230.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   231.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   232.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   233.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   234.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   235.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   236.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   238.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   239.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   240.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   241.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   242.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   243.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   244.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   245.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   246.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   247.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   248.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   249.1,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   250.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   251.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   252.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   253.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   254.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   255.2,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   256.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   257.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   258.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   259.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   260.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   261.3,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   262.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   263.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   264.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   265.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   266.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   267.4,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   268.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   269.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   270.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   271.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   272.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   273.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   274.5,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   275.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   276.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   277.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   278.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   279.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   280.6,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   281.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   282.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   283.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   284.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   285.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   286.7,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   287.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   288.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   289.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   290.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   291.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   292.8,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   293.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   294.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   295.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   296.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   297.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   298.9,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   300.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   301.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ],
+  [
+   302.0,
+   "GET_STATUS PLAYING xbox,Great Escape, The (U),crc32=a3ee4247"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55430.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   26.5,
+   27.4,
+   28.6,
+   29.1,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 110825 stores waited for the decoder (caught up 1495; it waited on the guest at a trap 7294, a flip stall 102036, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7843.5 ms",
+   "hakuX-hle-emit: per s: draws=17520 verts=1685760 mergeable=0 (not: strip 17430 idx 90 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1278 set1=17520 pc=6580 vi=204 vb=17075 vp=86 sc=86 dyn=1815 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4553782 prog_fog=4512478 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #190 frame 8885: front 66.5 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 69 ms apart) | swap +4.0 write +4.0 ready +4.5 flip +66.5 front +66.5 shown +76.6 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms),",
+   "hakuX-hle-pb: kicks 1787 words 4299620 headers 465669 methods 3833910 faults 0 GET 03fd054c PUT 03f6e090 binds 4 semaphores 155781 flips 8890 traps 17663 (5=8766 41=7844 21=1004 1=42 9=6 28=1) runs 0 surfaces 10 clears 8856 swaps 8890 draws 4572195 ff 1324971 skipped 0 () textures 836 rt uploads 8 b",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.5 ms (max 72.6, 30 frames)",
+   "hakuX-hle-pb: catch-up: 111251 stores waited for the decoder (caught up 1501; it waited on the guest at a trap 7323, a flip stall 102427, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7878.8 ms",
+   "hakuX-hle-emit: per s: draws=17520 verts=1685760 mergeable=0 (not: strip 17430 idx 90 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1287 set1=17520 pc=6585 vi=209 vb=17072 vp=89 sc=89 dyn=1874 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4571302 prog_fog=4529938 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.61 ms each (max 17.29), video 16.52 ms (max 17.23)",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fe9000, intr 00000004/80000073",
+   "hakuX-hle-pb: kicks 1819 words 4299668 headers 465704 methods 3833942 faults 0 GET 03fc1e0c PUT 03f5eac0 binds 4 semaphores 156368 flips 8920 traps 17736 (5=8809 41=7874 21=1004 1=42 9=6 28=1) runs 0 surfaces 10 clears 8886 swaps 8920 draws 4589715 ff 1330041 skipped 0 () textures 836 rt uploads 8 b",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 67.1 ms (max 68.6, 30 frames)",
+   "hakuX-hle-pb: catch-up: 111678 stores waited for the decoder (caught up 1507; it waited on the guest at a trap 7346, a flip stall 102825, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7953.0 ms",
+   "hakuX-hle-emit: per s: draws=17520 verts=1685760 mergeable=0 (not: strip 17430 idx 90 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1286 set1=17520 pc=6588 vi=207 vb=17076 vp=92 sc=92 dyn=1890 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4588822 prog_fog=4547398 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=3086980 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 60 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x563825de8f90",
+   "[Gamescope WSI] Destroyed swapchain: 0x563825de8f90",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 300.0,
+  "peak_rms_dbfs": -23.3,
+  "first_sound_s": 9.0,
+  "audible_fraction": 0.08,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -31.9,
+   -31.6,
+   -28.7,
+   -23.3,
+   -32.5,
+   -120.0,
+   -32.4,
+   -32.7,
+   -31.1,
+   -34.8,
+   -35.2,
+   -42.0,
+   -40.0,
+   -23.3,
+   -26.0,
+   -30.7,
+   -42.1,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 302.3,
+ "run_id": "amd64-linux-20261106-fixes-a4fc4b6"
+}
