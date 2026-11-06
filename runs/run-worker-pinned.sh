@@ -1,8 +1,7 @@
 #!/bin/bash
-# One worker of the parallel 0.19.1 in-game pass: run-worker-pinned.sh <worker> <kms|gamescope> <emulator cpus>
-# The emulator runs on its own core (both SMT threads); the runner, the judge and the audio recorder
-# run on the cores kept free for them (6, 7 and their siblings 14, 15). All workers take games from the
-# same queues in the same order; runs/<id>/claims makes sure each game is run once.
+# Usage: run-worker-pinned.sh <worker> <kms|gamescope> <emulator-cpus>
+# Pin the emulator to both SMT threads; reserve CPUs 6,7,14,15 for tools.
+# Shared queues and run claims prevent duplicate tests.
 cd "$(dirname "$0")/.."
 RID=amd64-linux-20261105-0.19.1-ingame
 CORE=cores/0.19.1-x86_64/hakux-0.19.1/lib/libretro/hakux_libretro.so

@@ -1,9 +1,7 @@
 #!/bin/bash
-# The 0.19.1 pass with the in-game plan (up to 5 min per game). Order, for the most
-# in-game results soonest (2026-11-05 16:10): the top-100 matches, then sports, racing
-# and fighting games (85 % reached gameplay so far, against 52 % for the rest), then
-# the rest, then the top-100 games run before the input adapted that did not reach
-# the game, again.
+# 0.19.1 gameplay pass: up to five minutes per game.
+# Priority: top-100, sports/racing/fighting, then remaining games.
+# Retest top-100 games that lacked adaptive inputs and never reached gameplay.
 cd "$(dirname "$0")/.."
 RID=amd64-linux-20261105-0.19.1-ingame
 CORE=cores/0.19.1-x86_64/hakux-0.19.1/lib/libretro/hakux_libretro.so

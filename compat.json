@@ -206,7 +206,7 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "THX logo, letterboxed intro cutscenes, the training level with HUD and the pause menu render correctly; the pause menu background is a near-white blur and its Objectives list under 'Primary' is empty (not confirmed as wrong).",
+      "graphics": "THX logo, letterboxed intro cutscenes, the training level with HUD and the pause menu render correctly; the pause menu background is a near-white blur and its Objectives list under 'Primary' is empty (unconfirmed fault).",
       "audio": "sound from 7.5 s, audible in 75 % of the run, loudest -9.1 dBFS RMS (recorded; not judged by ear)",
       "notes": "Reached gameplay at about 150 s: Bond in the basic-combat training with HUD ('Basic combat, step 1'); the final shot is the pause menu. The judge's INGAME at 110 s was a letterboxed cutscene (sniper-scope view)."
      },
@@ -375,9 +375,9 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "MGM logo, gun-barrel intro, opening movie and the first level with health, minimap and ammo HUD render correctly, 30 fps; at 170-199 s a slanted strip along the left edge shows the wall and floor shifted against the rest of the scene (not confirmed as a fault).",
+      "graphics": "MGM logo, gun-barrel intro, opening movie and the first level with health, minimap and ammo HUD render correctly, 30 fps; at 170-199 s a slanted strip along the left edge shows the wall and floor shifted against the rest of the scene (unconfirmed fault).",
       "audio": "sound from 5.0 s, audible in 89 % of the run, loudest -11.0 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release stayed black for the whole run with the commit failing in a loop (Timeout); this run plays the intro and opening movie from 30 s and reaches gameplay at about 170 s, Bond walking a red carpet past party tables with the HUD, to the final shot (199 s). It logs 4,290 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (48,380 KiB free); none led to a crash or stall."
+      "notes": "0.19.1 + #104: the release stayed black for the whole run with the commit failing in a loop (Timeout); this run plays the intro and opening movie from 30 s and reaches gameplay at about 170 s, Bond walking a red carpet past party tables with the HUD, to the final shot (199 s). It logs 4,290 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (48,380 KiB free); none led to a crash or stall."
      },
      "auto": {
       "outcome": "Completed",
@@ -1914,7 +1914,7 @@
      "observations": {
       "graphics": "Animated intro clip, an in-engine cutscene and the first level with the health HUD and control hints render correctly, 30 fps.",
       "audio": "sound from -0.0 s, audible in 81 % of the run, loudest -14.0 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed before the first frame (KeBugCheck after an access violation); this run reaches gameplay at about 45 s, Aeon at a doorway with the health HUD and 'L Move / R Look' hints, to the final shot (79 s). The 61 refused commits in the first 5 s (the first 256 MiB with 53,800 KiB free, then halving, in three rounds) led to no crash or stall. A 0.9 s guest-idle hang at frame 348 recovered."
+      "notes": "0.19.1 + #104: the release crashed before the first frame (KeBugCheck after an access violation); this run reaches gameplay at about 45 s, Aeon at a doorway with the health HUD and 'L Move / R Look' hints, to the final shot (79 s). The 61 refused commits in the first 5 s (the first 256 MiB with 53,800 KiB free, then halving, in three rounds) led to no crash or stall. A 0.9 s guest-idle hang at frame 348 recovered."
      },
      "auto": {
       "outcome": "Completed",
@@ -9423,7 +9423,7 @@
      "observations": {
       "graphics": "cavia logo, the character profile and a street fight with health bars and minimap render correctly, 60 fps; the 50-70 s loading screens are black with 'Now Loading...' in the corner.",
       "audio": "sound from 14.0 s, audible in 65 % of the run, loudest -22.5 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 5 s in (unhandled access violation) with nothing on screen; this run reaches gameplay at about 90 s, Raven fighting a Mobster in a warehouse alley with the HUD, to the final shot (118 s). It logs 13,177 refused commits, stepping down 32 KiB at a time from 128 MiB (31,616 KiB free) in three bursts at about 5, 70 and 90 s, each over within 5 s; none led to a crash or stall."
+      "notes": "0.19.1 + #104: the release crashed about 5 s in (unhandled access violation) with nothing on screen; this run reaches gameplay at about 90 s, Raven fighting a Mobster in a warehouse alley with the HUD, to the final shot (118 s). It logs 13,177 refused commits, stepping down 32 KiB at a time from 128 MiB (31,616 KiB free) in three bursts at about 5, 70 and 90 s, each over within 5 s; none led to a crash or stall."
      },
      "auto": {
       "outcome": "Completed",
@@ -10793,7 +10793,7 @@
      "observations": {
       "graphics": "Criterion logo, the opening credits and the live-action film render correctly.",
       "audio": "sound from 5.0 s, audible in 94 % of the run, loudest -13.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "From about 30 s to the end of the run: opening credits (EA presents, Black, the cast) and a live-action film; Start and A don't skip it and the menu was not seen. Steady 30 fps."
+      "notes": "From about 30 s to the end: opening credits (EA presents, Black, the cast) and a live-action film; Start and A don't skip it and the menu was not seen. Steady 30 fps."
      },
      "auto": {
       "outcome": "Completed",
@@ -12520,7 +12520,7 @@
      "observations": {
       "graphics": "Mansion corridors, Rayne and the health HUD render correctly, 30 fps; the 10 s boot shot is black.",
       "audio": "sound from -0.0 s, audible in 89 % of the run, loudest -18.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed right after launch (unhandled access violation) with no picture; this run reaches gameplay by 30 s, Rayne in the mansion with the health HUD and 'L Move / R Camera' hints, to the final shot (58 s). The 9 refused commits (64 MiB down to 53.4 MiB, 54,632 KiB free) led to no crash or stall."
+      "notes": "0.19.1 + #104: the release crashed right after launch (unhandled access violation) with no picture; this run reaches gameplay by 30 s, Rayne in the mansion with the health HUD and 'L Move / R Camera' hints, to the final shot (58 s). The 9 refused commits (64 MiB down to 53.4 MiB, 54,632 KiB free) led to no crash or stall."
      },
      "auto": {
       "outcome": "Completed",
@@ -15977,7 +15977,7 @@
      "observations": {
       "graphics": "Activision logo, Quick Hunt menus, the preview camera and the hunt with compass, condition and stealth HUD render correctly.",
       "audio": "sound from 0.5 s, audible in 53 % of the run, loudest -26.2 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 40.1 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (97 s), while the judge's 70 s INGAME was the 'Preview Camera, Press A to hunt' flyby. The 8 refused commits (128 MiB and smaller, 39,420 KiB free) led to no crash or stall. A 2.7 s guest-idle hang at frame 448 recovered; displayed fps min 17.1."
+      "notes": "0.19.1 + #104: the release crashed at 40.1 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (97 s), while the judge's 70 s INGAME was the 'Preview Camera, Press A to hunt' flyby. The 8 refused commits (128 MiB and smaller, 39,420 KiB free) led to no crash or stall. A 2.7 s guest-idle hang at frame 448 recovered; displayed fps min 17.1."
      },
      "auto": {
       "outcome": "Completed",
@@ -16130,7 +16130,7 @@
      "observations": {
       "graphics": "Activision logo, Quick Hunt menus, the preview camera and the hunt with compass, condition and stealth HUD render correctly.",
       "audio": "sound from 0.5 s, audible in 65 % of the run, loudest -24.0 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 40.2 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (96 s), while the judge's 70 s INGAME was the 'Preview Camera' flyby. The 12 refused commits (128 MiB and smaller, 41,104 KiB free) led to no crash or stall. A 2.6 s guest-idle hang at frame 453 recovered; displayed fps min 17.5."
+      "notes": "0.19.1 + #104: the release crashed at 40.2 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (96 s), while the judge's 70 s INGAME was the 'Preview Camera' flyby. The 12 refused commits (128 MiB and smaller, 41,104 KiB free) led to no crash or stall. A 2.6 s guest-idle hang at frame 453 recovered; displayed fps min 17.5."
      },
      "auto": {
       "outcome": "Completed",
@@ -16283,7 +16283,7 @@
      "observations": {
       "graphics": "Profile slots, the letterboxed opening movie, the tutorial box and the forest with the compass HUD render correctly.",
       "audio": "sound from 0.5 s, audible in 83 % of the run, loudest -18.5 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release called KeBugCheck after the profile slot screen (about 30 s); this run reaches the tutorial hunt, 'Follow Hugh to the target range' at 50 s, then first-person in the forest with the compass HUD from 70 s to the final shot (98 s). The 9 refused commits (128 MiB and smaller, 47,724 KiB free) led to no crash or stall."
+      "notes": "0.19.1 + #104: the release called KeBugCheck after the profile slot screen (about 30 s); this run reaches the tutorial hunt, 'Follow Hugh to the target range' at 50 s, then first-person in the forest with the compass HUD from 70 s to the final shot (98 s). The 9 refused commits (128 MiB and smaller, 47,724 KiB free) led to no crash or stall."
      },
      "auto": {
       "outcome": "Completed",
@@ -16436,7 +16436,7 @@
      "observations": {
       "graphics": "Main menu, Locations screen, loading screen and the hunt with compass, condition and stealth HUD render correctly.",
       "audio": "sound from 0.5 s, audible in 46 % of the run, loudest -19.5 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 52.6 s when the hunt loaded; this run reaches the hunt (Wyoming, Grand Tetons I) at about 70 s, first-person with the HUD to the final shot (96 s). The 12 refused commits (128 MiB and smaller, 41,244 KiB free) led to no crash or stall. A 6.0 s guest-idle hang at frame 464 recovered; displayed fps min 14.2."
+      "notes": "0.19.1 + #104: the release crashed at 52.6 s when the hunt loaded; this run reaches the hunt (Wyoming, Grand Tetons I) at about 70 s, first-person with the HUD to the final shot (96 s). The 12 refused commits (128 MiB and smaller, 41,244 KiB free) led to no crash or stall. A 6.0 s guest-idle hang at frame 464 recovered; displayed fps min 14.2."
      },
      "auto": {
       "outcome": "Completed",
@@ -16589,7 +16589,7 @@
      "observations": {
       "graphics": "Select Game and Hunt menus and the hunt with compass, wind flag and condition HUD render correctly.",
       "audio": "sound from 0.5 s, audible in 81 % of the run, loudest -22.6 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 52.4 s when the hunt started; this run is in the hunt (Montana, Area 1, Fall) by 50 s, first-person next to an ATV with the HUD at 70 s and the final shot (77 s). The 11 refused commits (128 MiB and smaller, 41,024 KiB free) led to no crash or stall. A 2.4 s guest-idle hang at frame 457 recovered; displayed fps min 18.9."
+      "notes": "0.19.1 + #104: the release crashed at 52.4 s when the hunt started; this run is in the hunt (Montana, Area 1, Fall) by 50 s, first-person next to an ATV with the HUD at 70 s and the final shot (77 s). The 11 refused commits (128 MiB and smaller, 41,024 KiB free) led to no crash or stall. A 2.4 s guest-idle hang at frame 457 recovered; displayed fps min 18.9."
      },
      "auto": {
       "outcome": "Completed",
@@ -16738,7 +16738,7 @@
      "observations": {
       "graphics": "The 'enter the hunt?' prompt and the GAME PAUSED and Options menus over the blurred forest render correctly.",
       "audio": "sound from 0.5 s, audible in 17 % of the run, loudest -24.9 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed at about 32 s right after 'enter the hunt? Yes'; this run enters the hunt, and its 9 refused commits (128 MiB and smaller, 48,176 KiB free) led to no crash or stall. From 45 s to the end it loops through the in-hunt menus (Start opens GAME PAUSED with Options highlighted, A opens Options and its Gameplay and Controls pages), so gameplay is inferred from the pause menu (the judge's 190 s INGAME), not seen. Needs B on GAME PAUSED ('B resume', or down to Resume and A) and no further Start; a 3.1 s guest-idle hang at frame 432 recovered."
+      "notes": "0.19.1 + #104 enters the hunt; the release crashed at about 32 s after 'enter the hunt? Yes'. Nine refused commits (128 MiB and smaller; 48,176 KiB free) caused no crash or stall. From 45 s, Start/A loop through GAME PAUSED, Options, Gameplay and Controls. Gameplay is inferred from the pause menu, including the judge's 190 s verdict, rather than directly observed. Press B to resume, or Down to Resume then A; stop pressing Start. A 3.1 s guest-idle hang at frame 432 recovered."
      },
      "auto": {
       "outcome": "Completed",
@@ -21148,7 +21148,7 @@
      "observations": {
       "graphics": "Codemasters and club logos, the Domestic Season and Play Match menus and Controller Select render correctly at 50 fps (UK release).",
       "audio": "sound from 1.0 s, audible in 96 % of the run, loudest -19.8 dBFS RMS (recorded; not judged by ear)",
-      "notes": "With its override (right x3 then A on the Domestic Season player-creation dialog at about 40 s), it worked for that dialog: Play Match (Aston Villa vs Blackburn) showed at 50 s. From about 70 s to the end it stalls on Controller Select with the 'No human teams selected!' alert (Ok) and controller 1 in the middle column; this run's override had no presses for that screen, so the newer one in overrides.json (A, right held 500 ms, A) needs a re-run. A 3.2 s guest-idle hang at frame 74 during boot recovered."
+      "notes": "The override (Right x3, A at about 40 s) passes player creation; Play Match (Aston Villa vs Blackburn) appears at 50 s. From about 70 s, Controller Select stalls on 'No human teams selected!' with controller 1 in the middle. The updated override (A, Right held 500 ms, A) needs a retest. A 3.2 s guest-idle hang at frame 74 recovered."
      },
      "auto": {
       "outcome": "Completed",
@@ -25648,7 +25648,7 @@
      "observations": {
       "graphics": "SCi logo, title and the Load Game menus over the barracks scene render correctly.",
       "audio": "sound from -0.0 s, audible in 5 % of the run, loudest -24.8 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
      },
      "auto": {
       "outcome": "Completed",
@@ -25837,7 +25837,7 @@
      "observations": {
       "graphics": "Gotham Games logo, Team Select (22nd SAS, 1st SFOD Delta) and the soldier screens with animated models render correctly.",
       "audio": "sound from 6.0 s, audible in 11 % of the run, loudest -8.6 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
      },
      "auto": {
       "outcome": "Completed",
@@ -30929,7 +30929,7 @@
      "observations": {
       "graphics": "Z-Axis logo, Modifier Setup and the park with rider and HUD render correctly, 60 fps.",
       "audio": "sound from 1.5 s, audible in 78 % of the run, loudest -8.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes on the first Start (PR #106 maps a zeroed page over each stack's top; the title reads 0x80 bytes past its main thread's stack after the intro). Riding a park from about 50 s (timer counting down from 2:56, score 0) with sound."
+      "notes": "PR #106 maps a zeroed page above each stack, preventing the first-Start crash when the title reads 0x80 bytes past its main stack after the intro. Riding a park from about 50 s (timer counting down from 2:56, score 0) with sound."
      },
      "auto": {
       "outcome": "Completed",
@@ -40761,7 +40761,7 @@
      "observations": {
       "graphics": "ESPN logo, Team Select, the matchup loading screen and the game at Yankee Stadium render correctly, 60 fps.",
       "audio": "sound from 4.0 s, audible in 85 % of the run, loudest -14.9 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): after relaunching into espn_mlb.xbe the release failed the commit ('RsRwInitialize failed.') and stayed black (Timeout); this run reaches Team Select (Marlins at Yankees) at 45 s and a game from about 70 s: a ball in play, then 'STRIKE' with the score and pitch HUD at 90 s and the final shot (99 s). The 86 refused commits after the relaunch (the first 58.4 MiB with 59,836 KiB free, later ones down to 6,660 KiB free) led to no crash or stall. Player control is not confirmed: all four controller icons were still in the middle at Team Select, which may mean both teams are computer-controlled. Team Select (45 s) had all four controllers in the middle column and Start went straight to the Exhibition matchup, so the match from about 70 s is most likely computer vs computer: rated Menu. Needs left or right on controller 1 at Team Select, then Start."
+      "notes": "0.19.1 + #104 reaches Team Select (Marlins at Yankees) at 45 s and a match from about 70 s, with the score/pitch HUD and 'STRIKE' at 90 s and the final frame (99 s). The release stayed black after espn_mlb.xbe reported 'RsRwInitialize failed.' Eighty-six refused commits (first 58.4 MiB with 59,836 KiB free; later free RAM down to 6,660 KiB) caused no crash or stall. All four controllers remained in the middle at Team Select, and Start went straight to Exhibition: likely CPU vs CPU, so rated Menu. Move controller 1 left or right, then press Start to confirm player control."
      },
      "auto": {
       "outcome": "Completed",
@@ -43232,7 +43232,7 @@
      "observations": {
       "graphics": "THQ logo and the cel-shaded in-engine cutscenes with subtitles render correctly at 60 fps (min 40.3).",
       "audio": "sound from 6.5 s, audible in 69 % of the run, loudest -24.0 dBFS RMS (recorded; not judged by ear)",
-      "notes": "A new game's opening cutscene ran from before 30 s to the end of the run: every judged frame is a different subtitled scene (Timmy's parents leaving, Da Rules, the Fairy World courtroom with Jorgen at 300 s), so it was still advancing; no gameplay seen."
+      "notes": "A new game's opening cutscene ran from before 30 s to the end: every judged frame is a different subtitled scene (Timmy's parents leaving, Da Rules, the Fairy World courtroom with Jorgen at 300 s), so it was still advancing; no gameplay seen."
      },
      "auto": {
       "outcome": "Completed",
@@ -49234,7 +49234,7 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, which looks like missing textures (not confirmed).",
+      "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, possibly missing textures (unconfirmed).",
       "audio": "sound from 1.5 s, audible in 87 % of the run, loudest -12.7 dBFS RMS (recorded; not judged by ear)",
       "notes": "Profile save, difficulty select (Sergeant) and map screen at 30-70 s. Reached gameplay at about 90 s: training level with Alpha team selected, HUD shown. Several 1.4-3.1 s hangs while loading (hang report: JIT compiling), minimum 23 fps."
      },
@@ -49392,7 +49392,7 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, which looks like missing textures (not confirmed).",
+      "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, possibly missing textures (unconfirmed).",
       "audio": "sound from 1.5 s, audible in 85 % of the run, loudest -12.4 dBFS RMS (recorded; not judged by ear)",
       "notes": "Same run as the Japan/Asia release: profile save, difficulty select and map screen at 30-70 s, then the training level with HUD (Alpha team) from about 90 s. Several 2.4-3.1 s hangs while loading (hang report: JIT compiling), minimum 23 fps."
      },
@@ -53508,7 +53508,7 @@
      "observations": {
       "graphics": "MGM logo, Select Difficulty and the Options menu over the prison camp render correctly.",
       "audio": "sound from 9.0 s, audible in 8 % of the run, loudest -23.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
+      "notes": "PR #106 reserves the top of RAM at boot, preventing the crash when the first heap guard reaches 0x84000000. Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
      },
      "auto": {
       "outcome": "Completed",
@@ -58150,7 +58150,7 @@
      "observations": {
       "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
       "audio": "sound from 0.5 s, audible in 74 % of the run, loudest -11.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+      "notes": "PR #106 prevents the pre-frame crash by seeding 4 MiB page-directory entries, which the title copies to 0x88000000 for its heap. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
@@ -58311,7 +58311,7 @@
      "observations": {
       "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
       "audio": "sound from 0.5 s, audible in 71 % of the run, loudest -11.4 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). The disc launcher (PLAY HITMAN 2 / VIEW TRAILERS) comes first; A relaunches into hm2.xbe. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+      "notes": "PR #106 prevents the pre-frame crash by seeding 4 MiB page-directory entries, which the title copies to 0x88000000 for its heap. The disc launcher (PLAY HITMAN 2 / VIEW TRAILERS) comes first; A relaunches into hm2.xbe. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
@@ -58477,7 +58477,7 @@
      "observations": {
       "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
       "audio": "sound from 0.5 s, audible in 72 % of the run, loudest -11.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+      "notes": "PR #106 prevents the pre-frame crash by seeding 4 MiB page-directory entries, which the title copies to 0x88000000 for its heap. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
@@ -59803,9 +59803,9 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro, the 'Motor City' loading screen and the pool table with aim line, power meter and player HUD render; the racked balls look pale and washed out (the dark ball shows light grey), not confirmed as a fault.",
+      "graphics": "Intro, the 'Motor City' loading screen and the pool table with aim line, power meter and player HUD render; the racked balls look pale and washed out (the dark ball shows light grey), unconfirmed fault.",
       "audio": "sound from 7.0 s, audible in 39 % of the run, loudest -26.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 5 s after launch (unhandled access violation); this run reaches a pool game at about 50 s, Jack lining up the break with the power meter, to the final shot (80 s). It logs 4,806 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (46,316 KiB free); none led to a crash or stall. 30 fps in the pool scene, matching the guest's 33.4 ms frame interval; a 1.1 s JIT-compiling hang at frame 612 recovered."
+      "notes": "0.19.1 + #104: the release crashed about 5 s after launch (unhandled access violation); this run reaches a pool game at about 50 s, Jack lining up the break with the power meter, to the final shot (80 s). It logs 4,806 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (46,316 KiB free); none led to a crash or stall. 30 fps in the pool scene, matching the guest's 33.4 ms frame interval; a 1.1 s JIT-compiling hang at frame 612 recovered."
      },
      "auto": {
       "outcome": "Completed",
@@ -62314,7 +62314,7 @@
      "observations": {
       "graphics": "Black for the whole run; no frame was drawn.",
       "audio": "silent for the whole run (recorded)",
-      "notes": "Needs an installed Xbox dashboard. The bonus disc's default.xbe compares the dashboard on the console disk (Y:\\xboxdash.xbe and Y:\\XODash\\xonlinedash.xbe) with D:\\dashupdate.xbe and, as none is installed, relaunches into the dashboard updater. The updater looks for the dashboard's fonts (y:\\fonts\\*.xtf), fails to open HGGothicM.xtf and hits an access violation at 0002ffd0; its DashUnhandledExceptionFilter reports 'Rebooting...' and the title returns to the firmware within the first second. A real console always has a dashboard, so this is not an emulation fault: with your own dashboard copied into hdd/Partition2 the disc should get past this. The disc's content never played here."
+      "notes": "Requires an installed Xbox dashboard. default.xbe compares Y:\\xboxdash.xbe and Y:\\XODash\\xonlinedash.xbe with D:\\dashupdate.xbe, then launches the updater because the dashboard is absent. The updater cannot open HGGothicM.xtf under y:\\fonts\\*.xtf, faults at 0002ffd0, and reports 'Rebooting...' through DashUnhandledExceptionFilter within one second. This appears to be missing dashboard content rather than an emulation fault. Copying your own dashboard to hdd/Partition2 should let it continue; the disc's content was not tested."
      },
      "auto": {
       "outcome": "Completed",
@@ -67040,7 +67040,7 @@
      "observations": {
       "graphics": "Title screen ('Press START to begin') renders correctly; no later shot exists.",
       "audio": "silent for the whole run (recorded)",
-      "notes": "At about 16.5 s, after Start at the title and A on the main menu, the guest hit an unhandled access violation at 001f9dc7 (writing 0000008c) in a heap free-list unlink, so the heap was already corrupt, just as the game failed to open title.xmv (not on this disc, as on a console). This build no longer has master's crash at 0042b29b, but that comes from a different memory layout, not a fix: the root cause is still open. In 2 of 4 RetroArch runs it crashed like this; in the others and in local runs it loads Bolivia, where the opening cinematic renders almost black and the level after Skip Cinematic renders correctly with HUD."
+      "notes": "After Start at the title and A on the main menu, a heap free-list unlink faults at 001f9dc7 (write to 0000008c) around 16.5 s. The heap is already corrupt; title.xmv is also absent, as on the console disc. The changed memory layout avoids master's fault at 0042b29b without fixing the cause. Two of four RetroArch runs crashed; the others and local runs loaded Bolivia. Its cinematic is almost black; after Skip Cinematic, the level renders correctly with HUD."
      },
      "auto": {
       "outcome": "Crash",
@@ -71612,7 +71612,7 @@
      "outcome": "Needs manual input",
      "reviewed": true,
      "observations": {
-      "graphics": "Logo screen and the profile menus over the 3D office render correctly at 60 fps; the right-hand ceiling lamp shade is a flat black shape (not confirmed as a fault).",
+      "graphics": "Logo screen and the profile menus over the 3D office render correctly at 60 fps; the right-hand ceiling lamp shade is a flat black shape (unconfirmed fault).",
       "audio": "sound from 3.5 s, audible in 99 % of the run, loudest -17.3 dBFS RMS (recorded; not judged by ear)",
       "notes": "Stalls from about 30 s on 'Enter Profile Name': A types letters until the name is 'AAAAAAAAAA' and Start does not confirm; B returns to the Profile Manager, where A re-enters Create New Profile. The log has about 1,170 failed opens of drive-less paths such as \\??\\anims\\*.tck and \\??\\sounds\\menuchange.wav ('unknown device')."
      },
@@ -77493,7 +77493,7 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Rockstar logo, profile and garage menus, the loading screen and the San Diego night race render correctly at 30 fps; a tall orange-brown column rises above the skyline in both race frames (not confirmed as wrong).",
+      "graphics": "Rockstar logo, profile and garage menus, the loading screen and the San Diego night race render correctly at 30 fps; a tall orange-brown column rises above the skyline in both race frames (unconfirmed fault).",
       "audio": "sound from -0.0 s, audible in 79 % of the run, loudest -4.7 dBFS RMS (recorded; not judged by ear)",
       "notes": "With its override (up then A on 'Exit the garage?', which defaults to NO), it worked: the prompt showed at 70 s, San Diego loaded by 90 s and a race with its HUD was running from 110 s (timer 0:06 to 0:23, position 4/4). The car stays on the start line in both race frames (no throttle pressed)."
      },
@@ -87286,7 +87286,7 @@
      "observations": {
       "graphics": "Logos, menus, the Controllers screen, loading tips and the arena with the matchup overlay render correctly, about 57 fps.",
       "audio": "sound from 2.0 s, audible in 69 % of the run, loudest -21.1 dBFS RMS (recorded; not judged by ear)",
-      "notes": "With its override (Right held 400 ms three times at 49-55 s to move controller 1 to Home, then A at 56.5 s; all four presses are in steps_done) the Controllers screen worked: controller 1 sits under Home at 50 s and the exhibition game loaded. It then stayed on the pre-game matchup presentation (Nets at Spurs overlay, camera settling on one court-side view by 150 s, still about 18,000 draws/s) from about 90 s to the end at 300 s while Start and A were pressed; why it never reaches tip-off is not confirmed, worth a look. A 4.5 s guest-idle hang after frame 184 during boot recovered (fps min 0.4)."
+      "notes": "The override holds Right for 400 ms three times at 49–55 s, then presses A at 56.5 s (all in steps_done). Controller 1 moves to Home at 50 s and Exhibition loads. From about 90–300 s, the Nets at Spurs presentation never reaches tip-off despite Start/A; the camera settles on one courtside view by 150 s at about 18,000 draws/s. Cause unknown. A 4.5 s guest-idle hang after frame 184 recovered (minimum 0.4 fps)."
      },
      "auto": {
       "outcome": "Completed",
@@ -95017,7 +95017,7 @@
      "observations": {
       "graphics": "Legal screen, Choose Teams and the computer-controlled prompt render correctly, 60 fps.",
       "audio": "sound from 0.5 s, audible in 93 % of the run, loudest -19.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "With its override (right held 500 ms to side controller 1 with the home team, then Start), it did not work: both presses were made at 54.0 and 55.2 s, but the controller icons were still in the middle at 70 s and to the end. Start/A loop between Choose Teams and 'If no controller icons are sided with a team, the game will be entirely computer controlled. Is this what you want?' (Cancel selected); it needs A on Cancel, then d-pad right on controller 1, then Start. A 1.0 s JIT-compiling hang at frame 8 recovered."
+      "notes": "The override (Right held 500 ms at 54.0 s, Start at 55.2 s) fails to assign controller 1: icons stay in the middle from 70 s onward. Start/A loop between Choose Teams and the CPU-only warning with Cancel selected. Press A on Cancel, then Right on controller 1 and Start. A 1.0 s JIT-compiling hang at frame 8 recovered."
      },
      "auto": {
       "outcome": "Completed",
@@ -99463,7 +99463,7 @@
      "observations": {
       "graphics": "Oddworld logo and the long opening cinematic (the wanted poster, the bounty hunter, the canyon) render correctly.",
       "audio": "sound from 5.5 s, audible in 89 % of the run, loudest -8.4 dBFS RMS (recorded; not judged by ear)",
-      "notes": "The opening cinematic plays from about 30 s to the end of the run; Start and A don't skip it. Gameplay not reached in 300 s. Steady 30 fps."
+      "notes": "The opening cinematic plays from about 30 s to the end; Start and A don't skip it. Gameplay not reached in 300 s. Steady 30 fps."
      },
      "auto": {
       "outcome": "Completed",
@@ -108557,9 +108557,9 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "LucasArts logo, letterboxed opening cutscenes and the first level with health, shield and force HUD render; at 130 s only the HUD and 'Checkpoint!' show over black, and at 150 s and the final shot a flat rectangle of blurry jungle texture covers the lower middle in front of the player character (not confirmed as a fault).",
+      "graphics": "LucasArts logo, letterboxed opening cutscenes and the first level with health, shield and force HUD render; at 130 s only the HUD and 'Checkpoint!' show over black, and at 150 s and the final shot a flat rectangle of blurry jungle texture covers the lower middle in front of the player character (unconfirmed fault).",
       "audio": "sound from 1.0 s, audible in 96 % of the run, loudest -9.5 dBFS RMS (recorded; not judged by ear)",
-      "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 24 s in during the opening movie (access violation after 'out of physical memory ... 0 KiB free'); this run plays the opening cutscenes to about 110 s and reaches gameplay at about 130 s, in the jungle with the HUD and 'New Objective Information' at 150 s and the final shot (156 s), while the judge's 30 s INGAME was a letterboxed cutscene. The 13 refused commits (516 to 1,256 KiB with only 292-300 KiB free, at boot and at the level load) led to no crash or stall. JIT-compiling hangs of 1.0-1.7 s at frames 1007 and 7024-7465 recovered."
+      "notes": "0.19.1 + #104 plays the opening cutscenes to about 110 s and reaches jungle gameplay at about 130 s; HUD and 'New Objective Information' appear at 150 s and the final frame (156 s). The release crashed around 24 s after 'out of physical memory ... 0 KiB free'. The judge's 30 s gameplay verdict was a letterboxed cutscene. Thirteen refused commits (516–1,256 KiB with 292–300 KiB free, at boot and level load) caused no crash or stall. JIT-compiling hangs of 1.0–1.7 s at frames 1007 and 7024–7465 recovered."
      },
      "auto": {
       "outcome": "Completed",

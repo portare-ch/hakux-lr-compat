@@ -1,7 +1,8 @@
 #!/bin/bash
-# One worker of the master-build pass over the games not yet run: run-worker-master.sh <worker> <kms|gamescope> <emulator cpus>
-# Core: hakuX-lr master 8b4c43ff23 (0.19.1 + the memory fix, PR #104). Queue: runs/queue-master-untested.txt (easy-first);
-# runs/<id>/claims makes sure each game is run once. Pinning as in run-worker-pinned3.sh.
+# Usage: run-worker-master.sh <worker> <kms|gamescope> <emulator-cpus>
+# Test remaining games on master 8b4c43ff23 (0.19.1 + PR #104).
+# Queue: runs/queue-master-untested.txt, easiest first.
+# Shared claims prevent duplicates; CPU pinning matches run-worker-pinned3.sh.
 cd "$(dirname "$0")/.."
 RID=amd64-linux-20261105-master-8b4c43f
 CORE=cores/master-8b4c43ff23-x86_64/hakux-master/lib/libretro/hakux_libretro.so

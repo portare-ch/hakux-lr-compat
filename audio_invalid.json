@@ -1,5 +1,5 @@
 {
- "_help": "Runs whose audio recordings are not usable, from 'from' (inclusive) to 'to' (exclusive, null: open). compat.py ingest drops their audio figures and recording and says why.",
+ "_help": "Invalid audio windows: 'from' inclusive, 'to' exclusive (null means open-ended). Ingest removes affected recordings and measurements and records the reason.",
  "windows": [
   {
    "run_id": "amd64-linux-20261105-0.19.1-ingame",

@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""A virtual gamepad through /dev/uinput, driven by lines on stdin.
+"""Drive a virtual gamepad through /dev/uinput using stdin commands.
+Requires write access to /dev/uinput.
 
-Runs as root (or with write access to /dev/uinput). Commands, one per line:
-  down <btn>...   press and hold
-  up <btn>...     release
-  tap <btn> [ms]  press, wait (default 150 ms), release
-  release         release everything, sticks and triggers centred
-  quit            remove the device and exit
-Each command is answered with "ok" (or "err <reason>") on stdout. Unknown
-lines are ignored, so a password left on stdin by sudo -S does no harm.
+  down <buttons...>   press and hold
+  up <buttons...>     release
+  tap <button> [ms]   press for 150 ms by default, then release
+  release            release all buttons and centre sticks and triggers
+  quit               remove the device and exit
 
+Replies: "ok" or "err <reason>". Unknown lines are ignored, including a
+password left on stdin by sudo -S.
 Buttons: a b x y lb rb back start guide ls rs up down left right lt rt.
-The device is a pad, not a keyboard: key presses on a KMS console would also
-reach the active virtual terminal.
-"""
+Gamepad events avoid sending keyboard input to the active KMS console."""
 import fcntl
 import os
 import struct

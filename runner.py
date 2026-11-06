@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
-"""Automated first pass for hakuX-lr.
+"""Run automated hakuX-lr compatibility tests.
 
-For every game in the queue: start a fresh RetroArch process with a
-disposable profile (saves, console disk, caches, core options), follow an
-input plan with a virtual gamepad, take screenshots through RetroArch's
-network commands, record the audio output, then close the emulator, forcing
-it after a hard time limit. Each game gets a directory with its captures,
-logs and result.json; the compatibility list is updated from those later by
-compat.py.
+Each game gets an isolated RetroArch profile, timed inputs, screenshots,
+audio, logs and result.json. compat.py imports the results for review.
+Uses the Python standard library.
 
-Standard library only, so the same file can run on a test device.
-
-  runner.py --system amd64-linux --core <hakux_libretro.so> --games <dir> --out <runs dir>
-"""
+  runner.py --system amd64-linux --core <hakux_libretro.so> --games <dir> --out <runs-dir>"""
 import argparse
 import array
 import base64
@@ -94,7 +87,7 @@ def sh(cmd, **kw):
         return ""
 
 
-# --- input plan ---------------------------------------------------------------
+# Input plan
 
 def build_steps(p):
     """The default plan as timed steps: (seconds after launch, action, args...)."""
@@ -119,14 +112,12 @@ def build_steps(p):
     return sorted(steps, key=lambda s: s[0])
 
 
-# --- in-game judge -------------------------------------------------------------
+# Gameplay detection
 
 class Judge:
-    """Looks at the watch screenshots in the background and decides whether
-    gameplay is on screen, through the Claude Code CLI (`claude -p`, the
-    user's own login) with a small model. A blank frame, or one unchanged
-    since the last frame judged, takes the last verdict without a call.
-    `ingame` is set after `needed` in-game verdicts in a row."""
+    """Detect gameplay in watch frames using Claude Code and the user's login.
+    Blank frames count as no gameplay; unchanged frames reuse the last verdict.
+    Set `ingame` after `needed` consecutive gameplay verdicts."""
 
     def __init__(self, model, needed, confirm_model=None):
         self.model, self.needed, self.confirm_model = model, needed, confirm_model
@@ -208,7 +199,7 @@ class Judge:
                 if unchanged:
                     verdict, err, how = self.last[1], None, "same as the last frame"
                 else:
-                    try:  # the brightest pixel: dark menus have bright text, a blank frame has nothing
+                    try:  # Brightest pixel distinguishes blank frames from dark menus with text.
                         peak = float(self._magick(jpg, "-colorspace", "Gray", "-format", "%[fx:maxima]", "info:"))
                     except ValueError:
                         peak = 1.0
@@ -227,7 +218,7 @@ class Judge:
         if verdict == "INGAME":
             self.streak.append((name, t))
             if len(self.streak) >= self.needed and not self.ingame.is_set():
-                # before the run ends, a stronger model looks at the frame (in-engine cutscenes fool the small one)
+                # Confirm with a stronger model to catch in-engine cutscenes.
                 ok, cerr = ("INGAME", None) if not self.confirm_model else self._ask(img, media, self.confirm_model)
                 if self.confirm_model:
                     self.verdicts.append({"shot": name, "t": t, "verdict": ok, "how": f"confirm ({self.confirm_model})",
@@ -235,7 +226,7 @@ class Judge:
                 if ok == "OTHER":
                     self.streak = []
                     self.latest = "OTHER"
-                else:  # confirmed, or the confirmation failed: the small model's verdicts stand
+                else:  # Keep the small model's verdict if confirmed or confirmation failed.
                     self.ingame_at = self.streak[0][1]
                     self.confirmed_by = self.streak[-1][0]
                     self.ingame.set()
@@ -253,20 +244,17 @@ class Judge:
                     break
                 try:
                     self._judge(*job)
-                except Exception as e:  # a judge problem must not end the run
+                except Exception as e:  # Continue the run if the judge fails.
                     self.verdicts.append({"shot": job[0], "t": job[2], "verdict": None, "error": repr(e)})
             if self.closed:
                 return
 
 
 def plan_for(game, overrides):
-    """Plan settings and steps for a game: defaults, then a matching override.
-
-    An override (by file name, file stem or slug) may change any default, give
-    "steps" outright ([[seconds, action, args...], ...]; actions: shot <name>,
-    tap <btn> [ms], down <btn>..., up <btn>..., release), add "extra_steps", or
-    set "skip": "<reason>". "quiet": [[from, to], ...] drops the default presses in those windows.
-    """
+    """Apply an override keyed by file name, stem or slug to the default plan.
+    Overrides can change defaults, replace steps, add extra_steps, set a skip
+    reason, or suppress default inputs with quiet: [[from, to], ...].
+    Steps: [seconds, action, args...]; actions: shot, tap, down, up, release."""
     stem = os.path.splitext(os.path.basename(game))[0]
     ov = {}
     for key in (os.path.basename(game), stem, slugify(stem)):
@@ -276,7 +264,7 @@ def plan_for(game, overrides):
     p = dict(DEFAULT_PLAN)
     p.update({k: v for k, v in ov.items() if k in DEFAULT_PLAN})
     steps = [tuple(s) for s in ov["steps"]] if "steps" in ov else build_steps(p)
-    # "quiet": [[from, to], ...] drops the default presses in those windows, so extra_steps there run undisturbed
+    # Suppress default presses during quiet windows so extra_steps can run.
     quiet = ov.get("quiet", [])
     steps = [s for s in steps if not (s[1] == "tap" and any(a <= s[0] < b for a, b in quiet))]
     steps += [tuple(s) for s in ov.get("extra_steps", [])]
@@ -284,7 +272,7 @@ def plan_for(game, overrides):
     return p, steps, ov
 
 
-# --- RetroArch ----------------------------------------------------------------
+# RetroArch
 
 def ra_send(msg, want_reply=False, timeout=0.5):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -333,7 +321,7 @@ input_r_y_minus_axis = "-4"
 
 
 class System:
-    """Where and how RetroArch runs; subclasses fill in the device specifics."""
+    """Define where and how RetroArch runs; subclasses implement device details."""
     name = "?"
 
     def __init__(self, args):
@@ -389,7 +377,7 @@ class Amd64Linux(System):
         if self.display != "gamescope":
             return cmd
         w, h = self.args.mode.split("x")
-        # a headless compositor of its own, so several workers can run next to the one on the display
+        # A private headless compositor lets workers run alongside the KMS session.
         return ["gamescope", "--backend", "headless", "-W", w, "-H", h, "-w", w, "-h", h, "-r", "60", "--"] + cmd
 
     def display_cfg(self):
@@ -413,13 +401,12 @@ class Amd64Linux(System):
         env = super().env()
         env["QT_QPA_PLATFORM"] = "offscreen"
         env["PULSE_SINK"] = self.SINK
-        # PipeWire remembers one output per application name and moves every stream with that name
-        # to it; a name of its own per worker keeps parallel workers' sound apart
+        # Use a unique application name per worker so PipeWire keeps their outputs separate.
         env["PULSE_PROP_OVERRIDE"] = f"application.name={self.SINK}-game"
         return env
 
     def start_queue(self):
-        # A sink of our own: the recording holds only the emulator's output.
+        # Record only this emulator's output.
         out = sh(["pactl", "load-module", "module-null-sink", f"sink_name={self.SINK}",
                   f"sink_properties=device.description={self.SINK}"]).strip()
         self.sink_module = out or None
@@ -436,7 +423,7 @@ class Amd64Linux(System):
         return (p, f, time.monotonic())
 
     def stop_audio(self, handle):
-        if not handle or handle[0] == "dump":  # RetroArch wrote it itself
+        if not handle or handle[0] == "dump":  # RetroArch writes audio dumps directly.
             return
         p, f, _ = handle
         p.terminate()
@@ -498,9 +485,8 @@ RETROPAD = {
 
 
 class NetPad:
-    """RetroArch's network RetroPad (network_remote_enable): player 1's buttons
-    over UDP, no device node or root needed. RetroArch takes one message per
-    frame, so only held buttons are released."""
+    """Send player 1's RetroPad buttons over UDP; no device access required.
+    RetroArch processes one message per frame, so release only held buttons."""
 
     def __init__(self):
         self.held = set()
@@ -539,8 +525,7 @@ class NetPad:
 
 
 class VPad:
-    """A uinput gamepad through the vpad.py helper; needs write access to
-    /dev/uinput (root on the devices)."""
+    """Drive vpad.py; requires write access to /dev/uinput."""
 
     def __init__(self):
         if not os.access("/dev/uinput", os.W_OK):
@@ -645,7 +630,7 @@ def write_profile(system, profile, core, pad):
     return path, dirs
 
 
-# --- one game -----------------------------------------------------------------
+# Per-game run
 
 def analyse_audio(raw, offset):
     """RMS per 0.5 s window of s16le stereo 48 kHz; offset = launch - recording start."""
@@ -727,7 +712,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     if args.no_audio:
         audio = None
     elif args.audio_dump:
-        open(audio_raw, "wb").close()  # a game that never plays a sample is silent, not unrecorded
+        open(audio_raw, "wb").close()  # An empty capture means the game played no samples.
         audio = ("dump", audio_raw, time.monotonic())
     else:
         audio = system.start_audio(audio_raw)
@@ -822,7 +807,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
                     acted_on, quiet_until = nv, nv
                     unstuck.append([at, btn])
                 elif (btn == "start" and judge.latest == "INGAME") or (btn in ("start", "a") and nv <= quiet_until):
-                    # Start would open a pause menu; after an unstick press, let the next check see its effect
+                    # Avoid pausing gameplay; wait for a verdict after an unstick press.
                     done_steps.append([at, "held", btn])
                     continue
             vpad.cmd(f"tap {btn} {int(rest[1]) if len(rest) > 1 else plan['press_ms']}")
@@ -846,13 +831,13 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     if judge:
         judge.close()
         if stopped_ingame is not None and judge.confirmed_by in shots:
-            # the frame that settled it is the final screenshot
+            # Use the confirmed gameplay frame as the final screenshot.
             src = shots[judge.confirmed_by]
             shutil.copyfile(os.path.join(out_dir, src["file"]), os.path.join(out_dir, "final.png"))
             shots["final"] = dict(src, file="final.png", from_watch=judge.confirmed_by)
         for name in [n for n in shots if n.startswith("w")]:
             png, jpg = os.path.join(out_dir, f"{name}.png"), os.path.join(out_dir, f"{name}.jpg")
-            if os.path.exists(jpg):  # the judge's 768x432 copy is enough for review
+            if os.path.exists(jpg):  # Reuse the judge's 768x432 image for review.
                 os.remove(png)
                 shots[name]["file"] = f"{name}.jpg"
         res["watch"] = {"model": args.judge_model, "needed": judge.needed, "ingame_at_s": judge.ingame_at,
@@ -882,7 +867,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
                     pass
         else:
             exit_how = "quit"
-    # anything the core started in the group goes too
+    # Terminate child processes in the same group.
     try:
         os.killpg(proc.pid, signal.SIGKILL)
     except (ProcessLookupError, PermissionError):
@@ -907,7 +892,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     res["missing_shots"] = missing
     res["status"] = status
 
-    # what the run's logs say
+    # Collect evidence from the run's logs.
     ra_log = os.path.join(dirs["logs"], "retroarch.log")
     if os.path.exists(ra_log):
         shutil.copyfile(ra_log, os.path.join(out_dir, "retroarch.log"))
@@ -937,7 +922,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
                 os.remove(audio_raw)
                 res["audio"]["file"] = "audio.opus"
 
-    # automatic outcome; the stage is left to review
+    # Assign an automatic outcome; review determines the stage.
     states = [s for _, s in status]
     playing_then_not = False
     seen_playing = False
@@ -952,7 +937,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
         outcome, why = "Crash", f"the emulator exited by itself at {ended_early or t_exit} s"
     elif playing_then_not:
         outcome, why = "Crash", "the core stopped (RetroArch reported no content)"
-    elif crashed:  # the core can stop before the first status poll, so the log says it
+    elif crashed:  # Check logs for a core stop before the first status poll.
         outcome, why = "Crash", "the guest hit an exception no handler took, and the core stopped (core log)"
     elif forced:
         phase = "while closing" if not missing else "while running"
@@ -973,7 +958,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     return res
 
 
-# --- queue --------------------------------------------------------------------
+# Queue
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -1019,7 +1004,7 @@ def main():
                             key=lambda p: os.path.basename(p).lower())
         else:
             games.append(g)
-    # keep the order given (queue files are ordered by priority); a directory's games come alphabetically
+    # Preserve queue priority; sort directory entries alphabetically.
     games = list(dict.fromkeys(os.path.abspath(g) for g in games))
     if args.only:
         games = [g for g in games if any(o.lower() in os.path.basename(g).lower() for o in args.only)]
@@ -1029,7 +1014,7 @@ def main():
         raise SystemExit("no games")
 
     if args.display == "kms" and subprocess.run(["pgrep", "-x", "retroarch"], capture_output=True).returncode == 0:
-        # a gamescope worker's RetroArch would not hold the display, but it cannot be told apart here
+        # Treat all RetroArch processes as display users; gamescope is indistinguishable here.
         if not args.claims:
             raise SystemExit("RetroArch is already running; it would hold the display")
 
@@ -1067,7 +1052,7 @@ def main():
                 print(f"[{i}/{len(games)}] {os.path.basename(game)}: done already", flush=True)
                 continue
             pause = os.path.join(run_dir, "PAUSE")
-            if os.path.exists(pause):  # another user of the display; the queue goes on once it is removed
+            if os.path.exists(pause):  # Wait for the display to become available.
                 print(f"paused ({pause} exists)", flush=True)
                 while os.path.exists(pause):
                     time.sleep(5)
@@ -1077,13 +1062,12 @@ def main():
                 try:
                     os.mkdir(os.path.join(run_dir, "claims", slug))
                 except FileExistsError:
-                    continue  # another worker has it
+                    continue  # Claimed by another worker.
             if os.path.exists(out_dir):
                 shutil.rmtree(out_dir)
             res = run_game(system, vpad, game, out_dir, run_dir, overrides, args)
             if (res.get("duration_s") or 0) < 2 and not res.get("shots"):
-                # RetroArch quit before a frame (seen when the display was briefly unavailable): not the game's
-                # doing, so wait and try once more instead of recording a crash.
+                # Retry exits before the first frame; temporary display loss can cause them.
                 print(f"[{i}/{len(games)}] {os.path.basename(game)}: the emulator quit at {res.get('duration_s')} s "
                       "without a frame; retrying in 30 s", flush=True)
                 time.sleep(30)
@@ -1107,7 +1091,7 @@ def main():
             time.sleep(GAP)
     except KeyboardInterrupt:
         interrupted = True
-        if CURRENT.get("proc") and CURRENT["proc"].poll() is None:  # this worker's game only
+        if CURRENT.get("proc") and CURRENT["proc"].poll() is None:  # Stop only this worker's game.
             try:
                 os.killpg(CURRENT["proc"].pid, signal.SIGKILL)
             except ProcessLookupError:

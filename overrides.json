@@ -1,7 +1,7 @@
 {
- "_help": "Per-game plan overrides, keyed by file name, file stem or slug. Any key of runner.py's DEFAULT_PLAN (boot_wait, input_time, input_gap, buttons, press_ms, settle, mid_shot, hard_limit), or steps: [[seconds, action, args...]] (shot <name> | tap <btn> [ms] | down <btn>... | up <btn>... | release), extra_steps: [...], skip: <reason>. Example: \"halo-2-u-en-ja-fr-de-es-it-zh-ko\": {\"boot_wait\": 15, \"buttons\": [\"start\", \"a\", \"a\"]}",
+ "_help": "Input overrides keyed by file name, stem or slug. Change DEFAULT_PLAN settings, replace steps or add extra_steps: [seconds, action, args...]. Actions: shot <name>, tap <button> [ms], down <buttons...>, up <buttons...>, release. quiet: [[from, to], ...] suppresses default inputs; skip: <reason> skips a game.",
  "burnout-3-takedown-u": {
-  "_why": "'Would you like to save your profile?' and 'Autosave will be disabled. Are you sure?' both default to NO, so Start/A loop between them (from about 20 s). Up then A chooses YES; a second try at 59 s in case the prompts came late.",
+  "_why": "'Would you like to save your profile?' and 'Autosave will be disabled. Are you sure?' both default to NO, so Start/A loop between them (from about 20 s). Up then A chooses YES; retry at 59 s if the prompts appear late.",
   "extra_steps": [
    [
     39.0,
@@ -33,7 +33,7 @@
   ]
  },
  "deus-ex-invisible-war-u": {
-  "_why": "The character setup screen (from about 30 s) starts on Difficulty; 'done' is three downs away, then A and A for 'Start Game?'. A second try at 59 s in case the screen came late.",
+  "_why": "The character setup screen (from about 30 s) starts on Difficulty; 'done' is three downs away, then A and A for 'Start Game?'. A second try at 59 s if the screen appears late.",
   "extra_steps": [
    [
     39.0,
@@ -278,7 +278,7 @@
   "unstick": []
  },
  "club-football-aston-villa-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -384,7 +384,7 @@
   "unstick": []
  },
  "club-football-celtic-fc-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -490,7 +490,7 @@
   "unstick": []
  },
  "club-football-chelsea-fc-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -596,7 +596,7 @@
   "unstick": []
  },
  "club-football-leeds-united-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -702,7 +702,7 @@
   "unstick": []
  },
  "club-football-liverpool-fc-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -808,7 +808,7 @@
   "unstick": []
  },
  "club-football-rangers-fc-uk": {
-  "_why": "Player-creation dialog (from about 30 s): right x3 to Skip, then A. Controller Select (up by 70 s) toggles a 'No human teams selected' alert on every Start/A, and only the club's side (home or away by fixture) takes controller 1. B (ignored under the alert, back to Play Match otherwise) then A gives a clean screen; right, A, A sets the away side and its config, and up, A picks Play Match (the Pre-Match menu starts on Formation and Tactics, the line-up screen). If the club is home those A's only toggle the alert, so B, A resyncs and left, A, A, up, A does it from the home side.",
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
   "extra_steps": [
    [
     40.0,
@@ -1844,7 +1844,7 @@
   ]
  },
  "star-wars-battlefront-u": {
-  "_why": "On Select Character (from about 60 s) every Start opens the Game Paused menu and the next A only resumes, so the character is never picked. A instead of the Start at 75.5 gives two A presses in a row and the droid spawns; a second try at 95.5 is only a jump if already in game.",
+  "_why": "On Select Character (from about 60 s) every Start opens the Game Paused menu and the next A only resumes, so the character is never picked. A instead of the Start at 75.5 gives two A presses in a row and the droid spawns; retry at 95.5 is only a jump if already in game.",
   "extra_steps": [
    [
     75.5,

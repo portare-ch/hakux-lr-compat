@@ -1,16 +1,16 @@
 ## Setup
 
-- **hakuX-lr:** 0.19.0 release (`hakux-0.19.0-x86_64.tar.gz`, 01ded7c8eb), KVM CPU backend, the release's default core options
+- **hakuX-lr:** 0.19.0 release (`hakux-0.19.0-x86_64.tar.gz`, 01ded7c8eb), KVM CPU backend, default core options
 - **Frontend:** RetroArch 1.22.2 on KMS (Vulkan, `khr_display`, 1920x1080), PulseAudio
 - **Machine:** CachyOS, Linux 7.3.1, Ryzen 7 9800X3D, Radeon RX 9070 XT (RADV, Mesa 26.2.6)
 - **Image:** `Project Gotham Racing (U).chd`, NTSC-U, CHD (`chdman createdvd` from an XISO); XBE title ID `4d530003`
-- **Run:** a fresh RetroArch with an empty profile and a new console disk. Start and A are pressed in turn every 2.5 s from 10.5 s to 33 s; screenshots are taken at 10, 22 and 45 s; Quit is sent at about 46 s. `HAKUX_LR_STATS=1 HAKUX_DISP_STATS=1` are set.
+- **Run:** isolated RetroArch profile and console disk; alternating Start/A every 2.5 s from 10.5–33 s; screenshots at 10, 22 and 45 s; Quit at about 46 s. Logging: `HAKUX_LR_STATS=1 HAKUX_DISP_STATS=1`.
 
-Found in a scripted 45 s first pass over 77 titles. Seen once, not yet retried, and not tried on ARM64.
+Observed once in a scripted 45 s pass over 77 titles; no retest or ARM64 comparison.
 
 ## What happens
 
-The intro movie and the Bizarre Creations logo play. About 31 s after launch (frame 1386), on a garage shot from the intro, the game stops drawing until Quit. Sound stops earlier, about 12 s after launch. The core reports the guest CPU busy and the renderer idle. On Quit the core doesn't stop and ends the process after 10 s.
+The intro movie and the Bizarre Creations logo play. About 31 s after launch (frame 1386), on a garage shot from the intro, the game stops drawing until Quit. Sound stops earlier, about 12 s after launch. The core reports the guest CPU busy and the renderer idle. Quit fails to stop the core; it terminates the process after 10 s.
 
 ```
 hakuX-hle-hitch: HANG started 0.50 s since frame 1386: JIT compiling: 100% of the vCPU in FEX | render idle for 500 ms | vCPU cpu 468 ms halted 0% | ... | GPU 1826/1826, last done 500 ms ago | ...
@@ -28,5 +28,5 @@ The intro continues to the title screen. Project Gotham Racing 2 reached its men
 
 ## Notes
 
-- The `hang vCPU` line of the core's hang report shows every general register as zero, as all 66 hang samples on KVM in this pass did (33 titles). So it doesn't show where the guest is spinning.
+- All 66 KVM hang samples across 33 titles report zero general registers, so `hang vCPU` cannot locate the spinning code.
 - Oddworld: Munch's Oddysee (#93) and Project: Snowblind (#94) hang the same way, but earlier.

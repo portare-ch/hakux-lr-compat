@@ -1,12 +1,11 @@
-# Full captures stay on the test machine: from each game's run directory only
-# result.json is kept (media/ has the thumbnails).
+# Keep result.json and thumbnails; full captures stay on the test machine.
 /runs/*/*/*
 !/runs/*/*/result.json
 /runs/*/claims/
-# queues list the CHDs by their path on the test machine
+# Queue paths are local to the test machine.
 /runs/queue-*.txt
 
-# cores, local work and generated views of the full captures
+# Local cores, work files and generated capture views.
 /cores/
 /fixwork/
 /contact-sheets/
@@ -14,6 +13,6 @@
 *.bak*
 *.tmp
 __pycache__/
-# worker console output (paths on the test machine)
+# Local worker logs.
 /runs/*.out
 /runs/*.log

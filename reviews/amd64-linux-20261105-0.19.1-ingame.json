@@ -18,7 +18,7 @@
   "stage": "Intro",
   "outcome": "Completed",
   "graphics": "Criterion logo, the opening credits and the live-action film render correctly.",
-  "notes": "From about 30 s to the end of the run: opening credits (EA presents, Black, the cast) and a live-action film; Start and A don't skip it and the menu was not seen. Steady 30 fps."
+  "notes": "From about 30 s to the end: opening credits (EA presents, Black, the cast) and a live-action film; Start and A don't skip it and the menu was not seen. Steady 30 fps."
  },
  {
   "game": "blinx-the-time-sweeper-u-en-ja",
@@ -271,7 +271,7 @@
   "stage": "Menu",
   "outcome": "Completed",
   "graphics": "Oddworld logo and the long opening cinematic (the wanted poster, the bounty hunter, the canyon) render correctly.",
-  "notes": "The opening cinematic plays from about 30 s to the end of the run; Start and A don't skip it. Gameplay not reached in 300 s. Steady 30 fps."
+  "notes": "The opening cinematic plays from about 30 s to the end; Start and A don't skip it. Gameplay not reached in 300 s. Steady 30 fps."
  },
  {
   "game": "outrun-2-u",
@@ -1860,7 +1860,7 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Codemasters and club logos, the Domestic Season and Play Match menus and Controller Select render correctly at 50 fps (UK release).",
-  "notes": "With its override (right x3 then A on the Domestic Season player-creation dialog at about 40 s), it worked for that dialog: Play Match (Aston Villa vs Blackburn) showed at 50 s. From about 70 s to the end it stalls on Controller Select with the 'No human teams selected!' alert (Ok) and controller 1 in the middle column; this run's override had no presses for that screen, so the newer one in overrides.json (A, right held 500 ms, A) needs a re-run. A 3.2 s guest-idle hang at frame 74 during boot recovered."
+  "notes": "The override (Right x3, A at about 40 s) passes player creation; Play Match (Aston Villa vs Blackburn) appears at 50 s. From about 70 s, Controller Select stalls on 'No human teams selected!' with controller 1 in the middle. The updated override (A, Right held 500 ms, A) needs a retest. A 3.2 s guest-idle hang at frame 74 recovered."
  },
  {
   "game": "fifa-street-u",
@@ -1873,7 +1873,7 @@
   "game": "midnight-club-3-dub-edition-remix-u",
   "stage": "In-game",
   "outcome": "Completed",
-  "graphics": "Rockstar logo, profile and garage menus, the loading screen and the San Diego night race render correctly at 30 fps; a tall orange-brown column rises above the skyline in both race frames (not confirmed as wrong).",
+  "graphics": "Rockstar logo, profile and garage menus, the loading screen and the San Diego night race render correctly at 30 fps; a tall orange-brown column rises above the skyline in both race frames (unconfirmed fault).",
   "notes": "With its override (up then A on 'Exit the garage?', which defaults to NO), it worked: the prompt showed at 70 s, San Diego loaded by 90 s and a race with its HUD was running from 110 s (timer 0:06 to 0:23, position 4/4). The car stays on the start line in both race frames (no throttle pressed)."
  },
  {
@@ -1992,7 +1992,7 @@
   "game": "007-everything-or-nothing-u",
   "stage": "In-game",
   "outcome": "Completed",
-  "graphics": "THX logo, letterboxed intro cutscenes, the training level with HUD and the pause menu render correctly; the pause menu background is a near-white blur and its Objectives list under 'Primary' is empty (not confirmed as wrong).",
+  "graphics": "THX logo, letterboxed intro cutscenes, the training level with HUD and the pause menu render correctly; the pause menu background is a near-white blur and its Objectives list under 'Primary' is empty (unconfirmed fault).",
   "notes": "Reached gameplay at about 150 s: Bond in the basic-combat training with HUD ('Basic combat, step 1'); the final shot is the pause menu. The judge's INGAME at 110 s was a letterboxed cutscene (sniper-scope view)."
  },
  {
@@ -2490,7 +2490,7 @@
   "stage": "Menu",
   "outcome": "Completed",
   "graphics": "Logos, menus, the Controllers screen, loading tips and the arena with the matchup overlay render correctly, about 57 fps.",
-  "notes": "With its override (Right held 400 ms three times at 49-55 s to move controller 1 to Home, then A at 56.5 s; all four presses are in steps_done) the Controllers screen worked: controller 1 sits under Home at 50 s and the exhibition game loaded. It then stayed on the pre-game matchup presentation (Nets at Spurs overlay, camera settling on one court-side view by 150 s, still about 18,000 draws/s) from about 90 s to the end at 300 s while Start and A were pressed; why it never reaches tip-off is not confirmed, worth a look. A 4.5 s guest-idle hang after frame 184 during boot recovered (fps min 0.4)."
+  "notes": "The override holds Right for 400 ms three times at 49–55 s, then presses A at 56.5 s (all in steps_done). Controller 1 moves to Home at 50 s and Exhibition loads. From about 90–300 s, the Nets at Spurs presentation never reaches tip-off despite Start/A; the camera settles on one courtside view by 150 s at about 18,000 draws/s. Cause unknown. A 4.5 s guest-idle hang after frame 184 recovered (minimum 0.4 fps)."
  },
  {
   "game": "bloodrayne-2-u",
@@ -2994,7 +2994,7 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Legal screen, Choose Teams and the computer-controlled prompt render correctly, 60 fps.",
-  "notes": "With its override (right held 500 ms to side controller 1 with the home team, then Start), it did not work: both presses were made at 54.0 and 55.2 s, but the controller icons were still in the middle at 70 s and to the end. Start/A loop between Choose Teams and 'If no controller icons are sided with a team, the game will be entirely computer controlled. Is this what you want?' (Cancel selected); it needs A on Cancel, then d-pad right on controller 1, then Start. A 1.0 s JIT-compiling hang at frame 8 recovered."
+  "notes": "The override (Right held 500 ms at 54.0 s, Start at 55.2 s) fails to assign controller 1: icons stay in the middle from 70 s onward. Start/A loop between Choose Teams and the CPU-only warning with Cancel selected. Press A on Cancel, then Right on controller 1 and Start. A 1.0 s JIT-compiling hang at frame 8 recovered."
  },
  {
   "game": "nhl-hitz-pro-u",

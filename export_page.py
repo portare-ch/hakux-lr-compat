@@ -1,23 +1,18 @@
 #!/usr/bin/env python3
-"""Build the shareable compatibility page from compat.json.
+"""Export the compatibility page and packed media from compat.json.
 
-  export_page.py <out dir>
+  export_page.py <output-dir>
 
-Writes <out>/index.html (the list as embedded JSON, from page_template.html),
-<out>/web.html (the same page as a whole HTML document, for a web server, as
-https://hakuxlr.portareos.org serves it next to packs/) and <out>/packs/. An artifact holds at most 511 files, so the captures are
-packed in groups of GROUP games, in the order the games were tested:
+Writes index.html for embedding, web.html for standalone hosting, and packs/.
+Each pack holds GROUP games in test order:
 
-  packs/gNNN-<hash>-t.webp  thumbnails, 320x240, a row per game (boot, mid, final)
-  packs/gNNN-<hash>-f.webp  the same at 800x600, loaded by the screenshot viewer
-  packs/gNNN-<hash>.ogg     the last SLOT s of each game's recording, back to
-                            back, re-encoded as 32 kbit/s Opus
+  gNNN-<hash>-t.webp  320x240 thumbnails; boot, mid and final across each row
+  gNNN-<hash>-f.webp  800x600 images for the screenshot viewer
+  gNNN-<hash>.ogg     SLOT seconds per game, consecutive 32 kbit/s Opus slots
 
-packs.json (next to this script) keeps the assignment, so a group's files
-change (under a new hash) only while the group fills. A retested game gets a
-new row; its old row stays in place, unused, and a group with no row in use is
-dropped. Pack files no longer used are deleted from <out>/packs.
-"""
+packs.json preserves assignments. Retests get new rows; old rows stay unused.
+Empty groups and unused output files are removed. Packing keeps the embedded
+page below the artifact host's 511-file limit."""
 import hashlib
 import json
 import os
@@ -36,7 +31,7 @@ THUMB, FULL = "320x240", "800x600"
 FORMAT = 1  # bump to rebuild every pack
 
 
-# The artifact host wraps the page in a document with this reset; a web server gets it written out.
+# Match the artifact host reset in the standalone document.
 WEB_HEAD = """<!doctype html>
 <html lang="en">
 <head>
@@ -59,7 +54,7 @@ def key_of(r):
 def has_recording(r):
     """A recording with samples in it (a game that never played a sample leaves an empty file)."""
     secs = (r or {}).get("auto", {}).get("audio_seconds")
-    return bool(r) and "audio" in r.get("captures", {}) and (secs is None or secs > 0.5)  # None: ingested before it was kept
+    return bool(r) and "audio" in r.get("captures", {}) and (secs is None or secs > 0.5)  # Older results may not include this field.
 
 
 def audio_from(r):
@@ -80,7 +75,7 @@ def assign(db):
     slots = {}
     for gi, grp in enumerate(groups):
         for row, m in enumerate(grp):
-            # a row whose game was retested stays in place, unused, so the pack's files don't change
+            # Keep superseded rows to avoid rebuilding existing packs.
             if m and current.get(m["id"]) == m["key"]:
                 slots[m["id"]] = (gi, row)
     for _, mid, k in sorted(todo):
@@ -161,7 +156,7 @@ def main():
         for sid, r in g["results"].items():
             if r.get("stage", "Untested") == "Untested" or (
                     "result" in r.get("captures", {}) and not os.path.exists(os.path.join(HERE, r["captures"]["result"]))):
-                entry["results"][sid] = {"stage": "Untested"}  # not run, or being run again right now
+                entry["results"][sid] = {"stage": "Untested"}  # Untested or currently being retested.
                 continue
             caps, auto, cfg = r.get("captures", {}), r.get("auto", {}), r.get("config", {})
             run_id = cfg.get("run_id")
@@ -196,7 +191,7 @@ def main():
     page = tpl.replace("/*DATA*/null", blob)
     with open(os.path.join(out, "index.html"), "w") as f:
         f.write(page)
-    cut = page.index("</style>") + len("</style>")   # the page's title, fonts and styles go in the head
+    cut = page.index("</style>") + len("</style>")   # Move the title, fonts and styles into the document head.
     with open(os.path.join(out, "web.html"), "w") as f:
         f.write(WEB_HEAD + page[:cut] + "\n</head>\n<body>\n" + page[cut:].lstrip("\n") + "\n</body>\n</html>\n")
     print(f"{len(games)} games, {len(groups)} packs ({len(keep)} files) -> {out}")

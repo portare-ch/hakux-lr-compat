@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: one searchable table, a row per game; a title opens its screenshots and test setup under the row. */
+/* Searchable game table with expandable screenshots and test configurations. */
 :root {
   --bg: #f3f5f3; --surface: #ffffff; --sunk: #e9ece9; --fg: #161b18; --muted: #5a655f; --line: #d5dbd7;
   --accent: #2c7a3b;
@@ -160,11 +160,11 @@ dialog::backdrop { background: rgba(0, 0, 0, .78); }
   </div>
   <details class="method">
     <summary>How each game was tested</summary>
-    <p>Each game ran once in a fresh RetroArch with an empty profile and a new console disk. A screenshot was taken at 10 s (<b>boot</b>), Start and A were pressed in turn every 2.5 s from 10.5 s, and a second screenshot was taken at 45 s (<b>mid</b>). From 30 s, every 20 s, a screenshot went to the in-game judge (Claude Haiku), which says whether it shows gameplay under the player's control. Two in-game verdicts in a row end the run, and that frame is <b>final</b>. Otherwise the run ends at 300 s with a final screenshot; 330 s is the hard limit. Games that stall on a menu get their own inputs (overrides). Results from hakuX-lr 0.19.0 used an earlier plan: 45 s with no judge.</p>
-    <p><b>Status</b> is the furthest point seen in the screenshots, confirmed by review: <b>Boot</b> (started, nothing past loading), <b>Intro</b> (logos, movies, legal screens), <b>Menu</b> (title screen or menus, including loading screens and opening cutscenes of a started game), <b>In-game</b> (gameplay reached, with a problem seen that gets in the way of play: a crash or freeze, no sound, a low frame rate or a major graphics fault) and <b>Playable</b> (gameplay reached and nothing seen that gets in the way of play). Stages were judged from the screenshots, the measured frame rate and sound, and the log of one short run, not by playing through a game.</p>
-    <p><b>Outcome</b> comes from the run: Completed (the plan ran and the emulator closed), Crash (the emulator or the core stopped by itself), Timeout (the hard limit or an unresponsive emulator), Needs manual input (set in review). A timeout does not establish incompatibility, and briefly reaching gameplay does not establish that a game is playable. Results apply only to the setup listed with each game.</p>
-    <p><b>Audio</b> was recorded from a private sink and measured, not judged by ear. The level is the loudest 0.5 s RMS of the run. The recordings on this page are the last 46 s of each run, at 32 kbit/s Opus.</p>
-    <p>The <b>Issues</b> link searches the hakuX-lr issues for the game's title ID or its name; there may be no issue yet.</p>
+    <p>Each test uses a fresh RetroArch profile and console disk. Screenshots: <b>boot</b> at 10 s, <b>mid</b> at 45 s. Start/A alternate every 2.5 s from 10.5 s. From 30 s, Claude Haiku checks a frame every 20 s for player-controlled gameplay. Two consecutive gameplay verdicts end the run; the last frame becomes <b>final</b>. Otherwise it ends at 300 s (hard limit: 330 s). Menu stalls may use per-game input overrides. The 0.19.0 tests used a 45 s plan without a judge.</p>
+    <p><b>Status</b> is the furthest stage confirmed by review: <b>Boot</b> (started or loading), <b>Intro</b> (logos, movies or legal screens), <b>Menu</b> (title screen, menus or a new game still loading or playing its opening), <b>In-game</b> (gameplay with a crash, freeze, silence, low frame rate or major graphics fault), <b>Playable</b> (gameplay with no observed problem that prevents play). Ratings use screenshots, frame rates, audio measurements and logs from a short run; they do not cover a full playthrough.</p>
+    <p><b>Outcome:</b> Completed (plan finished and emulator closed), Crash (emulator or core stopped unexpectedly), Timeout (hard limit or unresponsive emulator), Needs manual input (set during review). A timeout alone does not establish incompatibility; reaching gameplay alone does not establish playability. Results apply only to the listed setup.</p>
+    <p><b>Audio</b> is measured from a private sink, without listening-based review. Level means the loudest 0.5 s RMS window. Recordings contain the last 46 s of a run, encoded as 32 kbit/s Opus.</p>
+    <p><b>Issues</b> searches hakuX-lr by title ID or name; a matching issue may not exist.</p>
   </details>
 </main>
 <dialog id="lb" aria-label="Screenshot">
@@ -194,7 +194,7 @@ const bySlug = Object.fromEntries(games.map(g => [g.slug, g]));
 function header() {
   const tested = games.filter(g => res(g).stage !== "Untested");
   const reviewed = tested.filter(g => res(g).reviewed).length;
-  const prs = {};   // games run on a build with a pull request applied, by its number
+  const prs = {};   // Count tests by applied pull request.
   tested.forEach(g => {
     const m = /PR #(\d+)/.exec((DATA.configs[res(g).run] || {}).emulator || "");
     if (m) prs[m[1]] = (prs[m[1]] || 0) + 1;
@@ -202,10 +202,10 @@ function header() {
   const withPr = Object.keys(prs).sort((a, b) => a - b).map(n =>
     `<a href="${REPO}/pull/${n}" target="_blank" rel="noopener">PR #${n}</a> (${prs[n]} game${prs[n] === 1 ? "" : "s"})`);
   document.getElementById("lede").innerHTML =
-    `${games.length} games, ${tested.length} tested on amd64 Linux and ${reviewed} reviewed. Open a title for its screenshots and the setup it was tested on. The hakuX-lr version is listed with each game` +
-    (withPr.length ? `; some were run with a pull request applied before its release: ${withPr.join(", ")}.` : ".");
+    `${games.length} games, ${tested.length} tested on amd64 Linux and ${reviewed} reviewed. Open a title for screenshots and test details. Each game lists its hakuX-lr version` +
+    (withPr.length ? `; some builds include unreleased changes from ${withPr.join(", ")}.` : ".");
   document.getElementById("systems").innerHTML = DATA.systems.map(s => {
-    // one configuration per system: its most recent run's (the emulator version is listed per game)
+    // Show each system's latest configuration; versions are listed per game.
     const runs = Object.values(DATA.configs).filter(c => c.system === s.id);
     const last = id => games.reduce((t, g) => { const r = g.results[s.id] || {}; return r.run === id && r.tested_at > t ? r.tested_at : t; }, "");
     const c = runs.sort((a, b) => last(b.run_id).localeCompare(last(a.run_id)))[0];
@@ -264,7 +264,7 @@ function sortVal(g) {
   }
 }
 const version = r => ((DATA.configs[r.run] || {}).emulator || "").replace(/^hakuX-lr /, "");
-// the part of the file name that tells a disc apart from others of the same title
+// Disc variant within a title.
 const variant = g => ((g.file || "").match(/\((Rev \d+|Bonus Disc|[^)]*(?:Demo|Beta|Disc \d)[^)]*)\)/i) || [])[1] || "";
 
 function row(g) {
@@ -288,7 +288,7 @@ function rows() {
   document.getElementById("count").textContent = `${shown.length} shown`;
 }
 
-// a result's screenshots are rows of a packed image: boot, mid, final across
+// Packed images use one row per result: boot, mid, final.
 const cropStyle = (r, k) => `width:300%;height:${r.rows * 100}%;left:-${k * 100}%;top:-${r.row * 100}%`;
 
 function detail(g) {
@@ -386,7 +386,7 @@ lb.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") show(cur.slug, cur.k + 1);
 });
 
-// recordings: a pack's games are back to back in one file; play a game's slot only
+// Play only this game's audio slot within the pack.
 const player = new Audio(); player.preload = "none";
 let playing = null;
 function stopPlay() {

@@ -1,7 +1,7 @@
 #!/bin/bash
-# One worker of the parallel 0.19.1 in-game pass: run-worker.sh <worker number> <kms|gamescope>
-# All workers take games from the same queues in the same order (top-100, then sports, racing
-# and fighting, then the rest); runs/<id>/claims makes sure each game is run once.
+# Usage: run-worker.sh <worker> <kms|gamescope>
+# Process top-100, sports/racing/fighting, then remaining games.
+# Shared run claims prevent duplicate tests.
 cd "$(dirname "$0")/.."
 RID=amd64-linux-20261105-0.19.1-ingame
 CORE=cores/0.19.1-x86_64/hakux-0.19.1/lib/libretro/hakux_libretro.so

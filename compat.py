@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
-"""The hakuX-lr compatibility list: one entry per game, one result per system.
+"""Manage hakuX-lr results: one entry per game, one result per system.
 
-  compat.py import <games dir>...       add games (every system Untested)
-  compat.py ingest <run dir>            take a runner.py run into the list
-  compat.py review <system> <game> ...  record what review found
-  compat.py review --file <json>        the same for many games
-  compat.py titleids                    each game's Xbox title ID, from its run's core log
-  compat.py media                       thumbnails of each result's screenshots in media/
-  compat.py report                      COMPATIBILITY.md, report.html, contact sheets
+  compat.py import <games-dir>...      add games as Untested
+  compat.py ingest <run-dir>          import runner.py results
+  compat.py review <system> <game> ... record a review
+  compat.py review --file <json>       import multiple reviews
+  compat.py titleids                  read Xbox title IDs from core logs
+  compat.py media                     update screenshots in media/
+  compat.py report                    generate Markdown, HTML and contact sheets
 
-The list lives in compat.json next to this file. A result belongs to the
-configuration it was tested with (emulator commit, device, backend, GPU and
-driver, settings), which is stored with it; testing one system leaves the
-others as they were.
-"""
+compat.json stores results with their tested configuration: core commit,
+device, CPU backend, GPU, driver and settings. Systems are tracked separately."""
 import argparse
 import concurrent.futures
 import urllib.parse
@@ -41,7 +38,7 @@ ISSUES = "https://github.com/portare-ch/hakuX-lr/issues"
 
 
 def issue_search(g):
-    """The hakuX-lr issue search for a game: "<title ID>" OR "<title>" (there may be no issue)."""
+    """Search hakuX-lr issues by title ID or title; matches may be empty."""
     q = f'"{g["title_id"]}" OR "{g["title"]}"' if g.get("title_id") else f'"{g["title"]}"'
     return ISSUES + "?q=" + urllib.parse.quote(q)
 
@@ -86,7 +83,7 @@ def parse_name(stem):
     return title, region, languages
 
 
-# --- title IDs ----------------------------------------------------------------
+# Title IDs
 
 TITLE_RE = re.compile(r"xbe loaded: title ([0-9a-fA-F]{8})")
 
@@ -123,11 +120,11 @@ def cmd_titleids(args):
     print(f"title IDs: {found} found, {missing} tested games without one in their log")
 
 
-# --- media ----------------------------------------------------------------------
+# Screenshots
 
 def result_shots(r):
-    """{name: source image} for a result: boot, mid, final and the first frame the in-game judge
-    called gameplay (ingame), when it isn't the final one."""
+    """Return source images for boot, mid, final and first detected gameplay.
+    Omit the gameplay image when it is also the final frame."""
     caps = r.get("captures", {})
     shots = {s: os.path.join(HERE, caps[s]) for s in SHOTS if s in caps}
     res_path = os.path.join(HERE, caps["result"]) if "result" in caps else None
@@ -185,7 +182,7 @@ def cmd_media(args):
     print(f"media: {len(jobs)} thumbnails made, {len(want)} results")
 
 
-# --- import -------------------------------------------------------------------
+# Import
 
 def cmd_import(args):
     db = load()
@@ -208,7 +205,7 @@ def cmd_import(args):
     print(f"{added} added, {len(db['games'])} games in the list")
 
 
-# --- ingest -------------------------------------------------------------------
+# Ingest
 
 def magick(*a):
     r = subprocess.run(["magick", *a], capture_output=True, text=True)
@@ -327,7 +324,7 @@ def cmd_ingest(args):
                         ("result", "result.json")):
             if os.path.exists(os.path.join(gdir, f)):
                 if name == "audio" and audio_invalid(run_cfg["run_id"], res.get("started") or ""):
-                    continue  # the recording is not this game's alone
+                    continue  # Parallel runs mixed audio from multiple games.
                 caps[name] = rel(os.path.join(gdir, f))
         cl = res.get("core_log", {})
         disp, swaps = log_rates(os.path.join(gdir, "hakux.log"))
@@ -402,7 +399,7 @@ def auto_audio_note(au):
             f"of the run, loudest {au['peak_rms_dbfs']} dBFS RMS (recorded; not judged by ear)")
 
 
-# --- review -------------------------------------------------------------------
+# Review
 
 def apply_review(db, sid, key, rv, by):
     g = db["games"].get(key) or next((v for k, v in db["games"].items()
@@ -442,7 +439,7 @@ def cmd_review(args):
     print("saved")
 
 
-# --- report -------------------------------------------------------------------
+# Reports
 
 def cell(r):
     st = r.get("stage", "Untested")
@@ -499,11 +496,10 @@ def cmd_report(args):
 
     # Markdown list
     md = ["# hakuX-lr compatibility", "",
-          "Each result applies only to the configuration it was tested with (listed under "
-          "Configurations). Stages: Boot, Intro, Menu, In-game, Playable; outcomes: Completed, Crash, Timeout, "
-          "Needs manual input. A timeout does not establish incompatibility. Playable means gameplay "
-          "was reached with nothing seen that gets in the way of play, judged from one short run, "
-          "not from playing a game through.", ""]
+          "Results apply only to the listed configuration. Stages: Boot, Intro, Menu, In-game, Playable. "
+          "Outcomes: Completed, Crash, Timeout, Needs manual input. A timeout alone does not establish "
+          "incompatibility. Playable means no observed problem prevents play during a short run; "
+          "it does not cover a full playthrough.", ""]
     counts = []
     for sid, lab in SYSTEMS:
         c = {}
