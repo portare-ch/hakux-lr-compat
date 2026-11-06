@@ -1,0 +1,477 @@
+{
+ "game_file": "Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2033188940,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:34:55+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 319299
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 419510
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 826480
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   18.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Rainbow Six 3 (U) (En,Fr,De,Es,It),crc32=7bac11e7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   44.5,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Common_P.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\MeatPacking_P.upx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\MeatPacking_P.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Penthouse_p.upx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Penthouse_p.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\r6alpine_prefab.upx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\r6alpine_prefab.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Training_P.upx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Training_P.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Warehouse_P.upx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\Prefabs\\Warehouse_P.upx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native: ps: thread 48 exits (00000000)",
+   "hakuX-hle-fps: 29.9 fps (150 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=211681 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 32568 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=16 misses=14",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 41 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -24.8,
+  "first_sound_s": 7.0,
+  "audible_fraction": 0.76,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -31.2,
+   -26.7,
+   -26.4,
+   -24.8,
+   -30.7,
+   -38.8,
+   -43.3,
+   -37.9,
+   -33.6,
+   -30.1,
+   -30.0,
+   -28.9,
+   -29.1,
+   -29.1,
+   -29.1,
+   -30.6,
+   -31.3,
+   -33.2,
+   -31.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

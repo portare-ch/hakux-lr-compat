@@ -1,0 +1,477 @@
+{
+ "game_file": "X-Men Legends II - Rise of Apocalypse (U).chd",
+ "game_size": 2092860146,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:41:24+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 277535
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 586800
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.0,
+   "bytes": 951917
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,X-Men Legends II - Rise of Apocalypse (U),crc32=20f9e891"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   23.1,
+   41.3,
+   27.2,
+   38.4,
+   47.8,
+   24.8,
+   31.0,
+   31.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.4 ms (max 23.9, 31 frames)",
+   "hakuX-hle-emit: per s: draws=2387 verts=742512 mergeable=0 (not: strip 2356 idx 31 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=844 set1=1741 pc=1336 vi=659 vb=977 vp=71 sc=71 dyn=1527 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=81898 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2682 sysops 4877 (int 942, of them ticks 246; hook 0) schedules 1975 switches 1952 idle 10 slices 39 page faults 0 mmio 8240 apu waits 0 vm pages +0 -0 isr irq1:518 (max 0.2 ms) irq3:102 (max 0.1 ms) irq5:2 (max 0.1 ms) | dpc max wait 0.2 run 0.4 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 11236 KiB, contiguous 15172 KiB (492 blocks), virtual 37404 KiB, kernel pool 180 of 192 KiB (Ex 1060, objects 9, lost 0 KiB, 13 free ranges)",
+   "hakuX-hle-pb: kicks 434 words 706058 headers 78586 methods 627464 faults 0 GET 03edd8bc PUT 03edd8bc binds 5 semaphores 5711 flips 1393 traps 1593 (21=1393 5=193 9=6 28=1) runs 0 surfaces 3 clears 4850 swaps 1393 draws 84349 ff 82956 skipped 0 () textures 406 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.5 ms (max 24.2, 31 frames)",
+   "hakuX-hle-emit: per s: draws=2387 verts=742512 mergeable=0 (not: strip 2356 idx 31 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=841 set1=1738 pc=1336 vi=657 vb=970 vp=71 sc=71 dyn=1525 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=84285 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 410 words 724856 headers 83657 methods 641208 faults 0 GET 03ea3d7c PUT 03ea3d7c binds 5 semaphores 5866 flips 1424 traps 1629 (21=1424 5=198 9=6 28=1) runs 0 surfaces 3 clears 4974 swaps 1424 draws 87083 ff 85659 skipped 0 () textures 406 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.5 ms (max 25.9, 31 frames)",
+   "hakuX-hle-emit: per s: draws=2734 verts=743928 mergeable=0 (not: strip 2703 idx 31 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=871 set1=1743 pc=1389 vi=661 vb=1327 vp=73 sc=73 dyn=1556 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=87019 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #36 frame 1462: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 67 ms apart) | swap +61.4 write +61.4 ready +61.6 flip +66.7 front +66.7 shown +76.7 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms",
+   "hakuX-hle-pb: kicks 435 words 706054 headers 78582 methods 627464 faults 0 GET 03ed729c PUT 03ed729c binds 5 semaphores 6020 flips 1455 traps 1672 (21=1455 5=210 9=6 28=1) runs 0 surfaces 3 clears 5098 swaps 1455 draws 89470 ff 88015 skipped 0 () textures 406 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.7 ms (max 25.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=2387 verts=742512 mergeable=0 (not: strip 2356 idx 31 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=844 set1=1738 pc=1339 vi=658 vb=975 vp=71 sc=71 dyn=1528 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=89406 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=626469 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 49320 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=42 misses=25",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 52 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -12.0,
+  "first_sound_s": 7.5,
+  "audible_fraction": 0.7,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -33.0,
+   -25.8,
+   -26.7,
+   -24.0,
+   -20.6,
+   -21.5,
+   -19.4,
+   -26.6,
+   -12.0,
+   -14.7,
+   -120.0,
+   -16.1,
+   -13.9,
+   -15.2,
+   -17.0,
+   -21.1,
+   -24.2,
+   -26.6,
+   -24.8,
+   -25.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

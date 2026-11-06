@@ -1,0 +1,478 @@
+{
+ "game_file": "Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It).chd",
+ "game_size": 2954998966,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:48:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 451963
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.5,
+   "bytes": 1145500
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1353695
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Conker - Live & Reloaded (U) (En,Ja,Fr,De,Es,It),crc32=f6f7d93f"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   47.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=600 verts=2940 mergeable=0 (not: strip 240 idx 360 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=480 set1=600 pc=420 vi=420 vb=510 vp=420 sc=420 dyn=1994 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=41149 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 4269 sysops 6906 (int 968, of them ticks 103; hook 0) schedules 2350 switches 1918 idle 379 slices 0 page faults 0 mmio 9070 apu waits 0 vm pages +0 -0 isr irq1:527 (max 0.1 ms) irq3:147 (max 0.1 ms) irq5:54 (max 0.1 ms) | dpc max wait 0.3 run 0.8 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4520 (pages 03921000:192 03961000:192 039a1000:192 038b4000:192 038f4000:192 038bb000:128) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7120 KiB, contiguous 33644 KiB (24 blocks), virtual 23752 KiB, kernel pool 16 of 64 KiB (Ex 513, objects 6, lost 0 KiB, 5 free ranges)",
+   "hakuX-hle-pb: kicks 508 words 202789 headers 58104 methods 144688 faults 0 GET 01f4c754 PUT 01e93228 binds 10 semaphores 13646 flips 2550 traps 3539 (21=2549 5=975 9=12 28=2 41=1) runs 0 surfaces 8 clears 5102 swaps 2550 draws 41776 ff 0 skipped 0 () textures 1208 rt uploads 12 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.1 ms (max 26.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=600 verts=2940 mergeable=0 (not: strip 240 idx 360 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=480 set1=600 pc=421 vi=421 vb=510 vp=421 sc=421 dyn=2009 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=41749 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 2607: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +33.9 write +33.9 ready +34.3 flip +50.0 front +50.0 shown +59.4 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 507 words 202798 headers 58108 methods 144688 faults 0 GET 01e92b48 PUT 01e994b8 binds 10 semaphores 13773 flips 2610 traps 3626 (21=2609 5=1002 9=12 28=2 41=1) runs 0 surfaces 8 clears 5222 swaps 2610 draws 42376 ff 0 skipped 0 () textures 1238 rt uploads 12 blits 0 m2mf 0 copie",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.1 ms (max 26.7, 58 frames)",
+   "hakuX-hle-emit: per s: draws=600 verts=2940 mergeable=0 (not: strip 240 idx 360 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=480 set1=600 pc=420 vi=420 vb=510 vp=420 sc=420 dyn=1980 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=42349 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 510 words 202789 headers 58104 methods 144688 faults 0 GET 01e98e14 PUT 01e9f784 binds 10 semaphores 13899 flips 2670 traps 3714 (21=2669 5=1030 9=12 28=2 41=1) runs 0 surfaces 8 clears 5342 swaps 2670 draws 42976 ff 0 skipped 0 () textures 1268 rt uploads 12 blits 0 m2mf 0 copie",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.1 ms (max 24.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=600 verts=2940 mergeable=0 (not: strip 240 idx 360 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=480 set1=600 pc=420 vi=420 vb=510 vp=420 sc=420 dyn=1980 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=42949 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=253848 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 44872 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=14 misses=28",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -16.6,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -22.5,
+   -18.8,
+   -20.6,
+   -18.6,
+   -20.7,
+   -19.3,
+   -18.9,
+   -18.3,
+   -19.2,
+   -19.8,
+   -19.6,
+   -19.3,
+   -18.4,
+   -20.5,
+   -19.4,
+   -18.5,
+   -16.6,
+   -19.6,
+   -19.1,
+   -18.4,
+   -20.0,
+   -17.1,
+   -18.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

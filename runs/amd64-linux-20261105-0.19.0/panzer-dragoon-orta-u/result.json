@@ -1,0 +1,477 @@
+{
+ "game_file": "Panzer Dragoon Orta (U).chd",
+ "game_size": 1920660579,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:14:19+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.3,
+   "bytes": 124214
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 1675784
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.5,
+   "bytes": 616367
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Panzer Dragoon Orta (U),crc32=e2ea1e12"
+  ],
+  [
+   46.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.2,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   58.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 418 words 196983 headers 11123 methods 185872 faults 0 GET 03db3038 PUT 03db4274 binds 4 semaphores 6130 flips 2459 traps 2466 (21=2459 9=6 5=1) runs 0 surfaces 3 clears 2461 swaps 2459 draws 14991 ff 0 skipped 0 () textures 11 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 26.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=298 verts=26598 mergeable=0 (not: strip 0 idx 298 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 119, contiguous 0 pipe=60 set1=60 pc=179 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=14990 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 382 words 88590 headers 10737 methods 77840 faults 0 GET 03e09870 PUT 03e0b8cc binds 4 semaphores 6261 flips 2519 traps 2526 (21=2519 9=6 5=1) runs 0 surfaces 3 clears 2521 swaps 2519 draws 15192 ff 0 skipped 0 () textures 11 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (ki",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 26.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=201 verts=6408 mergeable=0 (not: strip 0 idx 201 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=60 set1=61 pc=141 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15191 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 392 words 123870 headers 10905 methods 112976 faults 0 GET 03e827e8 PUT 03e8485c binds 4 semaphores 6396 flips 2579 traps 2586 (21=2579 9=6 5=1) runs 0 surfaces 3 clears 2581 swaps 2579 draws 15432 ff 0 skipped 0 () textures 11 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 26.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=240 verts=12960 mergeable=0 (not: strip 0 idx 240 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=60 set1=60 pc=180 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15431 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-hitch: stutter #5 frame 2631: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +33.7 write +33.7 ready +34.0 flip +50.0 front +50.0 shown +60.6 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 396 words 139249 headers 10914 methods 128336 faults 0 GET 03b0ab70 PUT 03b0ec74 binds 4 semaphores 6534 flips 2639 traps 2646 (21=2639 9=6 5=1) runs 0 surfaces 3 clears 2641 swaps 2639 draws 15672 ff 0 skipped 0 () textures 11 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 26.9, 58 frames)",
+   "hakuX-hle-emit: per s: draws=240 verts=15840 mergeable=0 (not: strip 0 idx 240 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=60 set1=60 pc=180 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15671 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=976322 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12056 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=10 misses=5",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -21.6,
+  "first_sound_s": 23.0,
+  "audible_fraction": 0.37,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -34.6,
+   -34.6,
+   -63.5,
+   -26.3,
+   -21.6,
+   -27.2,
+   -26.8,
+   -27.3,
+   -26.6,
+   -26.2,
+   -25.3,
+   -30.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

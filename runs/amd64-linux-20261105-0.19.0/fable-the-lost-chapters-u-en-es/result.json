@@ -1,0 +1,476 @@
+{
+ "game_file": "Fable - The Lost Chapters (U) (En,Es).chd",
+ "game_size": 2966595637,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:53:01+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 416960
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 1689098
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 1621024
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Fable - The Lost Chapters (U) (En,Es),crc32=ca732c0a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.8,
+   30.0,
+   30.0,
+   29.5,
+   32.7,
+   48.1,
+   12.6,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 332 words 14806 headers 2258 methods 12560 faults 0 GET 03fde638 PUT 03fde674 binds 5 semaphores 3446 flips 1225 traps 2516 (6=1224 41=914 21=311 5=32 28=11 8=11 9=6 d=2) runs 0 surfaces 13 clears 1232 swaps 1225 draws 23617 ff 0 skipped 0 () textures 1103 rt uploads 6 blits 0 m2",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.9 ms (max 73.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=30 verts=180 mergeable=0 (not: strip 0 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=30 set1=30 pc=30 vi=30 vb=30 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=23075 prog_fog=2 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 13074 sysops 17113 (int 1917, of them ticks 19; hook 0) schedules 4094 switches 3196 idle 1637 slices 0 page faults 0 mmio 11863 apu waits 0 vm pages +0 -0 isr irq1:929 (max 0.1 ms) irq3:120 (max 0.1 ms) irq5:5 (max 0.1 ms) | dpc max wait 0.2 run 0.3 ms, 0 over 8 ms",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 6744 (pages 00e2b000:320 00e6b000:320 00eab000:320 011e9000:320 01229000:320 01269000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 2496 KiB, contiguous 50896 KiB (99 blocks), virtual 28164 KiB, kernel pool 24 of 64 KiB (Ex 491, objects 15, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 392 words 246958 headers 6740 methods 240208 faults 0 GET 03fd0ac0 PUT 03fd0afc binds 5 semaphores 3540 flips 1255 traps 2576 (6=1254 41=944 21=311 5=32 28=11 8=11 9=6 d=2) runs 0 surfaces 13 clears 1262 swaps 1255 draws 23759 ff 0 skipped 0 () textures 1134 rt uploads 6 blits 0 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.8 ms (max 73.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=142 verts=29076 mergeable=0 (not: strip 0 idx 142 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=44 set1=142 pc=44 vi=44 vb=141 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=23217 prog_fog=2 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 457 words 510714 headers 11740 methods 498976 faults 0 GET 03fc524c PUT 03fc5288 binds 5 semaphores 3670 flips 1285 traps 2636 (6=1284 41=974 21=311 5=32 28=11 8=11 9=6 d=2) runs 0 surfaces 13 clears 1292 swaps 1285 draws 24029 ff 0 skipped 0 () textures 1164 rt uploads 6 blits 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.9 ms (max 73.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=270 verts=62100 mergeable=0 (not: strip 0 idx 270 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=270 pc=60 vi=60 vb=270 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=23487 prog_fog=2 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 459 words 510714 headers 11740 methods 498960 faults 0 GET 03fb9ca8 PUT 03fb9ce4 binds 5 semaphores 3800 flips 1315 traps 2696 (6=1314 41=1004 21=311 5=32 28=11 8=11 9=6 d=2) runs 0 surfaces 13 clears 1322 swaps 1315 draws 24299 ff 0 skipped 0 () textures 1194 rt uploads 6 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.1 ms (max 89.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=270 verts=62100 mergeable=0 (not: strip 0 idx 270 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=61 set1=270 pc=61 vi=61 vb=270 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=23757 prog_fog=2 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=342054 first_call=PsCreateSystemThreadEx threads=11",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 171084 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=65 misses=73",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 65 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -16.9,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.74,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -43.8,
+   -38.1,
+   -41.9,
+   -24.5,
+   -17.4,
+   -17.5,
+   -22.5,
+   -28.1,
+   -28.4,
+   -33.6,
+   -27.6,
+   -31.5,
+   -46.9,
+   -36.1,
+   -37.1,
+   -120.0,
+   -120.0,
+   -35.5,
+   -29.1,
+   -31.9,
+   -16.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

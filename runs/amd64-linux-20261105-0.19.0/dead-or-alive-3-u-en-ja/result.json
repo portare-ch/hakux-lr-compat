@@ -1,0 +1,482 @@
+{
+ "game_file": "Dead or Alive 3 (U) (En,Ja).chd",
+ "game_size": 3841642440,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:50:33+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 499778
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 458662
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.5,
+   "bytes": 780884
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Dead or Alive 3 (U) (En,Ja),crc32=76ab4886"
+  ],
+  [
+   47.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   49.4,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1389621 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 91989 sysops 94145 (int 811, of them ticks 46; hook 0) schedules 26033 switches 2149 idle 106 slices 0 page faults 0 mmio 6168 apu waits 0 vm pages +0 -0 isr irq1:533 (max 0.2 ms) irq3:120 (max 0.1 ms) | dpc max wait 0.2 run 0.3 ms, 0 over 8 ms | holds 0 (longest 0.",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 10133 (pages 01b76000:320 01bb6000:320 01bf6000:320 01c36000:320 01c76000:320 02130000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 3208 KiB, contiguous 44600 KiB (33 blocks), virtual 15860 KiB, kernel pool 18 of 64 KiB (Ex 856, objects 9, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 486 words 56179 headers 13869 methods 42304 faults 0 GET 03cd8b84 PUT 03cd9a2c binds 4 semaphores 8544 flips 2575 traps 2582 (4=2575 20=6 1c=1) runs 0 surfaces 3 clears 2576 swaps 2575 draws 1389681 ff 0 skipped 0 () textures 279 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1389681 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #4 frame 2625: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +33.6 write +33.6 ready +33.9 flip +50.0 front +50.0 shown +60.1 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 488 words 56184 headers 13872 methods 42320 faults 0 GET 03d0f964 PUT 03d1080c binds 4 semaphores 8668 flips 2635 traps 2642 (4=2635 20=6 1c=1) runs 0 surfaces 3 clears 2636 swaps 2635 draws 1389741 ff 0 skipped 0 () textures 309 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.6, 58 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1389741 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 486 words 56178 headers 13869 methods 42304 faults 0 GET 03d4672c PUT 03d475d4 binds 4 semaphores 8791 flips 2695 traps 2702 (4=2695 20=6 1c=1) runs 0 surfaces 3 clears 2696 swaps 2695 draws 1389801 ff 0 skipped 0 () textures 339 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 24.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1389801 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1147278 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 6120 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=0 misses=4",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 47 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 45.7,
+  "peak_rms_dbfs": -19.6,
+  "first_sound_s": 35.0,
+  "audible_fraction": 0.23,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -26.5,
+   -19.6,
+   -20.9,
+   -21.1,
+   -22.8,
+   -21.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

@@ -1,0 +1,1514 @@
+[
+ {
+  "game": "dr-seuss-the-cat-in-the-hat-usa-japan",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, in-engine cutscenes and the house's entrance hall render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 70 s: the Cat in the entrance hall with the lives HUD and a '←, →, ↑: Move' tutorial prompt, waiting for input; the run stopped at 119 s. The judge's INGAME at 30 s was a cutscene."
+ },
+ {
+  "game": "dynasty-warriors-3-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logos and the pre-battle Equipment screens render correctly at 60 fps, except a 1-pixel dark vertical seam that crosses the map and the left-hand panels at the same position (about x=252 of 1440).",
+  "notes": "Reached Musou mode's pre-battle Equipment menu (Zhao Yun) by 30 s, then stalled from 45 s to the end on its Weapon screen with the equipped Spear selected (A Equip, X All Weapons, B Return); Start and A leave it unchanged and no unstick press was sent. Needs B back to the Equipment menu, then the press that starts the battle (Start on that menu at 30 s did not; not confirmed). One 2.2 s stall at frame 48 while JIT compiling (fps min 12.7)."
+ },
+ {
+  "game": "ed-edd-n-eddy-the-mis-edventures-u",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "No picture: black in all three screenshots and all 14 watch frames; the core presented no frame.",
+  "notes": "The title stopped within the first second: shortly after its open of '\\??\\engine.ini' failed ('unknown device (a missing name)', NtCreateFile c0000034) it returned to the firmware (routine 2, empty launch path) and the core stopped ('the title left') after 581 kernel calls; with no dashboard installed RetroArch stayed on a black screen until 300 s. No exception or KeBugCheck is logged; changed from Completed to Crash because the game never ran."
+ },
+ {
+  "game": "dynasty-warriors-4-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logos, Stage Select and the pre-battle Equipment screens render correctly at 60 fps.",
+  "notes": "Reached Musou mode's Stage Select (Wei Act I) by 45 s and the Equipment menu at 50 s, then stalled from 70 s to the end on Equipment > Weapon Info (Scimitar), which offers only 'B Back'; no unstick press was sent. Needs B, then the press that starts the battle from the Equipment menu (not confirmed which). One 2.2 s stall at frame 51 while JIT compiling (fps min 14.7)."
+ },
+ {
+  "game": "dynasty-warriors-5-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logos, the Musou mode briefing and the Preparation screens render correctly at 60 fps.",
+  "notes": "Reached the Ji Province briefing by 45 s, then from 70 s to the end the frames alternate between the Preparation menu and its Weapon screen (Bronze Spear equipped); the B unstick presses at 93, 173 and 253 s returned to the Preparation menu and A re-entered Weapon. Needs the press that begins the battle from the Preparation menu, which Start did not do here (not confirmed which). One 2.4 s stall at frame 47 while JIT compiling (fps min 15.6)."
+ },
+ {
+  "game": "egg-mania-eggstreme-madness-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro movie, the Round 1/8 screen and the pause menu render correctly at 60 fps.",
+  "notes": "From 50 s the game sat on the Round 1/8 'Press A' screen before the first round; Start opens the pause menu there and the next A resumes (inferred), so no A reached the prompt, and after the down unstick at 153 s it alternated between GAME PAUSED (Exit Game selected) and 'Are you sure?' (No selected) to the end. The judge's INGAME verdicts at 170, 210, 250 and 290 s are these pause frames, not gameplay."
+ },
+ {
+  "game": "enter-the-matrix-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "The boot shot at 10 s is a flat grey frame; the load screen renders correctly at 30 fps.",
+  "notes": "From 30 s to the end it sat on 'Select a saved game to load.' with the Xbox hard disk showing 'No saved games available.' (A Select, B Back); Start and A don't leave it and no unstick press was sent. Needs B, then a new game from the menu it returns to (not confirmed)."
+ },
+ {
+  "game": "fairly-oddparents-the-breakin-da-rules-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "THQ logo and the cel-shaded in-engine cutscenes with subtitles render correctly at 60 fps (min 40.3).",
+  "notes": "A new game's opening cutscene ran from before 30 s to the end of the run: every judged frame is a different subtitled scene (Timmy's parents leaving, Da Rules, the Fairy World courtroom with Jorgen at 300 s), so it was still advancing; no gameplay seen."
+ },
+ {
+  "game": "ford-mustang-the-legend-lives-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Legal screen, Arcade Mode menu and the night city race render correctly at 60 fps.",
+  "notes": "Reached a race at about 50 s (countdown '2'); at 70 s the HUD shows lap 1/3, 00:14.28 and 4th with the player's Mustang at 0 mph on the start line, and the run stopped at 77 s."
+ },
+ {
+  "game": "freestyle-metal-x-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Midway logo, rider select and the free-ride area render correctly, except that the overhead power lines break up into separate dashes.",
+  "notes": "Reached gameplay at about 50 s: the rider sits on the bike in the free-ride area with the speedometer at 0, waiting for input; the run stopped at 80 s. Displayed 45.8 fps median (min 29.9) while the guest presented 33.9 swaps/s."
+ },
+ {
+  "game": "freaky-flyers-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "New-game menu, the Bigfoot Mountain loading screen and the snowy race render correctly at 60 fps.",
+  "notes": "Reached a race at about 62 s: Bigfoot Mountain, lap 1/3 in 9th, race clock 00:07:65 at 70 s and 00:22:55 at 90 s; the run stopped at 98 s. The hang report logs JIT-compile stalls of 0.9 to 1.7 s (frames 147-180 and 731), giving a 19.7 fps minimum."
+ },
+ {
+  "game": "fantastic-4-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, menus, the letterboxed in-engine tutorial scenes and the space station level render correctly at 59 fps (min 34.2).",
+  "notes": "After New Game (Single), a save and loading by 50 s, letterboxed in-engine scenes with 'Press A to continue' tutorial captions ran from 70 s to 270 s; at 290 s and 300 s Ben Grimm in a space suit is on the station tower with the health/lives HUD and a tip box. The judge saw only one INGAME frame, so the automatic result says no game."
+ },
+ {
+  "game": "fuzion-frenzy-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, player select and the Power Station minigame render correctly; 52.8 fps median (min 26.6).",
+  "notes": "Reached gameplay at about 75 s: Stage 1 Power Station, round one, with player 1 (Dub) against three CPU players, scores 0/2/2/0 at 110 s; the run stopped at 119 s."
+ },
+ {
+  "game": "grooverider-slot-car-thunder-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Save prompt, track select and the first track render correctly at 30 fps (min 24.0).",
+  "notes": "Reached a race at about 50 s: Track 1, lap 1/5, 4th, with the player's slot car on the start line at speed 000 while the others drove off; the run stopped at 78 s."
+ },
+ {
+  "game": "flatout-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logos and the name-entry keyboard render correctly at 30 fps.",
+  "notes": "Stalled from 30 s to the end on the profile name keyboard with DELETE selected: the A presses erased the default name ('PL' left at 30 s, empty from 50 s) and Start does not confirm it; no unstick press was sent. Needs the d-pad to a letter and A, then the d-pad to DONE and A."
+ },
+ {
+  "game": "ford-vs-chevy-usa",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Legal screen, main menu and the Buy screen render correctly at 60 fps; 'Sign in Failed' shows in the corner (network off).",
+  "notes": "Chose Westington Cup and stalled from 70 s to the end on 'Buy - Automatic' (cost 10000 pts, 12500 available) with three transmission icons; the car keeps turning, but Start and A never buy and no unstick press was sent. The screen shows no buy prompt and which icon is selected can't be told (the needed press is not confirmed)."
+ },
+ {
+  "game": "frogger-beyond-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "RenderWare logo, title screen and the Player Name screen render correctly at 60 fps.",
+  "notes": "Loops from 50 s to the end on Player Name: END brings up 'FROGGER / FROGGERA - Are you sure? YES/NO' with NO selected, and A on NO returns to the keyboard; the B unstick presses at 93 s and 253 s went back to the title and New Game led to the same screen. Needs up to YES, then A."
+ },
+ {
+  "game": "frogger-ancient-shadow-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Name entry, save screen, the letterboxed intro and the forest area render correctly at 60 fps.",
+  "notes": "After name entry, saving (50 s) and the intro scenes (70-170 s), the forest area loaded at about 200 s: Frogger stands next to Lily and the A presses re-open her line 'OK, I'll wait for you here.' to the end. Gameplay is inferred from that response; there is no HUD and Start/A don't move Frogger."
+ },
+ {
+  "game": "group-s-challenge-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Capcom logo and the city race render correctly at 58 fps (min 52.3).",
+  "notes": "Reached a race at about 50 s: 6th of 6, lap 1/2, race clock 00'00.750 at 50 s and 00'18.216 at 70 s with the player's car at 0 mph; the run stopped at 79 s."
+ },
+ {
+  "game": "guilty-gear-x2-reload-the-midnight-carnival-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the VS screen and the fight render correctly at 60 fps.",
+  "notes": "Reached a fight at about 45 s: Sol (1P) against Millia, round timer 95 at 45 s and 75 at 70 s with Millia landing a 3-hit combo; the run stopped at 76 s."
+ },
+ {
+  "game": "gauntlet-dark-legacy-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the hub with its HUD, the story scrolls and the Player 1 Settings menus render correctly at 29 fps (min 23.2).",
+  "notes": "Reached the hub as Marvin (LV 1, HUD at the bottom) by 30 s, where story scrolls wait for A; from 70 s to the end Start/A kept it in the Player 1 Settings and Audio menus, and the B/down unstick presses only moved between them. Gameplay is inferred from the in-game scrolls and menus; the character was never seen moving."
+ },
+ {
+  "game": "grabbed-by-the-ghoulies-japan-asia-en-ja-zh-ko",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Rare logo, the comic-book intro, the hint screen and the Grand Hallway render correctly at 30 fps.",
+  "notes": "After choosing a game slot (30 s) the comic-book intro ran to about 210 s; at 250 s and 270 s the game is PAUSED in Chapter 1, Scene 1: Grand Hallway with Cooper among imps and the health HUD, so gameplay is inferred from the pause menu."
+ },
+ {
+  "game": "gun-valkyrie-u-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "ADX logo, loading screens, the 'Send to insertion point?' menu and the first canyon level with its HUD render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 70 s: controlling the gunvalkyrie in the first canyon level with the full HUD, after the YES/NO insertion prompt at 45 s. One 0.5 s stall at frame 1696 (guest idle) that recovered."
+ },
+ {
+  "game": "gladiator-sword-of-vengeance-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Credits, the character-bio loading screen, letterboxed in-engine scenes and the arena render correctly at 60 fps; no HUD appears in any frame.",
+  "notes": "Letterboxed in-engine arena scenes run from about 45 s to 110 s; from 130 s to the end Invictus stands by the arena gate with no letterbox bars and no HUD, changing stance between frames but never moving through 170 s of Start and A presses. The judge called these frames INGAME and its confirming model OTHER; gameplay not confirmed. Loading stalls of 0.9-1.3 s at frames 55, 267 and 657."
+ },
+ {
+  "game": "gunmetal-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, Gunmetal logo, save-slot and briefing screens and the first mission with its HUD and radar render correctly.",
+  "notes": "Reached gameplay at about 70 s: piloting the mech in the first mission, after the New Game save-slot screen (30 s) and mission briefing (50 s). Menus run at 60 fps; in the mission the game swaps 30 times per second and 30 fps is displayed, after dips to 40-47 fps at the mission start."
+ },
+ {
+  "game": "halo-combat-evolved-u-rev-1",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the cryo-tube scene and the first-person view of the cryo bay render correctly at 30 fps.",
+  "notes": "Reached the start of the first level at about 70 s: first-person view in the cryo bay with the 'Use RIGHT [stick] to look around' calibration prompt, a live screen waiting for the player's input (the HUD is not shown yet). Runs at the game's 30 fps."
+ },
+ {
+  "game": "halo-combat-evolved-u-rev-2",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the cryo-tube scene and the first-person view of the cryo bay render correctly at 30 fps.",
+  "notes": "Reached the start of the first level at about 70 s: first-person view in the cryo bay with the 'Use RIGHT [stick] to look around' calibration prompt, a live screen waiting for the player's input (the HUD is not shown yet). Runs at the game's 30 fps."
+ },
+ {
+  "game": "halo-combat-evolved-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the cryo-tube scene and the first-person view of the cryo bay render correctly at 30 fps.",
+  "notes": "Reached the start of the first level at about 70 s: first-person view in the cryo bay with the 'Use RIGHT [stick] to look around' calibration prompt, a live screen waiting for the player's input (the HUD is not shown yet). Runs at the game's 30 fps."
+ },
+ {
+  "game": "hulk-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the Marlowe quote, the Story Mode menu, the desert cutscene and the gas-station level with its HUD and lightning effects render correctly.",
+  "notes": "Reached gameplay at about 70 s: Hulk fighting soldiers at Kirby's gas station with tutorial hints ('Holding X to charge up...'). One 3.4 s stall at frame 1625 (about 27 s in, the vCPU JIT compiling per the hang report) that recovered; gameplay runs at 60 fps, the 52.1 fps median comes from the intro."
+ },
+ {
+  "game": "hummer-badlands-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Legal screen, logo, profile keyboard, colour select and the jungle track with timer and speedometer render correctly at 60 fps.",
+  "notes": "Profile 'PLAYER' created and a colour picked, then the race began at about 70 s (countdown '2'). At 90 s and in the final shot at about 97 s the truck sits at the start line at 0 mph with the timer at 01:46:10 in both; not confirmed that the race clock was running."
+ },
+ {
+  "game": "hitman-blood-money-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Eidos logo, the profile-name keyboard and the Profile Manager render correctly at 60 fps.",
+  "notes": "From about 30 s the game asks for a profile name: A on the highlighted '1' key only types more 1s and Start does not confirm. A B press at 133 s backed out to the Profile Manager, and A on NEW reopened the keyboard. Needs the d-pad left and down three times to DONE, then A."
+ },
+ {
+  "game": "hitman-contracts-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Eidos logo and the main menu with the animated Agent 47 scene render correctly at 60 fps.",
+  "notes": "Main menu with START highlighted from at least 30 s to the end; 270 s of Start and A presses never leave it, although A should select START. The core log shows the game re-opening its save folder UDATA\\45530012 after each Start press, with no other change on screen."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u-rev-1",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Black screen in every screenshot; the game never drew a frame.",
+  "notes": "Crashes at launch before the first frame: an access violation at 001745c7 writing 88568000 that no handler took (unhandled exception c0000005) after 225 kernel calls, and the core stopped. RetroArch stayed open on a black screen until 305 s, so there is no final screenshot."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u-rev-2",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "The disc's Eidos launcher menu renders correctly; black after it.",
+  "notes": "The disc launcher ('PLAY HITMAN 2: SILENT ASSASSIN / VIEW TRAILERS') showed at 10 s; choosing play relaunched into hm2.xbe, which crashed at once with the same access violation at 001745c7 (writing 88060000, unhandled exception c0000005) and the core stopped. Black from then to 305 s, no final screenshot; the game itself never drew a frame."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Black screen in every screenshot; the game never drew a frame.",
+  "notes": "Crashes at launch before the first frame: an access violation at 001745c7 writing 88568000 that no handler took (unhandled exception c0000005) after 225 kernel calls, and the core stopped. RetroArch stayed open on a black screen until 305 s, so there is no final screenshot."
+ },
+ {
+  "game": "hot-wheels-stunt-track-challenge-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "THQ logo and the profile-name keyboard over the volcano backdrop render correctly at 60 fps.",
+  "notes": "Stuck from about 30 s on 'To create a profile please enter your name...': A on the highlighted 'A' key fills the name with 'AAAAAAAAAA' and Start does not accept it. Needs the d-pad down to the bottom row and right to ACCEPT, then A. One 2.7 s stall at frame 5 at startup (JIT compiling) that recovered."
+ },
+ {
+  "game": "house-of-the-dead-iii-the-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Sofdec logo, intro text, the lab stage with zombies, crosshair, life and ammo HUD, and the continue and loading screens render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 50 s, after a 'Saving game' screen: player 1 in the first lab stage with crosshair and life icons. Without aiming P1 keeps dying, and the run cycles through CONTINUE?, 'Hold your fire! Now loading' and gameplay to the end. The judge called the gameplay frames INGAME but never twice in a row, so the automatic result says no game."
+ },
+ {
+  "game": "kabuki-warriors-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Title menu, Player Entry screen and the Tokaido map render correctly at 60 fps.",
+  "notes": "Tour mode started (Player Entry at 30 s); from about 50 s to the end at 77 s the Tokaido Map (Day 01, 1P at Nihonbashi with an arrow pointing left) does not change with Start and A presses. The judge called the map INGAME and stopped the run, but it is a map between fights, not gameplay. Probably needs the d-pad left toward Shinagawa (not confirmed)."
+ },
+ {
+  "game": "ice-age-2-the-meltdown-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Blue Sky logo, the 'Saving game' screen, the opening scene and the first icy level with Manny and the acorn HUD render correctly at 30 fps.",
+  "notes": "Reached gameplay at about 50 s: the first level with the character portrait and acorn counter, after the 'Saving game' screen at 30 s. Runs at the game's 30 fps; stalls of 0.95 s and 0.78 s at frames 184 and 209 during loading (JIT compiling)."
+ },
+ {
+  "game": "justice-league-heroes-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "WB Games logo, the difficulty menu and the City Streets level with Superman, Batman and their health bars render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 45 s: 'City Streets - Stop the Robot Attack' with Superman and Batman on the street, after the difficulty menu at 30 s."
+ },
+ {
+  "game": "kakuto-chojin-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Microsoft Game Studios logo, character select and the Stage 01 fight with health bars, timer and dynamic lighting render correctly.",
+  "notes": "Story mode: Sabre chosen at 30 s, fighting Shadow in Stage 01 from about 45 s to the final shot at about 79 s. 57.9 fps median (min 46.8)."
+ },
+ {
+  "game": "lego-star-wars-the-video-game-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title menu and Dexter's Diner with Qui-Gon, Obi-Wan and the hearts HUD render correctly at 60 fps.",
+  "notes": "New Game started; from about 30 s Qui-Gon and Obi-Wan stand in Dexter's Diner with the HUD and player 2's 'Press START', a controllable hub waiting for input."
+ },
+ {
+  "game": "i-ninja-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Black screen in every screenshot; the game never presented a frame.",
+  "notes": "No frame and no sound for the whole run: after opening XBox\\general.vol, a thread got c0000034 from ObOpenObjectByName twice and c0000008 from NtSetEvent and exited, then the guest idled with 0 draws and 0 flips until 300 s. RetroArch closed normally; Timeout because the screen never changed."
+ },
+ {
+  "game": "indycar-series-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro, main menu, Player Profile menu and the Trading Card Album render correctly at 60 fps.",
+  "notes": "From 30 s the main menu has PLAYER PROFILE selected: A opens Player Profile, A again opens the Trading Card Album and the B presses return to Player Profile, so the run loops there to the end. Needs B to the main menu, the d-pad up to QUICK RACE, then A. One 1.5 s stall at frame 301 at boot (the decoder waited on the guest's GPU interrupt handler)."
+ },
+ {
+  "game": "indycar-series-2005-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro movie, the Player Profiles menu over the Indianapolis grandstand and the Collectors Album render correctly, 60 fps.",
+  "notes": "Stalled from 50 s to the end in the Collectors Album with the first locked Driver Card selected: Trading Card Album is the selected first entry of Player Profiles, so A opens it, and A/Start do nothing inside; needs B, then down to Create Player Profile and A. The guest swaps about 940 times per second against 59.8 displayed fps (presents without waiting for vblank). No final screenshot: captures lagged about 25 s behind schedule."
+ },
+ {
+  "game": "intellivision-lives-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Crave logo and the 3D Hal's Pizza game-select room render correctly, 60 fps.",
+  "notes": "From 45 s to the end the run sits in Hal's Pizza facing the Combat and Sorcery table machine, which shows green left/right arrows; 4 minutes of Start/A presses changed nothing although the game polls the pads. Probably needs d-pad left/right to pick a machine, then A (not confirmed). One 1.1 s guest-idle hang at frame 314, recovered."
+ },
+ {
+  "game": "marvel-nemesis-rise-of-the-imperfects-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Character select, versus screen and the bridge arena with health bars render correctly, 30 fps; the long black lines across the road are not confirmed as part of the arena.",
+  "notes": "Lives Match picked with The Thing as player 1 against Spider-Man on The Bridge; the fight is under way with health bars from about 90 s to the final shot (118 s)."
+ },
+ {
+  "game": "max-payne-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Snowy alley, Max and the HUD (health figure, bullet-time bar, '18 + 60 Beretta') render correctly, 60 fps.",
+  "notes": "In game by 30 s: Max standing in a snowy alley with the HUD, through the final shot at 80 s. One 1.2 s JIT-compile hitch at frame 306, recovered."
+ },
+ {
+  "game": "mechassault-u-en-fr-de-rev-1",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, briefing map and the first mission's valley with the 'Mech and HUD (radar, armour and weapon gauge) render correctly, 30 fps.",
+  "notes": "In game by 45 s: the first mission opens ('Verify the condition of your 'Mech and...') with the 'Mech standing in the valley through the final shot (77 s). One 0.7 s JIT-compile hitch at frame 665, recovered."
+ },
+ {
+  "game": "kof-maximum-impact-maniax-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Black screen in every screenshot: the game never draws or flips a frame (0 draws, 0 flips in the push-buffer stats).",
+  "notes": "Hangs during startup: after opening demo.pak the guest only waits (about 45,000 NtWaitForSingleObjectEx calls per second) and presents no frame for the whole 300 s run, so the outcome is changed to Timeout. Displayed fps was never measured."
+ },
+ {
+  "game": "mechassault-u-en-fr-de",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, briefing map and the first mission's valley with the 'Mech and HUD (radar, armour and weapon gauge) render correctly, 30 fps.",
+  "notes": "In game by 45 s: the first mission opens ('Verify the condition of your 'Mech and...') with the 'Mech standing in the valley through the final shot (77 s). One 0.7 s JIT-compile hitch at frame 664, recovered."
+ },
+ {
+  "game": "l-a-rush-usa-europe-en-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, profile menus, intro cutscene and the street with the HUD (money, wanted stars, minimap, rev counter) render correctly.",
+  "notes": "Looped on Profiles with Load Profile selected ('No LA Rush save game found') from 50 s until the harness's down press at 153 s chose New Profile; after the intro cutscene and phone call, the final shot (300 s) shows the car in the driveway with the HUD, waiting for input. Displayed fps is low for the whole run: 18-25 (median 22.6, guest swaps 23.4/s), 18-20 in the last minute."
+ },
+ {
+  "game": "legend-of-spyro-the-a-new-beginning-u-en-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Sierra logo, save menu, intro movies and the mushroom forest with Spyro, health bar and tutorial box render correctly, 30 fps.",
+  "notes": "Long intro cutscene from 50 s; the judge's INGAME frames at 210 s and 250 s are cutscene shots (no HUD, cinematic camera). Gameplay is seen only in the 290 s frame (captured at 305 s): Spyro with his health bar and the tutorial 'Use the right thumbstick to move the camera to find Sparx', waiting for input. No final screenshot: captures lagged 22-26 s behind schedule."
+ },
+ {
+  "game": "medal-of-honor-frontline-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title, controller screen, landing-craft cutscene and the first-person view with the compass render correctly.",
+  "notes": "In game at about 90 s: first-person in the landing craft with the compass HUD, then water spray at the final shot (116 s); walking not seen. Displayed fps drops from 60 in menus to 29-43 during the landing (median 41.4, guest swaps 36.3/s); one 1.5 s JIT-compile hang at frame 1591, recovered."
+ },
+ {
+  "game": "medal-of-honor-rising-sun-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, calendar and photo cutscenes and the ship's berthing deck with the compass render correctly, about 60 fps.",
+  "notes": "After the 'Pearl Harbor, Hawaii, December 7' cutscene, in game at about 90 s: first-person in the ship's bunk room with the compass HUD, unmoved through the final shot (117 s)."
+ },
+ {
+  "game": "mercenaries-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, agent select, plane cutscene and the cargo hold with the 'Y Stand up' prompt render correctly, 60 fps.",
+  "notes": "Chris Jacobs chosen; from about 90 s he sits in the transport plane with the 'Y STAND UP' prompt, waiting for the player (Y is not in the input plan). A 4.9 s guest-idle hang at frames 5-6 at startup (0.6 fps in the first 10 s), recovered."
+ },
+ {
+  "game": "metal-slug-3-u-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title, Soldier Select and Mission 1 (Marco wading in the sea) render correctly.",
+  "notes": "Sat on Soldier Select from 30 s to 70 s, then Mission 1 started at about 90 s; Marco in the water with the timer running (60 to 54) at the final shot (136 s). Displayed fps is 25-36 for the whole run (median 29.8, guest swaps 30.1/s), while Metal Slug 4 and 5 run at 60 fps in this batch."
+ },
+ {
+  "game": "metal-slug-5-u-en-ja-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title and the Mission 1 jungle river stage render correctly, 60 fps.",
+  "notes": "Mission 1 started by 30 s; Marco on the boat with one life lost (x2 to x1) and the timer at 58 at the final shot (56 s)."
+ },
+ {
+  "game": "midway-arcade-treasures-2-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Midway logo and APB (play field, instruction box, gauges) render correctly, 60 fps.",
+  "notes": "The A presses launched APB from the compilation (relaunch into apb.xbe); the arrest-practice box at 30 s, then the police car parked at 0 MPH on Day 1 with 2 credits, waiting for input, at the final shot (55 s)."
+ },
+ {
+  "game": "metal-slug-4-u-en-ja-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "SNK Playmore logo, Soldier Select and the Mission 1 street render correctly, 60 fps.",
+  "notes": "Soldier Select at 30 s; Mission 1 under way from about 50 s, timer 59 to 54 at the final shot (75 s)."
+ },
+ {
+  "game": "medal-of-honor-european-assault-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "THX logo, profile and controller menus, intro movies and the first mission with the HUD render correctly.",
+  "notes": "Long intro (movies from 70 s to 190 s); in game at about 210 s off St. Nazaire, with 'Primary Objective Added: Locate Captain Beck' at the final shot (239 s). 60 fps in menus and movies, 30 fps in the mission."
+ },
+ {
+  "game": "max-payne-2-the-fall-of-max-payne-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Remedy logo, main menu and the Default Controls screen render correctly, 60 fps.",
+  "notes": "Looped from 30 s to the end between the main menu, where How to Play is the selected first entry, and the Default Controls screen it opens; the harness's down presses at 115, 195 and 275 s did not break the loop. Needs down to New Game (Resume Game is greyed out), then A."
+ },
+ {
+  "game": "maximum-chase-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Genki logo, the save-slot screen and its prompts render correctly, 30 fps.",
+  "notes": "Looped from 30 s to the end on the save-slot screen: 'Would you like to create a new place to save your data?' Yes/No with No selected, then 'If you start the game now, you will not be able to save your game...' Yes/No with No selected, back to the slot list. Needs up then A on the first prompt."
+ },
+ {
+  "game": "mojo-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Crave logo and Stage 1 (ball, block rows, clock and counters) render correctly, 60 fps.",
+  "notes": "In game by 30 s: the ball rolling on Stage 1, clock at 0:24 at the final shot (57 s)."
+ },
+ {
+  "game": "mtv-celebrity-deathmatch-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "TV-static screen and the ring match (Anna Nicole Smith vs Busta Rhymes, health bars) render correctly.",
+  "notes": "A match is under way at 45 s, after a static TV screen at 30 s; no menu frame was captured, so player control of Anna Nicole Smith is not confirmed. A 10.1 s JIT-compile hang at frame 202 while loading the front end, recovered, then 0.6-1.0 s hitches loading the match; displayed fps 34-59 during the match (median 37.1)."
+ },
+ {
+  "game": "mx-superfly-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Legal screen, loading screen and the first track with riders and the HUD render correctly, 30 fps.",
+  "notes": "Race started at about 50 s ('Ready...'); the player's rider (#4) is at the start gate at 0 MPH, 8th of 8, at 70 s and at the final shot (79 s)."
+ },
+ {
+  "game": "mx-world-tour-featuring-jamie-little-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the race options menu and the Acapulco track with rider, lap/position HUD and map render correctly, 60 fps in the race.",
+  "notes": "Reached gameplay by 45 s: exhibition race at Acapulco, lap 1/3, rider at 5 MPH in 10th place at 80 s. The 23 fps minimum and a 0.94 s hang (guest idle) are during boot."
+ },
+ {
+  "game": "mega-man-anniversary-collection-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro, title menu and the game-select corridor render correctly at 60 fps.",
+  "notes": "Loops for the whole run between the title menu (START GAME) and the game-select screen, where the cursor rests on BACK and A returns to the title. Needs right on the game-select screen to pick a game, then A."
+ },
+ {
+  "game": "murakumo-renegade-mech-pursuit-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "City, mech and HUD reticle render correctly at 30 fps; in the 45 s frame the ROIDS menu items show as dark blocks without text (possibly mid-transition; not confirmed).",
+  "notes": "New-game save prompt at 30 s; the first mission was running at 70 s and ended in 'Mission Failed' at 90 s without steering input, and the retry was in play from 110 s to 138 s. 0.58 s JIT-compile hang."
+ },
+ {
+  "game": "namco-museum-50th-anniversary-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Copyright screen, the one/two-player start prompt and Pac-Man render correctly at 60 fps.",
+  "notes": "A started a one-player Pac-Man game; playing by 45 s, and Pac-Man had lost a life by the final shot at 75 s. The 'stop' flag is the launcher relaunching into namco50.xbe."
+ },
+ {
+  "game": "mx-unleashed-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "THQ logo, training video, career menus, controls screen and the first race render correctly at 30 fps.",
+  "notes": "Reached gameplay at about 130 s after the training video, career menu and controls screen: racing on lap 1/5 in 8th place at 157 s."
+ },
+ {
+  "game": "narc-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Midway logo and the night street with health bar, minimap, weapon HUD and tutorial text render correctly at 30 fps.",
+  "notes": "Reached gameplay by 45 s: a tutorial tip ('Pulling the right trigger will fire...') over the first street, then the player with HUD under fire at 50-78 s."
+ },
+ {
+  "game": "nickelodeon-party-blast-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Autosave notice, player select and the Krusty Krab minigame with scores and timer render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 90 s: a four-player minigame with the timer at 2:31 and scores rising at 118 s."
+ },
+ {
+  "game": "nickelodeon-tak-the-great-juju-challenge-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Jungle level, Tak and Lok and both health/juju HUD bars render correctly at 30 fps.",
+  "notes": "Reached the 'Tutorial: Feathercrag' level at 30 s; from 50 s to 57 s Tak stands idle on the path with the HUD shown (the 45 s frame looks like the level-intro camera; not confirmed). The guest presented 353-797 frames/s during the black boot screens in the first 15 s, then a steady 30 fps."
+ },
+ {
+  "game": "monster-garage-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Activision logo, the main menu and the no-saves notice render correctly at 60 fps.",
+  "notes": "Loops for the whole run between the main menu and 'No Monster Garage saves present on hard disk': A picks RESUME GAME (LOAD GAME after the down press), and there is no save. Needs down to NEW GAME, then A."
+ },
+ {
+  "game": "mx-2002-featuring-ricky-carmichael-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "THQ logo, main menu, track select and the Event Lineup screen with bikes render correctly at 30 fps.",
+  "notes": "Stuck on 'Event Lineup - Press A to begin' from 70 s to the end although A was pressed every 5 s; the screen keeps animating at 29.5 fps and no file is read after the rider bundles load, so the race never starts (cause not confirmed). JIT-compile hangs of 1.4 s and 1.9 s at about 84 s."
+ },
+ {
+  "game": "nickelodeon-spongebob-squarepants-lights-camera-pants-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Nick logo, save screens, character select and the split-screen kitchen minigame render correctly at 60 fps.",
+  "notes": "Reached gameplay at about 150 s: a Bronze story-mode minigame, SpongeBob (P1) and Squidward against Sandy and Plankton, timer counting down at 178 s. Hangs of 0.86 s (JIT compiling) and 0.51 s; fps minimum 42.6."
+ },
+ {
+  "game": "namco-museum-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logo, the game-select screen with its Pac-Man preview and the options menu render correctly at 60 fps.",
+  "notes": "Start on the PAC-MAN select screen opens the Options menu before A can pick PLAY, and A on 'Volume' does nothing, so the run cycles between Options and the select screen. Needs B to close Options, then A alone on PAC-MAN."
+ },
+ {
+  "game": "pac-man-world-2-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Namco logo, title and Pac-Village with lives HUD and pellet trail render correctly at about 58 fps.",
+  "notes": "Welcome dialogue at 45 s, then Pac-Man stands in Pac-Village with the HUD from 50 s to 78 s, waiting for movement."
+ },
+ {
+  "game": "nickelodeon-tak-2-the-staff-of-dreams-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Dream-world intro and Tak with his reflection render correctly at 30 fps; no HUD is shown.",
+  "notes": "'Tak's Dream' at 30 s; from 70 s to 198 s Tak stands in the dark dream area facing a crystal, turning in place, with a dust cloud at his feet at 190 s that matches a jump landing. Player control not otherwise confirmed."
+ },
+ {
+  "game": "nickelodeon-spongebob-squarepants-the-movie-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Loading screens, the warp map and the first level with health and score HUD render correctly.",
+  "notes": "Hung 11 s right after launch (guest JIT compiling, under 1 fps for the first 10 s), then recovered. Reached gameplay at 130 s (SpongeBob in the level with HUD); the inputs then loop through the 'Warp to this level?' map and loading screens, and SpongeBob is in the level again at 304 s. The core's fps log drops to about 23 fps in part of each loop (outside the 60 fps loading screens; screen not confirmed)."
+ },
+ {
+  "game": "nickelodeon-spongebob-squarepants-in-battle-for-bikini-bottom-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title, SpongeBob's house, dialogue boxes and the pause menu render correctly at 60 fps.",
+  "notes": "Dialogue in SpongeBob's house from 45 s to 90 s, then the pause menu (Bikini Bottom task list) from 110 s; the final shot at 305 s shows SpongeBob controllable in his house ('Pull the R trigger to talk'). The judge labelled every frame OTHER, missing that gameplay."
+ },
+ {
+  "game": "ninja-gaiden-u-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Warnings, intro movies, Book of Fiends text, the first level and the inventory menu render correctly at 60 fps.",
+  "notes": "Intro movies and text until 190 s; gameplay at 210 s (Ryu in the waterfall canyon with health bar), Start then opens the inventory menu (230-270 s), and Ryu is back in play from 290 s to 304 s."
+ },
+ {
+  "game": "open-season-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo, name entry, the level card and the pause menus render correctly at 30 fps.",
+  "notes": "Started the 'Dinkelman Dreams' adventure by 45 s; from 70 s the run loops between the pause menu and its empty Mission Log (Start pauses, A opens the log), so gameplay is inferred from the pause menu, not seen. 3.0 s JIT-compile hang; fps dipped to 18-23 in the first 50 s."
+ },
+ {
+  "game": "otogi-2-immortal-warriors-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "From Software logo and the Game Settings screen render correctly at 30 fps.",
+  "notes": "On Game Settings page 1 with Vibration selected from 30 s to the end; Start and A change nothing, and the animated background kept the harness from pressing B or down. Needs down four times to 'Next Page', then A."
+ },
+ {
+  "game": "bad-boys-miami-takedown-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Blitz logo, loading screen and the target range with health and ammo HUD render correctly at 60 fps.",
+  "notes": "Retest of the earlier harness failure: this time the game booted and ran normally. Reached the target-range tutorial at about 45 s and stood waiting for 'Pull R to shoot' until 77 s. fps minimum 25.7 and a 0.65 s JIT-compile hang, both at boot."
+ },
+ {
+  "game": "pac-man-world-3-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Namco logo, the opening in-engine scenes, pause menu and high-score table render correctly at 60 fps.",
+  "notes": "Opening in-engine cutscene and dialogue at 30-50 s (the judge's INGAME at 30 s is this cutscene); from 70 s the run loops between the pause menu and the Bot Boneyard high-score table (Start pauses, A opens High Scores). Gameplay inferred from the pause menu, not seen."
+ },
+ {
+  "game": "painkiller-hell-wars-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Dreamcatcher logo, title and profile screen render correctly; the 30 s and 45 s frames are black while sound plays from 28 s (possibly the intro movie not drawn; not confirmed).",
+  "notes": "Title at 50 s; from 70 s on 'Choose profile' with only '[Create new]' highlighted ('A Select'): A presses until 93 s changed nothing, after which the harness pressed only B or down. Why A does not open profile creation is not confirmed."
+ },
+ {
+  "game": "pariah-u-en-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, difficulty and Controls menus, the letterboxed opening cutscenes and the first area (wreckage interior with health bar) render correctly.",
+  "notes": "New game started from the difficulty menu at 30 s; after the opening cutscenes (70-170 s) the first area showed at 190 s with the health bar and the 'Use the thumbsticks to look and move around' prompt. Start then opened the menu and from 210 s to the end the run sat in the Controls options screen, A cycling the thumbstick layout. A 1.3 s JIT-compile hang at frame 4 (displayed fps min 1.6) recovered; the title relaunches its Default.xbe once ('stop: relaunch'), as logged."
+ },
+ {
+  "game": "phantom-crash-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Genki logo, the Club Wired dialogue screens and the name-entry grid render correctly; the 30 s 'Welcome to Shinjuku' panel mixes English and Japanese glyphs, which looks like the game's text-reveal effect (not confirmed).",
+  "notes": "After the Scoobee pilot-registration dialogue (50-130 s) the run stalled from 150 s to the end on the NAME ENTRY screen: A typed letters until the name read 'Mr. USAAA' and Start does nothing there. Needs the cursor moved to End (d-pad down to the bottom row, then right) and A. 59.8 fps."
+ },
+ {
+  "game": "pitfall-the-lost-expedition-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the burning temple arena with Harry and the health HUD, and the journal pause screens render correctly.",
+  "notes": "Gameplay at 45 s (Harry in the burning temple arena with the health bar); Start paused it at 50 s and the run stayed in the journal pause menu (map 'Heart of the Jungle', then the Idols/Explorers/Shaman page) to the end, so the judge's only INGAME verdict (170 s) was the pause map. The 300 s final screenshot was never written (harness); the 290 s watch frame shows the journal page."
+ },
+ {
+  "game": "power-drome-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Quick Race menu, the race with HUD (position, lap, boost gauge) and the pause and options menus render correctly; the 10 s boot frame is black.",
+  "notes": "Racing at 50 s (Quick Race, POS 8/8, lap 1/2); Start then paused it and the run cycled between the Paused and Options menus (A toggling Vibration) to the end, so the judge never had two INGAME verdicts in a row. 59.5 fps."
+ },
+ {
+  "game": "doom-3-resurrection-of-evil-u-en-fr-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, loading screen, the opening cutscene and the first level (Ancient Ruins) with HUD and flashlight lighting render correctly.",
+  "notes": "In game at 70 s: first person in the Ancient Ruins with health 100 and ammo 12/36, standing still until the run stopped at 98 s. 30 fps game, displayed 37.0 fps median (min 29.1)."
+ },
+ {
+  "game": "doom-3-u-limited-collector-s-edition",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the Mars City loading screen and the Departure Lounge with HUD render correctly.",
+  "notes": "In game at 90 s: first person in the Mars City Departure Lounge with the HUD, after the loading screen at 70 s. A 1.0 s guest-idle hang at frame 2553 recovered; 29.7 fps."
+ },
+ {
+  "game": "delta-force-black-hawk-down-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "NovaLogic logo and the New Profile letter-wheel screen render correctly.",
+  "notes": "From 30 s to the end the run sat on the New Profile name entry (letter wheel, empty name); Start and A never accepted it. Displayed 9.0 fps (min 8.9) with a guest swap rate of 9.0/s on this menu for the whole run; the core's hitch log reports frames 100-117 ms apart with 'vCPU starved' stutters."
+ },
+ {
+  "game": "double-s-t-e-a-l-japan",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title screen, the street cutscene and the first driving stage with HUD (timer, speed, map) render correctly.",
+  "notes": "Title at 10 s, street cutscene at 30 s, and in the first driving stage with the HUD at 45 s (timer 0:02.86), still driving at 76 s (timer 0:21.13). Displayed 25.6 fps median (min 19.5) against a guest swap rate of 28.3/s; a 0.5 s pipeline-compile hang at frame 795 recovered."
+ },
+ {
+  "game": "dino-crisis-3-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Warning screen, loading screen, the first station corridor with health bars and the Options screen render correctly.",
+  "notes": "Gameplay in the mid shot at 45 s (two characters in a station corridor with the health bars); from 50 s to the end the run sat in the in-game Options > Pad Type controller screen, so the judge never saw gameplay. A 2.6 s JIT-compile hang at frame 651 recovered; 30 fps."
+ },
+ {
+  "game": "double-s-t-e-a-l-the-second-clash-japan-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title screen, the police-station mission select and the patrol-car stage with HUD render correctly.",
+  "notes": "Mission chosen at 30 s, 'READY?' race start at 45 s and driving the police car with the HUD (time limit 296, 55 MPH) at 50 s, stopped on grass at 78 s. A 1.4 s pipeline-compile hang at frame 367 recovered; 29.3 fps."
+ },
+ {
+  "game": "dinotopia-the-sunstone-odyssey-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Black screen in every screenshot; the game never presented a frame.",
+  "notes": "No frame in 300 s: the push-buffer log shows 0 flips and 0 draws for the whole run while the guest calls NtYieldExecution about 102,000 times a second (stage S2, 4 threads). RetroArch closed normally, so the automatic Completed is changed to Timeout; the hang monitor reports 0 s because no frame ever came."
+ },
+ {
+  "game": "drake-of-the-99-dragons-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Idol logo and the cel-shaded kwoon with HUD (dragon emblem 99, pistols 17/17, timer) render correctly.",
+  "notes": "In game at 30 s: Drake standing in the kwoon with 'Welcome to the Kwoon of the 99 Dragons' and the countdown timer running (9:53 to 9:40). A 2.0 s guest-idle hang at frame 34 during boot recovered; 59.6 fps median (min 22.3)."
+ },
+ {
+  "game": "disney-s-the-haunted-mansion-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Save-slot menus render correctly; the 10 s boot frame is black.",
+  "notes": "From 30 s to the end the run sat on the slot confirmation 'New Game - Start a new game in this slot. Are you sure?' with No selected (enlarged and pulsing, Yes in yellow above it); Start/A only cycle back to it. Needs up to Yes, then A. A 2.9 s JIT-compile hang at frame 4 recovered; 59.8 fps."
+ },
+ {
+  "game": "disney-s-the-haunted-mansion-uk",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "TDK Mediactive logo and the save-slot menu render correctly, 50 fps.",
+  "notes": "From 30 s to the end every screenshot shows the save-slot list (six 'New Game' slots, the first highlighted); the Start/A presses never got into a game. The U release stalls on this slot's 'Are you sure?' prompt with No selected, so it likely needs A, up to Yes, then A (not confirmed for this release). A 2.9 s JIT-compile hang at frame 4 recovered."
+ },
+ {
+  "game": "enclave-u-en-fr-de",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, campaign select, the Jellon Dungeon briefing book and the dungeon cell with HUD render correctly.",
+  "notes": "Light campaign chosen at 30 s, briefing at 45 s, and in the first level (Jellon Dungeon cell, health bar, 0/50 gold) at 50 s. A 1.5 s JIT-compile hang at frame 2083 recovered; 59.8 fps."
+ },
+ {
+  "game": "eragon-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Sierra logo, loading map and the first forest level with the health HUD render correctly.",
+  "notes": "Forest level at 50 s; controlling Eragon with sword drawn and the health bar at 70 s and in the final shot (76 s). 30 fps."
+ },
+ {
+  "game": "dungeons-dragons-heroes-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Atari logo, character select, the letterboxed opening cutscene and the first level with HUD render correctly.",
+  "notes": "Character select at 30 s ('Press START to join'), opening cutscene 45-70 s, and controlling Aradin with the HUD at 90 s. A 2.5 s JIT-compile hang at frame 4616 recovered; 53.7 fps median (min 19.4)."
+ },
+ {
+  "game": "evil-dead-regeneration-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Legal screen, main menu, the cabin cutscene and gameplay with the health HUD and tutorial text render correctly.",
+  "notes": "New game from the main menu at 30 s, cabin cutscene at 45-50 s, and controlling Ash with the HUD at 70 s; the final shot shows the 'Press B to swing the chainsaw' tutorial prompt. A 2.9 s JIT-compile hang at frame 3 during boot recovered; 29.9 fps."
+ },
+ {
+  "game": "fallout-brotherhood-of-steel-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Interplay logo and the top-down first area with the health HUD and compass render correctly.",
+  "notes": "In game at 45 s: the character standing in the first area with the HUD; the picture barely changes between 45 s and 103 s (no stick input). 59.8 fps."
+ },
+ {
+  "game": "freedom-fighters-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, difficulty and options menus and the first apartment level with HUD and tutorial text render correctly.",
+  "notes": "Difficulty chosen at 30 s and gameplay at 45 s (in the apartment with health bars and the wrench); Start opened the in-game Options at 50-70 s, then back in play with the 'Use left thumbstick to move' tutorial from 90 s to the end. 46.7 fps median (min 29.9)."
+ },
+ {
+  "game": "dragon-s-lair-3d-return-to-the-lair-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Ubi Soft logo and the main menu render correctly.",
+  "notes": "From 30 s to the end the run sat on the main menu with Load Game highlighted (blue); each A tries to load (the log shows the empty save folder opened again each time) and the menu stays, so no game starts. Needs up to Start Game, then A. A 1.5 s JIT-compile hang at frame 329 recovered; 59.8 fps median (min 11.0)."
+ },
+ {
+  "game": "driv3r-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Atari logo and the profile prompt render correctly.",
+  "notes": "From 30 s to the end the run sat on 'Sign-In Failed - No DRIV3R profile was found. Would you like to create one?' with No selected (yellow); Start/A and the B and d-pad down presses never got past it. Needs left to Yes, then A (profile creation may then need text entry). 30 fps."
+ },
+ {
+  "game": "driver-parallel-lines-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Atari logo and the profile prompts render correctly at 60 fps.",
+  "notes": "From 30 s to 300 s it loops between 'No profile was found. Would you like to create one?' and 'Continue without saving?', both with NO selected: A on NO in each returns to the other prompt. Needs left (to YES) then A on 'Continue without saving?'."
+ },
+ {
+  "game": "grand-theft-auto-san-andreas-u-en-es-rev-1",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, pause-menu map and Grove Street render correctly; the HUD clock and money digits run off the right edge (the run used the 'overscan cropped' option).",
+  "notes": "Pause-menu map at 45 s, then CJ controllable with radar and HUD ('Get on the bike.') from 50 s to the final shot (about 80 s). One 5.0 s pause at frame 53 during boot (JIT compiling, 99% of the vCPU in FEX), recovered."
+ },
+ {
+  "game": "futurama-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Fox logo, cel-shaded cutscenes and the hangar level render correctly at 60 fps.",
+  "notes": "Opening cutscenes from 50 s to 210 s; Fry controllable in the Planet Express hangar with health, ammo and money HUD at 230 s and the final shot (about 257 s)."
+ },
+ {
+  "game": "fireblade-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Kuju logo, SAVING and LOADING screens render correctly; black from 50 s after the crash.",
+  "notes": "SAVING screen at 30 s, mission loading screen at 45 s (the log shows C1M1 files opening). The core stopped at about 48 s: 'seh: unhandled exception c0000005 at 00080211 (no handler took it), writing 00000000'; RetroArch showed black until 300 s."
+ },
+ {
+  "game": "grand-theft-auto-san-andreas-u-en-es",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, pause-menu map and Grove Street at dawn render correctly; the HUD clock and money digits run off the right edge (the run used the 'overscan cropped' option).",
+  "notes": "CJ controllable with radar and HUD at 30 s, pause-menu map at 45-50 s, gameplay again from 70 s to the final shot (about 99 s). One 5.0 s pause at frame 53 during boot (JIT compiling) and one 0.5 s guest-idle pause at frame 697, both recovered."
+ },
+ {
+  "game": "godfather-the-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the burning-street opening scene and the pause map render correctly at 30 fps; one solid dark-blue full frame at 50 s between the title logo and the opening scene (not confirmed whether the game shows one there).",
+  "notes": "In-engine opening scenes 70-130 s, the pause-menu 'Points of Interest' map at 150-170 s, then from 190 s the live scene waits on a 'Hold L trigger' prompt that the harness never presses. Gameplay inferred from the pause map and the waiting prompt."
+ },
+ {
+  "game": "galleon-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Atlus logo, sea, ship and deck render correctly at 30 fps.",
+  "notes": "The judge's 50 s INGAME was an in-engine ship cutscene (no HUD); cutscenes run to 190 s, then a live deck scene shows the tutorial box 'Press the A button to continue' from 210 s to the end. Four A taps (213-228 s) did not dismiss it; after 233 s the harness sent only B and down."
+ },
+ {
+  "game": "grand-theft-auto-vice-city-u-rev-1",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, load menu, opening cutscene and the city render correctly at 30 fps.",
+  "notes": "New game/load game menu at 30-50 s, opening cutscene at 45 s, Tommy controllable with radar and HUD from 70 s to the final shot (about 97 s)."
+ },
+ {
+  "game": "grand-theft-auto-vice-city-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, load menu, opening cutscene and the city render correctly at 30 fps.",
+  "notes": "New game/load game menu at 30-50 s, opening cutscene at 45 s, Tommy controllable with radar and HUD from 70 s to the final shot (about 97 s)."
+ },
+ {
+  "game": "grand-theft-auto-iii-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, load menu and the night-time city render correctly at 30 fps.",
+  "notes": "Load game menu at 30-50 s, opening cutscene at 45 s, Claude controllable with radar and HUD from 70 s to the final shot (about 99 s)."
+ },
+ {
+  "game": "genma-onimusha-u",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "Black at 10 s; the title screen (NEW GAME/OPTION) renders correctly but is the same frame from 30 s to the end.",
+  "notes": "Hangs on the title screen: the core's hang report shows 99% of the vCPU JIT compiling in FEX from frame 1042 with no draws for the rest of the run. RetroArch hit the hard limit while closing and was killed at 311 s."
+ },
+ {
+  "game": "greg-hastings-tournament-paintball-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Menus, gun model and HUD render correctly, but the field's ground and bunkers are flat washed-out yellow-white under a black sky (the Max'd sequel in this batch shows a textured field and sky).",
+  "notes": "Career Mode setup at 30 s, tutorial on the field at 45-50 s, then a match with score/timer HUD and paint firing at 70 s and the final shot (about 77 s)."
+ },
+ {
+  "game": "goldeneye-rogue-agent-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "THX and EA logos and the profile keyboard render correctly at 30 fps.",
+  "notes": "Stuck on the CREATE NEW PROFILE on-screen keyboard from 45 s to the end: A typed 'AAAAAAAA' (the 8-character limit) and Start does not confirm. Needs the d-pad to the OK key (cursor on V at the end: up 3 times, then right to OK) and A."
+ },
+ {
+  "game": "greg-hastings-tournament-paintball-max-d-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Menus, character screen, textured field, paint effects and HUD render correctly at 60 fps.",
+  "notes": "Main menu at 30 s, My Character at 45 s, tutorial on the field at 50 s, then a match with score/timer HUD at 70 s and the final shot (about 97 s)."
+ },
+ {
+  "game": "harry-potter-and-the-goblet-of-fire-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Cutscene, character select and the burning campsite render correctly.",
+  "notes": "Opening cutscene at 30 s, Select a Character at 45-50 s, then Harry, Hermione and Ron with health HUD in the campsite level ('Get to the Portkey') from 70 s to the final shot (about 98 s). Displayed fps dipped to 24.4 during loading; 60 fps in game."
+ },
+ {
+  "game": "harry-potter-quidditch-world-cup-u-en-fr-es",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "WB logo, title, team select, pitch and challenge HUD render correctly at 60 fps.",
+  "notes": "Title at 30 s, Team Select at 50 s, House Challenges at 70 s; the judge's 90 s INGAME was a no-HUD flyby, and the passing challenge with timer and score HUD is on screen at 110 s and the final shot (about 116 s). One 1.1 s pause at frame 37 during boot (JIT compiling), recovered."
+ },
+ {
+  "game": "harry-potter-and-the-prisoner-of-azkaban-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title, train cutscenes and the train corridor render correctly at 30 fps.",
+  "notes": "Title at 30 s, train cutscenes at 45-50 s, Harry walking the train corridor with the button HUD from 70 s to the final shot (about 99 s)."
+ },
+ {
+  "game": "harry-potter-and-the-chamber-of-secrets-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Legal screen, Burrow cutscenes and the Burrow garden render correctly at 60 fps.",
+  "notes": "Opening cutscenes at the Burrow from 30 s to 90 s, Harry controllable in the garden with the button HUD from 110 s to the final shot (about 136 s). Pauses of 1.1 s and 1.4 s (JIT compiling) at frames 459 and 602, recovered."
+ },
+ {
+  "game": "gungriffon-allied-strike-u-en-ja-ko",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, intro movie and the cockpit HUD over the jungle render correctly; 'Sign-In Failed' shows at the top right.",
+  "notes": "Relaunched from its loader into GGD.xbe at start. The judge's 50 s INGAME was the intro movie; the first mission with the full cockpit HUD and radio briefing is on screen from 130 s to the final shot (about 179 s)."
+ },
+ {
+  "game": "heroes-of-the-pacific-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo, Training School menu, runway and plane render correctly.",
+  "notes": "Training School menu at 30 s, takeoff briefing over the runway at 45-50 s, plane on the runway with the flight HUD at 90 s and the final shot (about 120 s). Displayed fps about 29 (min 23.7) for a 30 fps game."
+ },
+ {
+  "game": "hunter-the-reckoning-redeemer-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, character select, loading tip and the warehouse level render correctly.",
+  "notes": "Character select at 30 s; the judge's 50 s INGAME was a loading-tip screen; fighting monsters in a warehouse with HUD at 70 s and the final shot (about 75 s). Five guest-idle pauses of 0.5-3.9 s (longest at frame 592), all recovered; displayed fps 18-54 during loading, 60 in game."
+ },
+ {
+  "game": "hunter-the-reckoning-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo movie, cutscene and the dark subway platform render correctly at 60 fps.",
+  "notes": "Cutscene at 30 s, then the hunter idles on the subway platform with health and edge bars from 45 s to the final shot (about 99 s)."
+ },
+ {
+  "game": "great-escape-the-u",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "No frame was ever drawn; boot and mid shots are black and the final shot is missing.",
+  "notes": "Within about 1 s of launch, right after an NtCreateFile failed with c000003a, the guest hit an unhandled access violation at 001af8d9 (writing 84000000) and the core stopped before its first frame. RetroArch stayed open with no content until the harness quit at 305 s, so this is the game crashing in the core, not a harness failure."
+ },
+ {
+  "game": "inside-pitch-2003-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Main menu, loading tip, lineup card and the ballpark with its scoreboard and strike-zone HUD render correctly.",
+  "notes": "Main menu at 30 s ('No Profiles Found / Create New' over Single Game), loading at 45-50 s, the in-game Lineups card ('Press START to resume game') at 70 s, and at the plate at 90 s (SF at ANA, top 1, count 0-1). A string of hangs between frames 526 and 541 (2.5, 2.4, 5.0, 5.0 and 0.8 s; guest idle, then JIT compiling) and 2.6 s at frame 1605 give the 0.5 fps minimum; median 53.3 fps."
+ },
+ {
+  "game": "james-cameron-s-dark-angel-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Snowy logo movie, main menu, the letterboxed opening movie and the alley level with the Max/Rage and Danger HUD render correctly.",
+  "notes": "New Game menu at 30 s, opening movie at 45 s, and from 70 s Max is in an alley with the HUD, in a fighting stance at the final shot. A 4.9 s hang at frame 9 (JIT compiling) at startup; 30.1 fps median, min 8.5."
+ },
+ {
+  "game": "italian-job-the-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Story-mode menu, captioned mission intro and the city driving with the timer, score and radar HUD render correctly.",
+  "notes": "Story mode 'midtown meet' at 30 s, captioned intro scenes at 45-70 s, and from 90 s driving the Mini with the timer counting down (01:08 to 00:53). 31.7 fps median at 30 fps."
+ },
+ {
+  "game": "harry-potter-and-the-sorcerer-s-stone-u-en-es",
+  "stage": "In-game",
+  "outcome": "Needs manual input",
+  "graphics": "WB logo, the subtitled in-engine cutscenes in Diagon Alley and Ollivanders, and the Remembrall screen render correctly.",
+  "notes": "In-engine cutscenes from 30 s to 150 s, then from 170 s to the end the Remembrall Tasks screen ('Let your wand choose you at Ollivanders wand shop'), which only Back closes ('Back: Exit Remembrall'); gameplay is inferred from this in-game screen, not seen. 59.8 fps median; JIT hangs of 1.1 s (frame 81) and 1.9 s (frame 655)."
+ },
+ {
+  "game": "hobbit-the-the-prelude-to-the-lord-of-the-rings-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Vivendi Universal logo and a letterboxed cutscene (scrolls and a lamp) render correctly; black after the crash.",
+  "notes": "The log shows the logo and intro movies, a save-folder check, the movie pt1_c1_6-17.bik and then the first chapter (CH00_DRE) loading, so a new game had started; the 32 s frame is that cutscene. At about 32 s, just after an NtCreateFile failed with c0000034, the guest hit an unhandled access violation at 00264944 (writing 00000002) and the core stopped."
+ },
+ {
+  "game": "indiana-jones-and-the-emperor-s-tomb-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "LucasArts logo, title menu and the Saved Games book with its name dialog render correctly.",
+  "notes": "Title menu at 30 s, then to the end the Saved Games 'Enter a Name' dialog (name 'INDY' plus four digits, text cursor in the field, OK and BACK below); the unstick B closed it but A reopened it on slot 1. Screenshots from 50 s on arrived about 27 s late and the final shot is missing (harness)."
+ },
+ {
+  "game": "iron-phoenix-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "InterServ logo and the Sign-In scroll render correctly; black after the core stopped.",
+  "notes": "Sign-In screen at 30 s with only 'New Account'; A on it made the game relaunch into the disc's dashupdate.xbe at about 32 s, which hit an access violation at 0002ffd0 (reading 00000008), and its exception filter returned to the dashboard, which isn't installed, so the core stopped. Displayed 20.4 fps (game swaps 22.3) over the first 32 s."
+ },
+ {
+  "game": "kill-switch-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "The first level, the health and ammo HUD and the pickup text render correctly; translucent blue zones show on the floor and wall.",
+  "notes": "Reached gameplay at about 45-50 s: the soldier in the first level, against a wall with the HUD and 'M4 AMMO AT MAX' at the final shot. Hangs of 5.1 s (frame 189), 4.4 s (frame 440) and 2.9 s (frame 1502), all while JIT compiling; 59.1 fps median."
+ },
+ {
+  "game": "lara-croft-tomb-raider-legend-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Title screen ('Press START to begin') renders correctly; no later shot exists.",
+  "notes": "On the title screen at 10 s; at about 18 s, after Start presses there and an access to its save folder, the guest hit an unhandled access violation at 0042b29b (writing 2842f522) and the core stopped. The core did not shut down within 10 s, and RetroArch ended itself at 26.9 s."
+ },
+ {
+  "game": "jaws-unleashed-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Majesco logo and the New Game name entry over the animated underwater scene render correctly.",
+  "notes": "From 30 s to the end the New Game name entry: A typed 'AAAAAAA' (full at 7 letters by 70 s) with the cursor still on A; the screen offers Y for OK. One refused commit (58,856 KiB free) as the game sized its heap, with no fault."
+ },
+ {
+  "game": "judge-dredd-dredd-vs-death-europe-en-fr-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Snowy logo movie and the name-entry keyboard over the animated 3D background render correctly, but no key is highlighted in any frame.",
+  "notes": "From 30 s to the end the name-entry keyboard headed 'Judge Dredd' (A: Select, B: Back); the name never changes, so the A presses have no visible effect, and End is at the bottom right. 59.8 fps median."
+ },
+ {
+  "game": "lemony-snicket-s-a-series-of-unfortunate-events-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Cloud intro, the dark in-engine cutscene and the attic room with the character HUD render correctly.",
+  "notes": "Reached gameplay at about 50 s: Violet (carrying Sunny) and Klaus in the attic with the HUD and the tutorial prompt 'To switch between them, press Y. Try it now.', waiting for Y. 59.6 fps median."
+ },
+ {
+  "game": "judge-dredd-dredd-vs-death-germany-en-de",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Snowy logo movie and the name-entry keyboard render correctly, but no key is highlighted in any frame.",
+  "notes": "From 30 s to the end the name-entry keyboard headed 'Judge Dredd' (A: Select, B: Back); the name never changes under the A presses, and End is at the bottom right. Same stop as the European release."
+ },
+ {
+  "game": "judge-dredd-dredd-vs-death-usa",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Title screen and the name-entry keyboard render correctly, but no key is highlighted in any frame.",
+  "notes": "Title screen at 10 s, then from 30 s to the end the name-entry keyboard headed 'Judge Dredd' (A: Select, B: Back); the name never changes under the A presses, and End is at the bottom right. Same stop as the European and German releases."
+ },
+ {
+  "game": "juiced-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Legal screen, Choose Phone and the Driver Betting screen with its car models and video portrait render correctly.",
+  "notes": "Choose Phone at 30 s, then from 45 s to the end Driver Betting against T.K. (Urban Maulerz, RX-8) with 'BET: $2,000' and 'Accept Bet' in the bottom carousel; the Start/A cycle never leaves it, and the screenshots don't show which press does. 59.8 fps median."
+ },
+ {
+  "game": "loons-the-fight-for-fame-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "WB logo, save-slot menu and the castle arena with both fighters' HUD render correctly.",
+  "notes": "Save-slot selection at 30 s, then from 50 s a tutorial bout in the castle arena with Taz against Sylvester (Taz moves between shots, holding a bone at the final). The judge called the 70 s frame OTHER because of Yosemite Sam's caption, but it is the same live match."
+ },
+ {
+  "game": "king-arthur-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Buena Vista logo and the ring-shaped message screen render correctly.",
+  "notes": "From 30 s to the end it shows 'The hard disk does not contain any King Arthur saved games.' with only 'Help (Y)' on screen; Start/A don't dismiss it, and the unstick B was never sent because the background animates. 59.8 fps throughout."
+ },
+ {
+  "game": "land-of-the-dead-road-to-fiddler-s-green-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Groove logo and the profile menus render correctly.",
+  "notes": "From 30 s to the end it alternates between the Profile menu (Select Profile highlighted, Delete Profile greyed, New Profile) and an empty Select Profile list marked 'Sign-In Failed'; A always picks Select Profile. 59.8 fps median, min 14.6."
+ },
+ {
+  "game": "legacy-of-kain-defiance-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "The Eidos logo is the only frame of the whole run.",
+  "notes": "Hangs on the Eidos logo: the guest stopped presenting after frame 47 with its vCPU busy, 93% of it in the FEX JIT (host eip 083464e0), and the hang report runs to 87.55 s while the frame never changes. On quit the core did not stop within 10 s and the process was killed at 310.9 s."
+ },
+ {
+  "game": "malice-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Argonaut logo, the captioned cutscenes and the level with the lives HUD render correctly.",
+  "notes": "Cutscenes at 50-70 s, then from 90 s Malice in front of the golden gate with the lives HUD (5), her pose changing between shots. Hangs of 5.0 s and 1.9 s at frames 691-692 (JIT compiling); 29.1 fps median, min 10.4."
+ },
+ {
+  "game": "lord-of-the-rings-the-the-return-of-the-king-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "THX logo, the opening film clips and the Helm's Deep battle with the health, experience and 'A Speed' HUD render correctly.",
+  "notes": "The opening movie runs from 30 s to 210 s; from about 230 s Gandalf fights at Helm's Deep with the HUD, his health falling between shots. 30.0 fps median, min 25.6."
+ },
+ {
+  "game": "manhunt-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Save screens and the first level render correctly with the radar, health and stamina HUD; the full-screen TV static at 45-50 s matches the game's VHS-style transitions.",
+  "notes": "Reached gameplay at about 70 s: the sprint tutorial prompt, then Cash in the first alley with the HUD at 90 s and at the final shot. 59.7 fps median (min 37.7)."
+ },
+ {
+  "game": "lord-of-the-rings-the-the-fellowship-of-the-ring-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Tolkien Enterprises logo, the Bag End dialogue scene, the inventory and the pause menu render correctly at 30 fps.",
+  "notes": "A new game was running by 30 s (Gandalf's arrival dialogue in Bag End); from about 45 s Start and A kept switching between the pause menu (Inventory, World Map, Quest Log ...) and the inventory (Walking Stick, Rocks). Gameplay is inferred from the pause menu and inventory, not seen; the judge's INGAME at 290 s is the pause menu."
+ },
+ {
+  "game": "lord-of-the-rings-the-the-two-towers-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "EA logo, the film intro, the in-engine Isildur shot, the pause menu and the Options screen render correctly at 30 fps; the screen is black at 45-50 s between the intro titles.",
+  "notes": "Intro and opening movie ran to about 190 s (letterboxed in-engine shot of Isildur); from 210 s the run cycles between the in-level pause menu ('Press START to resume / Options / Exit to Menu', 250 s) and its Options screen. Gameplay is inferred from that pause menu, not seen; the judge's INGAME at 250 s is the pause menu."
+ },
+ {
+  "game": "mace-griffin-bounty-hunter-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Warthog logo and the in-engine intro and mission cinematics (space scenes, bar interiors, characters) render correctly at 60 fps.",
+  "notes": "The game relaunched itself at about 26 s, then a letterboxed in-engine intro ran from about 30 s to 275 s; it relaunched again at about 283 s and the final shot is the opening cutscene of the first mission ('Vagner System Border Regions'). The judge's INGAME at 270 s is a letterboxed cutscene; no gameplay seen. Just before the second relaunch a 1204 KiB contiguous allocation failed (564 KiB free); the game continued."
+ },
+ {
+  "game": "mafia-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logo screen and the profile menus over the 3D office render correctly at 60 fps; the right-hand ceiling lamp shade is a flat black shape (not confirmed as a fault).",
+  "notes": "Stalls from about 30 s on 'Enter Profile Name': A types letters until the name is 'AAAAAAAAAA' and Start does not confirm; B returns to the Profile Manager, where A re-enters Create New Profile. The log has about 1,170 failed opens of drive-less paths such as \\??\\anims\\*.tck and \\??\\sounds\\menuchange.wav ('unknown device')."
+ },
+ {
+  "game": "minority-report-everybody-runs-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the difficulty menu, the opening cutscene and the first level render correctly with the HUD (health bars, objective text).",
+  "notes": "Reached gameplay at about 70 s: Anderton fighting in the office at the start of the first level ('OBJECTIVE: Capture Andre Serena'). 30 fps (min 26)."
+ },
+ {
+  "game": "matrix-the-path-of-neo-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "THX logo, the Matrix-code loading screen, the letterboxed opening cinematics and the red pill/blue pill scene render correctly at 30 fps.",
+  "notes": "After the autosave notice and the opening cinematic ('Wake up, Neo...'), stalls from about 130 s to the end on Morpheus's hands offering the red and blue pill; Start and A do nothing there and no prompt is shown. The scene keeps animating (no hang)."
+ },
+ {
+  "game": "night-caster-ii-equinox-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title screen and the parchment 'PAUSED' screen render correctly.",
+  "notes": "Title at 10 s; every capture from 30 s on shows the pause screen ('Please press Start to continue'), so gameplay is inferred from it, not seen. The judge's INGAME verdicts are that pause screen and ended the run at 164 s. 31.8 fps median (min 17.7); a 2.0 s guest-idle hang at frame 49 during boot and two more of 0.7-0.9 s."
+ },
+ {
+  "game": "men-of-valor-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Vivendi logo, main menu, Edit Profile and Video Options screens render correctly at 30 fps.",
+  "notes": "Main menu at 30 s; after New Game it loops from about 50 s between Edit Profile (VIDEO highlighted) and the Video Options brightness screen: A opens Video, the B unstick press goes back, and Start does nothing."
+ },
+ {
+  "game": "mission-impossible-operation-surma-u",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "Paramount logo, the main menu and the save prompt render correctly; the error message is plain text on black.",
+  "notes": "New game started at about 30 s (save prompt answered YES); at about 40 s, loading the first level, the game shows 'There's a problem with the disc you're using. It may be dirty or damaged.' and stops presenting frames: guest idle from frame 1131 with the same image for the remaining 255 s, so changed to Timeout. The last files opened were data\\Xbox\\TEXTURES\\YG\\YG01.rgb on the disc and PAKFILES\\YUG\\YUG.PAK on the hard-disk cache partition."
+ },
+ {
+  "game": "new-legends-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "THQ logo renders correctly and stays on screen for the whole run.",
+  "notes": "Frozen on the THQ logo from about 10 s: the hang report shows the vCPU 99 % in the FEX JIT compiler from frame 297 with rendering idle for the rest of the run. The core stopped at the time limit but RetroArch did not finish closing and was killed at 310.9 s."
+ },
+ {
+  "game": "nickelodeon-avatar-the-last-airbender-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "THQ logo and the New Game prompts render correctly at 60 fps.",
+  "notes": "From about 30 s loops between 'Do you wish to create a profile?' and 'Do you really wish to continue without saving?', both with NO selected: A on NO returns to the other prompt, and the B and down unstick presses don't change the selection."
+ },
+ {
+  "game": "night-caster-defeat-the-darkness-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "VR1 logo, the first level with its HUD (health orb, spell icons) and the spell book render correctly at 30 fps.",
+  "notes": "Gameplay at the mid shot (45 s) and the final shot: the wizard on a night forest path with the HUD. Every watch frame caught the spell book that Start opens ('START - Closes Spell Book'), so the judge never called INGAME."
+ },
+ {
+  "game": "obscure-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the intro FMV and the in-engine gym render correctly at 60 fps.",
+  "notes": "Intro FMV ran to about 255 s; at 270-290 s Kenny stands alone in the gym with the ball (first playable scene), and from about 255 s each Start press makes the game load its menu files (menus_xb), as a pause menu would; control itself not confirmed. The judge's INGAME at 130 s was the intro FMV. No final screenshot was saved."
+ },
+ {
+  "game": "baldur-s-gate-dark-alliance-ii-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, loading screen and the first area (the Trade Way) render correctly with the HUD at 60 fps.",
+  "notes": "Reached gameplay at about 45 s: the character on the Trade Way path with portrait and health/mana bars. This retest launched normally; the earlier run's immediate RetroArch exit did not recur."
+ },
+ {
+  "game": "elder-scrolls-iii-the-morrowind-u",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "No frame was drawn.",
+  "notes": "RetroArch died 1.4 s after launch, before any frame, and again when the runner retried 30 s later: both core dumps show a segmentation fault in the hakuX core itself (nc_rd32, called from disc_read_done while completing a disc read on the core thread). A crash of the core, not a harness failure; the Game of the Year Edition got past this point."
+ },
+ {
+  "game": "baldur-s-gate-dark-alliance-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the letterboxed tavern cutscene, the dialogue and the Elfsong Tavern render correctly with the HUD at 60 fps.",
+  "notes": "Reached gameplay at about 150 s: the character standing in the Elfsong Tavern with health/mana bars and a quest marker, after the opening cutscene and the barmaid dialogue. This retest launched normally; the earlier run's immediate RetroArch exit did not recur."
+ },
+ {
+  "game": "elder-scrolls-iii-the-morrowind-game-of-the-year-edition-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Bethesda logo, title, loading screen and the ship interior with Jiub render correctly.",
+  "notes": "After two self-relaunches into morrowind.xbe, a new game reached the prison-ship opening at about 50 s: Jiub facing the camera, crosshair only, no HUD, the start of character creation; the player was not yet controllable (not confirmed). The judge took this as gameplay and ended the run at 80.6 s; needs a longer run."
+ },
+ {
+  "game": "peter-jackson-s-king-kong-the-official-game-of-the-movie-u-en-fr-de-es-it-nl-sv-no-da-fi",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Universal logo, the profile and main menus, cutscenes and the first scene (the Venture's hull in rain) render correctly.",
+  "notes": "Profile name screen at 30 s and main menu at 45 s; after the opening cutscenes, from about 150 s the first-person opening scene waits on the tutorial prompt 'Right [stick] to aim', which Start/A can't satisfy; counted as In-game (live scene waiting for the player's first input). No final screenshot was saved; 59.8 fps median (min 19.9)."
+ },
+ {
+  "game": "pirates-the-legend-of-black-kat-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Westwood logo and the Game Settings screen over the 3D harbour render correctly.",
+  "notes": "Stalls from about 30 s to the end on Game Settings: A toggles Game Tutorial ON/OFF and Start does nothing; the screen only offers d-pad Select Option, A Modify and B Back, and B was never pressed because the frame kept changing. 27.6 fps median (min 17.0) on this screen."
+ },
+ {
+  "game": "prisoner-of-war-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro logo, loading tips, in-engine cutscenes and the camp render correctly with the HUD (clock, compass map, button icons).",
+  "notes": "The game relaunched itself at about 21 s; opening cutscenes (plane, capture, Kommandant) ran to about 230 s and gameplay started at about 250 s: Captain Stone walking in the camp. 50.6 fps median (min 42.6) against 57.3 guest swaps/s; a 1.1 s JIT-compile hang at frame 127."
+ },
+ {
+  "game": "pirates-of-the-caribbean-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Disney Interactive logo and the main menu render correctly at 59 fps.",
+  "notes": "Stalls from 30 s to the end on 'Are you sure you want start a new game?' with No selected: A on No returns to the main menu and A on New Game brings the prompt back."
+ },
+ {
+  "game": "fatal-frame-ii-crimson-butterfly-director-s-cut-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Project Zero logo, title menu and the grey-toned forest path render correctly, as far as a still shows; steady 30 fps.",
+  "notes": "New Game (Normal) selected on the title menu at 30 s; from 45 s to 75 s Mio stands still on the forest path of the prologue. There is no HUD, and the game shows none while exploring. She does not move because only A was pressed, so player control is not confirmed."
+ },
+ {
+  "game": "freaky-flyers-u-beta",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Black at 10 s, then the new-game menu, the track fly-through and the snow race with HUD render correctly.",
+  "notes": "Reached gameplay at about 50 s: racing on the snow track (lap 1/3, 9th) at 50 s and 70 s. Displayed fps fell to 23.4 during a 1.8 s hang at frame 175, early in boot (hang report: JIT compiling); 57 fps median after that."
+ },
+ {
+  "game": "flatout-2-u-beta",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "White intro fade at 10 s, then the career menu, car shop and the race with HUD render correctly; 30 fps.",
+  "notes": "Career and car-shop screens at 30-50 s. From 70 s the first race is running and the player's car sits on the start line at 0 mph (7/8, then 8/8) because nothing presses accelerate."
+ },
+ {
+  "game": "digimon-world-4-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intrinsic Alchemy logo, the Digimon creation screen, the DSG hub and the Equipment menu render correctly; 60 fps.",
+  "notes": "Created a Dorumon character by 70 s, then Digi-Elf briefing dialogue in the DSG hub at 90-150 s. From 170 s to the end the run sits in the in-game Equipment menu ('Select the socket.'). Gameplay is inferred from that in-game menu; player movement was not seen, and the judge's INGAME frame at 130 s is a pause between dialogue lines."
+ },
+ {
+  "game": "dreamfall-the-longest-journey-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Funcom logo and the letterboxed in-engine monastery cutscene with subtitles render correctly; 30 fps.",
+  "notes": "The opening in-engine cutscene (Brian's journal narration in the monastery) plays from 30 s to the end. Start pauses it ('Paused'), so with Start every 5 s it ran at about half speed and was still playing at 300 s. The judge's INGAME verdicts at 30, 70 and 90 s are the paused cutscene, not gameplay."
+ },
+ {
+  "game": "full-spectrum-warrior-japan-asia-en-ja-ko",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, which looks like missing textures (not confirmed).",
+  "notes": "Profile save, difficulty select (Sergeant) and map screen at 30-70 s. Reached gameplay at about 90 s: training level with Alpha team selected, HUD shown. Several 1.4-3.1 s hangs while loading (hang report: JIT compiling), minimum 23 fps."
+ },
+ {
+  "game": "fable-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo movie, main menu, intro cutscene, options menu and Oakvale with HUD render correctly; 30 fps.",
+  "notes": "New game from the main menu at 30 s, intro cutscene at 50-90 s and Oakvale dialogue and tutorial at 110-130 s. Start opened the options screen at 150-170 s. Reached gameplay at about 190 s: controlling the young hero in Oakvale with HUD."
+ },
+ {
+  "game": "full-spectrum-warrior-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, menus and HUD render correctly. In the training level the buildings are flat grey and the soldiers, faces included, are flat olive with no visible texture detail, which looks like missing textures (not confirmed).",
+  "notes": "Same run as the Japan/Asia release: profile save, difficulty select and map screen at 30-70 s, then the training level with HUD (Alpha team) from about 90 s. Several 2.4-3.1 s hangs while loading (hang report: JIT compiling), minimum 23 fps."
+ },
+ {
+  "game": "fable-u-limited-edition-bonus-dvd",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Disc menus with their preview videos and the feature movie's FABLE title card render correctly.",
+  "notes": "Bonus video disc: Fable behind-the-scenes feature, Microsoft playable demos and game trailers. Selecting the Fable Feature opens its movie (the log shows Fable_Hero and Fable BTS .xmv files opened), but the next Start/A goes back to the menu within seconds, so only the title card was seen and full playback is not confirmed. The demos menu was not entered."
+ },
+ {
+  "game": "fatal-frame-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Title screen, load screen and title menu render correctly; 60 fps.",
+  "notes": "Load screen ('There is no \"Fatal Frame\" game data') at 30-50 s. From 70 s to the end it stays on the title menu with LOAD GAME selected, and each Start/A only re-checks the empty save folder. Needs up to NEW GAME, then A. No final screenshot was saved (screenshots ran up to 25 s late in this run)."
+ },
+ {
+  "game": "full-spectrum-warrior-ten-hammers-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "THQ logo, menus, in-engine cutscene and the first mission with HUD render correctly; 30 fps.",
+  "notes": "Difficulty select at 50 s, in-engine cutscene at 70-130 s. Reached gameplay at about 150 s: first mission with HUD and the tutorial prompt 'To move the characters, move the left thumbstick.' waiting for input. A 9.1 s hang at frame 1401 (hang report: about 70% of the vCPU JIT compiling) took displayed fps down to 4, then it recovered to 30 fps."
+ },
+ {
+  "game": "gladius-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, the in-engine opening cutscene and the first battle with HUD render correctly; 60 fps.",
+  "notes": "Opening cutscene at 30-110 s. Reached gameplay at about 130 s: Valens' first tutorial fight with the Move/Strike HUD."
+ },
+ {
+  "game": "future-tactics-the-uprising-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Zed Two logo and the Episode 1 objective card over the 3D level render correctly; 60 fps.",
+  "notes": "A new game was started by 30 s; from then to 300 s it stays on the 'Episode 1: A Savage Earth / Objective: Get to the bridge' card showing 'Next (A)'. A presses every 5 s do not advance it, and it keeps rendering at 60 fps with no hang. Worth a developer's look, because the card ignores the button it asks for."
+ },
+ {
+  "game": "goblin-commander-unleash-the-horde-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Jaleco logo, campaign menu, story text and the letterboxed in-engine cutscene render correctly; 30 fps.",
+  "notes": "Campaign slot menu at 30 s and 'Saving Goblin Commander campaign progress' at 45 s. The story-text intro plays at 50-190 s, then the in-engine opening cutscene (Grommel, Pitboss) from 210 s, still running at 300 s. The image stays the same from 270 s to 300 s (not confirmed as a stall). Hangs of up to 2.7 s while loading (hang report: JIT compiling), minimum 20 fps."
+ },
+ {
+  "game": "gui-yi-taiwan",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "RenderWare logo and the character-select screen render. The character-select image is dim and stays the same for the rest of the run.",
+  "notes": "The character-select screen (Chinese stats, A confirm / B back) is reached by 30 s. At frame 1568 (about 30 s) the guest stops drawing; the last hang report reads 'JIT compiling: 98% of the vCPU', no frames follow, and B/down presses change nothing. RetroArch was killed at the 315 s hard limit, so no final screenshot was taken; the reported 1.5 s hang is only where the hang reports stopped."
+ },
+ {
+  "game": "guy-game-the-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Gathering logo, episode select, question screens, video clips and the pause screen render correctly; 60 fps.",
+  "notes": "Episode select at 30 s, then quiz rounds from about 70 s: questions answered (score $702 shown) and video clips. The judge's INGAME verdicts are all the Start pause screen ('Paused - Piss Break'), and they alternate with OTHER, so the run went the full 300 s."
+ },
+ {
+  "game": "halo-2-multiplayer-map-pack-world-en-ja-fr-de-es-it-zh-ko",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro video, disc menu and the updater's 'Update Failed.' screen render correctly; 60 fps.",
+  "notes": "Map-pack disc that installs the Halo 2 update and multiplayer maps (installers, no gameplay). With UPDATE HALO 2 selected, A relaunches into demos\\update\\updater.xbe, which shows 'Update Failed.' and returns to the menu; this repeated all run. The log shows its \\??\\T:\\$U paths failing with 'no such drive' (worth a developer's look). Reaching the other three items needs down, then A."
+ },
+ {
+  "game": "high-rollers-casino-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Dark intro movie at 10 s, then the character creator renders correctly; 60 fps.",
+  "notes": "From 30 s to the end it stays in the character creator, with the NAME row and an A-to-Z letter strip (cursor on A) and 'Press Start'. The name stays empty, and Start does not continue. Needs a name typed on the letter strip, then Start; the screenshots don't show which button adds a letter."
+ },
+ {
+  "game": "indigo-prophecy-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Quantic Dream logo and the Security profile screens render correctly; 60 fps.",
+  "notes": "From 30 s it loops in profile creation ('Security - Create your new profile'): A types letters ('AAAAAAAAAA'), and the B unstick presses went back to the profile list, where A reopens the keyboard. Needs the d-pad down to OK and A, or Y ('No Profile.') on the profile list."
+ },
+ {
+  "game": "jade-empire-u-en-fr-de-es-it-bonus-disc",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Black for the whole run; no frame was drawn.",
+  "notes": "Bonus disc: default.xbe relaunches into dashupdate.xbe, which fails to open the font HGGothicM.xtf and then hits an access violation at 0002ffd0 (reading 00000008). The title's DashUnhandledExceptionFilter reports 'Rebooting...', the title returns to the firmware and the core stops within the first second. RetroArch then only reports that the Xbox dashboard isn't installed; the disc's content never played."
+ },
+ {
+  "game": "kingdom-under-fire-the-crusaders-u-en-ko",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title screen, intro cutscene and the first battle with HUD and minimap render correctly; 30 fps.",
+  "notes": "Intro cutscene ('Phantagram presents') at 30-50 s. Reached gameplay at about 70 s: Gerald (Lv. 3) leading his troops on the first battlefield, with HUD."
+ },
+ {
+  "game": "leisure-suit-larry-magna-cum-laude-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Vivendi logo, loading screen, the dorm room with tutorial box and the 'What Next?' menu render correctly; 60 fps.",
+  "notes": "Reached gameplay at about 50 s: Larry in his dorm room with the HUD and a tutorial box waiting for A. The final shot is the in-game 'What Next?' objectives menu."
+ },
+ {
+  "game": "lucasarts-xbox-experience-volume-01-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Demo menu and the Armed & Dangerous level (snowfield, characters, HUD) render correctly, 58 fps.",
+  "notes": "Demo disc with playable demos of Armed & Dangerous, Gladius, Wrath Unleashed, Republic Commando and KOTOR. The first entry relaunched into the Armed & Dangerous demo, and gameplay was reached by about 45 s: the mission timer counts down from 4:00 to 3:31 with the full HUD shown."
+ },
+ {
+  "game": "jurassic-park-operation-genesis-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "fmod logo, the park view with its HUD and the pause and options menus render correctly.",
+  "notes": "Reached the park view (money, weather, Mail/Manager prompts) at about 30 s; Start then opened the pause menu, and the rest of the run cycles between it and the Options sliders. One 0.74 s hitch (JIT compiling) at frame 1353; fps fell to 42.7 at its lowest."
+ },
+ {
+  "game": "magic-the-gathering-battlegrounds-u-en-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Chapter menu and the forest duel arena with the life and mana HUD render correctly; a dialog panel at 70 s is empty (not confirmed whether it was still opening).",
+  "notes": "Reached the first story duel (Chapter 1: Enter the Duelist) at about 50 s; the player's duelist stands in the arena with life 20 at the final shot. The guest swaps about 98 times/s against 59.7 fps displayed; fps fell to 6.2 at its lowest, and a 2.0 s guest-idle hang at frame 26 recovered."
+ },
+ {
+  "game": "karaoke-revolution-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Title, autosave prompts, name keyboard and character select render correctly, 60 fps.",
+  "notes": "Got through the autosave caution and the 'create a save game now?' prompt to Select Character (230 s), then stalls on the Enter Name keyboard: the cursor sits on ENTER and the name stays empty. Needs the d-pad to a letter, A, then Y (Enter); no song played."
+ },
+ {
+  "game": "karaoke-revolution-party-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Title, username keyboard and the 'No username entered' message render correctly.",
+  "notes": "From about 30 s to the end it loops on the Enter Username keyboard: with ENTER selected and the name empty, A brings up 'No username entered. Please enter a username to continue.' and the next press dismisses it. Needs the d-pad to a letter, A, then Y (Enter); a 2.0 s hang (JIT compiling) at frame 35 recovered."
+ },
+ {
+  "game": "knight-s-apprentice-memorick-s-adventures-memorick-the-apprentice-knight-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Title screen and the 'Saving game' message render correctly; black after the crash.",
+  "notes": "Got past the title to a 'Saving game' message at 30 s, then the core stopped at about 31 s on an unhandled exception c0000005 at 0001f2a0 (writing df3edf80), right after the game opened its save file GlobalGamestates.gbl. A 3.0 s guest-idle hang at frame 754 came just before; 27 fps median (game runs at 30)."
+ },
+ {
+  "game": "lord-of-the-rings-the-the-third-age-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, loading screen, cutscenes, the battle, the forest area, the in-game menu and the film clip render correctly.",
+  "notes": "Reached the first battle (Berethor against a Nazgul, Attack chosen) at about 110 s and the forest area with the minimap and 'Quest Journal updated' at 210 s; the run ends in the in-game menu after Scenes played a film clip. fps fell to 27.9 at its lowest."
+ },
+ {
+  "game": "myst-iv-revelation-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie and the first interactive view (cockpit over the canyon and waterfall, hand cursor) render correctly.",
+  "notes": "After the intro movie, the first interactive view with the hand cursor showed at about 130 s and waited for input. A 2.0 s guest-idle hang at frame 955 recovered; fps fell to 36.9 at its lowest."
+ },
+ {
+  "game": "mechassault-2-lone-wolf-world-en-ja-fr-de-es-it-bonus-disc",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Xbox-style bonus disc menu and its message box render correctly, 60 fps.",
+  "notes": "Bonus disc for MechAssault 2 LE with New Maps (copied to the hard disk) and a Making Of MA2 video. A on New Maps shows 'You can't copy this content because you have not played the title on this Xbox. Press START to continue.' and the run loops there; a single down press at 153 s left New Maps selected, so the video never played."
+ },
+ {
+  "game": "metal-dungeon-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Earth intro and the character name entry screen render correctly.",
+  "notes": "From about 45 s to the end it stalls on name entry: the A presses filled the name with ten A's and Start does not confirm it. Needs the d-pad to EXIT (bottom right of the letter grid), then A."
+ },
+ {
+  "game": "monopoly-party-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Legal screen and the New Game menu over the board render correctly, 60 fps.",
+  "notes": "From before 30 s to the end it stays on the New Game menu with 'Game Type: Party' selected; Start and A do nothing there. Needs d-pad down four times to Continue, then A."
+ },
+ {
+  "game": "mtv-music-generator-3-this-is-the-remix-u-en-es",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logo, title and the Remixer screen with moving level meters render correctly, 30 fps.",
+  "notes": "Music tool: reached the Remixer at about 45 s with the track 'Hear Me' (Trance, 137 BPM) playing; the rest of the run alternates between the Remixer and its 'Go to menu?' Yes/No dialog (No selected). The judge labelled every frame OTHER."
+ },
+ {
+  "game": "phantom-dust-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "ESRB notice and the underground Clinic area with the minimap render correctly, 30 fps.",
+  "notes": "Reached gameplay at about 50 s: the player character stands in the Clinic area of the underground hub with the minimap shown, until the run stopped at 77 s."
+ },
+ {
+  "game": "myst-iii-exile-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro movie, title, the first desert view and the book menus render correctly.",
+  "notes": "After the intro movie a still desert view showed at about 130 s; Start brought up the main menu with Save Game and Resume Game available, so gameplay is inferred (no cursor visible, judge said OTHER). The run ends in the Options book; fps fell to 15.0 at its lowest."
+ },
+ {
+  "game": "n-u-d-e-natural-ultimate-digital-experiment-japan",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie and the title screen render correctly, 60 fps.",
+  "notes": "Stayed on the 'Press Start Button' title from before 30 s to the end. The log shows each Start press reaching the game, which then reads default.ini and its save folder, but nothing past the title was seen."
+ },
+ {
+  "game": "phantasy-star-online-episode-i-ii-u-en-ja-fr-de-es",
+  "stage": "Intro",
+  "outcome": "Crash",
+  "graphics": "Sonic Team logo correct; black after the crash.",
+  "notes": "At about 28 s the game relaunched into dashupdate.xbe from the disc (the log says no Xbox dashboard is installed on the hard disk); the update failed to open its font HGGothicM.xtf and stopped on an unhandled exception c0000005 at 0002ea54 (reading 00000008)."
+ },
+ {
+  "game": "playboy-the-mansion-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, title, save screens, the mansion grounds with the HUD and the Celebrities menu render correctly.",
+  "notes": "Started Mission Play and saved, then reached the mansion grounds with Hef and the HUD at about 150 s; the rest of the run toggles invitations in the Celebrities menu."
+ },
+ {
+  "game": "project-snowblind-u-beta",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Black screen in all three screenshots and every watch frame; no frame after frame 71.",
+  "notes": "Pre-release build. Stops within the first 10 s, right after opening the Eidos logo movie eidos_bumper_640x480.xmv: the hang report shows the vCPU busy in JIT code with rendering idle, and no frame came for the rest of the run. RetroArch did not close in time and was killed at 310 s."
+ }
+]

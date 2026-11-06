@@ -1,0 +1,477 @@
+{
+ "game_file": "TimeSplitters 2 (U).chd",
+ "game_size": 1276392166,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:31:40+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.4,
+   "bytes": 1482831
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1162959
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 846186
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,TimeSplitters 2 (U),crc32=fd8d18fa"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   52.4,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   47.2,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=10189 verts=2365740 mergeable=0 (not: strip 1140 idx 7620 state 1429 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2185 set1=8614 pc=8850 vi=873 vb=6353 vp=97 sc=452 dyn=3000 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1286273 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 622 words 1313752 headers 100024 methods 1213724 faults 0 GET 03ec35bc PUT 03eeb654 binds 4 semaphores 10043 flips 2463 traps 3040 (21=2463 5=570 9=6 28=1) runs 0 surfaces 3 clears 7227 swaps 2463 draws 1297478 ff 0 skipped 0 () textures 275 rt uploads 1 blits 3 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.2 ms (max 26.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=10183 verts=2365020 mergeable=0 (not: strip 1140 idx 7620 state 1423 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2189 set1=8608 pc=8844 vi=873 vb=6363 vp=97 sc=454 dyn=3014 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1296456 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3048 sysops 5310 (int 928, of them ticks 202; hook 0) schedules 2071 switches 1913 idle 129 slices 31 page faults 0 mmio 6768 apu waits 0 vm pages +0 -0 isr irq1:532 (max 0.3 ms) irq3:131 (max 0.1 ms) irq5:2 (max 0.0 ms) | dpc max wait 0.2 run 0.5 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 4220 KiB, contiguous 54728 KiB (39 blocks), virtual 4896 KiB, kernel pool 153 of 192 KiB (Ex 969, objects 5, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-pb: kicks 598 words 1314849 headers 100378 methods 1214468 faults 0 GET 03edff84 PUT 03e08430 binds 4 semaphores 10285 flips 2523 traps 3112 (21=2523 5=582 9=6 28=1) runs 0 surfaces 3 clears 7407 swaps 2523 draws 1307698 ff 0 skipped 0 () textures 275 rt uploads 1 blits 3 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.2 ms (max 26.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=10220 verts=2369460 mergeable=0 (not: strip 1140 idx 7620 state 1460 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2188 set1=8640 pc=8880 vi=874 vb=6403 vp=100 sc=455 dyn=3052 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1306676 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #51 frame 2576: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +33.9 write +33.9 ready +34.1 flip +50.0 front +50.0 shown +59.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 582 words 1314844 headers 100372 methods 1214468 faults 0 GET 03e00e18 PUT 03e245d0 binds 4 semaphores 10527 flips 2583 traps 3178 (21=2583 5=588 9=6 28=1) runs 0 surfaces 3 clears 7587 swaps 2583 draws 1317918 ff 0 skipped 0 () textures 275 rt uploads 1 blits 3 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.3 ms (max 26.7, 58 frames)",
+   "hakuX-hle-emit: per s: draws=10220 verts=2369460 mergeable=0 (not: strip 1140 idx 7620 state 1460 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2186 set1=8664 pc=8888 vi=871 vb=6458 vp=92 sc=450 dyn=2928 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1316896 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=145974 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 47512 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=110 misses=20",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 31 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -19.0,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.95,
+  "rms_dbfs_per_2s": [
+   -32.9,
+   -30.7,
+   -28.4,
+   -30.2,
+   -31.5,
+   -27.6,
+   -27.1,
+   -26.5,
+   -30.3,
+   -26.7,
+   -26.7,
+   -26.8,
+   -27.0,
+   -30.0,
+   -23.6,
+   -19.0,
+   -19.0,
+   -32.5,
+   -39.3,
+   -37.3,
+   -37.1,
+   -36.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

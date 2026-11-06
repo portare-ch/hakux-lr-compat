@@ -1,0 +1,11 @@
+{
+ "_help": "Runs whose audio recordings are not usable, from 'from' (inclusive) to 'to' (exclusive, null: open). compat.py ingest drops their audio figures and recording and says why.",
+ "windows": [
+  {
+   "run_id": "amd64-linux-20261105-0.19.1-ingame",
+   "from": "2026-11-05T16:09:00+01:00",
+   "to": "2026-11-05T17:02:00+01:00",
+   "why": "not usable: recorded while several games ran in parallel, and the recording mixed their sound"
+  }
+ ]
+}

@@ -1,0 +1,478 @@
+{
+ "game_file": "Street Fighter Anniversary Collection (U) (En,Ja).chd",
+ "game_size": 3424247555,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:30:03+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.01,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.5,
+   "bytes": 116537
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 23.3,
+   "bytes": 1412151
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.5,
+   "bytes": 326096
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (U) (En,Ja),crc32=81cf7587"
+  ],
+  [
+   46.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\sf33rd.xbe (launch type 4294967295)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.1,
+   59.8,
+   59.8,
+   60.0,
+   48.1,
+   59.8,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 26.5, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7057 verts=28228 mergeable=0 (not: strip 7057 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=299 set1=7057 pc=418 vi=239 vb=179 vp=60 sc=60 dyn=1020 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=115967 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1165 words 924200 headers 204083 methods 720096 faults 0 GET 03fe9714 PUT 03fe9714 binds 5 semaphores 9551 flips 1059 traps 1066 (21=1059 9=6 28=1) runs 0 surfaces 5 clears 3166 swaps 1059 draws 123063 ff 0 skipped 0 () textures 929 rt uploads 2 blits 0 m2mf 0 copies skipped 0 vi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7095 verts=28380 mergeable=0 (not: strip 7095 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=303 set1=7095 pc=423 vi=243 vb=183 vp=64 sc=64 dyn=1080 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=123062 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1149 words 924042 headers 204011 methods 720016 faults 0 GET 03fe1eb0 PUT 03fe1eb0 binds 5 semaphores 10123 flips 1119 traps 1126 (21=1119 9=6 28=1) runs 0 surfaces 5 clears 3346 swaps 1119 draws 130150 ff 0 skipped 0 () textures 989 rt uploads 2 blits 0 m2mf 0 copies skipped 0 v",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7087 verts=28348 mergeable=0 (not: strip 7087 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=304 set1=7087 pc=425 vi=244 vb=184 vp=64 sc=64 dyn=1080 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=130149 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 7399 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fcc000, intr 00000004/80000073",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-disp: stats: 60.0 new frames/s, age front to taken 8.21 ms (max 10.88), gap 16.67 ms (max 19.59, 0 over 25 ms)",
+   "hakuX-hle-hitch: stutter #6 frame 1147: front 50.1 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +33.9 write +33.9 ready +34.1 flip +50.1 front +50.1 shown +60.1 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 1165 words 922135 headers 203488 methods 718624 faults 0 GET 03fd86f0 PUT 03fd86f0 binds 5 semaphores 10694 flips 1179 traps 1186 (21=1179 9=6 28=1) runs 0 surfaces 5 clears 3526 swaps 1179 draws 137203 ff 0 skipped 0 () textures 1048 rt uploads 2 blits 0 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.0, 58 frames)",
+   "hakuX-hle-emit: per s: draws=7053 verts=28212 mergeable=0 (not: strip 7053 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=302 set1=7053 pc=420 vi=242 vb=183 vp=64 sc=64 dyn=1080 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=137202 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=78927 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12856 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=8 misses=3",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 34 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.5,
+  "first_sound_s": 15.5,
+  "audible_fraction": 0.17,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -35.0,
+   -35.2,
+   -120.0,
+   -32.6,
+   -28.8,
+   -49.1,
+   -29.4,
+   -19.6,
+   -120.0,
+   -19.5,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

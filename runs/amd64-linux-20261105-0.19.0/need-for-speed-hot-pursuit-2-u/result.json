@@ -1,0 +1,477 @@
+{
+ "game_file": "Need for Speed - Hot Pursuit 2 (U).chd",
+ "game_size": 533331475,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:07:40+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.01,
+   "release"
+  ],
+  [
+   45.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.8,
+   "bytes": 520685
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 22.8,
+   "bytes": 550489
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.03,
+   "got_s": 45.5,
+   "bytes": 554037
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Hot Pursuit 2 (U),crc32=6ede24df"
+  ],
+  [
+   46.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   23.8,
+   58.5,
+   58.8,
+   59.4,
+   60.0,
+   60.0,
+   59.2,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 811 words 3394294 headers 557849 methods 2836436 faults 0 GET 00f556a4 PUT 00fb9030 binds 4 semaphores 7864 flips 2281 traps 2718 (21=2280 5=431 9=6 28=1) runs 0 surfaces 4 clears 2879 swaps 2281 draws 158455 ff 0 skipped 151 (draw_empty=151) textures 208 rt uploads 1 blits 0 m2m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.7 ms (max 43.5, 60 frames)",
+   "hakuX-hle-pb: catch-up: 558 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1, a flip stall 557, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 173.8 ms",
+   "hakuX-hle-emit: per s: draws=6080 verts=2349740 mergeable=0 (not: strip 4820 idx 1260 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=977 set1=6080 pc=2768 vi=321 vb=2292 vp=142 sc=679 dyn=2423 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=158339 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2531 sysops 4854 (int 1082, of them ticks 288; hook 0) schedules 2239 switches 2170 idle 5 slices 45 page faults 0 mmio 7379 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.4 ms) irq3:120 (max 0.1 ms) | dpc max wait 0.1 run 0.2 ms, 0 over 8 ms | holds 274 (longest 0.",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 78 (pages 03cbf000:384) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 3876 KiB, contiguous 57248 KiB (43 blocks), virtual 2624 KiB, kernel pool 122 of 128 KiB (Ex 533, objects 6, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 807 words 3394021 headers 557774 methods 2836244 faults 0 GET 01071ed0 PUT 010d5a64 binds 4 semaphores 8167 flips 2341 traps 2778 (21=2340 5=431 9=6 28=1) runs 0 surfaces 4 clears 2999 swaps 2341 draws 164531 ff 0 skipped 151 (draw_empty=151) textures 208 rt uploads 1 blits 0 m2m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.7 ms (max 43.5, 60 frames)",
+   "hakuX-hle-pb: catch-up: 611 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1, a flip stall 610, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 190.3 ms",
+   "hakuX-hle-emit: per s: draws=6076 verts=2349724 mergeable=0 (not: strip 4816 idx 1260 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=978 set1=6076 pc=2773 vi=322 vb=2295 vp=144 sc=682 dyn=2452 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=164415 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #12 frame 2401: front 49.9 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.5 write +17.5 ready +17.8 flip +49.9 front +49.9 shown +59.6 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 809 words 3394668 headers 557938 methods 2836724 faults 0 GET 00f94d7c PUT 00ff8704 binds 4 semaphores 8474 flips 2401 traps 2838 (21=2400 5=431 9=6 28=1) runs 0 surfaces 4 clears 3119 swaps 2401 draws 170617 ff 0 skipped 151 (draw_empty=151) textures 208 rt uploads 1 blits 0 m2m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.8 ms (max 43.4, 58 frames)",
+   "hakuX-hle-pb: catch-up: 664 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1, a flip stall 663, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 205.3 ms",
+   "hakuX-hle-emit: per s: draws=6086 verts=2349764 mergeable=0 (not: strip 4826 idx 1260 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=980 set1=6086 pc=2772 vi=323 vb=2295 vp=144 sc=682 dyn=2453 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=170501 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=123571 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 18664 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=14 misses=11",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 51 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -20.1,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.54,
+  "rms_dbfs_per_2s": [
+   -62.3,
+   -20.1,
+   -49.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -37.4,
+   -33.3,
+   -120.0,
+   -34.3,
+   -40.6,
+   -31.9,
+   -35.5,
+   -41.4,
+   -40.5,
+   -32.7,
+   -28.2,
+   -22.5,
+   -29.7,
+   -29.9,
+   -29.4,
+   -29.9,
+   -29.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

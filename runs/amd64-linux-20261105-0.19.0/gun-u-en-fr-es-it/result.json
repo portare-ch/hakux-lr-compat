@@ -1,0 +1,482 @@
+{
+ "game_file": "Gun (U) (En,Fr,Es,It).chd",
+ "game_size": 1335984463,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:57:54+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 183833
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1376983
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.5,
+   "bytes": 1616343
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Gun (U) (En,Fr,Es,It),crc32=cd8495ca"
+  ],
+  [
+   47.5,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.4,
+   29.8,
+   24.1,
+   30.0,
+   29.0,
+   28.1,
+   29.3,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: targets' images landed 833, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=35530 verts=1788558 mergeable=0 (not: strip 8730 idx 26800 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=2060 set1=26905 pc=6757 vi=954 vb=35006 vp=240 sc=240 dyn=5699 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=736127 prog_fog=735756 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2285 sysops 4228 (int 660, of them ticks 38; hook 0) schedules 1886 switches 1355 idle 494 slices 0 page faults 0 mmio 8369 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.6 ms) irq3:120 (max 0.7 ms) irq5:2 (max 0.1 ms) | dpc max wait 0.6 run 0.8 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 9376 (pages 00adb000:192 00b1b000:192 00b5b000:192 00a64000:192 00aa4000:192 00ae4000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 6252 KiB, contiguous 53044 KiB (37 blocks), virtual 4620 KiB, kernel pool 40 of 64 KiB (Ex 907, objects 32, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 1027 words 2650942 headers 400490 methods 2250432 faults 0 GET 01183574 PUT 011ecc40 binds 5 semaphores 15492 flips 1286 traps 2137 (41=862 5=844 21=424 9=6 28=1) runs 0 surfaces 12 clears 1282 swaps 1286 draws 772265 ff 159204 skipped 856 (draw_empty=856) textures 683 rt uploads",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.0 ms (max 58.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 4527 stores waited for the decoder (caught up 4; it waited on the guest at a trap 0, a flip stall 4523, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 35.2 ms",
+   "hakuX-hle-pb: targets' images landed 863, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=35454 verts=1786734 mergeable=0 (not: strip 8730 idx 26724 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=2058 set1=26906 pc=6702 vi=951 vb=34939 vp=240 sc=240 dyn=5704 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=771581 prog_fog=771210 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-hle-pb: kicks 1042 words 2650904 headers 400494 methods 2250408 faults 0 GET 011afdb4 PUT 01126ce0 binds 5 semaphores 15938 flips 1316 traps 2197 (41=892 5=874 21=424 9=6 28=1) runs 0 surfaces 12 clears 1312 swaps 1316 draws 807717 ff 166614 skipped 886 (draw_empty=886) textures 683 rt uploads",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.5 ms (max 40.7, 30 frames)",
+   "hakuX-hle-pb: catch-up: 4647 stores waited for the decoder (caught up 4; it waited on the guest at a trap 0, a flip stall 4643, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 36.1 ms",
+   "hakuX-hle-pb: targets' images landed 893, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=35452 verts=1786722 mergeable=0 (not: strip 8730 idx 26722 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 60, contiguous 0 pipe=2060 set1=26901 pc=6705 vi=953 vb=34940 vp=240 sc=240 dyn=5702 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=807033 prog_fog=806662 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2262708 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 155736 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=207 misses=66",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 41 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 45.7,
+  "peak_rms_dbfs": -18.5,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.51,
+  "rms_dbfs_per_2s": [
+   -34.4,
+   -31.4,
+   -26.3,
+   -18.5,
+   -28.8,
+   -57.0,
+   -51.3,
+   -54.5,
+   -39.3,
+   -37.9,
+   -34.5,
+   -34.6,
+   -69.2,
+   -93.3,
+   -93.3,
+   -93.3,
+   -43.3,
+   -46.8,
+   -44.2,
+   -47.2,
+   -43.2,
+   -38.8,
+   -45.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

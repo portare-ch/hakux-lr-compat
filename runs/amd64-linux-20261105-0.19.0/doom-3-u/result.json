@@ -1,0 +1,478 @@
+{
+ "game_file": "Doom 3 (U).chd",
+ "game_size": 1701693288,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:52:12+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 741930
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 372994
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1040141
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Doom 3 (U),crc32=84e039e2"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   20.7,
+   60.0,
+   60.0,
+   59.4,
+   60.0,
+   59.8,
+   57.6,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1256 (pages 02eca000:320 02ec8000:192 02eea000:192 02ec7000:192 02ee8000:192 02ecc000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 14840 KiB, contiguous 19120 KiB (37 blocks), virtual 30620 KiB, kernel pool 45 of 64 KiB (Ex 164, objects 11, lost 0 KiB, 5 free ranges)",
+   "hakuX-hle-pb: kicks 545 words 267585 headers 61872 methods 205712 faults 0 GET 03d4c870 PUT 03d553bc binds 5 semaphores 5006 flips 2396 traps 2417 (21=2396 5=13 9=6 28=1 8=1) runs 0 surfaces 3 clears 1878 swaps 2396 draws 89585 ff 0 skipped 0 () textures 1029 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.3 ms (max 26.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 1060 stores waited for the decoder (caught up 84; it waited on the guest at a trap 322, a flip stall 643, the FIFO off 0; for arena room 11, the frame pace 0 of its 0 stalls; timed out 0), 148.5 ms",
+   "hakuX-hle-emit: per s: draws=3600 verts=69120 mergeable=0 (not: strip 0 idx 3600 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2221 set1=3600 pc=3001 vi=67 vb=3301 vp=67 sc=67 dyn=1364 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=89584 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #9 frame 2452: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +34.1 write +34.1 ready +34.6 flip +50.0 front +50.0 shown +60.1 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 532 words 267596 headers 61879 methods 205712 faults 0 GET 03d52560 PUT 03d5b088 binds 5 semaphores 5135 flips 2456 traps 2477 (21=2456 5=13 9=6 28=1 8=1) runs 0 surfaces 3 clears 1938 swaps 2456 draws 93185 ff 0 skipped 0 () textures 1059 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.3 ms (max 26.4, 58 frames)",
+   "hakuX-hle-pb: catch-up: 1156 stores waited for the decoder (caught up 84; it waited on the guest at a trap 354, a flip stall 707, the FIFO off 0; for arena room 11, the frame pace 0 of its 0 stalls; timed out 0), 153.0 ms",
+   "hakuX-hle-emit: per s: draws=3600 verts=69120 mergeable=0 (not: strip 0 idx 3600 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2221 set1=3600 pc=3001 vi=72 vb=3302 vp=72 sc=72 dyn=1439 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=93184 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 539 words 267585 headers 61872 methods 205712 faults 0 GET 03d58210 PUT 03d60d3c binds 5 semaphores 5263 flips 2516 traps 2537 (21=2516 5=13 9=6 28=1 8=1) runs 0 surfaces 3 clears 1998 swaps 2516 draws 96785 ff 0 skipped 0 () textures 1089 rt uploads 1 blits 0 m2mf 0 copies skipp",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 24.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 1259 stores waited for the decoder (caught up 84; it waited on the guest at a trap 381, a flip stall 783, the FIFO off 0; for arena room 11, the frame pace 0 of its 0 stalls; timed out 0), 156.0 ms",
+   "hakuX-hle-emit: per s: draws=3600 verts=69120 mergeable=0 (not: strip 0 idx 3600 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2223 set1=3600 pc=3004 vi=72 vb=3302 vp=72 sc=72 dyn=1439 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=96784 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=185221 first_call=PsCreateSystemThreadEx threads=10",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12324 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=27 misses=5",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -11.4,
+  "first_sound_s": 4.0,
+  "audible_fraction": 0.85,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -21.3,
+   -22.1,
+   -20.1,
+   -19.0,
+   -18.8,
+   -18.8,
+   -42.4,
+   -40.8,
+   -40.2,
+   -39.5,
+   -38.2,
+   -37.2,
+   -40.4,
+   -36.3,
+   -22.2,
+   -16.9,
+   -11.8,
+   -12.1,
+   -15.1,
+   -11.7,
+   -11.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

@@ -1,0 +1,3264 @@
+{
+ "game_file": "Outlaw Volleyball (U).chd",
+ "game_size": 1078083839,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:45:54+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Choose Controllers ('Pick teams and positions', from about 30 s) has P1 above the middle of the court, so Start/A don't go on and the unstick B backs out. Left held 400 ms puts P1 on a team, then Start.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "left",
+    400
+   ],
+   [
+    55.2,
+    "tap",
+    "start"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    57.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "left",
+   400
+  ],
+  [
+   55.2,
+   "tap",
+   "start"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w270",
+    "t": 269.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 305.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.03,
+   "tap",
+   "left",
+   400
+  ],
+  [
+   55.24,
+   "tap",
+   "start"
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.66,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ],
+  [
+   170.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   190.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   250.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.03,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 12.0,
+   "bytes": 471132
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 30.8,
+   "bytes": 427422
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 45.3,
+   "bytes": 322462
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.8,
+   "bytes": 440531
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.0,
+   "bytes": 728128
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 90.8,
+   "bytes": 486986
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 113.6,
+   "bytes": 1919108
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 136.4,
+   "bytes": 1711420
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 154.2,
+   "bytes": 1888361
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 174.8,
+   "bytes": 1678671
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 195.2,
+   "bytes": 1448544
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 213.4,
+   "bytes": 1175853
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 235.0,
+   "bytes": 1373726
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 252.6,
+   "bytes": 1630854
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.8,
+   "got_s": 274.2,
+   "bytes": 1477977
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 293.8,
+   "bytes": 1369070
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.0,
+   "got_s": 305.3,
+   "bytes": 1286942
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   158.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   170.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   171.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   178.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   179.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   186.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   187.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   194.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   195.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   202.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   203.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   209.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   210.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   216.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   217.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   222.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   228.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   237.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   244.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   249.7,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   250.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   251.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   257.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   258.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   265.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   268.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   273.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   276.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   279.1,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   282.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   286.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   290.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   293.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   294.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   295.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   296.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   299.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   300.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   301.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   302.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   303.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ],
+  [
+   304.5,
+   "GET_STATUS PLAYING xbox,Outlaw Volleyball (U),crc32=b3e23cf1"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   16.4,
+   40.0,
+   54.0,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   59.8,
+   59.8,
+   14.9,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   58.6,
+   60.0,
+   59.8,
+   59.9,
+   59.7,
+   59.9,
+   59.6,
+   59.9,
+   59.8,
+   59.5
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 4813 words 8303707 headers 575209 methods 7728460 faults 0 GET 03e34f34 PUT 03ee17d4 binds 4 semaphores 506201 flips 16796 traps 30206 (21=16781 5=13397 1=15 9=12 28=1) runs 0 surfaces 14 clears 33429 swaps 16796 draws 3224372 ff 1935927 skipped 0 () textures 2542 rt uploads 4422",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 38.3, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 4402, copies queued behind them 0 (the decoder waited 2), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=11498 verts=6618402 mergeable=0 (not: strip 9398 idx 300 state 1800 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6951 set1=9300 pc=10657 vi=5538 vb=9598 vp=458 sc=458 dyn=8971 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3224238 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 4599 words 7836340 headers 537667 methods 7298640 faults 0 GET 03e20a10 PUT 03ec04f8 binds 4 semaphores 508272 flips 16856 traps 30347 (21=16841 5=13478 1=15 9=12 28=1) runs 0 surfaces 14 clears 33609 swaps 16856 draws 3235526 ff 1942779 skipped 0 () textures 2542 rt uploads 4482",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.0 ms (max 39.3, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 4462, copies queued behind them 0 (the decoder waited 2), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=11154 verts=6502805 mergeable=0 (not: strip 9054 idx 300 state 1800 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6996 set1=8751 pc=10450 vi=5510 vb=9514 vp=445 sc=445 dyn=8728 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3235392 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #162 frame 17134: front 33.5 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 25 ms before | swap -8.0 write -8.0 ready -7.8 flip +33.5 front +33.5 shown +41.1 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 4345 words 7377959 headers 500522 methods 6877418 faults 0 GET 03e4ce34 PUT 03ef09c8 binds 4 semaphores 510212 flips 16915 traps 30492 (21=16900 5=13564 1=15 9=12 28=1) runs 0 surfaces 14 clears 33786 swaps 16915 draws 3245308 ff 1948651 skipped 0 () textures 2542 rt uploads 4541",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.2 ms (max 49.0, 59 frames)",
+   "hakuX-hle-pb: targets' images landed 4521, copies queued behind them 0 (the decoder waited 2), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=9782 verts=6099453 mergeable=0 (not: strip 7717 idx 295 state 1770 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6562 set1=7909 pc=9132 vi=5211 vb=8419 vp=426 sc=426 dyn=8154 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3245174 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=18211811 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 53 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564b082fb780",
+   "[Gamescope WSI] Destroyed swapchain: 0x564b082fb780",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 303.8,
+  "peak_rms_dbfs": -15.4,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.82,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -20.0,
+   -18.2,
+   -18.7,
+   -19.7,
+   -20.8,
+   -25.1,
+   -19.5,
+   -20.9,
+   -20.0,
+   -21.6,
+   -17.9,
+   -20.8,
+   -20.7,
+   -16.2,
+   -23.3,
+   -24.0,
+   -23.1,
+   -22.0,
+   -21.5,
+   -22.4,
+   -21.8,
+   -21.1,
+   -22.1,
+   -22.6,
+   -21.9,
+   -21.4,
+   -20.0,
+   -19.5,
+   -19.8,
+   -23.0,
+   -19.6,
+   -19.1,
+   -19.6,
+   -19.0,
+   -22.2,
+   -19.6,
+   -17.4,
+   -19.6,
+   -15.4,
+   -16.2,
+   -19.3,
+   -17.1,
+   -22.2,
+   -17.7,
+   -22.5,
+   -23.4,
+   -23.1,
+   -23.9,
+   -20.1,
+   -29.7,
+   -19.5,
+   -21.1,
+   -24.3,
+   -19.2,
+   -32.6,
+   -20.6,
+   -21.1,
+   -25.3,
+   -21.3,
+   -27.5,
+   -22.2,
+   -21.2,
+   -25.0,
+   -20.2,
+   -31.3,
+   -20.7,
+   -21.2,
+   -25.4,
+   -21.1,
+   -27.1,
+   -21.9,
+   -21.5,
+   -24.5,
+   -20.3,
+   -28.2,
+   -20.3,
+   -21.5,
+   -23.5,
+   -21.8,
+   -26.3,
+   -23.4,
+   -21.4,
+   -25.4,
+   -19.1,
+   -26.6,
+   -19.9,
+   -21.3,
+   -25.4,
+   -20.2,
+   -25.2,
+   -20.5,
+   -20.8,
+   -25.5,
+   -21.1,
+   -25.5,
+   -22.9,
+   -20.7,
+   -22.2,
+   -21.1,
+   -25.2,
+   -21.2,
+   -20.7,
+   -24.6,
+   -18.9,
+   -25.2,
+   -23.6,
+   -21.1,
+   -22.4,
+   -20.3,
+   -24.6,
+   -23.1,
+   -22.1,
+   -24.0,
+   -21.8,
+   -24.9,
+   -22.8,
+   -23.2,
+   -23.8,
+   -21.6,
+   -24.2,
+   -26.7,
+   -23.5,
+   -23.9,
+   -19.4,
+   -23.4,
+   -19.0,
+   -20.1,
+   -22.8,
+   -20.3,
+   -23.4,
+   -20.9,
+   -20.3,
+   -22.0,
+   -21.3,
+   -23.7,
+   -21.8,
+   -22.6,
+   -23.4,
+   -19.9,
+   -23.2,
+   -20.9,
+   -21.6,
+   -23.3,
+   -21.0,
+   -23.3,
+   -21.1,
+   -21.0,
+   -20.8,
+   -22.0,
+   -20.4,
+   -20.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 305.5,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

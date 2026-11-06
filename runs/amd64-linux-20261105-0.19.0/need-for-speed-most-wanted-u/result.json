@@ -1,0 +1,478 @@
+{
+ "game_file": "Need for Speed - Most Wanted (U).chd",
+ "game_size": 2145744847,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:08:29+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.01,
+   "release"
+  ],
+  [
+   45.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.2,
+   "bytes": 981933
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 22.6,
+   "bytes": 159313
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.03,
+   "got_s": 46.0,
+   "bytes": 649244
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Most Wanted (U),crc32=a5d4ca30"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   45.7,
+   58.8,
+   58.2,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 2270 words 5238257 headers 375025 methods 4863212 faults 0 GET 03ffbc94 PUT 03fb1168 binds 5 semaphores 27156 flips 2477 traps 4262 (21=2437 5=1778 41=40 9=6 28=1) runs 0 surfaces 7 clears 2493 swaps 2477 draws 530940 ff 0 skipped 0 () textures 408 rt uploads 6 blits 16 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.3 ms (max 43.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 4705 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 4705, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 36.8 ms",
+   "hakuX-hle-emit: per s: draws=27120 verts=5431446 mergeable=0 (not: strip 13260 idx 13860 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 957, contiguous 0 pipe=2033 set1=25146 pc=7890 vi=416 vb=17598 vp=179 sc=179 dyn=4351 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=530592 prog_fog=528156 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2270 words 5247199 headers 375038 methods 4872124 faults 0 GET 03f8d1b8 PUT 03fe29cc binds 5 semaphores 28175 flips 2537 traps 4382 (21=2497 5=1838 41=40 9=6 28=1) runs 0 surfaces 7 clears 2553 swaps 2537 draws 558060 ff 0 skipped 0 () textures 408 rt uploads 6 blits 16 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.3 ms (max 43.3, 60 frames)",
+   "hakuX-hle-pb: catch-up: 4945 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 4945, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 38.7 ms",
+   "hakuX-hle-emit: per s: draws=27120 verts=5433678 mergeable=0 (not: strip 13260 idx 13860 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 957, contiguous 0 pipe=2026 set1=25145 pc=7890 vi=411 vb=17616 vp=176 sc=176 dyn=4298 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=557712 prog_fog=555216 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-hitch: stutter #23 frame 2587: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.8 write +17.8 ready +18.2 flip +50.0 front +50.0 shown +59.8 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 2283 words 5288287 headers 375087 methods 4913172 faults 0 GET 03fd459c PUT 03f8acb0 binds 5 semaphores 29200 flips 2597 traps 4502 (21=2557 5=1898 41=40 9=6 28=1) runs 0 surfaces 7 clears 2613 swaps 2597 draws 585180 ff 0 skipped 0 () textures 408 rt uploads 6 blits 16 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.2 ms (max 43.1, 58 frames)",
+   "hakuX-hle-pb: catch-up: 5185 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 5185, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 40.6 ms",
+   "hakuX-hle-emit: per s: draws=27120 verts=5443932 mergeable=0 (not: strip 13260 idx 13860 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 957, contiguous 0 pipe=2030 set1=25146 pc=7888 vi=414 vb=17607 vp=178 sc=178 dyn=4330 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=584832 prog_fog=582276 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=182255 first_call=PsCreateSystemThreadEx threads=9",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 28624 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=19 misses=12",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 35 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -23.8,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.79,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -23.8,
+   -37.3,
+   -27.5,
+   -30.9,
+   -25.3,
+   -25.9,
+   -44.1,
+   -29.0,
+   -34.0,
+   -120.0,
+   -35.3,
+   -31.6,
+   -30.8,
+   -28.9,
+   -30.8,
+   -30.0,
+   -30.4,
+   -30.3,
+   -31.1,
+   -30.7,
+   -31.1,
+   -31.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

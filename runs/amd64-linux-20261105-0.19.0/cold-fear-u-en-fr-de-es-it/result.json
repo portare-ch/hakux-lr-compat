@@ -1,0 +1,472 @@
+{
+ "game_file": "Cold Fear (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2347919477,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:45:42+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 216009
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 27317
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.3,
+   "bytes": 27795
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Cold Fear (U) (En,Fr,De,Es,It),crc32=4bcf8d2c"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   53.8,
+   59.0,
+   57.8,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=120 verts=630 mergeable=0 (not: strip 0 idx 120 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=90 set1=60 pc=90 vi=60 vb=90 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3919 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 211 words 22238 headers 5764 methods 16472 faults 0 GET 03e1f6dc PUT 03e1f6dc binds 5 semaphores 3375 flips 1649 traps 1662 (21=851 41=798 9=12 28=1) runs 0 surfaces 3 clears 860 swaps 1649 draws 4040 ff 0 skipped 0 () textures 1 rt uploads 12 blits 1 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 58.3 ms (max 74.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=630 mergeable=0 (not: strip 0 idx 120 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=90 set1=60 pc=90 vi=60 vb=90 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4039 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 212 words 22246 headers 5768 methods 16472 faults 0 GET 03e35274 PUT 03e35274 binds 5 semaphores 3437 flips 1679 traps 1692 (21=851 41=828 9=12 28=1) runs 0 surfaces 3 clears 860 swaps 1679 draws 4160 ff 0 skipped 0 () textures 1 rt uploads 12 blits 1 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 58.3 ms (max 74.2, 30 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=630 mergeable=0 (not: strip 0 idx 120 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=90 set1=60 pc=90 vi=60 vb=90 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4159 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 211 words 22238 headers 5764 methods 16472 faults 0 GET 03e4adec PUT 03e4adec binds 5 semaphores 3498 flips 1709 traps 1722 (41=858 21=851 9=12 28=1) runs 0 surfaces 3 clears 860 swaps 1709 draws 4280 ff 0 skipped 0 () textures 1 rt uploads 12 blits 1 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.7 ms (max 60.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=630 mergeable=0 (not: strip 0 idx 120 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=90 set1=60 pc=90 vi=60 vb=90 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4279 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #8 frame 1739: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 69 ms apart) | swap +17.2 write +17.2 ready +17.6 flip +66.7 front +66.7 shown +76.9 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms)",
+   "hakuX-hle-pb: kicks 212 words 22246 headers 5768 methods 16488 faults 0 GET 03e60984 PUT 03e60984 binds 5 semaphores 3560 flips 1739 traps 1752 (41=888 21=851 9=12 28=1) runs 0 surfaces 3 clears 860 swaps 1739 draws 4400 ff 0 skipped 0 () textures 1 rt uploads 12 blits 1 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.7 ms (max 60.6, 29 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=630 mergeable=0 (not: strip 0 idx 120 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=90 set1=60 pc=90 vi=60 vb=90 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4399 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2861847 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 8496 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=8 misses=5",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 36 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 43.7,
+  "peak_rms_dbfs": -23.0,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.26,
+  "rms_dbfs_per_2s": [
+   -26.4,
+   -23.5,
+   -23.0,
+   -23.6,
+   -25.3,
+   -40.2,
+   -37.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

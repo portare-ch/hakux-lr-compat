@@ -1,0 +1,477 @@
+{
+ "game_file": "Psi-Ops - The Mindgate Conspiracy (U).chd",
+ "game_size": 2438190117,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:20:17+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 295163
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 1456735
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.5,
+   "bytes": 215268
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Psi-Ops - The Mindgate Conspiracy (U),crc32=bda5aa86"
+  ],
+  [
+   46.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.4,
+   57.0,
+   57.0,
+   44.9,
+   60.0,
+   52.6,
+   46.7,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4512 (pages 02c36000:320 02c76000:320 02b8a000:320 02bca000:320 02c0a000:320 02c4a000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7060 KiB, contiguous 27220 KiB (69 blocks), virtual 27676 KiB, kernel pool 235 of 256 KiB (Ex 2747, objects 13, lost 0 KiB, 17 free ranges)",
+   "hakuX-hle-pb: kicks 422 words 14176 headers 3128 methods 11040 faults 0 GET 03ddda34 PUT 03ddda34 binds 5 semaphores 54298 flips 2265 traps 2272 (21=2265 9=6 28=1) runs 0 surfaces 6 clears 2274 swaps 2265 draws 53547 ff 50352 skipped 0 () textures 902 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.9 ms (max 24.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=53384 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 421 words 14168 headers 3124 methods 11040 faults 0 GET 03deb794 PUT 03deb794 binds 5 semaphores 54419 flips 2325 traps 2332 (21=2325 9=6 28=1) runs 0 surfaces 6 clears 2334 swaps 2325 draws 53607 ff 50352 skipped 0 () textures 932 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.7 ms (max 24.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=53444 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 422 words 14177 headers 3128 methods 11056 faults 0 GET 03d79710 PUT 03d79710 binds 5 semaphores 54541 flips 2385 traps 2392 (21=2385 9=6 28=1) runs 0 surfaces 6 clears 2394 swaps 2385 draws 53667 ff 50352 skipped 0 () textures 962 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.8 ms (max 24.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=53504 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #30 frame 2441: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +36.1 write +36.1 ready +36.5 flip +50.0 front +50.0 shown +59.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 422 words 14176 headers 3128 methods 11040 faults 0 GET 03d87490 PUT 03d87490 binds 5 semaphores 54663 flips 2445 traps 2452 (21=2445 9=6 28=1) runs 0 surfaces 6 clears 2454 swaps 2445 draws 53727 ff 50352 skipped 0 () textures 992 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.8 ms (max 24.8, 58 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=240 mergeable=0 (not: strip 60 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=53564 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1999852 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 24984 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=14 misses=13",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 58 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -17.6,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.61,
+  "rms_dbfs_per_2s": [
+   -22.1,
+   -19.0,
+   -17.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -54.9,
+   -35.5,
+   -32.7,
+   -32.4,
+   -34.0,
+   -43.1,
+   -40.2,
+   -39.3,
+   -40.9,
+   -30.0,
+   -38.4,
+   -38.8,
+   -33.6,
+   -23.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

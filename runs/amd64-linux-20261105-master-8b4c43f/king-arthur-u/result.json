@@ -1,0 +1,3222 @@
+{
+ "game_file": "King Arthur (U).chd",
+ "game_size": 1549753954,
+ "system": "amd64-linux",
+ "started": "2026-11-05T23:10:20+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w190",
+    "t": 189.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w250",
+    "t": 249.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w270",
+    "t": 269.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w290",
+    "t": 289.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 302.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.85,
+   "watch",
+   "w130"
+  ],
+  [
+   130.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   170.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.85,
+   "watch",
+   "w250"
+  ],
+  [
+   250.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.82,
+   "watch",
+   "w270"
+  ],
+  [
+   270.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.02,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.8,
+   "bytes": 255525
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.8,
+   "bytes": 819331
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.4,
+   "bytes": 814630
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.6,
+   "bytes": 815153
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 71.8,
+   "bytes": 814384
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.8,
+   "got_s": 91.6,
+   "bytes": 811223
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 111.8,
+   "bytes": 818235
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.85,
+   "got_s": 131.9,
+   "bytes": 819540
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 151.8,
+   "bytes": 815137
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 171.6,
+   "bytes": 814265
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.8,
+   "got_s": 191.8,
+   "bytes": 811216
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 211.8,
+   "bytes": 818278
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 231.6,
+   "bytes": 819595
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.85,
+   "got_s": 251.7,
+   "bytes": 814877
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.82,
+   "got_s": 271.6,
+   "bytes": 814381
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.8,
+   "got_s": 291.6,
+   "bytes": 811102
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 302.0,
+   "bytes": 815093
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   52.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   58.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   161.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   165.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   167.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   172.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   173.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   174.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   176.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   177.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   178.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   179.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   180.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   181.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   183.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   184.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   185.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   186.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   187.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   188.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   189.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   190.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   191.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   192.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   193.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   194.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   195.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   196.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   197.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   199.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   200.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   201.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   205.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   206.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   207.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   208.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   211.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   212.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   213.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   214.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   217.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   218.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   219.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   220.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   221.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   222.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   223.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   224.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   225.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   226.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   227.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   228.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   229.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   230.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   231.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   232.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   233.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   234.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   235.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   236.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   237.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   238.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   239.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   240.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   241.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   242.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   243.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   244.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   245.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   246.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   247.9,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   249.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   250.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   251.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   252.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   253.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   254.0,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   255.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   256.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   257.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   258.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   259.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   260.1,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   261.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   262.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   263.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   264.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   265.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   266.2,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   267.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   268.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   269.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   270.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   271.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   272.3,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   273.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   274.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   275.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   276.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   277.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   278.4,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   279.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   280.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   281.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   282.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   283.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   284.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   285.5,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   286.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   287.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   288.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   289.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   290.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   291.6,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   292.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   293.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   294.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   295.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   296.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   297.7,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   298.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   299.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   300.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ],
+  [
+   301.8,
+   "GET_STATUS PLAYING xbox,King Arthur (U),crc32=affa639"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.3,
+   59.4,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   58.7,
+   60.0,
+   59.7,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.9,
+   59.8,
+   60.0,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1986824 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-hle-hitch: stutter #44 frame 17926: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.3 write +17.3 ready +17.4 flip +50.0 front +50.0 shown +60.3 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-pb: kicks 532 words 433932 headers 105096 methods 328832 faults 0 GET 00fd9608 PUT 00fe77e8 binds 5 semaphores 51454 flips 17936 traps 19179 (21=17936 5=1236 9=6 28=1) runs 0 surfaces 4 clears 35874 swaps 17936 draws 1993664 ff 0 skipped 0 () textures 385 rt uploads 2 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 43.0, 58 frames)",
+   "hakuX-hle-emit: per s: draws=6840 verts=27360 mergeable=0 (not: strip 6840 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=181 set1=6840 pc=301 vi=61 vb=61 vp=61 sc=61 dyn=1275 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1993664 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 5111 TDs in 10 s, ctl 000000be (lists PCB), hcca 03ffe000, intr 00000004/80000073",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.59 ms each (max 18.02), video 16.46 ms (max 17.93)",
+   "hakuX-hle-pb: kicks 530 words 433925 headers 105092 methods 328832 faults 0 GET 00e81414 PUT 00e8f5f4 binds 5 semaphores 51627 flips 17996 traps 19245 (21=17996 5=1242 9=6 28=1) runs 0 surfaces 4 clears 35994 swaps 17996 draws 2000504 ff 0 skipped 0 () textures 385 rt uploads 2 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 41.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=6840 verts=27360 mergeable=0 (not: strip 6840 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=181 set1=6840 pc=301 vi=61 vb=61 vp=61 sc=61 dyn=1275 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2000504 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 8.19 ms (max 12.32), gap 16.72 ms (max 52.17, 1 over 25 ms)",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=852256 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 61 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5615d97a4980",
+   "[Gamescope WSI] Destroyed swapchain: 0x5615d97a4980",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 301.0,
+  "peak_rms_dbfs": -22.2,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.98,
+  "rms_dbfs_per_2s": [
+   -34.0,
+   -120.0,
+   -120.0,
+   -46.5,
+   -39.3,
+   -24.0,
+   -22.2,
+   -24.9,
+   -24.9,
+   -26.8,
+   -25.0,
+   -25.2,
+   -26.7,
+   -24.4,
+   -25.3,
+   -26.8,
+   -24.6,
+   -24.8,
+   -25.5,
+   -25.6,
+   -28.3,
+   -28.3,
+   -27.4,
+   -27.5,
+   -28.0,
+   -27.1,
+   -26.5,
+   -26.7,
+   -27.5,
+   -26.5,
+   -25.1,
+   -25.4,
+   -24.9,
+   -26.1,
+   -22.8,
+   -23.5,
+   -25.4,
+   -23.0,
+   -24.9,
+   -24.8,
+   -23.0,
+   -23.9,
+   -24.8,
+   -23.8,
+   -24.8,
+   -26.0,
+   -23.3,
+   -23.6,
+   -23.9,
+   -24.0,
+   -25.4,
+   -29.4,
+   -28.0,
+   -28.4,
+   -29.2,
+   -27.7,
+   -28.1,
+   -28.3,
+   -27.7,
+   -29.2,
+   -29.9,
+   -28.8,
+   -28.4,
+   -29.4,
+   -28.8,
+   -28.8,
+   -29.4,
+   -27.1,
+   -25.6,
+   -26.6,
+   -25.0,
+   -25.1,
+   -26.5,
+   -24.3,
+   -25.1,
+   -26.6,
+   -24.7,
+   -24.8,
+   -25.4,
+   -25.6,
+   -28.2,
+   -28.3,
+   -27.2,
+   -27.5,
+   -28.1,
+   -26.9,
+   -26.6,
+   -26.5,
+   -27.5,
+   -26.4,
+   -25.2,
+   -25.3,
+   -24.8,
+   -26.1,
+   -22.5,
+   -23.3,
+   -25.4,
+   -22.8,
+   -24.7,
+   -25.0,
+   -22.7,
+   -23.8,
+   -24.7,
+   -23.6,
+   -24.6,
+   -26.2,
+   -23.0,
+   -23.3,
+   -23.8,
+   -24.1,
+   -25.4,
+   -29.5,
+   -27.6,
+   -28.3,
+   -29.0,
+   -27.5,
+   -28.2,
+   -28.5,
+   -27.6,
+   -29.0,
+   -30.1,
+   -28.5,
+   -28.4,
+   -29.7,
+   -28.6,
+   -28.5,
+   -29.5,
+   -27.1,
+   -25.7,
+   -26.4,
+   -25.2,
+   -25.3,
+   -26.5,
+   -24.6,
+   -25.3,
+   -26.0,
+   -25.1,
+   -25.2,
+   -25.2,
+   -25.6,
+   -28.1,
+   -28.3,
+   -27.3,
+   -27.8,
+   -28.4,
+   -27.0,
+   -26.8,
+   -26.6,
+   -27.5,
+   -26.8,
+   -29.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 302.3,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

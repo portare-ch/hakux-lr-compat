@@ -1,0 +1,3260 @@
+{
+ "game_file": "NHL 07 (U).chd",
+ "game_size": 2535536011,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:42:13+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Choose Teams (from about 30 s) leaves the controller icons in the middle: Start opens 'the game will be entirely computer controlled. Is this what you want?' (Cancel selected) and A cancels it, so the run loops (and the unstick down can pick OK, giving a CPU-only game). Just after a default A it is on Choose Teams: right held 500 ms sides controller 1 with the home team, then Start.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "right",
+    500
+   ],
+   [
+    55.2,
+    "tap",
+    "start"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    57.5
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "right",
+   500
+  ],
+  [
+   55.2,
+   "tap",
+   "start"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.85,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 304.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.02,
+   "tap",
+   "right",
+   500
+  ],
+  [
+   55.22,
+   "tap",
+   "start"
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.83,
+   "watch",
+   "w130"
+  ],
+  [
+   130.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.85,
+   "watch",
+   "w150"
+  ],
+  [
+   150.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.11,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.84,
+   "watch",
+   "w190"
+  ],
+  [
+   190.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.83,
+   "watch",
+   "w270"
+  ],
+  [
+   270.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.03,
+   "release"
+  ],
+  [
+   300.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 13.4,
+   "bytes": 1336939
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 33.6,
+   "bytes": 1482551
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 48.8,
+   "bytes": 1031590
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 53.6,
+   "bytes": 1487816
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.4,
+   "bytes": 1487816
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 93.6,
+   "bytes": 1487816
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 113.6,
+   "bytes": 1487816
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.83,
+   "got_s": 133.6,
+   "bytes": 1487816
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.85,
+   "got_s": 154.0,
+   "bytes": 1487816
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 173.8,
+   "bytes": 1487816
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.84,
+   "got_s": 193.6,
+   "bytes": 1487816
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 213.8,
+   "bytes": 1487816
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 234.2,
+   "bytes": 1487816
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.8,
+   "got_s": 253.8,
+   "bytes": 1487816
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.83,
+   "got_s": 273.4,
+   "bytes": 1487816
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.8,
+   "got_s": 293.6,
+   "bytes": 1487816
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.02,
+   "got_s": 304.0,
+   "bytes": 1031590
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   162.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   168.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   169.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   176.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   181.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   182.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   190.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   195.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   196.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   198.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   202.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   203.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   204.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   206.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   209.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   211.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   212.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   213.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   214.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   216.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   217.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   218.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   219.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   220.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   221.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   222.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   223.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   224.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   225.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   226.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   227.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   230.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   231.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   232.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   233.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   234.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   239.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   240.5,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   245.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   246.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   247.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   248.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   249.6,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   251.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   252.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   253.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   254.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   255.7,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   257.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   258.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   259.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   260.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   261.8,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   264.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   265.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   266.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   267.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   268.9,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   273.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   274.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   275.0,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   276.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   279.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   280.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   281.1,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   282.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   286.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   287.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   288.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   289.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   290.2,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   293.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   294.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   295.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   296.3,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   299.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   300.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   301.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   302.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ],
+  [
+   303.4,
+   "GET_STATUS PLAYING xbox,NHL 07 (U),crc32=272fd93c"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55460.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   49.1,
+   59.1,
+   59.7,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.2,
+   59.2,
+   59.9,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 509 words 569053 headers 161616 methods 407440 faults 0 GET 00f091b4 PUT 00f1b9e4 binds 5 semaphores 38197 flips 17946 traps 25767 (21=17946 5=7814 9=6 28=1) runs 0 surfaces 3 clears 17760 swaps 17946 draws 1230467 ff 0 skipped 0 () textures 308 rt uploads 2 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.2 ms (max 25.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 463 stores waited for the decoder (caught up 0; it waited on the guest at a trap 343, a flip stall 120, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 44.0 ms",
+   "hakuX-hle-emit: per s: draws=4680 verts=22080 mergeable=0 (not: strip 3000 idx 0 state 1680 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=186 set1=4680 pc=4260 vi=66 vb=4680 vp=66 sc=66 dyn=2368 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1230462 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 525 words 569053 headers 161616 methods 407440 faults 0 GET 00f35498 PUT 00f47cc8 binds 5 semaphores 38326 flips 18006 traps 25856 (21=18006 5=7843 9=6 28=1) runs 0 surfaces 3 clears 17820 swaps 18006 draws 1235147 ff 0 skipped 0 () textures 308 rt uploads 2 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.6 ms (max 24.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=4680 verts=22080 mergeable=0 (not: strip 3000 idx 0 state 1680 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=185 set1=4680 pc=4261 vi=66 vb=4680 vp=66 sc=66 dyn=2368 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1235142 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 522 words 569045 headers 161612 methods 407424 faults 0 GET 00f617e8 PUT 00f74038 binds 5 semaphores 38454 flips 18066 traps 25944 (21=18066 5=7871 9=6 28=1) runs 0 surfaces 3 clears 17880 swaps 18066 draws 1239827 ff 0 skipped 0 () textures 308 rt uploads 2 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.2 ms (max 24.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=4680 verts=22080 mergeable=0 (not: strip 3000 idx 0 state 1680 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=185 set1=4680 pc=4260 vi=65 vb=4680 vp=65 sc=65 dyn=2353 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1239822 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3027 sysops 5164 (int 856, of them ticks 158; hook 0) schedules 2170 switches 1848 idle 277 slices 3 page faults 0 mmio 6369 apu waits 0 vm pages +0 -0 isr irq1:499 (max 3.6 ms) irq3:141 (max 1.7 ms) | dpc max wait 1.0 run 1.0 ms, 0 over 8 ms | holds 10 (longest 0.3",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 469 (pages 01b90000:512 01fc8000:512 01bb7000:448 01bba000:448 01b4a000:256 01a7f000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 392 KiB, contiguous 54460 KiB (24 blocks), virtual 9392 KiB, kernel pool 107 of 128 KiB (Ex 530, objects 5, lost 0 KiB, 3 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=931717 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 41 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55d33d279910",
+   "[Gamescope WSI] Destroyed swapchain: 0x55d33d279910",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 302.8,
+  "peak_rms_dbfs": -19.3,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.93,
+  "rms_dbfs_per_2s": [
+   -26.3,
+   -27.1,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -30.4,
+   -21.6,
+   -25.3,
+   -27.3,
+   -28.0,
+   -23.9,
+   -27.1,
+   -24.0,
+   -24.7,
+   -24.8,
+   -26.6,
+   -25.1,
+   -23.6,
+   -26.0,
+   -26.3,
+   -25.8,
+   -25.4,
+   -23.5,
+   -24.7,
+   -27.8,
+   -28.1,
+   -27.1,
+   -23.9,
+   -24.4,
+   -26.2,
+   -25.9,
+   -24.0,
+   -21.9,
+   -24.3,
+   -25.6,
+   -26.7,
+   -24.8,
+   -22.3,
+   -23.0,
+   -22.0,
+   -22.4,
+   -21.9,
+   -20.7,
+   -21.1,
+   -22.0,
+   -21.7,
+   -21.6,
+   -20.5,
+   -21.6,
+   -22.4,
+   -22.4,
+   -23.1,
+   -21.2,
+   -22.4,
+   -23.0,
+   -22.5,
+   -22.8,
+   -21.2,
+   -22.5,
+   -21.8,
+   -21.8,
+   -21.4,
+   -20.5,
+   -20.7,
+   -20.9,
+   -21.2,
+   -21.3,
+   -20.3,
+   -20.7,
+   -21.0,
+   -25.3,
+   -25.3,
+   -22.8,
+   -24.4,
+   -20.8,
+   -19.9,
+   -20.3,
+   -19.9,
+   -20.8,
+   -20.4,
+   -20.7,
+   -20.1,
+   -20.2,
+   -20.7,
+   -20.9,
+   -20.5,
+   -20.7,
+   -20.9,
+   -20.9,
+   -20.7,
+   -20.4,
+   -20.9,
+   -20.2,
+   -20.8,
+   -19.8,
+   -20.6,
+   -20.8,
+   -20.0,
+   -20.8,
+   -20.0,
+   -20.9,
+   -21.7,
+   -20.2,
+   -20.6,
+   -20.0,
+   -20.2,
+   -20.8,
+   -19.8,
+   -20.7,
+   -20.4,
+   -20.2,
+   -20.5,
+   -19.5,
+   -20.6,
+   -20.1,
+   -20.6,
+   -20.6,
+   -19.3,
+   -20.3,
+   -20.4,
+   -20.2,
+   -20.5,
+   -19.7,
+   -19.6,
+   -20.3,
+   -19.7,
+   -30.3,
+   -26.1,
+   -41.7,
+   -31.3,
+   -79.3,
+   -38.8,
+   -25.8,
+   -30.8,
+   -29.3,
+   -31.9,
+   -28.8,
+   -25.5,
+   -31.1,
+   -20.3,
+   -21.5,
+   -21.4,
+   -20.9,
+   -21.4,
+   -21.6,
+   -21.6,
+   -20.2,
+   -28.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 304.3,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

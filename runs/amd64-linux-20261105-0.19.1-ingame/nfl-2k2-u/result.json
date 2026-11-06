@@ -1,0 +1,2270 @@
+{
+ "game_file": "NFL 2K2 (U).chd",
+ "game_size": 1198123366,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:52:06+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Untested copy of the NBA 2K2 override (same 2K main-menu ring, up by about 45 s with nothing highlighted): down, then A, with A taps to the kickoff and the default presses dropped (Start pauses in game).",
+  "extra_steps": [
+   [
+    54.5,
+    "tap",
+    "down"
+   ],
+   [
+    55.1,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    74.5,
+    "tap",
+    "down"
+   ],
+   [
+    75.1,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    54.0,
+    300.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.5,
+   "tap",
+   "down"
+  ],
+  [
+   55.1,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   74.5,
+   "tap",
+   "down"
+  ],
+  [
+   75.1,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.85,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w170",
+    "t": 169.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w210",
+    "t": 209.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 301.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.54,
+   "tap",
+   "down"
+  ],
+  [
+   55.14,
+   "tap",
+   "a"
+  ],
+  [
+   59.05,
+   "tap",
+   "a"
+  ],
+  [
+   63.01,
+   "tap",
+   "a"
+  ],
+  [
+   67.02,
+   "tap",
+   "a"
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   71.14,
+   "tap",
+   "a"
+  ],
+  [
+   74.5,
+   "tap",
+   "down"
+  ],
+  [
+   75.1,
+   "tap",
+   "a"
+  ],
+  [
+   79.02,
+   "tap",
+   "a"
+  ],
+  [
+   83.03,
+   "tap",
+   "a"
+  ],
+  [
+   87.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   91.11,
+   "tap",
+   "a"
+  ],
+  [
+   95.03,
+   "tap",
+   "a"
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   129.85,
+   "watch",
+   "w130"
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   169.83,
+   "watch",
+   "w170"
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   209.84,
+   "watch",
+   "w210"
+  ],
+  [
+   229.83,
+   "watch",
+   "w230"
+  ],
+  [
+   249.83,
+   "watch",
+   "w250"
+  ],
+  [
+   269.82,
+   "watch",
+   "w270"
+  ],
+  [
+   289.82,
+   "watch",
+   "w290"
+  ],
+  [
+   295.03,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.0,
+   "bytes": 298236
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 31.2,
+   "bytes": 1332346
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.6,
+   "bytes": 856837
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.8,
+   "bytes": 866278
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.4,
+   "bytes": 394041
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 91.4,
+   "bytes": 403526
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 111.3,
+   "bytes": 396354
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.85,
+   "got_s": 131.5,
+   "bytes": 401033
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 151.3,
+   "bytes": 396473
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.83,
+   "got_s": 171.3,
+   "bytes": 400432
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 191.3,
+   "bytes": 395625
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.84,
+   "got_s": 211.5,
+   "bytes": 400423
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.83,
+   "got_s": 231.3,
+   "bytes": 395917
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.83,
+   "got_s": 251.3,
+   "bytes": 400537
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.82,
+   "got_s": 271.3,
+   "bytes": 396284
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.82,
+   "got_s": 291.5,
+   "bytes": 400142
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 301.5,
+   "bytes": 395522
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   19.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   44.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   52.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   58.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   64.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   76.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   82.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   88.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   94.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   95.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   100.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   101.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   102.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   106.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   107.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   108.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   114.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   120.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   126.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   132.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   138.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   139.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   140.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   144.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   145.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   146.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   151.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   152.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   157.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   158.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   159.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   160.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   163.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   164.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   165.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   166.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   169.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   170.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   171.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   172.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   174.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   175.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   176.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   177.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   178.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   179.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   180.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   181.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   182.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   183.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   184.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   185.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   186.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   187.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   188.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   189.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   190.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   191.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   192.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   193.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   194.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   195.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   196.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   197.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   198.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   199.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   200.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   201.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   202.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   203.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   204.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   205.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   206.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   207.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   208.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   209.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   210.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   211.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   212.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   213.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   214.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   215.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   216.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   217.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   218.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   219.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   220.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   221.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   222.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   223.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   224.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   225.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   226.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   227.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   228.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   229.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   230.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   231.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   232.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   234.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   235.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   236.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   237.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   238.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   239.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   240.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   241.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   242.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   243.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   244.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   245.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   246.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   247.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   248.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   249.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   250.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   251.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   252.2,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   253.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   254.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   255.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   256.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   257.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   258.3,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   259.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   260.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   261.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   262.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   263.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   264.4,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   265.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   266.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   267.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   268.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   269.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   270.5,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   271.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   272.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   273.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   274.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   275.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   276.6,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   277.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   278.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   279.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   280.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   281.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   282.7,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   283.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   284.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   285.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   286.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   287.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   288.8,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   289.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   290.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   291.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   292.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   293.9,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   295.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   296.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   297.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   298.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   299.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   300.0,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ],
+  [
+   301.1,
+   "GET_STATUS PLAYING xbox,NFL 2K2 (U),crc32=2f71b632"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\game.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   54.2,
+   60.0,
+   57.2,
+   59.8,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 986 words 2154421 headers 391637 methods 1762772 faults 0 GET 02e4f124 PUT 02e72250 binds 4 semaphores 67410 flips 16226 traps 48682 (2=16226 7=16225 6=16224 9=6 8=1) runs 0 surfaces 3 clears 16226 swaps 16226 draws 3458123 ff 0 skipped 0 () textures 23 rt uploads 2 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.4 ms (max 25.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=12660 verts=350460 mergeable=0 (not: strip 12660 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=364 set1=12660 pc=664 vi=244 vb=12600 vp=64 sc=64 dyn=1500 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3458083 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 988 words 2154410 headers 391629 methods 1762788 faults 0 GET 02e87378 PUT 02eaa4b4 binds 4 semaphores 67663 flips 16286 traps 48862 (2=16286 7=16285 6=16284 9=6 8=1) runs 0 surfaces 3 clears 16286 swaps 16286 draws 3470783 ff 0 skipped 0 () textures 23 rt uploads 2 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.4 ms (max 25.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=12660 verts=350460 mergeable=0 (not: strip 12660 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=361 set1=12660 pc=661 vi=241 vb=12600 vp=61 sc=61 dyn=1455 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3470743 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-hle-hitch: stutter #18 frame 16292: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +34.7 write +34.7 ready +34.8 flip +50.0 front +50.0 shown +60.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.60 ms each (max 17.33), video 16.45 ms (max 17.16)",
+   "hakuX-hle-pb: kicks 986 words 2154415 headers 391631 methods 1762788 faults 0 GET 02ebf460 PUT 02ee258c binds 4 semaphores 67917 flips 16346 traps 49042 (2=16346 7=16345 6=16344 9=6 8=1) runs 0 surfaces 3 clears 16346 swaps 16346 draws 3483443 ff 0 skipped 0 () textures 23 rt uploads 2 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.9 ms (max 25.7, 58 frames)",
+   "hakuX-hle-emit: per s: draws=12660 verts=350460 mergeable=0 (not: strip 12660 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=372 set1=12660 pc=672 vi=253 vb=12600 vp=74 sc=74 dyn=1647 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3483403 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=6423479 first_call=PsCreateSystemThreadEx threads=24",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 44 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x563c7eb41910",
+   "[Gamescope WSI] Destroyed swapchain: 0x563c7eb41910",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 300.2,
+  "peak_rms_dbfs": -14.9,
+  "first_sound_s": 5.0,
+  "audible_fraction": 0.96,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -14.9,
+   -17.4,
+   -16.6,
+   -17.7,
+   -20.7,
+   -19.3,
+   -17.5,
+   -18.7,
+   -16.6,
+   -21.9,
+   -27.1,
+   -45.2,
+   -27.5,
+   -28.5,
+   -31.7,
+   -34.3,
+   -34.3,
+   -32.9,
+   -26.6,
+   -27.0,
+   -26.0,
+   -26.2,
+   -26.2,
+   -26.0,
+   -25.7,
+   -25.9,
+   -24.5,
+   -26.6,
+   -25.7,
+   -27.5,
+   -26.9,
+   -25.0,
+   -26.2,
+   -25.8,
+   -24.6,
+   -25.5,
+   -25.1,
+   -28.0,
+   -27.6,
+   -27.3,
+   -26.2,
+   -27.6,
+   -27.4,
+   -27.1,
+   -27.2,
+   -26.6,
+   -25.2,
+   -25.3,
+   -26.2,
+   -24.8,
+   -26.3,
+   -26.1,
+   -25.3,
+   -28.0,
+   -26.9,
+   -27.2,
+   -34.7,
+   -29.7,
+   -29.3,
+   -32.9,
+   -29.9,
+   -29.7,
+   -33.1,
+   -30.3,
+   -29.7,
+   -28.5,
+   -29.5,
+   -30.6,
+   -29.8,
+   -29.1,
+   -28.1,
+   -29.1,
+   -28.7,
+   -28.0,
+   -29.6,
+   -29.5,
+   -28.9,
+   -28.1,
+   -28.9,
+   -28.4,
+   -26.7,
+   -25.6,
+   -25.9,
+   -26.6,
+   -25.5,
+   -26.2,
+   -25.9,
+   -26.2,
+   -26.2,
+   -25.8,
+   -25.9,
+   -26.9,
+   -27.7,
+   -26.3,
+   -25.8,
+   -26.5,
+   -25.4,
+   -25.8,
+   -26.6,
+   -25.0,
+   -25.6,
+   -26.1,
+   -25.5,
+   -25.8,
+   -25.4,
+   -27.6,
+   -26.1,
+   -24.8,
+   -31.7,
+   -35.8,
+   -33.5,
+   -30.7,
+   -31.5,
+   -31.6,
+   -33.3,
+   -32.9,
+   -33.0,
+   -30.9,
+   -30.2,
+   -32.8,
+   -30.7,
+   -31.0,
+   -37.8,
+   -33.5,
+   -31.0,
+   -30.8,
+   -32.4,
+   -32.3,
+   -34.0,
+   -30.5,
+   -28.3,
+   -31.6,
+   -30.0,
+   -29.9,
+   -31.7,
+   -30.2,
+   -31.9,
+   -31.9,
+   -29.2,
+   -30.4,
+   -30.1,
+   -29.4,
+   -30.0,
+   -30.2,
+   -29.3,
+   -29.8,
+   -29.9,
+   -30.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 301.8,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

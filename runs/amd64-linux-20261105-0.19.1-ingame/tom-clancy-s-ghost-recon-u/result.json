@@ -1,0 +1,1806 @@
+{
+ "game_file": "Tom Clancy's Ghost Recon (U).chd",
+ "game_size": 616633476,
+ "system": "amd64-linux",
+ "started": "2026-11-05T17:45:44+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "From about 43 s, A on the dossier name entry opens 'overwrite the saved game?' (NO default) and Start dismisses it, so the run loops. YES only goes back to the Dossier screen, where Start/A re-enter SELECT DOSSIER, and on the main menu Start/A just open and close the Start menu. Right+A picks YES, down down A picks the Dossier ACCEPT, then A's go Campaign > New Campaign > Proceed > Briefing Proceed > Auto Assign > GO into the mission.",
+  "extra_steps": [
+   [
+    54.4,
+    "tap",
+    "right"
+   ],
+   [
+    55.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.6,
+    "tap",
+    "down"
+   ],
+   [
+    58.2,
+    "tap",
+    "down"
+   ],
+   [
+    58.8,
+    "tap",
+    "a"
+   ],
+   [
+    62.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    68.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    74.0,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    53.8,
+    91.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.4,
+   "tap",
+   "right"
+  ],
+  [
+   55.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.6,
+   "tap",
+   "down"
+  ],
+  [
+   58.2,
+   "tap",
+   "down"
+  ],
+  [
+   58.8,
+   "tap",
+   "a"
+  ],
+  [
+   62.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   68.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "a"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   74.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.81,
+  "confirmed_by": "w110",
+  "stopped_at_s": 118.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 118.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.45,
+   "tap",
+   "right"
+  ],
+  [
+   55.05,
+   "tap",
+   "a"
+  ],
+  [
+   57.6,
+   "tap",
+   "down"
+  ],
+  [
+   58.21,
+   "tap",
+   "down"
+  ],
+  [
+   58.81,
+   "tap",
+   "a"
+  ],
+  [
+   62.02,
+   "tap",
+   "a"
+  ],
+  [
+   64.02,
+   "tap",
+   "a"
+  ],
+  [
+   66.02,
+   "tap",
+   "a"
+  ],
+  [
+   68.03,
+   "tap",
+   "a"
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.13,
+   "tap",
+   "a"
+  ],
+  [
+   72.04,
+   "tap",
+   "a"
+  ],
+  [
+   74.05,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   93.11,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "held",
+   "start"
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "held",
+   "start"
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "held",
+   "start"
+  ],
+  [
+   113.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.55,
+   "held",
+   "start"
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.8,
+   "bytes": 142707
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.5,
+   "bytes": 208909
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.3,
+   "bytes": 157283
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 50.5,
+   "bytes": 157283
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 70.4,
+   "bytes": 187664
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 93.4,
+   "bytes": 1590734
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 113.4,
+   "bytes": 1596241
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.83,
+   "got_s": 113.4,
+   "bytes": 1596241,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon (U),crc32=43a6784d"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.8,
+   59.6,
+   55.2,
+   59.8,
+   54.5,
+   59.7,
+   55.6,
+   55.1,
+   52.7,
+   57.3,
+   51.6
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #134 frame 6435: front 49.9 ms after the last (expected 33.4), 0 dropped: late swap: -3 ms before its vblank, render + GPU 0 ms | swap +36.3 write +36.4 ready +36.5 flip +49.9 front +49.9 shown +57.4 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #135 frame 6437: front 50.1 ms after the last (expected 33.4), 0 dropped: guest 55 ms: vCPU starved: 21 ms CPU of 55 (host) | swap +42.2 write +42.2 ready +42.3 flip +50.1 front +50.1 shown +57.7 ms (vs the last front) | guest: vCPU cpu 21 ms halted -1% | render cpu 2 run 2 ",
+   "hakuX-hle-hitch: stutter #136 frame 6450: front 50.8 ms after the last (expected 33.4), 0 dropped: guest 51 ms: vCPU starved: 22 ms CPU of 51 (host) | swap +49.3 write +49.3 ready +49.5 flip +50.8 front +50.8 shown +57.9 ms (vs the last front) | guest: vCPU cpu 22 ms halted -1% | render cpu 2 run 1 ",
+   "hakuX-hle-pb: kicks 7811 words 26104644 headers 3433642 methods 22670812 faults 0 GET 03f90d6c PUT 03fbe268 binds 4 semaphores 435761 flips 6456 traps 18056 (5=11593 21=6456 9=6 28=1) runs 0 surfaces 4 clears 6458 swaps 6456 draws 3901164 ff 172678 skipped 0 () textures 56 rt uploads 1 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 34 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.1 ms (max 25.4, 35 frames)",
+   "hakuX-hle-pb: catch-up: 4808 stores waited for the decoder (caught up 4769; it waited on the guest at a trap 39, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 4736.3 ms",
+   "hakuX-hle-emit: per s: draws=54291 verts=10109457 mergeable=0 (not: strip 0 idx 54291 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=14549 set1=54291 pc=18194 vi=985 vb=51769 vp=188 sc=255 dyn=2929 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3897732 prog_fog=3702089 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #137 frame 6473: front 33.9 ms after the last (expected 16.7), 0 dropped: late swap: -5 ms before its vblank, render + GPU 0 ms | swap +21.9 write +21.9 ready +22.0 flip +33.9 front +33.9 shown +41.6 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #138 frame 6475: front 34.5 ms after the last (expected 16.7), 0 dropped: guest 31 ms: vCPU starved: 13 ms CPU of 31 (host) | swap +30.7 write +30.7 ready +32.3 flip +34.5 front +34.5 shown +41.5 ms (vs the last front) | guest: vCPU cpu 13 ms halted -1% | render cpu 3 run 3 ",
+   "hakuX-hle-hitch: stutter #139 frame 6476: front 50.4 ms after the last (expected 16.7), 0 dropped: guest 38 ms: vCPU starved: 15 ms CPU of 38 (host) | swap +34.7 write +34.7 ready +34.9 flip +50.4 front +50.4 shown +55.9 ms (vs the last front) | guest: vCPU cpu 15 ms halted -1% | render cpu 2 run 2 ",
+   "hakuX-hle-hitch: stutter #140 frame 6480: front 33.0 ms after the last (expected 16.7), 0 dropped: guest flipped 16 ms after its vblank, ready -0 ms before | swap +16.7 write +16.7 ready +16.8 flip +33.0 front +33.0 shown +40.7 ms (vs the last front)",
+   "hakuX-hle-fps: 49.4 fps (248 frames in 5.02 s)",
+   "hakuX-hle-hitch: stutter #141 frame 6507: front 33.9 ms after the last (expected 16.7), 0 dropped: guest 42 ms: vCPU starved: 17 ms CPU of 42 (host) | swap +22.3 write +22.3 ready +22.5 flip +33.9 front +33.9 shown +41.1 ms (vs the last front) | guest: vCPU cpu 17 ms halted -1% | render cpu 2 run 2 ",
+   "hakuX-hle-hitch: stutter #142 frame 6509: front 34.0 ms after the last (expected 16.7), 0 dropped: late swap: -2 ms before its vblank, render + GPU 0 ms | swap +18.9 write +18.9 ready +19.1 flip +34.0 front +34.0 shown +41.7 ms (vs the last front)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=337146 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 72344 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=54 misses=37",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 50 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55cef5d2e650",
+   "[Gamescope WSI] Destroyed swapchain: 0x55cef5d2e650",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 116.1,
+  "peak_rms_dbfs": -14.4,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.99,
+  "rms_dbfs_per_2s": [
+   -25.9,
+   -24.6,
+   -20.9,
+   -25.1,
+   -25.4,
+   -21.1,
+   -18.7,
+   -17.0,
+   -16.6,
+   -15.1,
+   -18.0,
+   -16.0,
+   -17.9,
+   -17.3,
+   -15.4,
+   -15.1,
+   -16.1,
+   -16.1,
+   -16.9,
+   -17.4,
+   -16.2,
+   -14.9,
+   -15.5,
+   -15.0,
+   -14.9,
+   -17.8,
+   -15.5,
+   -17.9,
+   -15.3,
+   -15.5,
+   -14.4,
+   -15.4,
+   -17.1,
+   -21.4,
+   -19.6,
+   -18.0,
+   -23.5,
+   -28.3,
+   -28.8,
+   -30.2,
+   -29.2,
+   -29.3,
+   -29.0,
+   -29.3,
+   -30.0,
+   -30.3,
+   -29.0,
+   -44.8,
+   -29.6,
+   -29.9,
+   -30.0,
+   -29.2,
+   -31.4,
+   -32.0,
+   -31.4,
+   -31.5,
+   -29.5,
+   -29.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.81 s (judged from screenshots); stopped at 118.2 s and the emulator closed",
+ "duration_s": 118.4,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

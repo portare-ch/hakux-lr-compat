@@ -1,0 +1,478 @@
+{
+ "game_file": "Need for Speed - Underground 2 (U).chd",
+ "game_size": 1926831702,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:09:18+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 281539
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 390971
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 892250
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Need for Speed - Underground 2 (U),crc32=cec62d"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.6,
+   59.8,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=29561 verts=4193984 mergeable=0 (not: strip 12281 idx 17280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1557, contiguous 0 pipe=2511 set1=27765 pc=11714 vi=895 vb=15697 vp=420 sc=420 dyn=4613 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=627759 prog_fog=625217 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1921 words 4262630 headers 383386 methods 3879220 faults 0 GET 03fd3c08 PUT 03f794dc binds 5 semaphores 23754 flips 2603 traps 4483 (21=2603 5=1873 9=6 28=1) runs 0 surfaces 11 clears 3871 swaps 2603 draws 657350 ff 0 skipped 0 () textures 444 rt uploads 8 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.2 ms (max 26.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 1215 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 1215, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 10.9 ms",
+   "hakuX-hle-emit: per s: draws=29561 verts=4193984 mergeable=0 (not: strip 12281 idx 17280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1557, contiguous 0 pipe=2514 set1=27766 pc=11722 vi=898 vb=15697 vp=420 sc=420 dyn=4612 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=657320 prog_fog=654718 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #6 frame 2654: front 49.9 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +34.6 write +34.6 ready +35.0 flip +49.9 front +49.9 shown +59.8 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 1926 words 4262590 headers 383394 methods 3879172 faults 0 GET 03ff1948 PUT 03f9733c binds 5 semaphores 24675 flips 2663 traps 4603 (21=2663 5=1933 9=6 28=1) runs 0 surfaces 11 clears 3991 swaps 2663 draws 686911 ff 0 skipped 0 () textures 444 rt uploads 8 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.3 ms (max 26.0, 58 frames)",
+   "hakuX-hle-pb: catch-up: 1275 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 1275, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 11.4 ms",
+   "hakuX-hle-emit: per s: draws=29561 verts=4193972 mergeable=0 (not: strip 12281 idx 17280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1555, contiguous 0 pipe=2511 set1=27768 pc=11717 vi=895 vb=15702 vp=420 sc=420 dyn=4593 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=686881 prog_fog=684219 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1921 words 4262634 headers 383393 methods 3879220 faults 0 GET 03f73048 PUT 03fb82fc binds 5 semaphores 25595 flips 2723 traps 4723 (21=2723 5=1993 9=6 28=1) runs 0 surfaces 11 clears 4111 swaps 2723 draws 716472 ff 0 skipped 0 () textures 444 rt uploads 8 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.4 ms (max 23.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 1335 stores waited for the decoder (caught up 0; it waited on the guest at a trap 0, a flip stall 1335, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 12.0 ms",
+   "hakuX-hle-emit: per s: draws=29561 verts=4193984 mergeable=0 (not: strip 12281 idx 17280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1553, contiguous 0 pipe=2511 set1=27768 pc=11712 vi=897 vb=15702 vp=420 sc=420 dyn=4610 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=716442 prog_fog=713720 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=248327 first_call=PsCreateSystemThreadEx threads=10",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 46696 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=55 misses=20",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 45 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -18.8,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.94,
+  "rms_dbfs_per_2s": [
+   -30.7,
+   -30.4,
+   -30.2,
+   -29.4,
+   -35.5,
+   -18.8,
+   -20.2,
+   -43.8,
+   -31.9,
+   -28.5,
+   -30.5,
+   -29.7,
+   -30.1,
+   -28.2,
+   -29.9,
+   -30.4,
+   -28.8,
+   -29.6,
+   -29.8,
+   -30.1,
+   -28.5,
+   -29.3,
+   -31.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

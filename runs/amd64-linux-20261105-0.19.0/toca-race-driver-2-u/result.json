@@ -1,0 +1,477 @@
+{
+ "game_file": "TOCA Race Driver 2 (U).chd",
+ "game_size": 2189855751,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:32:29+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 808706
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 431590
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.0,
+   "bytes": 485795
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,TOCA Race Driver 2 (U),crc32=23b1c956"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.5,
+   58.8,
+   59.8,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=64100 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-disp: stats: 60.0 new frames/s, age front to taken 8.21 ms (max 11.18), gap 16.67 ms (max 19.85, 0 over 25 ms)",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-native-stats: per s: kcalls 4095 sysops 7010 (int 1436, of them ticks 113; hook 0) schedules 2797 switches 2252 idle 827 slices 0 page faults 0 mmio 8374 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:137 (max 0.1 ms) irq5:50 (max 0.0 ms) | dpc max wait 0.1 run 0.2 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 5239 (pages 0349c000:2240 034dc000:2240 0351c000:2240 034cc000:1920 0350c000:1920 034bc000:1792) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 19160 KiB, contiguous 11340 KiB (94 blocks), virtual 32560 KiB, kernel pool 31 of 64 KiB (Ex 553, objects 12, lost 0 KiB, 9 free ranges)",
+   "hakuX-hle-pb: kicks 526 words 300086 headers 27192 methods 272896 faults 0 GET 03f89298 PUT 03f92b44 binds 5 semaphores 5394 flips 2448 traps 3237 (21=2448 5=782 9=6 28=1) runs 0 surfaces 3 clears 2451 swaps 2448 draws 66681 ff 0 skipped 0 () textures 1214 rt uploads 1 blits 0 m2mf 0 copies skipped ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.9 ms (max 26.5, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2580 verts=47700 mergeable=0 (not: strip 0 idx 2580 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=248 set1=2520 pc=964 vi=128 vb=1415 vp=128 sc=128 dyn=1140 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=66680 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 525 words 300093 headers 27196 methods 272896 faults 0 GET 03fee4cc PUT 03ff7d58 binds 5 semaphores 5533 flips 2508 traps 3326 (21=2508 5=811 9=6 28=1) runs 0 surfaces 3 clears 2511 swaps 2508 draws 69261 ff 0 skipped 0 () textures 1244 rt uploads 1 blits 0 m2mf 0 copies skipped ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.9 ms (max 26.5, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2580 verts=47700 mergeable=0 (not: strip 0 idx 2580 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=243 set1=2522 pc=961 vi=124 vb=1413 vp=124 sc=124 dyn=1080 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=69260 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #7 frame 2558: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +33.8 write +33.8 ready +34.0 flip +50.0 front +50.0 shown +59.7 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 522 words 304646 headers 27520 methods 277116 faults 0 GET 03f97f50 PUT 03f9d09c binds 5 semaphores 5672 flips 2568 traps 3415 (21=2569 5=839 9=6 28=1) runs 0 surfaces 3 clears 2571 swaps 2568 draws 71883 ff 0 skipped 0 () textures 1275 rt uploads 1 blits 0 m2mf 0 copies skipped ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.9 ms (max 26.5, 58 frames)",
+   "hakuX-hle-emit: per s: draws=2622 verts=48492 mergeable=0 (not: strip 0 idx 2622 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=249 set1=2561 pc=977 vi=127 vb=1434 vp=127 sc=127 dyn=1112 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=71882 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=205003 first_call=PsCreateSystemThreadEx threads=12",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 11376 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=4 misses=6",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 33 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -17.0,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.87,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -17.0,
+   -20.5,
+   -45.8,
+   -25.1,
+   -21.9,
+   -24.2,
+   -33.4,
+   -32.8,
+   -33.0,
+   -32.8,
+   -32.4,
+   -33.4,
+   -32.8,
+   -34.0,
+   -32.5,
+   -32.7,
+   -32.4,
+   -32.3,
+   -24.9,
+   -24.5,
+   -27.4,
+   -24.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

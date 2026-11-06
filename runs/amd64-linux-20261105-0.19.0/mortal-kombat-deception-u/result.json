@@ -1,0 +1,478 @@
+{
+ "game_file": "Mortal Kombat - Deception (U).chd",
+ "game_size": 3115727659,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:06:52+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 290860
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 514428
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1461307
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Mortal Kombat - Deception (U),crc32=6194081c"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.7,
+   36.7,
+   26.8,
+   58.6,
+   60.0,
+   59.6,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-io: open \\Device\\CdRom0\\art\\scorpion.ssf ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\music_tune_pit.msx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\chess_music.mbx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\chess_music.msx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\chess_bg_the_pit.mbx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\chess_bg_the_pit.msx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\fs_concrete.mbx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\fs_concrete.msx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\art\\misc_anims_list.ssf ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\art\\misc_anims_list.ssf ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\c_scorpion.mbx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\art\\scorpion.ssf ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\c_scorpion.msx ->",
+   "hakuX-hle-pb: kicks 645 words 1069190 headers 78865 methods 990326 faults 0 GET 02e93b68 PUT 02e9b2ac binds 5 semaphores 10367 flips 2447 traps 2466 (21=2447 9=12 5=6 28=1) runs 0 surfaces 8 clears 2448 swaps 2447 draws 204212 ff 7676 skipped 0 () textures 618 rt uploads 6 blits 0 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 41.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=1781 verts=1365098 mergeable=0 (not: strip 1223 idx 558 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1, contiguous 0 pipe=495 set1=1542 pc=1310 vi=369 vb=1689 vp=360 sc=360 dyn=1550 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=204182 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\fighter_scorp.mbx ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\sndsxbox\\fighter_scorp.msx ->",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1885931 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 57824 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=31 misses=26",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 39 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.2,
+  "first_sound_s": 7.0,
+  "audible_fraction": 0.67,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -23.8,
+   -21.3,
+   -31.7,
+   -27.3,
+   -22.4,
+   -120.0,
+   -32.7,
+   -26.0,
+   -20.0,
+   -23.4,
+   -19.2,
+   -23.0,
+   -20.1,
+   -28.4,
+   -25.4,
+   -25.0,
+   -26.9,
+   -26.5,
+   -30.3,
+   -66.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

@@ -1,0 +1,478 @@
+{
+ "game_file": "Star Wars - Republic Commando (U).chd",
+ "game_size": 2057142293,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:29:14+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 499758
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.5,
+   "bytes": 737363
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 634980
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   44.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Republic Commando (U),crc32=9d4c35ef"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   3269.4,
+   4674.6,
+   2428.3,
+   1546.1,
+   1571.7,
+   1563.3,
+   1572.4,
+   1758.8,
+   1763.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=10654 verts=980316 mergeable=0 (not: strip 0 idx 10654 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7102 set1=3551 pc=10654 vi=5326 vb=3551 vp=1775 sc=1775 dyn=31953 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1482493 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 15617 words 5174380 headers 393697 methods 4780626 faults 0 GET 03da9088 PUT 03da9088 binds 10 semaphores 281249 flips 96710 traps 96724 (1=96709 9=12 28=2 21=1) runs 0 surfaces 6 clears 210437 swaps 96710 draws 1493156 ff 1493156 skipped 0 () textures 49085 rt uploads 13 blits 4",
+   "hakuX-hle-pb: frame pace off: 1777 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.8 ms (max 1.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=10658 verts=980388 mergeable=0 (not: strip 0 idx 10658 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7106 set1=3553 pc=10658 vi=5330 vb=3553 vp=1777 sc=1777 dyn=31983 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1493151 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 15441 words 5118073 headers 389235 methods 4728808 faults 0 GET 03dbfbc0 PUT 03dbfc00 binds 10 semaphores 287223 flips 98466 traps 98481 (1=98466 9=12 28=2 21=1) runs 0 surfaces 6 clears 215705 swaps 98466 draws 1503696 ff 1503696 skipped 0 () textures 50842 rt uploads 13 blits 5",
+   "hakuX-hle-pb: frame pace off: 1756 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.8 ms (max 1.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=10540 verts=969828 mergeable=0 (not: strip 0 idx 10540 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7026 set1=3513 pc=10540 vi=5269 vb=3513 vp=1756 sc=1756 dyn=31611 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1503691 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 15472 words 5124853 headers 389929 methods 4734880 faults 0 GET 03d5f350 PUT 03d5f37c binds 10 semaphores 293208 flips 100226 traps 100240 (1=100225 9=12 28=2 21=1) runs 0 surfaces 6 clears 220985 swaps 100226 draws 1514252 ff 1514252 skipped 0 () textures 52601 rt uploads 13 bli",
+   "hakuX-hle-pb: frame pace off: 1760 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.8 ms (max 1.2, 58 frames)",
+   "hakuX-hle-emit: per s: draws=10556 verts=971004 mergeable=0 (not: strip 0 idx 10556 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7038 set1=3519 pc=10556 vi=5279 vb=3519 vp=1760 sc=1760 dyn=31677 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1514247 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 1763.8 fps (8820 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 15397 words 5103516 headers 388131 methods 4715358 faults 0 GET 03d67a38 PUT 03d67a78 binds 10 semaphores 299166 flips 101977 traps 101992 (1=101977 9=12 28=2 21=1) runs 0 surfaces 6 clears 226238 swaps 101977 draws 1524762 ff 1524762 skipped 0 () textures 54353 rt uploads 13 bli",
+   "hakuX-hle-pb: frame pace off: 1751 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.9 ms (max 1.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=10510 verts=967068 mergeable=0 (not: strip 0 idx 10510 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7006 set1=3503 pc=10510 vi=5254 vb=3503 vp=1751 sc=1751 dyn=31521 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1524757 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=725269 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12400 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=2 misses=7",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 51 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -20.1,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -38.2,
+   -25.3,
+   -23.9,
+   -24.0,
+   -22.9,
+   -21.7,
+   -21.1,
+   -20.1,
+   -21.5,
+   -26.9,
+   -21.6,
+   -21.9,
+   -21.2,
+   -25.0,
+   -27.5,
+   -21.9,
+   -28.5,
+   -25.0,
+   -27.3,
+   -26.8,
+   -26.1,
+   -26.8,
+   -23.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

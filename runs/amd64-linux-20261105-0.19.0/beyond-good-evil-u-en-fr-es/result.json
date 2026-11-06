@@ -1,0 +1,477 @@
+{
+ "game_file": "Beyond Good & Evil (U) (En,Fr,Es).chd",
+ "game_size": 1098931744,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:40:02+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.01,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.2,
+   "bytes": 1005633
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 23.5,
+   "bytes": 736340
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 345363
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Beyond Good & Evil (U) (En,Fr,Es),crc32=7720de77"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   56.2,
+   60.0,
+   56.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 2838 words 4121134 headers 669891 methods 3451236 faults 0 GET 03ec6960 PUT 03d4c95c binds 5 semaphores 13675 flips 2589 traps 5179 (21=2588 5=2584 9=6 28=1) runs 0 surfaces 11 clears 10969 swaps 2589 draws 342109 ff 302258 skipped 0 () textures 103 rt uploads 7 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.9 ms (max 43.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 34234 stores waited for the decoder (caught up 1; it waited on the guest at a trap 0, a flip stall 34233, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 364.2 ms",
+   "hakuX-hle-pb: report gate: 973 reads waited for their visibility tests (+30), 8.5 ms in all, 0 given up, 972 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=18210 verts=3038070 mergeable=0 (not: strip 14220 idx 3990 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3497 set1=6193 pc=4745 vi=1526 vb=17971 vp=181 sc=181 dyn=4322 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=341527 prog_fog=74470 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: pipeline 843dd4a777312717 fvf=0x0 vsh=75670391a6b01834 in=20d combiners=1 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-hle-pipe: pipeline f719011b2c92b636 fvf=0x0 vsh=75670391a6b01834 in=20d combiners=1 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-hle-pipe: pipeline 287d0a8e4c2992ac fvf=0x0 vsh=441087f274a94054 in=20d combiners=1 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-hle-pipe: pipeline 7472aea15350c36c fvf=0x0 vsh=752b100b43533531 in=20d combiners=1 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-hle-hitch: stutter #11 frame 2640: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +18.0 write +18.0 ready +18.2 flip +50.0 front +50.0 shown +60.0 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 2831 words 4104018 headers 664809 methods 3439204 faults 0 GET 03e70020 PUT 03ef54bc binds 5 semaphores 14312 flips 2649 traps 5299 (21=2648 5=2644 9=6 28=1) runs 0 surfaces 11 clears 11209 swaps 2649 draws 360262 ff 316391 skipped 0 () textures 103 rt uploads 7 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.0 ms (max 42.8, 58 frames)",
+   "hakuX-hle-pb: catch-up: 35707 stores waited for the decoder (caught up 1; it waited on the guest at a trap 0, a flip stall 35706, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 396.1 ms",
+   "hakuX-hle-pb: report gate: 1003 reads waited for their visibility tests (+30), 8.6 ms in all, 0 given up, 1002 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=18153 verts=3037728 mergeable=0 (not: strip 14220 idx 3933 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3442 set1=6134 pc=4694 vi=1472 vb=17916 vp=183 sc=183 dyn=4133 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=359680 prog_fog=91240 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: per s: cache=4 queued=0 built=0 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=0 | pipelines 174 (prebuilt 0)",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=108672 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 120192 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=404 misses=51",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 51 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -26.6,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -38.6,
+   -30.6,
+   -26.6,
+   -28.0,
+   -26.7,
+   -27.0,
+   -30.2,
+   -29.7,
+   -32.0,
+   -31.2,
+   -29.2,
+   -30.2,
+   -31.7,
+   -30.9,
+   -31.3,
+   -28.9,
+   -30.2,
+   -29.8,
+   -30.5,
+   -30.0,
+   -35.4,
+   -46.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

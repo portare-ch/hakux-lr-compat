@@ -1,0 +1,473 @@
+{
+ "game_file": "Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It).chd",
+ "game_size": 2186414377,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:43:16+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 122989
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 838504
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.3,
+   "bytes": 64088
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It),crc32=b36c063c"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.8,
+   60.0,
+   60.0,
+   60.0,
+   58.4,
+   29.3,
+   39.9,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 42 stores waited for the decoder (caught up 19; it waited on the guest at a trap 23, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1.5 ms",
+   "hakuX-hle-emit: per s: draws=2100 verts=3592200 mergeable=0 (not: strip 1140 idx 930 state 30 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1055 set1=2070 pc=1384 vi=845 vb=1906 vp=217 sc=217 dyn=1869 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=17526 prog_fog=13559 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (150 frames in 5.00 s)",
+   "hakuX-hle-disp: stats: 34.8 new frames/s, age front to taken 8.32 ms (max 10.01), gap 28.70 ms (max 150.23, 243 over 25 ms)",
+   "hakuX-native-usb: ohci: 1473 TDs in 10 s, ctl 000000be (lists PCB), hcca 03f2c000, intr 00000004/80000073",
+   "hakuX-native-stats: per s: kcalls 2618 sysops 5214 (int 1053, of them ticks 229; hook 0) schedules 2346 switches 2244 idle 0 slices 45 page faults 0 mmio 13316 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.0 ms) irq3:258 (max 0.1 ms) irq5:6 (max 0.0 ms) | dpc max wait 0.3 run 0.3 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 300 (pages 009a0000:384 0099b000:320 0099e000:320 00999000:320 0099c000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 732 KiB, contiguous 59224 KiB (26 blocks), virtual 4208 KiB, kernel pool 59 of 64 KiB (Ex 592, objects 9, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 2033 words 2589221 headers 88077 methods 2501120 faults 0 GET 03ff3040 PUT 03ff3088 binds 5 semaphores 3858 flips 377 traps 3614 (9=3236 41=269 21=108 28=1) runs 0 surfaces 6 clears 1181 swaps 377 draws 19626 ff 860 skipped 0 () textures 42 rt uploads 3 blits 1 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.9 ms (max 40.1, 30 frames)",
+   "hakuX-hle-pb: catch-up: 51 stores waited for the decoder (caught up 21; it waited on the guest at a trap 30, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1.8 ms",
+   "hakuX-hle-emit: per s: draws=2100 verts=3592938 mergeable=0 (not: strip 1140 idx 930 state 30 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1056 set1=2070 pc=1383 vi=846 vb=1912 vp=218 sc=218 dyn=1886 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=19626 prog_fog=15269 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2030 words 2589255 headers 88098 methods 2501136 faults 0 GET 03fbbb60 PUT 03fbbba8 binds 5 semaphores 4263 flips 407 traps 4004 (9=3596 41=299 21=108 28=1) runs 0 surfaces 6 clears 1301 swaps 407 draws 21726 ff 860 skipped 0 () textures 42 rt uploads 3 blits 1 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.6 ms (max 57.3, 30 frames)",
+   "hakuX-hle-pb: catch-up: 58 stores waited for the decoder (caught up 28; it waited on the guest at a trap 30, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2.0 ms",
+   "hakuX-hle-emit: per s: draws=2100 verts=3592896 mergeable=0 (not: strip 1140 idx 930 state 30 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1055 set1=2070 pc=1382 vi=845 vb=1909 vp=215 sc=215 dyn=1885 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=21726 prog_fog=16979 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=42616 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 126560 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=111 misses=17",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 39 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 43.7,
+  "peak_rms_dbfs": -23.8,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.67,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -46.4,
+   -26.7,
+   -25.9,
+   -30.6,
+   -28.0,
+   -31.9,
+   -24.8,
+   -23.8,
+   -30.2,
+   -43.5,
+   -40.5,
+   -40.8,
+   -46.0,
+   -33.3,
+   -29.1,
+   -29.8,
+   -29.8,
+   -29.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

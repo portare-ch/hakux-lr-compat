@@ -1,0 +1,477 @@
+{
+ "game_file": "Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko).chd",
+ "game_size": 4621036424,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:19:29+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.4,
+   "bytes": 702700
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 437595
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 525148
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Project Gotham Racing 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=5faa124e"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   28.9,
+   30.3,
+   59.4,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: ram: free 34768 KiB, contiguous 17504 KiB (47 blocks), virtual 11820 KiB, kernel pool 136 of 192 KiB (Ex 621, objects 31, lost 0 KiB, 7 free ranges)",
+   "hakuX-hle-pb: kicks 783 words 1164001 headers 308188 methods 855808 faults 0 GET 03e1e6a4 PUT 03e30d1c binds 5 semaphores 8738 flips 2191 traps 2396 (21=2191 5=198 9=6 28=1) runs 0 surfaces 29 clears 2056 swaps 2192 draws 37109 ff 0 skipped 0 () textures 1100 rt uploads 165 blits 0 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 43.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=1380 verts=188820 mergeable=0 (not: strip 0 idx 1380 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=781 set1=1380 pc=1380 vi=65 vb=65 vp=125 sc=125 dyn=975 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=37091 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 809 words 1164008 headers 308192 methods 855808 faults 0 GET 03e8fa2c PUT 03ea2084 binds 5 semaphores 9061 flips 2251 traps 2472 (21=2251 5=214 9=6 28=1) runs 0 surfaces 29 clears 2116 swaps 2252 draws 38489 ff 0 skipped 0 () textures 1125 rt uploads 165 blits 0 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 43.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=1380 verts=188820 mergeable=0 (not: strip 0 idx 1380 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=783 set1=1380 pc=1380 vi=65 vb=65 vp=125 sc=125 dyn=975 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=38471 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 799 words 1164001 headers 308188 methods 855808 faults 0 GET 03e00f98 PUT 03e135f0 binds 5 semaphores 9383 flips 2311 traps 2549 (21=2311 5=231 9=6 28=1) runs 0 surfaces 29 clears 2176 swaps 2312 draws 39869 ff 0 skipped 0 () textures 1150 rt uploads 165 blits 0 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 43.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=1380 verts=188820 mergeable=0 (not: strip 0 idx 1380 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=784 set1=1380 pc=1380 vi=65 vb=65 vp=125 sc=125 dyn=975 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=39851 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 2364: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.4 write +17.4 ready +17.7 flip +50.0 front +50.0 shown +59.7 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 783 words 1164840 headers 308413 methods 856016 faults 0 GET 03e730dc PUT 03e7e1ec binds 5 semaphores 9707 flips 2371 traps 2619 (21=2371 5=241 9=6 28=1) runs 0 surfaces 29 clears 2237 swaps 2372 draws 41253 ff 0 skipped 0 () textures 1175 rt uploads 165 blits 0 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 43.7, 58 frames)",
+   "hakuX-hle-emit: per s: draws=1386 verts=188919 mergeable=0 (not: strip 0 idx 1386 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=790 set1=1387 pc=1387 vi=67 vb=67 vp=128 sc=128 dyn=1005 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=41238 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1090452 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 21656 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=16 misses=11",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 52 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -22.9,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.98,
+  "rms_dbfs_per_2s": [
+   -24.5,
+   -24.9,
+   -29.8,
+   -24.1,
+   -25.0,
+   -22.9,
+   -29.8,
+   -26.4,
+   -31.0,
+   -26.6,
+   -26.4,
+   -28.4,
+   -26.8,
+   -29.2,
+   -28.1,
+   -29.3,
+   -30.4,
+   -33.9,
+   -27.5,
+   -28.6,
+   -27.9,
+   -28.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

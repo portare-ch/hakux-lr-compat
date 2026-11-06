@@ -1,0 +1,478 @@
+{
+ "game_file": "Star Wars - Battlefront (U).chd",
+ "game_size": 1856135936,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:27:37+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 456680
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1005736
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1178846
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   44.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Battlefront (U),crc32=d4760ef3"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   54.5,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=1200 verts=26280 mergeable=0 (not: strip 0 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=64 set1=1200 pc=1200 vi=244 vb=304 vp=64 sc=64 dyn=960 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=46610 prog_fog=204 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 921 words 104205 headers 21412 methods 82800 faults 0 GET 03e4a5d8 PUT 03e4a620 binds 5 semaphores 10830 flips 2587 traps 2596 (21=2587 9=6 5=2 28=1) runs 0 surfaces 3 clears 7732 swaps 2587 draws 47845 ff 0 skipped 0 () textures 1006 rt uploads 1 blits 0 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 42.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 287 stores waited for the decoder (caught up 287; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 169.2 ms",
+   "hakuX-hle-emit: per s: draws=1200 verts=26280 mergeable=0 (not: strip 0 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=63 set1=1200 pc=1200 vi=243 vb=303 vp=63 sc=63 dyn=945 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=47810 prog_fog=204 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 2634: front 50.1 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +18.9 write +19.0 ready +19.3 flip +50.1 front +50.1 shown +59.8 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 919 words 104197 headers 21408 methods 82784 faults 0 GET 03e1039c PUT 03e103e4 binds 5 semaphores 11082 flips 2647 traps 2656 (21=2647 9=6 5=2 28=1) runs 0 surfaces 3 clears 7912 swaps 2647 draws 49045 ff 0 skipped 0 () textures 1036 rt uploads 1 blits 0 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.7 ms (max 42.2, 58 frames)",
+   "hakuX-hle-pb: catch-up: 294 stores waited for the decoder (caught up 294; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 173.2 ms",
+   "hakuX-hle-emit: per s: draws=1200 verts=26280 mergeable=0 (not: strip 0 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=64 set1=1200 pc=1200 vi=244 vb=304 vp=64 sc=64 dyn=960 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=49010 prog_fog=204 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 922 words 104204 headers 21412 methods 82800 faults 0 GET 03e75fcc PUT 03e76014 binds 5 semaphores 11335 flips 2707 traps 2716 (21=2707 9=6 5=2 28=1) runs 0 surfaces 3 clears 8092 swaps 2707 draws 50245 ff 0 skipped 0 () textures 1066 rt uploads 1 blits 0 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 40.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 303 stores waited for the decoder (caught up 303; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 178.2 ms",
+   "hakuX-hle-emit: per s: draws=1200 verts=26280 mergeable=0 (not: strip 0 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=64 set1=1200 pc=1200 vi=244 vb=304 vp=64 sc=64 dyn=960 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=50210 prog_fog=204 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=204716 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 9728 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=0 misses=10",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -28.2,
+  "first_sound_s": 11.5,
+  "audible_fraction": 0.74,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -44.4,
+   -35.4,
+   -31.9,
+   -34.7,
+   -32.3,
+   -33.2,
+   -31.1,
+   -28.2,
+   -29.5,
+   -32.3,
+   -38.1,
+   -33.8,
+   -39.0,
+   -39.5,
+   -40.6,
+   -35.6,
+   -35.7,
+   -35.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

@@ -1,0 +1,3337 @@
+{
+ "game_file": "Deus Ex - Invisible War (U).chd",
+ "game_size": 1546606763,
+ "system": "amd64-linux",
+ "started": "2026-11-05T15:08:59+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The character setup screen (from about 30 s) starts on Difficulty; 'done' is three downs away, then A and A for 'Start Game?'. A second try at 59 s in case the screen came late.",
+  "extra_steps": [
+   [
+    39.0,
+    "tap",
+    "down"
+   ],
+   [
+    39.6,
+    "tap",
+    "down"
+   ],
+   [
+    40.2,
+    "tap",
+    "down"
+   ],
+   [
+    59.0,
+    "tap",
+    "down"
+   ],
+   [
+    59.6,
+    "tap",
+    "down"
+   ],
+   [
+    60.2,
+    "tap",
+    "down"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   39.0,
+   "tap",
+   "down"
+  ],
+  [
+   39.6,
+   "tap",
+   "down"
+  ],
+  [
+   40.2,
+   "tap",
+   "down"
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   59.0,
+   "tap",
+   "down"
+  ],
+  [
+   59.6,
+   "tap",
+   "down"
+  ],
+  [
+   60.2,
+   "tap",
+   "down"
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    90.53,
+    "b"
+   ],
+   [
+    110.51,
+    "down"
+   ],
+   [
+    130.55,
+    "b"
+   ],
+   [
+    150.54,
+    "down"
+   ],
+   [
+    170.52,
+    "b"
+   ],
+   [
+    190.51,
+    "down"
+   ],
+   [
+    210.55,
+    "b"
+   ],
+   [
+    230.54,
+    "down"
+   ],
+   [
+    250.53,
+    "b"
+   ],
+   [
+    270.52,
+    "down"
+   ],
+   [
+    290.51,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.6
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.85,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w250",
+    "t": 249.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w270",
+    "t": 269.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 300.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   39.0,
+   "tap",
+   "down"
+  ],
+  [
+   39.6,
+   "tap",
+   "down"
+  ],
+  [
+   40.2,
+   "tap",
+   "down"
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   59.03,
+   "tap",
+   "down"
+  ],
+  [
+   59.63,
+   "tap",
+   "down"
+  ],
+  [
+   60.23,
+   "tap",
+   "down"
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.55,
+   "held",
+   "start"
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "held",
+   "start"
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "held",
+   "start"
+  ],
+  [
+   118.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "held",
+   "start"
+  ],
+  [
+   123.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "held",
+   "start"
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.85,
+   "watch",
+   "w130"
+  ],
+  [
+   130.55,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.51,
+   "held",
+   "start"
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.52,
+   "held",
+   "start"
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "held",
+   "start"
+  ],
+  [
+   148.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "held",
+   "start"
+  ],
+  [
+   158.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "held",
+   "start"
+  ],
+  [
+   163.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.51,
+   "held",
+   "start"
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.52,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   173.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.53,
+   "held",
+   "start"
+  ],
+  [
+   178.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.54,
+   "held",
+   "start"
+  ],
+  [
+   183.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "held",
+   "start"
+  ],
+  [
+   188.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   190.51,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   193.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.52,
+   "held",
+   "start"
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.53,
+   "held",
+   "start"
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "held",
+   "start"
+  ],
+  [
+   208.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.85,
+   "watch",
+   "w210"
+  ],
+  [
+   210.55,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.51,
+   "held",
+   "start"
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.52,
+   "held",
+   "start"
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.53,
+   "held",
+   "start"
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   233.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.55,
+   "held",
+   "start"
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.51,
+   "held",
+   "start"
+  ],
+  [
+   243.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.52,
+   "held",
+   "start"
+  ],
+  [
+   248.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.83,
+   "watch",
+   "w250"
+  ],
+  [
+   250.53,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   253.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.54,
+   "held",
+   "start"
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.55,
+   "held",
+   "start"
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.51,
+   "held",
+   "start"
+  ],
+  [
+   268.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.82,
+   "watch",
+   "w270"
+  ],
+  [
+   270.52,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   273.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.53,
+   "held",
+   "start"
+  ],
+  [
+   278.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.54,
+   "held",
+   "start"
+  ],
+  [
+   283.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.55,
+   "held",
+   "start"
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   293.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.02,
+   "release"
+  ],
+  [
+   300.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 161760
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.3,
+   "bytes": 161618
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.1,
+   "bytes": 62777
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.8,
+   "bytes": 908017
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 70.3,
+   "bytes": 214747
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 90.3,
+   "bytes": 214747
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 110.3,
+   "bytes": 214747
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.85,
+   "got_s": 130.3,
+   "bytes": 214747
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 150.3,
+   "bytes": 214747
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 170.3,
+   "bytes": 214747
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 190.3,
+   "bytes": 214747
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.85,
+   "got_s": 210.3,
+   "bytes": 214747
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 230.3,
+   "bytes": 214747
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.83,
+   "got_s": 250.3,
+   "bytes": 214747
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.82,
+   "got_s": 270.3,
+   "bytes": 214747
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 290.3,
+   "bytes": 214747
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.03,
+   "got_s": 300.5,
+   "bytes": 214747
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   101.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   102.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   107.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   108.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   109.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   115.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   116.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   117.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   118.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   119.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   125.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   126.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   139.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   140.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   146.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   147.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   148.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   149.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   154.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   155.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   156.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   157.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   160.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   161.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   162.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   163.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   164.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   169.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   170.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   171.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   172.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   173.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   174.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   175.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   176.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   177.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   180.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   181.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   182.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   183.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   184.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   185.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   186.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   188.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   189.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   190.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   191.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   192.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   193.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   194.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   195.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   197.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   198.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   199.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   200.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   201.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   203.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   204.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   205.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   206.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   207.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   209.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   210.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   211.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   212.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   213.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   214.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   215.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   216.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   217.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   218.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   219.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   220.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   221.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   222.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   223.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   224.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   225.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   226.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   227.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   228.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   229.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   230.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   231.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   232.2,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   233.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   234.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   235.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   236.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   237.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   238.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   239.3,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   240.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   241.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   242.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   243.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   244.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   245.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   246.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   247.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   248.4,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   249.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   250.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   251.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   252.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   253.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   254.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   255.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   256.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   257.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   258.5,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   259.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   260.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   261.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   262.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   263.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   264.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   265.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   266.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   267.6,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   268.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   269.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   270.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   271.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   272.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   273.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   274.7,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   275.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   276.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   277.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   278.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   279.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   280.8,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   281.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   282.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   283.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   284.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   285.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   286.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   287.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   288.9,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   290.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   291.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   292.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   293.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   294.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   295.0,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   296.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   297.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   298.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   299.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ],
+  [
+   300.1,
+   "GET_STATUS PLAYING xbox,Deus Ex - Invisible War (U),crc32=46f365ee"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\DX2Release.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.0,
+   25.1,
+   29.9,
+   30.0,
+   26.8,
+   29.9,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 68.7 ms (max 69.3, 29 frames)",
+   "hakuX-hle-pb: catch-up: 9129 stores waited for the decoder (caught up 418; it waited on the guest at a trap 1, a flip stall 8710, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 109.2 ms",
+   "hakuX-hle-emit: per s: draws=20100 verts=5470740 mergeable=0 (not: strip 0 idx 20040 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 898, contiguous 0 pipe=8864 set1=12673 pc=11260 vi=542 vb=272 vp=92 sc=92 dyn=12799 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4975752 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (150 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 3815 words 6697382 headers 960268 methods 5737102 faults 0 GET 03d7a628 PUT 03d7e694 binds 5 semaphores 461517 flips 8103 traps 15104 (41=7455 5=6994 1=648 9=6 28=1) runs 0 surfaces 3 clears 67737 swaps 8103 draws 4996310 ff 7454 skipped 0 () textures 76 rt uploads 4 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 68.7 ms (max 69.3, 30 frames)",
+   "hakuX-hle-pb: catch-up: 9130 stores waited for the decoder (caught up 419; it waited on the guest at a trap 1, a flip stall 8710, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 109.2 ms",
+   "hakuX-hle-emit: per s: draws=20100 verts=5470740 mergeable=0 (not: strip 0 idx 20040 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 897, contiguous 0 pipe=8860 set1=12674 pc=11258 vi=539 vb=270 vp=92 sc=92 dyn=12792 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4995852 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3810 words 6697404 headers 960278 methods 5737118 faults 0 GET 03e0a988 PUT 03e0e9f4 binds 5 semaphores 463371 flips 8133 traps 15160 (41=7485 5=7020 1=648 9=6 28=1) runs 0 surfaces 3 clears 68007 swaps 8133 draws 5016410 ff 7484 skipped 0 () textures 76 rt uploads 4 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.6 ms (max 71.7, 31 frames)",
+   "hakuX-hle-pb: catch-up: 9134 stores waited for the decoder (caught up 423; it waited on the guest at a trap 1, a flip stall 8710, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 109.4 ms",
+   "hakuX-hle-emit: per s: draws=20100 verts=5470740 mergeable=0 (not: strip 0 idx 20040 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 897, contiguous 0 pipe=8865 set1=12669 pc=11263 vi=539 vb=270 vp=90 sc=90 dyn=12775 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5015952 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.66 ms each (max 17.06), video 16.61 ms (max 17.04)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=656366 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-hle-pb: kicks 3690 words 6474131 headers 928259 methods 5545869 faults 0 GET 03dc0ca8 PUT 03dc4d14 binds 5 semaphores 465159 flips 8162 traps 15218 (41=7514 5=7049 1=648 9=6 28=1) runs 0 surfaces 3 clears 68268 swaps 8162 draws 5035840 ff 7513 skipped 0 () textures 76 rt uploads 4 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.4 ms (max 87.6, 29 frames)",
+   "hakuX-hle-emit: per s: draws=19430 verts=5288382 mergeable=0 (not: strip 0 idx 19372 state 58 work 0 gap 0) batches=0 of 0 draws indexed: no state between 869, contiguous 0 pipe=8572 set1=12251 pc=10888 vi=523 vb=263 vp=90 sc=90 dyn=12387 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5035382 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 58 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 299.0,
+  "peak_rms_dbfs": -22.9,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.67,
+  "rms_dbfs_per_2s": [
+   -39.0,
+   -25.9,
+   -25.1,
+   -33.2,
+   -40.5,
+   -50.2,
+   -120.0,
+   -65.8,
+   -24.5,
+   -22.9,
+   -35.8,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -35.7,
+   -35.7,
+   -32.0,
+   -31.9,
+   -38.4,
+   -120.0,
+   -33.1,
+   -31.8,
+   -40.2,
+   -40.1,
+   -46.1,
+   -32.0,
+   -33.9,
+   -47.6,
+   -42.3,
+   -33.4,
+   -39.7,
+   -33.0,
+   -39.6,
+   -39.5,
+   -32.8,
+   -44.4,
+   -33.0,
+   -39.9,
+   -45.3,
+   -33.1,
+   -25.0,
+   -31.9,
+   -41.2,
+   -53.4,
+   -33.5,
+   -45.0,
+   -33.0,
+   -41.7,
+   -46.3,
+   -33.2,
+   -37.7,
+   -33.2,
+   -65.6,
+   -60.0,
+   -33.6,
+   -55.2,
+   -33.6,
+   -47.6,
+   -48.5,
+   -33.5,
+   -25.1,
+   -31.8,
+   -41.2,
+   -39.7,
+   -32.6,
+   -42.6,
+   -33.1,
+   -45.2,
+   -44.1,
+   -33.3,
+   -36.8,
+   -33.1,
+   -45.5,
+   -41.8,
+   -33.5,
+   -43.1,
+   -33.2,
+   -46.7,
+   -41.7,
+   -33.0,
+   -31.3,
+   -32.0,
+   -40.7,
+   -45.8,
+   -33.6,
+   -63.9,
+   -33.6,
+   -55.4,
+   -53.4,
+   -33.2,
+   -37.2,
+   -33.2,
+   -46.3,
+   -43.5,
+   -33.2,
+   -39.7,
+   -32.9,
+   -40.4,
+   -42.8,
+   -32.7,
+   -25.1,
+   -31.9,
+   -39.4,
+   -44.8,
+   -32.9,
+   -42.5,
+   -33.4,
+   -43.9,
+   -50.7,
+   -33.6,
+   -37.6,
+   -33.5,
+   -40.6,
+   -43.7,
+   -33.2,
+   -58.1,
+   -33.2,
+   -63.5,
+   -60.2,
+   -33.5,
+   -25.1,
+   -32.0,
+   -41.0,
+   -48.8,
+   -33.5,
+   -48.9,
+   -32.7,
+   -45.9,
+   -39.7,
+   -32.8,
+   -37.0,
+   -32.7,
+   -43.6,
+   -45.5,
+   -33.5,
+   -39.7,
+   -33.4,
+   -44.4,
+   -41.5,
+   -33.1,
+   -31.5,
+   -32.1,
+   -39.8,
+   -42.4,
+   -45.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 300.9,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

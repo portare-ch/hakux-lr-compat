@@ -1,0 +1,473 @@
+{
+ "game_file": "Aliens Versus Predator - Extinction (U).chd",
+ "game_size": 328758648,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:35:40+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.3,
+   "bytes": 37321
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 23.0,
+   "bytes": 895344
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.0,
+   "bytes": 907183
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   26.4,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   33.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   34.5,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   40.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   41.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   42.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   43.6,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Aliens Versus Predator - Extinction (U),crc32=fbc5e303"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   8.3,
+   20.2,
+   22.0,
+   31.2
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=131311 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 472 words 1098953 headers 128900 methods 970045 faults 0 GET 03f971c8 PUT 03fb4800 binds 4 semaphores 4386 flips 771 traps 778 (21=771 9=6 28=1) runs 0 surfaces 3 clears 769 swaps 771 draws 138555 ff 0 skipped 0 () textures 49 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.0 ms (max 24.1, 31 frames)",
+   "hakuX-hle-emit: per s: draws=7099 verts=731600 mergeable=0 (not: strip 5363 idx 1736 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=393 set1=5801 pc=3410 vi=176 vb=4907 vp=83 sc=83 dyn=1622 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=138410 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 31.3 fps (157 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 472 words 1098573 headers 128719 methods 969853 faults 0 GET 03fcb54c PUT 03fe9bc0 binds 4 semaphores 4591 flips 802 traps 809 (21=802 9=6 28=1) runs 0 surfaces 3 clears 800 swaps 802 draws 145654 ff 0 skipped 0 () textures 49 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.9 ms (max 24.3, 31 frames)",
+   "hakuX-hle-emit: per s: draws=7099 verts=731600 mergeable=0 (not: strip 5363 idx 1736 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=393 set1=5807 pc=3337 vi=177 vb=4906 vp=84 sc=84 dyn=1598 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=145509 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #53 frame 957: front 66.6 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +63.5 write +63.5 ready +63.8 flip +66.6 front +66.6 shown +76.1 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms)",
+   "hakuX-hle-pb: kicks 474 words 1129071 headers 132326 methods 996728 faults 0 GET 03f9da20 PUT 03f9da20 binds 4 semaphores 4801 flips 833 traps 840 (21=833 9=6 28=1) runs 0 surfaces 3 clears 832 swaps 833 draws 152916 ff 0 skipped 0 () textures 49 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.6 ms (max 27.8, 31 frames)",
+   "hakuX-hle-emit: per s: draws=7262 verts=754510 mergeable=0 (not: strip 5525 idx 1737 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=402 set1=5966 pc=3561 vi=179 vb=5006 vp=86 sc=86 dyn=1631 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=152771 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2319 sysops 4442 (int 908, of them ticks 240; hook 0) schedules 1792 switches 1775 idle 0 slices 0 page faults 0 mmio 6235 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.0 ms) irq3:91 (max 0.1 ms) irq5:8 (max 0.0 ms) | dpc max wait 0.5 run 0.6 ms, 0 over 8 ms | hold",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 5192 KiB, contiguous 23216 KiB (199 blocks), virtual 36476 KiB, kernel pool 6 of 64 KiB (Ex 45, objects 4, lost 0 KiB, 1 free ranges)",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 038f3000, intr 00000004/80000073",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=97587 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 19296 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=12 misses=8",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 34 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -28.5,
+  "first_sound_s": 11.0,
+  "audible_fraction": 0.21,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -38.2,
+   -36.6,
+   -28.5,
+   -32.1,
+   -36.1,
+   -59.0,
+   -47.6,
+   -47.9,
+   -61.5,
+   -71.2,
+   -58.7,
+   -47.4,
+   -62.5,
+   -61.9,
+   -68.3,
+   -60.1,
+   -56.7,
+   -61.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

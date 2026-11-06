@@ -1,0 +1,478 @@
+{
+ "game_file": "Fight Night Round 2 (U).chd",
+ "game_size": 1613888439,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:55:26+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 494661
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1594564
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.3,
+   "bytes": 1684727
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Fight Night Round 2 (U),crc32=a9a7c1e6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.0,
+   60.0,
+   60.0,
+   48.4,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=15359 verts=1268102 mergeable=0 (not: strip 15239 idx 60 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2542 set1=15359 pc=5221 vi=1343 vb=15288 vp=120 sc=120 dyn=3083 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=303439 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1904 words 5968887 headers 506159 methods 5462680 faults 0 GET 03faf998 PUT 03faf998 binds 5 semaphores 19937 flips 2559 traps 4536 (21=2559 5=1970 9=6 28=1) runs 0 surfaces 4 clears 1573 swaps 2559 draws 318885 ff 0 skipped 0 () textures 428 rt uploads 1 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 37.0 ms (max 39.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 858 stores waited for the decoder (caught up 815; it waited on the guest at a trap 0, a flip stall 43, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 28.2 ms",
+   "hakuX-hle-emit: per s: draws=15362 verts=1268412 mergeable=0 (not: strip 15242 idx 60 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2541 set1=15362 pc=5222 vi=1340 vb=15290 vp=120 sc=120 dyn=3080 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=318801 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #9 frame 2610: front 49.9 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +21.3 write +21.3 ready +21.5 flip +49.9 front +49.9 shown +60.0 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 1926 words 5972933 headers 506413 methods 5465091 faults 0 GET 03f85348 PUT 03f886b0 binds 5 semaphores 20867 flips 2619 traps 4656 (21=2619 5=2030 9=6 28=1) runs 0 surfaces 4 clears 1633 swaps 2619 draws 334252 ff 0 skipped 0 () textures 428 rt uploads 1 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.9 ms (max 39.8, 58 frames)",
+   "hakuX-hle-pb: catch-up: 922 stores waited for the decoder (caught up 879; it waited on the guest at a trap 0, a flip stall 43, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 30.5 ms",
+   "hakuX-hle-emit: per s: draws=15369 verts=1270125 mergeable=0 (not: strip 15249 idx 60 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2548 set1=15369 pc=5223 vi=1345 vb=15300 vp=120 sc=120 dyn=3085 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=334170 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1915 words 5953257 headers 505077 methods 5449516 faults 0 GET 03fc729c PUT 03fc729c binds 5 semaphores 21802 flips 2679 traps 4776 (21=2679 5=2090 9=6 28=1) runs 0 surfaces 4 clears 1693 swaps 2679 draws 349598 ff 0 skipped 0 () textures 428 rt uploads 1 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 37.0 ms (max 37.3, 60 frames)",
+   "hakuX-hle-pb: catch-up: 976 stores waited for the decoder (caught up 933; it waited on the guest at a trap 0, a flip stall 43, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 32.9 ms",
+   "hakuX-hle-emit: per s: draws=15344 verts=1264061 mergeable=0 (not: strip 15224 idx 60 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2537 set1=15344 pc=5212 vi=1343 vb=15274 vp=120 sc=120 dyn=3083 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=349514 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=182056 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 32344 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=22 misses=14",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 52 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.5,
+  "first_sound_s": 3.0,
+  "audible_fraction": 0.87,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -25.2,
+   -24.0,
+   -120.0,
+   -24.7,
+   -21.1,
+   -23.0,
+   -21.1,
+   -20.6,
+   -21.0,
+   -21.1,
+   -19.5,
+   -22.2,
+   -20.9,
+   -20.2,
+   -21.8,
+   -20.7,
+   -20.6,
+   -20.9,
+   -21.1,
+   -21.0,
+   -20.9,
+   -21.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

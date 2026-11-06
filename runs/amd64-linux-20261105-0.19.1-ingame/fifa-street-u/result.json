@@ -1,0 +1,1679 @@
+{
+ "game_file": "FIFA Street (U).chd",
+ "game_size": 1482387483,
+ "system": "amd64-linux",
+ "started": "2026-11-05T18:34:44+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Pick Sides (from about 50 s): the default Start activates controller 1 in the middle, but nothing moves it to a side, and the unstick B then backs out to the main menu. Right held 500 ms puts it on AWAY, A confirms 'No profile', A again goes to Select Team; the default presses start the match.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "right",
+    500
+   ],
+   [
+    55.2,
+    "tap",
+    "a"
+   ],
+   [
+    56.6,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    58.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "right",
+   500
+  ],
+  [
+   55.2,
+   "tap",
+   "a"
+  ],
+  [
+   56.6,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.8,
+  "confirmed_by": "w090",
+  "stopped_at_s": 98.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 98.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.02,
+   "tap",
+   "right",
+   500
+  ],
+  [
+   55.22,
+   "tap",
+   "a"
+  ],
+  [
+   56.62,
+   "tap",
+   "a"
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "held",
+   "start"
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "held",
+   "start"
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   90.55,
+   "held",
+   "start"
+  ],
+  [
+   93.15,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 14.6,
+   "bytes": 1239501
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 34.8,
+   "bytes": 1217461
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 49.0,
+   "bytes": 1250181
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 54.7,
+   "bytes": 1242201
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 74.0,
+   "bytes": 1417223
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 94.1,
+   "bytes": 1394071
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.85,
+   "got_s": 94.1,
+   "bytes": 1394071,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,FIFA Street (U),crc32=4eaa3a6b"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   31.8,
+   30.4,
+   59.7,
+   60.0,
+   59.5,
+   60.0,
+   59.0,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=16111 verts=4078314 mergeable=0 (not: strip 14721 idx 1390 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3811 set1=9723 pc=11122 vi=1418 vb=15162 vp=222 sc=222 dyn=3971 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=667641 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 5736 sysops 8121 (int 869, of them ticks 17; hook 0) schedules 2705 switches 2061 idle 774 slices 0 page faults 0 mmio 9887 apu waits 0 vm pages +0 -0 isr irq1:523 (max 2.5 ms) irq3:184 (max 1.6 ms) irq5:22 (max 1.9 ms) | dpc max wait 1.4 run 1.6 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 610 (pages 02a49000:640 027cc000:384 0277a000:320 02777000:256 02779000:256 01a8d000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 8636 KiB, contiguous 52412 KiB (86 blocks), virtual 3128 KiB, kernel pool 107 of 128 KiB (Ex 528, objects 7, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 1257 words 6194442 headers 467118 methods 5727309 faults 0 GET 0177dd04 PUT 01837c60 binds 5 semaphores 20423 flips 5153 traps 9261 (21=5152 5=4098 9=10 28=1) runs 0 surfaces 8 clears 10793 swaps 5153 draws 683946 ff 0 skipped 0 () textures 598 rt uploads 2 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.9 ms (max 42.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 7834 stores waited for the decoder (caught up 17; it waited on the guest at a trap 63, a flip stall 7754, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 811.2 ms",
+   "hakuX-hle-emit: per s: draws=15692 verts=3889662 mergeable=0 (not: strip 14410 idx 1282 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3661 set1=8971 pc=11004 vi=1419 vb=14780 vp=215 sc=215 dyn=3974 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=683333 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1191 words 6122373 headers 456979 methods 5665392 faults 0 GET 017125f0 PUT 017ba3e0 binds 5 semaphores 20731 flips 5213 traps 9381 (21=5212 5=4158 9=10 28=1) runs 0 surfaces 8 clears 10973 swaps 5213 draws 699106 ff 0 skipped 0 () textures 598 rt uploads 2 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 40.9, 60 frames)",
+   "hakuX-hle-pb: catch-up: 8102 stores waited for the decoder (caught up 17; it waited on the guest at a trap 67, a flip stall 8018, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 830.4 ms",
+   "hakuX-hle-emit: per s: draws=15160 verts=3845468 mergeable=0 (not: strip 13960 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3536 set1=8832 pc=10573 vi=1350 vb=14261 vp=211 sc=211 dyn=3609 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=698493 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=482146 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 60760 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=38 misses=27",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 49 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x558e8b31ba50",
+   "[Gamescope WSI] Destroyed swapchain: 0x558e8b31ba50",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 97.2,
+  "peak_rms_dbfs": -15.1,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.77,
+  "rms_dbfs_per_2s": [
+   -17.1,
+   -18.3,
+   -120.0,
+   -120.0,
+   -120.0,
+   -28.9,
+   -25.7,
+   -120.0,
+   -120.0,
+   -41.5,
+   -27.4,
+   -37.3,
+   -120.0,
+   -38.9,
+   -120.0,
+   -25.7,
+   -22.1,
+   -22.3,
+   -22.2,
+   -21.9,
+   -20.0,
+   -19.4,
+   -18.6,
+   -19.9,
+   -18.4,
+   -19.1,
+   -19.1,
+   -19.4,
+   -19.7,
+   -18.4,
+   -18.4,
+   -23.1,
+   -23.1,
+   -19.1,
+   -18.3,
+   -22.3,
+   -16.9,
+   -17.9,
+   -24.3,
+   -17.6,
+   -17.1,
+   -18.3,
+   -18.4,
+   -16.6,
+   -17.1,
+   -16.6,
+   -15.1,
+   -16.0,
+   -18.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.8 s (judged from screenshots); stopped at 98.0 s and the emulator closed",
+ "duration_s": 98.1,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

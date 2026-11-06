@@ -1,0 +1,1471 @@
+{
+ "game_file": "Battle Engine Aquila (U).chd",
+ "game_size": 1914713082,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:01:20+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.81,
+  "confirmed_by": "w070",
+  "stopped_at_s": 76.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 76.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "held",
+   "start"
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "held",
+   "start"
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "held",
+   "start"
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "held",
+   "start"
+  ],
+  [
+   73.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.54,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 11.8,
+   "bytes": 1506272
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 32.1,
+   "bytes": 929227
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 45.8,
+   "bytes": 2458685
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.2,
+   "bytes": 2282651
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.3,
+   "bytes": 2293043
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.83,
+   "got_s": 71.3,
+   "bytes": 2293043,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Battle Engine Aquila (U),crc32=ad73d42a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   25.0,
+   43.3,
+   41.0,
+   54.4,
+   59.6,
+   59.7,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1884737 prog_fog=1568692 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 4331 words 8751915 headers 1158630 methods 7593224 faults 0 GET 03fa3550 PUT 03f95a30 binds 4 semaphores 138138 flips 3661 traps 7907 (5=4240 21=3661 9=6) runs 0 surfaces 18 clears 11577 swaps 3662 draws 1936322 ff 1675063 skipped 0 () textures 2594 rt uploads 7 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.6 ms (max 38.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 7951 stores waited for the decoder (caught up 2659; it waited on the guest at a trap 108, a flip stall 5184, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1383.2 ms",
+   "hakuX-hle-emit: per s: draws=50520 verts=7964934 mergeable=0 (not: strip 45420 idx 5100 state 0 work 0 gap 0) batches=60 of 120 draws indexed: no state between 127, contiguous 0 pipe=24798 set1=19897 pc=26422 vi=1187 vb=46448 vp=316 sc=316 dyn=6326 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1935257 prog_fog=1612432 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 4302 words 8777263 headers 1161754 methods 7615448 faults 0 GET 03fb7b50 PUT 03facf70 binds 4 semaphores 140240 flips 3721 traps 8076 (5=4349 21=3721 9=6) runs 0 surfaces 18 clears 11877 swaps 3722 draws 1987154 ff 1720315 skipped 0 () textures 2654 rt uploads 7 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.7 ms (max 38.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 8142 stores waited for the decoder (caught up 2741; it waited on the guest at a trap 109, a flip stall 5292, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1420.0 ms",
+   "hakuX-hle-emit: per s: draws=50832 verts=8004793 mergeable=0 (not: strip 45695 idx 5137 state 0 work 0 gap 0) batches=60 of 120 draws indexed: no state between 123, contiguous 0 pipe=24795 set1=19900 pc=26450 vi=1185 vb=46721 vp=313 sc=313 dyn=6291 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1986089 prog_fog=1656172 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 4310 words 8713187 headers 1158410 methods 7554711 faults 0 GET 03f8e590 PUT 03f7f120 binds 4 semaphores 142333 flips 3781 traps 8245 (5=4458 21=3781 9=6) runs 0 surfaces 18 clears 12177 swaps 3782 draws 2037776 ff 1765357 skipped 0 () textures 2714 rt uploads 7 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.7 ms (max 37.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 8359 stores waited for the decoder (caught up 2813; it waited on the guest at a trap 110, a flip stall 5436, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1448.8 ms",
+   "hakuX-hle-emit: per s: draws=50622 verts=7910019 mergeable=0 (not: strip 45462 idx 5160 state 0 work 0 gap 0) batches=60 of 120 draws indexed: no state between 127, contiguous 0 pipe=24798 set1=19653 pc=26390 vi=1193 vb=46538 vp=309 sc=309 dyn=6269 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2036711 prog_fog=1699657 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=744564 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5628af071640",
+   "[Gamescope WSI] Destroyed swapchain: 0x5628af071640",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 75.7,
+  "peak_rms_dbfs": -19.5,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.91,
+  "rms_dbfs_per_2s": [
+   -25.9,
+   -19.5,
+   -21.8,
+   -24.7,
+   -33.0,
+   -27.8,
+   -26.4,
+   -25.0,
+   -26.2,
+   -24.7,
+   -24.4,
+   -25.4,
+   -24.9,
+   -24.3,
+   -25.7,
+   -25.6,
+   -25.3,
+   -26.2,
+   -27.1,
+   -33.5,
+   -47.5,
+   -35.1,
+   -36.2,
+   -34.9,
+   -26.0,
+   -46.5,
+   -25.0,
+   -28.0,
+   -27.7,
+   -24.9,
+   -25.6,
+   -23.9,
+   -24.3,
+   -22.9,
+   -24.5,
+   -25.1,
+   -22.6,
+   -23.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.81 s (judged from screenshots); stopped at 76.4 s and the emulator closed",
+ "duration_s": 76.5,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,3217 @@
+{
+ "game_file": "Combat - Task Force 121 (U).chd",
+ "game_size": 506681792,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:28:55+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w250",
+    "t": 249.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w290",
+    "t": 289.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 301.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   130.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ],
+  [
+   170.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.82,
+   "watch",
+   "w250"
+  ],
+  [
+   250.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.83,
+   "watch",
+   "w290"
+  ],
+  [
+   290.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.01,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.5,
+   "bytes": 54661
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 32.9,
+   "bytes": 577480
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 49.0,
+   "bytes": 911349
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 52.4,
+   "bytes": 817649
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 72.2,
+   "bytes": 631674
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.8,
+   "got_s": 92.4,
+   "bytes": 540548
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 112.4,
+   "bytes": 817629
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 132.0,
+   "bytes": 631653
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 152.0,
+   "bytes": 510548
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 172.4,
+   "bytes": 817513
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 192.0,
+   "bytes": 631595
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 212.0,
+   "bytes": 492872
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 232.2,
+   "bytes": 817322
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.82,
+   "got_s": 252.0,
+   "bytes": 631577
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 271.8,
+   "bytes": 434283
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.83,
+   "got_s": 292.4,
+   "bytes": 818108
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 300.8,
+   "bytes": 198274
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   19.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   25.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   165.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   172.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   173.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   174.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   176.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   177.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   178.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   179.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   181.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   182.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   183.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   184.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   185.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   186.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   187.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   188.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   189.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   190.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   191.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   192.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   193.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   194.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   195.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   196.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   197.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   199.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   201.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   205.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   207.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   208.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   211.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   212.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   213.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   214.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   217.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   218.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   219.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   220.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   221.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   222.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   223.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   224.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   225.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   226.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   227.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   228.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   229.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   230.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   231.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   232.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   233.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   234.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   235.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   236.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   237.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   238.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   239.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   240.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   242.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   243.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   244.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   245.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   246.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   247.0,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   248.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   249.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   250.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   251.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   252.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   253.1,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   254.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   255.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   256.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   257.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   258.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   259.2,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   260.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   261.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   262.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   263.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   264.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   265.3,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   266.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   267.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   268.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   269.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   270.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   271.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   272.4,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   273.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   274.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   275.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   276.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   277.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   278.5,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   279.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   280.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   281.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   282.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   283.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   284.6,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   285.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   286.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   287.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   288.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   289.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   290.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   291.7,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   292.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   293.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   294.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   295.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   296.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   297.8,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   298.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   299.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ],
+  [
+   300.9,
+   "GET_STATUS PLAYING xbox,Combat - Task Force 121 (U),crc32=f1aef34"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   18.1,
+   44.8,
+   59.8,
+   60.0,
+   59.5,
+   59.3,
+   55.7,
+   60.0,
+   59.5,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.7,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=2341 verts=70596 mergeable=0 (not: strip 0 idx 61 state 2280 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=184 set1=129 pc=2341 vi=125 vb=2041 vp=65 sc=65 dyn=1035 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=647518 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 432 words 53527 headers 19181 methods 34344 faults 0 GET 03fd9de0 PUT 03fdb6d0 binds 5 semaphores 36532 flips 17354 traps 17361 (21=17354 9=6 28=1) runs 0 surfaces 3 clears 17359 swaps 17354 draws 649859 ff 649859 skipped 0 () textures 7166 rt uploads 3 blits 0 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.4 ms (max 42.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2340 verts=70560 mergeable=0 (not: strip 0 idx 60 state 2280 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=184 set1=129 pc=2340 vi=124 vb=2039 vp=64 sc=64 dyn=1020 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=649858 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-hle-hitch: stutter #87 frame 17407: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +16.9 write +17.0 ready +17.2 flip +50.0 front +50.0 shown +60.2 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-pb: kicks 433 words 54355 headers 19479 methods 34872 faults 0 GET 03f8f6b8 PUT 03f904b0 binds 5 semaphores 36660 flips 17414 traps 17422 (21=17415 9=6 28=1) runs 0 surfaces 3 clears 17419 swaps 17414 draws 652238 ff 652238 skipped 0 () textures 7176 rt uploads 3 blits 0 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 43.3, 58 frames)",
+   "hakuX-hle-emit: per s: draws=2378 verts=71700 mergeable=0 (not: strip 0 idx 60 state 2318 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=184 set1=129 pc=2378 vi=123 vb=2070 vp=62 sc=62 dyn=991 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=652236 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03f7c000, intr 00000004/80000073",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.59 ms each (max 17.28), video 16.47 ms (max 16.96)",
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 8.19 ms (max 10.22), gap 16.72 ms (max 52.06, 1 over 25 ms)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=843418 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 35 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x557d644bd640",
+   "[Gamescope WSI] Destroyed swapchain: 0x557d644bd640",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 299.7,
+  "peak_rms_dbfs": -16.7,
+  "first_sound_s": 10.0,
+  "audible_fraction": 0.91,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -91.2,
+   -16.7,
+   -27.6,
+   -35.2,
+   -33.6,
+   -34.5,
+   -31.9,
+   -32.6,
+   -29.8,
+   -29.0,
+   -30.2,
+   -30.3,
+   -29.6,
+   -27.4,
+   -28.7,
+   -29.0,
+   -29.2,
+   -28.9,
+   -28.4,
+   -28.7,
+   -28.5,
+   -27.7,
+   -27.9,
+   -23.6,
+   -25.4,
+   -27.0,
+   -27.8,
+   -27.9,
+   -27.7,
+   -27.8,
+   -27.7,
+   -27.1,
+   -25.9,
+   -26.0,
+   -27.3,
+   -25.4,
+   -24.7,
+   -26.6,
+   -24.7,
+   -25.1,
+   -24.8,
+   -35.3,
+   -38.3,
+   -42.7,
+   -42.8,
+   -40.4,
+   -32.8,
+   -34.0,
+   -32.0,
+   -31.3,
+   -29.1,
+   -29.7,
+   -30.3,
+   -30.6,
+   -29.9,
+   -26.9,
+   -28.2,
+   -29.2,
+   -29.1,
+   -28.3,
+   -28.9,
+   -28.9,
+   -28.8,
+   -27.7,
+   -27.4,
+   -24.3,
+   -25.9,
+   -27.0,
+   -28.2,
+   -27.1,
+   -27.8,
+   -27.4,
+   -27.7,
+   -26.4,
+   -26.2,
+   -25.9,
+   -26.9,
+   -24.4,
+   -24.8,
+   -26.7,
+   -24.8,
+   -24.2,
+   -26.1,
+   -35.8,
+   -41.2,
+   -42.7,
+   -72.4,
+   -35.5,
+   -33.5,
+   -32.7,
+   -32.5,
+   -29.9,
+   -28.9,
+   -30.5,
+   -30.1,
+   -31.4,
+   -29.7,
+   -27.7,
+   -28.8,
+   -29.5,
+   -29.0,
+   -28.7,
+   -28.5,
+   -28.8,
+   -28.2,
+   -27.5,
+   -27.8,
+   -23.5,
+   -27.1,
+   -28.0,
+   -28.4,
+   -27.7,
+   -28.4,
+   -27.8,
+   -27.9,
+   -25.9,
+   -26.5,
+   -26.0,
+   -25.7,
+   -24.6,
+   -25.0,
+   -26.4,
+   -24.9,
+   -24.4,
+   -27.4,
+   -37.1,
+   -43.4,
+   -42.6,
+   -42.7,
+   -33.3,
+   -34.1,
+   -32.1,
+   -32.1,
+   -29.3,
+   -29.5,
+   -30.7,
+   -30.3,
+   -30.2,
+   -29.6,
+   -26.9,
+   -28.2,
+   -29.3,
+   -28.9,
+   -29.0,
+   -28.8,
+   -28.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 301.0,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,477 @@
+{
+ "game_file": "Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It).chd",
+ "game_size": 1607053165,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:34:06+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 322602
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 917967
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 641683
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 (U) (En,Fr,De,Es,It),crc32=b0c3c3a7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   33.8,
+   60.0,
+   56.6,
+   60.0,
+   60.0,
+   54.2,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 485 words 44020 headers 8960 methods 35072 faults 0 GET 03eaebb0 PUT 03eb0270 binds 10 semaphores 7195 flips 2327 traps 2341 (21=2327 9=12 28=2) runs 0 surfaces 5 clears 4654 swaps 2327 draws 2319 ff 0 skipped 0 () textures 1157 rt uploads 8 blits 1 m2mf 0 copies skipped 0 vis 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.5, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2319 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 026d0000, intr 00000004/80000073",
+   "hakuX-hle-pb: kicks 486 words 44028 headers 8964 methods 35056 faults 0 GET 03ed9ba0 PUT 03edb260 binds 10 semaphores 7381 flips 2387 traps 2401 (21=2387 9=12 28=2) runs 0 surfaces 5 clears 4774 swaps 2387 draws 2379 ff 0 skipped 0 () textures 1187 rt uploads 8 blits 1 m2mf 0 copies skipped 0 vis 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2379 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 485 words 44021 headers 8960 methods 35056 faults 0 GET 03cc4d34 PUT 03cc63f4 binds 10 semaphores 7566 flips 2447 traps 2461 (21=2447 9=12 28=2) runs 0 surfaces 5 clears 4894 swaps 2447 draws 2439 ff 0 skipped 0 () textures 1217 rt uploads 8 blits 1 m2mf 0 copies skipped 0 vis 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2439 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 2500: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +33.7 write +33.7 ready +33.9 flip +50.0 front +50.0 shown +59.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 486 words 44028 headers 8964 methods 35072 faults 0 GET 03cefd24 PUT 03cf13e4 binds 10 semaphores 7752 flips 2507 traps 2521 (21=2507 9=12 28=2) runs 0 surfaces 5 clears 5014 swaps 2507 draws 2499 ff 0 skipped 0 () textures 1247 rt uploads 8 blits 1 m2mf 0 copies skipped 0 vis 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.4, 58 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2499 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=139439 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 2888 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=2 misses=2",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 61 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -18.9,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.9,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -21.4,
+   -19.1,
+   -18.9,
+   -19.4,
+   -24.7,
+   -23.1,
+   -21.3,
+   -22.4,
+   -21.9,
+   -20.9,
+   -21.8,
+   -25.0,
+   -36.3,
+   -30.2,
+   -24.4,
+   -25.8,
+   -26.1,
+   -30.4,
+   -22.9,
+   -23.4,
+   -29.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.3,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

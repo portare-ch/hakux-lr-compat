@@ -1,0 +1,492 @@
+{
+ "game_file": "Project - Snowblind (U).chd",
+ "game_size": 1653605086,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:17:33+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "killed",
+  "at_s": 55.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 19405
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 19405
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.3,
+   "bytes": 19405
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Project - Snowblind (U),crc32=71129897"
+  ],
+  [
+   46.6,
+   null
+  ],
+  [
+   48.4,
+   null
+  ],
+  [
+   50.2,
+   null
+  ],
+  [
+   52.0,
+   null
+  ],
+  [
+   53.8,
+   null
+  ],
+  [
+   55.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 021b65f8 PUT 021b65f8 binds 5 semaphores 60 flips 17 traps 60 (7=36 21=17 9=6 28=1) runs 0 surfaces 3 clears 20 swaps 17 draws 34 ff 0 skipped 0 () textures 32 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0 repe",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=33 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2172 sysops 4177 (int 880, of them ticks 248; hook 0) schedules 1741 switches 1740 idle 0 slices 0 page faults 0 mmio 3980 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:60 (max 0.0 ms) | dpc max wait 0.0 run 0.1 ms, 0 over 8 ms | holds 0 (longest 0.0 ms)",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 160 KiB, contiguous 58740 KiB (21 blocks), virtual 5292 KiB, kernel pool 22 of 64 KiB (Ex 870, objects 3, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-hitch: HANG ongoing 41.52 s since frame 19: JIT compiling: 99% of the vCPU in FEX | render idle for 41523 ms | vCPU cpu 41415 ms halted 0% | render cpu 0 run 0 idle 41523 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 19/19, last done 41522 ms ago | swaps 0 vblanks 2491 draws 0 | dvd 0 o",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 021b65f8 PUT 021b65f8 binds 5 semaphores 60 flips 17 traps 60 (7=36 21=17 9=6 28=1) runs 0 surfaces 3 clears 20 swaps 17 draws 34 ff 0 skipped 0 () textures 32 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0 repe",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=33 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 42.52 s since frame 19: JIT compiling: 99% of the vCPU in FEX | render idle for 42523 ms | vCPU cpu 42413 ms halted 0% | render cpu 0 run 0 idle 42523 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 19/19, last done 42523 ms ago | swaps 0 vblanks 2551 draws 0 | dvd 0 o",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 021b65f8 PUT 021b65f8 binds 5 semaphores 60 flips 17 traps 60 (7=36 21=17 9=6 28=1) runs 0 surfaces 3 clears 20 swaps 17 draws 34 ff 0 skipped 0 () textures 32 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0 repe",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=33 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 43.52 s since frame 19: JIT compiling: 99% of the vCPU in FEX | render idle for 43524 ms | vCPU cpu 43411 ms halted 0% | render cpu 0 run 0 idle 43524 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 19/19, last done 43524 ms ago | swaps 0 vblanks 2611 draws 0 | dvd 0 o",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 021b65f8 PUT 021b65f8 binds 5 semaphores 60 flips 17 traps 60 (7=36 21=17 9=6 28=1) runs 0 surfaces 3 clears 20 swaps 17 draws 34 ff 0 skipped 0 () textures 32 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0 repe",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=33 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=98562 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 9092 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=2 misses=6",
+   "hakuX-native-usb: ohci: 2483 TDs in 10 s, ctl 000000be (lists PCB), hcca 03ffe000, intr 00000006/80000073",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core did not stop in 10000 ms (the devices and the renderer): ending the process"
+  ]
+ },
+ "audio": {
+  "seconds": 53.9,
+  "peak_rms_dbfs": -120.0,
+  "first_sound_s": null,
+  "audible_fraction": 0.0,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Timeout",
+ "outcome_why": "hard limit reached while closing; killed",
+ "duration_s": 55.6,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

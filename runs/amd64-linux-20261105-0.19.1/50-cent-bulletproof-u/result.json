@@ -1,0 +1,472 @@
+{
+ "game_file": "50 Cent - Bulletproof (U).chd",
+ "game_size": 5321009965,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:30:35+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 255787
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 562478
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 697501
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,50 Cent - Bulletproof (U),crc32=bfbe6951"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   27.3,
+   56.1,
+   37.3,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 338 words 103394 headers 24832 methods 78560 faults 0 GET 012d18f8 PUT 012d8488 binds 5 semaphores 3910 flips 1594 traps 1601 (21=926 41=668 9=6 28=1) runs 0 surfaces 8 clears 1090 swaps 1595 draws 17328 ff 0 skipped 0 () textures 418 rt uploads 6 blits 3 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.2 ms (max 75.9, 30 frames)",
+   "hakuX-hle-pb: targets' images landed 1844, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=840 verts=19440 mergeable=0 (not: strip 630 idx 210 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=309 set1=840 pc=426 vi=309 vb=840 vp=75 sc=75 dyn=1359 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=17324 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2547 sysops 4684 (int 957, of them ticks 261; hook 0) schedules 2196 switches 2182 idle 0 slices 7 page faults 0 mmio 5270 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.6 ms) irq3:90 (max 0.5 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | holds 157 (longest 0.6 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 65 (pages 020c8000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7468 KiB, contiguous 51928 KiB (28 blocks), virtual 4792 KiB, kernel pool 34 of 64 KiB (Ex 611, objects 25, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-pb: kicks 335 words 103394 headers 24832 methods 78560 faults 0 GET 01336880 PUT 0133d410 binds 5 semaphores 3983 flips 1624 traps 1631 (21=926 41=698 9=6 28=1) runs 0 surfaces 8 clears 1120 swaps 1625 draws 18168 ff 0 skipped 0 () textures 418 rt uploads 6 blits 3 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.0 ms (max 75.9, 30 frames)",
+   "hakuX-hle-pb: targets' images landed 1913, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=840 verts=19440 mergeable=0 (not: strip 630 idx 210 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=305 set1=840 pc=425 vi=305 vb=840 vp=72 sc=72 dyn=1313 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=18164 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 1650: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +0.7 write +0.7 ready +0.8 flip +66.7 front +66.7 shown +76.1 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), ",
+   "hakuX-hle-pb: kicks 334 words 103387 headers 24828 methods 78560 faults 0 GET 00e9b9f0 PUT 00ea2580 binds 5 semaphores 4055 flips 1654 traps 1661 (21=926 41=728 9=6 28=1) runs 0 surfaces 8 clears 1150 swaps 1655 draws 19008 ff 0 skipped 0 () textures 418 rt uploads 6 blits 3 m2mf 0 copies skipped 0 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.2 ms (max 76.1, 29 frames)",
+   "hakuX-hle-pb: targets' images landed 1982, copies queued behind them 0 (the decoder waited 0), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=840 verts=19440 mergeable=0 (not: strip 630 idx 210 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=309 set1=840 pc=428 vi=309 vb=840 vp=72 sc=72 dyn=1317 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=19004 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1595512 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 10896 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=5 misses=7",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 62 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -13.4,
+  "first_sound_s": 7.5,
+  "audible_fraction": 0.33,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -36.1,
+   -28.6,
+   -14.1,
+   -13.4,
+   -15.3,
+   -120.0,
+   -120.0,
+   -25.6,
+   -18.0,
+   -20.7,
+   -22.4,
+   -33.0,
+   -90.3,
+   -33.0,
+   -90.3,
+   -90.3,
+   -90.3,
+   -90.3,
+   -90.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

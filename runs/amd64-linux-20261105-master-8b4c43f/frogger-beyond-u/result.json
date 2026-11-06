@@ -1,0 +1,3214 @@
+{
+ "game_file": "Frogger Beyond (U).chd",
+ "game_size": 959400242,
+ "system": "amd64-linux",
+ "started": "2026-11-05T22:16:27+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    93.03,
+    "b"
+   ],
+   [
+    153.04,
+    "down"
+   ],
+   [
+    253.02,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w250",
+    "t": 249.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 302.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.0,
+   "held",
+   "a"
+  ],
+  [
+   100.51,
+   "held",
+   "start"
+  ],
+  [
+   103.02,
+   "held",
+   "a"
+  ],
+  [
+   105.53,
+   "held",
+   "start"
+  ],
+  [
+   108.04,
+   "held",
+   "a"
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "held",
+   "start"
+  ],
+  [
+   113.01,
+   "held",
+   "a"
+  ],
+  [
+   115.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   130.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.04,
+   "tap",
+   "down",
+   "instead of",
+   "a"
+  ],
+  [
+   155.54,
+   "held",
+   "start"
+  ],
+  [
+   158.0,
+   "held",
+   "a"
+  ],
+  [
+   160.51,
+   "held",
+   "start"
+  ],
+  [
+   163.02,
+   "held",
+   "a"
+  ],
+  [
+   165.53,
+   "held",
+   "start"
+  ],
+  [
+   168.05,
+   "held",
+   "a"
+  ],
+  [
+   169.85,
+   "watch",
+   "w170"
+  ],
+  [
+   170.55,
+   "held",
+   "start"
+  ],
+  [
+   173.01,
+   "held",
+   "a"
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.83,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.81,
+   "watch",
+   "w250"
+  ],
+  [
+   250.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.02,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   255.53,
+   "held",
+   "start"
+  ],
+  [
+   258.04,
+   "held",
+   "a"
+  ],
+  [
+   260.55,
+   "held",
+   "start"
+  ],
+  [
+   263.01,
+   "held",
+   "a"
+  ],
+  [
+   265.52,
+   "held",
+   "start"
+  ],
+  [
+   268.03,
+   "held",
+   "a"
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "held",
+   "start"
+  ],
+  [
+   273.01,
+   "held",
+   "a"
+  ],
+  [
+   275.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.04,
+   "release"
+  ],
+  [
+   300.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 146766
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 32.2,
+   "bytes": 950497
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 46.6,
+   "bytes": 832976
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.6,
+   "bytes": 834489
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.6,
+   "bytes": 829950
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 92.0,
+   "bytes": 829866
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 111.3,
+   "bytes": 1320341
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 131.6,
+   "bytes": 832552
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 152.0,
+   "bytes": 834609
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.85,
+   "got_s": 172.1,
+   "bytes": 950587
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 191.6,
+   "bytes": 835175
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 211.6,
+   "bytes": 830702
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.83,
+   "got_s": 231.6,
+   "bytes": 836568
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.81,
+   "got_s": 251.8,
+   "bytes": 836450
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 271.3,
+   "bytes": 1325011
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 292.0,
+   "bytes": 839470
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.01,
+   "got_s": 301.8,
+   "bytes": 833617
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   19.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   25.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   147.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   154.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   162.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   168.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   169.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   181.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   182.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   195.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   196.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   202.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   203.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   204.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   209.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   211.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   212.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   216.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   217.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   218.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   222.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   223.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   224.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   230.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   249.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   251.7,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   257.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   258.8,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   264.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   265.9,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   268.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   273.0,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   276.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   279.1,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   282.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   286.2,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   290.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   293.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   294.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   295.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   296.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   299.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   300.4,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ],
+  [
+   301.5,
+   "GET_STATUS PLAYING xbox,Frogger Beyond (U),crc32=8fc97966"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   55.7,
+   60.0,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #23 frame 17915: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 53 ms apart) | swap +18.5 write +18.5 ready +18.6 flip +50.0 front +50.0 shown +60.6 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ",
+   "hakuX-hle-pb: kicks 9067 words 2092828 headers 102156 methods 1990654 faults 0 GET 03fc25f4 PUT 03f7f750 binds 4 semaphores 964992 flips 17924 traps 18155 (21=17924 5=218 9=12 28=1) runs 0 surfaces 3 clears 35850 swaps 17925 draws 3634816 ff 3634816 skipped 0 () textures 9 rt uploads 2 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.7 ms (max 42.1, 58 frames)",
+   "hakuX-hle-emit: per s: draws=16290 verts=93090 mergeable=0 (not: strip 15870 idx 420 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=604 set1=603 pc=784 vi=67 vb=16054 vp=67 sc=67 dyn=1244 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3634816 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.55 ms each (max 20.57), video 16.17 ms (max 20.50)",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03b62000, intr 00000004/80000073",
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 8.09 ms (max 11.12), gap 16.72 ms (max 52.60, 1 over 25 ms)",
+   "hakuX-hle-pb: kicks 9101 words 2092768 headers 102126 methods 1990622 faults 0 GET 03fbfc6c PUT 03ffa96c binds 4 semaphores 969384 flips 17984 traps 18218 (21=17984 5=221 9=12 28=1) runs 0 surfaces 3 clears 35970 swaps 17985 draws 3651106 ff 3651106 skipped 0 () textures 9 rt uploads 2 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.9 ms (max 43.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=16290 verts=93090 mergeable=0 (not: strip 15870 idx 420 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=621 set1=613 pc=801 vi=82 vb=16050 vp=82 sc=82 dyn=1469 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3651106 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-stats: per s: kcalls 2186 sysops 4305 (int 877, of them ticks 227; hook 0) schedules 1854 switches 1804 idle 4 slices 0 page faults 0 mmio 44774 apu waits 0 vm pages +0 -0 isr irq1:500 (max 2.6 ms) irq3:121 (max 0.9 ms) | dpc max wait 0.8 run 1.8 ms, 0 over 8 ms | holds 0 (longest 0.0 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 26936 KiB, contiguous 13972 KiB (45 blocks), virtual 22192 KiB, kernel pool 26 of 64 KiB (Ex 844, objects 5, lost 0 KiB, 9 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=669964 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 33 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55b64c79b730",
+   "[Gamescope WSI] Destroyed swapchain: 0x55b64c79b730",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 300.8,
+  "peak_rms_dbfs": -19.6,
+  "first_sound_s": 16.5,
+  "audible_fraction": 0.95,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -22.5,
+   -20.8,
+   -20.9,
+   -22.7,
+   -21.6,
+   -20.4,
+   -20.2,
+   -23.0,
+   -21.4,
+   -20.4,
+   -19.9,
+   -22.9,
+   -20.9,
+   -21.7,
+   -20.2,
+   -21.6,
+   -20.9,
+   -22.0,
+   -21.6,
+   -21.6,
+   -21.8,
+   -21.2,
+   -22.5,
+   -21.5,
+   -22.0,
+   -21.6,
+   -20.8,
+   -22.3,
+   -20.7,
+   -21.1,
+   -20.1,
+   -24.3,
+   -20.9,
+   -21.0,
+   -21.4,
+   -22.7,
+   -21.5,
+   -20.9,
+   -20.3,
+   -22.5,
+   -22.1,
+   -21.2,
+   -21.0,
+   -21.3,
+   -21.8,
+   -22.3,
+   -22.6,
+   -24.0,
+   -21.4,
+   -21.9,
+   -22.0,
+   -21.1,
+   -22.0,
+   -21.5,
+   -20.1,
+   -22.2,
+   -21.6,
+   -21.0,
+   -20.5,
+   -21.9,
+   -21.5,
+   -22.0,
+   -20.2,
+   -24.9,
+   -20.8,
+   -20.9,
+   -20.4,
+   -23.3,
+   -21.0,
+   -21.4,
+   -21.7,
+   -22.0,
+   -21.9,
+   -22.3,
+   -21.2,
+   -21.1,
+   -21.7,
+   -22.6,
+   -21.9,
+   -23.3,
+   -21.9,
+   -21.2,
+   -21.2,
+   -22.7,
+   -21.3,
+   -20.5,
+   -19.6,
+   -22.9,
+   -20.6,
+   -21.1,
+   -20.5,
+   -22.1,
+   -21.3,
+   -22.1,
+   -20.4,
+   -20.9,
+   -20.8,
+   -22.3,
+   -21.7,
+   -21.4,
+   -21.7,
+   -21.4,
+   -22.0,
+   -21.4,
+   -21.5,
+   -21.4,
+   -20.5,
+   -22.3,
+   -20.3,
+   -20.8,
+   -20.1,
+   -23.9,
+   -20.7,
+   -21.3,
+   -21.2,
+   -22.7,
+   -21.2,
+   -21.3,
+   -20.2,
+   -22.5,
+   -21.8,
+   -21.5,
+   -20.9,
+   -21.5,
+   -21.7,
+   -22.4,
+   -22.2,
+   -23.7,
+   -21.3,
+   -21.9,
+   -22.1,
+   -21.2,
+   -21.8,
+   -21.7,
+   -20.1,
+   -22.4,
+   -21.4,
+   -21.3,
+   -20.5,
+   -22.4,
+   -21.2,
+   -21.7,
+   -22.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 302.0,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

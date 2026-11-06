@@ -1,0 +1,478 @@
+{
+ "game_file": "Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2203627303,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:42:28+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 109145
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1000472
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.0,
+   "bytes": 736564
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   19.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   25.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Brothers in Arms - Earned in Blood (U) (En,Fr,De,Es,It),crc32=eb8e4fce"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.6,
+   60.0,
+   60.0,
+   60.0,
+   58.6,
+   29.6,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.0 ms (max 76.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=720 verts=1649790 mergeable=0 (not: strip 150 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=303 set1=720 pc=660 vi=182 vb=481 vp=212 sc=212 dyn=645 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=14411 prog_fog=3015 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 881 words 930422 headers 29011 methods 901398 faults 0 GET 03ffc190 PUT 03ffc1d8 binds 5 semaphores 6234 flips 2017 traps 4162 (9=2144 21=1484 41=533 28=1) runs 0 surfaces 6 clears 2179 swaps 2018 draws 15133 ff 1269 skipped 0 () textures 464 rt uploads 3 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.9 ms (max 76.5, 30 frames)",
+   "hakuX-hle-emit: per s: draws=720 verts=1649790 mergeable=0 (not: strip 150 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=302 set1=720 pc=660 vi=182 vb=481 vp=212 sc=212 dyn=645 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15131 prog_fog=3195 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 877 words 930403 headers 29003 methods 901382 faults 0 GET 03fca5e8 PUT 03fca630 binds 5 semaphores 6409 flips 2047 traps 4312 (9=2264 21=1484 41=563 28=1) runs 0 surfaces 6 clears 2269 swaps 2048 draws 15853 ff 1269 skipped 0 () textures 464 rt uploads 3 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.0 ms (max 76.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=720 verts=1649142 mergeable=0 (not: strip 150 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=301 set1=720 pc=660 vi=181 vb=490 vp=211 sc=211 dyn=630 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15851 prog_fog=3375 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-hitch: stutter #17 frame 2072: front 66.6 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +1.0 write +1.0 ready +1.4 flip +66.6 front +66.6 shown +76.3 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), ",
+   "hakuX-hle-pb: kicks 878 words 930402 headers 29003 methods 901398 faults 0 GET 03ff91e8 PUT 03ff9230 binds 5 semaphores 6584 flips 2077 traps 4462 (9=2384 21=1484 41=593 28=1) runs 0 surfaces 6 clears 2359 swaps 2078 draws 16573 ff 1269 skipped 0 () textures 464 rt uploads 3 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.0 ms (max 76.6, 29 frames)",
+   "hakuX-hle-emit: per s: draws=720 verts=1647630 mergeable=0 (not: strip 150 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=302 set1=720 pc=660 vi=182 vb=510 vp=213 sc=213 dyn=645 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=16571 prog_fog=3555 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=84024 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 54760 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=50 misses=25",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 32 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -23.9,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.78,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -46.5,
+   -26.7,
+   -25.9,
+   -30.5,
+   -28.0,
+   -31.9,
+   -24.8,
+   -23.9,
+   -30.1,
+   -31.2,
+   -31.6,
+   -32.2,
+   -30.5,
+   -29.9,
+   -28.6,
+   -27.7,
+   -29.1,
+   -29.0,
+   -30.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

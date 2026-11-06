@@ -1,0 +1,477 @@
+{
+ "game_file": "Tony Hawk's Underground (U).chd",
+ "game_size": 3044392754,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:38:10+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 197221
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 809565
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1128787
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.0,
+   29.8,
+   27.4,
+   60.0,
+   52.6,
+   59.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 3657 words 2950642 headers 392726 methods 2557900 faults 0 GET 01bb5244 PUT 01c14ec0 binds 5 semaphores 15034 flips 2025 traps 5562 (21=2025 28=1614 8=1613 5=304 9=6) runs 0 surfaces 7 clears 3635 swaps 2026 draws 531490 ff 179442 skipped 1613 (draw_empty=1613) textures 749 rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 42.6, 60 frames)",
+   "hakuX-hle-pb: catch-up: 49898 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1482, a flip stall 48377, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 763.2 ms",
+   "hakuX-hle-emit: per s: draws=23700 verts=1760160 mergeable=0 (not: strip 17940 idx 5760 state 0 work 0 gap 0) batches=61 of 358 draws indexed: no state between 0, contiguous 0 pipe=4543 set1=5580 pc=15735 vi=4308 vb=20908 vp=240 sc=240 dyn=5566 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=531277 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2335 sysops 4900 (int 1016, of them ticks 227; hook 0) schedules 2218 switches 2176 idle 0 slices 0 page faults 0 mmio 10716 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.5 ms) irq3:240 (max 0.1 ms) irq5:1 (max 0.0 ms) | dpc max wait 0.2 run 0.4 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4254 (pages 02358000:576 02604000:576 02603000:512 025c2000:512 025cd000:448 0234d000:384) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 8940 KiB, contiguous 51428 KiB (1606 blocks), virtual 3616 KiB, kernel pool 9 of 64 KiB (Ex 887, objects 5, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-hitch: stutter #23 frame 2090: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +18.2 write +18.2 ready +18.3 flip +50.0 front +50.0 shown +59.7 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 3659 words 2950660 headers 392741 methods 2557900 faults 0 GET 01bfa444 PUT 01c5a0c0 binds 5 semaphores 15526 flips 2085 traps 5742 (21=2085 28=1674 8=1673 5=304 9=6) runs 0 surfaces 7 clears 3755 swaps 2086 draws 555190 ff 188502 skipped 1673 (draw_empty=1673) textures 749 rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 43.0, 58 frames)",
+   "hakuX-hle-pb: catch-up: 52126 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1550, a flip stall 50537, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 799.4 ms",
+   "hakuX-hle-emit: per s: draws=23700 verts=1760160 mergeable=0 (not: strip 17940 idx 5760 state 0 work 0 gap 0) batches=60 of 360 draws indexed: no state between 0, contiguous 0 pipe=4539 set1=5575 pc=15730 vi=4300 vb=20910 vp=239 sc=239 dyn=5566 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=554977 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3648 words 2950672 headers 392749 methods 2557916 faults 0 GET 01c3ef64 PUT 01b9ed88 binds 5 semaphores 16019 flips 2145 traps 5922 (21=2145 28=1734 8=1733 5=304 9=6) runs 0 surfaces 7 clears 3875 swaps 2146 draws 578890 ff 197562 skipped 1733 (draw_empty=1733) textures 749 rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.2 ms (max 41.9, 60 frames)",
+   "hakuX-hle-pb: catch-up: 54348 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1611, a flip stall 52698, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 834.3 ms",
+   "hakuX-hle-emit: per s: draws=23700 verts=1760160 mergeable=0 (not: strip 17940 idx 5760 state 0 work 0 gap 0) batches=60 of 359 draws indexed: no state between 0, contiguous 0 pipe=4536 set1=5573 pc=15734 vi=4299 vb=20914 vp=239 sc=239 dyn=5559 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=578677 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2111974 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 136796 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=172 misses=74",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 50 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.7,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.79,
+  "rms_dbfs_per_2s": [
+   -79.7,
+   -34.6,
+   -32.4,
+   -21.3,
+   -19.7,
+   -28.4,
+   -27.1,
+   -32.1,
+   -66.8,
+   -33.9,
+   -30.3,
+   -30.8,
+   -34.5,
+   -57.7,
+   -33.6,
+   -29.6,
+   -30.5,
+   -34.8,
+   -32.4,
+   -31.2,
+   -30.3,
+   -30.6,
+   -31.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

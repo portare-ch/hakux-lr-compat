@@ -1,0 +1,465 @@
+{
+ "game_file": "Prince of Persia - The Sands of Time (U) (En,Fr,Es).chd",
+ "game_size": 2319909410,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:15:08+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.3,
+   "bytes": 91278
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 91278
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.3,
+   "bytes": 91278
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   18.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   26.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Sands of Time (U) (En,Fr,Es),crc32=b449a65f"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 33.52 s since frame 188: JIT compiling: 83% of the vCPU in FEX | render idle for 33518 ms | vCPU cpu 33418 ms halted 0% | render cpu 0 run 0 idle 33518 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 203/203, last done 33518 ms ago | swaps 0 vblanks 2011 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03e153f8 PUT 03e153f8 binds 5 semaphores 15 flips 4 traps 12 (9=6 41=4 28=1 5=1) runs 0 surfaces 17 clears 9 swaps 4 draws 48 ff 0 skipped 0 () textures 0 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 189 repeat",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 34.52 s since frame 188: JIT compiling: 83% of the vCPU in FEX | render idle for 34518 ms | vCPU cpu 34415 ms halted 0% | render cpu 0 run 0 idle 34518 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 203/203, last done 34518 ms ago | swaps 0 vblanks 2071 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03e153f8 PUT 03e153f8 binds 5 semaphores 15 flips 4 traps 12 (9=6 41=4 28=1 5=1) runs 0 surfaces 17 clears 9 swaps 4 draws 48 ff 0 skipped 0 () textures 0 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 189 repeat",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 35.52 s since frame 188: JIT compiling: 83% of the vCPU in FEX | render idle for 35519 ms | vCPU cpu 35412 ms halted 0% | render cpu 0 run 0 idle 35519 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 203/203, last done 35519 ms ago | swaps 0 vblanks 2131 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03e153f8 PUT 03e153f8 binds 5 semaphores 15 flips 4 traps 12 (9=6 41=4 28=1 5=1) runs 0 surfaces 17 clears 9 swaps 4 draws 48 ff 0 skipped 0 () textures 0 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 189 repeat",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 36.52 s since frame 188: JIT compiling: 83% of the vCPU in FEX | render idle for 36519 ms | vCPU cpu 36409 ms halted 0% | render cpu 0 run 0 idle 36519 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 203/203, last done 36519 ms ago | swaps 0 vblanks 2191 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03e153f8 PUT 03e153f8 binds 5 semaphores 15 flips 4 traps 12 (9=6 41=4 28=1 5=1) runs 0 surfaces 17 clears 9 swaps 4 draws 48 ff 0 skipped 0 () textures 0 rt uploads 20 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 189 repeat",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 37.52 s since frame 188: JIT compiling: 83% of the vCPU in FEX | render idle for 37519 ms | vCPU cpu 37406 ms halted 0% | render cpu 0 run 0 idle 37519 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 203/203, last done 37519 ms ago | swaps 0 vblanks 2251 draws 0 | dvd ",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=7497836 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 30936 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=18 misses=10",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 44 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 43.7,
+  "peak_rms_dbfs": -19.4,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.13,
+  "rms_dbfs_per_2s": [
+   -43.3,
+   -19.4,
+   -19.6,
+   -38.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

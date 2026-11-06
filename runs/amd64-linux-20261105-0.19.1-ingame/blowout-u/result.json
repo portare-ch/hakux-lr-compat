@@ -1,0 +1,1491 @@
+{
+ "game_file": "Blowout (U).chd",
+ "game_size": 215252650,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:10:11+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.81,
+  "confirmed_by": "w070",
+  "stopped_at_s": 79.1,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 79.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "held",
+   "start"
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "held",
+   "start"
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "held",
+   "start"
+  ],
+  [
+   73.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "held",
+   "start"
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.4,
+   "bytes": 624339
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 30.8,
+   "bytes": 166706
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 47.9,
+   "bytes": 814268
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 53.6,
+   "bytes": 909263
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 73.8,
+   "bytes": 975512
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.84,
+   "got_s": 73.8,
+   "bytes": 975512,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   6.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Blowout (U),crc32=a6aaf531"
+  ],
+  [
+   80.1,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.4,
+   29.5,
+   24.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.0 ms (max 71.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9225 verts=1598427 mergeable=0 (not: strip 0 idx 9225 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 5344, contiguous 0 pipe=1358 set1=1989 pc=2566 vi=523 vb=2581 vp=338 sc=338 dyn=1626 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=460484 prog_fog=43502 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2652 sysops 5597 (int 993, of them ticks 5; hook 0) schedules 2944 switches 2023 idle 783 slices 1 page faults 0 mmio 14753 apu waits 0 vm pages +0 -7 isr irq1:500 (max 1.0 ms) irq3:476 (max 0.9 ms) irq5:0 (max 0.7 ms) | dpc max wait 1.5 run 1.8 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 9564 KiB, contiguous 39864 KiB (432 blocks), virtual 14724 KiB, kernel pool 8 of 64 KiB (Ex 825, objects 6, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 2101 words 1494312 headers 164042 methods 1330263 faults 0 GET 03feddb8 PUT 03f9efc0 binds 5 semaphores 21860 flips 2242 traps 28744 (28=12459 8=12458 41=2242 5=1579 9=6) runs 0 surfaces 6 clears 6056 swaps 2243 draws 469979 ff 0 skipped 0 () textures 92 rt uploads 3 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.3 ms (max 70.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9207 verts=1592016 mergeable=0 (not: strip 0 idx 9207 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 5347, contiguous 0 pipe=1357 set1=1979 pc=2552 vi=525 vb=2560 vp=341 sc=341 dyn=1617 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=469691 prog_fog=44222 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\xbxsound.pod ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\xbxsound.pod ->",
+   "hakuX-hle-pb: kicks 2108 words 1506314 headers 164886 methods 1341423 faults 0 GET 03fb07b0 PUT 03fe4fe4 binds 5 semaphores 22145 flips 2272 traps 29284 (28=12699 8=12698 41=2272 5=1609 9=6) runs 0 surfaces 6 clears 6176 swaps 2273 draws 479215 ff 0 skipped 0 () textures 92 rt uploads 3 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.3 ms (max 70.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9236 verts=1611273 mergeable=0 (not: strip 0 idx 9236 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 5355, contiguous 0 pipe=1352 set1=2005 pc=2577 vi=516 vb=2578 vp=335 sc=335 dyn=1631 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=478927 prog_fog=44942 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=211623 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-hle-pb: kicks 2028 words 1459555 headers 159333 methods 1300203 faults 0 GET 03fc5914 PUT 03ff639c binds 5 semaphores 22417 flips 2301 traps 29806 (28=12931 8=12930 41=2301 5=1638 9=6) runs 0 surfaces 6 clears 6292 swaps 2302 draws 488132 ff 0 skipped 0 () textures 92 rt uploads 3 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.4 ms (max 70.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=8917 verts=1564197 mergeable=0 (not: strip 0 idx 8917 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 5178, contiguous 0 pipe=1310 set1=1947 pc=2482 vi=500 vb=2518 vp=326 sc=326 dyn=1563 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=487844 prog_fog=45638 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 56 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 78.1,
+  "peak_rms_dbfs": -17.0,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.96,
+  "rms_dbfs_per_2s": [
+   -23.4,
+   -28.2,
+   -29.9,
+   -33.6,
+   -23.5,
+   -28.5,
+   -26.0,
+   -24.2,
+   -23.8,
+   -24.8,
+   -26.1,
+   -24.3,
+   -25.7,
+   -120.0,
+   -17.0,
+   -33.0,
+   -31.0,
+   -29.5,
+   -28.3,
+   -33.2,
+   -35.8,
+   -27.7,
+   -31.7,
+   -27.0,
+   -34.3,
+   -33.6,
+   -27.3,
+   -32.2,
+   -27.4,
+   -34.4,
+   -31.1,
+   -26.7,
+   -25.1,
+   -27.2,
+   -26.2,
+   -30.5,
+   -33.0,
+   -30.4,
+   -27.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.81 s (judged from screenshots); stopped at 79.1 s and the emulator closed",
+ "duration_s": 79.4,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

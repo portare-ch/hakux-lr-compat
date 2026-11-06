@@ -1,0 +1,3276 @@
+{
+ "game_file": "Club Football - Aston Villa (UK).chd",
+ "game_size": 687388980,
+ "system": "amd64-linux",
+ "started": "2026-11-05T17:23:00+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The Domestic Season player-creation dialog (from about 30 s) has the cursor on its text-scroll arrow, where A does nothing. Right x3 reaches Skip, then A.",
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "right"
+   ],
+   [
+    40.5,
+    "tap",
+    "right"
+   ],
+   [
+    41.0,
+    "tap",
+    "right"
+   ],
+   [
+    41.6,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    39.5,
+    43.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.0,
+   "tap",
+   "right"
+  ],
+  [
+   40.5,
+   "tap",
+   "right"
+  ],
+  [
+   41.0,
+   "tap",
+   "right"
+  ],
+  [
+   41.6,
+   "tap",
+   "a"
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w250",
+    "t": 249.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w290",
+    "t": 289.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 301.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.04,
+   "tap",
+   "right"
+  ],
+  [
+   40.54,
+   "tap",
+   "right"
+  ],
+  [
+   41.04,
+   "tap",
+   "right"
+  ],
+  [
+   41.64,
+   "tap",
+   "a"
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   170.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   190.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.83,
+   "watch",
+   "w210"
+  ],
+  [
+   210.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.82,
+   "watch",
+   "w250"
+  ],
+  [
+   250.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.02,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 333736
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 31.6,
+   "bytes": 664847
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 48.4,
+   "bytes": 577301
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 51.8,
+   "bytes": 647065
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.0,
+   "bytes": 520757
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 91.0,
+   "bytes": 503161
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.8,
+   "got_s": 111.2,
+   "bytes": 492680
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 131.2,
+   "bytes": 491172
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 151.0,
+   "bytes": 520874
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 171.0,
+   "bytes": 501811
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 191.0,
+   "bytes": 492401
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.83,
+   "got_s": 211.0,
+   "bytes": 491074
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 231.2,
+   "bytes": 501760
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.82,
+   "got_s": 251.2,
+   "bytes": 492296
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 271.0,
+   "bytes": 501211
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.8,
+   "got_s": 291.0,
+   "bytes": 503633
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 301.3,
+   "bytes": 503186
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   81.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   107.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   147.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   154.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   162.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   168.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   169.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   170.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   171.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   176.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   177.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   181.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   182.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   185.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   190.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   191.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   192.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   195.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   196.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   198.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   202.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   203.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   204.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   209.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   211.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   212.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   216.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   217.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   218.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   222.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   223.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   224.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   230.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   249.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   251.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   257.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   258.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   264.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   265.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   268.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   270.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   271.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   272.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   273.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   276.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   277.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   278.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   279.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   282.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   283.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   284.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   285.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   286.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   290.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   291.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   292.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   293.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   294.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   295.4,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   296.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   297.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   298.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   299.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   300.5,
+   "GET_STATUS PLAYING xbox,Club Football - Aston Villa (UK),crc32=4f6c900b"
+  ],
+  [
+   302.3,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   13.5,
+   47.1,
+   49.9,
+   50.0,
+   49.7,
+   50.0,
+   49.8,
+   49.9,
+   49.7,
+   50.0,
+   49.9,
+   50.0,
+   49.9,
+   50.0,
+   49.7,
+   50.0,
+   49.8,
+   50.0,
+   49.9,
+   49.9,
+   49.8,
+   50.0,
+   49.8,
+   50.0,
+   49.9,
+   49.9,
+   49.8,
+   50.0,
+   49.6
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3161526 prog_fog=3136542 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 336 words 958733 headers 76014 methods 882720 faults 0 GET 03ecbce0 PUT 03edebb0 binds 5 semaphores 36783 flips 14399 traps 15488 (21=14399 5=1080 9=8 28=1) runs 0 surfaces 7 clears 84999 swaps 14399 draws 3173360 ff 0 skipped 0 () textures 233 rt uploads 3 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 47.7 ms (max 55.4, 50 frames)",
+   "hakuX-hle-emit: per s: draws=11800 verts=183350 mergeable=0 (not: strip 100 idx 11700 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 384, contiguous 0 pipe=951 set1=743 pc=2451 vi=302 vb=11116 vp=102 sc=652 dyn=1630 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3173326 prog_fog=3148292 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #52 frame 14545: front 60.4 ms after the last (expected 20.0), 2 dropped: UI missed 2 front frames (pickups 69 ms apart) | swap +22.0 write +22.0 ready +22.3 flip +60.4 front +60.4 shown +72.1 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 21 ",
+   "hakuX-hle-pb: kicks 340 words 958742 headers 76018 methods 882720 faults 0 GET 03e74800 PUT 03e945b0 binds 5 semaphores 36913 flips 14449 traps 15541 (21=14449 5=1083 9=8 28=1) runs 0 surfaces 7 clears 85299 swaps 14449 draws 3185160 ff 0 skipped 0 () textures 233 rt uploads 3 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 47.9 ms (max 56.8, 48 frames)",
+   "hakuX-hle-emit: per s: draws=11800 verts=183350 mergeable=0 (not: strip 100 idx 11700 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 387, contiguous 0 pipe=950 set1=743 pc=2450 vi=300 vb=11113 vp=100 sc=650 dyn=1600 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3185126 prog_fog=3160042 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 10496 TDs in 10 s, ctl 000000be (lists PCB), hcca 03f8b000, intr 00000004/80000073",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.60 ms each (max 19.87), video 16.48 ms (max 19.82)",
+   "hakuX-hle-pb: kicks 337 words 958734 headers 76014 methods 882720 faults 0 GET 03e1d0c4 PUT 03e335c4 binds 5 semaphores 37042 flips 14499 traps 15593 (21=14499 5=1085 9=8 28=1) runs 0 surfaces 7 clears 85599 swaps 14499 draws 3196960 ff 0 skipped 0 () textures 233 rt uploads 3 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 47.8 ms (max 55.1, 50 frames)",
+   "hakuX-hle-emit: per s: draws=11800 verts=183350 mergeable=0 (not: strip 100 idx 11700 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 385, contiguous 0 pipe=953 set1=744 pc=2453 vi=303 vb=11115 vp=103 sc=652 dyn=1645 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3196926 prog_fog=3171792 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=846469 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 47 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55901a449640",
+   "[Gamescope WSI] Destroyed swapchain: 0x55901a449640",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 300.5,
+  "peak_rms_dbfs": -19.8,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.96,
+  "rms_dbfs_per_2s": [
+   -19.8,
+   -20.9,
+   -58.4,
+   -120.0,
+   -120.0,
+   -32.6,
+   -38.2,
+   -120.0,
+   -25.6,
+   -25.3,
+   -25.4,
+   -25.2,
+   -25.2,
+   -24.2,
+   -25.9,
+   -25.9,
+   -26.5,
+   -26.8,
+   -25.9,
+   -26.2,
+   -25.9,
+   -26.9,
+   -26.5,
+   -25.6,
+   -25.7,
+   -25.8,
+   -26.2,
+   -25.8,
+   -25.7,
+   -25.7,
+   -27.6,
+   -28.5,
+   -29.9,
+   -27.7,
+   -30.0,
+   -32.6,
+   -26.8,
+   -25.2,
+   -25.8,
+   -25.6,
+   -25.4,
+   -24.0,
+   -24.5,
+   -25.9,
+   -26.0,
+   -26.6,
+   -26.5,
+   -26.1,
+   -26.0,
+   -26.2,
+   -26.9,
+   -26.6,
+   -25.9,
+   -25.5,
+   -26.0,
+   -26.3,
+   -25.8,
+   -25.7,
+   -25.4,
+   -27.5,
+   -29.2,
+   -29.3,
+   -28.0,
+   -30.3,
+   -30.3,
+   -27.1,
+   -25.7,
+   -25.7,
+   -25.4,
+   -25.2,
+   -24.4,
+   -24.4,
+   -26.1,
+   -26.2,
+   -26.6,
+   -26.9,
+   -25.9,
+   -26.2,
+   -26.3,
+   -26.6,
+   -26.8,
+   -25.9,
+   -25.7,
+   -25.8,
+   -26.2,
+   -25.7,
+   -25.6,
+   -26.5,
+   -27.8,
+   -29.2,
+   -30.2,
+   -28.4,
+   -30.7,
+   -30.7,
+   -27.0,
+   -25.5,
+   -25.3,
+   -25.8,
+   -25.2,
+   -24.2,
+   -25.4,
+   -25.9,
+   -26.3,
+   -26.6,
+   -26.4,
+   -25.9,
+   -25.7,
+   -26.2,
+   -26.4,
+   -26.7,
+   -25.6,
+   -25.7,
+   -26.1,
+   -25.8,
+   -25.7,
+   -25.7,
+   -26.8,
+   -28.4,
+   -29.6,
+   -29.2,
+   -27.9,
+   -30.1,
+   -30.6,
+   -26.3,
+   -25.6,
+   -25.6,
+   -25.6,
+   -25.4,
+   -24.4,
+   -25.9,
+   -26.0,
+   -26.7,
+   -26.6,
+   -26.2,
+   -26.0,
+   -26.2,
+   -25.9,
+   -26.6,
+   -26.4,
+   -25.7,
+   -25.7,
+   -25.7,
+   -25.7,
+   -25.9,
+   -25.5,
+   -27.4,
+   -27.9,
+   -29.6,
+   -29.2,
+   -28.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 301.6,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

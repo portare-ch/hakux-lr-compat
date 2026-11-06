@@ -1,0 +1,477 @@
+{
+ "game_file": "Sega GT 2002 (U) (En,Ja).chd",
+ "game_size": 1563614583,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:23:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 115328
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 951364
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 769663
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 (U) (En,Ja),crc32=e59b947"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.1,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   58.2,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=17400 verts=2995200 mergeable=0 (not: strip 17400 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8051 set1=12980 pc=11985 vi=1435 vb=11215 vp=329 sc=329 dyn=4788 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=186583 prog_fog=30506 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 9774 sysops 13459 (int 1418, of them ticks 220; hook 0) schedules 5315 switches 2990 idle 9 slices 0 page faults 0 mmio 22777 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:633 (max 0.1 ms) | dpc max wait 0.4 run 0.4 ms, 0 over 8 ms | holds 0 (longest 0.0",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 370 (pages 032c4000:448 02d90000:192 02d89000:128 02d76000:128 02da0000:128 02d7b000:128) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 18164 KiB, contiguous 34804 KiB (1314 blocks), virtual 11092 KiB, kernel pool 56 of 64 KiB (Ex 716, objects 43, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 3974 words 4289762 headers 585523 methods 3704232 faults 0 GET 036d27f8 PUT 0375d5fc binds 4 semaphores 11462 flips 2553 traps 9705 (28=3570 8=3569 21=2553 5=7 9=6) runs 0 surfaces 37 clears 8668 swaps 2553 draws 204191 ff 120967 skipped 0 () textures 1838 rt uploads 17 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.9 ms (max 42.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=17400 verts=2995200 mergeable=0 (not: strip 17400 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8192 set1=13129 pc=12252 vi=1469 vb=11163 vp=330 sc=330 dyn=4787 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=203983 prog_fog=30506 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3986 words 4348820 headers 596861 methods 3751944 faults 0 GET 0376c388 PUT 035f4018 binds 4 semaphores 12135 flips 2613 traps 10605 (28=3990 8=3989 21=2613 5=7 9=6) runs 0 surfaces 37 clears 9208 swaps 2613 draws 221591 ff 131587 skipped 0 () textures 2005 rt uploads 17 blits 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.0 ms (max 42.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=17400 verts=2995200 mergeable=0 (not: strip 17400 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8390 set1=13307 pc=12434 vi=1556 vb=11053 vp=329 sc=329 dyn=4786 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=221383 prog_fog=30506 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #7 frame 2663: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +20.3 write +20.3 ready +20.7 flip +50.0 front +50.0 shown +59.7 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 3996 words 4377877 headers 602104 methods 3775768 faults 0 GET 03621ec8 PUT 036aceec binds 4 semaphores 12813 flips 2673 traps 11505 (28=4410 8=4409 21=2673 5=7 9=6) runs 0 surfaces 37 clears 9748 swaps 2673 draws 238991 ff 142207 skipped 0 () textures 2174 rt uploads 17 blits 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.0 ms (max 42.7, 58 frames)",
+   "hakuX-hle-emit: per s: draws=17400 verts=2995200 mergeable=0 (not: strip 17400 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8505 set1=13375 pc=12491 vi=1550 vb=10964 vp=326 sc=326 dyn=4842 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=238783 prog_fog=30506 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=500374 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 150992 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=131 misses=62",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 31 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -19.2,
+  "first_sound_s": 16.5,
+  "audible_fraction": 0.62,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -33.8,
+   -21.6,
+   -19.2,
+   -19.8,
+   -20.2,
+   -24.4,
+   -25.6,
+   -22.4,
+   -22.0,
+   -25.3,
+   -24.6,
+   -23.1,
+   -23.4,
+   -24.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

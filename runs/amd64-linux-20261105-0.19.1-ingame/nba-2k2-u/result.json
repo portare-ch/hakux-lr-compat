@@ -1,0 +1,1166 @@
+{
+ "game_file": "NBA 2K2 (U).chd",
+ "game_size": 801087447,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:35:03+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Main menu ring (up by about 45 s) has no mode highlighted, so Start/A pick nothing. D-pad down highlights Quickstart, A starts a game with random teams, and A taps skip the player intros to tip-off. In game Start pauses and A then opens Stats, so the default presses are dropped from 54 s.",
+  "extra_steps": [
+   [
+    54.5,
+    "tap",
+    "down"
+   ],
+   [
+    55.1,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    74.5,
+    "tap",
+    "down"
+   ],
+   [
+    75.1,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    54.0,
+    300.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.5,
+   "tap",
+   "down"
+  ],
+  [
+   55.1,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   74.5,
+   "tap",
+   "down"
+  ],
+  [
+   75.1,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 98.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 98.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.51,
+   "tap",
+   "down"
+  ],
+  [
+   55.11,
+   "tap",
+   "a"
+  ],
+  [
+   59.04,
+   "tap",
+   "a"
+  ],
+  [
+   63.05,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   71.12,
+   "tap",
+   "a"
+  ],
+  [
+   74.53,
+   "tap",
+   "down"
+  ],
+  [
+   75.14,
+   "tap",
+   "a"
+  ],
+  [
+   79.05,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.01,
+   "tap",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   91.12,
+   "tap",
+   "a"
+  ],
+  [
+   95.04,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 36603
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 31.6,
+   "bytes": 364016
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 46.6,
+   "bytes": 807027
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.8,
+   "bytes": 802388
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.2,
+   "bytes": 1478608
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 93.2,
+   "bytes": 1561019
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.82,
+   "got_s": 93.2,
+   "bytes": 1561019,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,NBA 2K2 (U),crc32=3e9a7dbb"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\game.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   53.4,
+   60.0,
+   56.1,
+   59.6,
+   54.1,
+   59.3,
+   59.9,
+   51.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1579716 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 52.0 fps (261 frames in 5.02 s)",
+   "hakuX-hle-hitch: stutter #154 frame 3692: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 17 ms before | swap -0.3 write -0.3 ready -0.1 flip +33.3 front +33.3 shown +41.3 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 2472 words 14212171 headers 1947955 methods 12264207 faults 0 GET 02ed1f40 PUT 02ed1f60 binds 4 semaphores 39490 flips 3724 traps 11180 (2=3724 7=3723 6=3722 9=6 5=4 8=1) runs 0 surfaces 3 clears 3724 swaps 3724 draws 1617543 ff 0 skipped 0 () textures 2247 rt uploads 2 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 31.5 ms (max 41.6, 59 frames)",
+   "hakuX-hle-emit: per s: draws=37583 verts=9231848 mergeable=0 (not: strip 37583 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8795 set1=34648 pc=26458 vi=7502 vb=35081 vp=153 sc=271 dyn=4934 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1617299 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 88937 sysops 91102 (int 773, of them ticks 11; hook 0) schedules 2221 switches 2137 idle 0 slices 1 page faults 0 mmio 20440 apu waits 0 vm pages +0 -0 isr irq1:500 (max 1.5 ms) irq3:192 (max 0.7 ms) irq5:4 (max 0.2 ms) | dpc max wait 0.7 run 1.2 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1586 (pages 01935000:512 01940000:448 0194b000:320 01936000:256 0192b000:256 01913000:256) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 13224 KiB, contiguous 39716 KiB (1027 blocks), virtual 11384 KiB, kernel pool 81 of 128 KiB (Ex 68, objects 12, lost 0 KiB, 3 free ranges)",
+   "hakuX-native-io: open \\Device\\CdRom0\\chatter.bin ->",
+   "hakuX-hle-hitch: stutter #155 frame 3781: front 33.0 ms after the last (expected 16.7), 0 dropped: guest flipped 16 ms after its vblank, ready 16 ms before | swap -0.0 write +0.0 ready +0.2 flip +33.0 front +33.0 shown +41.0 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 2476 words 14166598 headers 1939570 methods 12227019 faults 0 GET 02cdf9ec PUT 02d265dc binds 4 semaphores 40487 flips 3783 traps 11357 (2=3783 7=3782 6=3781 9=6 5=4 8=1) runs 0 surfaces 3 clears 3783 swaps 3783 draws 1654950 ff 0 skipped 0 () textures 2306 rt uploads 2 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 29.8 ms (max 41.0, 59 frames)",
+   "hakuX-hle-emit: per s: draws=37407 verts=9203644 mergeable=0 (not: strip 37407 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8715 set1=34468 pc=26271 vi=7510 vb=34904 vp=161 sc=279 dyn=4787 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1654706 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=4090144 first_call=PsCreateSystemThreadEx threads=24",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 53 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5558f7672990",
+   "[Gamescope WSI] Destroyed swapchain: 0x5558f7672990",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 96.6,
+  "peak_rms_dbfs": -15.6,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.87,
+  "rms_dbfs_per_2s": [
+   -15.6,
+   -16.1,
+   -18.1,
+   -25.3,
+   -20.3,
+   -19.5,
+   -17.7,
+   -16.7,
+   -28.8,
+   -57.6,
+   -57.6,
+   -57.6,
+   -57.6,
+   -46.7,
+   -31.6,
+   -39.1,
+   -37.1,
+   -28.2,
+   -32.7,
+   -32.0,
+   -29.3,
+   -32.9,
+   -29.3,
+   -32.4,
+   -32.1,
+   -30.1,
+   -29.0,
+   -28.3,
+   -27.9,
+   -39.4,
+   -37.2,
+   -30.5,
+   -27.3,
+   -29.2,
+   -27.8,
+   -30.0,
+   -29.6,
+   -29.5,
+   -27.9,
+   -26.2,
+   -27.2,
+   -32.9,
+   -33.9,
+   -33.0,
+   -32.5,
+   -33.7,
+   -35.2,
+   -34.5,
+   -34.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 98.0 s and the emulator closed",
+ "duration_s": 98.1,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

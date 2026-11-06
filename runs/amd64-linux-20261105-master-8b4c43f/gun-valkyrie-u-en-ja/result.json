@@ -1,0 +1,1624 @@
+{
+ "game_file": "Gun Valkyrie (U) (En,Ja).chd",
+ "game_size": 400925326,
+ "system": "amd64-linux",
+ "started": "2026-11-05T22:21:26+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.81,
+  "confirmed_by": "w090",
+  "stopped_at_s": 96.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 96.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "held",
+   "start"
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.55,
+   "held",
+   "start"
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "held",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "held",
+   "start"
+  ],
+  [
+   93.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 140490
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.8,
+   "bytes": 541031
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 46.8,
+   "bytes": 1702286
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 52.0,
+   "bytes": 1280791
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 71.0,
+   "bytes": 2575916
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 91.1,
+   "bytes": 2577095
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.84,
+   "got_s": 91.1,
+   "bytes": 2577095,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Gun Valkyrie (U) (En,Ja),crc32=8ddddd6e"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.0,
+   59.5,
+   57.0,
+   59.9,
+   59.3,
+   59.4,
+   59.8,
+   60.0,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1567973 prog_fog=1481221 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2607 words 7830274 headers 971981 methods 6858244 faults 0 GET 03ff4cb4 PUT 03fe7a30 binds 4 semaphores 68358 flips 5518 traps 10644 (2=5518 5=3138 8=1982 9=6) runs 0 surfaces 5 clears 6510 swaps 5518 draws 1609092 ff 1403913 skipped 0 () textures 106 rt uploads 1 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.5 ms (max 23.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=34560 verts=7436100 mergeable=0 (not: strip 20880 idx 13680 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4364 set1=18556 pc=7240 vi=774 vb=15868 vp=121 sc=121 dyn=6461 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1602533 prog_fog=1514581 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2575 words 7830063 headers 971766 methods 6858228 faults 0 GET 03fe9f6c PUT 03fc942c binds 4 semaphores 69497 flips 5578 traps 10765 (2=5578 5=3199 8=1982 9=6) runs 0 surfaces 5 clears 6570 swaps 5578 draws 1643652 ff 1434273 skipped 0 () textures 106 rt uploads 1 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.3 ms (max 22.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=34560 verts=7436100 mergeable=0 (not: strip 20880 idx 13680 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4368 set1=18556 pc=7240 vi=774 vb=15870 vp=121 sc=121 dyn=6467 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1637093 prog_fog=1547941 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 10723 sysops 12807 (int 701, of them ticks 21; hook 0) schedules 4194 switches 1759 idle 454 slices 0 page faults 0 mmio 15738 apu waits 0 vm pages +0 -0 isr irq1:499 (max 2.6 ms) irq3:185 (max 1.2 ms) | dpc max wait 0.4 run 1.7 ms, 0 over 8 ms | holds 0 (longest 0.",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 16276 KiB, contiguous 23132 KiB (708 blocks), virtual 24468 KiB, kernel pool 30 of 64 KiB (Ex 1032, objects 25, lost 0 KiB, 98 free ranges)",
+   "hakuX-hle-pb: kicks 2599 words 7830361 headers 972064 methods 6858244 faults 0 GET 03fe0a6c PUT 03fd7bd8 binds 4 semaphores 70636 flips 5638 traps 10890 (2=5638 5=3264 8=1982 9=6) runs 0 surfaces 5 clears 6630 swaps 5638 draws 1678212 ff 1464633 skipped 0 () textures 106 rt uploads 1 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.3 ms (max 22.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=34560 verts=7436100 mergeable=0 (not: strip 20880 idx 13680 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4366 set1=18551 pc=7243 vi=773 vb=15862 vp=120 sc=120 dyn=6445 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1671653 prog_fog=1581301 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=751405 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55dd1e8659e0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55dd1e8659e0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 94.3,
+  "peak_rms_dbfs": -23.5,
+  "first_sound_s": 13.0,
+  "audible_fraction": 0.78,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -28.0,
+   -35.5,
+   -31.1,
+   -31.2,
+   -43.6,
+   -83.9,
+   -25.2,
+   -28.8,
+   -28.5,
+   -27.4,
+   -25.7,
+   -25.3,
+   -24.9,
+   -24.4,
+   -27.2,
+   -27.5,
+   -28.3,
+   -31.6,
+   -38.2,
+   -37.7,
+   -30.7,
+   -23.5,
+   -23.5,
+   -36.9,
+   -34.0,
+   -31.1,
+   -42.4,
+   -31.1,
+   -31.8,
+   -30.5,
+   -29.5,
+   -29.3,
+   -30.5,
+   -27.4,
+   -26.7,
+   -28.6,
+   -27.4,
+   -27.3,
+   -27.6,
+   -27.2,
+   -27.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.81 s (judged from screenshots); stopped at 96.2 s and the emulator closed",
+ "duration_s": 96.4,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

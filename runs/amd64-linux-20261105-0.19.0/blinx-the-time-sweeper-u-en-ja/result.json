@@ -1,0 +1,478 @@
+{
+ "game_file": "Blinx - The Time Sweeper (U) (En,Ja).chd",
+ "game_size": 1832478719,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:41:39+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.2,
+   "bytes": 669216
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.5,
+   "bytes": 1064269
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.3,
+   "bytes": 1699142
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Blinx - The Time Sweeper (U) (En,Ja),crc32=7eb004a7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   54.3,
+   59.4,
+   59.6,
+   59.4,
+   58.0,
+   31.4,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\pelon010.rec ->",
+   "hakuX-hle-pb: kicks 4276 words 8216433 headers 2195009 methods 6021352 faults 0 GET 03ff2c98 PUT 03ff2c98 binds 4 semaphores 25220 flips 2022 traps 13555 (7=9286 5=2240 21=1485 1=537 9=6 28=1) runs 0 surfaces 6 clears 3978 swaps 2022 draws 8027848 ff 0 skipped 0 () textures 786 rt uploads 5 blits 1 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 44.1, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1187 stores waited for the decoder (caught up 521; it waited on the guest at a trap 666, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1405.3 ms",
+   "hakuX-hle-emit: per s: draws=434400 verts=2645232 mergeable=0 (not: strip 432990 idx 90 state 1320 work 0 gap 0) batches=5242 of 10484 draws indexed: no state between 0, contiguous 0 pipe=12933 set1=15402 pc=25112 vi=558 vb=424727 vp=216 sc=216 dyn=146384 fb=60",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8004016 prog_fog=7846269 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\pelon011.rec ->",
+   "hakuX-hle-pb: kicks 4267 words 8215632 headers 2194949 methods 6020632 faults 0 GET 03fd1cec PUT 03fd1cec binds 4 semaphores 26314 flips 2052 traps 13986 (7=9646 5=2281 21=1485 1=567 9=6 28=1) runs 0 surfaces 6 clears 4038 swaps 2052 draws 8462248 ff 0 skipped 0 () textures 786 rt uploads 5 blits 1 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.4 ms (max 59.1, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1253 stores waited for the decoder (caught up 550; it waited on the guest at a trap 703, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1477.7 ms",
+   "hakuX-hle-emit: per s: draws=434400 verts=2644968 mergeable=0 (not: strip 432990 idx 90 state 1320 work 0 gap 0) batches=5257 of 10514 draws indexed: no state between 0, contiguous 0 pipe=12922 set1=15390 pc=25088 vi=548 vb=424733 vp=212 sc=212 dyn=146312 fb=60",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8438416 prog_fog=8272809 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\pelon012.rec ->",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-hle-pb: kicks 4277 words 8214128 headers 2194627 methods 6019428 faults 0 GET 03faf8f4 PUT 03faf8f4 binds 4 semaphores 27408 flips 2082 traps 14420 (7=10006 5=2325 21=1485 1=597 9=6 28=1) runs 0 surfaces 6 clears 4098 swaps 2082 draws 8896648 ff 0 skipped 0 () textures 786 rt uploads 5 blits 1",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.0 ms (max 41.1, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1320 stores waited for the decoder (caught up 579; it waited on the guest at a trap 741, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1551.2 ms",
+   "hakuX-hle-emit: per s: draws=434400 verts=2645100 mergeable=0 (not: strip 432990 idx 90 state 1320 work 0 gap 0) batches=5242 of 10484 draws indexed: no state between 0, contiguous 0 pipe=12924 set1=15410 pc=25112 vi=564 vb=424742 vp=219 sc=219 dyn=146426 fb=60",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8872816 prog_fog=8699349 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=747369 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 153416 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=76 misses=55",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 57 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -22.3,
+  "first_sound_s": 3.5,
+  "audible_fraction": 0.87,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -28.4,
+   -28.2,
+   -28.5,
+   -27.4,
+   -28.8,
+   -32.4,
+   -26.8,
+   -29.8,
+   -23.6,
+   -22.8,
+   -22.3,
+   -29.9,
+   -23.5,
+   -29.5,
+   -28.5,
+   -26.7,
+   -28.4,
+   -26.9,
+   -26.3,
+   -23.3,
+   -25.3,
+   -24.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

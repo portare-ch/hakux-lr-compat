@@ -1,0 +1,472 @@
+{
+ "game_file": "Advent Rising (U).chd",
+ "game_size": 3940519291,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:31:23+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 270574
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 834791
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 306973
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Advent Rising (U),crc32=570a2fa9"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   58.4,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 422 words 19456 headers 4208 methods 15248 faults 0 GET 03f6b430 PUT 03f6be28 binds 5 semaphores 1375 flips 674 traps 681 (21=674 9=6 28=1) runs 0 surfaces 3 clears 674 swaps 674 draws 674 ff 0 skipped 0 () textures 1005 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 43.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=674 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 423 words 19464 headers 4212 methods 15264 faults 0 GET 03f7e450 PUT 03f7ee48 binds 5 semaphores 1498 flips 734 traps 741 (21=734 9=6 28=1) runs 0 surfaces 3 clears 734 swaps 734 draws 734 ff 0 skipped 0 () textures 1095 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 43.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=734 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 422 words 19456 headers 4208 methods 15248 faults 0 GET 03f91450 PUT 03f91e48 binds 5 semaphores 1620 flips 794 traps 801 (21=794 9=6 28=1) runs 0 surfaces 3 clears 794 swaps 794 draws 794 ff 0 skipped 0 () textures 1185 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 44.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=794 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #1 frame 839: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.0 write +17.0 ready +17.3 flip +50.0 front +50.0 shown +60.0 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms)",
+   "hakuX-hle-pb: kicks 423 words 19457 headers 4208 methods 15248 faults 0 GET 03f2460c PUT 03f25024 binds 5 semaphores 1742 flips 854 traps 861 (21=854 9=6 28=1) runs 0 surfaces 3 clears 854 swaps 854 draws 854 ff 0 skipped 0 () textures 1275 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 44.0, 58 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=360 mergeable=0 (not: strip 0 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=60 vb=60 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=854 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 36412 sysops 37578 (int 646, of them ticks 295; hook 0) schedules 883 switches 835 idle 55 slices 5 page faults 0 mmio 3527 apu waits 0 vm pages +0 -0 isr irq1:125 (max 0.1 ms) irq3:120 (max 0.1 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | holds 0 (longest 0.0 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 2602 (pages 0367f000:192 03659000:192 03a87000:192 03691000:192 03a59000:192 03a51000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 40812 KiB, contiguous 15180 KiB (32 blocks), virtual 8196 KiB, kernel pool 5 of 64 KiB (Ex 433, objects 3, lost 0 KiB, 1 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=502837 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 31 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -20.6,
+  "first_sound_s": 6.5,
+  "audible_fraction": 0.66,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -26.4,
+   -23.5,
+   -21.0,
+   -24.4,
+   -22.4,
+   -20.6,
+   -32.8,
+   -33.5,
+   -30.2,
+   -35.2,
+   -31.1,
+   -29.6,
+   -50.3,
+   -38.4,
+   -52.5,
+   -37.3,
+   -38.3,
+   -53.0,
+   -48.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

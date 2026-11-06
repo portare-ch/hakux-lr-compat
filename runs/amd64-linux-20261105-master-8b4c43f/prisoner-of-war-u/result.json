@@ -1,0 +1,3070 @@
+{
+ "game_file": "Prisoner of War (U).chd",
+ "game_size": 449804482,
+ "system": "amd64-linux",
+ "started": "2026-11-05T23:22:51+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 249.84,
+  "confirmed_by": "w270",
+  "stopped_at_s": 280.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.3
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w190",
+    "t": 189.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w270",
+    "t": 269.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w270",
+    "t": 269.8,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 280.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.85,
+   "watch",
+   "w110"
+  ],
+  [
+   110.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.81,
+   "watch",
+   "w150"
+  ],
+  [
+   150.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.83,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.61,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.85,
+   "watch",
+   "w210"
+  ],
+  [
+   210.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   250.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.65,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.53,
+   "held",
+   "start"
+  ],
+  [
+   263.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.54,
+   "held",
+   "start"
+  ],
+  [
+   268.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "held",
+   "start"
+  ],
+  [
+   273.11,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.66,
+   "held",
+   "start"
+  ],
+  [
+   278.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 12.0,
+   "bytes": 517557
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 30.8,
+   "bytes": 477868
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 47.4,
+   "bytes": 766325
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 53.4,
+   "bytes": 423397
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 73.0,
+   "bytes": 376482
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 91.0,
+   "bytes": 244498
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.85,
+   "got_s": 113.4,
+   "bytes": 861362
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 134.8,
+   "bytes": 1107171
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.81,
+   "got_s": 154.4,
+   "bytes": 1056394
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.83,
+   "got_s": 174.0,
+   "bytes": 911611
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.8,
+   "got_s": 196.1,
+   "bytes": 1103897
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.85,
+   "got_s": 213.4,
+   "bytes": 880312
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 235.0,
+   "bytes": 807251
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 256.4,
+   "bytes": 1141651
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.8,
+   "got_s": 276.6,
+   "bytes": 1127595
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 269.8,
+   "got_s": 276.6,
+   "bytes": 1127595,
+   "from_watch": "w270"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   202.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   203.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   209.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   210.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   216.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   217.2,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   222.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   223.3,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   230.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   231.4,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   239.5,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   245.6,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   249.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   251.7,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   257.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   258.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   259.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   260.8,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   264.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   265.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   266.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   267.9,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   273.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   274.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   275.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   276.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   277.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   278.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   279.0,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ],
+  [
+   280.1,
+   "GET_STATUS PLAYING xbox,Prisoner of War (U),crc32=16fb9c40"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55430.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.9,
+   57.3,
+   50.0,
+   56.9,
+   49.1,
+   53.9,
+   52.2,
+   54.5,
+   54.5,
+   56.2,
+   51.3,
+   53.1,
+   49.7,
+   49.0,
+   49.5,
+   47.0,
+   49.8,
+   51.9,
+   49.2,
+   42.6,
+   51.0,
+   52.7,
+   50.6,
+   48.4,
+   50.6,
+   43.5,
+   50.2
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=56702 verts=14208664 mergeable=0 (not: strip 8268 idx 43804 state 4631 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=17761 set1=56704 pc=26426 vi=7846 vb=30631 vp=407 sc=407 dyn=17134 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7849173 prog_fog=4793150 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #588 frame 13308: front 34.4 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 18 ms apart) | swap +17.2 write +17.2 ready +17.4 flip +34.4 front +34.4 shown +34.5 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 17 ",
+   "hakuX-hle-pb: kicks 6358 words 20962913 headers 2985840 methods 17976369 faults 0 GET 03db5760 PUT 03def210 binds 4 semaphores 526291 flips 13345 traps 18507 (2=13345 5=5155 9=6 8=1) runs 0 surfaces 7 clears 46194 swaps 13346 draws 7906468 ff 7294810 skipped 0 () textures 138 rt uploads 2 blits 0 m2",
+   "hakuX-hle-pb: frame pace off: 58 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 25.8 ms (max 35.5, 57 frames)",
+   "hakuX-hle-pb: catch-up: 70641 stores waited for the decoder (caught up 70499; it waited on the guest at a trap 142, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 28767.5 ms",
+   "hakuX-hle-emit: per s: draws=56520 verts=14126419 mergeable=0 (not: strip 8292 idx 43542 state 4686 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=17701 set1=56519 pc=26283 vi=7789 vb=30189 vp=409 sc=409 dyn=17182 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7905692 prog_fog=4829763 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #589 frame 13361: front 33.4 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 36 ms apart) | swap +19.0 write +19.0 ready +19.2 flip +33.4 front +33.4 shown +36.0 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 19 ",
+   "hakuX-hle-hitch: stutter #590 frame 13389: front 32.4 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 33 ms apart) | swap +17.2 write +17.2 ready +17.9 flip +32.4 front +32.4 shown +33.5 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 17 ",
+   "hakuX-hle-pb: kicks 6379 words 21164224 headers 3009833 methods 18154781 faults 0 GET 03e259fc PUT 03e259fc binds 4 semaphores 529174 flips 13403 traps 18565 (2=13403 5=5155 9=6 8=1) runs 0 surfaces 7 clears 46368 swaps 13404 draws 7963349 ff 7346098 skipped 0 () textures 138 rt uploads 2 blits 0 m2",
+   "hakuX-hle-pb: frame pace off: 58 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 25.1 ms (max 33.4, 56 frames)",
+   "hakuX-hle-pb: catch-up: 71198 stores waited for the decoder (caught up 71056; it waited on the guest at a trap 142, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 28973.4 ms",
+   "hakuX-hle-emit: per s: draws=56896 verts=14341792 mergeable=0 (not: strip 8295 idx 43899 state 4702 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=17938 set1=56896 pc=26742 vi=7922 vb=30171 vp=408 sc=408 dyn=17221 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7962588 prog_fog=4866858 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 60.00 retro_run/s, 16.50 ms each (max 18.87), video 16.07 ms (max 18.71)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=693320 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 41 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5588a2cd8700",
+   "[Gamescope WSI] Destroyed swapchain: 0x5588a2cd8700",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 279.0,
+  "peak_rms_dbfs": -13.1,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.73,
+  "rms_dbfs_per_2s": [
+   -29.1,
+   -25.9,
+   -27.2,
+   -26.6,
+   -27.2,
+   -23.5,
+   -24.0,
+   -37.9,
+   -29.0,
+   -26.8,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -32.8,
+   -32.8,
+   -18.3,
+   -26.8,
+   -29.1,
+   -26.0,
+   -18.5,
+   -17.8,
+   -17.8,
+   -14.7,
+   -13.1,
+   -22.2,
+   -17.5,
+   -15.4,
+   -17.4,
+   -19.8,
+   -17.0,
+   -14.7,
+   -17.2,
+   -21.0,
+   -16.2,
+   -15.9,
+   -17.5,
+   -17.2,
+   -17.6,
+   -17.9,
+   -15.5,
+   -20.4,
+   -18.9,
+   -19.8,
+   -23.2,
+   -25.9,
+   -31.1,
+   -28.2,
+   -29.3,
+   -26.0,
+   -30.2,
+   -29.8,
+   -39.2,
+   -59.0,
+   -60.2,
+   -59.8,
+   -59.4,
+   -30.1,
+   -28.6,
+   -28.8,
+   -28.8,
+   -28.3,
+   -29.5,
+   -27.5,
+   -28.4,
+   -31.4,
+   -26.7,
+   -29.7,
+   -26.9,
+   -26.7,
+   -28.0,
+   -26.7,
+   -27.0,
+   -28.0,
+   -26.0,
+   -26.5,
+   -28.4,
+   -27.7,
+   -28.0,
+   -29.3,
+   -28.7,
+   -26.9,
+   -33.1,
+   -28.5,
+   -25.7,
+   -26.5,
+   -27.6,
+   -49.9,
+   -59.7,
+   -59.9,
+   -44.2,
+   -41.8,
+   -26.4,
+   -26.9,
+   -30.2,
+   -33.8,
+   -29.5,
+   -29.6,
+   -26.5,
+   -26.6,
+   -30.8,
+   -27.5,
+   -27.7,
+   -27.9,
+   -27.1,
+   -28.0,
+   -29.0,
+   -28.3,
+   -27.2,
+   -26.3,
+   -60.2,
+   -32.8,
+   -32.2,
+   -40.0,
+   -22.4,
+   -23.1,
+   -39.1,
+   -44.4,
+   -38.6,
+   -58.4,
+   -49.6,
+   -39.4,
+   -45.4,
+   -38.6,
+   -60.2,
+   -36.9,
+   -37.4,
+   -45.1,
+   -42.2,
+   -48.1,
+   -42.9,
+   -52.7,
+   -48.7,
+   -50.8,
+   -43.5,
+   -51.6,
+   -50.3,
+   -51.4,
+   -49.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 249.84 s (judged from screenshots); stopped at 280.6 s and the emulator closed",
+ "duration_s": 280.7,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

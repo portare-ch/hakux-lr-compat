@@ -1,0 +1,3244 @@
+{
+ "game_file": "Freestyle Street Soccer (U).chd",
+ "game_size": 1082405378,
+ "system": "amd64-linux",
+ "started": "2026-11-05T18:54:19+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Two save prompts alternate from about 30 s ('create a new save?' and 'continue without saving?'), both with No selected on the right. Left then A picks Yes on whichever is up; both lead on.",
+  "extra_steps": [
+   [
+    39.0,
+    "tap",
+    "left"
+   ],
+   [
+    39.8,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    37.0,
+    42.5
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   39.0,
+   "tap",
+   "left"
+  ],
+  [
+   39.8,
+   "tap",
+   "a"
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w170",
+    "t": 169.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.85,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 303.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   39.01,
+   "tap",
+   "left"
+  ],
+  [
+   39.81,
+   "tap",
+   "a"
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.85,
+   "watch",
+   "w230"
+  ],
+  [
+   230.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.81,
+   "watch",
+   "w250"
+  ],
+  [
+   250.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.83,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.03,
+   "release"
+  ],
+  [
+   300.05,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.2,
+   "bytes": 297268
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 32.2,
+   "bytes": 1301098
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.2,
+   "bytes": 1238842
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 52.4,
+   "bytes": 1238842
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 72.6,
+   "bytes": 1238842
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 92.8,
+   "bytes": 1238842
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 112.8,
+   "bytes": 1238842
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 133.4,
+   "bytes": 1238842
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 153.4,
+   "bytes": 1238842
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.8,
+   "got_s": 172.2,
+   "bytes": 1238842
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 192.4,
+   "bytes": 1238842
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 212.0,
+   "bytes": 1238842
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.85,
+   "got_s": 231.9,
+   "bytes": 1238842
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.81,
+   "got_s": 251.8,
+   "bytes": 1238842
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.83,
+   "got_s": 272.2,
+   "bytes": 1238842
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 293.0,
+   "bytes": 1238842
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.05,
+   "got_s": 303.3,
+   "bytes": 1238842
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   81.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   82.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   101.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   102.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   103.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   104.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   107.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   108.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   109.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   110.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   111.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   115.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   116.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   117.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   118.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   119.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   125.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   126.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   132.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   139.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   140.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   146.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   147.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   154.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   155.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   157.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   160.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   161.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   162.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   169.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   170.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   171.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   172.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   173.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   174.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   176.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   177.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   180.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   181.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   182.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   185.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   186.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   188.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   190.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   191.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   192.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   193.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   194.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   195.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   198.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   199.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   200.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   201.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   204.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   206.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   207.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   208.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   209.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   211.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   212.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   213.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   214.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   215.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   216.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   217.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   218.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   219.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   220.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   221.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   222.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   223.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   224.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   225.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   226.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   227.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   228.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   229.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   230.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   231.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   232.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   233.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   234.3,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   235.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   236.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   237.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   238.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   239.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   240.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   241.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   242.4,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   243.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   244.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   245.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   246.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   247.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   248.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   249.5,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   250.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   251.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   252.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   253.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   254.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   255.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   256.6,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   257.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   258.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   259.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   260.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   261.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   262.7,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   263.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   264.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   265.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   266.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   267.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   268.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   269.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   270.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   271.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   272.8,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   273.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   274.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   275.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   276.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   277.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   278.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   279.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   280.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   281.9,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   283.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   284.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   285.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   286.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   287.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   288.0,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   289.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   290.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   291.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   292.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   293.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   294.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   295.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   296.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   297.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   298.1,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   299.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   300.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   301.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   302.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ],
+  [
+   303.2,
+   "GET_STATUS PLAYING xbox,Freestyle Street Soccer (U),crc32=39f69399"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   42.8,
+   53.3,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.7,
+   59.9,
+   59.8,
+   60.0,
+   59.7,
+   60.0,
+   59.8,
+   60.0,
+   59.7,
+   60.0,
+   59.8,
+   60.0,
+   59.7,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: ram: free 6856 KiB, contiguous 52080 KiB (24 blocks), virtual 3796 KiB, kernel pool 12 of 64 KiB (Ex 1619, objects 3, lost 0 KiB, 1 free ranges)",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.54 ms each (max 20.50), video 16.13 ms (max 20.44)",
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 7.99 ms (max 12.30), gap 16.72 ms (max 52.56, 1 over 25 ms)",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 516 words 1967880 headers 518513 methods 1449348 faults 0 GET 03eb5850 PUT 03ed5900 binds 5 semaphores 43909 flips 17655 traps 29621 (21=17655 5=11953 9=10 28=2 8=1) runs 0 surfaces 5 clears 547 swaps 17655 draws 2040625 ff 0 skipped 0 () textures 398 rt uploads 2 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.2 ms (max 27.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7140 verts=48360 mergeable=0 (not: strip 7140 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=66 set1=7140 pc=7080 vi=66 vb=6960 vp=66 sc=66 dyn=990 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2040625 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 474 words 1967880 headers 518512 methods 1449364 faults 0 GET 03e39ab0 PUT 03e59b60 binds 5 semaphores 44059 flips 17715 traps 29699 (21=17715 5=11971 9=10 28=2 8=1) runs 0 surfaces 5 clears 547 swaps 17715 draws 2047765 ff 0 skipped 0 () textures 398 rt uploads 2 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 21.1 ms (max 24.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7140 verts=48360 mergeable=0 (not: strip 7140 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=71 set1=7140 pc=7080 vi=71 vb=6962 vp=71 sc=71 dyn=1065 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2047765 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 525 words 1967880 headers 518513 methods 1449364 faults 0 GET 03ebd848 PUT 03edd8f8 binds 5 semaphores 44209 flips 17775 traps 29794 (21=17775 5=12006 9=10 28=2 8=1) runs 0 surfaces 5 clears 547 swaps 17775 draws 2054905 ff 0 skipped 0 () textures 398 rt uploads 2 blits 0 m2mf 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.2 ms (max 24.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=7140 verts=48360 mergeable=0 (not: strip 7140 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=68 set1=7140 pc=7080 vi=68 vb=6960 vp=68 sc=68 dyn=1020 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2054905 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1167920 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 48 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55da4c009730",
+   "[Gamescope WSI] Destroyed swapchain: 0x55da4c009730",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 301.9,
+  "peak_rms_dbfs": -18.0,
+  "first_sound_s": 4.5,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -21.9,
+   -18.8,
+   -18.0,
+   -120.0,
+   -38.5,
+   -29.5,
+   -32.2,
+   -35.8,
+   -39.6,
+   -35.4,
+   -35.0,
+   -35.4,
+   -35.3,
+   -36.9,
+   -35.0,
+   -35.2,
+   -37.1,
+   -33.7,
+   -35.7,
+   -27.6,
+   -35.1,
+   -35.1,
+   -35.7,
+   -37.3,
+   -35.0,
+   -35.3,
+   -35.3,
+   -36.1,
+   -36.0,
+   -36.5,
+   -35.5,
+   -35.0,
+   -34.9,
+   -35.6,
+   -37.3,
+   -35.1,
+   -34.9,
+   -35.6,
+   -36.4,
+   -35.2,
+   -34.8,
+   -35.0,
+   -35.5,
+   -34.4,
+   -37.2,
+   -35.5,
+   -35.0,
+   -34.5,
+   -34.9,
+   -37.1,
+   -35.5,
+   -34.4,
+   -34.9,
+   -35.5,
+   -37.0,
+   -35.9,
+   -36.0,
+   -37.5,
+   -33.7,
+   -37.1,
+   -35.0,
+   -35.2,
+   -35.1,
+   -35.3,
+   -36.8,
+   -34.9,
+   -34.2,
+   -34.9,
+   -34.6,
+   -37.2,
+   -34.3,
+   -34.8,
+   -35.2,
+   -34.4,
+   -37.1,
+   -34.8,
+   -35.3,
+   -34.1,
+   -34.8,
+   -36.9,
+   -35.0,
+   -34.5,
+   -34.4,
+   -35.0,
+   -37.8,
+   -33.7,
+   -34.3,
+   -34.6,
+   -33.5,
+   -36.4,
+   -34.6,
+   -34.4,
+   -35.0,
+   -35.2,
+   -37.1,
+   -34.9,
+   -34.2,
+   -34.8,
+   -34.4,
+   -36.8,
+   -33.6,
+   -35.2,
+   -34.7,
+   -34.9,
+   -38.0,
+   -35.5,
+   -36.4,
+   -35.0,
+   -36.0,
+   -37.9,
+   -34.9,
+   -34.9,
+   -34.7,
+   -34.6,
+   -37.5,
+   -34.8,
+   -34.9,
+   -35.1,
+   -34.5,
+   -36.8,
+   -34.6,
+   -34.6,
+   -35.0,
+   -35.2,
+   -36.7,
+   -34.9,
+   -35.8,
+   -34.7,
+   -34.4,
+   -37.6,
+   -34.8,
+   -35.3,
+   -34.5,
+   -35.0,
+   -35.8,
+   -35.0,
+   -34.6,
+   -35.3,
+   -34.9,
+   -37.4,
+   -34.6,
+   -33.2,
+   -35.1,
+   -35.2,
+   -37.6,
+   -35.6,
+   -37.4,
+   -37.3,
+   -38.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 303.6,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,478 @@
+{
+ "game_file": "Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko).chd",
+ "game_size": 3061385351,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:59:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.2,
+   "bytes": 1060375
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 252259
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.0,
+   "bytes": 913074
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Halo 2 (U) (En,Ja,Fr,De,Es,It,Zh,Ko),crc32=3bd884a7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   26.2,
+   30.1,
+   30.0,
+   30.0,
+   45.6,
+   60.0,
+   60.0,
+   42.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=8660 verts=7151614 mergeable=0 (not: strip 4798 idx 3862 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=663 set1=8660 pc=1533 vi=374 vb=3539 vp=131 sc=131 dyn=1942 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=764015 prog_fog=764015 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 7263 sysops 9555 (int 1023, of them ticks 215; hook 0) schedules 4445 switches 2138 idle 0 slices 0 page faults 0 mmio 8717 apu waits 0 vm pages +0 -1 isr irq1:515 (max 1.3 ms) irq3:94 (max 0.1 ms) irq5:10 (max 0.1 ms) | dpc max wait 0.3 run 0.5 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 476 (pages 0072a000:64 0076a000:64 007aa000:64 007ea000:64 0082a000:64 0086a000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 800 KiB, contiguous 55220 KiB (32 blocks), virtual 7860 KiB, kernel pool 113 of 192 KiB (Ex 917, objects 4, lost 0 KiB, 5 free ranges)",
+   "hakuX-hle-pb: kicks 1242 words 4331560 headers 191514 methods 4140016 faults 0 GET 03e91fc4 PUT 03e91fc4 binds 10 semaphores 16540 flips 1697 traps 1779 (21=1696 5=67 9=12 28=2 1=1 8=1) runs 0 surfaces 14 clears 2427 swaps 1697 draws 775272 ff 0 skipped 0 () textures 812 rt uploads 10 blits 0 m2mf 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9975 verts=7159326 mergeable=0 (not: strip 4812 idx 5163 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=673 set1=9975 pc=1540 vi=379 vb=3539 vp=146 sc=146 dyn=2100 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=773990 prog_fog=773990 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1248 words 4350186 headers 195943 methods 4154230 faults 0 GET 03e2f504 PUT 03e2f504 binds 10 semaphores 17148 flips 1727 traps 1809 (21=1726 5=67 9=12 28=2 1=1 8=1) runs 0 surfaces 14 clears 2487 swaps 1727 draws 785635 ff 0 skipped 0 () textures 812 rt uploads 10 blits 0 m2mf 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10363 verts=7161784 mergeable=0 (not: strip 4822 idx 5541 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=662 set1=10363 pc=1527 vi=380 vb=3539 vp=135 sc=135 dyn=2018 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=784353 prog_fog=784353 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #6 frame 1753: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 67 ms apart) | swap +50.5 write +50.5 ready +50.7 flip +66.7 front +66.7 shown +76.1 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms)",
+   "hakuX-hle-pb: kicks 1248 words 4365142 headers 199806 methods 4165320 faults 0 GET 03eda35c PUT 03eda35c binds 10 semaphores 17758 flips 1757 traps 1839 (21=1756 5=67 9=12 28=2 1=1 8=1) runs 0 surfaces 14 clears 2547 swaps 1757 draws 796360 ff 0 skipped 0 () textures 812 rt uploads 10 blits 0 m2mf 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.4 ms (max 27.1, 29 frames)",
+   "hakuX-hle-emit: per s: draws=10725 verts=7164084 mergeable=0 (not: strip 4833 idx 5892 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=656 set1=10725 pc=1522 vi=384 vb=3549 vp=143 sc=143 dyn=2059 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=795078 prog_fog=795078 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1570226 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 334940 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=195 misses=135",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 32 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -23.0,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.88,
+  "rms_dbfs_per_2s": [
+   -72.6,
+   -31.4,
+   -27.9,
+   -30.9,
+   -26.5,
+   -25.8,
+   -37.0,
+   -36.5,
+   -35.7,
+   -30.6,
+   -31.1,
+   -30.9,
+   -26.7,
+   -24.1,
+   -24.2,
+   -23.0,
+   -24.8,
+   -27.3,
+   -29.2,
+   -90.3,
+   -34.9,
+   -28.3,
+   -27.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

@@ -1,0 +1,478 @@
+{
+ "game_file": "Grabbed by the Ghoulies (U) (En,Fr,De,Es,It).chd",
+ "game_size": 1944720706,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:57:05+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.0,
+   "bytes": 630194
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.7,
+   "bytes": 1009626
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1025386
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Grabbed by the Ghoulies (U) (En,Fr,De,Es,It),crc32=a5c3eaf6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.1,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 42.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4050 verts=35790 mergeable=0 (not: strip 240 idx 3810 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=553 set1=4050 pc=2198 vi=404 vb=3930 vp=45 sc=45 dyn=1695 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=188733 prog_fog=29607 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2753 sysops 4665 (int 637, of them ticks 0; hook 0) schedules 1938 switches 1352 idle 583 slices 0 page faults 0 mmio 6668 apu waits 0 vm pages +0 -0 isr irq1:516 (max 0.1 ms) irq3:120 (max 0.2 ms) irq5:1 (max 0.1 ms) | dpc max wait 0.3 run 0.3 ms, 0 over 8 ms | hol",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 2249 (pages 02422000:192 02417000:192 02457000:192 0244c000:192 02441000:192 02436000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 22216 KiB, contiguous 27972 KiB (139 blocks), virtual 14328 KiB, kernel pool 4 of 64 KiB (Ex 433, objects 2, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-pb: kicks 504 words 1550198 headers 355487 methods 1194710 faults 0 GET 03d2ac40 PUT 03d5d3bc binds 5 semaphores 8934 flips 1294 traps 2050 (41=1294 5=748 9=6 28=1 8=1) runs 0 surfaces 6 clears 2569 swaps 1294 draws 193719 ff 11084 skipped 0 () textures 1110 rt uploads 2 blits 141 m2mf 0 c",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.4 ms (max 42.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4050 verts=35790 mergeable=0 (not: strip 240 idx 3810 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=553 set1=4050 pc=2196 vi=404 vb=3931 vp=45 sc=45 dyn=1689 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=192783 prog_fog=29607 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 507 words 1550197 headers 355486 methods 1194694 faults 0 GET 03d14f88 PUT 03d47724 binds 5 semaphores 9186 flips 1324 traps 2110 (41=1324 5=778 9=6 28=1 8=1) runs 0 surfaces 6 clears 2629 swaps 1324 draws 197769 ff 11264 skipped 0 () textures 1140 rt uploads 2 blits 141 m2mf 0 c",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 58.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4050 verts=35790 mergeable=0 (not: strip 240 idx 3810 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=554 set1=4050 pc=2198 vi=404 vb=3930 vp=46 sc=46 dyn=1710 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=196833 prog_fog=29607 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 506 words 1550196 headers 355486 methods 1194710 faults 0 GET 03eff144 PUT 03d31ae4 binds 5 semaphores 9438 flips 1354 traps 2170 (41=1354 5=808 9=6 28=1 8=1) runs 0 surfaces 6 clears 2689 swaps 1354 draws 201819 ff 11444 skipped 0 () textures 1170 rt uploads 2 blits 141 m2mf 0 c",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 40.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4050 verts=35790 mergeable=0 (not: strip 240 idx 3810 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=556 set1=4050 pc=2198 vi=406 vb=3930 vp=46 sc=46 dyn=1710 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=200883 prog_fog=29607 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=130381 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 156784 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=36 misses=72",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -16.3,
+  "first_sound_s": 3.5,
+  "audible_fraction": 0.85,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -40.6,
+   -35.0,
+   -32.3,
+   -23.6,
+   -17.7,
+   -16.3,
+   -36.4,
+   -62.9,
+   -35.8,
+   -34.2,
+   -30.1,
+   -29.5,
+   -32.0,
+   -19.1,
+   -17.2,
+   -33.0,
+   -35.0,
+   -35.2,
+   -35.1,
+   -34.8,
+   -35.1,
+   -34.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

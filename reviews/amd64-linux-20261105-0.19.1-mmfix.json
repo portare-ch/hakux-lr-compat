@@ -1,0 +1,93 @@
+[
+ {
+  "game": "aeon-flux-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Animated intro clip, an in-engine cutscene and the first level with the health HUD and control hints render correctly, 30 fps.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed before the first frame (KeBugCheck after an access violation); this run reaches gameplay at about 45 s, Aeon at a doorway with the health HUD and 'L Move / R Look' hints, to the final shot (79 s). The 61 refused commits in the first 5 s (the first 256 MiB with 53,800 KiB free, then halving, in three rounds) led to no crash or stall. A 0.9 s guest-idle hang at frame 348 recovered."
+ },
+ {
+  "game": "cabela-s-dangerous-hunts-europe-australia",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Activision logo, Quick Hunt menus, the preview camera and the hunt with compass, condition and stealth HUD render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 40.1 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (97 s), while the judge's 70 s INGAME was the 'Preview Camera, Press A to hunt' flyby. The 8 refused commits (128 MiB and smaller, 39,420 KiB free) led to no crash or stall. A 2.7 s guest-idle hang at frame 448 recovered; displayed fps min 17.1."
+ },
+ {
+  "game": "beat-down-fists-of-vengeance-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "cavia logo, the character profile and a street fight with health bars and minimap render correctly, 60 fps; the 50-70 s loading screens are black with 'Now Loading...' in the corner.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 5 s in (unhandled access violation) with nothing on screen; this run reaches gameplay at about 90 s, Raven fighting a Mobster in a warehouse alley with the HUD, to the final shot (118 s). It logs 13,177 refused commits, stepping down 32 KiB at a time from 128 MiB (31,616 KiB free) in three bursts at about 5, 70 and 90 s, each over within 5 s; none led to a crash or stall."
+ },
+ {
+  "game": "bloodrayne-2-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Mansion corridors, Rayne and the health HUD render correctly, 30 fps; the 10 s boot shot is black.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed right after launch (unhandled access violation) with no picture; this run reaches gameplay by 30 s, Rayne in the mansion with the health HUD and 'L Move / R Camera' hints, to the final shot (58 s). The 9 refused commits (64 MiB down to 53.4 MiB, 54,632 KiB free) led to no crash or stall."
+ },
+ {
+  "game": "007-from-russia-with-love-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "MGM logo, gun-barrel intro, opening movie and the first level with health, minimap and ammo HUD render correctly, 30 fps; at 170-199 s a slanted strip along the left edge shows the wall and floor shifted against the rest of the scene (not confirmed as a fault).",
+  "notes": "On 0.19.1 with the memory fix (#104): the release stayed black for the whole run with the commit failing in a loop (Timeout); this run plays the intro and opening movie from 30 s and reaches gameplay at about 170 s, Bond walking a red carpet past party tables with the HUD, to the final shot (199 s). It logs 4,290 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (48,380 KiB free); none led to a crash or stall."
+ },
+ {
+  "game": "cabela-s-deer-hunt-2004-season-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Main menu, Locations screen, loading screen and the hunt with compass, condition and stealth HUD render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 52.6 s when the hunt loaded; this run reaches the hunt (Wyoming, Grand Tetons I) at about 70 s, first-person with the HUD to the final shot (96 s). The 12 refused commits (128 MiB and smaller, 41,244 KiB free) led to no crash or stall. A 6.0 s guest-idle hang at frame 464 recovered; displayed fps min 14.2."
+ },
+ {
+  "game": "cabela-s-dangerous-hunts-2-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Profile slots, the letterboxed opening movie, the tutorial box and the forest with the compass HUD render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release called KeBugCheck after the profile slot screen (about 30 s); this run reaches the tutorial hunt, 'Follow Hugh to the target range' at 50 s, then first-person in the forest with the compass HUD from 70 s to the final shot (98 s). The 9 refused commits (128 MiB and smaller, 47,724 KiB free) led to no crash or stall."
+ },
+ {
+  "game": "cabela-s-deer-hunt-2005-season-usa-australia",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Select Game and Hunt menus and the hunt with compass, wind flag and condition HUD render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 52.4 s when the hunt started; this run is in the hunt (Montana, Area 1, Fall) by 50 s, first-person next to an ATV with the HUD at 70 s and the final shot (77 s). The 11 refused commits (128 MiB and smaller, 41,024 KiB free) led to no crash or stall. A 2.4 s guest-idle hang at frame 457 recovered; displayed fps min 18.9."
+ },
+ {
+  "game": "cabela-s-dangerous-hunts-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Activision logo, Quick Hunt menus, the preview camera and the hunt with compass, condition and stealth HUD render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed at 40.2 s after the Quick Hunt main options menu; this run reaches the hunt at about 90 s, first-person with the HUD at 90 s and the final shot (96 s), while the judge's 70 s INGAME was the 'Preview Camera' flyby. The 12 refused commits (128 MiB and smaller, 41,104 KiB free) led to no crash or stall. A 2.6 s guest-idle hang at frame 453 recovered; displayed fps min 17.5."
+ },
+ {
+  "game": "espn-major-league-baseball-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "ESPN logo, Team Select, the matchup loading screen and the game at Yankee Stadium render correctly, 60 fps.",
+  "notes": "On 0.19.1 with the memory fix (#104): after relaunching into espn_mlb.xbe the release failed the commit ('RsRwInitialize failed.') and stayed black (Timeout); this run reaches Team Select (Marlins at Yankees) at 45 s and a game from about 70 s: a ball in play, then 'STRIKE' with the score and pitch HUD at 90 s and the final shot (99 s). The 86 refused commits after the relaunch (the first 58.4 MiB with 59,836 KiB free, later ones down to 6,660 KiB free) led to no crash or stall. Player control is not confirmed: all four controller icons were still in the middle at Team Select, which may mean both teams are computer-controlled. Team Select (45 s) had all four controllers in the middle column and Start went straight to the Exhibition matchup, so the match from about 70 s is most likely computer vs computer: rated Menu. Needs left or right on controller 1 at Team Select, then Start."
+ },
+ {
+  "game": "hustle-the-detroit-streets-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the 'Motor City' loading screen and the pool table with aim line, power meter and player HUD render; the racked balls look pale and washed out (the dark ball shows light grey), not confirmed as a fault.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 5 s after launch (unhandled access violation); this run reaches a pool game at about 50 s, Jack lining up the break with the power meter, to the final shot (80 s). It logs 4,806 refused commits in the first 5 s, stepping down 4 KiB at a time from 64 MiB (46,316 KiB free); none led to a crash or stall. 30 fps in the pool scene, matching the guest's 33.4 ms frame interval; a 1.1 s JIT-compiling hang at frame 612 recovered."
+ },
+ {
+  "game": "cabela-s-outdoor-adventures-u",
+  "stage": "In-game",
+  "outcome": "Needs manual input",
+  "graphics": "The 'enter the hunt?' prompt and the GAME PAUSED and Options menus over the blurred forest render correctly.",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed at about 32 s right after 'enter the hunt? Yes'; this run enters the hunt, and its 9 refused commits (128 MiB and smaller, 48,176 KiB free) led to no crash or stall. From 45 s to the end it loops through the in-hunt menus (Start opens GAME PAUSED with Options highlighted, A opens Options and its Gameplay and Controls pages), so gameplay is inferred from the pause menu (the judge's 190 s INGAME), not seen. Needs B on GAME PAUSED ('B resume', or down to Resume and A) and no further Start; a 3.1 s guest-idle hang at frame 432 recovered."
+ },
+ {
+  "game": "star-wars-jedi-knight-jedi-academy-u-en-fr-de",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, letterboxed opening cutscenes and the first level with health, shield and force HUD render; at 130 s only the HUD and 'Checkpoint!' show over black, and at 150 s and the final shot a flat rectangle of blurry jungle texture covers the lower middle in front of the player character (not confirmed as a fault).",
+  "notes": "On 0.19.1 with the memory fix (#104): the release crashed about 24 s in during the opening movie (access violation after 'out of physical memory ... 0 KiB free'); this run plays the opening cutscenes to about 110 s and reaches gameplay at about 130 s, in the jungle with the HUD and 'New Objective Information' at 150 s and the final shot (156 s), while the judge's 30 s INGAME was a letterboxed cutscene. The 13 refused commits (516 to 1,256 KiB with only 292-300 KiB free, at boot and at the level load) led to no crash or stall. JIT-compiling hangs of 1.0-1.7 s at frames 1007 and 7024-7465 recovered."
+ }
+]

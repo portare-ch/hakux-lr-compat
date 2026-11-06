@@ -1,0 +1,1962 @@
+{
+ "game_file": "Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2526510729,
+ "system": "amd64-linux",
+ "started": "2026-11-05T16:56:12+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'Create New Profile' keyboard (from about 40 s): A types letters, Start does nothing; CREATE is six rows below the starting focus and the default name is already there. Down x6 then A at 50 s. No unstick presses: B would leave the keyboard.",
+  "extra_steps": [
+   [
+    50.0,
+    "tap",
+    "down"
+   ],
+   [
+    50.4,
+    "tap",
+    "down"
+   ],
+   [
+    50.8,
+    "tap",
+    "down"
+   ],
+   [
+    51.2,
+    "tap",
+    "down"
+   ],
+   [
+    51.6,
+    "tap",
+    "down"
+   ],
+   [
+    52.0,
+    "tap",
+    "down"
+   ],
+   [
+    52.6,
+    "tap",
+    "a"
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "down"
+  ],
+  [
+   50.4,
+   "tap",
+   "down"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   50.8,
+   "tap",
+   "down"
+  ],
+  [
+   51.2,
+   "tap",
+   "down"
+  ],
+  [
+   51.6,
+   "tap",
+   "down"
+  ],
+  [
+   52.0,
+   "tap",
+   "down"
+  ],
+  [
+   52.6,
+   "tap",
+   "a"
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.81,
+  "confirmed_by": "w130",
+  "stopped_at_s": 135.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 135.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.11,
+   "tap",
+   "down"
+  ],
+  [
+   50.46,
+   "tap",
+   "down"
+  ],
+  [
+   50.61,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   50.96,
+   "tap",
+   "down"
+  ],
+  [
+   51.21,
+   "tap",
+   "down"
+  ],
+  [
+   51.61,
+   "tap",
+   "down"
+  ],
+  [
+   52.01,
+   "tap",
+   "down"
+  ],
+  [
+   52.61,
+   "tap",
+   "a"
+  ],
+  [
+   53.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "held",
+   "start"
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "held",
+   "start"
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "held",
+   "start"
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "held",
+   "start"
+  ],
+  [
+   133.05,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.5,
+   "bytes": 8991
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 30.8,
+   "bytes": 649388
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 45.3,
+   "bytes": 620612
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 50.9,
+   "bytes": 621666
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 70.8,
+   "bytes": 612843
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 90.8,
+   "bytes": 578798
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 110.8,
+   "bytes": 615831
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 130.7,
+   "bytes": 499065
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.84,
+   "got_s": 130.7,
+   "bytes": 499065,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.8,
+   30.0,
+   29.7,
+   29.8,
+   30.0,
+   30.0,
+   29.4,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 241 words 8618 headers 2194 methods 6424 faults 0 GET 03d10930 PUT 03d10978 binds 5 semaphores 15649 flips 3499 traps 6160 (41=3499 28=964 8=963 5=728 9=6) runs 0 surfaces 18 clears 5432 swaps 3499 draws 291617 ff 0 skipped 0 () textures 2589 rt uploads 26 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 102.8 ms (max 104.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=30 verts=180 mergeable=0 (not: strip 0 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=30 set1=30 pc=30 vi=30 vb=30 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=291617 prog_fog=152386 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 237 words 8591 headers 2181 methods 6424 faults 0 GET 03d18f6c PUT 03d19000 binds 5 semaphores 15738 flips 3528 traps 6189 (41=3528 28=964 8=963 5=728 9=6) runs 0 surfaces 18 clears 5462 swaps 3528 draws 291646 ff 0 skipped 0 () textures 2618 rt uploads 26 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 102.9 ms (max 104.3, 30 frames)",
+   "hakuX-hle-emit: per s: draws=29 verts=174 mergeable=0 (not: strip 0 idx 29 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=29 set1=29 pc=29 vi=29 vb=29 vp=29 sc=29 dyn=435 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=291646 prog_fog=152386 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 244 words 8637 headers 2203 methods 6424 faults 0 GET 03d21660 PUT 03d216a8 binds 5 semaphores 15830 flips 3559 traps 6220 (41=3559 28=964 8=963 5=728 9=6) runs 0 surfaces 18 clears 5492 swaps 3559 draws 291677 ff 0 skipped 0 () textures 2649 rt uploads 26 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 101.7 ms (max 105.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=31 verts=186 mergeable=0 (not: strip 0 idx 31 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=31 set1=31 pc=31 vi=31 vb=31 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=291677 prog_fog=152386 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 240 words 8610 headers 2190 methods 6424 faults 0 GET 03d29ce8 PUT 03d29d30 binds 5 semaphores 15920 flips 3589 traps 6250 (41=3589 28=964 8=963 5=728 9=6) runs 0 surfaces 18 clears 5522 swaps 3589 draws 291707 ff 0 skipped 0 () textures 2679 rt uploads 26 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 103.0 ms (max 104.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=30 verts=180 mergeable=0 (not: strip 0 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=30 set1=30 pc=30 vi=30 vb=30 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=291707 prog_fog=152386 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1562017 first_call=PsCreateSystemThreadEx threads=9",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 68 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x560032f60160",
+   "[Gamescope WSI] Destroyed swapchain: 0x560032f60160",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.81 s (judged from screenshots); stopped at 135.4 s and the emulator closed",
+ "duration_s": 135.6,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,475 @@
+{
+ "game_file": "Metal Arms - Glitch in the System (U).chd",
+ "game_size": 1142952070,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:03:37+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 207805
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 856848
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 507278
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Metal Arms - Glitch in the System (U),crc32=c40e5366"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   27.6,
+   29.4,
+   43.6,
+   60.0,
+   60.0,
+   60.0,
+   46.1
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03d9b1d8 PUT 03d9b1d8 binds 5 semaphores 44626 flips 1766 traps 6766 (28=2492 8=2491 1=1427 21=339 5=11 9=6) runs 0 surfaces 13 clears 5125 swaps 1766 draws 5447044 ff 17787 skipped 0 () textures 1368 rt uploads 522 blits 0 m2mf 0 copie",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5434888 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 124793 sysops 126722 (int 747, of them ticks 10; hook 0) schedules 2081 switches 1988 idle 34 slices 15 page faults 0 mmio 5033 apu waits 0 vm pages +0 -0 isr irq1:513 (max 0.2 ms) irq3:77 (max 0.1 ms) | dpc max wait 0.1 run 0.2 ms, 0 over 8 ms | holds 41 (longest 0",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4686 (pages 03c61000:320 03ca1000:320 03ce1000:320 03d21000:320 03d61000:320 03b49000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 6444 KiB, contiguous 25048 KiB (821 blocks), virtual 32360 KiB, kernel pool 162 of 192 KiB (Ex 970, objects 10, lost 0 KiB, 4 free ranges)",
+   "hakuX-hle-hitch: HANG ongoing 2.50 s since frame 1766: JIT compiling: 60% of the vCPU in FEX | render idle for 2501 ms | vCPU cpu 1875 ms halted 27% | render cpu 0 run 0 idle 2501 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 3022/3022, last done 2501 ms ago | swaps 0 vblanks 150 draws 0 | dvd 0 ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03d9b1d8 PUT 03d9b1d8 binds 5 semaphores 44626 flips 1766 traps 6766 (28=2492 8=2491 1=1427 21=339 5=11 9=6) runs 0 surfaces 13 clears 5125 swaps 1766 draws 5447044 ff 17787 skipped 0 () textures 1368 rt uploads 522 blits 0 m2mf 0 copie",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5434888 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 3.50 s since frame 1766: JIT compiling: 59% of the vCPU in FEX | render idle for 3502 ms | vCPU cpu 2612 ms halted 28% | render cpu 0 run 0 idle 3502 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 3022/3022, last done 3502 ms ago | swaps 0 vblanks 210 draws 0 | dvd 0 ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03d9b1d8 PUT 03d9b1d8 binds 5 semaphores 44626 flips 1766 traps 6766 (28=2492 8=2491 1=1427 21=339 5=11 9=6) runs 0 surfaces 13 clears 5125 swaps 1766 draws 5447044 ff 17787 skipped 0 () textures 1368 rt uploads 522 blits 0 m2mf 0 copie",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5434888 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 4.50 s since frame 1766: JIT compiling: 59% of the vCPU in FEX | render idle for 4502 ms | vCPU cpu 3358 ms halted 28% | render cpu 0 run 0 idle 4502 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 3022/3022, last done 4502 ms ago | swaps 0 vblanks 270 draws 0 | dvd 0 ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03d9b1d8 PUT 03d9b1d8 binds 5 semaphores 44626 flips 1766 traps 6766 (28=2492 8=2491 1=1427 21=339 5=11 9=6) runs 0 surfaces 13 clears 5125 swaps 1766 draws 5447044 ff 17787 skipped 0 () textures 1368 rt uploads 522 blits 0 m2mf 0 copie",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5434888 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 5.50 s since frame 1766: JIT compiling: 59% of the vCPU in FEX | render idle for 5503 ms | vCPU cpu 4109 ms halted 28% | render cpu 0 run 0 idle 5503 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 3022/3022, last done 5503 ms ago | swaps 0 vblanks 331 draws 0 | dvd 0 ",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2501903 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 140432 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=62 misses=63",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 49 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -22.9,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.9,
+  "rms_dbfs_per_2s": [
+   -67.2,
+   -41.2,
+   -38.9,
+   -36.0,
+   -39.6,
+   -30.5,
+   -29.9,
+   -29.9,
+   -39.5,
+   -29.7,
+   -29.3,
+   -29.4,
+   -36.3,
+   -29.3,
+   -29.0,
+   -29.3,
+   -29.4,
+   -22.9,
+   -26.1,
+   -23.6,
+   -25.1,
+   -24.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

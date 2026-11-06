@@ -1,0 +1,2281 @@
+{
+ "game_file": "NBA Ballers - Phenom (U).chd",
+ "game_size": 1916894121,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:35:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Quick Pick controller screen (up from about 55 s to the unstick B at 93 s) has all controllers in the middle column, so A does nothing. A d-pad left tap moves controller 1 to team 1 and A accepts. The default A presses then pick players and a crib and start the game.",
+  "extra_steps": [
+   [
+    74.3,
+    "tap",
+    "left"
+   ],
+   [
+    74.9,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    74.0,
+    76.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   74.3,
+   "tap",
+   "left"
+  ],
+  [
+   74.9,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 149.83,
+  "confirmed_by": "w170",
+  "stopped_at_s": 176.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 176.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   74.32,
+   "tap",
+   "left"
+  ],
+  [
+   74.92,
+   "tap",
+   "a"
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "held",
+   "start"
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "held",
+   "start"
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "held",
+   "start"
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   170.54,
+   "held",
+   "start"
+  ],
+  [
+   173.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 165013
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 31.6,
+   "bytes": 1003883
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.6,
+   "bytes": 1284091
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 53.1,
+   "bytes": 793153
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 72.2,
+   "bytes": 734581
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 92.4,
+   "bytes": 750788
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 110.5,
+   "bytes": 254027
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 132.2,
+   "bytes": 1917664
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 152.4,
+   "bytes": 1923503
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 172.5,
+   "bytes": 1952901
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 169.84,
+   "got_s": 172.5,
+   "bytes": 1952901,
+   "from_watch": "w170"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   157.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   158.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   163.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   169.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   170.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   171.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,NBA Ballers - Phenom (U),crc32=604f4f64"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   53.8,
+   60.0,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   57.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   58.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=26342 verts=4069093 mergeable=0 (not: strip 22624 idx 3718 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 300, contiguous 0 pipe=5674 set1=16232 pc=17721 vi=2940 vb=22127 vp=595 sc=595 dyn=6643 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2762060 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1662 words 5163976 headers 484482 methods 4679460 faults 0 GET 03e2a944 PUT 03ed0ed8 binds 5 semaphores 69668 flips 10447 traps 13052 (21=9885 5=2592 1=562 9=12 28=1) runs 0 surfaces 24 clears 20222 swaps 10447 draws 2789152 ff 2543079 skipped 0 () textures 744 rt uploads 13 blit",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 54.8 ms (max 57.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=26171 verts=4059784 mergeable=0 (not: strip 22525 idx 3646 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 300, contiguous 0 pipe=5618 set1=16067 pc=17649 vi=2915 vb=21935 vp=588 sc=588 dyn=6532 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2788231 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: pipeline 422023b257249c94 fvf=0x0 vsh=7284f394a9d29411 in=209 combiners=2 ok in 3.1 ms (spirv 2.6)",
+   "hakuX-hle-pipe: pipeline 9fbe4b12f4644834 fvf=0x0 vsh=7284f394a9d29411 in=209 combiners=1 ok in 0.1 ms (spirv 0.0) from the cache",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 1578 words 4969217 headers 472135 methods 4497067 faults 0 GET 03e25674 PUT 03ec312c binds 5 semaphores 70414 flips 10507 traps 13134 (21=9945 5=2614 1=562 9=12 28=1) runs 0 surfaces 24 clears 20519 swaps 10507 draws 2814439 ff 2562980 skipped 0 () textures 744 rt uploads 13 blit",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 54.5 ms (max 57.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 35 stores waited for the decoder (caught up 0; it waited on the guest at a trap 12, a flip stall 23, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 12.3 ms",
+   "hakuX-hle-emit: per s: draws=25281 verts=3918908 mergeable=0 (not: strip 22429 idx 2852 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 300, contiguous 0 pipe=5639 set1=13954 pc=18366 vi=2865 vb=21190 vp=589 sc=589 dyn=6818 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2813512 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: per s: cache=1 queued=1 built=1 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=6 | pipelines 82 (prebuilt 0)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=591142 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 86104 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=135 misses=52",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 43 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55915da0e640",
+   "[Gamescope WSI] Destroyed swapchain: 0x55915da0e640",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 175.6,
+  "peak_rms_dbfs": -9.4,
+  "first_sound_s": 4.5,
+  "audible_fraction": 0.83,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -21.1,
+   -19.9,
+   -25.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -22.2,
+   -20.4,
+   -22.2,
+   -120.0,
+   -120.0,
+   -23.4,
+   -23.0,
+   -21.8,
+   -24.5,
+   -22.2,
+   -22.7,
+   -24.1,
+   -16.5,
+   -23.4,
+   -24.2,
+   -23.2,
+   -23.5,
+   -23.2,
+   -28.7,
+   -22.9,
+   -23.0,
+   -23.4,
+   -23.1,
+   -19.2,
+   -22.5,
+   -23.3,
+   -22.8,
+   -21.9,
+   -23.3,
+   -21.2,
+   -22.8,
+   -23.5,
+   -22.8,
+   -22.3,
+   -20.9,
+   -23.5,
+   -22.1,
+   -25.4,
+   -23.2,
+   -24.2,
+   -24.1,
+   -24.1,
+   -24.1,
+   -24.1,
+   -15.0,
+   -20.1,
+   -20.0,
+   -23.9,
+   -29.0,
+   -27.7,
+   -28.0,
+   -25.8,
+   -27.9,
+   -28.6,
+   -17.5,
+   -17.3,
+   -22.3,
+   -21.1,
+   -22.0,
+   -20.6,
+   -26.0,
+   -22.2,
+   -21.0,
+   -25.4,
+   -20.2,
+   -22.5,
+   -20.1,
+   -15.7,
+   -13.3,
+   -21.1,
+   -25.8,
+   -9.4,
+   -10.2,
+   -12.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 149.83 s (judged from screenshots); stopped at 176.6 s and the emulator closed",
+ "duration_s": 176.7,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

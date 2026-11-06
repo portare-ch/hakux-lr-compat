@@ -1,0 +1,477 @@
+{
+ "game_file": "OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It).chd",
+ "game_size": 752345581,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:13:31+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 53048
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 919175
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 922451
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   55.4,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=4914 verts=19656 mergeable=0 (not: strip 4914 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=71 set1=86 pc=1186 vi=71 vb=4835 vp=71 sc=71 dyn=1244 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=128291 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2562 sysops 4762 (int 813, of them ticks 127; hook 0) schedules 2038 switches 1684 idle 299 slices 0 page faults 0 mmio 7460 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:148 (max 0.1 ms) irq5:22 (max 0.1 ms) | dpc max wait 0.2 run 0.3 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 1548 KiB, contiguous 44560 KiB (40 blocks), virtual 18068 KiB, kernel pool 108 of 128 KiB (Ex 601, objects 7, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 523 words 269386 headers 44348 methods 225048 faults 0 GET 0165d198 PUT 01665bc0 binds 5 semaphores 5681 flips 2522 traps 3280 (21=2522 5=751 9=6 28=1) runs 0 surfaces 6 clears 7620 swaps 2522 draws 133241 ff 0 skipped 0 () textures 52 rt uploads 4 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.0 ms (max 43.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=4950 verts=19800 mergeable=0 (not: strip 4950 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=65 set1=83 pc=1197 vi=65 vb=4872 vp=65 sc=65 dyn=1155 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=133241 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 524 words 267411 headers 44056 methods 223352 faults 0 GET 014e6798 PUT 014ef470 binds 5 semaphores 5817 flips 2582 traps 3369 (21=2582 5=780 9=6 28=1) runs 0 surfaces 6 clears 7740 swaps 2582 draws 138143 ff 0 skipped 0 () textures 52 rt uploads 4 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.0 ms (max 43.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=4902 verts=19608 mergeable=0 (not: strip 4902 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=67 set1=81 pc=1176 vi=67 vb=4826 vp=67 sc=67 dyn=1185 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=138143 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #50 frame 2634: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.2 write +17.2 ready +17.5 flip +50.0 front +50.0 shown +59.7 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 532 words 269878 headers 44420 methods 225464 faults 0 GET 015ee070 PUT 015f6a98 binds 5 semaphores 5954 flips 2642 traps 3461 (21=2642 5=812 9=6 28=1) runs 0 surfaces 6 clears 7860 swaps 2642 draws 143105 ff 0 skipped 0 () textures 52 rt uploads 4 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.0 ms (max 43.8, 58 frames)",
+   "hakuX-hle-emit: per s: draws=4962 verts=19848 mergeable=0 (not: strip 4962 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=67 set1=85 pc=1206 vi=67 vb=4883 vp=67 sc=67 dyn=1185 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=143105 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=583070 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 3096 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=0 misses=2",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -14.5,
+  "first_sound_s": 14.0,
+  "audible_fraction": 0.61,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -16.1,
+   -15.6,
+   -15.1,
+   -21.4,
+   -21.3,
+   -19.8,
+   -29.4,
+   -14.5,
+   -18.5,
+   -21.7,
+   -17.9,
+   -23.8,
+   -39.2,
+   -18.0,
+   -15.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

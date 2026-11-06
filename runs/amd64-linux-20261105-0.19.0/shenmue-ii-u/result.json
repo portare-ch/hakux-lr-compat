@@ -1,0 +1,478 @@
+{
+ "game_file": "Shenmue II (U).chd",
+ "game_size": 3046296484,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:24:22+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.15,
+   "shot",
+   "mid"
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.02,
+   "release"
+  ],
+  [
+   45.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.5,
+   "bytes": 484606
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.15,
+   "got_s": 23.0,
+   "bytes": 1735228
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.03,
+   "got_s": 46.0,
+   "bytes": 753121
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Shenmue II (U),crc32=75b6da8a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   49.1,
+   25.3,
+   34.8,
+   30.3,
+   19.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.2 ms (max 26.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10410 verts=822000 mergeable=0 (not: strip 570 idx 9690 state 150 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1645 set1=8979 pc=8362 vi=809 vb=676 vp=150 sc=150 dyn=2429 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=158266 prog_fog=142129 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 4358 sysops 6543 (int 956, of them ticks 109; hook 0) schedules 2501 switches 1743 idle 418 slices 0 page faults 0 mmio 9093 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:90 (max 0.1 ms) irq5:17 (max 0.2 ms) | dpc max wait 0.3 run 0.3 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 30 (pages 0377e000:128) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 1756 KiB, contiguous 25712 KiB (164 blocks), virtual 36528 KiB, kernel pool 537 of 576 KiB (Ex 510, objects 445, lost 0 KiB, 6 free ranges)",
+   "hakuX-hle-pb: kicks 1026 words 3332432 headers 506902 methods 2825506 faults 0 GET 03f84e5c PUT 03f85254 binds 4 semaphores 9811 flips 1313 traps 1320 (21=1313 9=6 28=1) runs 0 surfaces 6 clears 1315 swaps 1313 draws 168721 ff 3600 skipped 0 () textures 193 rt uploads 4 blits 0 m2mf 0 copies skipped",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.2 ms (max 26.2, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10080 verts=820020 mergeable=0 (not: strip 570 idx 9360 state 150 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1633 set1=8649 pc=8030 vi=795 vb=673 vp=151 sc=151 dyn=2434 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=168346 prog_fog=151429 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 976 words 3134801 headers 472082 methods 2662704 faults 0 GET 03f4f79c PUT 03f4fb94 binds 4 semaphores 10269 flips 1343 traps 1350 (21=1343 9=6 28=1) runs 0 surfaces 6 clears 1345 swaps 1343 draws 178231 ff 4080 skipped 0 () textures 193 rt uploads 4 blits 0 m2mf 0 copies skipped",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.2 ms (max 26.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9510 verts=816600 mergeable=0 (not: strip 570 idx 8790 state 150 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1616 set1=8075 pc=7470 vi=779 vb=681 vp=151 sc=151 dyn=2440 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=177856 prog_fog=160159 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 934 words 2974414 headers 442727 methods 2531671 faults 0 GET 03f4ce18 PUT 03f4d210 binds 4 semaphores 10706 flips 1373 traps 1380 (21=1373 9=6 28=1) runs 0 surfaces 6 clears 1375 swaps 1373 draws 187330 ff 4560 skipped 0 () textures 203 rt uploads 4 blits 0 m2mf 0 copies skipped",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.8 ms (max 42.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=9099 verts=828054 mergeable=0 (not: strip 570 idx 8368 state 161 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1651 set1=7621 pc=7083 vi=779 vb=670 vp=150 sc=150 dyn=2491 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=186955 prog_fog=168478 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=242885 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 83248 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=50 misses=31",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 35 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -25.6,
+  "first_sound_s": 16.5,
+  "audible_fraction": 0.49,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -25.6,
+   -34.1,
+   -29.5,
+   -27.0,
+   -53.5,
+   -82.8,
+   -27.3,
+   -28.1,
+   -28.6,
+   -27.4,
+   -25.9,
+   -27.5,
+   -27.7,
+   -26.5,
+   -29.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

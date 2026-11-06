@@ -1,0 +1,474 @@
+{
+ "game_file": "007 - Nightfire (U).chd",
+ "game_size": 1847713832,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:25:43+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 750434
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 4613
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 729206
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,007 - Nightfire (U),crc32=d5a0d85"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\driving.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   49.5,
+   60.0,
+   44.2,
+   46.1
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #283 frame 1037: front 33.2 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready -1 ms before | swap +17.3 write +17.3 ready +17.5 flip +33.2 front +33.2 shown +41.3 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #284 frame 1044: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready -0 ms before | swap +16.8 write +16.8 ready +17.1 flip +33.3 front +33.3 shown +41.4 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #285 frame 1051: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 29 ms: guest CPU-bound (421 draws) | swap +26.9 write +26.9 ready +27.1 flip +33.3 front +33.3 shown +41.7 ms (vs the last front) | guest: vCPU cpu 28 ms halted -1% | render cpu 1 run 0 idle 28 c",
+   "hakuX-hle-hitch: stutter #286 frame 1053: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 29 ms: guest CPU-bound (422 draws) | swap +28.6 write +28.6 ready +28.8 flip +33.3 front +33.3 shown +41.6 ms (vs the last front) | guest: vCPU cpu 28 ms halted -1% | render cpu 1 run 0 idle 29 c",
+   "hakuX-hle-hitch: stutter #287 frame 1064: front 33.4 ms after the last (expected 16.7), 0 dropped: guest 27 ms: guest CPU-bound (422 draws) | swap +19.4 write +19.4 ready +19.6 flip +33.4 front +33.4 shown +41.6 ms (vs the last front) | guest: vCPU cpu 26 ms halted -1% | render cpu 1 run 0 idle 27 c",
+   "hakuX-hle-hitch: stutter #288 frame 1068: front 33.4 ms after the last (expected 16.7), 0 dropped: guest 28 ms: guest CPU-bound (422 draws) | swap +17.6 write +17.6 ready +17.9 flip +33.4 front +33.4 shown +41.5 ms (vs the last front) | guest: vCPU cpu 27 ms halted -1% | render cpu 1 run 0 idle 27 c",
+   "hakuX-hle-hitch: stutter #289 frame 1073: front 33.3 ms after the last (expected 16.7), 0 dropped: late swap: -2 ms before its vblank, render + GPU 0 ms | swap +18.4 write +18.4 ready +18.8 flip +33.3 front +33.3 shown +41.4 ms (vs the last front)",
+   "hakuX-hle-pipe: pipeline 39a779cf646a8fcc fvf=0x0 vsh=126731d3aef093b5 in=1 combiners=1 ok in 4.6 ms (spirv 2.9)",
+   "hakuX-hle-hitch: stutter #290 frame 1081: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 50 ms: vCPU in host code: host JIT 0f5464e0 (75%) | swap +26.8 write +26.8 ready +27.2 flip +33.3 front +33.3 shown +41.7 ms (vs the last front) | guest: vCPU cpu 49 ms halted 0% | render cpu 1 r",
+   "hakuX-hle-pb: kicks 2899 words 5706913 headers 628792 methods 5078071 faults 0 GET 03fd1a0c PUT 03fd1a0c binds 4 semaphores 13422 flips 1082 traps 3009 (21=1082 28=939 8=938 5=44 9=6) runs 0 surfaces 25 clears 6515 swaps 1082 draws 242951 ff 0 skipped 0 () textures 396 rt uploads 10 blits 1 m2mf 0 c",
+   "hakuX-hle-pb: frame pace off: 49 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.7 ms (max 39.5, 49 frames)",
+   "hakuX-hle-pb: catch-up: 12387 stores waited for the decoder (caught up 7333; it waited on the guest at a trap 681, a flip stall 4372, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 1), 515.2 ms",
+   "hakuX-hle-emit: per s: draws=19724 verts=3729383 mergeable=0 (not: strip 14848 idx 4151 state 725 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7232 set1=15716 pc=9773 vi=5987 vb=19724 vp=306 sc=306 dyn=8951 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=242194 prog_fog=161128 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: per s: cache=0 queued=2 built=2 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=3 | pipelines 58 (prebuilt 0)",
+   "hakuX-hle-hitch: stutter #291 frame 1084: front 33.4 ms after the last (expected 16.7), 0 dropped: guest 27 ms: guest CPU-bound (560 draws) | swap +24.7 write +24.7 ready +25.0 flip +33.4 front +33.4 shown +41.4 ms (vs the last front) | guest: vCPU cpu 27 ms halted -1% | render cpu 1 run 1 idle 26 c",
+   "hakuX-hle-hitch: stutter #292 frame 1086: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 27 ms: guest CPU-bound (511 draws) | swap +23.1 write +23.1 ready +23.5 flip +33.3 front +33.3 shown +41.4 ms (vs the last front) | guest: vCPU cpu 26 ms halted -1% | render cpu 1 run 1 idle 26 c",
+   "hakuX-hle-hitch: stutter #293 frame 1088: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready -1 ms before | swap +17.2 write +17.2 ready +17.5 flip +33.3 front +33.3 shown +41.4 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #294 frame 1091: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 27 ms: guest CPU-bound (484 draws) | swap +26.0 write +26.0 ready +26.4 flip +33.3 front +33.3 shown +41.4 ms (vs the last front) | guest: vCPU cpu 26 ms halted -1% | render cpu 1 run 1 idle 26 c",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=231030 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 139792 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=86 misses=48",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 32 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.8,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.8,
+  "rms_dbfs_per_2s": [
+   -26.0,
+   -25.5,
+   -42.9,
+   -28.6,
+   -35.9,
+   -29.0,
+   -38.6,
+   -26.3,
+   -22.4,
+   -26.3,
+   -27.2,
+   -28.0,
+   -19.8,
+   -24.2,
+   -24.1,
+   -22.6,
+   -34.7,
+   -32.3,
+   -34.2,
+   -34.4,
+   -22.7,
+   -21.6,
+   -25.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

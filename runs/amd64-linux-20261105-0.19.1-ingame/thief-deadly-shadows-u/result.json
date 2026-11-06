@@ -1,0 +1,2793 @@
+{
+ "game_file": "Thief - Deadly Shadows (U).chd",
+ "game_size": 1777104345,
+ "system": "amd64-linux",
+ "started": "2026-11-05T17:42:41+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Brightness screen (up by 30 s) starts on DEFAULTS; right then A picks OK. The Enter Mission screen that follows starts on BRIEFING, where Start/A do nothing; START is four downs away (no wrap), then A, and the default A dismisses the training notice.",
+  "extra_steps": [
+   [
+    33.6,
+    "tap",
+    "right"
+   ],
+   [
+    34.8,
+    "tap",
+    "a"
+   ],
+   [
+    38.6,
+    "tap",
+    "down"
+   ],
+   [
+    39.4,
+    "tap",
+    "down"
+   ],
+   [
+    40.2,
+    "tap",
+    "down"
+   ],
+   [
+    41.0,
+    "tap",
+    "down"
+   ],
+   [
+    41.8,
+    "tap",
+    "down"
+   ],
+   [
+    43.0,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    33.0,
+    44.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.6,
+   "tap",
+   "right"
+  ],
+  [
+   34.8,
+   "tap",
+   "a"
+  ],
+  [
+   38.6,
+   "tap",
+   "down"
+  ],
+  [
+   39.4,
+   "tap",
+   "down"
+  ],
+  [
+   40.2,
+   "tap",
+   "down"
+  ],
+  [
+   41.0,
+   "tap",
+   "down"
+  ],
+  [
+   41.8,
+   "tap",
+   "down"
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 209.81,
+  "confirmed_by": "w230",
+  "stopped_at_s": 236.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.6
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "INGAME",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 237.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.62,
+   "tap",
+   "right"
+  ],
+  [
+   34.83,
+   "tap",
+   "a"
+  ],
+  [
+   38.63,
+   "tap",
+   "down"
+  ],
+  [
+   39.44,
+   "tap",
+   "down"
+  ],
+  [
+   40.24,
+   "tap",
+   "down"
+  ],
+  [
+   41.04,
+   "tap",
+   "down"
+  ],
+  [
+   41.84,
+   "tap",
+   "down"
+  ],
+  [
+   43.04,
+   "tap",
+   "a"
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.63,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "held",
+   "start"
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "held",
+   "start"
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "held",
+   "start"
+  ],
+  [
+   93.12,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "held",
+   "start"
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.63,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.66,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ],
+  [
+   170.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.55,
+   "held",
+   "start"
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "held",
+   "start"
+  ],
+  [
+   188.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.53,
+   "held",
+   "start"
+  ],
+  [
+   193.13,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.54,
+   "held",
+   "start"
+  ],
+  [
+   198.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.52,
+   "held",
+   "start"
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.54,
+   "held",
+   "start"
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.51,
+   "held",
+   "start"
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.83,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "held",
+   "start"
+  ],
+  [
+   233.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 265511
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 32.8,
+   "bytes": 1136244
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 46.0,
+   "bytes": 613059
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.4,
+   "bytes": 455823
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 75.6,
+   "bytes": 1074319
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 95.2,
+   "bytes": 1063413
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 115.6,
+   "bytes": 1072267
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 135.4,
+   "bytes": 1067255
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 155.6,
+   "bytes": 1072413
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 175.2,
+   "bytes": 1062663
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 195.4,
+   "bytes": 1074819
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 214.2,
+   "bytes": 750042
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.83,
+   "got_s": 234.2,
+   "bytes": 750958
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 229.83,
+   "got_s": 234.2,
+   "bytes": 750958,
+   "from_watch": "w230"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   53.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   60.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   61.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   62.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   68.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   69.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   75.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   76.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   77.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   78.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   81.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   82.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   83.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   84.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   91.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   99.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   101.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   102.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   103.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   104.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   105.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   106.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   107.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   108.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   109.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   110.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   111.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   112.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   113.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   114.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   115.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   116.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   117.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   118.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   119.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   120.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   121.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   125.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   126.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   127.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   128.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   132.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   133.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   139.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   140.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   146.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   147.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   154.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   157.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   160.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   161.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   162.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   169.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   170.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   171.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   172.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   173.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   174.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   175.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   176.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   177.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   180.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   181.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   182.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   183.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   185.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   186.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   188.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   189.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   190.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   191.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   192.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   193.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   194.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   195.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   198.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   199.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   200.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   201.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   203.9,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   206.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   207.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   208.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   209.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   210.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   211.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   212.0,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   213.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   214.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   215.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   216.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   217.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   218.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   219.1,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   220.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   221.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   222.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   223.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   224.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   225.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   226.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   227.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   228.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   229.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   230.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   231.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   232.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   233.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   234.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   235.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   236.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\T3Release.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   31.5,
+   59.7,
+   59.8,
+   31.6,
+   52.9,
+   49.6,
+   55.4,
+   59.8,
+   56.6,
+   50.0,
+   53.0,
+   50.1,
+   52.7,
+   49.9,
+   52.8,
+   49.8,
+   55.8,
+   59.8,
+   60.0,
+   51.9,
+   51.0,
+   43.1
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #89 frame 24621: front 35.6 ms after the last (expected 16.7), 0 dropped: guest flipped 19 ms after its vblank, ready 16 ms before | swap +0.0 write +0.0 ready +0.3 flip +35.6 front +35.6 shown +36.4 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 14583 words 26934977 headers 4332887 methods 22601991 faults 0 GET 03e16bc4 PUT 03e16bc4 binds 5 semaphores 1148209 flips 24631 traps 44469 (1=24631 5=19831 9=6 28=1) runs 0 surfaces 4 clears 141271 swaps 24631 draws 17882145 ff 4777365 skipped 0 () textures 125 rt uploads 5 blit",
+   "hakuX-hle-pb: frame pace off: 42 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 32.8 ms (max 44.5, 41 frames)",
+   "hakuX-hle-emit: per s: draws=116967 verts=18740835 mergeable=0 (not: strip 0 idx 115266 state 1701 work 0 gap 0) batches=0 of 0 draws indexed: no state between 7469, contiguous 0 pipe=27408 set1=82492 pc=62552 vi=1025 vb=285 vp=285 sc=285 dyn=24957 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=17879528 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #90 frame 24658: front 33.6 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 16 ms before | swap +0.0 write +0.0 ready +0.3 flip +33.6 front +33.6 shown +44.1 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 15437 words 28361560 headers 4559393 methods 23801201 faults 0 GET 03e7171c PUT 03e82b88 binds 5 semaphores 1155867 flips 24674 traps 44580 (1=24674 5=19899 9=6 28=1) runs 0 surfaces 4 clears 141751 swaps 24674 draws 18005063 ff 4777924 skipped 0 () textures 125 rt uploads 5 blit",
+   "hakuX-hle-pb: frame pace off: 43 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 31.2 ms (max 44.1, 44 frames)",
+   "hakuX-hle-pb: catch-up: 174 stores waited for the decoder (caught up 75; it waited on the guest at a trap 99, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 14.7 ms",
+   "hakuX-hle-emit: per s: draws=122819 verts=19797270 mergeable=0 (not: strip 0 idx 121035 state 1784 work 0 gap 0) batches=0 of 0 draws indexed: no state between 7646, contiguous 0 pipe=28860 set1=86554 pc=66085 vi=1085 vb=298 vp=298 sc=298 dyn=26350 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=18002347 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 17114 words 31440047 headers 5055587 methods 26385198 faults 0 GET 03e8ed78 PUT 03e951f4 binds 5 semaphores 1164358 flips 24723 traps 44713 (1=24723 5=19983 9=6 28=1) runs 0 surfaces 4 clears 142284 swaps 24723 draws 18141607 ff 4778561 skipped 0 () textures 125 rt uploads 5 blit",
+   "hakuX-hle-pb: frame pace off: 49 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 28.7 ms (max 39.1, 48 frames)",
+   "hakuX-hle-pb: catch-up: 175 stores waited for the decoder (caught up 75; it waited on the guest at a trap 100, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 14.8 ms",
+   "hakuX-hle-emit: per s: draws=136625 verts=21894498 mergeable=0 (not: strip 0 idx 134637 state 1988 work 0 gap 0) batches=0 of 0 draws indexed: no state between 8717, contiguous 0 pipe=32017 set1=96324 pc=72944 vi=1182 vb=316 vp=316 sc=316 dyn=28883 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=18138972 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=912182 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55afd3de0650",
+   "[Gamescope WSI] Destroyed swapchain: 0x55afd3de0650",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 230.3,
+  "peak_rms_dbfs": -22.2,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -32.0,
+   -23.5,
+   -22.2,
+   -29.2,
+   -45.5,
+   -33.9,
+   -24.0,
+   -23.2,
+   -28.8,
+   -31.8,
+   -30.8,
+   -31.3,
+   -31.0,
+   -31.7,
+   -30.8,
+   -30.5,
+   -28.0,
+   -25.3,
+   -26.3,
+   -26.6,
+   -40.2,
+   -43.4,
+   -120.0,
+   -26.5,
+   -26.6,
+   -32.9,
+   -37.8,
+   -28.6,
+   -30.5,
+   -34.3,
+   -33.2,
+   -38.2,
+   -36.4,
+   -44.3,
+   -36.8,
+   -32.8,
+   -36.6,
+   -35.8,
+   -35.9,
+   -34.5,
+   -33.5,
+   -35.8,
+   -33.7,
+   -33.2,
+   -32.3,
+   -36.2,
+   -34.5,
+   -38.4,
+   -45.9,
+   -36.2,
+   -33.7,
+   -38.5,
+   -36.3,
+   -44.5,
+   -36.3,
+   -32.9,
+   -37.7,
+   -36.8,
+   -44.9,
+   -35.9,
+   -34.0,
+   -38.9,
+   -36.2,
+   -44.2,
+   -36.2,
+   -33.2,
+   -38.2,
+   -36.4,
+   -44.7,
+   -35.9,
+   -34.0,
+   -38.8,
+   -36.2,
+   -46.3,
+   -36.3,
+   -32.9,
+   -37.8,
+   -36.7,
+   -44.7,
+   -35.9,
+   -33.8,
+   -39.0,
+   -36.2,
+   -46.4,
+   -36.0,
+   -34.2,
+   -38.6,
+   -35.6,
+   -36.8,
+   -34.1,
+   -32.7,
+   -34.0,
+   -33.6,
+   -32.0,
+   -32.8,
+   -35.0,
+   -33.9,
+   -35.9,
+   -32.6,
+   -34.7,
+   -44.0,
+   -41.4,
+   -33.8,
+   -33.4,
+   -36.3,
+   -46.5,
+   -45.8,
+   -43.9,
+   -44.5,
+   -46.5,
+   -44.2,
+   -44.1,
+   -44.4,
+   -44.2,
+   -45.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 209.81 s (judged from screenshots); stopped at 236.9 s and the emulator closed",
+ "duration_s": 237.1,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,477 @@
+{
+ "game_file": "Marvel - Ultimate Alliance (U).chd",
+ "game_size": 2697536503,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:02:00+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 63538
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 531481
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.0,
+   "bytes": 842602
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Marvel - Ultimate Alliance (U),crc32=a15c34bd"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   24.9,
+   29.5,
+   27.7,
+   47.3,
+   60.0,
+   47.8,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-mm: allocate 022f0000+201000 type 801000 protect 4 | frames 0028a177 004c201c 005237c8",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=362360 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12016 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=13 misses=9",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 55 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -12.2,
+  "first_sound_s": 12.5,
+  "audible_fraction": 0.67,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -35.9,
+   -17.5,
+   -30.6,
+   -30.0,
+   -27.4,
+   -21.1,
+   -26.8,
+   -32.3,
+   -25.8,
+   -25.4,
+   -23.5,
+   -14.7,
+   -12.2,
+   -15.2,
+   -19.0,
+   -14.8,
+   -22.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

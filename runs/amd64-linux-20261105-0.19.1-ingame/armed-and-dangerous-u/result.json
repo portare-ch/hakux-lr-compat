@@ -1,0 +1,1318 @@
+{
+ "game_file": "Armed and Dangerous (U).chd",
+ "game_size": 2879410348,
+ "system": "amd64-linux",
+ "started": "2026-11-05T18:55:18+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 29.84,
+  "confirmed_by": "w050",
+  "stopped_at_s": 57.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 57.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "held",
+   "start"
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "held",
+   "start"
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "held",
+   "start"
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "held",
+   "start"
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.8,
+   "bytes": 455963
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 31.0,
+   "bytes": 1806935
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 46.1,
+   "bytes": 1762251
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.3,
+   "bytes": 1759401
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 49.81,
+   "got_s": 51.3,
+   "bytes": 1759401,
+   "from_watch": "w050"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Armed and Dangerous (U),crc32=222a110a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.9,
+   59.9,
+   54.2,
+   59.6,
+   59.6
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-io: open \\Device\\CdRom0\\streams -> dir",
+   "hakuX-native-io: open \\Device\\CdRom0\\streams\\l1amb_005.rawcmp ->",
+   "hakuX-hle-pb: kicks 1378 words 11936239 headers 822322 methods 11113888 faults 0 GET 03de68fc PUT 03ea8d84 binds 5 semaphores 24635 flips 3209 traps 4331 (21=3209 5=1115 9=6 28=1) runs 0 surfaces 34 clears 8230 swaps 3210 draws 1116924 ff 0 skipped 0 () textures 861 rt uploads 27 blits 2 m2mf 0 copi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.1 ms (max 22.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=48000 verts=15474120 mergeable=0 (not: strip 47220 idx 300 state 480 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=9692 set1=35758 pc=9465 vi=4785 vb=43802 vp=241 sc=301 dyn=3372 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1116877 prog_fog=982322 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 1386 words 11936232 headers 822320 methods 11113872 faults 0 GET 03e7b17c PUT 03dfdd64 binds 5 semaphores 25299 flips 3269 traps 4431 (21=3269 5=1155 9=6 28=1) runs 0 surfaces 34 clears 8470 swaps 3270 draws 1164924 ff 0 skipped 0 () textures 861 rt uploads 27 blits 2 m2mf 0 copi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.8 ms (max 22.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=48000 verts=15474120 mergeable=0 (not: strip 47220 idx 300 state 480 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=9698 set1=35765 pc=9469 vi=4787 vb=43809 vp=242 sc=302 dyn=3390 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1164877 prog_fog=1026002 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: ps: thread 92 created: start 000d2810 (via system routine), stack d0160000-d0163000, tls 148, suspended",
+   "hakuX-native-io: open \\Device\\CdRom0\\streams -> dir",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5 -> dir",
+   "hakuX-native-io: open \\Device\\Harddisk0\\Partition5\\amb_oneshot_elk.rawcmp ->",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=192673 first_call=PsCreateSystemThreadEx threads=13",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 166336 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=81 misses=78",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 59 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55edeeaf76f0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55edeeaf76f0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 56.5,
+  "peak_rms_dbfs": -14.8,
+  "first_sound_s": 5.5,
+  "audible_fraction": 0.64,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -44.7,
+   -42.9,
+   -23.1,
+   -24.7,
+   -30.4,
+   -36.5,
+   -36.4,
+   -42.5,
+   -35.1,
+   -22.3,
+   -38.2,
+   -38.1,
+   -33.9,
+   -40.1,
+   -26.2,
+   -120.0,
+   -54.6,
+   -14.8,
+   -31.5,
+   -36.4,
+   -34.9,
+   -28.3,
+   -28.9,
+   -31.8,
+   -31.0,
+   -30.1,
+   -29.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 29.84 s (judged from screenshots); stopped at 57.0 s and the emulator closed",
+ "duration_s": 57.2,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

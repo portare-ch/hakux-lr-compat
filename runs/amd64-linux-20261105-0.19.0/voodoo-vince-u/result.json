@@ -1,0 +1,477 @@
+{
+ "game_file": "Voodoo Vince (U).chd",
+ "game_size": 1727540337,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:39:47+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.04,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.2,
+   "bytes": 644880
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 2205863
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 1498999
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Voodoo Vince (U),crc32=3860413a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   30.0,
+   12.7,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=5359 verts=903144 mergeable=0 (not: strip 4827 idx 532 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=604 set1=5188 pc=2222 vi=559 vb=4405 vp=77 sc=77 dyn=2008 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=654363 prog_fog=602508 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 497 words 1144306 headers 142656 methods 1001647 faults 0 GET 03e8182c PUT 03e81874 binds 5 semaphores 23100 flips 1191 traps 1364 (41=1191 28=63 8=63 5=41 9=6) runs 0 surfaces 70 clears 2126 swaps 1191 draws 659048 ff 11128 skipped 294 (draw_empty=294) textures 202 rt uploads 27",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.1 ms (max 75.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4628 verts=787561 mergeable=0 (not: strip 4155 idx 473 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=469 set1=4515 pc=1856 vi=426 vb=3740 vp=78 sc=78 dyn=1900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=658991 prog_fog=606303 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 457 words 1000877 headers 121131 methods 879747 faults 0 GET 03e54a60 PUT 03e54aa8 binds 5 semaphores 23341 flips 1221 traps 1394 (41=1221 28=63 8=63 5=41 9=6) runs 0 surfaces 70 clears 2186 swaps 1221 draws 663256 ff 11188 skipped 294 (draw_empty=294) textures 202 rt uploads 27 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.1 ms (max 75.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=4208 verts=712887 mergeable=0 (not: strip 3766 idx 442 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=397 set1=4096 pc=1659 vi=367 vb=3305 vp=73 sc=73 dyn=1797 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=663199 prog_fog=609709 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #14 frame 1247: front 66.6 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +0.7 write +0.7 ready +0.9 flip +66.6 front +66.6 shown +76.6 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), ",
+   "hakuX-hle-pb: kicks 439 words 893422 headers 110617 methods 782793 faults 0 GET 03ebe8ec PUT 03ebe934 binds 5 semaphores 23571 flips 1251 traps 1424 (41=1251 28=63 8=63 5=41 9=6) runs 0 surfaces 70 clears 2246 swaps 1251 draws 666976 ff 11248 skipped 294 (draw_empty=294) textures 202 rt uploads 27 b",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.2 ms (max 75.8, 29 frames)",
+   "hakuX-hle-emit: per s: draws=3720 verts=647117 mergeable=0 (not: strip 3249 idx 471 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=362 set1=3607 pc=1388 vi=332 vb=2850 vp=72 sc=72 dyn=1640 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=666919 prog_fog=612598 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2373 sysops 4505 (int 913, of them ticks 236; hook 0) schedules 1825 switches 1799 idle 0 slices 0 page faults 0 mmio 8163 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:90 (max 0.1 ms) irq5:11 (max 0.1 ms) | dpc max wait 0.3 run 0.3 ms, 0 over 8 ms | hol",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 30 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7160 KiB, contiguous 52604 KiB (35 blocks), virtual 4612 KiB, kernel pool 4 of 64 KiB (Ex 421, objects 2, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=106232 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 126060 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=126 misses=43",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 55 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -20.3,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.86,
+  "rms_dbfs_per_2s": [
+   -33.7,
+   -34.3,
+   -39.0,
+   -33.5,
+   -34.7,
+   -32.0,
+   -26.1,
+   -29.2,
+   -32.6,
+   -30.0,
+   -31.8,
+   -21.1,
+   -20.3,
+   -79.3,
+   -79.3,
+   -23.9,
+   -20.9,
+   -22.2,
+   -23.0,
+   -23.6,
+   -21.8,
+   -22.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

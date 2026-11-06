@@ -1,0 +1,1709 @@
+{
+ "game_file": "Tony Hawk's Underground (U).chd",
+ "game_size": 3044392754,
+ "system": "amd64-linux",
+ "started": "2026-11-05T17:52:51+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Story mode opens in Create-a-Skater, and Start/A go Create Options > Edit Skater > Pre-made list, where A just re-picks a skater (stuck from about 40 s). B B B backs out to Create Options (B does nothing there), down down selects DONE (DESIGN DECK is skipped), and A starts the story cutscene, which the default Start/A skip into gameplay.",
+  "extra_steps": [
+   [
+    54.2,
+    "tap",
+    "b"
+   ],
+   [
+    55.2,
+    "tap",
+    "b"
+   ],
+   [
+    56.2,
+    "tap",
+    "b"
+   ],
+   [
+    57.6,
+    "tap",
+    "down"
+   ],
+   [
+    58.2,
+    "tap",
+    "down"
+   ],
+   [
+    58.8,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    53.8,
+    59.6
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.2,
+   "tap",
+   "b"
+  ],
+  [
+   55.2,
+   "tap",
+   "b"
+  ],
+  [
+   56.2,
+   "tap",
+   "b"
+  ],
+  [
+   57.6,
+   "tap",
+   "down"
+  ],
+  [
+   58.2,
+   "tap",
+   "down"
+  ],
+  [
+   58.8,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.85,
+  "confirmed_by": "w090",
+  "stopped_at_s": 97.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 97.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.23,
+   "tap",
+   "b"
+  ],
+  [
+   55.23,
+   "tap",
+   "b"
+  ],
+  [
+   56.23,
+   "tap",
+   "b"
+  ],
+  [
+   57.63,
+   "tap",
+   "down"
+  ],
+  [
+   58.23,
+   "tap",
+   "down"
+  ],
+  [
+   58.83,
+   "tap",
+   "a"
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "held",
+   "start"
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "held",
+   "start"
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "held",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "held",
+   "start"
+  ],
+  [
+   93.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 201582
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 34.4,
+   "bytes": 1060646
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 48.8,
+   "bytes": 1134259
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 54.0,
+   "bytes": 1134031
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 72.9,
+   "bytes": 1757817
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 93.4,
+   "bytes": 1637718
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.83,
+   "got_s": 93.4,
+   "bytes": 1637718,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Tony Hawk's Underground (U),crc32=2368d983"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.8,
+   42.5,
+   54.6,
+   59.9,
+   59.2,
+   59.8,
+   53.2,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2730537 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3178 words 3196110 headers 447071 methods 2749025 faults 0 GET 01c61adc PUT 01b98158 binds 5 semaphores 53516 flips 5080 traps 15274 (21=5080 28=4663 8=4662 5=863 9=6) runs 0 surfaces 7 clears 9738 swaps 5081 draws 2763879 ff 1559206 skipped 4662 (draw_empty=4662) textures 1644 r",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.2 ms (max 43.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 137907 stores waited for the decoder (caught up 164; it waited on the guest at a trap 6738, a flip stall 131005, the FIFO off 0; for arena room 1, the frame pace 0 of its 0 stalls; timed out 0), 6269.9 ms",
+   "hakuX-hle-emit: per s: draws=19568 verts=2071430 mergeable=0 (not: strip 18180 idx 1388 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=5213 set1=5765 pc=9423 vi=3420 vb=18152 vp=210 sc=210 dyn=4058 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2750105 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: pipeline cfcbeb2ac40eb4ef fvf=0x0 vsh=e4592b10b2b216fb in=209 combiners=2 ok in 0.1 ms (spirv 0.0) from the cache",
+   "hakuX-hle-pipe: pipeline 891f8b9afea9131b fvf=0x0 vsh=375652a6882f2237 in=209 combiners=2 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 3006 words 3014632 headers 410571 methods 2604050 faults 0 GET 01be590c PUT 01c16344 binds 5 semaphores 54023 flips 5140 traps 15455 (21=5140 28=4723 8=4722 5=864 9=6) runs 0 surfaces 7 clears 9858 swaps 5141 draws 2781167 ff 1561796 skipped 4722 (draw_empty=4722) textures 1644 r",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.6 ms (max 42.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 139432 stores waited for the decoder (caught up 164; it waited on the guest at a trap 6847, a flip stall 132420, the FIFO off 0; for arena room 1, the frame pace 0 of its 0 stalls; timed out 0), 6330.4 ms",
+   "hakuX-hle-emit: per s: draws=17288 verts=1936600 mergeable=0 (not: strip 15968 idx 1320 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4505 set1=5343 pc=7323 vi=2949 vb=16461 vp=210 sc=210 dyn=3577 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2767393 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: per s: cache=2 queued=0 built=0 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=0 | pipelines 620 (prebuilt 0)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2100417 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 546628 bytes (merged in 0.0 ms, serialized in 0.1 ms, written in 0.1 ms), spirv hits=1036 misses=263",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 56 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564d110a6730",
+   "[Gamescope WSI] Destroyed swapchain: 0x564d110a6730",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 95.8,
+  "peak_rms_dbfs": -18.5,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.83,
+  "rms_dbfs_per_2s": [
+   -35.9,
+   -32.5,
+   -26.5,
+   -18.5,
+   -28.5,
+   -27.2,
+   -32.8,
+   -68.4,
+   -97.0,
+   -32.9,
+   -32.9,
+   -37.7,
+   -62.0,
+   -41.8,
+   -28.4,
+   -28.0,
+   -28.8,
+   -28.5,
+   -28.0,
+   -29.1,
+   -28.8,
+   -28.9,
+   -29.1,
+   -28.2,
+   -28.7,
+   -28.3,
+   -27.9,
+   -29.1,
+   -21.4,
+   -21.9,
+   -21.9,
+   -93.5,
+   -31.1,
+   -36.1,
+   -33.8,
+   -35.4,
+   -36.6,
+   -22.5,
+   -28.2,
+   -33.5,
+   -29.1,
+   -27.0,
+   -29.0,
+   -28.2,
+   -39.0,
+   -29.8,
+   -30.1,
+   -30.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.85 s (judged from screenshots); stopped at 97.6 s and the emulator closed",
+ "duration_s": 97.7,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

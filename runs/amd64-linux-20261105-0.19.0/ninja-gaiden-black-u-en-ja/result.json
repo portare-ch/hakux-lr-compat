@@ -1,0 +1,477 @@
+{
+ "game_file": "Ninja Gaiden Black (U) (En,Ja).chd",
+ "game_size": 5038441697,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:10:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 398180
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 4613
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 314870
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Ninja Gaiden Black (U) (En,Ja),crc32=bc7f6dbb"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.3,
+   60.0,
+   47.2,
+   60.0,
+   40.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.1 ms (max 59.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=810 verts=3240 mergeable=0 (not: strip 810 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=91 set1=93 pc=510 vi=62 vb=748 vp=91 sc=91 dyn=480 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=316939 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 334 words 54837 headers 10259 methods 44568 faults 0 GET 01881264 PUT 01881264 binds 5 semaphores 7165 flips 1866 traps 4093 (21=1866 7=1865 5=355 9=6 28=1) runs 0 surfaces 7 clears 3720 swaps 1866 draws 317750 ff 0 skipped 0 () textures 696 rt uploads 3 blits 0 m2mf 0 copies ski",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.2 ms (max 60.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=810 verts=3240 mergeable=0 (not: strip 810 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=91 set1=92 pc=510 vi=61 vb=749 vp=91 sc=91 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=317749 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 338 words 49019 headers 9501 methods 39524 faults 0 GET 017b1218 PUT 017b27a4 binds 5 semaphores 7261 flips 1896 traps 4153 (21=1896 7=1895 5=355 9=6 28=1) runs 0 surfaces 7 clears 3781 swaps 1896 draws 318397 ff 0 skipped 0 () textures 725 rt uploads 3 blits 0 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.0 ms (max 59.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=647 verts=2588 mergeable=0 (not: strip 647 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=89 set1=90 pc=333 vi=62 vb=590 vp=89 sc=89 dyn=480 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=318396 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3056 sysops 5031 (int 732, of them ticks 28; hook 0) schedules 2353 switches 1813 idle 529 slices 0 page faults 0 mmio 5617 apu waits 0 vm pages +0 -0 isr irq1:515 (max 0.3 ms) irq3:92 (max 0.1 ms) | dpc max wait 0.3 run 0.4 ms, 0 over 8 ms | holds 0 (longest 0.0 ms",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 10080 (pages 03dda000:384 03e1a000:384 03e5a000:384 03e9a000:384 03eda000:384 02f4c000:384) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 2624 KiB, contiguous 47336 KiB (57 blocks), virtual 14140 KiB, kernel pool 38 of 64 KiB (Ex 489, objects 37, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 336 words 49193 headers 9494 methods 39692 faults 0 GET 017e12bc PUT 017e3218 binds 5 semaphores 7357 flips 1926 traps 4213 (21=1926 7=1925 5=355 9=6 28=1) runs 0 surfaces 7 clears 3841 swaps 1926 draws 319058 ff 0 skipped 0 () textures 755 rt uploads 3 blits 0 m2mf 0 copies skip",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.8 ms (max 75.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=661 verts=2644 mergeable=0 (not: strip 661 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=87 set1=88 pc=325 vi=60 vb=606 vp=87 sc=87 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=319057 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=158972 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 11520 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=6 misses=7",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 39 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -18.6,
+  "first_sound_s": 13.5,
+  "audible_fraction": 0.66,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -29.2,
+   -19.9,
+   -42.2,
+   -22.8,
+   -24.9,
+   -22.7,
+   -23.4,
+   -23.1,
+   -18.6,
+   -20.1,
+   -23.7,
+   -23.3,
+   -22.2,
+   -25.9,
+   -23.9,
+   -23.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

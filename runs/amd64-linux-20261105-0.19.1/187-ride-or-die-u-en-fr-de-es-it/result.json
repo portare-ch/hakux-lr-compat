@@ -1,0 +1,472 @@
+{
+ "game_file": "187 - Ride or Die (U) (En,Fr,De,Es,It).chd",
+ "game_size": 960975234,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:27:20+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 203039
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 1264812
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 1038509
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.0,
+   31.7,
+   59.8,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 44.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=360 verts=48960 mergeable=0 (not: strip 0 idx 0 state 301 work 0 gap 59) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=241 pc=300 vi=240 vb=180 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8790 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2523 sysops 4748 (int 986, of them ticks 255; hook 0) schedules 2086 switches 2062 idle 0 slices 40 page faults 0 mmio 6046 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.0 ms) irq3:120 (max 0.1 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | holds 0 (longest 0.0 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 27688 KiB, contiguous 11624 KiB (133 blocks), virtual 25036 KiB, kernel pool 9 of 64 KiB (Ex 435, objects 5, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 427 words 57416 headers 14068 methods 43344 faults 0 GET 03e92df4 PUT 03e93d0c binds 5 semaphores 4663 flips 2240 traps 2247 (21=2240 9=6 28=1) runs 0 surfaces 6 clears 2228 swaps 2241 draws 9157 ff 4230 skipped 0 () textures 297 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 44.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=360 verts=48960 mergeable=0 (not: strip 0 idx 0 state 300 work 0 gap 60) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=241 pc=300 vi=240 vb=181 vp=61 sc=61 dyn=915 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=9150 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 427 words 57416 headers 14068 methods 43360 faults 0 GET 03ecaf14 PUT 03ecbe2c binds 5 semaphores 4790 flips 2300 traps 2307 (21=2300 9=6 28=1) runs 0 surfaces 6 clears 2288 swaps 2301 draws 9517 ff 4410 skipped 0 () textures 297 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 44.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=360 verts=48960 mergeable=0 (not: strip 0 idx 0 state 301 work 0 gap 59) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=241 pc=300 vi=240 vb=180 vp=61 sc=61 dyn=915 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=9510 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #11 frame 2353: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +17.0 write +17.0 ready +17.3 flip +50.0 front +50.0 shown +59.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 427 words 57417 headers 14068 methods 43344 faults 0 GET 03e031b4 PUT 03e040cc binds 5 semaphores 4917 flips 2360 traps 2367 (21=2360 9=6 28=1) runs 0 surfaces 6 clears 2348 swaps 2361 draws 9877 ff 4590 skipped 0 () textures 297 rt uploads 1 blits 0 m2mf 0 copies skipped 0 vis 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 44.0, 58 frames)",
+   "hakuX-hle-emit: per s: draws=360 verts=48960 mergeable=0 (not: strip 0 idx 0 state 300 work 0 gap 60) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=241 pc=300 vi=240 vb=180 vp=61 sc=61 dyn=915 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=9870 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=196055 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 12800 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 20.7 ms), spirv hits=11 misses=9",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 68 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -19.0,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.84,
+  "rms_dbfs_per_2s": [
+   -29.8,
+   -26.6,
+   -25.6,
+   -22.7,
+   -19.0,
+   -19.9,
+   -120.0,
+   -120.0,
+   -27.3,
+   -24.8,
+   -27.4,
+   -26.0,
+   -26.1,
+   -27.2,
+   -23.4,
+   -24.6,
+   -24.2,
+   -24.7,
+   -24.1,
+   -23.7,
+   -23.4,
+   -24.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

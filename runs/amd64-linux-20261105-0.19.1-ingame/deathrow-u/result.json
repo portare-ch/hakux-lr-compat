@@ -1,0 +1,3234 @@
+{
+ "game_file": "Deathrow (U).chd",
+ "game_size": 691268358,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:45:14+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w150",
+    "t": 149.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w250",
+    "t": 249.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w270",
+    "t": 269.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w290",
+    "t": 289.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 304.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.81,
+   "watch",
+   "w150"
+  ],
+  [
+   150.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   170.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.81,
+   "watch",
+   "w250"
+  ],
+  [
+   250.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.81,
+   "watch",
+   "w270"
+  ],
+  [
+   270.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.82,
+   "watch",
+   "w290"
+  ],
+  [
+   290.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.05,
+   "release"
+  ],
+  [
+   300.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.5,
+   "bytes": 490215
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 30.5,
+   "bytes": 180336
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 49.8,
+   "bytes": 1238541
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 54.4,
+   "bytes": 1382526
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 74.6,
+   "bytes": 1211916
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 94.6,
+   "bytes": 1256612
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.8,
+   "got_s": 114.6,
+   "bytes": 1352491
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 134.8,
+   "bytes": 1217094
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.81,
+   "got_s": 154.2,
+   "bytes": 1378039
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 174.6,
+   "bytes": 1287526
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 194.6,
+   "bytes": 1357548
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 214.4,
+   "bytes": 1345227
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 234.8,
+   "bytes": 1227060
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.81,
+   "got_s": 254.4,
+   "bytes": 1400180
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.81,
+   "got_s": 274.6,
+   "bytes": 1243480
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.82,
+   "got_s": 294.8,
+   "bytes": 1327596
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.03,
+   "got_s": 304.5,
+   "bytes": 1201397
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   147.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   154.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   157.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   162.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   168.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   169.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   170.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   171.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   176.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   177.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   181.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   182.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   185.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   186.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   190.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   191.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   192.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   193.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   194.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   195.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   197.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   198.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   199.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   200.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   201.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   204.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   205.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   206.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   207.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   208.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   209.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   211.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   212.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   213.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   214.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   215.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   216.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   217.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   218.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   219.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   220.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   221.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   222.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   223.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   224.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   225.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   226.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   227.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   228.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   230.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   231.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   232.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   233.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   234.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   235.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   236.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   237.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   239.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   240.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   241.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   242.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   243.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   245.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   246.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   247.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   248.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   249.6,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   251.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   252.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   253.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   254.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   255.7,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   257.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   258.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   259.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   260.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   261.8,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   264.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   265.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   266.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   267.9,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   273.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   274.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   275.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   276.0,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   279.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   280.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   281.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   282.1,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   286.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   287.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   288.2,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   290.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   293.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   294.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   295.3,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   296.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   299.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   300.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   301.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   302.4,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   303.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ],
+  [
+   304.5,
+   "GET_STATUS PLAYING xbox,Deathrow (U),crc32=4a814e9c"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55410.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   3.9,
+   27.8,
+   59.1,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8876317 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: nv2a: the presenter picks frames up 2.2 ms after the panel's vsync (period 16.63 ms): vblanks 10.5 ms after the vsync",
+   "hakuX-native-stats: per s: kcalls 2632 sysops 4751 (int 749, of them ticks 82; hook 0) schedules 2203 switches 1710 idle 471 slices 0 page faults 0 mmio 18313 apu waits 0 vm pages +0 -0 isr irq1:488 (max 3.7 ms) irq3:181 (max 1.8 ms) irq5:8 (max 1.2 ms) | dpc max wait 0.6 run 1.5 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 601 (pages 038d1000:640 0330e000:640 038cf000:640 0330c000:640 038cd000:576) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 23216 KiB, contiguous 25056 KiB (361 blocks), virtual 15416 KiB, kernel pool 12 of 64 KiB (Ex 829, objects 6, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-disp: stats: 59.7 new frames/s, age front to taken 8.25 ms (max 16.55), gap 16.76 ms (max 54.55, 1 over 25 ms)",
+   "hakuX-hle-pb: kicks 3474 words 10912515 headers 1780616 methods 9131822 faults 0 GET 03fd88ac PUT 03fca79c binds 4 semaphores 430913 flips 29443 traps 45799 (5=16349 21=16278 1=13165 9=6 28=1) runs 0 surfaces 3 clears 29082 swaps 29443 draws 8910131 ff 0 skipped 0 () textures 151 rt uploads 3 blits ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 32.0 ms (max 40.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 52588 stores waited for the decoder (caught up 36806; it waited on the guest at a trap 729, a flip stall 15053, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 39492.3 ms",
+   "hakuX-hle-emit: per s: draws=31838 verts=3789384 mergeable=0 (not: strip 18180 idx 13658 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=16724 set1=31838 pc=26534 vi=1039 vb=29142 vp=202 sc=202 dyn=6844 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8908155 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3451 words 11004698 headers 1796018 methods 9208588 faults 0 GET 03fe3608 PUT 03fda7d8 binds 4 semaphores 432383 flips 29503 traps 45919 (5=16409 21=16338 1=13165 9=6 28=1) runs 0 surfaces 3 clears 29142 swaps 29503 draws 8942095 ff 0 skipped 0 () textures 151 rt uploads 3 blits ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 31.7 ms (max 38.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 52799 stores waited for the decoder (caught up 36937; it waited on the guest at a trap 735, a flip stall 15127, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 39718.5 ms",
+   "hakuX-hle-emit: per s: draws=31964 verts=3807204 mergeable=0 (not: strip 18180 idx 13784 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=16763 set1=31964 pc=26466 vi=1034 vb=29168 vp=198 sc=198 dyn=6604 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=8940119 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=845560 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5563614748e0",
+   "[Gamescope WSI] Destroyed swapchain: 0x5563614748e0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 301.7,
+  "peak_rms_dbfs": -16.4,
+  "first_sound_s": 8.5,
+  "audible_fraction": 0.93,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -31.9,
+   -29.0,
+   -31.4,
+   -28.5,
+   -28.2,
+   -34.2,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -26.6,
+   -16.4,
+   -18.7,
+   -35.8,
+   -43.4,
+   -38.2,
+   -33.2,
+   -33.3,
+   -34.4,
+   -34.5,
+   -34.0,
+   -34.8,
+   -33.2,
+   -33.1,
+   -35.4,
+   -33.5,
+   -34.1,
+   -35.5,
+   -34.2,
+   -34.1,
+   -35.7,
+   -33.3,
+   -33.5,
+   -34.3,
+   -33.8,
+   -31.7,
+   -34.9,
+   -33.2,
+   -33.2,
+   -34.4,
+   -35.1,
+   -34.4,
+   -34.4,
+   -36.1,
+   -34.4,
+   -33.9,
+   -35.5,
+   -33.0,
+   -33.8,
+   -35.1,
+   -33.4,
+   -32.5,
+   -38.3,
+   -38.0,
+   -45.3,
+   -37.6,
+   -35.1,
+   -33.3,
+   -34.4,
+   -33.9,
+   -35.0,
+   -33.6,
+   -33.5,
+   -34.3,
+   -34.3,
+   -34.8,
+   -34.4,
+   -33.5,
+   -33.1,
+   -34.5,
+   -34.8,
+   -34.5,
+   -35.1,
+   -36.3,
+   -34.6,
+   -34.0,
+   -32.9,
+   -32.5,
+   -33.8,
+   -35.3,
+   -33.4,
+   -34.3,
+   -34.4,
+   -32.6,
+   -35.1,
+   -34.2,
+   -33.8,
+   -34.7,
+   -34.7,
+   -33.8,
+   -35.7,
+   -33.3,
+   -33.9,
+   -34.8,
+   -34.3,
+   -32.0,
+   -38.3,
+   -40.1,
+   -39.7,
+   -40.6,
+   -34.7,
+   -34.8,
+   -33.8,
+   -35.8,
+   -34.5,
+   -33.3,
+   -36.0,
+   -34.1,
+   -35.2,
+   -33.7,
+   -33.9,
+   -34.9,
+   -33.8,
+   -33.7,
+   -35.3,
+   -33.7,
+   -34.1,
+   -35.0,
+   -33.6,
+   -33.0,
+   -35.7,
+   -34.1,
+   -33.9,
+   -34.7,
+   -32.9,
+   -34.7,
+   -33.8,
+   -33.8,
+   -34.8,
+   -34.6,
+   -35.7,
+   -34.5,
+   -33.7,
+   -35.6,
+   -33.5,
+   -34.4,
+   -33.1,
+   -38.5,
+   -38.4,
+   -38.3,
+   -44.1,
+   -32.6,
+   -36.4,
+   -33.7,
+   -35.7,
+   -34.3,
+   -33.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 304.7,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

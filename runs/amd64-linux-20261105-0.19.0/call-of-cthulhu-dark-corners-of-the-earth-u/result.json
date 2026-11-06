@@ -1,0 +1,477 @@
+{
+ "game_file": "Call of Cthulhu - Dark Corners of the Earth (U).chd",
+ "game_size": 1706238631,
+ "system": "amd64-linux",
+ "started": "2026-11-05T00:44:53+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.14,
+   "shot",
+   "mid"
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.01,
+   "release"
+  ],
+  [
+   45.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 110237
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.14,
+   "got_s": 22.8,
+   "bytes": 493010
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.03,
+   "got_s": 46.3,
+   "bytes": 700023
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   18.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   26.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   33.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   32.8,
+   32.7,
+   32.7,
+   25.9,
+   19.9,
+   19.9,
+   19.9,
+   19.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-io: open \\Device\\Harddisk0\\partition1\\UDATA\\42530007 -> dir",
+   "hakuX-native-io: open \\Device\\Harddisk0\\partition1\\UDATA\\42530007\\1A3F1B2E4ADD\\SaveMeta.xbx ->",
+   "hakuX-native-io: open \\Device\\Harddisk0\\partition1\\UDATA\\42530007\\1A3F1B2E4ADD -> dir",
+   "hakuX-native-io: list \\Device\\Harddisk0\\partition1\\UDATA\\42530007\\1A3F1B2E4ADD mask 'Progress.Data': nothing matches (3 entries)",
+   "hakuX-ktrace: t8 NtQueryDirectoryFile from 001a4b85 [00000040 00000000 00000000 00000000 d007faf8 d007f9b0] -> c000000f | frames 001617ec 000220f1 00171e34 00163a9d 001639e7 00172ac9",
+   "hakuX-native: ps: thread 24 exits (00000001)",
+   "hakuX-hle-pb: kicks 236 words 31296 headers 5433 methods 25876 faults 0 GET 03fd2e50 PUT 03fd2e78 binds 5 semaphores 2214 flips 1052 traps 1059 (21=1052 9=6 28=1) runs 0 surfaces 3 clears 597 swaps 1052 draws 4846 ff 0 skipped 0 () textures 9 rt uploads 2 blits 1 m2mf 0 copies skipped 0 vis 0 (kicks",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 15.6 ms (max 23.2, 29 frames)",
+   "hakuX-hle-emit: per s: draws=288 verts=10146 mergeable=0 (not: strip 0 idx 288 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 23, contiguous 0 pipe=143 set1=173 pc=265 vi=30 vb=30 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4843 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #12 frame 1082: front 66.6 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +57.1 write +57.1 ready +57.6 flip +66.6 front +66.6 shown +76.1 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms",
+   "hakuX-hle-pb: kicks 262 words 34873 headers 7649 methods 27212 faults 0 GET 03ff4f34 PUT 03ff4f34 binds 5 semaphores 2283 flips 1084 traps 1091 (21=1084 9=6 28=1) runs 0 surfaces 3 clears 629 swaps 1084 draws 5304 ff 0 skipped 0 () textures 14 rt uploads 2 blits 1 m2mf 0 copies skipped 0 vis 0 (kick",
+   "hakuX-hle-pb: frame pace off: 32 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 17.0 ms (max 23.7, 32 frames)",
+   "hakuX-hle-emit: per s: draws=458 verts=9084 mergeable=0 (not: strip 0 idx 458 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 32, contiguous 0 pipe=226 set1=247 pc=404 vi=32 vb=32 vp=32 sc=32 dyn=480 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5301 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 269 words 36948 headers 8364 methods 28588 faults 0 GET 03f71214 PUT 03f71214 binds 5 semaphores 2354 flips 1117 traps 1124 (21=1117 9=6 28=1) runs 0 surfaces 3 clears 662 swaps 1117 draws 5818 ff 0 skipped 0 () textures 14 rt uploads 2 blits 1 m2mf 0 copies skipped 0 vis 0 (kick",
+   "hakuX-hle-pb: frame pace off: 33 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 15.0 ms (max 22.3, 33 frames)",
+   "hakuX-hle-emit: per s: draws=514 verts=9618 mergeable=0 (not: strip 0 idx 514 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 33, contiguous 0 pipe=264 set1=284 pc=448 vi=33 vb=33 vp=33 sc=33 dyn=495 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5815 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=398179 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 9448 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=10 misses=5",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 34 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -14.6,
+  "first_sound_s": 11.0,
+  "audible_fraction": 0.18,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -24.0,
+   -14.6,
+   -17.6,
+   -36.1,
+   -41.2,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -44.1,
+   -42.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

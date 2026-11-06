@@ -1,0 +1,1827 @@
+{
+ "game_file": "NHL Hitz 2003 (U).chd",
+ "game_size": 1632311752,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:40:08+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Choose Teams (from about 30 s) has USER1-4 in the middle row between the Away team (above) and Home team (below). Up held 500 ms moves USER1 to Away, then A.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "up",
+    500
+   ],
+   [
+    55.2,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    57.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "up",
+   500
+  ],
+  [
+   55.2,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.84,
+  "confirmed_by": "w110",
+  "stopped_at_s": 118.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 118.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.01,
+   "tap",
+   "up",
+   500
+  ],
+  [
+   55.21,
+   "tap",
+   "a"
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "held",
+   "start"
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.52,
+   "held",
+   "start"
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "held",
+   "start"
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "held",
+   "start"
+  ],
+  [
+   113.13,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "held",
+   "start"
+  ],
+  [
+   118.05,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 11.2,
+   "bytes": 243232
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 32.8,
+   "bytes": 678982
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 46.2,
+   "bytes": 869975
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.4,
+   "bytes": 866672
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 72.5,
+   "bytes": 1172053
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 91.6,
+   "bytes": 1188881
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 113.6,
+   "bytes": 1372794
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.82,
+   "got_s": 113.6,
+   "bytes": 1372794,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   19.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   25.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,NHL Hitz 2003 (U),crc32=5543e3b5"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.6,
+   50.9,
+   59.7,
+   59.6,
+   58.1,
+   59.4,
+   59.8,
+   59.6,
+   46.9,
+   54.8,
+   51.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=53592 verts=12336752 mergeable=0 (not: strip 52392 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=17278 set1=20041 pc=39539 vi=2372 vb=50733 vp=133 sc=133 dyn=6121 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2288595 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-irq: line 1 delivered 8.5 ms after it rose: 0 refusals, first none: no kernel entry meanwhile (IRQL 0, ISR line -1, thread t0); the guest CPU's thread ran 0.0 ms of it",
+   "hakuX-native-irq: line 1 taken 8.6 ms after it rose",
+   "hakuX-hle-hitch: stutter #84 frame 6472: front 33.4 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 22 ms before | swap -5.6 write -5.6 ready -5.4 flip +33.4 front +33.4 shown +44.2 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 3204 words 9393580 headers 841448 methods 8552066 faults 0 GET 03fc4150 PUT 03fbb81c binds 4 semaphores 73227 flips 6527 traps 8696 (2=6527 5=2161 9=6 8=2) runs 0 surfaces 19 clears 6548 swaps 6527 draws 2360529 ff 1756607 skipped 0 () textures 1133 rt uploads 7 blits 4 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 49.9, 59 frames)",
+   "hakuX-hle-pb: catch-up: 15654 stores waited for the decoder (caught up 643; it waited on the guest at a trap 710, a flip stall 14301, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 920.6 ms",
+   "hakuX-hle-emit: per s: draws=49603 verts=11095532 mergeable=0 (not: strip 48396 idx 1207 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=15360 set1=18966 pc=36684 vi=2232 vb=47082 vp=130 sc=130 dyn=6012 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2338198 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=304975 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-hle-pb: kicks 3773 words 10201935 headers 906750 methods 9295108 faults 0 GET 03fc9930 PUT 03fc9950 binds 4 semaphores 75080 flips 6587 traps 8821 (2=6587 5=2226 9=6 8=2) runs 0 surfaces 19 clears 6608 swaps 6587 draws 2413527 ff 1790345 skipped 0 () textures 1133 rt uploads 7 blits 4 m2mf 0 c",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.3 ms (max 40.2, 59 frames)",
+   "hakuX-hle-pb: catch-up: 15845 stores waited for the decoder (caught up 644; it waited on the guest at a trap 731, a flip stall 14470, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 935.5 ms",
+   "hakuX-hle-emit: per s: draws=52998 verts=12129587 mergeable=347 (not: strip 51332 idx 1260 state 30 work 0 gap 29) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=16786 set1=20062 pc=38792 vi=2373 vb=49945 vp=135 sc=135 dyn=6206 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2391196 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 179928 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=395 misses=98",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55eb8607b990",
+   "[Gamescope WSI] Destroyed swapchain: 0x55eb8607b990",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 117.1,
+  "peak_rms_dbfs": -17.7,
+  "first_sound_s": 27.5,
+  "audible_fraction": 0.71,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -30.9,
+   -27.1,
+   -23.7,
+   -26.0,
+   -26.8,
+   -26.8,
+   -28.5,
+   -32.4,
+   -31.8,
+   -39.5,
+   -40.5,
+   -31.0,
+   -33.4,
+   -33.0,
+   -32.8,
+   -29.8,
+   -30.5,
+   -31.6,
+   -34.3,
+   -29.4,
+   -30.0,
+   -31.8,
+   -30.2,
+   -28.0,
+   -40.2,
+   -120.0,
+   -120.0,
+   -30.0,
+   -25.6,
+   -26.2,
+   -25.1,
+   -24.3,
+   -29.0,
+   -28.2,
+   -23.1,
+   -17.7,
+   -20.8,
+   -23.4,
+   -23.4,
+   -23.3,
+   -24.8,
+   -26.2,
+   -26.6,
+   -26.4,
+   -19.6,
+   -20.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.84 s (judged from screenshots); stopped at 118.2 s and the emulator closed",
+ "duration_s": 118.3,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

@@ -1,0 +1,492 @@
+{
+ "game_file": "Oddworld - Munch's Oddysee (U).chd",
+ "game_size": 4180548994,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:10:55+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "killed",
+  "at_s": 55.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.04,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 192820
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 192820
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.5,
+   "bytes": 192820
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Oddworld - Munch's Oddysee (U),crc32=1bca08cd"
+  ],
+  [
+   46.5,
+   null
+  ],
+  [
+   48.3,
+   null
+  ],
+  [
+   50.1,
+   null
+  ],
+  [
+   51.9,
+   null
+  ],
+  [
+   53.7,
+   null
+  ],
+  [
+   55.5,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=117 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 35.52 s since frame 117: JIT compiling: 99% of the vCPU in FEX | render idle for 35523 ms | vCPU cpu 35440 ms halted 0% | render cpu 0 run 0 idle 35523 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 117/117, last done 35523 ms ago | swaps 0 vblanks 2131 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03f8b99c PUT 03f8b99c binds 4 semaphores 122 flips 117 traps 124 (4=117 20=6 1c=1) runs 0 surfaces 3 clears 120 swaps 117 draws 117 ff 117 skipped 0 () textures 117 rt uploads 2 blits 2 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=117 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 36.52 s since frame 117: JIT compiling: 99% of the vCPU in FEX | render idle for 36524 ms | vCPU cpu 36438 ms halted 0% | render cpu 0 run 0 idle 36524 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 117/117, last done 36523 ms ago | swaps 0 vblanks 2191 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03f8b99c PUT 03f8b99c binds 4 semaphores 122 flips 117 traps 124 (4=117 20=6 1c=1) runs 0 surfaces 3 clears 120 swaps 117 draws 117 ff 117 skipped 0 () textures 117 rt uploads 2 blits 2 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=117 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 37.52 s since frame 117: JIT compiling: 99% of the vCPU in FEX | render idle for 37524 ms | vCPU cpu 37436 ms halted 0% | render cpu 0 run 0 idle 37524 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 117/117, last done 37524 ms ago | swaps 0 vblanks 2251 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03f8b99c PUT 03f8b99c binds 4 semaphores 122 flips 117 traps 124 (4=117 20=6 1c=1) runs 0 surfaces 3 clears 120 swaps 117 draws 117 ff 117 skipped 0 () textures 117 rt uploads 2 blits 2 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=117 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 38.52 s since frame 117: JIT compiling: 99% of the vCPU in FEX | render idle for 38525 ms | vCPU cpu 38433 ms halted 0% | render cpu 0 run 0 idle 38524 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 117/117, last done 38524 ms ago | swaps 0 vblanks 2311 draws 0 | dvd ",
+   "hakuX-hle-pb: kicks 60 words 0 headers 0 methods 0 faults 0 GET 03f8b99c PUT 03f8b99c binds 4 semaphores 122 flips 117 traps 124 (4=117 20=6 1c=1) runs 0 surfaces 3 clears 120 swaps 117 draws 117 ff 117 skipped 0 () textures 117 rt uploads 2 blits 2 m2mf 0 copies skipped 0 vis 0 (kicks 0) overlays 0",
+   "hakuX-hle-emit: per s: draws=0 verts=0 mergeable=0 (not: strip 0 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=0 set1=0 pc=0 vi=0 vb=0 vp=0 sc=0 dyn=0 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=117 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: HANG ongoing 39.53 s since frame 117: JIT compiling: 99% of the vCPU in FEX | render idle for 39525 ms | vCPU cpu 39431 ms halted 0% | render cpu 0 run 0 idle 39525 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 117/117, last done 39525 ms ago | swaps 0 vblanks 2371 draws 0 | dvd ",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=184262 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 3208 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=0 misses=2",
+   "hakuX-native-usb: ohci: 2571 TDs in 10 s, ctl 000000be (lists PCB), hcca 03ffe000, intr 00000006/80000073",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core did not stop in 10000 ms (the devices and the renderer): ending the process"
+  ]
+ },
+ "audio": {
+  "seconds": 53.9,
+  "peak_rms_dbfs": -120.0,
+  "first_sound_s": null,
+  "audible_fraction": 0.0,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Timeout",
+ "outcome_why": "hard limit reached while closing; killed",
+ "duration_s": 55.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

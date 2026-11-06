@@ -1,0 +1,471 @@
+{
+ "game_file": "2002 FIFA World Cup (U).chd",
+ "game_size": 1769038226,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:28:09+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 1234321
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 452586
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 1259927
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,2002 FIFA World Cup (U),crc32=4b8a16d2"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   0.2,
+   42.3,
+   58.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=581 verts=20100 mergeable=0 (not: strip 0 idx 581 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=181 set1=581 pc=521 vi=121 vb=61 vp=61 sc=61 dyn=1035 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=9186 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2620 sysops 4926 (int 1067, of them ticks 281; hook 0) schedules 2246 switches 2137 idle 0 slices 46 page faults 0 mmio 10933 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:120 (max 0.1 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | holds 0 (longest 0.0",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 420 (pages 01d42000:2432) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 12684 KiB, contiguous 45636 KiB (49 blocks), virtual 5384 KiB, kernel pool 235 of 256 KiB (Ex 601, objects 6, lost 0 KiB, 5 free ranges)",
+   "hakuX-hle-pb: kicks 1581 words 98904 headers 25767 methods 73136 faults 0 GET 02767934 PUT 02767fbc binds 8 semaphores 23402 flips 1249 traps 1262 (2=1249 9=12 5=1) runs 0 surfaces 4 clears 2132 swaps 1249 draws 9756 ff 0 skipped 0 () textures 18 rt uploads 183 blits 0 m2mf 0 copies skipped 0 vis 0 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 43.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=570 verts=19440 mergeable=0 (not: strip 0 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=181 set1=570 pc=510 vi=122 vb=62 vp=62 sc=62 dyn=1050 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=9756 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1627 words 103773 headers 26782 methods 76992 faults 0 GET 0274d080 PUT 0274d708 binds 8 semaphores 24776 flips 1309 traps 1322 (2=1309 9=12 5=1) runs 0 surfaces 4 clears 2252 swaps 1309 draws 10348 ff 0 skipped 0 () textures 18 rt uploads 183 blits 0 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 43.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=592 verts=20760 mergeable=0 (not: strip 0 idx 592 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=181 set1=592 pc=532 vi=121 vb=62 vp=62 sc=62 dyn=1048 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=10348 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-hitch: stutter #53 frame 1360: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +17.8 write +17.8 ready +18.1 flip +50.0 front +50.0 shown +59.9 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 1598 words 100679 headers 26138 methods 74544 faults 0 GET 0272f720 PUT 0272fda8 binds 8 semaphores 26122 flips 1369 traps 1382 (2=1369 9=12 5=1) runs 0 surfaces 4 clears 2372 swaps 1369 draws 10926 ff 0 skipped 0 () textures 18 rt uploads 183 blits 0 m2mf 0 copies skipped 0 vis ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 43.3, 58 frames)",
+   "hakuX-hle-emit: per s: draws=578 verts=19920 mergeable=0 (not: strip 0 idx 578 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=182 set1=578 pc=518 vi=122 vb=62 vp=62 sc=62 dyn=1050 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=10926 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2963889 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 11312 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=3 misses=6",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 49 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -33.3,
+  "first_sound_s": 20.0,
+  "audible_fraction": 0.34,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -94.1,
+   -33.3,
+   -34.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -39.7,
+   -38.5,
+   -36.8,
+   -35.0,
+   -34.1,
+   -34.5,
+   -34.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

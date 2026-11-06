@@ -1,0 +1,477 @@
+{
+ "game_file": "LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da).chd",
+ "game_size": 950624006,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:01:11+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 4613
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 851243
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 944668
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,LEGO Star Wars II - The Original Trilogy (U) (En,Fr,De,Es,It,Da),crc32=4ae4d751"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.0,
+   60.0,
+   58.2,
+   56.2,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 1009 stores waited for the decoder (caught up 0; it waited on the guest at a trap 927, a flip stall 82, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 322.4 ms",
+   "hakuX-hle-emit: per s: draws=10488 verts=1758426 mergeable=0 (not: strip 9753 idx 735 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 12, contiguous 0 pipe=4848 set1=10175 pc=4607 vi=2850 vb=7859 vp=397 sc=397 dyn=5083 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=193989 prog_fog=157158 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: pipeline aec07c10b2f47fc5 fvf=0x0 vsh=54d56b1a206c3b75 in=f combiners=2 ok in 6.2 ms (spirv 1.7)",
+   "hakuX-native-stats: per s: kcalls 2488 sysops 4821 (int 946, of them ticks 229; hook 0) schedules 1996 switches 1925 idle 0 slices 0 page faults 0 mmio 8622 apu waits 0 vm pages +0 -0 isr irq1:530 (max 0.7 ms) irq3:120 (max 0.1 ms) irq5:29 (max 0.1 ms) | dpc max wait 0.2 run 0.4 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 60 (pages 01510000:64 03f7f000:64 014d0000:64 03f3f000:64 01490000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 3116 KiB, contiguous 48116 KiB (136 blocks), virtual 13484 KiB, kernel pool 43 of 64 KiB (Ex 79, objects 6, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-hitch: stutter #23 frame 2564: front 49.9 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +0.9 write +7.8 ready +8.5 flip +49.9 front +49.9 shown +59.4 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms),",
+   "hakuX-hle-pb: kicks 891 words 3670206 headers 480296 methods 3189913 faults 0 GET 03e539b4 PUT 03ed039c binds 5 semaphores 9623 flips 2573 traps 2977 (21=2573 5=395 9=8 28=1) runs 0 surfaces 10 clears 12073 swaps 2573 draws 204331 ff 0 skipped 0 () textures 137 rt uploads 1 blits 2579 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.3 ms (max 60.0, 58 frames)",
+   "hakuX-hle-pb: catch-up: 1069 stores waited for the decoder (caught up 0; it waited on the guest at a trap 978, a flip stall 91, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 337.0 ms",
+   "hakuX-hle-emit: per s: draws=10339 verts=1768592 mergeable=0 (not: strip 9588 idx 751 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 9, contiguous 0 pipe=4718 set1=10008 pc=4472 vi=2869 vb=7813 vp=401 sc=401 dyn=5122 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=204328 prog_fog=166455 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: per s: cache=0 queued=1 built=1 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=1 | pipelines 35 (prebuilt 0)",
+   "hakuX-hle-pb: kicks 905 words 3862582 headers 506660 methods 3355912 faults 0 GET 03b18178 PUT 03b96770 binds 5 semaphores 9984 flips 2633 traps 3037 (21=2633 5=395 9=8 28=1) runs 0 surfaces 10 clears 12433 swaps 2633 draws 215129 ff 0 skipped 0 () textures 137 rt uploads 1 blits 2639 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.3 ms (max 57.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 1129 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1030, a flip stall 99, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 353.0 ms",
+   "hakuX-hle-emit: per s: draws=10798 verts=1858940 mergeable=0 (not: strip 10073 idx 725 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 6, contiguous 0 pipe=4883 set1=10494 pc=4822 vi=3030 vb=8194 vp=401 sc=401 dyn=5281 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=215126 prog_fog=176233 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=112538 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 44812 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=60 misses=20",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 51 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -26.6,
+  "first_sound_s": 12.5,
+  "audible_fraction": 0.57,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -27.8,
+   -31.9,
+   -30.5,
+   -27.6,
+   -28.5,
+   -26.7,
+   -28.4,
+   -90.3,
+   -26.6,
+   -28.5,
+   -26.7,
+   -37.2,
+   -35.3,
+   -35.8,
+   -34.1,
+   -35.5,
+   -35.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

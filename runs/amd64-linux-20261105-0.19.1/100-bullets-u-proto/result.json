@@ -1,0 +1,472 @@
+{
+ "game_file": "100 Bullets (U) (Proto).chd",
+ "game_size": 649838996,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:26:32+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 183013
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 566402
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 755855
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,100 Bullets (U) (Proto),crc32=1ec41fbb"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   35.7,
+   41.5,
+   59.8,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 20132 KiB, contiguous 22120 KiB (529 blocks), virtual 22036 KiB, kernel pool 8 of 64 KiB (Ex 677, objects 7, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 28972 words 70838629 headers 7439820 methods 63399114 faults 0 GET 03d2bc40 PUT 03d2ef38 binds 5 semaphores 280988 flips 93114 traps 93124 (1=93114 9=6 5=2 28=1 8=1) runs 0 surfaces 11 clears 303048 swaps 93114 draws 2375449 ff 0 skipped 0 () textures 94 rt uploads 2 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 3427 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.4 ms (max 0.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=102801 verts=4088093 mergeable=0 (not: strip 17135 idx 85666 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=23988 set1=102802 pc=41122 vi=6854 vb=78326 vp=6854 sc=6854 dyn=65113 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2367548 prog_fog=465100 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 28949 words 70781283 headers 7433762 methods 63347204 faults 0 GET 03d087dc PUT 03d0e908 binds 5 semaphores 292194 flips 96538 traps 96548 (1=96538 9=6 5=2 28=1 8=1) runs 0 surfaces 11 clears 316744 swaps 96538 draws 2478168 ff 0 skipped 0 () textures 94 rt uploads 2 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 3424 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.4 ms (max 0.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=102719 verts=4084802 mergeable=0 (not: strip 17120 idx 85600 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=23968 set1=102719 pc=41087 vi=6848 vb=78266 vp=6848 sc=6848 dyn=65054 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2470267 prog_fog=465100 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 28992 words 70894318 headers 7445699 methods 63448012 faults 0 GET 03d53aa4 PUT 03d5cd28 binds 5 semaphores 303417 flips 99967 traps 99977 (1=99967 9=6 5=2 28=1 8=1) runs 0 surfaces 11 clears 330462 swaps 99967 draws 2581053 ff 0 skipped 0 () textures 94 rt uploads 2 blits 0 m2mf",
+   "hakuX-hle-pb: frame pace off: 3429 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 0.4 ms (max 0.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=102884 verts=4091349 mergeable=0 (not: strip 17145 idx 85739 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=24006 set1=102885 pc=41153 vi=6858 vb=78390 vp=6858 sc=6858 dyn=65153 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2573152 prog_fog=465100 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 28974 words 70852872 headers 7441049 methods 63413094 faults 0 GET 03d76de8 PUT 03d7724c binds 5 semaphores 314634 flips 103394 traps 103405 (1=103395 9=6 5=2 28=1 8=1) runs 0 surfaces 11 clears 344170 swaps 103394 draws 2683876 ff 0 skipped 0 () textures 94 rt uploads 2 blits 0 ",
+   "hakuX-hle-pb: frame pace off: 3427 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 2); swap to pickup 0.4 ms (max 0.6, 58 frames)",
+   "hakuX-hle-emit: per s: draws=102819 verts=4089017 mergeable=0 (not: strip 17135 idx 85684 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=23989 set1=102819 pc=41125 vi=6854 vb=78344 vp=6854 sc=6854 dyn=65113 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2675971 prog_fog=465100 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 3427.3 fps (17137 frames in 5.00 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1931832 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 112140 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=50 misses=49",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 38 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -12.2,
+  "first_sound_s": 3.0,
+  "audible_fraction": 0.34,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -15.7,
+   -13.2,
+   -12.2,
+   -12.7,
+   -39.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -35.4,
+   -13.6,
+   -31.3,
+   -92.9,
+   -27.0,
+   -65.8,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3,
+   -93.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

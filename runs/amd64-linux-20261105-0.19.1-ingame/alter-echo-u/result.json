@@ -1,0 +1,1803 @@
+{
+ "game_file": "Alter Echo (U).chd",
+ "game_size": 1929729068,
+ "system": "amd64-linux",
+ "started": "2026-11-05T18:52:10+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.8,
+  "confirmed_by": "w110",
+  "stopped_at_s": 118.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 119.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "held",
+   "start"
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "held",
+   "start"
+  ],
+  [
+   108.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.85,
+   "watch",
+   "w110"
+  ],
+  [
+   110.55,
+   "held",
+   "start"
+  ],
+  [
+   113.16,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "held",
+   "start"
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 15.4,
+   "bytes": 864476
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 33.6,
+   "bytes": 725069
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 48.6,
+   "bytes": 824205
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.8,
+   "got_s": 53.6,
+   "bytes": 831659
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 72.8,
+   "bytes": 702590
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.8,
+   "got_s": 95.0,
+   "bytes": 1365486
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.85,
+   "got_s": 114.9,
+   "bytes": 1356832
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.85,
+   "got_s": 114.9,
+   "bytes": 1356832,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Alter Echo (U),crc32=76147083"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55460.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   56.4,
+   50.2,
+   59.8,
+   57.5,
+   59.5,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 1248 words 2352279 headers 217830 methods 2134432 faults 0 GET 03fd4e24 PUT 03ffaa20 binds 4 semaphores 56562 flips 6795 traps 19145 (5=12343 21=6795 9=6 28=1) runs 0 surfaces 8 clears 10126 swaps 6796 draws 1498177 ff 0 skipped 0 () textures 183 rt uploads 3 blits 3135 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.4 ms (max 42.2, 60 frames)",
+   "hakuX-hle-pb: catch-up: 11772 stores waited for the decoder (caught up 8180; it waited on the guest at a trap 1532, a flip stall 2060, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2141.1 ms",
+   "hakuX-hle-emit: per s: draws=10858 verts=2843988 mergeable=0 (not: strip 2218 idx 8640 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 535, contiguous 0 pipe=3254 set1=5072 pc=7137 vi=401 vb=8113 vp=222 sc=222 dyn=3304 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1498012 prog_fog=505320 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1305 words 2420259 headers 233101 methods 2187148 faults 0 GET 03f96984 PUT 03fbdf7c binds 4 semaphores 57082 flips 6855 traps 19278 (5=12416 21=6855 9=6 28=1) runs 0 surfaces 8 clears 10246 swaps 6856 draws 1509682 ff 0 skipped 0 () textures 183 rt uploads 3 blits 3135 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 40.9, 60 frames)",
+   "hakuX-hle-pb: catch-up: 11784 stores waited for the decoder (caught up 8192; it waited on the guest at a trap 1532, a flip stall 2060, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2143.4 ms",
+   "hakuX-hle-emit: per s: draws=11505 verts=2847870 mergeable=0 (not: strip 2865 idx 8640 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 537, contiguous 0 pipe=3257 set1=5709 pc=7149 vi=402 vb=8755 vp=222 sc=222 dyn=3310 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1509517 prog_fog=515145 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1277 words 2393320 headers 226756 methods 2166544 faults 0 GET 03fbd960 PUT 03fe1268 binds 4 semaphores 57595 flips 6915 traps 19408 (5=12486 21=6915 9=6 28=1) runs 0 surfaces 8 clears 10366 swaps 6916 draws 1520944 ff 0 skipped 0 () textures 183 rt uploads 3 blits 3135 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.2 ms (max 42.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 11789 stores waited for the decoder (caught up 8197; it waited on the guest at a trap 1532, a flip stall 2060, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2143.8 ms",
+   "hakuX-hle-emit: per s: draws=11262 verts=2846412 mergeable=0 (not: strip 2622 idx 8640 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 540, contiguous 0 pipe=3253 set1=5459 pc=7112 vi=401 vb=8489 vp=220 sc=220 dyn=3201 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1520779 prog_fog=524727 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=584927 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 55496 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=61 misses=26",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56060d1f8910",
+   "[Gamescope WSI] Destroyed swapchain: 0x56060d1f8910",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Connection reset by peer"
+  ]
+ },
+ "audio": {
+  "seconds": 118.2,
+  "peak_rms_dbfs": -22.4,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.85,
+  "rms_dbfs_per_2s": [
+   -28.8,
+   -27.4,
+   -26.6,
+   -26.5,
+   -27.7,
+   -26.8,
+   -27.0,
+   -27.1,
+   -31.7,
+   -30.8,
+   -34.9,
+   -29.9,
+   -30.9,
+   -29.4,
+   -30.1,
+   -35.0,
+   -25.6,
+   -26.2,
+   -23.5,
+   -25.6,
+   -34.9,
+   -23.8,
+   -25.6,
+   -29.6,
+   -25.4,
+   -35.2,
+   -24.5,
+   -26.7,
+   -25.5,
+   -24.4,
+   -35.0,
+   -24.5,
+   -25.0,
+   -27.0,
+   -25.2,
+   -35.7,
+   -24.6,
+   -24.9,
+   -29.3,
+   -23.1,
+   -35.1,
+   -25.1,
+   -22.4,
+   -30.3,
+   -29.8,
+   -35.9,
+   -28.9,
+   -31.6,
+   -29.8,
+   -29.8,
+   -29.5,
+   -27.9,
+   -29.9,
+   -29.9,
+   -29.4,
+   -29.5,
+   -25.5,
+   -29.1,
+   -29.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.8 s (judged from screenshots); stopped at 118.9 s and the emulator closed",
+ "duration_s": 119.0,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

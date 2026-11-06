@@ -1,0 +1,544 @@
+[
+ {
+  "game": "amped-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logo, title screen and Career menu look correct.",
+  "notes": "Reached the Career menu after profile prompts."
+ },
+ {
+  "game": "beyond-good-evil-u-en-fr-es",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title menu correct; HTV News cutscene and the in-engine opening (sky) render.",
+  "notes": "Title menu already up at 10 s. New Game started and the opening cutscenes play; gameplay not reached in the window."
+ },
+ {
+  "game": "black-u",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Criterion logo and the hard-disk check screen correct; final frame almost black with a faint 'BLACK' caption (likely the intro movie fading in, not confirmed).",
+  "notes": "30 fps. Menu not seen in 45 s; it may need a longer wait."
+ },
+ {
+  "game": "blinx-the-time-sweeper-u-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Data box menu and the first level render correctly.",
+  "notes": "New game created; controlling Blinx in the first level at the final shot."
+ },
+ {
+  "game": "brothers-in-arms-earned-in-blood-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, Gearbox logo and the Story menu render correctly.",
+  "notes": "Reached the Story menu (Begin Game / Chapters); it shows 'Sign-in failed' (no Xbox Live), as expected."
+ },
+ {
+  "game": "brothers-in-arms-road-to-hill-30-world-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Gearbox logo and the mission title card correct.",
+  "notes": "A game was started: the final shot is the 'Hill 30' mission title card (loading). Gameplay not reached in the window."
+ },
+ {
+  "game": "burnout-3-takedown-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logo and profile menus correct, 60 fps.",
+  "notes": "Stopped at the new-profile prompts ('Autosave will be disabled'); the A presses alternate with Start, so it doesn't reach races."
+ },
+ {
+  "game": "call-of-cthulhu-dark-corners-of-the-earth-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Bethesda logo, first-run loading screen and main menu correct.",
+  "notes": "Main menu (New Game / Options) reached. About 25 displayed frames/s on the loading screen and menu; check speed in game. Issue: hakuX-lr #101 (https://github.com/portare-ch/hakuX-lr/issues/101)."
+ },
+ {
+  "game": "cold-fear-u-en-fr-de-es-it",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo correct; from 22 s on the screen is black except a spinning red radar icon (loading).",
+  "notes": "Still on that black loading screen at 45 s, at a steady 30 fps. Retest with a longer wait to tell a long load from a hang. Issue: hakuX-lr #102 (https://github.com/portare-ch/hakuX-lr/issues/102)."
+ },
+ {
+  "game": "colin-mcrae-rally-04-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie, auto-save screen and championship car selection correct.",
+  "notes": "Reached the Championship car selection."
+ },
+ {
+  "game": "colin-mcrae-rally-2005-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie, auto-load screen and Challenges menu correct.",
+  "notes": "Reached the Challenges menu."
+ },
+ {
+  "game": "conker-live-reloaded-u-en-ja-fr-de-es-it",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Logo and intro movies play (a multiplayer clip at 22 s, an intro movie at 45 s); movie frames look right.",
+  "notes": "Start/A didn't leave the intro movies within 45 s; menu not reached."
+ },
+ {
+  "game": "crimson-skies-high-road-to-revenge-u-en-fr-de-zh-ko",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Select a Player menu and the story cutscene render correctly (the publisher logo was caught mid-animation).",
+  "notes": "New player created; the opening story cutscene was playing at 45 s. 30 fps."
+ },
+ {
+  "game": "darkwatch-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "ESRB screen, main menu and story text correct.",
+  "notes": "Single Player started; the opening story text was on screen at 45 s."
+ },
+ {
+  "game": "dead-or-alive-3-u-en-ja",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Copyright warning text and the cloud intro render correctly.",
+  "notes": "The long copyright warning took most of the window; the intro (clouds) was starting at 45 s. Menu not reached."
+ },
+ {
+  "game": "deus-ex-invisible-war-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Eidos logo and the character setup screen correct.",
+  "notes": "New game's character setup (difficulty, interface color, portrait) reached; the plan's presses don't confirm it."
+ },
+ {
+  "game": "doom-3-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie, Vicarious Visions loading screen and the main menu correct.",
+  "notes": "Main menu (Campaign / Multiplayer / Settings) reached; 'Sign-In Failed' shown (no Xbox Live)."
+ },
+ {
+  "game": "fable-the-lost-chapters-u-en-es",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Front-end hero model, menu transition and the storybook opening render correctly.",
+  "notes": "A new game was started: the opening narration ('Deep in the forest of Albion…') was on screen at 45 s. Gameplay not reached."
+ },
+ {
+  "game": "far-cry-instincts-u-en-fr-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Crytek logo, island flyover and first-person view with the pistol on the beach look correct.",
+  "notes": "Reached first-person gameplay on the beach. The game presents without waiting for vblank: about 1,100 swaps/s counted, 54 displayed frames/s. Issue: hakuX-lr #99 (https://github.com/portare-ch/hakuX-lr/issues/99)."
+ },
+ {
+  "game": "far-cry-instincts-evolution-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logo, jungle flyover and the in-engine opening scene render correctly.",
+  "notes": "A game was started; the in-engine opening scene (third-person, in a hut) was playing at 45 s. Like Far Cry Instincts it presents without waiting for vblank (about 1,200 swaps/s). Issue: hakuX-lr #100 (https://github.com/portare-ch/hakuX-lr/issues/100)."
+ },
+ {
+  "game": "fight-night-round-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "EA Sports intro, main menu and the boxer selection correct.",
+  "notes": "Play Now led to the Select Boxer matchup screen."
+ },
+ {
+  "game": "gauntlet-seven-sorrows-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Copyright screen and the character select scene correct (black screen at 22 s between them).",
+  "notes": "Reached character select (four Join slots)."
+ },
+ {
+  "game": "grabbed-by-the-ghoulies-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Rare intro, save-slot and chapter menus correct.",
+  "notes": "New game in slot 1; 'Play Chapter 1, Scene 1: Grand Hallway' selected at 45 s."
+ },
+ {
+  "game": "gun-u-en-fr-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Activision logo, difficulty menu over the in-engine backdrop, and third-person gameplay with HUD look correct.",
+  "notes": "Reached gameplay (the player in the forest with revolver HUD and minimap) about 29 displayed frames/s."
+ },
+ {
+  "game": "half-life-2-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Copyright text and title screen correct; the first 22 s are nearly black (fades).",
+  "notes": "Reached the 'Press START' title screen at 45 s; the presses before it landed on the copyright fade."
+ },
+ {
+  "game": "halo-2-u-en-ja-fr-de-es-it-zh-ko",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Bungie intro, Campaign Options menu and the opening space cutscene render.",
+  "notes": "New Campaign started; the opening cutscene was playing at 45 s. Displayed frames per 10 s: 28, 30 (intro), 53, 51 (menus); not slow."
+ },
+ {
+  "game": "jade-empire-u-en-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "BioWare logo, main menu with the Loading box and the in-engine Two Rivers scene look correct.",
+  "notes": "New game started; an in-engine scene of the school was on screen at 45 s. Displayed frames per 10 s: 20 (logos), 54, 60, 29 (in-engine scene)."
+ },
+ {
+  "game": "lego-star-wars-ii-the-original-trilogy-u-en-fr-de-es-it-da",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Mos Eisley cantina hub, HUD and pause menu correct.",
+  "notes": "In the cantina hub as Princess Leia; Start opened the pause menu, A resumed. Black at 10 s."
+ },
+ {
+  "game": "marvel-ultimate-alliance-u",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "ESRB screen and intro movie frames look right.",
+  "notes": "Intro movie still playing at 45 s; the presses didn't skip it. Menu not reached."
+ },
+ {
+  "game": "mechassault-2-lone-wolf-world-en-ja-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, logos and the Select Difficulty dialog correct.",
+  "notes": "Campaign difficulty selection reached."
+ },
+ {
+  "game": "metal-arms-glitch-in-the-system-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, profile name entry and a dark starfield scene at 45 s (likely the opening cutscene; not confirmed).",
+  "notes": "Profile created ('Profile1'); the following scene was mostly dark at 45 s."
+ },
+ {
+  "game": "metal-gear-solid-2-substance-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Difficulty menu and the in-engine bridge scene render correctly.",
+  "notes": "Difficulty chosen; the opening scene (bridge girders) was playing at 45 s. Black at 10 s."
+ },
+ {
+  "game": "midnight-club-3-dub-edition-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Rockstar logo, legal screen and the profile name entry correct.",
+  "notes": "Stopped at Enter Profile Name. Audio is loud (-4.7 dBFS peak RMS); check for clipping."
+ },
+ {
+  "game": "midtown-madness-3-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, profile selection and the Work Undercover briefing correct.",
+  "notes": "Undercover mode started; mission briefing dialogue at 45 s."
+ },
+ {
+  "game": "oddworld-munch-s-oddysee-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Black screen in all three screenshots; no frame after frame 117 (about 2 s in).",
+  "audio": "Silent for the whole run (recorded).",
+  "notes": "Hangs about 6 s after launch: the core's hang report shows the guest CPU busy from frame 117 with rendering idle, for the rest of the run. On Quit the core didn't stop within its 10 s and ended the process; the 60 s hard limit killed it first (55.9 s). Issue: hakuX-lr #93 (https://github.com/portare-ch/hakuX-lr/issues/93)."
+ },
+ {
+  "game": "project-snowblind-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Frozen from frame 19 on a grey gradient (sky and a flat grey plane, no geometry or text): what shows on screen as 'garbage'.",
+  "audio": "Silent for the whole run (recorded).",
+  "notes": "Hangs about 2 s after launch: the guest CPU busy from frame 19 with rendering idle for the rest of the run. On Quit the core didn't stop in 10 s and ended the process; the hard limit killed it at 55.6 s. Issue: hakuX-lr #94 (https://github.com/portare-ch/hakuX-lr/issues/94)."
+ },
+ {
+  "game": "project-gotham-racing-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "Intro movie, Bizarre Creations logo and the garage scene render correctly.",
+  "notes": "Stalls about 31 s in, on the garage scene: the guest CPU stays busy with rendering idle until Quit (14.5 s of it logged). On Quit the core didn't stop in 10 s and ended the process; the hard limit killed it at 55.9 s. Same pattern as Munch's Oddysee and Project: Snowblind, but later; a longer run would tell whether it ever recovers. Issue: hakuX-lr #95 (https://github.com/portare-ch/hakuX-lr/issues/95)."
+ },
+ {
+  "game": "mortal-kombat-deception-u",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Midway logo, intro and a fighter in The Pit with a time and difficulty overlay render correctly.",
+  "notes": "The final shot looks like an attract demo or a fight starting; no menu seen, so Intro until checked."
+ },
+ {
+  "game": "need-for-speed-hot-pursuit-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title, driver profile prompt and the Hot Pursuit event tree correct.",
+  "notes": "Reached the Hot Pursuit event tree (Lotus Elise Delivery)."
+ },
+ {
+  "game": "need-for-speed-most-wanted-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie and the hard-disk alias prompts over the career menu correct.",
+  "notes": "Stopped at the 'create a new alias' prompts for a new career."
+ },
+ {
+  "game": "need-for-speed-underground-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, profile prompt and Quick Race track selection correct.",
+  "notes": "Reached Quick Race track select (Resort Loop)."
+ },
+ {
+  "game": "ninja-gaiden-black-u-en-ja",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Warning screen and the intro movie ('since the dawn of history') look right; black at 22 s.",
+  "notes": "Intro movie still playing at 45 s. About 44 displayed frames/s median (movie)."
+ },
+ {
+  "game": "oddworld-stranger-s-wrath-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logo, the 'The Way of the Hunter' loading screen and an in-engine creature close-up render correctly.",
+  "notes": "A game was started (chapter loading screen); an in-engine opening scene was on screen at 45 s."
+ },
+ {
+  "game": "outrun-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Sumo Digital logo, safety notice and Select Car correct.",
+  "notes": "Reached car selection."
+ },
+ {
+  "game": "outrun-2006-coast-2-coast-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Ferrari licence screen (fading in at 10 s) and the License Select name entry correct.",
+  "notes": "Name entry: the A presses typed characters ('OR2C2C11111'); needs a different sequence to get further."
+ },
+ {
+  "game": "panzer-dragoon-orta-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Smilebit logo, title screen and the story intro text correct.",
+  "notes": "Title screen at 22 s; the story intro ('The world is a wasteland…') at 45 s."
+ },
+ {
+  "game": "prince-of-persia-the-sands-of-time-u-en-fr-es",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "Bink Video logo in all three screenshots (identical frames).",
+  "audio": "Sound in the first 8 s only, then silent.",
+  "notes": "Hangs on the Bink logo about 8 s after launch: the core reports the guest CPU busy from frame 188 with nothing new drawn for the rest of the run. RetroArch closed normally, so the automatic outcome was Completed; set to Timeout in review. Issue: hakuX-lr #96 (https://github.com/portare-ch/hakuX-lr/issues/96)."
+ },
+ {
+  "game": "prince-of-persia-the-two-thrones-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title and profile screens are pale and washed out (light green-yellow); compare with real hardware.",
+  "notes": "Reached Create New Profile (name entry). Issue: hakuX-lr #97 (https://github.com/portare-ch/hakuX-lr/issues/97)."
+ },
+ {
+  "game": "prince-of-persia-warrior-within-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title correct; the Create New Profile screen is unusually bright (white and pink behind the red emblem); compare with real hardware.",
+  "notes": "Reached Create New Profile. Issue: hakuX-lr #98 (https://github.com/portare-ch/hakuX-lr/issues/98)."
+ },
+ {
+  "game": "project-gotham-racing-2-u-en-ja-fr-de-es-it-zh-ko",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, licence plate entry and Kudos World Series event select correct.",
+  "notes": "Reached Kudos World Series event selection."
+ },
+ {
+  "game": "psi-ops-the-mindgate-conspiracy-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Middleware logos, main menu and a dark in-engine opening scene correct.",
+  "notes": "Start New Game chosen; the opening scene was playing at 45 s."
+ },
+ {
+  "game": "psychonauts-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Majesco logo and the brain title screen correct.",
+  "notes": "Title screen reached."
+ },
+ {
+  "game": "star-wars-jedi-knight-jedi-academy-u-en-fr-de",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "LucasArts logo and the Difficulty menu correct; RetroArch's menu after the crash.",
+  "notes": "Crashes about 26 s in, right after New Game: as the game opens its intro movie (ja01_e.bik), hakuX logs 'vm: out of physical memory for 16 KiB … (0 KiB free)' three times, then an access violation reading address 0 at 0029c694 that no handler takes; the core stops. Looks like guest physical memory running out (compare the Halo level-load pool fix). Issue: hakuX-lr #92 (https://github.com/portare-ch/hakuX-lr/issues/92)."
+ },
+ {
+  "game": "return-to-castle-wolfenstein-tides-of-war-world",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro logo, profile name entry and the difficulty menu correct.",
+  "notes": "Reached difficulty selection for a new game."
+ },
+ {
+  "game": "second-sight-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Codemasters logo, profile selection and the in-engine hospital scene correct.",
+  "notes": "New game started; the opening scene (hospital ceiling) was on screen at 45 s."
+ },
+ {
+  "game": "sega-gt-2002-u-en-ja",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Wow Entertainment logo, title and the car dealer screen correct.",
+  "notes": "New game started; car selection (Mustang GT) at 45 s."
+ },
+ {
+  "game": "shenmue-ii-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Disclaimer, Start Menu and the in-engine harbour scene render correctly.",
+  "notes": "New game started; the opening scene (boats in the harbour) at 45 s. About 31 displayed frames/s."
+ },
+ {
+  "game": "soulcalibur-ii-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Save data prompts correct; nearly black at 10 s.",
+  "notes": "Stopped at the 'Autosave will be disabled' prompt (no save file was created)."
+ },
+ {
+  "game": "ssx-3-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "THX logo, title and Setup Character correct.",
+  "notes": "Reached character setup."
+ },
+ {
+  "game": "ssx-on-tour-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Legal screen, autosave warning and hard disk message correct.",
+  "notes": "Stopped at the autosave question."
+ },
+ {
+  "game": "star-wars-battlefront-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Legal screen and the Select Difficulty / Pick Era menus correct.",
+  "notes": "Reached era selection."
+ },
+ {
+  "game": "star-wars-republic-commando-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "LucasArts intro, profile name keyboard and the warning screen correct.",
+  "notes": "Profile name entry; OK with an empty name gave 'must be at least one letter'."
+ },
+ {
+  "game": "street-fighter-anniversary-collection-u-en-ja",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "ESRB screen, game selection and Street Fighter III 3rd Strike's start correct.",
+  "notes": "3rd Strike chosen; 'Game data has been created' at 45 s."
+ },
+ {
+  "game": "thief-deadly-shadows-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Eidos logo, main menu and the brightness calibration scene correct.",
+  "notes": "New Game started; brightness calibration at 45 s. About 46 displayed frames/s median."
+ },
+ {
+  "game": "timesplitters-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title, profile save and the Siberia mission briefing correct.",
+  "notes": "Reached the first mission's briefing."
+ },
+ {
+  "game": "toca-race-driver-2-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro movie and profile screens correct.",
+  "notes": "Profile selection screens; no profile created."
+ },
+ {
+  "game": "tom-clancy-s-ghost-recon-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro and the Dossier screens correct.",
+  "notes": "A dossier was created on the hard disk; dossier selection at 45 s."
+ },
+ {
+  "game": "tom-clancy-s-ghost-recon-2-u-en-fr-de-es-it",
+  "stage": "Intro",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo and intro movie frames look right.",
+  "notes": "Intro movie still playing at 45 s; menu not reached."
+ },
+ {
+  "game": "tom-clancy-s-rainbow-six-3-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro, profile prompt and main menu correct.",
+  "notes": "Reached the main menu (profile 'Chavez')."
+ },
+ {
+  "game": "tom-clancy-s-splinter-cell-u-en-fr",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Profile name screen correct; black at 10 s.",
+  "notes": "Profile name entry: the A presses typed letters ('SAMAAAAAAA'); needs a different sequence."
+ },
+ {
+  "game": "tom-clancy-s-splinter-cell-chaos-theory-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title screen and an in-engine scene with soldiers render correctly.",
+  "notes": "Title at 22 s; at 45 s an in-engine scene (attract demo or the opening, not confirmed). About 29 displayed frames/s."
+ },
+ {
+  "game": "tom-clancy-s-splinter-cell-pandora-tomorrow-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Title screen correct; the same still harbour-at-sunset image at 22 s and 45 s.",
+  "notes": "'Press Start' title at 10 s. A 10 s stall from frame 636 (about 11–21 s after launch), then the same still harbour image at 22 s and 45 s while sound plays; nothing further seen. Retest longer. Issue: hakuX-lr #103 (https://github.com/portare-ch/hakuX-lr/issues/103)."
+ },
+ {
+  "game": "tony-hawk-s-underground-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Activision logo, Story Options and the pre-made skater selection correct.",
+  "notes": "Start New Story chosen; skater selection at 45 s. About 49 displayed frames/s median."
+ },
+ {
+  "game": "tony-hawk-s-underground-2-u-en-fr-de",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Story Mode Options and the in-engine opening scene correct.",
+  "notes": "Story mode started; the opening cutscene at 45 s."
+ },
+ {
+  "game": "voodoo-vince-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logo, the Start new game menu and the opening story scene correct.",
+  "notes": "New game started; the opening narration at 45 s."
+ },
+ {
+  "game": "x-men-legends-world",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the in-game pause menu and the Objectives screen render correctly.",
+  "notes": "In game: the pause menu (Objectives, Characters, Map) over the street level, then 'Find Blob' objectives. About 44 displayed frames/s median."
+ },
+ {
+  "game": "x-men-legends-ii-rise-of-apocalypse-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Intro and the in-engine base dialogue ('Nightcrawler will do') correct.",
+  "notes": "New game started; an in-engine dialogue scene at 45 s. About 33 displayed frames/s median."
+ }
+]

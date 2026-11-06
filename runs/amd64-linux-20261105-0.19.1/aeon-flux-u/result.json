@@ -1,0 +1,518 @@
+{
+ "game_file": "Aeon Flux (U).chd",
+ "game_size": 1545615009,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:32:11+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "killed",
+  "at_s": 60.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.03,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.3,
+   "bytes": 4613
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 4613
+  }
+ },
+ "missing_shots": [
+  "final"
+ ],
+ "status": [
+  [
+   1.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   2.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   3.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   4.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   5.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   6.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   7.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   8.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   9.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   10.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   11.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   12.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   13.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   14.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   15.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   16.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   17.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   18.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   19.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   20.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   21.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   22.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   24.1,
+   null
+  ],
+  [
+   25.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   26.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   27.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   28.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   29.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   30.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   31.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   32.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   34.0,
+   null
+  ],
+  [
+   35.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   36.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   37.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   38.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   39.0,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   40.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   41.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   42.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   43.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   44.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   45.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   46.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   47.1,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   48.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   49.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   50.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   51.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   52.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   53.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   54.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   55.2,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   56.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   57.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   58.3,
+   "GET_STATUS CONTENTLESS"
+  ],
+  [
+   59.3,
+   "GET_STATUS CONTENTLESS"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "stop": "hakuX-native-frontier: stop: KeBugCheck(00000000) from 0026eddf"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-mm: commit 00af3000+4000: out of physical memory",
+   "hakuX-ktrace: t8 NtAllocateVirtualMemory from 00268ee5 [d00afec0 00000000 d00afee0 00001000 00000004 00000000] -> c0000017 | frames 00269a56 0026a4b5 0026c9fb 00265b53 80010f08",
+   "hakuX-ktrace: t8 NtAllocateVirtualMemory from 00269ac0 [d00afee4 00000000 d00afef0 00002000 00000004 00000000] -> c0000017 | frames 0026a4b5 0026c9fb 00265b53 80010f08",
+   "hakuX-ktrace: t8 NtAllocateVirtualMemory from 00269ae6 [d00afee4 00000000 d00afef0 00002000 00000004 00000000] -> c0000017 | frames 0026a4b5 0026c9fb 00265b53 80010f08",
+   "hakuX-native-mm: commit 40b10000+5000: out of physical memory",
+   "hakuX-ktrace: t8 NtAllocateVirtualMemory from 00269b1b [d00afee4 00000000 d00afed8 00001000 00000004 00000000] -> c0000017 | frames 0026a4b5 0026c9fb 00265b53 80010f08",
+   "hakuX-native-io: open \\Device\\Harddisk0\\partition1\\TDATA\\4d4a0014\\Scratch-Trace-XBox.txt -> (created)",
+   "hakuX-native: seh: t8 access violation at 001b8b44, reading 00000000: to the title's handlers",
+   "hakuX-native-io: open \\Device\\CdRom0\\errorlog.txt: not on the disc",
+   "hakuX-ktrace: t8 NtCreateFile from 0026224a [d00af350 40100080 d00af334 d00af340 00000000 00000080] -> c0000034 | frames 00200c85 001c48fe 002612ae 80010f08",
+   "hakuX-ktrace: t8 NtCreateFile from 0026224a [d00af350 40100080 d00af334 d00af340 00000000 00000080] -> c00000a2 | frames 00200cba 001c48fe 002612ae 80010f08",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-native: resumed after 0.1 s: the guest's time leaves it out",
+   "hakuX-native-dbg:  This application has requested the Runtime to terminate it in an unusual way. Please contact the application's support team for more information.",
+   "hakuX-native-frontier: stop: KeBugCheck(00000000) from 0026eddf",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=317 first_call=PsCreateSystemThreadEx threads=1",
+   "hakuX-libretro: core: stopped",
+   "hakuX-libretro: shutting down: the core stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 34 ms",
+   "WARNING: radv is not a conformant Vulkan implementation, testing use only.",
+   "hakuX-libretro: The Xbox dashboard isn't installed: copy its files (xboxdash.xbe and its folders) to runs/amd64-linux-20261105-0.19.1/profile/saves/hakuX/hdd/Partition2",
+   "WARNING: radv is not a conformant Vulkan implementation, testing use only.",
+   "hakuX-libretro: The Xbox dashboard isn't installed: copy its files (xboxdash.xbe and its folders) to runs/amd64-linux-20261105-0.19.1/profile/saves/hakuX/hdd/Partition2",
+   "WARNING: radv is not a conformant Vulkan implementation, testing use only."
+  ]
+ },
+ "audio": {
+  "seconds": 58.4,
+  "peak_rms_dbfs": -120.0,
+  "first_sound_s": null,
+  "audible_fraction": 0.0,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Timeout",
+ "outcome_why": "hard limit reached while running; killed",
+ "duration_s": 60.3,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

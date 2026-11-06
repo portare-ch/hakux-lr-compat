@@ -1,0 +1,477 @@
+{
+ "game_file": "Midtown Madness 3 (U).chd",
+ "game_size": 2239416992,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:06:03+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.0,
+   "bytes": 909593
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.8,
+   "bytes": 431739
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 625009
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Midtown Madness 3 (U),crc32=473ea5c1"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   21.3,
+   29.1,
+   36.9,
+   60.0,
+   60.0,
+   48.8,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=2700 verts=77766 mergeable=0 (not: strip 420 idx 2280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1443 set1=1564 pc=2700 vi=727 vb=726 vp=727 sc=727 dyn=2888 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=126624 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 6554 sysops 9744 (int 1179, of them ticks 125; hook 0) schedules 3001 switches 2884 idle 2 slices 0 page faults 0 mmio 17056 apu waits 0 vm pages +0 -0 isr irq1:740 (max 0.1 ms) irq3:240 (max 0.1 ms) irq5:11 (max 0.0 ms) | dpc max wait 0.5 run 0.9 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 40620 KiB, contiguous 14508 KiB (360 blocks), virtual 8656 KiB, kernel pool 84 of 128 KiB (Ex 979, objects 10, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 2610 words 729855 headers 120375 methods 609488 faults 0 GET 03fed978 PUT 03f7d018 binds 4 semaphores 4999 flips 1694 traps 21864 (9=20166 21=1685 41=9 5=3 28=1) runs 0 surfaces 20 clears 1694 swaps 1694 draws 129324 ff 0 skipped 0 () textures 85 rt uploads 26 blits 1 m2mf 0 copi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 42.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2700 verts=77790 mergeable=0 (not: strip 420 idx 2280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1444 set1=1564 pc=2700 vi=729 vb=730 vp=727 sc=727 dyn=2923 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=129324 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2613 words 730426 headers 120372 methods 610048 faults 0 GET 03fb845c PUT 03fccbf4 binds 4 semaphores 5163 flips 1754 traps 22645 (9=20886 21=1745 41=9 5=4 28=1) runs 0 surfaces 20 clears 1754 swaps 1754 draws 132024 ff 0 skipped 0 () textures 86 rt uploads 26 blits 1 m2mf 0 copi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 42.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2700 verts=78006 mergeable=0 (not: strip 420 idx 2280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1445 set1=1567 pc=2700 vi=728 vb=730 vp=728 sc=728 dyn=2902 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=132024 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #22 frame 2152: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 51 ms apart) | swap +18.1 write +18.1 ready +18.6 flip +50.0 front +50.0 shown +59.5 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 2610 words 735648 headers 120375 methods 615264 faults 0 GET 03f87850 PUT 03f9e3f0 binds 4 semaphores 5328 flips 1814 traps 23425 (9=21606 21=1805 41=9 5=4 28=1) runs 0 surfaces 20 clears 1814 swaps 1814 draws 134724 ff 0 skipped 0 () textures 86 rt uploads 26 blits 1 m2mf 0 copi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 42.6, 58 frames)",
+   "hakuX-hle-emit: per s: draws=2700 verts=79962 mergeable=0 (not: strip 420 idx 2280 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1443 set1=1566 pc=2700 vi=728 vb=729 vp=727 sc=727 dyn=2920 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=134724 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2041920 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 43040 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=10 misses=26",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -12.4,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -26.1,
+   -20.0,
+   -20.0,
+   -20.0,
+   -25.6,
+   -17.6,
+   -15.9,
+   -25.1,
+   -25.3,
+   -24.9,
+   -16.9,
+   -17.3,
+   -25.2,
+   -25.8,
+   -12.4,
+   -17.7,
+   -17.9,
+   -18.2,
+   -16.9,
+   -18.8,
+   -17.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

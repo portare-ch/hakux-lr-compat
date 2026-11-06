@@ -1,0 +1,3226 @@
+{
+ "game_file": "Pitfall - The Lost Expedition (U).chd",
+ "game_size": 753411381,
+ "system": "amd64-linux",
+ "started": "2026-11-05T22:46:24+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    218.02,
+    "b"
+   ],
+   [
+    275.5,
+    "down"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w150",
+    "t": 149.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w170",
+    "t": 169.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.9
+   },
+   {
+    "shot": "w190",
+    "t": 189.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 4.6
+   },
+   {
+    "shot": "w250",
+    "t": 249.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.2
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 305.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.64,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.2,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.65,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   90.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.65,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.65,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.61,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.81,
+   "watch",
+   "w150"
+  ],
+  [
+   150.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.62,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.83,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.64,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.51,
+   "held",
+   "start"
+  ],
+  [
+   183.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.53,
+   "held",
+   "start"
+  ],
+  [
+   188.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.84,
+   "watch",
+   "w190"
+  ],
+  [
+   190.55,
+   "held",
+   "start"
+  ],
+  [
+   193.15,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "held",
+   "start"
+  ],
+  [
+   198.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.61,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.02,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   220.53,
+   "held",
+   "start"
+  ],
+  [
+   223.04,
+   "held",
+   "a"
+  ],
+  [
+   225.55,
+   "held",
+   "start"
+  ],
+  [
+   228.01,
+   "held",
+   "a"
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "held",
+   "start"
+  ],
+  [
+   233.12,
+   "held",
+   "a"
+  ],
+  [
+   235.53,
+   "held",
+   "start"
+  ],
+  [
+   238.04,
+   "held",
+   "a"
+  ],
+  [
+   240.54,
+   "held",
+   "start"
+  ],
+  [
+   243.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.83,
+   "watch",
+   "w250"
+  ],
+  [
+   250.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   278.01,
+   "held",
+   "a"
+  ],
+  [
+   280.52,
+   "held",
+   "start"
+  ],
+  [
+   283.03,
+   "held",
+   "a"
+  ],
+  [
+   285.54,
+   "held",
+   "start"
+  ],
+  [
+   288.05,
+   "held",
+   "a"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "held",
+   "start"
+  ],
+  [
+   293.11,
+   "held",
+   "a"
+  ],
+  [
+   295.12,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 11.0,
+   "bytes": 251673
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 34.8,
+   "bytes": 1096867
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 50.0,
+   "bytes": 1426666
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 56.0,
+   "bytes": 1267644
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 75.6,
+   "bytes": 1270974
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 95.6,
+   "bytes": 1264585
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 115.6,
+   "bytes": 1275505
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 135.9,
+   "bytes": 1263531
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.81,
+   "got_s": 155.6,
+   "bytes": 1276815
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.83,
+   "got_s": 175.6,
+   "bytes": 1278334
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.84,
+   "got_s": 195.9,
+   "bytes": 947525
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.8,
+   "got_s": 216.1,
+   "bytes": 948768
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 236.1,
+   "bytes": 1281102
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.83,
+   "got_s": 255.4,
+   "bytes": 948372
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 275.2,
+   "bytes": 948771
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.8,
+   "got_s": 296.3,
+   "bytes": 948471
+  }
+ },
+ "missing_shots": [
+  "final"
+ ],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   6.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   75.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   107.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   108.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   115.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   116.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   117.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   147.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   154.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   168.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   181.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   182.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   183.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   188.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   189.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   195.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   202.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   203.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   208.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   209.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   210.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   216.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   217.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   222.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   229.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   243.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   244.6,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   249.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   250.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   251.7,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   256.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   257.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   258.8,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   263.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   264.9,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   268.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   271.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   272.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   273.0,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   276.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   279.1,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   282.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   286.2,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   290.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   293.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   294.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   295.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   296.3,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   299.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   300.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   301.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   302.4,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   303.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   304.5,
+   "GET_STATUS PLAYING xbox,Pitfall - The Lost Expedition (U),crc32=2fcbcbb5"
+  ],
+  [
+   306.3,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.1,
+   59.7,
+   54.4,
+   56.5,
+   58.2,
+   57.6,
+   59.6,
+   55.2,
+   59.6,
+   57.0,
+   59.4,
+   55.3,
+   59.4,
+   57.5,
+   59.4,
+   54.9,
+   59.4,
+   57.9,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: ram: free 7796 KiB, contiguous 51292 KiB (29 blocks), virtual 4704 KiB, kernel pool 48 of 64 KiB (Ex 837, objects 27, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 826 words 372061 headers 69060 methods 303008 faults 0 GET 016db6b0 PUT 016e74f4 binds 5 semaphores 66704 flips 17786 traps 36866 (7=19074 21=17785 9=6 28=1) runs 0 surfaces 10 clears 37041 swaps 17786 draws 3664717 ff 0 skipped 0 () textures 123 rt uploads 3 blits 403 m2mf 0 cop",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 42.1, 60 frames)",
+   "hakuX-hle-pb: catch-up: 23412 stores waited for the decoder (caught up 17; it waited on the guest at a trap 276, a flip stall 23119, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 539.7 ms",
+   "hakuX-hle-emit: per s: draws=3660 verts=183660 mergeable=0 (not: strip 2880 idx 780 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 120, contiguous 0 pipe=547 set1=3003 pc=487 vi=726 vb=3539 vp=67 sc=127 dyn=1605 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3663864 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 825 words 372062 headers 69060 methods 302992 faults 0 GET 01647028 PUT 01652e6c binds 5 semaphores 66869 flips 17846 traps 36986 (7=19134 21=17845 9=6 28=1) runs 0 surfaces 10 clears 37161 swaps 17846 draws 3668377 ff 0 skipped 0 () textures 123 rt uploads 3 blits 403 m2mf 0 cop",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.4 ms (max 42.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 23532 stores waited for the decoder (caught up 17; it waited on the guest at a trap 281, a flip stall 23234, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 542.7 ms",
+   "hakuX-hle-emit: per s: draws=3660 verts=183660 mergeable=0 (not: strip 2880 idx 780 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 120, contiguous 0 pipe=544 set1=3003 pc=482 vi=724 vb=3540 vp=64 sc=124 dyn=1560 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3667524 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 826 words 372069 headers 69064 methods 303008 faults 0 GET 016b2714 PUT 016be558 binds 5 semaphores 67035 flips 17906 traps 37106 (7=19194 21=17905 9=6 28=1) runs 0 surfaces 10 clears 37281 swaps 17906 draws 3672037 ff 0 skipped 0 () textures 123 rt uploads 3 blits 403 m2mf 0 cop",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 42.2, 60 frames)",
+   "hakuX-hle-pb: catch-up: 23652 stores waited for the decoder (caught up 17; it waited on the guest at a trap 286, a flip stall 23349, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 545.3 ms",
+   "hakuX-hle-emit: per s: draws=3660 verts=183660 mergeable=0 (not: strip 2880 idx 780 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 121, contiguous 0 pipe=548 set1=3002 pc=488 vi=727 vb=3539 vp=68 sc=128 dyn=1620 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3671184 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=8350665 first_call=PsCreateSystemThreadEx threads=9",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 48 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x562445e8fc20",
+   "[Gamescope WSI] Destroyed swapchain: 0x562445e8fc20",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 304.1,
+  "peak_rms_dbfs": -17.0,
+  "first_sound_s": 6.5,
+  "audible_fraction": 0.46,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -43.4,
+   -39.5,
+   -46.7,
+   -27.6,
+   -37.3,
+   -39.4,
+   -40.1,
+   -39.2,
+   -37.0,
+   -120.0,
+   -36.0,
+   -33.3,
+   -31.7,
+   -28.9,
+   -33.5,
+   -45.2,
+   -47.9,
+   -38.4,
+   -26.6,
+   -30.3,
+   -47.2,
+   -48.3,
+   -20.2,
+   -22.3,
+   -33.6,
+   -45.0,
+   -49.3,
+   -21.7,
+   -24.6,
+   -26.0,
+   -44.0,
+   -47.9,
+   -23.2,
+   -19.2,
+   -27.1,
+   -45.4,
+   -49.5,
+   -35.7,
+   -21.9,
+   -17.0,
+   -44.0,
+   -48.6,
+   -28.9,
+   -20.9,
+   -33.6,
+   -43.1,
+   -49.5,
+   -37.5,
+   -17.9,
+   -23.7,
+   -42.0,
+   -49.5,
+   -37.3,
+   -34.2,
+   -19.3,
+   -43.6,
+   -49.5,
+   -28.1,
+   -23.2,
+   -31.3,
+   -45.2,
+   -49.5,
+   -38.3,
+   -18.3,
+   -25.4,
+   -44.1,
+   -49.6,
+   -34.2,
+   -29.4,
+   -25.8,
+   -44.6,
+   -49.7,
+   -31.0,
+   -21.0,
+   -24.5,
+   -43.4,
+   -49.7,
+   -37.8,
+   -23.5,
+   -17.2,
+   -45.5,
+   -49.7,
+   -23.7,
+   -25.7,
+   -19.1,
+   -43.4,
+   -49.7,
+   -120.0,
+   -44.5,
+   -120.0,
+   -43.0,
+   -73.4,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -49.1,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -42.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 305.7,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

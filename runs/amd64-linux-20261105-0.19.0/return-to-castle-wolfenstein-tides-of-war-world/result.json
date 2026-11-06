@@ -1,0 +1,478 @@
+{
+ "game_file": "Return to Castle Wolfenstein - Tides of War (World).chd",
+ "game_size": 2766243258,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:21:56+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 114392
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 858554
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.0,
+   "bytes": 783033
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Return to Castle Wolfenstein - Tides of War (World),crc32=14403968"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   10.8,
+   48.9,
+   29.5,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   29.9,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=1350 verts=18540 mergeable=0 (not: strip 0 idx 1350 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=242 set1=1350 pc=1350 vi=33 vb=33 vp=33 sc=33 dyn=585 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=47344 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 241 words 122118 headers 41787 methods 80326 faults 0 GET 03f8fe44 PUT 03f8fe44 binds 4 semaphores 4218 flips 1277 traps 1307 (21=1277 5=23 9=6 28=1) runs 0 surfaces 3 clears 6 swaps 1277 draws 48695 ff 48695 skipped 0 () textures 1058 rt uploads 2 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.2 ms (max 25.5, 30 frames)",
+   "hakuX-hle-emit: per s: draws=1350 verts=18540 mergeable=0 (not: strip 0 idx 1350 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=240 set1=1350 pc=1350 vi=30 vb=30 vp=30 sc=30 dyn=540 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=48694 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 243 words 122172 headers 41810 methods 80358 faults 0 GET 03f87af0 PUT 03f87af0 binds 4 semaphores 4325 flips 1307 traps 1337 (21=1307 5=23 9=6 28=1) runs 0 surfaces 3 clears 6 swaps 1307 draws 50045 ff 50045 skipped 0 () textures 1088 rt uploads 2 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 21.5 ms (max 24.2, 30 frames)",
+   "hakuX-hle-emit: per s: draws=1350 verts=18540 mergeable=0 (not: strip 0 idx 1350 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=241 set1=1350 pc=1350 vi=31 vb=31 vp=31 sc=31 dyn=555 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=50044 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #25 frame 1333: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 66 ms apart) | swap +55.1 write +55.1 ready +55.2 flip +66.7 front +66.7 shown +75.9 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms",
+   "hakuX-hle-pb: kicks 246 words 122168 headers 41806 methods 80358 faults 0 GET 03f7f7b8 PUT 03f7f7b8 binds 4 semaphores 4432 flips 1337 traps 1368 (21=1337 5=24 9=6 28=1) runs 0 surfaces 3 clears 6 swaps 1337 draws 51395 ff 51395 skipped 0 () textures 1118 rt uploads 2 blits 0 m2mf 0 copies skipped 0",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.0 ms (max 22.3, 29 frames)",
+   "hakuX-hle-emit: per s: draws=1350 verts=18540 mergeable=0 (not: strip 0 idx 1350 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=242 set1=1350 pc=1350 vi=32 vb=32 vp=32 sc=32 dyn=570 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=51394 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 159354 sysops 161361 (int 778, of them ticks 15; hook 0) schedules 1951 switches 1863 idle 58 slices 12 page faults 0 mmio 5344 apu waits 0 vm pages +0 -0 isr irq1:516 (max 0.2 ms) irq3:90 (max 0.1 ms) irq5:3 (max 0.0 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4469 (pages 0350d000:320 0354d000:320 0358d000:320 035cd000:320 0360d000:320 03521000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 37248 KiB, contiguous 10128 KiB (35 blocks), virtual 16764 KiB, kernel pool 52 of 64 KiB (Ex 546, objects 8, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=6228478 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 7968 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=8 misses=4",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 57 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -26.2,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.76,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -42.7,
+   -30.1,
+   -26.2,
+   -28.8,
+   -26.3,
+   -30.1,
+   -37.0,
+   -36.3,
+   -35.2,
+   -36.0,
+   -31.6,
+   -31.6,
+   -30.9,
+   -29.4,
+   -32.3,
+   -31.7,
+   -33.4,
+   -30.2,
+   -31.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

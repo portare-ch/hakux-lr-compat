@@ -1,0 +1,3256 @@
+{
+ "game_file": "NBA Inside Drive 2004 (U).chd",
+ "game_size": 3136979205,
+ "system": "amd64-linux",
+ "started": "2026-11-05T19:15:22+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The Controllers screen (from about 47 s) leaves controller 1 in the middle, and A answers Yes to 'CPU-only game?', so the match is CPU vs CPU. Right held 400 ms (three times, as the screen's arrival varies) puts it on Home, then A.",
+  "extra_steps": [
+   [
+    49.0,
+    "tap",
+    "right",
+    400
+   ],
+   [
+    52.0,
+    "tap",
+    "right",
+    400
+   ],
+   [
+    55.0,
+    "tap",
+    "right",
+    400
+   ],
+   [
+    56.5,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    46.5,
+    58.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   49.0,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   52.0,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   55.0,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   56.5,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w190",
+    "t": 189.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w250",
+    "t": 249.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w270",
+    "t": 269.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 302.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.62,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   49.0,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   52.11,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   55.03,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   56.53,
+   "tap",
+   "a"
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   170.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.82,
+   "watch",
+   "w190"
+  ],
+  [
+   190.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.85,
+   "watch",
+   "w210"
+  ],
+  [
+   210.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.82,
+   "watch",
+   "w250"
+  ],
+  [
+   250.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.83,
+   "watch",
+   "w270"
+  ],
+  [
+   270.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.83,
+   "watch",
+   "w290"
+  ],
+  [
+   290.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.04,
+   "release"
+  ],
+  [
+   300.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.0,
+   "got_s": 15.6,
+   "bytes": 1049181
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 33.8,
+   "bytes": 991806
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.0,
+   "bytes": 672528
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 52.9,
+   "bytes": 1191052
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.8,
+   "bytes": 925115
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 92.0,
+   "bytes": 2447791
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 112.8,
+   "bytes": 2163051
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 133.0,
+   "bytes": 2220909
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.8,
+   "got_s": 152.6,
+   "bytes": 2185483
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 172.6,
+   "bytes": 2181954
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.82,
+   "got_s": 192.2,
+   "bytes": 2187432
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.85,
+   "got_s": 212.7,
+   "bytes": 2188464
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 233.0,
+   "bytes": 2182358
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.82,
+   "got_s": 252.8,
+   "bytes": 2189158
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.83,
+   "got_s": 273.4,
+   "bytes": 2184318
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.83,
+   "got_s": 293.0,
+   "bytes": 2179399
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.01,
+   "got_s": 302.5,
+   "bytes": 2181408
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   5.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   6.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   7.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   12.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   13.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   139.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   140.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   146.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   147.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   148.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   154.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   155.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   157.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   160.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   161.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   162.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   163.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   169.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   170.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   171.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   172.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   173.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   174.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   175.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   176.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   177.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   178.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   180.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   181.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   182.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   183.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   184.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   185.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   186.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   188.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   189.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   190.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   191.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   192.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   193.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   194.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   195.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   197.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   198.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   199.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   200.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   201.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   203.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   204.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   205.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   206.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   207.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   208.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   209.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   211.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   212.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   213.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   214.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   215.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   216.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   217.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   218.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   219.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   220.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   221.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   222.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   223.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   224.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   225.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   226.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   227.1,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   228.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   229.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   230.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   231.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   232.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   233.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   234.2,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   235.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   236.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   237.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   238.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   239.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   240.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   241.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   242.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   243.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   244.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   245.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   246.3,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   247.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   248.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   249.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   250.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   251.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   252.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   253.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   254.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   255.4,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   256.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   257.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   258.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   259.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   260.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   261.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   262.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   263.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   264.5,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   265.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   266.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   267.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   268.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   269.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   270.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   271.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   272.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   273.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   274.6,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   275.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   276.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   277.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   278.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   279.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   280.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   281.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   282.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   283.7,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   284.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   285.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   286.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   287.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   288.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   289.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   290.8,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   291.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   292.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   293.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   294.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   295.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   296.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   297.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   298.9,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   300.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   301.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ],
+  [
+   302.0,
+   "GET_STATUS PLAYING xbox,NBA Inside Drive 2004 (U),crc32=199d5cd4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   16.7,
+   0.4,
+   2.1,
+   52.5,
+   58.7,
+   44.8,
+   38.5,
+   53.2,
+   54.9,
+   54.8,
+   53.8,
+   56.2,
+   55.2,
+   57.1,
+   56.6,
+   56.5,
+   56.3,
+   57.4,
+   56.1,
+   55.7,
+   55.9,
+   56.2,
+   55.9,
+   56.4,
+   55.2,
+   54.8,
+   54.7,
+   56.1,
+   57.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 32.2 ms (max 41.2, 57 frames)",
+   "hakuX-hle-emit: per s: draws=17856 verts=13729350 mergeable=0 (not: strip 15228 idx 2024 state 427 work 0 gap 177) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7204 set1=13494 pc=10602 vi=3671 vb=12805 vp=364 sc=364 dyn=5024 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4195826 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 59.81 retro_run/s, 16.48 ms each (max 19.38), video 15.77 ms (max 18.56)",
+   "hakuX-native-usb: ohci: 12173 TDs in 10 s, ctl 000000be (lists PCB), hcca 03ffd000, intr 00000004/80000073",
+   "hakuX-hle-pb: kicks 2409 words 11234180 headers 677739 methods 10551601 faults 0 GET 03db8584 PUT 03d46854 binds 5 semaphores 147888 flips 14775 traps 128143 (21=14775 28=13123 8=13123 ed=9267 2d=9261 ad=9236 6d=9176 4d=9044) runs 0 surfaces 83 clears 47375 swaps 14776 draws 4214292 ff 1380577 skipp",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 30.1 ms (max 41.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=18087 verts=13882973 mergeable=0 (not: strip 15435 idx 2040 state 433 work 0 gap 179) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7316 set1=13635 pc=10736 vi=3710 vb=12948 vp=366 sc=366 dyn=5083 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4213913 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 4633 sysops 8645 (int 1230, of them ticks 140; hook 0) schedules 3620 switches 2811 idle 244 slices 0 page faults 0 mmio 19337 apu waits 0 vm pages +0 -0 isr irq1:527 (max 4.7 ms) irq3:523 (max 5.2 ms) irq5:149 (max 1.9 ms) | dpc max wait 3.4 run 3.3 ms, 0 over 8 ms",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 2836 KiB, contiguous 24488 KiB (529 blocks), virtual 36944 KiB, kernel pool 94 of 128 KiB (Ex 580, objects 16, lost 0 KiB, 4 free ranges)",
+   "hakuX-hle-pb: kicks 2462 words 11223566 headers 677066 methods 10538620 faults 0 GET 03619c18 PUT 03db8e2c binds 5 semaphores 148544 flips 14835 traps 128699 (21=14835 28=13183 8=13183 ed=9307 2d=9301 ad=9277 6d=9205 4d=9085) runs 0 surfaces 83 clears 47555 swaps 14836 draws 4232324 ff 1386589 skipp",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 29.4 ms (max 39.5, 61 frames)",
+   "hakuX-hle-emit: per s: draws=18031 verts=13874243 mergeable=0 (not: strip 15379 idx 2040 state 434 work 0 gap 178) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=7306 set1=13613 pc=10720 vi=3716 vb=12911 vp=369 sc=369 dyn=5133 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4231944 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1544658 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 67 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56500a3f5610",
+   "[Gamescope WSI] Destroyed swapchain: 0x56500a3f5610",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 301.1,
+  "peak_rms_dbfs": -21.1,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.69,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -26.2,
+   -29.7,
+   -30.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -33.8,
+   -25.1,
+   -29.8,
+   -21.1,
+   -24.1,
+   -28.3,
+   -29.1,
+   -29.6,
+   -29.2,
+   -23.9,
+   -28.7,
+   -29.8,
+   -30.2,
+   -23.6,
+   -29.7,
+   -120.0,
+   -120.0,
+   -23.9,
+   -22.6,
+   -22.7,
+   -23.5,
+   -26.9,
+   -22.6,
+   -23.0,
+   -22.8,
+   -23.2,
+   -26.4,
+   -22.8,
+   -23.0,
+   -23.2,
+   -23.2,
+   -24.2,
+   -24.3,
+   -23.0,
+   -22.8,
+   -22.9,
+   -24.9,
+   -23.7,
+   -23.3,
+   -22.9,
+   -22.8,
+   -24.1,
+   -24.4,
+   -22.9,
+   -23.3,
+   -22.9,
+   -24.0,
+   -24.5,
+   -23.0,
+   -23.2,
+   -23.0,
+   -22.0,
+   -29.7,
+   -22.8,
+   -23.3,
+   -23.0,
+   -22.0,
+   -29.6,
+   -22.8,
+   -22.0,
+   -22.8,
+   -22.5,
+   -27.4,
+   -22.9,
+   -21.8,
+   -22.8,
+   -21.8,
+   -30.4,
+   -22.8,
+   -21.5,
+   -22.7,
+   -21.7,
+   -31.6,
+   -22.8,
+   -21.5,
+   -22.8,
+   -21.5,
+   -33.4,
+   -22.8,
+   -21.5,
+   -22.7,
+   -21.5,
+   -37.1,
+   -22.8,
+   -21.5,
+   -22.8,
+   -21.5,
+   -30.8,
+   -23.2,
+   -21.5,
+   -22.8,
+   -21.4,
+   -32.6,
+   -23.4,
+   -21.5,
+   -22.9,
+   -21.5,
+   -35.2,
+   -22.8,
+   -21.5,
+   -23.0,
+   -21.6,
+   -29.6,
+   -23.8,
+   -21.5,
+   -23.2,
+   -21.5,
+   -30.5,
+   -23.3,
+   -21.5,
+   -22.9,
+   -21.7,
+   -28.7,
+   -23.7,
+   -21.6,
+   -23.7,
+   -21.7,
+   -30.3,
+   -23.4,
+   -21.7,
+   -23.7,
+   -21.8,
+   -26.9,
+   -24.3,
+   -21.7,
+   -24.2,
+   -21.7,
+   -30.2,
+   -23.8,
+   -35.9,
+   -35.8,
+   -36.2,
+   -36.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 302.8,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

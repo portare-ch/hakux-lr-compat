@@ -1,0 +1,478 @@
+{
+ "game_file": "SSX On Tour (U).chd",
+ "game_size": 1399107142,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:26:48+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 269879
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1189428
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.3,
+   "bytes": 1201236
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,SSX On Tour (U),crc32=206bbadc"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   54.9,
+   58.0,
+   59.6,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0,
+   60.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=485338 prog_fog=80 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1286 words 671730 headers 156944 methods 514784 faults 0 GET 03d0658c PUT 03d065b4 binds 5 semaphores 6283 flips 2528 traps 13609 (9=10118 21=2528 5=962 28=1) runs 0 surfaces 3 clears 2533 swaps 2528 draws 502696 ff 0 skipped 0 () textures 273 rt uploads 3 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.7 ms (max 24.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=17340 verts=69360 mergeable=0 (not: strip 17340 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=290 set1=17340 pc=2442 vi=290 vb=17340 vp=110 sc=110 dyn=3264 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=502678 prog_fog=80 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1289 words 671729 headers 156944 methods 514784 faults 0 GET 03d966fc PUT 03d96724 binds 5 semaphores 6444 flips 2588 traps 13945 (9=10358 21=2588 5=998 28=1) runs 0 surfaces 3 clears 2593 swaps 2588 draws 520036 ff 0 skipped 0 () textures 273 rt uploads 3 blits 0 m2mf 0 copies s",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.6 ms (max 23.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=17340 verts=69360 mergeable=0 (not: strip 17340 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=17340 pc=2453 vi=300 vb=17340 vp=120 sc=120 dyn=3408 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=520018 prog_fog=80 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #16 frame 2642: front 50.0 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +37.5 write +37.5 ready +37.7 flip +50.0 front +50.0 shown +59.6 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 m",
+   "hakuX-hle-pb: kicks 1277 words 671729 headers 156944 methods 514784 faults 0 GET 03e268b4 PUT 03e268dc binds 5 semaphores 6605 flips 2648 traps 14277 (9=10598 21=2648 5=1030 28=1) runs 0 surfaces 3 clears 2653 swaps 2648 draws 537376 ff 0 skipped 0 () textures 273 rt uploads 3 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.7 ms (max 23.5, 58 frames)",
+   "hakuX-hle-emit: per s: draws=17340 verts=69360 mergeable=0 (not: strip 17340 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=295 set1=17340 pc=2452 vi=295 vb=17340 vp=116 sc=116 dyn=3357 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=537358 prog_fog=80 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1289 words 671729 headers 156944 methods 514784 faults 0 GET 03eb6a1c PUT 03eb6a44 binds 5 semaphores 6766 flips 2708 traps 14613 (9=10838 21=2708 5=1066 28=1) runs 0 surfaces 3 clears 2713 swaps 2708 draws 554716 ff 0 skipped 0 () textures 273 rt uploads 3 blits 0 m2mf 0 copies ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.5 ms (max 21.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=17340 verts=69360 mergeable=0 (not: strip 17340 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=296 set1=17340 pc=2452 vi=296 vb=17340 vp=118 sc=118 dyn=3375 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=554698 prog_fog=80 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=265787 first_call=PsCreateSystemThreadEx threads=11",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 9768 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=7 misses=8",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -16.9,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.82,
+  "rms_dbfs_per_2s": [
+   -18.5,
+   -16.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -43.5,
+   -25.5,
+   -25.0,
+   -25.1,
+   -30.2,
+   -23.4,
+   -26.3,
+   -28.2,
+   -25.4,
+   -26.3,
+   -22.0,
+   -22.9,
+   -22.1,
+   -23.1,
+   -25.2,
+   -27.7,
+   -26.4,
+   -30.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.7,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

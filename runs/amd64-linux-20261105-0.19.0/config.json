@@ -1,0 +1,41 @@
+{
+ "system": "amd64-linux",
+ "device": "zenbox",
+ "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+ "arch": "x86_64",
+ "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+ "gpu": {
+  "deviceName": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+  "driverName": "radv",
+  "driverInfo": "Mesa 26.2.6-arch3.1",
+  "apiVersion": "1.4.354"
+ },
+ "kernel": "7.3.1-1-cachyos",
+ "frontend": "retroarch 1.22.2-5",
+ "emulator": {
+  "name": "hakuX-lr",
+  "version": "0.19.0",
+  "commit": "01ded7c8eb3694a310944b53553a2c439d9304c7",
+  "dsp_jit": "on",
+  "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+  "core": "cores/0.19.0-x86_64/hakux-0.19.0/lib/libretro/hakux_libretro.so"
+ },
+ "display": "KMS (khr_display), Vulkan, 1920x1080",
+ "audio": "pulse to a null sink (hakux_compat), recorded",
+ "input": "RetroArch network RetroPad (UDP), player 1",
+ "run_id": "amd64-linux-20261105-0.19.0",
+ "started": "2026-11-05T00:39:13+01:00",
+ "plan_default": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ }
+}

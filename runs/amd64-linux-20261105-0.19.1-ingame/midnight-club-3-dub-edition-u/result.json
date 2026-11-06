@@ -1,0 +1,2000 @@
+{
+ "game_file": "Midnight Club 3 - DUB Edition (U).chd",
+ "game_size": 2304185212,
+ "system": "amd64-linux",
+ "started": "2026-11-05T16:15:20+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the garage (from about 60 s), A on Exit Garage opens 'Exit the garage?', which defaults to NO. Up then A, just after the default A that opens it (default A presses fall at 63, 68, 73... s), picks YES and starts the first race. Up in the button cycle instead wanders into the Options menus.",
+  "extra_steps": [
+   [
+    63.8,
+    "tap",
+    "up"
+   ],
+   [
+    64.4,
+    "tap",
+    "a"
+   ],
+   [
+    73.8,
+    "tap",
+    "up"
+   ],
+   [
+    74.4,
+    "tap",
+    "a"
+   ],
+   [
+    83.8,
+    "tap",
+    "up"
+   ],
+   [
+    84.4,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   63.8,
+   "tap",
+   "up"
+  ],
+  [
+   64.4,
+   "tap",
+   "a"
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   73.8,
+   "tap",
+   "up"
+  ],
+  [
+   74.4,
+   "tap",
+   "a"
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   83.8,
+   "tap",
+   "up"
+  ],
+  [
+   84.4,
+   "tap",
+   "a"
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.82,
+  "confirmed_by": "w130",
+  "stopped_at_s": 132.7,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 132.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   63.85,
+   "tap",
+   "up"
+  ],
+  [
+   64.45,
+   "tap",
+   "a"
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   73.81,
+   "tap",
+   "up"
+  ],
+  [
+   74.41,
+   "tap",
+   "a"
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   83.83,
+   "tap",
+   "up"
+  ],
+  [
+   84.43,
+   "tap",
+   "a"
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "held",
+   "start"
+  ],
+  [
+   118.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.54,
+   "held",
+   "start"
+  ],
+  [
+   123.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "held",
+   "start"
+  ],
+  [
+   128.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 170180
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.8,
+   "bytes": 1003496
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.8,
+   "bytes": 731719
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.1,
+   "bytes": 4613
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 70.8,
+   "bytes": 798189
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 90.5,
+   "bytes": 694727
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 110.8,
+   "bytes": 1245309
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 130.9,
+   "bytes": 1242716
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.8,
+   "got_s": 130.9,
+   "bytes": 1242716,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55440.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.8,
+   29.8,
+   29.9,
+   30.0,
+   29.3,
+   25.4,
+   29.9,
+   30.0,
+   27.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.63 ms each (max 16.66), video 16.54 ms (max 16.64)",
+   "hakuX-native-usb: ohci: 7700 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fe8000, intr 00000004/80000073",
+   "hakuX-hle-pb: kicks 1904 words 6062776 headers 883301 methods 5179462 faults 0 GET 03efc884 PUT 03d998ac binds 5 semaphores 83188 flips 3824 traps 5005 (41=3216 5=1174 21=608 9=6 28=1) runs 0 surfaces 26 clears 11915 swaps 3826 draws 3956888 ff 3302099 skipped 0 () textures 1429 rt uploads 12 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.6 ms (max 72.8, 30 frames)",
+   "hakuX-hle-pb: catch-up: 12417 stores waited for the decoder (caught up 6; it waited on the guest at a trap 861, a flip stall 11550, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1007.5 ms",
+   "hakuX-hle-pb: targets' images landed 12037, copies queued behind them 0 (the decoder waited 4), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=29550 verts=2330262 mergeable=0 (not: strip 28980 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=13083 set1=14715 pc=21909 vi=3812 vb=24496 vp=752 sc=872 dyn=11582 fb=990",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3953411 prog_fog=1792871 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-disp: stats: 30.0 new frames/s, age front to taken 8.29 ms (max 26.35), gap 33.33 ms (max 51.53, 300 over 25 ms)",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-hle-pb: kicks 1891 words 6062906 headers 883294 methods 5179606 faults 0 GET 03e20784 PUT 03ea6270 binds 5 semaphores 84050 flips 3854 traps 5065 (41=3246 5=1204 21=608 9=6 28=1) runs 0 surfaces 26 clears 12095 swaps 3856 draws 3986438 ff 3324599 skipped 0 () textures 1429 rt uploads 12 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.6 ms (max 72.8, 30 frames)",
+   "hakuX-hle-pb: catch-up: 12627 stores waited for the decoder (caught up 6; it waited on the guest at a trap 861, a flip stall 11760, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1010.7 ms",
+   "hakuX-hle-pb: targets' images landed 12241, copies queued behind them 0 (the decoder waited 4), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=29550 verts=2330298 mergeable=0 (not: strip 28980 idx 570 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=13093 set1=14719 pc=21902 vi=3818 vb=24511 vp=765 sc=885 dyn=11686 fb=990",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3982961 prog_fog=1815311 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=4185805 first_call=PsCreateSystemThreadEx threads=9",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 44 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56168dec7a10",
+   "[Gamescope WSI] Destroyed swapchain: 0x56168dec7a10",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 130.7,
+  "peak_rms_dbfs": -4.7,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.98,
+  "rms_dbfs_per_2s": [
+   -14.1,
+   -4.7,
+   -6.8,
+   -12.3,
+   -9.1,
+   -10.1,
+   -18.5,
+   -16.1,
+   -21.7,
+   -14.0,
+   -18.1,
+   -24.9,
+   -10.8,
+   -12.3,
+   -12.2,
+   -14.0,
+   -16.2,
+   -6.8,
+   -6.9,
+   -10.1,
+   -10.8,
+   -12.8,
+   -10.1,
+   -10.1,
+   -14.0,
+   -12.3,
+   -13.0,
+   -14.0,
+   -11.6,
+   -15.7,
+   -10.8,
+   -12.4,
+   -11.8,
+   -12.9,
+   -13.0,
+   -12.9,
+   -15.4,
+   -13.9,
+   -13.4,
+   -15.4,
+   -15.0,
+   -14.6,
+   -20.2,
+   -27.5,
+   -20.2,
+   -29.0,
+   -22.5,
+   -19.9,
+   -17.4,
+   -8.5,
+   -12.3,
+   -18.4,
+   -13.1,
+   -17.4,
+   -10.6,
+   -10.8,
+   -13.7,
+   -11.8,
+   -12.5,
+   -11.7,
+   -13.3,
+   -13.0,
+   -13.5,
+   -13.2,
+   -12.6,
+   -14.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.82 s (judged from screenshots); stopped at 132.7 s and the emulator closed",
+ "duration_s": 132.8,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

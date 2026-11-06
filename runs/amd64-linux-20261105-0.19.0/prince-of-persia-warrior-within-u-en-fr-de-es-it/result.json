@@ -1,0 +1,476 @@
+{
+ "game_file": "Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2526510729,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:16:45+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 8991
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 306001
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 618371
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Prince of Persia - Warrior Within (U) (En,Fr,De,Es,It),crc32=1c10ab0"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   29.7,
+   29.6,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 10573 sysops 13327 (int 1489, of them ticks 8; hook 0) schedules 2849 switches 1977 idle 1211 slices 2 page faults 0 mmio 10778 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:130 (max 0.1 ms) | dpc max wait 0.3 run 0.3 ms, 0 over 8 ms | holds 0 (longest 0",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 25772 KiB, contiguous 15388 KiB (543 blocks), virtual 22436 KiB, kernel pool 123 of 128 KiB (Ex 611, objects 12, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 765 words 2904623 headers 405955 methods 2498656 faults 0 GET 03e71778 PUT 03d363d4 binds 5 semaphores 4845 flips 1017 traps 1943 (41=1017 28=320 8=319 5=281 9=6) runs 0 surfaces 18 clears 1662 swaps 1017 draws 103393 ff 0 skipped 0 () textures 751 rt uploads 26 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.1 ms (max 75.5, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10212 verts=1485642 mergeable=0 (not: strip 0 idx 8749 state 1463 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1765 set1=8215 pc=4086 vi=568 vb=5023 vp=238 sc=688 dyn=2769 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=103388 prog_fog=51967 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 768 words 2912729 headers 406794 methods 2505938 faults 0 GET 03db42e8 PUT 03e717c8 binds 5 semaphores 5115 flips 1047 traps 2059 (41=1047 28=350 8=349 5=307 9=6) runs 0 surfaces 18 clears 1752 swaps 1047 draws 113637 ff 0 skipped 0 () textures 751 rt uploads 26 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.2 ms (max 75.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10244 verts=1487274 mergeable=0 (not: strip 0 idx 8807 state 1437 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1765 set1=8246 pc=4116 vi=570 vb=5068 vp=240 sc=690 dyn=2786 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=113632 prog_fog=56642 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 750 words 2920538 headers 407699 methods 2512834 faults 0 GET 03eef8c8 PUT 03db26e8 binds 5 semaphores 5385 flips 1077 traps 2177 (41=1077 28=380 8=379 5=335 9=6) runs 0 surfaces 18 clears 1842 swaps 1077 draws 123914 ff 0 skipped 0 () textures 751 rt uploads 26 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.1 ms (max 75.3, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10277 verts=1491084 mergeable=0 (not: strip 0 idx 8846 state 1431 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1810 set1=8280 pc=4127 vi=551 vb=5095 vp=238 sc=686 dyn=2774 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=123909 prog_fog=61348 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 748 words 2919066 headers 407904 methods 2511160 faults 0 GET 03e30e40 PUT 03eee510 binds 5 semaphores 5655 flips 1107 traps 2296 (41=1107 28=410 8=409 5=364 9=6) runs 0 surfaces 18 clears 1932 swaps 1107 draws 134216 ff 0 skipped 0 () textures 751 rt uploads 26 blits 0 m2mf 0 co",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.6 ms (max 92.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=10302 verts=1491774 mergeable=0 (not: strip 0 idx 8863 state 1439 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1791 set1=8304 pc=4095 vi=509 vb=5113 vp=240 sc=690 dyn=2633 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=134211 prog_fog=66071 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=638332 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 75096 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=105 misses=24",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 51 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -25.1,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.77,
+  "rms_dbfs_per_2s": [
+   -41.9,
+   -33.3,
+   -32.0,
+   -34.3,
+   -28.6,
+   -26.1,
+   -27.7,
+   -26.7,
+   -25.1,
+   -26.9,
+   -26.7,
+   -26.3,
+   -38.8,
+   -120.0,
+   -120.0,
+   -120.0,
+   -34.6,
+   -34.7,
+   -36.0,
+   -35.1,
+   -31.0,
+   -30.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

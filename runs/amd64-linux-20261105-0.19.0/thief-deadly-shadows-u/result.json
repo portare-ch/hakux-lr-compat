@@ -1,0 +1,477 @@
+{
+ "game_file": "Thief - Deadly Shadows (U).chd",
+ "game_size": 1777104345,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:30:52+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 253925
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.0,
+   "bytes": 784942
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.0,
+   "bytes": 1125147
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Thief - Deadly Shadows (U),crc32=def61ee4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.2,
+   29.8,
+   26.5,
+   865.7,
+   942.3,
+   852.2,
+   861.3,
+   863.3
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 32782 words 53583336 headers 9665349 methods 43917008 faults 0 GET 03ee1900 PUT 03ee1924 binds 5 semaphores 332631 flips 23119 traps 23127 (1=22679 41=440 9=6 28=1 5=1) runs 0 surfaces 4 clears 89353 swaps 23119 draws 2740687 ff 5899 skipped 0 () textures 168 rt uploads 442 blits",
+   "hakuX-hle-pb: frame pace off: 863 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 1.7 ms (max 2.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=140589 verts=34011324 mergeable=0 (not: strip 0 idx 140589 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 19826, contiguous 0 pipe=23284 set1=119038 pc=56047 vi=1725 vb=2473 vp=863 sc=863 dyn=40557 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2740121 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 8177 sysops 12530 (int 1509, of them ticks 11; hook 0) schedules 4244 switches 4166 idle 0 slices 0 page faults 0 mmio 145122 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.0 ms) irq3:921 (max 0.1 ms) irq5:1 (max 0.0 ms) | dpc max wait 0.1 run 0.4 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 27260 KiB, contiguous 16144 KiB (316 blocks), virtual 20760 KiB, kernel pool 7 of 64 KiB (Ex 433, objects 5, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 32823 words 53653901 headers 9680384 methods 43973086 faults 0 GET 03ed7864 PUT 03ed7864 binds 5 semaphores 348635 flips 23983 traps 23991 (1=23543 41=440 9=6 28=1 5=1) runs 0 surfaces 4 clears 92809 swaps 23983 draws 2881479 ff 5899 skipped 0 () textures 168 rt uploads 442 blits",
+   "hakuX-hle-pb: frame pace off: 864 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 1.7 ms (max 2.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=140791 verts=34043007 mergeable=0 (not: strip 0 idx 140791 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 19872, contiguous 0 pipe=23320 set1=119192 pc=56149 vi=1728 vb=2479 vp=864 sc=864 dyn=40584 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2880912 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 32762 words 53549321 headers 9660944 methods 43888737 faults 0 GET 03e67ff8 PUT 03e69f40 binds 5 semaphores 364604 flips 24845 traps 24853 (1=24405 41=440 9=6 28=1 5=1) runs 0 surfaces 4 clears 96257 swaps 24845 draws 3021996 ff 5899 skipped 0 () textures 168 rt uploads 442 blits",
+   "hakuX-hle-pb: frame pace off: 862 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 1.7 ms (max 2.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=140521 verts=33980667 mergeable=0 (not: strip 0 idx 140521 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 19826, contiguous 0 pipe=23275 set1=118971 pc=56032 vi=1724 vb=2474 vp=862 sc=862 dyn=40517 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3021433 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 32825 words 53658984 headers 9681574 methods 43977637 faults 0 GET 03e62be4 PUT 03e62be4 binds 5 semaphores 380608 flips 25709 traps 25717 (1=25269 41=440 9=6 28=1 5=1) runs 0 surfaces 4 clears 99713 swaps 25709 draws 3162809 ff 5899 skipped 0 () textures 168 rt uploads 442 blits",
+   "hakuX-hle-pb: frame pace off: 864 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 1.7 ms (max 2.3, 58 frames)",
+   "hakuX-hle-emit: per s: draws=140809 verts=34043403 mergeable=0 (not: strip 0 idx 140809 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 19872, contiguous 0 pipe=23327 set1=119209 pc=56158 vi=1728 vb=2479 vp=864 sc=864 dyn=40605 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3162243 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2249211 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 37856 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=26 misses=27",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 46 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -22.3,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.89,
+  "rms_dbfs_per_2s": [
+   -56.0,
+   -26.8,
+   -22.3,
+   -26.9,
+   -32.0,
+   -35.7,
+   -26.7,
+   -23.5,
+   -40.4,
+   -28.1,
+   -29.4,
+   -30.9,
+   -31.1,
+   -31.1,
+   -31.1,
+   -30.8,
+   -31.5,
+   -30.9,
+   -32.5,
+   -31.1,
+   -30.9,
+   -31.1,
+   -32.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

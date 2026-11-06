@@ -1,0 +1,478 @@
+{
+ "game_file": "Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It).chd",
+ "game_size": 4869276612,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:36:32+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 45.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 85694
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 710119
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.5,
+   "bytes": 268070
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Splinter Cell - Chaos Theory (U) (En,Fr,De,Es,It),crc32=8458d49"
+  ],
+  [
+   46.6,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\sc3.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   30.0,
+   30.0,
+   12.8,
+   26.7,
+   29.5,
+   29.8,
+   29.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 210 words 2670 headers 960 methods 1696 faults 0 GET 03871054 PUT 038711e0 binds 5 semaphores 1220 flips 595 traps 602 (41=595 9=6 28=1) runs 0 surfaces 3 clears 197 swaps 595 draws 1387 ff 0 skipped 0 () textures 9 rt uploads 3 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) ove",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 68.3 ms (max 76.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=30 verts=120 mergeable=0 (not: strip 30 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=30 set1=30 pc=30 vi=30 vb=30 vp=30 sc=30 dyn=450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1384 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 203 words 2591 headers 933 methods 1672 faults 0 GET 038738d0 PUT 038738d0 binds 5 semaphores 1279 flips 624 traps 631 (41=624 9=6 28=1) runs 0 surfaces 3 clears 197 swaps 624 draws 1416 ff 0 skipped 0 () textures 9 rt uploads 3 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) ove",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 73.8 ms (max 75.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=29 verts=116 mergeable=0 (not: strip 29 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=29 set1=29 pc=29 vi=29 vb=29 vp=29 sc=29 dyn=435 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1413 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: paused: the guest's CPU waits",
+   "hakuX-native: resumed after 0.0 s: the guest's time leaves it out",
+   "hakuX-hle-hitch: stutter #9 frame 639: front 66.6 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +0.4 write +0.4 ready +0.7 flip +66.6 front +66.6 shown +76.5 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), UI",
+   "hakuX-native-stats: per s: kcalls 147972 sysops 150721 (int 965, of them ticks 30; hook 0) schedules 2538 switches 2489 idle 3 slices 44 page faults 0 mmio 11193 apu waits 0 vm pages +26 -26 isr irq1:500 (max 0.1 ms) irq3:90 (max 0.1 ms) irq5:150 (max 0.1 ms) | dpc max wait 0.2 run 0.3 ms, 0 over 8 ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 6728 (pages 03493000:4864 034d3000:4864 03513000:4864 03553000:4864 034b3000:4800 034f3000:4800) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 26048 KiB, contiguous 10144 KiB (42 blocks), virtual 27640 KiB, kernel pool 20 of 256 KiB (Ex 561, objects 9, lost 0 KiB, 4 free ranges)",
+   "hakuX-hle-pb: kicks 216 words 2757 headers 991 methods 1752 faults 0 GET 038763e4 PUT 0387640c binds 5 semaphores 1341 flips 655 traps 662 (41=655 9=6 28=1) runs 0 surfaces 3 clears 197 swaps 655 draws 1447 ff 0 skipped 0 () textures 9 rt uploads 3 blits 0 m2mf 0 copies skipped 0 vis 0 (kicks 0) ove",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 70.8 ms (max 76.0, 29 frames)",
+   "hakuX-hle-emit: per s: draws=31 verts=124 mergeable=0 (not: strip 31 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=31 set1=31 pc=31 vi=31 vb=31 vp=31 sc=31 dyn=465 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1444 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fa1000, intr 00000004/80000073",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1755129 first_call=PsCreateSystemThreadEx threads=11",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 14420 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=12 misses=3",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 38 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -14.8,
+  "first_sound_s": 2.0,
+  "audible_fraction": 0.54,
+  "rms_dbfs_per_2s": [
+   -62.8,
+   -37.4,
+   -36.9,
+   -46.2,
+   -34.3,
+   -20.3,
+   -22.2,
+   -24.1,
+   -27.8,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -57.4,
+   -55.9,
+   -57.8,
+   -20.7,
+   -14.8,
+   -19.4,
+   -23.0,
+   -17.1,
+   -20.5,
+   -21.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 45.9,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

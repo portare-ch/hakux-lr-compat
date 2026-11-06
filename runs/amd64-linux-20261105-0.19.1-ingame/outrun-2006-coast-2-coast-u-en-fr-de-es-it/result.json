@@ -1,0 +1,1902 @@
+{
+ "game_file": "OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It).chd",
+ "game_size": 752345581,
+ "system": "amd64-linux",
+ "started": "2026-11-05T16:14:46+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The licence name keyboard (from about 25 s) starts on '1', A only types and Start doesn't finish it. Left wraps to the right-hand column, down x4 reaches Done; on the licence card, down x3 reaches DONE. Then the main menu's Single Player leads to a race.",
+  "extra_steps": [
+   [
+    38.3,
+    "tap",
+    "left"
+   ],
+   [
+    38.7,
+    "tap",
+    "down"
+   ],
+   [
+    39.1,
+    "tap",
+    "down"
+   ],
+   [
+    39.5,
+    "tap",
+    "down"
+   ],
+   [
+    39.900000000000006,
+    "tap",
+    "down"
+   ],
+   [
+    40.3,
+    "tap",
+    "a"
+   ],
+   [
+    41.0,
+    "tap",
+    "down"
+   ],
+   [
+    41.4,
+    "tap",
+    "down"
+   ],
+   [
+    41.8,
+    "tap",
+    "down"
+   ],
+   [
+    42.2,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   38.3,
+   "tap",
+   "left"
+  ],
+  [
+   38.7,
+   "tap",
+   "down"
+  ],
+  [
+   39.1,
+   "tap",
+   "down"
+  ],
+  [
+   39.5,
+   "tap",
+   "down"
+  ],
+  [
+   39.900000000000006,
+   "tap",
+   "down"
+  ],
+  [
+   40.3,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   41.0,
+   "tap",
+   "down"
+  ],
+  [
+   41.4,
+   "tap",
+   "down"
+  ],
+  [
+   41.8,
+   "tap",
+   "down"
+  ],
+  [
+   42.2,
+   "tap",
+   "a"
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.83,
+  "confirmed_by": "w110",
+  "stopped_at_s": 112.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 112.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   38.3,
+   "tap",
+   "left"
+  ],
+  [
+   38.7,
+   "tap",
+   "down"
+  ],
+  [
+   39.11,
+   "tap",
+   "down"
+  ],
+  [
+   39.51,
+   "tap",
+   "down"
+  ],
+  [
+   39.91,
+   "tap",
+   "down"
+  ],
+  [
+   40.31,
+   "tap",
+   "a"
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   41.01,
+   "tap",
+   "down"
+  ],
+  [
+   41.41,
+   "tap",
+   "down"
+  ],
+  [
+   41.81,
+   "tap",
+   "down"
+  ],
+  [
+   42.21,
+   "tap",
+   "a"
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "held",
+   "start"
+  ],
+  [
+   103.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "held",
+   "start"
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.3,
+   "bytes": 111409
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.5,
+   "bytes": 921589
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.3,
+   "bytes": 786156
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.8,
+   "bytes": 826642
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 70.8,
+   "bytes": 871504
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 90.8,
+   "bytes": 2010199
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 110.7,
+   "bytes": 2010059
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.82,
+   "got_s": 110.7,
+   "bytes": 2010059,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,OutRun 2006 - Coast 2 Coast (U) (En,Fr,De,Es,It),crc32=fc05b010"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55430.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.3,
+   60.0,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.63 ms each (max 16.89), video 16.45 ms (max 16.85)",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03f3a000, intr 00000004/80000073",
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 8.21 ms (max 10.90), gap 16.72 ms (max 52.04, 1 over 25 ms)",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1511 words 7815574 headers 982752 methods 6832820 faults 0 GET 01623098 PUT 014a16f0 binds 5 semaphores 35213 flips 6613 traps 7081 (21=6613 5=461 9=6 28=1) runs 0 surfaces 37 clears 25955 swaps 6613 draws 1784568 ff 10020 skipped 0 () textures 366 rt uploads 25 blits 5010 m2mf 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.8 ms (max 40.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 6677 stores waited for the decoder (caught up 0; it waited on the guest at a trap 863, a flip stall 5814, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 548.4 ms",
+   "hakuX-hle-emit: per s: draws=35730 verts=5389740 mergeable=0 (not: strip 33510 idx 1200 state 1020 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=12153 set1=22668 pc=28344 vi=7004 vb=27944 vp=476 sc=476 dyn=21385 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1783990 prog_fog=1463939 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1513 words 7815589 headers 982771 methods 6832804 faults 0 GET 015f69b8 PUT 014756d0 binds 5 semaphores 35822 flips 6673 traps 7141 (21=6673 5=461 9=6 28=1) runs 0 surfaces 37 clears 26315 swaps 6673 draws 1820298 ff 10260 skipped 0 () textures 366 rt uploads 25 blits 5130 m2mf 0",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.0 ms (max 40.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 6837 stores waited for the decoder (caught up 0; it waited on the guest at a trap 865, a flip stall 5972, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 549.8 ms",
+   "hakuX-hle-emit: per s: draws=35730 verts=5389740 mergeable=0 (not: strip 33510 idx 1200 state 1020 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=12148 set1=22667 pc=28345 vi=7005 vb=27940 vp=474 sc=474 dyn=21406 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1819720 prog_fog=1499069 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #14 frame 6690: front 33.5 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 21 ms apart) | swap +1.8 write +1.8 ready +2.2 flip +33.5 front +33.5 shown +34.5 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 17 ms), ",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=766492 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 222324 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=57 misses=89",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 59 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564edf4a6780",
+   "[Gamescope WSI] Destroyed swapchain: 0x564edf4a6780",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 110.9,
+  "peak_rms_dbfs": -4.7,
+  "first_sound_s": -0.0,
+  "audible_fraction": 1.0,
+  "rms_dbfs_per_2s": [
+   -25.1,
+   -24.8,
+   -25.2,
+   -25.2,
+   -24.9,
+   -24.9,
+   -25.3,
+   -14.8,
+   -14.9,
+   -14.5,
+   -19.8,
+   -19.7,
+   -18.5,
+   -24.0,
+   -14.2,
+   -17.6,
+   -20.4,
+   -15.8,
+   -4.7,
+   -5.3,
+   -13.7,
+   -10.2,
+   -8.7,
+   -18.1,
+   -15.2,
+   -21.1,
+   -14.4,
+   -17.0,
+   -26.6,
+   -13.1,
+   -10.8,
+   -12.5,
+   -14.0,
+   -15.9,
+   -7.9,
+   -7.1,
+   -9.1,
+   -10.0,
+   -12.2,
+   -9.9,
+   -10.3,
+   -11.6,
+   -11.8,
+   -11.6,
+   -14.1,
+   -12.2,
+   -14.2,
+   -13.1,
+   -11.0,
+   -12.6,
+   -12.2,
+   -12.7,
+   -12.8,
+   -15.2,
+   -14.2,
+   -13.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.83 s (judged from screenshots); stopped at 112.5 s and the emulator closed",
+ "duration_s": 112.7,
+ "run_id": "amd64-linux-20261105-0.19.1-ingame"
+}

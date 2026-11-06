@@ -1,0 +1,1787 @@
+{
+ "game_file": "Malice (U).chd",
+ "game_size": 680588897,
+ "system": "amd64-linux",
+ "started": "2026-11-05T23:15:28+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.81,
+  "confirmed_by": "w110",
+  "stopped_at_s": 117.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 117.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   70.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "held",
+   "start"
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.54,
+   "held",
+   "start"
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "held",
+   "start"
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "held",
+   "start"
+  ],
+  [
+   113.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.0,
+   "bytes": 290876
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 30.1,
+   "bytes": 4613
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 46.0,
+   "bytes": 701913
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.6,
+   "bytes": 839451
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 71.9,
+   "bytes": 996367
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 93.4,
+   "bytes": 1511192
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 113.1,
+   "bytes": 1456707
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.83,
+   "got_s": 113.1,
+   "bytes": 1456707,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Malice (U),crc32=220d7443"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   27.9,
+   30.0,
+   10.4,
+   29.9,
+   28.6,
+   30.0,
+   29.1,
+   29.9,
+   27.0,
+   29.9,
+   27.2
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 56.7 ms (max 57.9, 30 frames)",
+   "hakuX-hle-pb: catch-up: 235626 stores waited for the decoder (caught up 106; it waited on the guest at a trap 681, a flip stall 234839, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2989.8 ms",
+   "hakuX-hle-emit: per s: draws=8278 verts=4292364 mergeable=0 (not: strip 5841 idx 2437 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1179 set1=7469 pc=4847 vi=856 vb=5940 vp=114 sc=114 dyn=3020 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=766198 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 4295 words 3414676 headers 252380 methods 3162270 faults 0 GET 03fa2d84 PUT 03fa2d84 binds 5 semaphores 49965 flips 2860 traps 13827 (9=10898 41=2860 5=68 28=1) runs 0 surfaces 9 clears 3416 swaps 2861 draws 774895 ff 0 skipped 0 () textures 296 rt uploads 4 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.4 ms (max 60.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 238506 stores waited for the decoder (caught up 106; it waited on the guest at a trap 684, a flip stall 237716, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3017.6 ms",
+   "hakuX-hle-emit: per s: draws=8409 verts=4354464 mergeable=0 (not: strip 5970 idx 2439 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1205 set1=7557 pc=4946 vi=854 vb=6068 vp=114 sc=114 dyn=2993 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=774607 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 27.2 fps (137 frames in 5.03 s)",
+   "hakuX-hle-pb: kicks 4295 words 3383758 headers 250764 methods 3132970 faults 0 GET 03f938c4 PUT 03f938c4 binds 5 semaphores 50491 flips 2890 traps 13977 (9=11018 41=2890 5=68 28=1) runs 0 surfaces 9 clears 3446 swaps 2891 draws 783160 ff 0 skipped 0 () textures 296 rt uploads 4 blits 0 m2mf 0 copies",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 57.5 ms (max 60.3, 30 frames)",
+   "hakuX-hle-pb: catch-up: 241386 stores waited for the decoder (caught up 106; it waited on the guest at a trap 690, a flip stall 240590, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3047.4 ms",
+   "hakuX-hle-emit: per s: draws=8265 verts=4302489 mergeable=0 (not: strip 5847 idx 2418 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1178 set1=7448 pc=4864 vi=857 vb=5949 vp=113 sc=113 dyn=2997 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=782872 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=310794 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 130664 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=48 misses=60",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 58 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5649d232f980",
+   "[Gamescope WSI] Destroyed swapchain: 0x5649d232f980",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 115.6,
+  "peak_rms_dbfs": -13.2,
+  "first_sound_s": 1.5,
+  "audible_fraction": 0.85,
+  "rms_dbfs_per_2s": [
+   -21.0,
+   -17.3,
+   -28.6,
+   -20.5,
+   -17.8,
+   -120.0,
+   -120.0,
+   -120.0,
+   -38.9,
+   -32.1,
+   -30.1,
+   -30.9,
+   -39.9,
+   -40.5,
+   -40.4,
+   -28.2,
+   -41.7,
+   -13.5,
+   -21.9,
+   -28.7,
+   -13.2,
+   -13.5,
+   -24.2,
+   -23.4,
+   -24.1,
+   -22.9,
+   -23.3,
+   -21.8,
+   -23.4,
+   -23.5,
+   -21.1,
+   -21.7,
+   -23.5,
+   -24.5,
+   -22.6,
+   -23.4,
+   -23.1,
+   -26.4,
+   -29.2,
+   -31.5,
+   -30.4,
+   -25.8,
+   -68.6,
+   -29.5,
+   -29.1,
+   -29.9,
+   -25.3,
+   -26.7,
+   -25.7,
+   -25.4,
+   -23.2,
+   -23.8,
+   -26.3,
+   -28.3,
+   -29.8,
+   -28.2,
+   -28.9,
+   -29.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.81 s (judged from screenshots); stopped at 117.5 s and the emulator closed",
+ "duration_s": 117.7,
+ "run_id": "amd64-linux-20261105-master-8b4c43f"
+}

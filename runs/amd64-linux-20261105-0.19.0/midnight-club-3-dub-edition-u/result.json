@@ -1,0 +1,477 @@
+{
+ "game_file": "Midnight Club 3 - DUB Edition (U).chd",
+ "game_size": 2304185212,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:05:14+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 170180
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 467009
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 46.0,
+   "bytes": 1199631
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Midnight Club 3 - DUB Edition (U),crc32=82c328c6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.0,
+   29.5,
+   29.4,
+   30.0,
+   29.8,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: targets' images landed 2401, copies queued behind them 0 (the decoder waited 3), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=37607 verts=2155227 mergeable=0 (not: strip 36767 idx 840 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 39, contiguous 0 pipe=10762 set1=12315 pc=25207 vi=2896 vb=27093 vp=420 sc=420 dyn=7688 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=940446 prog_fog=387031 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 6776 sysops 9026 (int 1027, of them ticks 285; hook 0) schedules 2142 switches 2123 idle 0 slices 8 page faults 0 mmio 11615 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.2 ms) irq3:90 (max 0.1 ms) irq5:2 (max 0.0 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1367 (pages 02607000:448 01a80000:384 01667000:320 01666000:256 025f6000:256 02556000:256) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 2572 KiB, contiguous 54272 KiB (31 blocks), virtual 7328 KiB, kernel pool 18 of 64 KiB (Ex 510, objects 12, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 1696 words 6062445 headers 768073 methods 5294322 faults 0 GET 03de287c PUT 03d55ac4 binds 5 semaphores 18179 flips 1283 traps 1291 (41=859 21=424 9=6 28=1 5=1) runs 0 surfaces 15 clears 2670 swaps 1284 draws 979667 ff 806916 skipped 0 () textures 723 rt uploads 6 blits 296 m2mf ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.8 ms (max 75.5, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1100 stores waited for the decoder (caught up 4; it waited on the guest at a trap 62, a flip stall 1034, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 14.7 ms",
+   "hakuX-hle-pb: targets' images landed 2547, copies queued behind them 0 (the decoder waited 3), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=37495 verts=2145381 mergeable=0 (not: strip 36655 idx 840 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 31, contiguous 0 pipe=10656 set1=12261 pc=25107 vi=2872 vb=26971 vp=427 sc=427 dyn=7798 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=977941 prog_fog=408397 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #15 frame 1308: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 68 ms apart) | swap +2.2 write +2.2 ready +2.3 flip +66.7 front +66.7 shown +76.2 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), ",
+   "hakuX-hle-pb: kicks 1663 words 6048323 headers 764196 methods 5284170 faults 0 GET 03ef957c PUT 03e6a440 binds 5 semaphores 19016 flips 1313 traps 1321 (41=889 21=424 9=6 28=1 5=1) runs 0 surfaces 15 clears 2792 swaps 1314 draws 1017165 ff 832613 skipped 0 () textures 731 rt uploads 6 blits 296 m2mf",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.7 ms (max 75.5, 29 frames)",
+   "hakuX-hle-pb: catch-up: 1157 stores waited for the decoder (caught up 4; it waited on the guest at a trap 63, a flip stall 1090, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 15.1 ms",
+   "hakuX-hle-pb: targets' images landed 2694, copies queued behind them 0 (the decoder waited 3), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=37427 verts=2143334 mergeable=0 (not: strip 36582 idx 845 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 41, contiguous 0 pipe=10544 set1=12241 pc=24987 vi=2896 vb=26990 vp=433 sc=433 dyn=7783 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1015368 prog_fog=429686 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2610458 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 128544 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=165 misses=67",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -4.7,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.7,
+  "rms_dbfs_per_2s": [
+   -16.8,
+   -4.7,
+   -6.4,
+   -34.8,
+   -9.4,
+   -10.1,
+   -19.9,
+   -20.3,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -11.7,
+   -12.5,
+   -15.7,
+   -14.4,
+   -16.5,
+   -15.1,
+   -15.1,
+   -16.1,
+   -14.6,
+   -13.8,
+   -66.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

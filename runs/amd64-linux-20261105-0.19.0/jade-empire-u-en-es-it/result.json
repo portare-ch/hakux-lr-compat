@@ -1,0 +1,477 @@
+{
+ "game_file": "Jade Empire (U) (En,Es,It).chd",
+ "game_size": 5317719375,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:00:22+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 226374
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 23.3,
+   "bytes": 1705105
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 45.8,
+   "bytes": 1461979
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Jade Empire (U) (En,Es,It),crc32=2c968ae4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   10.6,
+   29.5,
+   47.2,
+   60.0,
+   60.0,
+   60.0,
+   4.4,
+   56.4
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-disp: stats: 29.2 new frames/s, age front to taken 8.15 ms (max 10.04), gap 34.30 ms (max 1650.42, 20 over 25 ms)",
+   "hakuX-apu: method 0160 (0000002a) while trapped: the trap's 8000 (00000052) kept",
+   "hakuX-apu: method 0400 (53466109) while trapped: the trap's 8000 (00000052) kept",
+   "hakuX-apu: method 0404 (4030aa4b) while trapped: the trap's 8000 (00000052) kept",
+   "hakuX-apu: method 0408 (a4332625) while trapped: the trap's 8000 (00000052) kept",
+   "hakuX-hle-fps: 56.4 fps (283 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 7436 words 16820223 headers 1567182 methods 15242620 faults 0 GET 03edfc14 PUT 03edfc3c binds 5 semaphores 15269 flips 335 traps 5066 (9=1238 d=403 2d=403 4d=402 6d=402 8d=402 ad=402 cd=402) runs 0 surfaces 9 clears 1266 swaps 335 draws 85630 ff 0 skipped 23967 (draw_empty=23967)",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 19.5 ms (max 21.6, 60 frames)",
+   "hakuX-hle-pb: catch-up: 346 stores waited for the decoder (caught up 112; it waited on the guest at a trap 17, a flip stall 217, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 9.4 ms",
+   "hakuX-hle-pb: report gate: 184 reads waited for their visibility tests (+27), 244.5 ms in all, 5 given up, 59 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=18271 verts=17187019 mergeable=0 (not: strip 5314 idx 10737 state 2220 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6992 set1=18271 pc=11610 vi=4743 vb=12636 vp=497 sc=676 dyn=18193 fb=600",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=85610 prog_fog=76727 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #16 frame 372: front 49.9 ms after the last (expected 16.7), 2 dropped: UI missed 2 front frames (pickups 52 ms apart) | swap +38.5 write +38.5 ready +39.1 flip +49.9 front +49.9 shown +60.2 ms (vs the last front) | skipped: 2 written 2 ready 2 front (largest front gap 17 ms",
+   "hakuX-hle-pb: kicks 7306 words 16090070 headers 1486690 methods 14593640 faults 0 GET 03eddcb8 PUT 03ed8f3c binds 5 semaphores 18479 flips 395 traps 6098 (9=1478 d=487 2d=487 4d=487 6d=487 8d=487 ad=487 cd=486) runs 0 surfaces 9 clears 1506 swaps 395 draws 103098 ff 0 skipped 28774 (draw_empty=28774",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 19.9 ms (max 21.7, 58 frames)",
+   "hakuX-hle-pb: catch-up: 435 stores waited for the decoder (caught up 144; it waited on the guest at a trap 18, a flip stall 273, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 10.5 ms",
+   "hakuX-hle-pb: report gate: 206 reads waited for their visibility tests (+22), 251.0 ms in all, 5 given up, 59 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=17468 verts=16464138 mergeable=0 (not: strip 4880 idx 10449 state 2139 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6735 set1=17468 pc=11099 vi=4557 vb=11968 vp=481 sc=661 dyn=17447 fb=591",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=103078 prog_fog=92368 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=48040 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 153780 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=83 misses=15",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 44 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -17.5,
+  "first_sound_s": 4.5,
+  "audible_fraction": 0.69,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -23.5,
+   -27.3,
+   -24.1,
+   -18.4,
+   -17.5,
+   -37.2,
+   -37.1,
+   -38.6,
+   -34.1,
+   -34.7,
+   -35.1,
+   -34.0,
+   -34.4,
+   -35.1,
+   -36.1,
+   -95.0,
+   -120.0,
+   -58.7,
+   -47.7,
+   -46.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}

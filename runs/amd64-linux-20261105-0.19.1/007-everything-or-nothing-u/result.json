@@ -1,0 +1,472 @@
+{
+ "game_file": "007 - Everything or Nothing (U).chd",
+ "game_size": 1464611834,
+ "system": "amd64-linux",
+ "started": "2026-11-05T12:24:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.05,
+   "release"
+  ],
+  [
+   45.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 143054
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.4,
+   "bytes": 37116
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.01,
+   "got_s": 45.8,
+   "bytes": 506958
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,007 - Everything or Nothing (U),crc32=c4252065"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.7,
+   29.8,
+   29.4,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 42.5, 30 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=210 mergeable=0 (not: strip 30 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=31 vb=31 vp=60 sc=60 dyn=523 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3860 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3618 sysops 5849 (int 1047, of them ticks 201; hook 0) schedules 2171 switches 1913 idle 299 slices 30 page faults 0 mmio 5249 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.1 ms) irq3:90 (max 0.1 ms) irq5:1 (max 0.0 ms) | dpc max wait 0.1 run 0.1 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4498 (pages 022ac000:384 022ec000:384 0232c000:384 0236c000:384 023ac000:384 022c0000:384) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 13900 KiB, contiguous 29468 KiB (38 blocks), virtual 20944 KiB, kernel pool 110 of 128 KiB (Ex 519, objects 7, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 242 words 29746 headers 9068 methods 20624 faults 0 GET 03fbc880 PUT 03fbd3e8 binds 5 semaphores 4050 flips 1270 traps 1283 (41=1270 9=12 28=1) runs 0 surfaces 5 clears 2247 swaps 1270 draws 3931 ff 0 skipped 0 () textures 880 rt uploads 2 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 42.7, 30 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=210 mergeable=0 (not: strip 30 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=30 vb=30 vp=60 sc=60 dyn=510 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3920 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 242 words 29746 headers 9068 methods 20624 faults 0 GET 03fcd030 PUT 03fcdb98 binds 5 semaphores 4142 flips 1300 traps 1313 (41=1300 9=12 28=1) runs 0 surfaces 5 clears 2307 swaps 1300 draws 3991 ff 0 skipped 0 () textures 910 rt uploads 2 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.5 ms (max 42.7, 31 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=210 mergeable=0 (not: strip 30 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=30 vb=30 vp=60 sc=60 dyn=510 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3980 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 245 words 29746 headers 9068 methods 20608 faults 0 GET 03fdd7e0 PUT 03fde610 binds 5 semaphores 4234 flips 1330 traps 1343 (41=1330 9=12 28=1) runs 0 surfaces 5 clears 2367 swaps 1330 draws 4051 ff 0 skipped 0 () textures 940 rt uploads 2 blits 0 m2mf 0 copies skipped 0 vis 0 (k",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 58.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=60 verts=210 mergeable=0 (not: strip 30 idx 30 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=60 set1=60 pc=60 vi=30 vb=30 vp=60 sc=60 dyn=510 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4040 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=175081 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 20500 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=23 misses=11",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 52 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.4,
+  "peak_rms_dbfs": -12.0,
+  "first_sound_s": 8.0,
+  "audible_fraction": 0.67,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -15.5,
+   -14.6,
+   -22.3,
+   -20.1,
+   -15.8,
+   -24.2,
+   -17.9,
+   -22.7,
+   -21.5,
+   -30.3,
+   -15.8,
+   -14.3,
+   -14.5,
+   -14.3,
+   -12.0,
+   -14.0,
+   -14.2,
+   -14.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.2,
+ "run_id": "amd64-linux-20261105-0.19.1"
+}

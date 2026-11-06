@@ -1,0 +1,478 @@
+{
+ "game_file": "Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2336329484,
+ "system": "amd64-linux",
+ "started": "2026-11-05T01:15:56+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 25.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 10.0,
+  "mid_shot": true,
+  "hard_limit": 60.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.1,
+   "shot",
+   "mid"
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "exit": {
+  "how": "quit",
+  "at_s": 46.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   22.13,
+   "shot",
+   "mid"
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.0,
+   "release"
+  ],
+  [
+   45.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 251041
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 22.13,
+   "got_s": 22.6,
+   "bytes": 510345
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 45.02,
+   "got_s": 46.0,
+   "bytes": 880658
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   26.4,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   33.5,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   40.6,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Prince of Persia - The Two Thrones (U) (En,Fr,De,Es,It),crc32=73498994"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   30.0,
+   29.8,
+   29.5,
+   29.3,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 956 words 6097495 headers 627672 methods 5469823 faults 0 GET 03daf8ec PUT 03ee7a70 binds 5 semaphores 11340 flips 1083 traps 1726 (41=1083 5=636 9=6 28=1) runs 0 surfaces 17 clears 1757 swaps 1083 draws 526664 ff 0 skipped 0 () textures 523 rt uploads 27 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 71.9 ms (max 74.5, 30 frames)",
+   "hakuX-hle-pb: report gate: 663 reads waited for their visibility tests (+30), 828.1 ms in all, 2 given up, 354 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=24906 verts=5108028 mergeable=0 (not: strip 0 idx 21666 state 3240 work 0 gap 0) batches=0 of 0 draws indexed: no state between 28, contiguous 0 pipe=8585 set1=12289 pc=20111 vi=857 vb=19078 vp=263 sc=712 dyn=6270 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=526597 prog_fog=349933 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3698 sysops 5713 (int 778, of them ticks 94; hook 0) schedules 1972 switches 1589 idle 403 slices 12 page faults 0 mmio 8527 apu waits 0 vm pages +2 -0 isr irq1:499 (max 1.7 ms) irq3:119 (max 1.9 ms) | dpc max wait 0.4 run 0.5 ms, 0 over 8 ms | holds 151 (longest 2.",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 30 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 21580 KiB, contiguous 19904 KiB (494 blocks), virtual 22120 KiB, kernel pool 147 of 192 KiB (Ex 565, objects 8, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-pb: kicks 974 words 6242143 headers 633743 methods 5608380 faults 0 GET 03d96edc PUT 03d2ca50 binds 5 semaphores 11821 flips 1113 traps 1785 (41=1113 5=665 9=6 28=1) runs 0 surfaces 17 clears 1817 swaps 1113 draws 552100 ff 0 skipped 0 () textures 523 rt uploads 27 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 71.7 ms (max 74.3, 30 frames)",
+   "hakuX-hle-pb: report gate: 694 reads waited for their visibility tests (+31), 858.0 ms in all, 2 given up, 370 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=25436 verts=5347488 mergeable=0 (not: strip 0 idx 22196 state 3240 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=8830 set1=12332 pc=20676 vi=861 vb=19603 vp=264 sc=714 dyn=6460 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=552033 prog_fog=366369 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 971 words 6223893 headers 630690 methods 5593198 faults 0 GET 03d5fbe0 PUT 03ef2164 binds 5 semaphores 12303 flips 1143 traps 1844 (41=1143 5=694 9=6 28=1) runs 0 surfaces 17 clears 1877 swaps 1143 draws 577419 ff 0 skipped 0 () textures 523 rt uploads 27 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 72.0 ms (max 90.1, 30 frames)",
+   "hakuX-hle-pb: report gate: 724 reads waited for their visibility tests (+30), 896.7 ms in all, 2 given up, 388 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=25319 verts=5334384 mergeable=0 (not: strip 0 idx 22175 state 3144 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=8806 set1=12215 pc=20570 vi=858 vb=19478 vp=260 sc=709 dyn=6419 fb=90",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=577352 prog_fog=382735 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=243388 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 154688 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.0 ms), spirv hits=204 misses=44",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms"
+  ]
+ },
+ "audio": {
+  "seconds": 44.7,
+  "peak_rms_dbfs": -19.5,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.81,
+  "rms_dbfs_per_2s": [
+   -32.1,
+   -29.2,
+   -29.3,
+   -27.9,
+   -21.5,
+   -19.5,
+   -21.2,
+   -24.2,
+   -120.0,
+   -120.0,
+   -53.0,
+   -34.7,
+   -27.4,
+   -28.4,
+   -28.3,
+   -28.7,
+   -28.2,
+   -25.0,
+   -26.7,
+   -25.5,
+   -25.5,
+   -25.6,
+   -26.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 46.4,
+ "run_id": "amd64-linux-20261105-0.19.0"
+}
