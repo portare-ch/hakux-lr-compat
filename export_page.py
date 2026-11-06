@@ -3,8 +3,9 @@
 
   export_page.py <out dir>
 
-Writes <out>/index.html (the list as embedded JSON, from page_template.html)
-and <out>/packs/. An artifact holds at most 511 files, so the captures are
+Writes <out>/index.html (the list as embedded JSON, from page_template.html),
+<out>/web.html (the same page as a whole HTML document, for a web server, as
+https://hakuxlr.portareos.org serves it next to packs/) and <out>/packs/. An artifact holds at most 511 files, so the captures are
 packed in groups of GROUP games, in the order the games were tested:
 
   packs/gNNN-<hash>-t.webp  thumbnails, 320x240, a row per game (boot, mid, final)
@@ -33,6 +34,18 @@ GROUP = 6
 SLOT = 46.0
 THUMB, FULL = "320x240", "800x600"
 FORMAT = 1  # bump to rebuild every pack
+
+
+# The artifact host wraps the page in a document with this reset; a web server gets it written out.
+WEB_HEAD = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Which original Xbox games run on hakuX-lr: status, screenshots and tested hardware for every NTSC-U disc.">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+"""
 
 
 def run(*cmd):
@@ -180,8 +193,12 @@ def main():
     data = {"systems": db["systems"], "configs": configs, "games": games}
     tpl = open(os.path.join(HERE, "page_template.html")).read()
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    page = tpl.replace("/*DATA*/null", blob)
     with open(os.path.join(out, "index.html"), "w") as f:
-        f.write(tpl.replace("/*DATA*/null", blob))
+        f.write(page)
+    cut = page.index("</style>") + len("</style>")   # the page's title, fonts and styles go in the head
+    with open(os.path.join(out, "web.html"), "w") as f:
+        f.write(WEB_HEAD + page[:cut] + "\n</head>\n<body>\n" + page[cut:].lstrip("\n") + "\n</body>\n</html>\n")
     print(f"{len(games)} games, {len(groups)} packs ({len(keep)} files) -> {out}")
 
 

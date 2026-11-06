@@ -151,7 +151,9 @@ Re-ingesting the same run keeps reviewed entries. Use `--force` to replace them.
 (the list as embedded JSON, from `page_template.html`) and `<dir>/packs/`.
 That directory is what is published as the artifact
 https://claude.ai/artifact/XHkeBBWZiDSu6znZzXbE76. Republish to the same URL
-after re-exporting.
+after re-exporting. `<dir>/web.html` is the same page as a whole HTML document;
+with `packs/` it is served at http://hakuxlr.portareos.org (nginx on AlmaLinux,
+`/var/www/hakuxlr`, site config `/etc/nginx/conf.d/hakuxlr.conf`).
 
 An artifact version holds at most 511 files and 256 MB (one publish: 255
 files, 64 MB), so captures are packed six games to a group:
