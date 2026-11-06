@@ -113169,13 +113169,13 @@
   "silent-hill-2-restless-dreams-u-en-ja": {
    "results": {
     "amd64-linux": {
-     "stage": "Playable",
+     "stage": "In-game",
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen's background is broken: split into shifted blocks at 45 s, and at 70 s only the top-left quarter is right with the rest smeared lines.",
+      "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen is broken: only the top-left part of the frozen game picture is drawn and the rest of the screen is smeared lines (45 s and 70 s).",
       "audio": "sound from 9.5 s, audible in 80 % of the run, loudest -21.7 dBFS RMS",
-      "notes": "In control of James in the restroom from about 30 s; the Start presses paused it at 45 s and 70 s, and the run stopped at 75 s."
+      "notes": "In control of James in the restroom from about 30 s, with sound. The Start presses paused it at 45 s and 70 s, and each time the pause screen was unreadable, so this stays In-game until that is fixed."
      },
      "auto": {
       "outcome": "Completed",
@@ -113299,7 +113299,7 @@
      },
      "tested_at": "2026-11-06T23:35:56+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-06T23:54:36+01:00"
+     "reviewed_at": "2026-11-07T00:12:32+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
