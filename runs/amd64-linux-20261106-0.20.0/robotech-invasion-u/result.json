@@ -1,0 +1,3220 @@
+{
+ "game_file": "Robotech - Invasion (U).chd",
+ "game_size": 1472166889,
+ "system": "amd64-linux",
+ "started": "2026-11-06T23:20:52+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    193.01,
+    "b"
+   ],
+   [
+    293.02,
+    "down"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w190",
+    "t": 189.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w250",
+    "t": 249.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w270",
+    "t": 269.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 301.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.83,
+   "watch",
+   "w130"
+  ],
+  [
+   130.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ],
+  [
+   170.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.01,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   195.51,
+   "held",
+   "start"
+  ],
+  [
+   198.02,
+   "held",
+   "a"
+  ],
+  [
+   200.52,
+   "held",
+   "start"
+  ],
+  [
+   203.03,
+   "held",
+   "a"
+  ],
+  [
+   205.53,
+   "held",
+   "start"
+  ],
+  [
+   208.04,
+   "held",
+   "a"
+  ],
+  [
+   209.84,
+   "watch",
+   "w210"
+  ],
+  [
+   210.54,
+   "held",
+   "start"
+  ],
+  [
+   213.05,
+   "held",
+   "a"
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.83,
+   "watch",
+   "w230"
+  ],
+  [
+   230.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.82,
+   "watch",
+   "w250"
+  ],
+  [
+   250.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.82,
+   "watch",
+   "w270"
+  ],
+  [
+   270.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.02,
+   "tap",
+   "down",
+   "instead of",
+   "a"
+  ],
+  [
+   295.02,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.0,
+   "bytes": 482014
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 33.8,
+   "bytes": 982307
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 48.6,
+   "bytes": 1046455
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 54.4,
+   "bytes": 903850
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.0,
+   "bytes": 858651
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.8,
+   "got_s": 91.4,
+   "bytes": 483920
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 111.4,
+   "bytes": 485041
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.83,
+   "got_s": 131.4,
+   "bytes": 487586
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 151.4,
+   "bytes": 482808
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 171.4,
+   "bytes": 484540
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.8,
+   "got_s": 191.6,
+   "bytes": 483920
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.84,
+   "got_s": 211.5,
+   "bytes": 507338
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.83,
+   "got_s": 231.4,
+   "bytes": 487347
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.82,
+   "got_s": 251.6,
+   "bytes": 482822
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.82,
+   "got_s": 271.4,
+   "bytes": 484541
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 291.4,
+   "bytes": 483922
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 301.5,
+   "bytes": 482394
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   161.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   165.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   167.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   172.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   173.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   174.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   176.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   177.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   178.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   179.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   181.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   182.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   183.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   184.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   185.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   186.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   187.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   188.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   189.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   190.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   191.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   192.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   193.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   194.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   195.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   196.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   197.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   199.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   201.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   205.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   207.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   208.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   211.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   212.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   213.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   214.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   217.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   218.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   219.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   220.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   221.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   222.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   223.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   224.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   225.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   226.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   227.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   228.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   229.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   230.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   231.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   232.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   233.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   234.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   235.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   236.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   237.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   238.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   239.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   240.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   242.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   243.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   244.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   245.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   246.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   247.0,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   248.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   249.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   250.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   251.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   252.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   253.1,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   254.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   255.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   256.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   257.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   258.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   259.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   260.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   261.2,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   262.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   263.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   264.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   265.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   266.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   267.3,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   268.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   269.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   270.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   271.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   272.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   273.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   274.4,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   275.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   276.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   277.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   278.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   279.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   280.5,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   281.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   282.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   283.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   284.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   285.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   286.6,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   287.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   288.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   289.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   290.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   291.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   292.7,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   293.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   294.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   295.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   296.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   297.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   298.8,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   299.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ],
+  [
+   300.9,
+   "GET_STATUS PLAYING xbox,Robotech - Invasion (U),crc32=80650daa"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55470.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   11.8,
+   20.1,
+   20.1,
+   22.1,
+   29.9,
+   29.7,
+   27.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.3 ms (max 42.0, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1467 stores waited for the decoder (caught up 178; it waited on the guest at a trap 1289, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 227.7 ms",
+   "hakuX-hle-emit: per s: draws=54570 verts=5601900 mergeable=0 (not: strip 52020 idx 2550 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1365 set1=54570 pc=2715 vi=437 vb=51411 vp=436 sc=436 dyn=1484 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=13784759 prog_fog=1082638 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 308 words 5762892 headers 766400 methods 4996424 faults 0 GET 03fd0538 PUT 03fd0538 binds 5 semaphores 34542 flips 8493 traps 8500 (1=8493 9=6 28=1) runs 0 surfaces 14 clears 67326 swaps 8493 draws 13839896 ff 0 skipped 0 () textures 171 (171 held, 15 MiB) rt uploads 7 blits 0 m2",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.9 ms (max 59.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1470 stores waited for the decoder (caught up 179; it waited on the guest at a trap 1291, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 227.9 ms",
+   "hakuX-hle-emit: per s: draws=54570 verts=5601900 mergeable=0 (not: strip 52020 idx 2550 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1365 set1=54570 pc=2710 vi=437 vb=51407 vp=436 sc=436 dyn=1485 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=13839329 prog_fog=1082638 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03115000, intr 00000004/80000073",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.63 ms each (max 17.40), video 16.57 ms (max 17.35)",
+   "hakuX-hle-pb: kicks 335 words 5762891 headers 766400 methods 4996440 faults 0 GET 03fd5290 PUT 03fd5290 binds 5 semaphores 34667 flips 8523 traps 8530 (1=8523 9=6 28=1) runs 0 surfaces 14 clears 67596 swaps 8523 draws 13894466 ff 0 skipped 0 () textures 171 (171 held, 15 MiB) rt uploads 7 blits 0 m2",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 41.6, 30 frames)",
+   "hakuX-hle-pb: catch-up: 1500 stores waited for the decoder (caught up 180; it waited on the guest at a trap 1320, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 229.1 ms",
+   "hakuX-hle-emit: per s: draws=54570 verts=5601900 mergeable=0 (not: strip 52020 idx 2550 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1374 set1=54570 pc=2724 vi=447 vb=51406 vp=446 sc=446 dyn=1634 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=13893899 prog_fog=1082638 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1182896 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 42 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x562453e40a00",
+   "[Gamescope WSI] Destroyed swapchain: 0x562453e40a00",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 300.8,
+  "peak_rms_dbfs": -19.9,
+  "first_sound_s": 10.0,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -95.9,
+   -95.8,
+   -95.9,
+   -95.8,
+   -30.5,
+   -30.5,
+   -120.0,
+   -32.5,
+   -26.0,
+   -28.2,
+   -120.0,
+   -41.0,
+   -35.3,
+   -24.8,
+   -25.5,
+   -26.0,
+   -26.5,
+   -24.5,
+   -25.3,
+   -24.7,
+   -25.3,
+   -24.1,
+   -25.3,
+   -23.5,
+   -23.4,
+   -22.9,
+   -120.0,
+   -34.3,
+   -29.7,
+   -25.7,
+   -22.9,
+   -21.1,
+   -23.8,
+   -22.2,
+   -27.6,
+   -19.9,
+   -20.6,
+   -23.9,
+   -24.6,
+   -24.2,
+   -22.9,
+   -24.0,
+   -24.3,
+   -24.7,
+   -24.8,
+   -24.3,
+   -23.9,
+   -23.9,
+   -24.1,
+   -24.8,
+   -28.5,
+   -24.6,
+   -24.4,
+   -24.6,
+   -24.4,
+   -24.7,
+   -24.4,
+   -24.7,
+   -24.2,
+   -24.6,
+   -24.2,
+   -24.3,
+   -24.2,
+   -24.2,
+   -24.1,
+   -24.2,
+   -24.5,
+   -24.5,
+   -24.8,
+   -24.5,
+   -24.8,
+   -24.8,
+   -24.8,
+   -24.4,
+   -24.7,
+   -24.7,
+   -24.6,
+   -24.6,
+   -23.1,
+   -24.6,
+   -23.8,
+   -24.5,
+   -25.1,
+   -24.5,
+   -24.5,
+   -24.3,
+   -24.2,
+   -24.5,
+   -23.9,
+   -24.5,
+   -24.7,
+   -24.1,
+   -24.8,
+   -24.4,
+   -24.4,
+   -22.7,
+   -24.9,
+   -24.7,
+   -24.3,
+   -24.5,
+   -24.5,
+   -24.0,
+   -24.2,
+   -24.3,
+   -24.0,
+   -24.1,
+   -23.8,
+   -23.7,
+   -24.0,
+   -24.3,
+   -26.8,
+   -26.6,
+   -25.0,
+   -24.8,
+   -25.3,
+   -24.9,
+   -25.0,
+   -24.5,
+   -25.0,
+   -24.9,
+   -25.1,
+   -24.6,
+   -25.3,
+   -24.6,
+   -25.0,
+   -24.8,
+   -24.9,
+   -24.6,
+   -28.2,
+   -29.8,
+   -32.0,
+   -24.8,
+   -24.3,
+   -24.2,
+   -24.4,
+   -24.3,
+   -24.2,
+   -24.1,
+   -24.2,
+   -24.2,
+   -24.1,
+   -24.1,
+   -23.9,
+   -24.6,
+   -24.5,
+   -24.7,
+   -23.7,
+   -24.7,
+   -24.8,
+   -35.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 301.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

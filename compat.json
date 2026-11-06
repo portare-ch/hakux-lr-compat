@@ -107168,6 +107168,2113 @@
    "size": 276353280,
    "title_id": "4A410001"
   },
+  "quantum-redshift-europe-australia-en-fr-de": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Microsoft Game Studios logo, character select, the racer introductions and the starting grid with HUD render correctly at 50 fps (PAL).",
+      "audio": "sound from 0.5 s, audible in 89 % of the run, loudest -10.2 dBFS RMS",
+      "notes": "Character select at 30 s and the pre-race racer introductions from about 45 s; at 70 s the player's ship sits on the grid (timer 00:00.00, 0 km/h) and the run stopped at 75 s before the race clock started."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.85 s (judged from screenshots); stopped at 75.3 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 75.5,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 49.6,
+      "fps_min": 23.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 50.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -10.2,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.89,
+      "audio_seconds": 74.3,
+      "images": {
+       "boot": {
+        "mean": 0.776,
+        "sd": 0.18,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.223,
+        "sd": 0.189,
+        "black": false
+       },
+       "final": {
+        "mean": 0.249,
+        "sd": 0.175,
+        "black": false
+       },
+       "mid_final_rmse": 0.218
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.85,
+       "stopped_at_s": 75.3,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.85,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-europe-australia-en-fr-de/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:12:09+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Quantum Redshift",
+   "file": "Quantum Redshift (Europe, Australia) (En,Fr,De).chd",
+   "region": "",
+   "languages": "En,Fr,De",
+   "size": 2235575913,
+   "title_id": "4D530015"
+  },
+  "quantum-redshift-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Microsoft Game Studios logo, character select, the racer introductions and the starting grid with HUD render correctly at 60 fps.",
+      "audio": "sound from 0.5 s, audible in 89 % of the run, loudest -9.7 dBFS RMS",
+      "notes": "Character select at 30 s and the pre-race racer introductions from about 45 s; at 70 s the player's ship sits on the grid (timer 00:00.00, 0 mph) and the run stopped at 75 s before the race clock started."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 74.7 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 74.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.4,
+      "fps_min": 27.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -9.7,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.89,
+      "audio_seconds": 73.7,
+      "images": {
+       "boot": {
+        "mean": 0.773,
+        "sd": 0.18,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.223,
+        "sd": 0.189,
+        "black": false
+       },
+       "final": {
+        "mean": 0.249,
+        "sd": 0.174,
+        "black": false
+       },
+       "mid_final_rmse": 0.219
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 74.7,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/quantum-redshift-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:12:13+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Quantum Redshift",
+   "file": "Quantum Redshift (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2286226632,
+   "title_id": "4D530015"
+  },
+  "rallisport-challenge-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Intro, a stage-preview loading screen and the dirt rally stage with HUD render correctly at 60 fps.",
+      "audio": "sound from 5.0 s, audible in 80 % of the run, loudest -9.5 dBFS RMS",
+      "notes": "The rally is running by 45 s (race time 00:02.62, position 4 of 4) and reads 00:20.27 at 70 s, with the car still at the start line since nothing applies throttle; the run stopped at 77 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.84 s (judged from screenshots); stopped at 77.3 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 77.4,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 26.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 59.9,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 1202,
+      "audio_peak_rms_dbfs": -9.5,
+      "audio_first_sound_s": 5.0,
+      "audio_audible_fraction": 0.8,
+      "audio_seconds": 75.3,
+      "images": {
+       "boot": {
+        "mean": 0.042,
+        "sd": 0.054,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.524,
+        "sd": 0.172,
+        "black": false
+       },
+       "final": {
+        "mean": 0.525,
+        "sd": 0.172,
+        "black": false
+       },
+       "mid_final_rmse": 0.042
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.84,
+       "stopped_at_s": 77.3,
+       "verdicts": [
+        [
+         29.84,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "INGAME"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rallisport-challenge-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:12:25+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "RalliSport Challenge",
+   "file": "RalliSport Challenge (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1766147152,
+   "title_id": "4D53000F"
+  },
+  "rally-fusion-race-of-champions-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Logos, the Arctica track select and the snow rally race with HUD and opponent tags render correctly at 60 fps.",
+      "audio": "sound from 9.0 s, audible in 75 % of the run, loudest -9.2 dBFS RMS",
+      "notes": "Race starts at about 45 s (6th, 00:00.00) and the timer reads 00:19.04 at 70 s; the run stopped at 76 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 76.4 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 76.5,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.6,
+      "fps_min": 44.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -9.2,
+      "audio_first_sound_s": 9.0,
+      "audio_audible_fraction": 0.75,
+      "audio_seconds": 75.8,
+      "images": {
+       "boot": {
+        "mean": 0.046,
+        "sd": 0.147,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.386,
+        "sd": 0.218,
+        "black": false
+       },
+       "final": {
+        "mean": 0.375,
+        "sd": 0.218,
+        "black": false
+       },
+       "mid_final_rmse": 0.089
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 76.4,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rally-fusion-race-of-champions-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:13:30+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rally Fusion - Race of Champions",
+   "file": "Rally Fusion - Race of Champions (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 684201019,
+   "title_id": "41560009"
+  },
+  "rapala-pro-fishing-japan-europe": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Activision logo, the Boat Help screen and the lake with the boat and compass HUD render correctly; 60 fps in game.",
+      "audio": "sound from 0.5 s, audible in 86 % of the run, loudest -23.7 dBFS RMS",
+      "notes": "Boat Help screen at 30 s, then in the boat on the lake from about 45 s until the run stopped at 59 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.81 s (judged from screenshots); stopped at 59.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 59.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 52.8,
+      "fps_min": 19.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 59.6,
+      "longest_hang_s": 1.5,
+      "longest_hang_after_frame": 452,
+      "audio_peak_rms_dbfs": -23.7,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.86,
+      "audio_seconds": 58.3,
+      "images": {
+       "boot": {
+        "mean": 0.126,
+        "sd": 0.308,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.291,
+        "sd": 0.149,
+        "black": false
+       },
+       "final": {
+        "mean": 0.291,
+        "sd": 0.147,
+        "black": false
+       },
+       "mid_final_rmse": 0.094
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.81,
+       "stopped_at_s": 59.1,
+       "verdicts": [
+        [
+         29.81,
+         "INGAME"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rapala-pro-fishing-japan-europe/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:13:45+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rapala Pro Fishing",
+   "file": "Rapala Pro Fishing (Japan, Europe).chd",
+   "region": "",
+   "languages": "",
+   "size": 580860093,
+   "title_id": "4156003A"
+  },
+  "rayman-3-hoodlum-havoc-u-en-fr-de-es-it": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Intro cutscene, the dark forest level with Rayman and the health HUD, and the Fairy Council pause screen render correctly at 60 fps.",
+      "audio": "sound from 7.0 s, audible in 4 % of the run, loudest -24.6 dBFS RMS",
+      "notes": "In game at 30 s; from 45 s the Start presses left it on the Fairy Council pause/score screen (silent) until the end at 303 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 303.1,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 18.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 120,
+      "audio_peak_rms_dbfs": -24.6,
+      "audio_first_sound_s": 7.0,
+      "audio_audible_fraction": 0.04,
+      "audio_seconds": 301.6,
+      "images": {
+       "boot": {
+        "mean": 0.201,
+        "sd": 0.13,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.457,
+        "sd": 0.137,
+        "black": false
+       },
+       "final": {
+        "mean": 0.459,
+        "sd": 0.138,
+        "black": false
+       },
+       "mid_final_rmse": 0.035
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.82,
+         "INGAME"
+        ],
+        [
+         49.82,
+         "OTHER"
+        ],
+        [
+         69.81,
+         "OTHER"
+        ],
+        [
+         89.8,
+         "OTHER"
+        ],
+        [
+         109.85,
+         "OTHER"
+        ],
+        [
+         129.84,
+         "OTHER"
+        ],
+        [
+         149.83,
+         "OTHER"
+        ],
+        [
+         169.82,
+         "OTHER"
+        ],
+        [
+         189.82,
+         "OTHER"
+        ],
+        [
+         209.81,
+         "OTHER"
+        ],
+        [
+         229.81,
+         "OTHER"
+        ],
+        [
+         249.82,
+         "OTHER"
+        ],
+        [
+         269.82,
+         "OTHER"
+        ],
+        [
+         289.82,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rayman-3-hoodlum-havoc-u-en-fr-de-es-it/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:14:46+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rayman 3 - Hoodlum Havoc",
+   "file": "Rayman 3 - Hoodlum Havoc (U) (En,Fr,De,Es,It).chd",
+   "region": "USA",
+   "languages": "En,Fr,De,Es,It",
+   "size": 1263572107,
+   "title_id": "55530002"
+  },
+  "raze-s-hell-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Artech logo, the letterboxed intro cutscene and the level with the player character and tutorial text render correctly at 60 fps.",
+      "audio": "sound from 5.0 s, audible in 69 % of the run, loudest -8.0 dBFS RMS",
+      "notes": "Intro cutscene until about 50 s; in game from about 70 s ('Use the right thumbstick to look up.') and the run stopped at 99 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.84 s (judged from screenshots); stopped at 98.7 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 98.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 46.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -8.0,
+      "audio_first_sound_s": 5.0,
+      "audio_audible_fraction": 0.69,
+      "audio_seconds": 96.9,
+      "images": {
+       "boot": {
+        "mean": 0.812,
+        "sd": 0.268,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.216,
+        "sd": 0.18,
+        "black": false
+       },
+       "final": {
+        "mean": 0.321,
+        "sd": 0.248,
+        "black": false
+       },
+       "mid_final_rmse": 0.336
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.84,
+       "stopped_at_s": 98.7,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.85,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/raze-s-hell-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:17:04+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Raze's Hell",
+   "file": "Raze's Hell (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1361634160,
+   "title_id": "4D4A0011"
+  },
+  "real-world-golf-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Menu",
+     "outcome": "Needs manual input",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Gametrak logo, the title and the attract-mode golf scenes render correctly; 60 fps on the title, the attract scenes run at about 25 fps and drop to 10-13 fps.",
+      "audio": "sound from -0.0 s, audible in 56 % of the run, loudest -21.7 dBFS RMS",
+      "notes": "Stays on the title with 'Gametrak unit not detected - Please connect the Gametrak unit' (the game needs the Gametrak peripheral); only the attract demo plays (about 90-170 s and 250-300 s)."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 302.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 26.9,
+      "fps_min": 10.0,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 25.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -21.7,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.57,
+      "audio_seconds": 289.2,
+      "images": {
+       "boot": {
+        "mean": 0.026,
+        "sd": 0.121,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.37,
+        "sd": 0.234,
+        "black": false
+       },
+       "final": {
+        "mean": 0.718,
+        "sd": 0.235,
+        "black": false
+       },
+       "mid_final_rmse": 0.476
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "OTHER"
+        ],
+        [
+         69.83,
+         "OTHER"
+        ],
+        [
+         89.83,
+         "OTHER"
+        ],
+        [
+         109.83,
+         "OTHER"
+        ],
+        [
+         129.82,
+         "OTHER"
+        ],
+        [
+         149.81,
+         "INGAME"
+        ],
+        [
+         169.81,
+         "INGAME"
+        ],
+        [
+         169.81,
+         "OTHER"
+        ],
+        [
+         189.8,
+         "OTHER"
+        ],
+        [
+         209.8,
+         "OTHER"
+        ],
+        [
+         229.81,
+         "OTHER"
+        ],
+        [
+         249.85,
+         "INGAME"
+        ],
+        [
+         269.85,
+         "OTHER"
+        ],
+        [
+         289.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/real-world-golf-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:17:09+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Real World Golf",
+   "file": "Real World Golf (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 484339422,
+   "title_id": "49410001"
+  },
+  "red-dead-revolver-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Rockstar logo, the Gunslinger Profiles screen, the opening cutscene and the field with Red and the tutorial render correctly at 60 fps.",
+      "audio": "sound from -0.0 s, audible in 64 % of the run, loudest -17.9 dBFS RMS",
+      "notes": "Profile entry at 30 s and cutscene at 50 s; in game from about 70 s ('Move: left thumbstick' with health and ammo HUD) and the run stopped at 99 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.84 s (judged from screenshots); stopped at 98.5 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 98.7,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 58.5,
+      "fps_min": 36.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 1.5,
+      "longest_hang_after_frame": 1868,
+      "audio_peak_rms_dbfs": -17.9,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.64,
+      "audio_seconds": 97.4,
+      "images": {
+       "boot": {
+        "mean": 0.006,
+        "sd": 0.019,
+        "black": true
+       },
+       "mid": {
+        "mean": 0.001,
+        "sd": 0.002,
+        "black": true
+       },
+       "final": {
+        "mean": 0.178,
+        "sd": 0.113,
+        "black": false
+       },
+       "mid_final_rmse": 0.21
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.84,
+       "stopped_at_s": 98.5,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.8,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/red-dead-revolver-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:17:11+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Red Dead Revolver",
+   "file": "Red Dead Revolver (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2070848908,
+   "title_id": "5454001A"
+  },
+  "red-star-the-world-proto": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Acclaim logo and the level with the player, health HUD and the game's scanline frame render correctly at 60 fps.",
+      "audio": "sound from 2.0 s, audible in 50 % of the run, loudest -17.9 dBFS RMS",
+      "notes": "In game from about 45 s; the Start presses paused it at 45 s and 70 s, and the run stopped at 77 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.84 s (judged from screenshots); stopped at 77.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 77.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.6,
+      "fps_min": 26.5,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 1.5,
+      "longest_hang_after_frame": 64,
+      "audio_peak_rms_dbfs": -17.9,
+      "audio_first_sound_s": 2.0,
+      "audio_audible_fraction": 0.5,
+      "audio_seconds": 75.7,
+      "images": {
+       "boot": {
+        "mean": 0.045,
+        "sd": 0.175,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.285,
+        "sd": 0.16,
+        "black": false
+       },
+       "final": {
+        "mean": 0.363,
+        "sd": 0.173,
+        "black": false
+       },
+       "mid_final_rmse": 0.192
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.84,
+       "stopped_at_s": 77.1,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "INGAME"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/red-star-the-world-proto/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:17:27+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Red Star, The",
+   "file": "Red Star, The (World) (Proto).chd",
+   "region": "World",
+   "languages": "",
+   "size": 368107375,
+   "title_id": "4143807E"
+  },
+  "redcard-20-03-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Title, team select and the match with score, clock and radar render correctly at 60 fps.",
+      "audio": "sound from 0.5 s, audible in 88 % of the run, loudest -9.1 dBFS RMS",
+      "notes": "Kick-off at about 50 s (USA vs France, 00:00); at 70 s the match clock reads 02:10 at 0-0, and the run stopped at 76 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 76.2 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 76.3,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 54.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -9.1,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.88,
+      "audio_seconds": 75.6,
+      "images": {
+       "boot": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "black": true
+       },
+       "mid": {
+        "mean": 0.187,
+        "sd": 0.272,
+        "black": false
+       },
+       "final": {
+        "mean": 0.244,
+        "sd": 0.167,
+        "black": false
+       },
+       "mid_final_rmse": 0.329
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 76.2,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/redcard-20-03-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:18:33+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "RedCard 20-03",
+   "file": "RedCard 20-03 (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1882056472,
+   "title_id": "4D57000F"
+  },
+  "reign-of-fire-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Menu",
+     "outcome": "Crash",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Intro movie and the Basic Training mission screen render correctly at 30-60 fps; black after the crash.",
+      "audio": "sound from 10.5 s, audible in 60 % of the run, loudest -19.7 dBFS RMS",
+      "notes": "Reached the Basic Training mission screen at 30 s; at about 35 s, shortly after A was pressed there, the core stopped with an unhandled exception (c0000005 at 000ab080, writing 00000000) and the screen stayed black."
+     },
+     "auto": {
+      "outcome": "Crash",
+      "why": "the core stopped (RetroArch reported no content)",
+      "exit": {
+       "how": "quit",
+       "at_s": 300.5,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented",
+       "stop",
+       "unhandled-exception"
+      ],
+      "fps_median": 40.8,
+      "fps_min": 29.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 41.1,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -19.7,
+      "audio_first_sound_s": 10.5,
+      "audio_audible_fraction": 0.6,
+      "audio_seconds": 34.2,
+      "images": {
+       "boot": {
+        "mean": 0.139,
+        "sd": 0.078,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "black": true
+       },
+       "final": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "black": true
+       },
+       "mid_final_rmse": 0.0
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "OTHER"
+        ],
+        [
+         89.84,
+         "OTHER"
+        ],
+        [
+         109.84,
+         "OTHER"
+        ],
+        [
+         129.84,
+         "OTHER"
+        ],
+        [
+         149.83,
+         "OTHER"
+        ],
+        [
+         169.83,
+         "OTHER"
+        ],
+        [
+         189.83,
+         "OTHER"
+        ],
+        [
+         209.83,
+         "OTHER"
+        ],
+        [
+         229.83,
+         "OTHER"
+        ],
+        [
+         249.82,
+         "OTHER"
+        ],
+        [
+         269.81,
+         "OTHER"
+        ],
+        [
+         289.81,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/reign-of-fire-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:18:45+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Reign of Fire",
+   "file": "Reign of Fire (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1459477613,
+   "title_id": "424D0002"
+  },
+  "reservoir-dogs-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Eidos logo, difficulty select, the opening cutscene and the warehouse level with the player, pistol HUD and tutorial text render correctly at 30 fps.",
+      "audio": "sound from 2.0 s, audible in 31 % of the run, loudest -18.5 dBFS RMS",
+      "notes": "Cutscene at 45-50 s and in game from about 70 s ('Hold L to lock on to a target. Pull R to shoot.'); after that the Start presses kept opening the Options/Controls menus over the game until the end at 302 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 301.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 30.0,
+      "fps_min": 29.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -18.5,
+      "audio_first_sound_s": 2.0,
+      "audio_audible_fraction": 0.31,
+      "audio_seconds": 300.2,
+      "images": {
+       "boot": {
+        "mean": 0.925,
+        "sd": 0.213,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.244,
+        "sd": 0.195,
+        "black": false
+       },
+       "final": {
+        "mean": 0.185,
+        "sd": 0.153,
+        "black": false
+       },
+       "mid_final_rmse": 0.206
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.8,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         89.83,
+         "OTHER"
+        ],
+        [
+         109.83,
+         "OTHER"
+        ],
+        [
+         129.84,
+         "OTHER"
+        ],
+        [
+         149.83,
+         "INGAME"
+        ],
+        [
+         169.81,
+         "OTHER"
+        ],
+        [
+         189.81,
+         "OTHER"
+        ],
+        [
+         209.8,
+         "OTHER"
+        ],
+        [
+         229.8,
+         "OTHER"
+        ],
+        [
+         249.84,
+         "OTHER"
+        ],
+        [
+         269.83,
+         "INGAME"
+        ],
+        [
+         289.82,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/reservoir-dogs-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:18:53+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Reservoir Dogs",
+   "file": "Reservoir Dogs (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1515707735,
+   "title_id": "534300FF"
+  },
   "return-to-castle-wolfenstein-tides-of-war-world": {
    "results": {
     "amd64-linux": {
@@ -107311,6 +109418,2445 @@
    "languages": "",
    "size": 2766243258,
    "title_id": "41560010"
+  },
+  "rlh-run-like-hell-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Interplay logo, the opening cutscene and the third-person view of the player in his quarters (behind the pause menu) render correctly at a steady 30 fps.",
+      "audio": "sound from 13.0 s, audible in 10 % of the run, loudest -18.7 dBFS RMS",
+      "notes": "Cutscene at 30 s and in game by 45 s; from then on the Start presses kept opening the Paused and Save Game menus (new 'Prolog, RES Delta' saves kept being created) until the end at 303 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 302.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.4,
+      "fps_min": 24.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 29.4,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -18.7,
+      "audio_first_sound_s": 13.0,
+      "audio_audible_fraction": 0.1,
+      "audio_seconds": 301.1,
+      "images": {
+       "boot": {
+        "mean": 0.188,
+        "sd": 0.131,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.097,
+        "sd": 0.088,
+        "black": false
+       },
+       "final": {
+        "mean": 0.105,
+        "sd": 0.11,
+        "black": false
+       },
+       "mid_final_rmse": 0.091
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "OTHER"
+        ],
+        [
+         69.82,
+         "OTHER"
+        ],
+        [
+         89.81,
+         "INGAME"
+        ],
+        [
+         109.85,
+         "OTHER"
+        ],
+        [
+         129.82,
+         "INGAME"
+        ],
+        [
+         149.83,
+         "OTHER"
+        ],
+        [
+         169.83,
+         "INGAME"
+        ],
+        [
+         189.84,
+         "OTHER"
+        ],
+        [
+         209.83,
+         "INGAME"
+        ],
+        [
+         229.83,
+         "OTHER"
+        ],
+        [
+         249.83,
+         "INGAME"
+        ],
+        [
+         269.83,
+         "OTHER"
+        ],
+        [
+         289.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rlh-run-like-hell-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:12:21+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "RLH - Run Like Hell",
+   "file": "RLH - Run Like Hell (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 3293678451,
+   "title_id": "49500006"
+  },
+  "roadkill-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Character intro and the Amusement Park streets with the player's car (behind the pause map) render correctly at 30 fps.",
+      "audio": "sound from 1.0 s, audible in 42 % of the run, loudest -17.1 dBFS RMS",
+      "notes": "In game before 30 s; every later frame shows the pause map ('Press START to resume') opened by the Start presses, with the car in a different spot each time, and the run stopped at 58 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.81 s (judged from screenshots); stopped at 57.6 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 57.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.9,
+      "fps_min": 24.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -17.1,
+      "audio_first_sound_s": 1.0,
+      "audio_audible_fraction": 0.42,
+      "audio_seconds": 56.9,
+      "images": {
+       "boot": {
+        "mean": 0.069,
+        "sd": 0.053,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.15,
+        "sd": 0.083,
+        "black": false
+       },
+       "final": {
+        "mean": 0.162,
+        "sd": 0.086,
+        "black": false
+       },
+       "mid_final_rmse": 0.081
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.81,
+       "stopped_at_s": 57.6,
+       "verdicts": [
+        [
+         29.81,
+         "INGAME"
+        ],
+        [
+         49.84,
+         "INGAME"
+        ],
+        [
+         49.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/roadkill-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/roadkill-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/roadkill-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/roadkill-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/roadkill-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/roadkill-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/roadkill-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/roadkill-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/roadkill-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/roadkill-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:19:52+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "RoadKill",
+   "file": "RoadKill (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1353162342,
+   "title_id": "4D570018"
+  },
+  "robin-hood-defender-of-the-crown-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Cinemaware logo and the first-person bow view in the forest with the Robin Hood health bar and gold HUD render correctly at 60 fps.",
+      "audio": "sound from 5.0 s, audible in 72 % of the run, loudest -25.0 dBFS RMS",
+      "notes": "In the first-person archery view from about 30 s; the picture barely changes until the run stopped at 57 s, while the game keeps drawing every frame and playing sound."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.81 s (judged from screenshots); stopped at 56.8 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 56.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.7,
+      "fps_min": 58.2,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -25.0,
+      "audio_first_sound_s": 5.0,
+      "audio_audible_fraction": 0.72,
+      "audio_seconds": 56.1,
+      "images": {
+       "boot": {
+        "mean": 0.226,
+        "sd": 0.131,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.149,
+        "sd": 0.105,
+        "black": false
+       },
+       "final": {
+        "mean": 0.149,
+        "sd": 0.105,
+        "black": false
+       },
+       "mid_final_rmse": 0.0
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.81,
+       "stopped_at_s": 56.8,
+       "verdicts": [
+        [
+         29.81,
+         "INGAME"
+        ],
+        [
+         49.8,
+         "INGAME"
+        ],
+        [
+         49.8,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/robin-hood-defender-of-the-crown-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:19:53+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Robin Hood - Defender of the Crown",
+   "file": "Robin Hood - Defender of the Crown (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 916338011,
+   "title_id": "4343000C"
+  },
+  "robocop-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Menu",
+     "outcome": "Crash",
+     "reviewed": true,
+     "observations": {
+      "graphics": "MGM logo, the Game Menu, the briefing cutscene and the city overview render correctly; black after the crash.",
+      "audio": "sound from 7.0 s, audible in 50 % of the run, loudest -18.2 dBFS RMS",
+      "notes": "New Game at 30 s, briefing ('Good evening, Robocop...') at 45 s and the city overview at 50 s; at about 53 s, before gameplay, the core stopped with an unhandled exception (c0000005 at 0009644b, reading 0000000c)."
+     },
+     "auto": {
+      "outcome": "Crash",
+      "why": "the core stopped (RetroArch reported no content)",
+      "exit": {
+       "how": "quit",
+       "at_s": 305.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [
+       "final"
+      ],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented",
+       "stop",
+       "unhandled-exception"
+      ],
+      "fps_median": 56.1,
+      "fps_min": 24.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 56.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -18.2,
+      "audio_first_sound_s": 7.0,
+      "audio_audible_fraction": 0.5,
+      "audio_seconds": 52.8,
+      "images": {
+       "boot": {
+        "mean": 0.101,
+        "sd": 0.196,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.052,
+        "sd": 0.056,
+        "black": false
+       }
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "OTHER"
+        ],
+        [
+         69.85,
+         "OTHER"
+        ],
+        [
+         89.83,
+         "OTHER"
+        ],
+        [
+         109.83,
+         "OTHER"
+        ],
+        [
+         129.82,
+         "OTHER"
+        ],
+        [
+         149.81,
+         "OTHER"
+        ],
+        [
+         169.85,
+         "OTHER"
+        ],
+        [
+         189.84,
+         "OTHER"
+        ],
+        [
+         209.83,
+         "OTHER"
+        ],
+        [
+         229.84,
+         "OTHER"
+        ],
+        [
+         249.84,
+         "OTHER"
+        ],
+        [
+         269.83,
+         "OTHER"
+        ],
+        [
+         289.83,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/robocop-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/robocop-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/robocop-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/robocop-u/thumbs/mid.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/robocop-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/robocop-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/robocop-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/robocop-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:19:55+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "RoboCop",
+   "file": "RoboCop (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1026208695,
+   "title_id": "54530005"
+  },
+  "robotech-battlecry-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "TDK logo, the Robotech logo and the Veritech flight level with HUD and radar render correctly at 60 fps.",
+      "audio": "sound from 5.5 s, audible in 82 % of the run, loudest -12.0 dBFS RMS",
+      "notes": "Flying the first mission from about 45 s until the run stopped at 76 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.84 s (judged from screenshots); stopped at 76.2 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 76.3,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 57.5,
+      "fps_min": 14.2,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -12.0,
+      "audio_first_sound_s": 5.5,
+      "audio_audible_fraction": 0.82,
+      "audio_seconds": 75.5,
+      "images": {
+       "boot": {
+        "mean": 0.021,
+        "sd": 0.125,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.445,
+        "sd": 0.123,
+        "black": false
+       },
+       "final": {
+        "mean": 0.439,
+        "sd": 0.118,
+        "black": false
+       },
+       "mid_final_rmse": 0.086
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.84,
+       "stopped_at_s": 76.2,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/robotech-battlecry-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:20:52+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Robotech - Battlecry",
+   "file": "Robotech - Battlecry (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1482730997,
+   "title_id": "544D0002"
+  },
+  "robotech-invasion-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Legal screen, title, menus, the intro cutscene and the first-person forest level (seen behind the pause menu) render correctly at 30 fps.",
+      "audio": "sound from 10.0 s, audible in 92 % of the run, loudest -19.9 dBFS RMS",
+      "notes": "Difficulty select at 50 s and cutscene at 70 s; from 90 s to the end at 302 s the Start presses kept the Options/Audio pause menu open over the first-person game."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 301.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 30.0,
+      "fps_min": 11.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 87,
+      "audio_peak_rms_dbfs": -19.9,
+      "audio_first_sound_s": 10.0,
+      "audio_audible_fraction": 0.92,
+      "audio_seconds": 300.8,
+      "images": {
+       "boot": {
+        "mean": 0.034,
+        "sd": 0.062,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.24,
+        "sd": 0.165,
+        "black": false
+       },
+       "final": {
+        "mean": 0.103,
+        "sd": 0.115,
+        "black": false
+       },
+       "mid_final_rmse": 0.27
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.85,
+         "OTHER"
+        ],
+        [
+         49.83,
+         "OTHER"
+        ],
+        [
+         69.82,
+         "OTHER"
+        ],
+        [
+         89.8,
+         "OTHER"
+        ],
+        [
+         109.84,
+         "OTHER"
+        ],
+        [
+         129.83,
+         "OTHER"
+        ],
+        [
+         149.82,
+         "OTHER"
+        ],
+        [
+         169.81,
+         "OTHER"
+        ],
+        [
+         189.8,
+         "OTHER"
+        ],
+        [
+         209.84,
+         "OTHER"
+        ],
+        [
+         229.83,
+         "OTHER"
+        ],
+        [
+         249.82,
+         "OTHER"
+        ],
+        [
+         269.82,
+         "OTHER"
+        ],
+        [
+         289.81,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/robotech-invasion-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:20:52+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Robotech - Invasion",
+   "file": "Robotech - Invasion (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1472166889,
+   "title_id": "5454001B"
+  },
+  "rocky-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Newcastle Studio logo, the Career name entry and the ring fight against Rico with HUD render correctly at 60 fps.",
+      "audio": "sound from 10.0 s, audible in 77 % of the run, loudest -7.5 dBFS RMS",
+      "notes": "Fighting Rico from about 45 s (round 1, 2:50); at 70 s the round clock reads 1:57 and the run stopped at 78 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.83 s (judged from screenshots); stopped at 78.2 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 78.3,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.7,
+      "fps_min": 57.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -7.5,
+      "audio_first_sound_s": 10.0,
+      "audio_audible_fraction": 0.77,
+      "audio_seconds": 77.5,
+      "images": {
+       "boot": {
+        "mean": 0.195,
+        "sd": 0.007,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.271,
+        "sd": 0.193,
+        "black": false
+       },
+       "final": {
+        "mean": 0.238,
+        "sd": 0.189,
+        "black": false
+       },
+       "mid_final_rmse": 0.208
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.83,
+       "stopped_at_s": 78.2,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.83,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rocky-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rocky-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rocky-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rocky-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rocky-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rocky-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rocky-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:22:11+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rocky",
+   "file": "Rocky (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 671121660,
+   "title_id": "55530014"
+  },
+  "rocky-legends-japan-europe-en-fr-de": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Intro logo, the Career Mode menu and the street fight against Zale with HUD render correctly at 60 fps.",
+      "audio": "sound from 4.0 s, audible in 77 % of the run, loudest -8.5 dBFS RMS",
+      "notes": "Round 1 against Zale starts at about 45 s; at 70 s a knockdown count is running (clock 2:27) and the run stopped at 79 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.83 s (judged from screenshots); stopped at 79.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 79.3,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 58.3,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -8.5,
+      "audio_first_sound_s": 4.0,
+      "audio_audible_fraction": 0.77,
+      "audio_seconds": 78.3,
+      "images": {
+       "boot": {
+        "mean": 0.207,
+        "sd": 0.181,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.225,
+        "sd": 0.167,
+        "black": false
+       },
+       "final": {
+        "mean": 0.356,
+        "sd": 0.169,
+        "black": false
+       },
+       "mid_final_rmse": 0.254
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.83,
+       "stopped_at_s": 79.1,
+       "verdicts": [
+        [
+         29.85,
+         "OTHER"
+        ],
+        [
+         49.83,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rocky-legends-japan-europe-en-fr-de/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:22:15+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rocky Legends",
+   "file": "Rocky Legends (Japan, Europe) (En,Fr,De).chd",
+   "region": "",
+   "languages": "En,Fr,De",
+   "size": 2091715171,
+   "title_id": "55530034"
+  },
+  "rogue-trooper-u-en-fr-de-it": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Intro",
+     "outcome": "Timeout",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Rebellion logo and the Rogue Trooper legal screen with 'Loading...' render correctly.",
+      "audio": "sound from 3.5 s, audible in 3 % of the run, loudest -14.9 dBFS RMS",
+      "notes": "Froze on the 'Loading...' legal screen from about 20 s to the end at 301 s: no new frames after that (the core log reports an ongoing hang) and no sound."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 301.3,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 23.6,
+      "fps_min": 23.6,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 23.9,
+      "longest_hang_s": 235.63,
+      "longest_hang_after_frame": 318,
+      "audio_peak_rms_dbfs": -14.9,
+      "audio_first_sound_s": 3.5,
+      "audio_audible_fraction": 0.03,
+      "audio_seconds": 300.2,
+      "images": {
+       "boot": {
+        "mean": 0.082,
+        "sd": 0.185,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.079,
+        "sd": 0.163,
+        "black": false
+       },
+       "final": {
+        "mean": 0.079,
+        "sd": 0.163,
+        "black": false
+       },
+       "mid_final_rmse": 0.0
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "OTHER"
+        ],
+        [
+         69.83,
+         "OTHER"
+        ],
+        [
+         89.82,
+         "OTHER"
+        ],
+        [
+         109.81,
+         "OTHER"
+        ],
+        [
+         129.81,
+         "OTHER"
+        ],
+        [
+         149.85,
+         "OTHER"
+        ],
+        [
+         169.84,
+         "OTHER"
+        ],
+        [
+         189.84,
+         "OTHER"
+        ],
+        [
+         209.84,
+         "OTHER"
+        ],
+        [
+         229.84,
+         "OTHER"
+        ],
+        [
+         249.84,
+         "OTHER"
+        ],
+        [
+         269.85,
+         "OTHER"
+        ],
+        [
+         289.85,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/rogue-trooper-u-en-fr-de-it/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:23:32+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Rogue Trooper",
+   "file": "Rogue Trooper (U) (En,Fr,De,It).chd",
+   "region": "USA",
+   "languages": "En,Fr,De,It",
+   "size": 2592978708,
+   "title_id": "5343000E"
+  },
+  "room-zoom-race-for-impact-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "ESRB screen, profile and car select, and the race through the room with HUD and track map render correctly at 30 fps.",
+      "audio": "sound from 13.5 s, audible in 84 % of the run, loudest -19.3 dBFS RMS",
+      "notes": "Race from about 70 s (lap 1/3, 00:06.35, 6th of 6); at 90 s the timer reads 00:21.21 with the car stopped against a book, and the run stopped at 97 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.82 s (judged from screenshots); stopped at 97.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 97.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.9,
+      "fps_min": 9.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 29.9,
+      "longest_hang_s": 4.5,
+      "longest_hang_after_frame": 190,
+      "audio_peak_rms_dbfs": -19.3,
+      "audio_first_sound_s": 13.5,
+      "audio_audible_fraction": 0.84,
+      "audio_seconds": 96.3,
+      "images": {
+       "boot": {
+        "mean": 0.682,
+        "sd": 0.144,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.193,
+        "sd": 0.187,
+        "black": false
+       },
+       "final": {
+        "mean": 0.141,
+        "sd": 0.119,
+        "black": false
+       },
+       "mid_final_rmse": 0.248
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.82,
+       "stopped_at_s": 97.1,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.83,
+         "OTHER"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ],
+        [
+         89.81,
+         "INGAME"
+        ],
+        [
+         89.81,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/room-zoom-race-for-impact-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:23:48+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Room Zoom - Race for Impact",
+   "file": "Room Zoom - Race for Impact (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 373882729,
+   "title_id": "4A410006"
+  },
+  "samurai-shodown-v-u-en-ja-fr-de-es-it": {
+   "results": {
+    "amd64-linux": {
+     "stage": "In-game",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Title and the fight render with correct characters and HUD at 55-60 fps, but the stage background is corrupted: misplaced tile strips and white and black blocks across the floor and buildings.",
+      "audio": "sound from 4.5 s, audible in 86 % of the run, loudest -12.7 dBFS RMS",
+      "notes": "Fighting (Yoshitora vs Mina) from about 30 s until the run stopped at 55 s; the background corruption is visible in every fight frame."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.82 s (judged from screenshots); stopped at 54.4 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 54.6,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 55.7,
+      "fps_min": 50.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 58.2,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -12.7,
+      "audio_first_sound_s": 4.5,
+      "audio_audible_fraction": 0.86,
+      "audio_seconds": 53.4,
+      "images": {
+       "boot": {
+        "mean": 0.256,
+        "sd": 0.213,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.517,
+        "sd": 0.296,
+        "black": false
+       },
+       "final": {
+        "mean": 0.517,
+        "sd": 0.3,
+        "black": false
+       },
+       "mid_final_rmse": 0.291
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.82,
+       "stopped_at_s": 54.4,
+       "verdicts": [
+        [
+         29.82,
+         "INGAME"
+        ],
+        [
+         49.82,
+         "INGAME"
+        ],
+        [
+         49.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/samurai-shodown-v-u-en-ja-fr-de-es-it/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:28:09+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Samurai Shodown V",
+   "file": "Samurai Shodown V (U) (En,Ja,Fr,De,Es,It).chd",
+   "region": "USA",
+   "languages": "En,Ja,Fr,De,Es,It",
+   "size": 269973751,
+   "title_id": "534E0004"
+  },
+  "samurai-warriors-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Story cutscenes, the Kawanakajima title card and the battlefield with HUD, minimap and dialogue render correctly; 30 fps in the cutscenes, 60 fps in game.",
+      "audio": "sound from 0.5 s, audible in 86 % of the run, loudest -17.6 dBFS RMS",
+      "notes": "Cutscenes from 30 s to about 90 s; in battle from about 110 s ('Launch a sneak attack on the enemy main camp!') and the run stopped at 138 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 109.82 s (judged from screenshots); stopped at 137.6 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 137.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 40.0,
+      "fps_min": 29.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 32.2,
+      "longest_hang_s": 1.5,
+      "longest_hang_after_frame": 47,
+      "audio_peak_rms_dbfs": -17.6,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.86,
+      "audio_seconds": 136.9,
+      "images": {
+       "boot": {
+        "mean": 0.008,
+        "sd": 0.0,
+        "black": true
+       },
+       "mid": {
+        "mean": 0.149,
+        "sd": 0.11,
+        "black": false
+       },
+       "final": {
+        "mean": 0.2,
+        "sd": 0.111,
+        "black": false
+       },
+       "mid_final_rmse": 0.167
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 109.82,
+       "stopped_at_s": 137.6,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "OTHER"
+        ],
+        [
+         69.81,
+         "OTHER"
+        ],
+        [
+         89.81,
+         "OTHER"
+        ],
+        [
+         109.82,
+         "INGAME"
+        ],
+        [
+         129.82,
+         "INGAME"
+        ],
+        [
+         129.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/samurai-warriors-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:28:36+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Samurai Warriors",
+   "file": "Samurai Warriors (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2574302435,
+   "title_id": "4B4F0006"
+  },
+  "scaler-u-en-fr-de": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Global Star logo, the intro cutscene, the jungle level with Scaler and the Status menu render correctly at 60 fps.",
+      "audio": "sound from 10.5 s, audible in 96 % of the run, loudest -25.1 dBFS RMS",
+      "notes": "In game at about 45 s; from 50 s the Start presses kept the Status menu open until shortly before the end, where the final frame (about 300 s) is back in game."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 303.7,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 45.3,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -25.1,
+      "audio_first_sound_s": 10.5,
+      "audio_audible_fraction": 0.96,
+      "audio_seconds": 302.8,
+      "images": {
+       "boot": {
+        "mean": 0.097,
+        "sd": 0.176,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.25,
+        "sd": 0.117,
+        "black": false
+       },
+       "final": {
+        "mean": 0.25,
+        "sd": 0.117,
+        "black": false
+       },
+       "mid_final_rmse": 0.043
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "OTHER"
+        ],
+        [
+         69.82,
+         "OTHER"
+        ],
+        [
+         89.83,
+         "OTHER"
+        ],
+        [
+         109.83,
+         "OTHER"
+        ],
+        [
+         129.84,
+         "OTHER"
+        ],
+        [
+         149.81,
+         "OTHER"
+        ],
+        [
+         169.81,
+         "OTHER"
+        ],
+        [
+         189.84,
+         "OTHER"
+        ],
+        [
+         209.85,
+         "OTHER"
+        ],
+        [
+         229.81,
+         "OTHER"
+        ],
+        [
+         249.82,
+         "OTHER"
+        ],
+        [
+         269.81,
+         "OTHER"
+        ],
+        [
+         289.81,
+         "OTHER"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/scaler-u-en-fr-de/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:28:46+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Scaler",
+   "file": "Scaler (U) (En,Fr,De).chd",
+   "region": "USA",
+   "languages": "En,Fr,De",
+   "size": 1023793897,
+   "title_id": "5454007A"
+  },
+  "scooby-doo-night-of-100-frights-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "THQ logo, the Mystery Machine cutscene and Scooby outside Mystic Manor with HUD render correctly at 30 fps.",
+      "audio": "sound from 1.5 s, audible in 83 % of the run, loudest -19.4 dBFS RMS",
+      "notes": "In game from about 45 s, standing in front of Mystic Manor until the run stopped at 78 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.8 s (judged from screenshots); stopped at 77.7 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 77.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 37.2,
+      "fps_min": 30.0,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -19.4,
+      "audio_first_sound_s": 1.5,
+      "audio_audible_fraction": 0.83,
+      "audio_seconds": 77.0,
+      "images": {
+       "boot": {
+        "mean": 0.059,
+        "sd": 0.188,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.185,
+        "sd": 0.101,
+        "black": false
+       },
+       "final": {
+        "mean": 0.181,
+        "sd": 0.097,
+        "black": false
+       },
+       "mid_final_rmse": 0.035
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.8,
+       "stopped_at_s": 77.7,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.8,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ],
+        [
+         69.81,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/scooby-doo-night-of-100-frights-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:28:57+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Scooby-Doo! Night of 100 Frights",
+   "file": "Scooby-Doo! Night of 100 Frights (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1130524308,
+   "title_id": "5451001F"
+  },
+  "seaworld-adventure-parks-shamu-s-deep-sea-adventures-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Activision logo, difficulty and save prompts, and the underwater level with Shamu and HUD render correctly at 60 fps.",
+      "audio": "sound from 0.5 s, audible in 79 % of the run, loudest -23.0 dBFS RMS",
+      "notes": "Profile saved at 50 s; swimming as Shamu from about 70 s until the run stopped at 98 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.84 s (judged from screenshots); stopped at 97.8 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 97.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 11.2,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 7.51,
+      "longest_hang_after_frame": 452,
+      "audio_peak_rms_dbfs": -23.0,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.79,
+      "audio_seconds": 97.2,
+      "images": {
+       "boot": {
+        "mean": 0.114,
+        "sd": 0.28,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.256,
+        "sd": 0.078,
+        "black": false
+       },
+       "final": {
+        "mean": 0.2,
+        "sd": 0.112,
+        "black": false
+       },
+       "mid_final_rmse": 0.195
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.84,
+       "stopped_at_s": 97.8,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.82,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "INGAME"
+        ],
+        [
+         89.83,
+         "INGAME"
+        ],
+        [
+         89.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/seaworld-adventure-parks-shamu-s-deep-sea-adventures-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:29:06+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SeaWorld Adventure Parks - Shamu's Deep Sea Adventures",
+   "file": "SeaWorld Adventure Parks - Shamu's Deep Sea Adventures (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 583936395,
+   "title_id": "41560050"
   },
   "second-sight-u-en-fr-de-es-it": {
    "results": {
@@ -107501,6 +112047,155 @@
    "size": 909662972,
    "title_id": "434D0047"
   },
+  "secret-weapons-over-normandy-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "LucasArts logo, aircraft select and the Dunkirk mission flight with HUD render correctly at 60 fps.",
+      "audio": "sound from 2.5 s, audible in 91 % of the run, loudest -12.1 dBFS RMS",
+      "notes": "Flying Mission 1 (Dunkirk) from about 45 s with radio messages until the run stopped at 77 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.83 s (judged from screenshots); stopped at 76.6 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 76.7,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 56.4,
+      "fps_min": 26.3,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -12.1,
+      "audio_first_sound_s": 2.5,
+      "audio_audible_fraction": 0.91,
+      "audio_seconds": 75.8,
+      "images": {
+       "boot": {
+        "mean": 0.049,
+        "sd": 0.138,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.515,
+        "sd": 0.14,
+        "black": false
+       },
+       "final": {
+        "mean": 0.512,
+        "sd": 0.136,
+        "black": false
+       },
+       "mid_final_rmse": 0.088
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.83,
+       "stopped_at_s": 76.6,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.83,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/secret-weapons-over-normandy-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:30:18+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Secret Weapons over Normandy",
+   "file": "Secret Weapons over Normandy (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2875698805,
+   "title_id": "4C410006"
+  },
   "sega-gt-2002-u-en-ja": {
    "results": {
     "amd64-linux": {
@@ -107687,6 +112382,328 @@
    "size": 1563614583,
    "title_id": "53450003"
   },
+  "serious-sam-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Croteam logo and the first level in first person with HUD and weapons render correctly at 60 fps.",
+      "audio": "sound from -0.0 s, audible in 59 % of the run, loudest -25.2 dBFS RMS",
+      "notes": "In game from about 30 s (autosave message), standing at the level start until the run stopped at 75 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 75.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 75.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.6,
+      "fps_min": 44.2,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 267.6,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -25.2,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.59,
+      "audio_seconds": 74.3,
+      "images": {
+       "boot": {
+        "mean": 0.11,
+        "sd": 0.257,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.217,
+        "sd": 0.166,
+        "black": false
+       },
+       "final": {
+        "mean": 0.322,
+        "sd": 0.227,
+        "black": false
+       },
+       "mid_final_rmse": 0.157
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 75.1,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ],
+        [
+         69.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/serious-sam-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:31:37+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Serious Sam",
+   "file": "Serious Sam (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1543765456,
+   "title_id": "54540004"
+  },
+  "shadow-the-hedgehog-u-en-ja-fr-de-es-it": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Story cutscenes, the route select and the Westopolis stage with Shadow and HUD render correctly; 30 fps in the cutscenes, 60 fps in game.",
+      "audio": "sound from 9.0 s, audible in 86 % of the run, loudest -17.5 dBFS RMS",
+      "notes": "Cutscenes from 30 s to about 130 s, then in the first stage from about 170 s (timer 00:08:38, 00:23:03 at 190 s); the run stopped at 200 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 169.83 s (judged from screenshots); stopped at 199.5 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 199.7,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.9,
+      "fps_min": 29.3,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -17.5,
+      "audio_first_sound_s": 9.0,
+      "audio_audible_fraction": 0.86,
+      "audio_seconds": 198.5,
+      "images": {
+       "boot": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "black": true
+       },
+       "mid": {
+        "mean": 0.343,
+        "sd": 0.222,
+        "black": false
+       },
+       "final": {
+        "mean": 0.2,
+        "sd": 0.099,
+        "black": false
+       },
+       "mid_final_rmse": 0.328
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 169.83,
+       "stopped_at_s": 199.5,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.8,
+         "OTHER"
+        ],
+        [
+         69.84,
+         "OTHER"
+        ],
+        [
+         89.83,
+         "OTHER"
+        ],
+        [
+         109.82,
+         "OTHER"
+        ],
+        [
+         129.82,
+         "OTHER"
+        ],
+        [
+         149.81,
+         "OTHER"
+        ],
+        [
+         169.83,
+         "INGAME"
+        ],
+        [
+         189.85,
+         "INGAME"
+        ],
+        [
+         189.85,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/shadow-the-hedgehog-u-en-ja-fr-de-es-it/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:32:55+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Shadow the Hedgehog",
+   "file": "Shadow the Hedgehog (U) (En,Ja,Fr,De,Es,It).chd",
+   "region": "USA",
+   "languages": "En,Ja,Fr,De,Es,It",
+   "size": 2107276233,
+   "title_id": "53450086"
+  },
   "shenmue-ii-u": {
    "results": {
     "amd64-linux": {
@@ -107858,6 +112875,669 @@
    "languages": "",
    "size": 3046296484,
    "title_id": "4D530032"
+  },
+  "showdown-legends-of-wrestling-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Acclaim logo and the tag match with health and momentum bars and a button prompt render correctly at 60 fps.",
+      "audio": "sound from -0.0 s, audible in 81 % of the run, loudest -11.3 dBFS RMS",
+      "notes": "A tag match (British Bulldog and Jim Duggan vs Sting and Scott Steiner) is under way at 30 s, with an X-button prompt over British Bulldog at 50 s; the run stopped at 57 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.82 s (judged from screenshots); stopped at 57.0 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 57.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 55.4,
+      "fps_min": 14.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 4.5,
+      "longest_hang_after_frame": 3,
+      "audio_peak_rms_dbfs": -11.3,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.81,
+      "audio_seconds": 50.3,
+      "images": {
+       "boot": {
+        "mean": 0.429,
+        "sd": 0.319,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.238,
+        "sd": 0.164,
+        "black": false
+       },
+       "final": {
+        "mean": 0.231,
+        "sd": 0.18,
+        "black": false
+       },
+       "mid_final_rmse": 0.199
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.82,
+       "stopped_at_s": 57.0,
+       "verdicts": [
+        [
+         29.82,
+         "INGAME"
+        ],
+        [
+         49.82,
+         "INGAME"
+        ],
+        [
+         49.82,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/showdown-legends-of-wrestling-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:34:23+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Showdown - Legends of Wrestling",
+   "file": "Showdown - Legends of Wrestling (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2535992648,
+   "title_id": "4143001D"
+  },
+  "shrek-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "TDK logo and the swamp with Shrek, tutorial text and HUD render correctly at 30 fps.",
+      "audio": "sound from 0.5 s, audible in 55 % of the run, loudest -20.0 dBFS RMS",
+      "notes": "In game from about 30 s ('Move the right thumbstick to change your view...'), standing at the start until the run stopped at 56 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 29.84 s (judged from screenshots); stopped at 55.8 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 55.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.7,
+      "fps_min": 24.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -20.0,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.55,
+      "audio_seconds": 54.7,
+      "images": {
+       "boot": {
+        "mean": 0.125,
+        "sd": 0.169,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.164,
+        "sd": 0.108,
+        "black": false
+       },
+       "final": {
+        "mean": 0.165,
+        "sd": 0.11,
+        "black": false
+       },
+       "mid_final_rmse": 0.081
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 29.84,
+       "stopped_at_s": 55.8,
+       "verdicts": [
+        [
+         29.84,
+         "INGAME"
+        ],
+        [
+         49.85,
+         "INGAME"
+        ],
+        [
+         49.85,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/shrek-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/shrek-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/shrek-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/shrek-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/shrek-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/shrek-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/shrek-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/shrek-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/shrek-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/shrek-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:35:23+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Shrek",
+   "file": "Shrek (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 256258857,
+   "title_id": "544D0001"
+  },
+  "silent-hill-2-restless-dreams-u-en-ja": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen's background is broken: split into shifted blocks at 45 s, and at 70 s only the top-left quarter is right with the rest smeared lines.",
+      "audio": "sound from 9.5 s, audible in 80 % of the run, loudest -21.7 dBFS RMS",
+      "notes": "In control of James in the restroom from about 30 s; the Start presses paused it at 45 s and 70 s, and the run stopped at 75 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 75.1 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 75.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 54.4,
+      "fps_min": 38.3,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 59.4,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -21.7,
+      "audio_first_sound_s": 9.5,
+      "audio_audible_fraction": 0.8,
+      "audio_seconds": 74.3,
+      "images": {
+       "boot": {
+        "mean": 0.149,
+        "sd": 0.26,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.13,
+        "sd": 0.067,
+        "black": false
+       },
+       "final": {
+        "mean": 0.128,
+        "sd": 0.057,
+        "black": false
+       },
+       "mid_final_rmse": 0.048
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 75.1,
+       "verdicts": [
+        [
+         29.82,
+         "OTHER"
+        ],
+        [
+         49.81,
+         "INGAME"
+        ],
+        [
+         69.85,
+         "INGAME"
+        ],
+        [
+         69.85,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/silent-hill-2-restless-dreams-u-en-ja/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:35:56+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "Silent Hill 2 - Restless Dreams",
+   "file": "Silent Hill 2 - Restless Dreams (U) (En,Ja).chd",
+   "region": "USA",
+   "languages": "En,Ja",
+   "size": 2088801359,
+   "title_id": "4B4E0004"
+  },
+  "snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Intro",
+     "outcome": "Crash",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Only the Ignition Entertainment logo was captured (10 s), and it renders correctly.",
+      "audio": "sound from 1.0 s, audible in 85 % of the run, loudest -20.9 dBFS RMS",
+      "notes": "The emulator exited by itself at 15 s during the intro, with no error in the core log."
+     },
+     "auto": {
+      "outcome": "Crash",
+      "why": "the emulator exited by itself at 15.2 s",
+      "exit": {
+       "how": "self",
+       "at_s": 15.2,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 29.6,
+      "fps_min": 29.6,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 29.6,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -20.9,
+      "audio_first_sound_s": 1.0,
+      "audio_audible_fraction": 0.85,
+      "audio_seconds": 13.6,
+      "images": {
+       "boot": {
+        "mean": 0.963,
+        "sd": 0.139,
+        "black": false
+       }
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": []
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/thumbs/boot.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:25:03+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SNK vs Capcom - SVC Chaos",
+   "file": "SNK vs Capcom - SVC Chaos (Europe) (En,Fr,De,Es,It).chd",
+   "region": "",
+   "languages": "En,Fr,De,Es,It",
+   "size": 546417113,
+   "title_id": "534E0001"
+  },
+  "snk-vs-capcom-svc-chaos-usa": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Boot",
+     "outcome": "Crash",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Nothing was captured: the emulator closed before the first screenshot at 10 s.",
+      "audio": "silent for the whole run (recorded)",
+      "notes": "The emulator exited by itself at about 5 s, with no error in the core log and no sound."
+     },
+     "auto": {
+      "outcome": "Crash",
+      "why": "the emulator exited by itself at 4.9 s",
+      "exit": {
+       "how": "self",
+       "at_s": 4.9,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [],
+      "fps_median": null,
+      "fps_min": null,
+      "fps_source": "guest swaps",
+      "guest_swaps_median": null,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -120.0,
+      "audio_first_sound_s": null,
+      "audio_audible_fraction": 0,
+      "audio_seconds": 0.0,
+      "images": {},
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": []
+      }
+     },
+     "captures": {
+      "log": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-usa/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-usa/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-usa/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/snk-vs-capcom-svc-chaos-usa/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:25:20+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SNK vs Capcom - SVC Chaos",
+   "file": "SNK vs Capcom - SVC Chaos (USA).chd",
+   "region": "",
+   "languages": "",
+   "size": 542413766,
+   "title_id": "534E0001"
   },
   "soulcalibur-ii-u": {
    "results": {
@@ -108328,6 +114008,159 @@
    "languages": "",
    "size": 1399107142,
    "title_id": "45410082"
+  },
+  "ssx-tricky-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Intro, character setup, the course flyby and the downhill race with HUD render correctly at 60 fps.",
+      "audio": "sound from 4.5 s, audible in 92 % of the run, loudest -18.2 dBFS RMS",
+      "notes": "Racing from about 70 s (5th of 6, 0:06.75); at 90 s the race time is 0:24.19 and the run stopped at 96 s."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.83 s (judged from screenshots); stopped at 96.2 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 96.4,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented"
+      ],
+      "fps_median": 59.8,
+      "fps_min": 38.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -18.2,
+      "audio_first_sound_s": 4.5,
+      "audio_audible_fraction": 0.92,
+      "audio_seconds": 95.6,
+      "images": {
+       "boot": {
+        "mean": 0.092,
+        "sd": 0.194,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "black": true
+       },
+       "final": {
+        "mean": 0.6,
+        "sd": 0.188,
+        "black": false
+       },
+       "mid_final_rmse": 0.641
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.83,
+       "stopped_at_s": 96.2,
+       "verdicts": [
+        [
+         29.8,
+         "OTHER"
+        ],
+        [
+         49.84,
+         "OTHER"
+        ],
+        [
+         69.83,
+         "INGAME"
+        ],
+        [
+         89.83,
+         "INGAME"
+        ],
+        [
+         89.83,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/ssx-tricky-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:25:28+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SSX Tricky",
+   "file": "SSX Tricky (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 2594225074,
+   "title_id": "45410004"
   },
   "star-wars-battlefront-u": {
    "results": {
@@ -108988,6 +114821,278 @@
    "languages": "En,Ja",
    "size": 3424247555,
    "title_id": "4343000F"
+  },
+  "swat-global-strike-team-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Playable",
+     "outcome": "Completed",
+     "reviewed": true,
+     "observations": {
+      "graphics": "Vivendi Universal logo, profile select, the tutorial loading screen and the first-person tunnel level with team and ammo HUD render correctly at 30 fps.",
+      "audio": "sound from 5.5 s, audible in 77 % of the run, loudest -16.3 dBFS RMS",
+      "notes": "Mission 'LA 2-11' loads at 50 s and the player is in the tunnel from about 70 s until the run stopped at 96 s; the game's relaunch into swat.xbe on the way worked."
+     },
+     "auto": {
+      "outcome": "Completed",
+      "why": "in game from 69.85 s (judged from screenshots); stopped at 96.0 s and the emulator closed",
+      "exit": {
+       "how": "quit",
+       "at_s": 96.1,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "not-implemented",
+       "stop"
+      ],
+      "fps_median": 30.0,
+      "fps_min": 16.7,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 20,
+      "audio_peak_rms_dbfs": -16.3,
+      "audio_first_sound_s": 5.5,
+      "audio_audible_fraction": 0.77,
+      "audio_seconds": 94.1,
+      "images": {
+       "boot": {
+        "mean": 0.905,
+        "sd": 0.221,
+        "black": false
+       },
+       "mid": {
+        "mean": 0.434,
+        "sd": 0.45,
+        "black": false
+       },
+       "final": {
+        "mean": 0.052,
+        "sd": 0.102,
+        "black": false
+       },
+       "mid_final_rmse": 0.608
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": 69.85,
+       "stopped_at_s": 96.0,
+       "verdicts": [
+        [
+         29.81,
+         "OTHER"
+        ],
+        [
+         49.8,
+         "OTHER"
+        ],
+        [
+         69.85,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ],
+        [
+         89.84,
+         "INGAME"
+        ]
+       ]
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/swat-global-strike-team-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:27:07+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SWAT - Global Strike Team",
+   "file": "SWAT - Global Strike Team (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 1984309573,
+   "title_id": "56560025"
+  },
+  "sx-superstar-u": {
+   "results": {
+    "amd64-linux": {
+     "stage": "Intro",
+     "outcome": "Crash",
+     "reviewed": true,
+     "observations": {
+      "graphics": "The only screenshot (10 s) is a plain dark grey screen; the core log shows the Acclaim and CMX logo movies playing, with sound.",
+      "audio": "sound from 5.5 s, audible in 39 % of the run, loudest -19.5 dBFS RMS",
+      "notes": "Exited by itself at about 30 s with a guest fault (write to 00000000, eip 001b4e77), right after the main menu movie and music started loading."
+     },
+     "auto": {
+      "outcome": "Crash",
+      "why": "the emulator exited by itself at 29.8 s",
+      "exit": {
+       "how": "self",
+       "at_s": 29.8,
+       "code": 0,
+       "signal": null
+      },
+      "missing_shots": [],
+      "boot_stages": [
+       "S0",
+       "S1",
+       "S2"
+      ],
+      "log_flags": [
+       "guest-fault",
+       "not-implemented"
+      ],
+      "fps_median": 39.2,
+      "fps_min": 26.1,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 45.3,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 326,
+      "audio_peak_rms_dbfs": -19.5,
+      "audio_first_sound_s": 5.5,
+      "audio_audible_fraction": 0.39,
+      "audio_seconds": 28.6,
+      "images": {
+       "boot": {
+        "mean": 0.149,
+        "sd": 0.001,
+        "black": false
+       }
+      },
+      "judge": {
+       "model": "haiku",
+       "ingame_at_s": null,
+       "stopped_at_s": null,
+       "verdicts": []
+      }
+     },
+     "captures": {
+      "boot": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/thumbs/boot.jpg",
+      "log": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-0.20.0/sx-superstar-u/result.json"
+     },
+     "config": {
+      "run_id": "amd64-linux-20261106-0.20.0",
+      "emulator": "hakuX-lr 0.20.0",
+      "commit": "16440f4dba973bf842d10d8489d5759ec52c3e8d",
+      "device": "zenbox",
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "arch": "x86_64",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+      "driver": "Mesa 26.2.6-arch3.1",
+      "vulkan": "1.4.354",
+      "kernel": "7.3.1-1-cachyos",
+      "frontend": "retroarch 1.22.2-5",
+      "display": "gamescope headless, Vulkan, 1920x1080",
+      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "input": "RetroArch network RetroPad (UDP), player 1",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "plan": {
+       "boot_wait": 10.0,
+       "input_time": 285.0,
+       "input_gap": 2.5,
+       "buttons": [
+        "start",
+        "a"
+       ],
+       "press_ms": 150,
+       "settle": 5.0,
+       "mid_shot": 45.0,
+       "watch_from": 30.0,
+       "watch_every": 20.0,
+       "watch_needed": 2,
+       "unstick": [
+        "b",
+        "down"
+       ],
+       "hard_limit": 330.0
+      }
+     },
+     "tested_at": "2026-11-06T23:27:36+01:00",
+     "reviewed_by": "Claude (from screenshots)",
+     "reviewed_at": "2026-11-06T23:54:36+01:00"
+    },
+    "aarch64-linux": {
+     "stage": "Untested"
+    },
+    "android": {
+     "stage": "Untested"
+    }
+   },
+   "title": "SX Superstar",
+   "file": "SX Superstar (U).chd",
+   "region": "USA",
+   "languages": "",
+   "size": 693026122,
+   "title_id": "41430010"
   },
   "thief-deadly-shadows-u": {
    "results": {
