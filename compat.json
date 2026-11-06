@@ -107916,16 +107916,16 @@
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro cutscene, the dark forest level with Rayman and the health HUD, and the Fairy Council pause screen render correctly at 60 fps.",
-      "audio": "sound from 7.0 s, audible in 4 % of the run, loudest -24.6 dBFS RMS",
-      "notes": "In game at 30 s; from 45 s the Start presses left it on the Fairy Council pause/score screen (silent) until the end at 303 s."
+      "graphics": "Intro cutscene and the dark forest level with Rayman, the health HUD and the glowing plants render correctly at 60 fps.",
+      "audio": "sound from 7.0 s, audible in 67 % of the run, loudest -24.2 dBFS RMS",
+      "notes": "With the override (no default presses after 29 s, A every 5 s) Rayman is in the first level from about 30 s, with sound, until the run stopped at 57 s. In the first run the Start presses kept the Fairy Council pause screen open from 45 s."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 29.81 s (judged from screenshots); stopped at 56.7 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 303.1,
+       "at_s": 56.8,
        "code": 0,
        "signal": null
       },
@@ -107938,16 +107938,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
+      "fps_median": 52.9,
       "fps_min": 18.9,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 60.0,
       "longest_hang_s": 2.5,
       "longest_hang_after_frame": 120,
-      "audio_peak_rms_dbfs": -24.6,
+      "audio_peak_rms_dbfs": -24.2,
       "audio_first_sound_s": 7.0,
-      "audio_audible_fraction": 0.04,
-      "audio_seconds": 301.6,
+      "audio_audible_fraction": 0.67,
+      "audio_seconds": 55.7,
       "images": {
        "boot": {
         "mean": 0.201,
@@ -107955,77 +107955,33 @@
         "black": false
        },
        "mid": {
-        "mean": 0.457,
-        "sd": 0.137,
+        "mean": 0.072,
+        "sd": 0.07,
         "black": false
        },
        "final": {
-        "mean": 0.459,
-        "sd": 0.138,
+        "mean": 0.053,
+        "sd": 0.064,
         "black": false
        },
-       "mid_final_rmse": 0.035
+       "mid_final_rmse": 0.12
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 29.81,
+       "stopped_at_s": 56.7,
        "verdicts": [
         [
-         29.82,
+         29.81,
          "INGAME"
         ],
         [
-         49.82,
-         "OTHER"
+         49.84,
+         "INGAME"
         ],
         [
-         69.81,
-         "OTHER"
-        ],
-        [
-         89.8,
-         "OTHER"
-        ],
-        [
-         109.85,
-         "OTHER"
-        ],
-        [
-         129.84,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.82,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.81,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.82,
-         "OTHER"
-        ],
-        [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.82,
-         "OTHER"
+         49.84,
+         "INGAME"
         ]
        ]
       }
@@ -108080,9 +108036,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-06T23:14:46+01:00",
+     "tested_at": "2026-11-07T00:16:19+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-06T23:54:36+01:00"
+     "reviewed_at": "2026-11-07T00:24:04+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
