@@ -1,0 +1,53 @@
+{
+ "system": "amd64-linux",
+ "device": "zenbox",
+ "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+ "arch": "x86_64",
+ "cpu_backend": "KVM",
+ "gpu": {
+  "deviceName": "AMD Radeon RX 9070 XT (RADV GFX1201)",
+  "driverName": "radv",
+  "driverInfo": "Mesa 26.2.6-arch3.1",
+  "apiVersion": "1.4.354"
+ },
+ "kernel": "7.3.1-1-cachyos",
+ "frontend": "retroarch 1.22.2-5",
+ "emulator": {
+  "name": "hakuX-lr",
+  "version": "master 8b4c43ff23 (0.19.1 + #104)",
+  "commit": "8b4c43ff23",
+  "core": "cores/master-8b4c43ff23-x86_64/hakux-master/lib/libretro/hakux_libretro.so"
+ },
+ "display": "gamescope headless, Vulkan, 1920x1080",
+ "audio": "pulse to a null sink (hakux_compat7), recorded",
+ "input": "RetroArch network RetroPad (UDP), player 1",
+ "run_id": "amd64-linux-20261105-master-8b4c43f",
+ "started": "2026-11-05T22:11:21+01:00",
+ "plan_default": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "judge": {
+  "via": "claude -p (Claude Code CLI)",
+  "model": "haiku",
+  "confirm_model": "sonnet",
+  "system": "You label screenshots from original Xbox games running in an emulator. Reply with one word.",
+  "ask": "Is the player in control of gameplay in this screenshot? Answer INGAME if it shows gameplay: the game world with the player's character, vehicle, cursor or pieces under the player's control, usually with a HUD (score, health, map, speedometer, ammo, timer), including a pause menu drawn over gameplay. Answer OTHER for anything else: black or blank screens, logos, legal or warning screens, videos and cutscenes (including in-engine scenes with letterbox bars or no HUD), title screens, menus, character, car or level selection, profile and save prompts, loading screens and briefings. Answer with one word: INGAME or OTHER."
+ }
+}

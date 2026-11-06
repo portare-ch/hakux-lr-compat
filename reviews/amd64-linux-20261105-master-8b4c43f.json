@@ -1369,7 +1369,7 @@
   "stage": "Boot",
   "outcome": "Crash",
   "graphics": "Black for the whole run; no frame was drawn.",
-  "notes": "Bonus disc: default.xbe relaunches into dashupdate.xbe, which fails to open the font HGGothicM.xtf and then hits an access violation at 0002ffd0 (reading 00000008). The title's DashUnhandledExceptionFilter reports 'Rebooting...', the title returns to the firmware and the core stops within the first second. RetroArch then only reports that the Xbox dashboard isn't installed; the disc's content never played."
+  "notes": "Needs an installed Xbox dashboard. The bonus disc's default.xbe compares the dashboard on the console disk (Y:\\xboxdash.xbe and Y:\\XODash\\xonlinedash.xbe) with D:\\dashupdate.xbe and, as none is installed, relaunches into the dashboard updater. The updater looks for the dashboard's fonts (y:\\fonts\\*.xtf), fails to open HGGothicM.xtf and hits an access violation at 0002ffd0; its DashUnhandledExceptionFilter reports 'Rebooting...' and the title returns to the firmware within the first second. A real console always has a dashboard, so this is not an emulation fault: with your own dashboard copied into hdd/Partition2 the disc should get past this. The disc's content never played here."
  },
  {
   "game": "kingdom-under-fire-the-crusaders-u-en-ko",

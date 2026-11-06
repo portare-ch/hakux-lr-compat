@@ -1,0 +1,58 @@
+[
+ {
+  "game": "conflict-desert-storm-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "SCi logo, title and the Load Game menus over the barracks scene render correctly.",
+  "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
+ },
+ {
+  "game": "conflict-desert-storm-ii-back-to-baghdad-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Gotham Games logo, Team Select (22nd SAS, 1st SFOD Delta) and the soldier screens with animated models render correctly.",
+  "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
+ },
+ {
+  "game": "great-escape-the-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "MGM logo, Select Difficulty and the Options menu over the prison camp render correctly.",
+  "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
+ },
+ {
+  "game": "dave-mirra-freestyle-bmx-2-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Z-Axis logo, Modifier Setup and the park with rider and HUD render correctly, 60 fps.",
+  "notes": "No longer crashes on the first Start (PR #106 maps a zeroed page over each stack's top; the title reads 0x80 bytes past its main thread's stack after the intro). Riding a park from about 50 s (timer counting down from 2:56, score 0) with sound."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+  "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u-rev-1",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+  "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+ },
+ {
+  "game": "hitman-2-silent-assassin-u-rev-2",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+  "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). The disc launcher (PLAY HITMAN 2 / VIEW TRAILERS) comes first; A relaunches into hm2.xbe. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
+ },
+ {
+  "game": "lara-croft-tomb-raider-legend-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Title screen ('Press START to begin') renders correctly; no later shot exists.",
+  "notes": "At about 16.5 s, after Start at the title and A on the main menu, the guest hit an unhandled access violation at 001f9dc7 (writing 0000008c) in a heap free-list unlink, so the heap was already corrupt, just as the game failed to open title.xmv (not on this disc, as on a console). This build no longer has master's crash at 0042b29b, but that comes from a different memory layout, not a fix: the root cause is still open. In 2 of 4 RetroArch runs it crashed like this; in the others and in local runs it loads Bolivia, where the opening cinematic renders almost black and the level after Skip Cinematic renders correctly with HUD."
+ }
+]

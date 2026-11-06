@@ -3450,5 +3450,179 @@
    ]
   ],
   "unstick": []
+ },
+ "hitman-2-silent-assassin-u": {
+  "_why": "Main menu: A opens Select Difficulty with the cursor on Back, so the default Start/A presses go back and forth between the two menus. Start skips the logos, A opens the difficulty menu, up x3 moves to Normal and A starts the tutorial (the Garden Shed). Default presses are held off until 100 s.",
+  "quiet": [
+   [
+    10,
+    100
+   ]
+  ],
+  "extra_steps": [
+   [
+    12,
+    "tap",
+    "start"
+   ],
+   [
+    16,
+    "tap",
+    "a"
+   ],
+   [
+    19,
+    "tap",
+    "up"
+   ],
+   [
+    19.7,
+    "tap",
+    "up"
+   ],
+   [
+    20.4,
+    "tap",
+    "up"
+   ],
+   [
+    21.5,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "hitman-2-silent-assassin-u-rev-1": {
+  "_why": "Main menu: A opens Select Difficulty with the cursor on Back, so the default Start/A presses go back and forth between the two menus. Start skips the logos, A opens the difficulty menu, up x3 moves to Normal and A starts the tutorial (the Garden Shed). Default presses are held off until 100 s.",
+  "quiet": [
+   [
+    10,
+    100
+   ]
+  ],
+  "extra_steps": [
+   [
+    12,
+    "tap",
+    "start"
+   ],
+   [
+    16,
+    "tap",
+    "a"
+   ],
+   [
+    19,
+    "tap",
+    "up"
+   ],
+   [
+    19.7,
+    "tap",
+    "up"
+   ],
+   [
+    20.4,
+    "tap",
+    "up"
+   ],
+   [
+    21.5,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "hitman-2-silent-assassin-u-rev-2": {
+  "_why": "The disc launcher comes first: A picks PLAY HITMAN 2 and relaunches into hm2.xbe. Then as the other releases: main menu: A opens Select Difficulty with the cursor on Back, so the default Start/A presses go back and forth between the two menus. Start skips the logos, A opens the difficulty menu, up x3 moves to Normal and A starts the tutorial (the Garden Shed). Default presses are held off until 100 s.",
+  "quiet": [
+   [
+    10,
+    110
+   ]
+  ],
+  "extra_steps": [
+   [
+    10,
+    "tap",
+    "a"
+   ],
+   [
+    24,
+    "tap",
+    "start"
+   ],
+   [
+    28,
+    "tap",
+    "a"
+   ],
+   [
+    31,
+    "tap",
+    "up"
+   ],
+   [
+    31.7,
+    "tap",
+    "up"
+   ],
+   [
+    32.4,
+    "tap",
+    "up"
+   ],
+   [
+    33.5,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "lara-croft-tomb-raider-legend-u-en-fr-de-es-it": {
+  "_why": "The opening cinematic in Bolivia (from about 25 s) renders almost black, and the default Start/A presses keep pausing it and returning to it, so no gameplay is seen. Start at the title, A for Start Game twice, then after loading the pause menu: down x2 to Skip Cinematic and A, which starts the level with the HUD. Default presses are held off until 100 s.",
+  "quiet": [
+   [
+    10,
+    100
+   ]
+  ],
+  "extra_steps": [
+   [
+    11,
+    "tap",
+    "start"
+   ],
+   [
+    14,
+    "tap",
+    "a"
+   ],
+   [
+    17,
+    "tap",
+    "a"
+   ],
+   [
+    40,
+    "tap",
+    "start"
+   ],
+   [
+    42,
+    "tap",
+    "down"
+   ],
+   [
+    43,
+    "tap",
+    "down"
+   ],
+   [
+    44.5,
+    "tap",
+    "a"
+   ]
+  ]
  }
 }

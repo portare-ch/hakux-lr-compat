@@ -194,10 +194,16 @@ const bySlug = Object.fromEntries(games.map(g => [g.slug, g]));
 function header() {
   const tested = games.filter(g => res(g).stage !== "Untested");
   const reviewed = tested.filter(g => res(g).reviewed).length;
-  const withFix = tested.filter(g => /PR #\d+/.test((DATA.configs[res(g).run] || {}).emulator || "")).length;
+  const prs = {};   // games run on a build with a pull request applied, by its number
+  tested.forEach(g => {
+    const m = /PR #(\d+)/.exec((DATA.configs[res(g).run] || {}).emulator || "");
+    if (m) prs[m[1]] = (prs[m[1]] || 0) + 1;
+  });
+  const withPr = Object.keys(prs).sort((a, b) => a - b).map(n =>
+    `<a href="${REPO}/pull/${n}" target="_blank" rel="noopener">PR #${n}</a> (${prs[n]} game${prs[n] === 1 ? "" : "s"})`);
   document.getElementById("lede").innerHTML =
     `${games.length} games, ${tested.length} tested on amd64 Linux and ${reviewed} reviewed. Open a title for its screenshots and the setup it was tested on. The hakuX-lr version is listed with each game` +
-    (withFix ? `; ${withFix} games were re-run with the memory fix from <a href="${REPO}/pull/104" target="_blank" rel="noopener">PR #104</a> before it was released.` : ".");
+    (withPr.length ? `; some were run with a pull request applied before its release: ${withPr.join(", ")}.` : ".");
   document.getElementById("systems").innerHTML = DATA.systems.map(s => {
     // one configuration per system: its most recent run's (the emulator version is listed per game)
     const runs = Object.values(DATA.configs).filter(c => c.system === s.id);

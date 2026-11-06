@@ -25642,44 +25642,42 @@
   "conflict-desert-storm-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Menu",
+     "outcome": "Needs manual input",
      "reviewed": true,
      "observations": {
-      "graphics": "Black in the boot and mid shots and all 14 watch frames; no final screenshot was saved.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "The core stopped within the first second: after the title formatted the utility partition (Partition5), the log shows 'unhandled exception c0000005 at 000a750c (no handler took it), writing 84000000' in thread 8, then 'core: stopped', and RetroArch reports content ran 0 s. RetroArch stayed open on a black screen until the run ended at 305 s; changed to Timeout because the screen never changes (the automatic result did not flag the crash)."
+      "graphics": "SCi logo, title and the Load Game menus over the barracks scene render correctly.",
+      "audio": "sound from -0.0 s, audible in 5 % of the run, loudest -24.8 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). From about 30 s the Start/A presses go back and forth between the empty Load Game list and Choose Storage Device (Xbox hard disk, 50,000+ blocks free) for the rest of the run."
      },
      "auto": {
       "outcome": "Completed",
       "why": "the input plan ran to the end and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 305.1,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "stop"
+       "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
-      "longest_hang_s": 0.0,
-      "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "fps_median": 59.7,
+      "fps_min": 26.8,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
+      "longest_hang_s": 2.5,
+      "longest_hang_after_frame": 100,
+      "audio_peak_rms_dbfs": -24.8,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.05,
+      "audio_seconds": 302.7,
       "images": {
        "boot": {
         "mean": 0.0,
@@ -25687,10 +25685,16 @@
         "black": true
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.327,
+        "sd": 0.192,
+        "black": false
+       },
+       "final": {
+        "mean": 0.233,
+        "sd": 0.158,
+        "black": false
+       },
+       "mid_final_rmse": 0.242
       },
       "judge": {
        "model": "haiku",
@@ -25698,39 +25702,39 @@
        "stopped_at_s": null,
        "verdicts": [
         [
-         29.83,
+         29.84,
          "OTHER"
         ],
         [
-         49.85,
+         49.83,
          "OTHER"
         ],
         [
-         69.85,
+         69.81,
          "OTHER"
         ],
         [
-         89.81,
+         89.84,
          "OTHER"
         ],
         [
-         109.81,
+         109.82,
          "OTHER"
         ],
         [
-         129.84,
+         129.81,
          "OTHER"
         ],
         [
-         149.8,
+         149.84,
          "OTHER"
         ],
         [
-         169.83,
+         169.84,
          "OTHER"
         ],
         [
-         189.82,
+         189.83,
          "OTHER"
         ],
         [
@@ -25746,41 +25750,43 @@
          "OTHER"
         ],
         [
-         269.8,
+         269.81,
          "OTHER"
         ],
         [
-         289.8,
+         289.81,
          "OTHER"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-u/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "cpu_backend": "KVM",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat6), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -25804,9 +25810,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T17:06:55+01:00",
+     "tested_at": "2026-11-06T06:41:42+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T17:21:16+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -25825,55 +25831,59 @@
   "conflict-desert-storm-ii-back-to-baghdad-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Menu",
+     "outcome": "Needs manual input",
      "reviewed": true,
      "observations": {
-      "graphics": "Black in the boot and mid shots and all 13 watch frames; no final screenshot was saved.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "The core stopped within the first second: after the title formatted the utility partition (Partition5) and an NtCreateFile returned c000003a, the log shows 'unhandled exception c0000005 at 0010d5a9 (no handler took it), writing 84000000' in thread 8, then 'core: stopped', and RetroArch reports content ran 0 s. RetroArch stayed open on a black screen until the run ended at 305 s; changed to Timeout because the screen never changes (the automatic result did not flag the crash)."
+      "graphics": "Gotham Games logo, Team Select (22nd SAS, 1st SFOD Delta) and the soldier screens with animated models render correctly.",
+      "audio": "sound from 6.0 s, audible in 11 % of the run, loudest -8.6 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Team Select at 30 s (Delta Force), then from about 50 s the first soldier's screen (John Bradley) for the rest of the run: Start/A don't move past it."
      },
      "auto": {
       "outcome": "Completed",
       "why": "the input plan ran to the end and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 301.1,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "stop"
+       "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
+      "fps_median": 59.7,
+      "fps_min": 25.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "audio_peak_rms_dbfs": -8.6,
+      "audio_first_sound_s": 6.0,
+      "audio_audible_fraction": 0.11,
+      "audio_seconds": 298.7,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.564,
+        "sd": 0.31,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.156,
+        "sd": 0.088,
+        "black": false
+       },
+       "final": {
+        "mean": 0.137,
+        "sd": 0.181,
+        "black": false
+       },
+       "mid_final_rmse": 0.217
       },
       "judge": {
        "model": "haiku",
@@ -25881,15 +25891,15 @@
        "stopped_at_s": null,
        "verdicts": [
         [
-         29.83,
+         29.84,
          "OTHER"
         ],
         [
-         49.84,
+         49.83,
          "OTHER"
         ],
         [
-         69.84,
+         69.81,
          "OTHER"
         ],
         [
@@ -25897,19 +25907,19 @@
          "OTHER"
         ],
         [
-         109.8,
+         109.82,
          "OTHER"
         ],
         [
-         129.82,
+         129.81,
          "OTHER"
         ],
         [
-         149.84,
+         149.81,
          "OTHER"
         ],
         [
-         169.81,
+         169.8,
          "OTHER"
         ],
         [
@@ -25921,45 +25931,51 @@
          "OTHER"
         ],
         [
-         229.84,
+         229.85,
          "OTHER"
         ],
         [
-         249.83,
+         249.85,
          "OTHER"
         ],
         [
-         269.83,
+         269.85,
+         "OTHER"
+        ],
+        [
+         289.8,
          "OTHER"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/conflict-desert-storm-ii-back-to-baghdad-u/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/conflict-desert-storm-ii-back-to-baghdad-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "cpu_backend": "KVM",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat6), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -25983,9 +25999,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T17:06:56+01:00",
+     "tested_at": "2026-11-06T06:41:46+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T17:21:16+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -30907,20 +30923,20 @@
   "dave-mirra-freestyle-bmx-2-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Z-Axis logo and 'Press Start to play' render correctly; black afterwards.",
-      "audio": "sound from 1.5 s, audible in 69 % of the run, loudest -8.3 dBFS RMS (recorded; not judged by ear)",
-      "notes": "Crashes right after Start at the title: after relaunching into default.xbe the guest hits an access violation at 00069315 reading d0081080 that no handler takes, and the core stops. Worth a look."
+      "graphics": "Z-Axis logo, Modifier Setup and the park with rider and HUD render correctly, 60 fps.",
+      "audio": "sound from 1.5 s, audible in 78 % of the run, loudest -8.3 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes on the first Start (PR #106 maps a zeroed page over each stack's top; the title reads 0x80 bytes past its main thread's stack after the intro). Riding a park from about 50 s (timer counting down from 2:56, score 0) with sound."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the core stopped (RetroArch reported no content)",
+      "outcome": "Completed",
+      "why": "in game from 49.83 s (judged from screenshots); stopped at 81.0 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 300.5,
+       "at_s": 81.2,
        "code": 0,
        "signal": null
       },
@@ -30934,16 +30950,16 @@
        "not-implemented",
        "stop"
       ],
-      "fps_median": 55.2,
-      "fps_min": 55.2,
+      "fps_median": 59.3,
+      "fps_min": 52.5,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 55.7,
+      "guest_swaps_median": 59.8,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
       "audio_peak_rms_dbfs": -8.3,
       "audio_first_sound_s": 1.5,
-      "audio_audible_fraction": 0.69,
-      "audio_seconds": 8.0,
+      "audio_audible_fraction": 0.78,
+      "audio_seconds": 76.9,
       "images": {
        "boot": {
         "mean": 0.05,
@@ -30951,108 +30967,68 @@
         "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.475,
+        "sd": 0.156,
+        "black": false
        },
        "final": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.363,
+        "sd": 0.152,
+        "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.195
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 49.83,
+       "stopped_at_s": 81.0,
        "verdicts": [
         [
-         29.81,
+         29.8,
          "OTHER"
         ],
         [
-         49.8,
-         "OTHER"
+         49.83,
+         "INGAME"
         ],
         [
-         69.85,
-         "OTHER"
+         69.82,
+         "INGAME"
         ],
         [
-         89.84,
-         "OTHER"
-        ],
-        [
-         109.83,
-         "OTHER"
-        ],
-        [
-         129.82,
-         "OTHER"
-        ],
-        [
-         149.82,
-         "OTHER"
-        ],
-        [
-         169.82,
-         "OTHER"
-        ],
-        [
-         189.81,
-         "OTHER"
-        ],
-        [
-         209.85,
-         "OTHER"
-        ],
-        [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.84,
-         "OTHER"
-        ],
-        [
-         289.83,
-         "OTHER"
+         69.82,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/dave-mirra-freestyle-bmx-2-u/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/dave-mirra-freestyle-bmx-2-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
+      "cpu_backend": "KVM",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat6), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -31076,9 +31052,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T17:12:03+01:00",
+     "tested_at": "2026-11-06T06:46:51+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T17:19:37+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -53526,56 +53502,59 @@
   "great-escape-the-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Menu",
+     "outcome": "Needs manual input",
      "reviewed": true,
      "observations": {
-      "graphics": "No frame was ever drawn; boot and mid shots are black and the final shot is missing.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Within about 1 s of launch, right after an NtCreateFile failed with c000003a, the guest hit an unhandled access violation at 001af8d9 (writing 84000000) and the core stopped before its first frame. RetroArch stayed open with no content until the harness quit at 305 s, so this is the game crashing in the core, not a harness failure."
+      "graphics": "MGM logo, Select Difficulty and the Options menu over the prison camp render correctly.",
+      "audio": "sound from 9.0 s, audible in 8 % of the run, loudest -23.3 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes at boot (PR #106 holds the top of RAM from boot; before, the title's first heap guard landed at 0x84000000). Select Difficulty (Medium) at 30 s; from about 50 s the presses are in Options, where A only changes settings, for the rest of the run."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the guest hit an exception no handler took, and the core stopped (core log)",
+      "outcome": "Completed",
+      "why": "the input plan ran to the end and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 302.3,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "stop",
-       "unhandled-exception"
+       "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
+      "fps_median": 30.0,
+      "fps_min": 26.5,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "audio_peak_rms_dbfs": -23.3,
+      "audio_first_sound_s": 9.0,
+      "audio_audible_fraction": 0.08,
+      "audio_seconds": 300.0,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.075,
+        "sd": 0.163,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.221,
+        "sd": 0.214,
+        "black": false
+       },
+       "final": {
+        "mean": 0.252,
+        "sd": 0.258,
+        "black": false
+       },
+       "mid_final_rmse": 0.192
       },
       "judge": {
        "model": "haiku",
@@ -53595,62 +53574,68 @@
          "OTHER"
         ],
         [
-         89.81,
+         89.84,
          "OTHER"
         ],
         [
-         109.85,
+         109.83,
          "OTHER"
         ],
         [
-         129.84,
+         129.82,
          "OTHER"
         ],
         [
-         149.8,
+         149.81,
          "OTHER"
         ],
         [
-         169.8,
+         169.81,
          "OTHER"
         ],
         [
-         189.8,
+         189.85,
          "OTHER"
         ],
         [
-         209.81,
+         209.85,
          "OTHER"
         ],
         [
-         229.81,
+         229.84,
          "OTHER"
         ],
         [
-         249.8,
+         249.84,
          "OTHER"
         ],
         [
-         269.81,
+         269.84,
+         "OTHER"
+        ],
+        [
+         289.85,
          "OTHER"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/great-escape-the-u/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/great-escape-the-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -53661,7 +53646,7 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -53685,9 +53670,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T23:01:17+01:00",
+     "tested_at": "2026-11-06T06:41:48+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:30:28+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -58159,68 +58144,71 @@
   "hitman-2-silent-assassin-u-rev-1": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Black screen in every screenshot; the game never drew a frame.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Crashes at launch before the first frame: an access violation at 001745c7 writing 88568000 that no handler took (unhandled exception c0000005) after 225 kernel calls, and the core stopped. RetroArch stayed open on a black screen until 305 s, so there is no final screenshot."
+      "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+      "audio": "sound from 0.5 s, audible in 74 % of the run, loudest -11.3 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the guest hit an exception no handler took, and the core stopped (core log)",
+      "outcome": "Completed",
+      "why": "in game from 109.81 s (judged from screenshots); stopped at 139.9 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 140.0,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "stop",
-       "unhandled-exception"
+       "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
+      "fps_median": 58.6,
+      "fps_min": 29.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "audio_peak_rms_dbfs": -11.3,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.74,
+      "audio_seconds": 138.4,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.232,
+        "sd": 0.188,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.458,
+        "sd": 0.455,
+        "black": false
+       },
+       "final": {
+        "mean": 0.228,
+        "sd": 0.155,
+        "black": false
+       },
+       "mid_final_rmse": 0.516
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 109.81,
+       "stopped_at_s": 139.9,
        "verdicts": [
         [
-         29.82,
+         29.8,
          "OTHER"
         ],
         [
-         49.8,
+         49.85,
          "OTHER"
         ],
         [
@@ -58228,58 +58216,40 @@
          "OTHER"
         ],
         [
-         89.82,
+         89.83,
          "OTHER"
         ],
         [
          109.81,
-         "OTHER"
+         "INGAME"
         ],
         [
-         129.84,
-         "OTHER"
+         129.85,
+         "INGAME"
         ],
         [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.85,
-         "OTHER"
-        ],
-        [
-         209.84,
-         "OTHER"
-        ],
-        [
-         229.83,
-         "OTHER"
-        ],
-        [
-         249.82,
-         "OTHER"
+         129.85,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-1/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-1/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -58290,7 +58260,7 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -58314,9 +58284,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:23:05+01:00",
+     "tested_at": "2026-11-06T07:02:43+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:43:03+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -58335,26 +58305,24 @@
   "hitman-2-silent-assassin-u-rev-2": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "The disc's Eidos launcher menu renders correctly; black after it.",
-      "audio": "sound from 0.5 s, audible in 94 % of the run, loudest -29.7 dBFS RMS (recorded; not judged by ear)",
-      "notes": "The disc launcher ('PLAY HITMAN 2: SILENT ASSASSIN / VIEW TRAILERS') showed at 10 s; choosing play relaunched into hm2.xbe, which crashed at once with the same access violation at 001745c7 (writing 88060000, unhandled exception c0000005) and the core stopped. Black from then to 305 s, no final screenshot; the game itself never drew a frame."
+      "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+      "audio": "sound from 0.5 s, audible in 71 % of the run, loudest -11.4 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). The disc launcher (PLAY HITMAN 2 / VIEW TRAILERS) comes first; A relaunches into hm2.xbe. With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the core stopped (RetroArch reported no content)",
+      "outcome": "Completed",
+      "why": "in game from 129.8 s (judged from screenshots); stopped at 159.7 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 159.9,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
@@ -58362,19 +58330,18 @@
       ],
       "log_flags": [
        "not-implemented",
-       "stop",
-       "unhandled-exception"
+       "stop"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
+      "fps_median": 58.2,
+      "fps_min": 29.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 59.8,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -29.7,
+      "audio_peak_rms_dbfs": -11.4,
       "audio_first_sound_s": 0.5,
-      "audio_audible_fraction": 0.94,
-      "audio_seconds": 9.4,
+      "audio_audible_fraction": 0.71,
+      "audio_seconds": 157.1,
       "images": {
        "boot": {
         "mean": 0.697,
@@ -58382,81 +58349,73 @@
         "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.12,
+        "sd": 0.279,
+        "black": false
+       },
+       "final": {
+        "mean": 0.228,
+        "sd": 0.155,
+        "black": false
+       },
+       "mid_final_rmse": 0.328
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 129.8,
+       "stopped_at_s": 159.7,
        "verdicts": [
         [
-         29.8,
+         29.85,
          "OTHER"
         ],
         [
-         49.83,
+         49.84,
          "OTHER"
         ],
         [
-         69.82,
+         69.84,
          "OTHER"
         ],
         [
-         89.81,
+         89.82,
          "OTHER"
         ],
         [
-         109.84,
+         109.81,
          "OTHER"
         ],
         [
-         129.83,
-         "OTHER"
+         129.8,
+         "INGAME"
         ],
         [
-         149.81,
-         "OTHER"
+         149.84,
+         "INGAME"
         ],
         [
-         169.85,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.8,
-         "OTHER"
+         149.84,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u-rev-2/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u-rev-2/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -58467,7 +58426,7 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -58491,9 +58450,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:23:11+01:00",
+     "tested_at": "2026-11-06T07:02:46+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:43:03+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -58512,135 +58471,112 @@
   "hitman-2-silent-assassin-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Black screen in every screenshot; the game never drew a frame.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Crashes at launch before the first frame: an access violation at 001745c7 writing 88568000 that no handler took (unhandled exception c0000005) after 225 kernel calls, and the core stopped. RetroArch stayed open on a black screen until 305 s, so there is no final screenshot."
+      "graphics": "Eidos and IO Interactive logos, the menus, the intro cinematic (Sicily) and the Garden Shed tutorial with HUD render correctly, 30 fps.",
+      "audio": "sound from 0.5 s, audible in 72 % of the run, loudest -11.3 dBFS RMS (recorded; not judged by ear)",
+      "notes": "No longer crashes before the first frame (PR #106 seeds the page directory with the window's 4 MiB PDEs; the title copies them to 0x88000000 for its heap). With the override (up x3 to Normal on Select Difficulty, then A) the tutorial starts: in the Garden Shed with HUD and the movement tutorial text from about 110 s, with sound."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the guest hit an exception no handler took, and the core stopped (core log)",
+      "outcome": "Completed",
+      "why": "in game from 109.81 s (judged from screenshots); stopped at 139.7 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 139.9,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "stop",
-       "unhandled-exception"
+       "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
+      "fps_median": 58.4,
+      "fps_min": 30.0,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 60.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "audio_peak_rms_dbfs": -11.3,
+      "audio_first_sound_s": 0.5,
+      "audio_audible_fraction": 0.72,
+      "audio_seconds": 138.2,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.232,
+        "sd": 0.188,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.46,
+        "sd": 0.454,
+        "black": false
+       },
+       "final": {
+        "mean": 0.229,
+        "sd": 0.158,
+        "black": false
+       },
+       "mid_final_rmse": 0.516
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 109.81,
+       "stopped_at_s": 139.7,
        "verdicts": [
         [
-         29.85,
+         29.8,
          "OTHER"
         ],
         [
-         49.83,
+         49.84,
          "OTHER"
         ],
         [
-         69.82,
+         69.83,
          "OTHER"
         ],
         [
-         89.81,
+         89.82,
          "OTHER"
         ],
         [
-         109.85,
-         "OTHER"
+         109.81,
+         "INGAME"
         ],
         [
-         129.83,
-         "OTHER"
+         129.85,
+         "INGAME"
         ],
         [
-         149.82,
-         "OTHER"
-        ],
-        [
-         169.8,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.81,
-         "OTHER"
-        ],
-        [
-         289.85,
-         "OTHER"
+         129.85,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/hitman-2-silent-assassin-u/result.json"
+      "boot": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/hitman-2-silent-assassin-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -58651,7 +58587,7 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -58675,9 +58611,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:23:12+01:00",
+     "tested_at": "2026-11-06T07:02:40+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:43:03+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -62378,7 +62314,7 @@
      "observations": {
       "graphics": "Black for the whole run; no frame was drawn.",
       "audio": "silent for the whole run (recorded)",
-      "notes": "Bonus disc: default.xbe relaunches into dashupdate.xbe, which fails to open the font HGGothicM.xtf and then hits an access violation at 0002ffd0 (reading 00000008). The title's DashUnhandledExceptionFilter reports 'Rebooting...', the title returns to the firmware and the core stops within the first second. RetroArch then only reports that the Xbox dashboard isn't installed; the disc's content never played."
+      "notes": "Needs an installed Xbox dashboard. The bonus disc's default.xbe compares the dashboard on the console disk (Y:\\xboxdash.xbe and Y:\\XODash\\xonlinedash.xbe) with D:\\dashupdate.xbe and, as none is installed, relaunches into the dashboard updater. The updater looks for the dashboard's fonts (y:\\fonts\\*.xtf), fails to open HGGothicM.xtf and hits an access violation at 0002ffd0; its DashUnhandledExceptionFilter reports 'Rebooting...' and the title returns to the firmware within the first second. A real console always has a dashboard, so this is not an emulation fault: with your own dashboard copied into hdd/Partition2 the disc should get past this. The disc's content never played here."
      },
      "auto": {
       "outcome": "Completed",
@@ -62537,7 +62473,7 @@
      },
      "tested_at": "2026-11-05T23:32:25+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:54:14+01:00"
+     "reviewed_at": "2026-11-06T07:34:20+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -67104,18 +67040,20 @@
      "observations": {
       "graphics": "Title screen ('Press START to begin') renders correctly; no later shot exists.",
       "audio": "silent for the whole run (recorded)",
-      "notes": "On the title screen at 10 s; at about 18 s, after Start presses there and an access to its save folder, the guest hit an unhandled access violation at 0042b29b (writing 2842f522) and the core stopped. The core did not shut down within 10 s, and RetroArch ended itself at 26.9 s."
+      "notes": "At about 16.5 s, after Start at the title and A on the main menu, the guest hit an unhandled access violation at 001f9dc7 (writing 0000008c) in a heap free-list unlink, so the heap was already corrupt, just as the game failed to open title.xmv (not on this disc, as on a console). This build no longer has master's crash at 0042b29b, but that comes from a different memory layout, not a fix: the root cause is still open. In 2 of 4 RetroArch runs it crashed like this; in the others and in local runs it loads Bolivia, where the opening cinematic renders almost black and the level after Skip Cinematic renders correctly with HUD."
      },
      "auto": {
       "outcome": "Crash",
-      "why": "the emulator exited by itself at 26.9 s",
+      "why": "the emulator exited by itself at 16.5 s",
       "exit": {
        "how": "self",
-       "at_s": 26.9,
+       "at_s": 16.5,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [],
+      "missing_shots": [
+       "boot"
+      ],
       "boot_stages": [
        "S0",
        "S1",
@@ -67126,23 +67064,17 @@
        "stop",
        "unhandled-exception"
       ],
-      "fps_median": 43.3,
-      "fps_min": 43.3,
-      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 31.5,
+      "fps_median": null,
+      "fps_min": null,
+      "fps_source": "guest swaps",
+      "guest_swaps_median": 58.9,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
       "audio_peak_rms_dbfs": -120.0,
       "audio_first_sound_s": null,
       "audio_audible_fraction": 0,
       "audio_seconds": 0.0,
-      "images": {
-       "boot": {
-        "mean": 0.256,
-        "sd": 0.18,
-        "black": false
-       }
-      },
+      "images": {},
       "judge": {
        "model": "haiku",
        "ingame_at_s": null,
@@ -67151,17 +67083,15 @@
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/thumbs/boot.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/result.json"
+      "log": "runs/amd64-linux-20261106-fixes-a4fc4b6/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261106-fixes-a4fc4b6/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261106-fixes-a4fc4b6/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261106-fixes-a4fc4b6/lara-croft-tomb-raider-legend-u-en-fr-de-es-it/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261106-fixes-a4fc4b6",
+      "emulator": "hakuX-lr master 8b4c43ff23 + PR #106 (a4fc4b6ce0)",
+      "commit": "a4fc4b6ce0",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -67172,7 +67102,7 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat4), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
       "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
       "plan": {
@@ -67196,9 +67126,9 @@
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T23:11:01+01:00",
+     "tested_at": "2026-11-06T07:02:49+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:30:28+01:00"
+     "reviewed_at": "2026-11-06T07:38:21+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"

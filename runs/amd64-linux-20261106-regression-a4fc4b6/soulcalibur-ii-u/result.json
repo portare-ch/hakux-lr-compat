@@ -1,0 +1,1852 @@
+{
+ "game_file": "Soulcalibur II (U).chd",
+ "game_size": 966573899,
+ "system": "amd64-linux",
+ "started": "2026-11-06T06:57:08+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'Autosave will be disabled ... Continue anyway?' (from about 30 s) defaults to No. Left then A picks Yes; a second try 20 s later.",
+  "extra_steps": [
+   [
+    38.8,
+    "tap",
+    "left"
+   ],
+   [
+    39.4,
+    "tap",
+    "a"
+   ],
+   [
+    58.8,
+    "tap",
+    "left"
+   ],
+   [
+    59.4,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   38.8,
+   "tap",
+   "left"
+  ],
+  [
+   39.4,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   58.8,
+   "tap",
+   "left"
+  ],
+  [
+   59.4,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.83,
+  "confirmed_by": "w110",
+  "stopped_at_s": 116.8,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 117.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   38.81,
+   "tap",
+   "left"
+  ],
+  [
+   39.41,
+   "tap",
+   "a"
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   58.84,
+   "tap",
+   "left"
+  ],
+  [
+   59.44,
+   "tap",
+   "a"
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.55,
+   "held",
+   "start"
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "held",
+   "start"
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   110.52,
+   "held",
+   "start"
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.53,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 46665
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.3,
+   "bytes": 132563
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.6,
+   "bytes": 1365876
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 52.0,
+   "bytes": 1517134
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 72.4,
+   "bytes": 2153981
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 94.0,
+   "bytes": 1716857
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 112.7,
+   "bytes": 1892774
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.82,
+   "got_s": 112.7,
+   "bytes": 1892774,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Soulcalibur II (U),crc32=4acf1550"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.8,
+   59.4,
+   59.8,
+   59.9,
+   59.5,
+   60.0,
+   59.0,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: ram: free 5044 KiB, contiguous 47296 KiB (49 blocks), virtual 11808 KiB, kernel pool 10 of 64 KiB (Ex 521, objects 8, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 2668 words 6244559 headers 861138 methods 5383408 faults 0 GET 03ead070 PUT 03d7789c binds 4 semaphores 61999 flips 6819 traps 36728 (7=29877 21=6819 5=25 9=6 28=1) runs 0 surfaces 6 clears 6668 swaps 6819 draws 1985169 ff 1972532 skipped 0 () textures 356 rt uploads 1 blits 4 m2",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 36.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=30922 verts=3671093 mergeable=0 (not: strip 29451 idx 1471 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 10, contiguous 0 pipe=5468 set1=11689 pc=11756 vi=836 vb=28854 vp=195 sc=195 dyn=12487 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1982979 prog_fog=381363 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2678 words 6257616 headers 860184 methods 5397432 faults 0 GET 03e8e104 PUT 03d5097c binds 4 semaphores 62919 flips 6879 traps 37028 (7=30117 21=6879 5=25 9=6 28=1) runs 0 surfaces 6 clears 6728 swaps 6879 draws 2015680 ff 2002598 skipped 0 () textures 356 rt uploads 1 blits 4 m2",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 36.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=30511 verts=3660096 mergeable=0 (not: strip 28905 idx 1606 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=5542 set1=11710 pc=11862 vi=873 vb=28376 vp=191 sc=191 dyn=12173 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2013490 prog_fog=390183 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 2684 words 6315705 headers 874806 methods 5440880 faults 0 GET 03ea9f1c PUT 03d701a8 binds 4 semaphores 63840 flips 6939 traps 37328 (7=30357 21=6939 5=25 9=6 28=1) runs 0 surfaces 6 clears 6788 swaps 6939 draws 2048079 ff 2034784 skipped 0 () textures 356 rt uploads 1 blits 4 m2",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.2 ms (max 36.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=32399 verts=3667732 mergeable=0 (not: strip 29539 idx 2860 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 18, contiguous 0 pipe=6013 set1=11707 pc=12362 vi=874 vb=30317 vp=188 sc=188 dyn=12542 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2045889 prog_fog=399003 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pipe: pipeline e1b0cf6556fa963e fvf=0x0 vsh=e4f2daf2148a737f in=20d combiners=2 ok in 0.1 ms (spirv 0.1) from the cache",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1554934 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 92288 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=169 misses=54",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 57 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5582a4a04760",
+   "[Gamescope WSI] Destroyed swapchain: 0x5582a4a04760",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 116.1,
+  "peak_rms_dbfs": -12.0,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.79,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -32.4,
+   -18.9,
+   -18.4,
+   -120.0,
+   -21.0,
+   -30.2,
+   -33.7,
+   -21.1,
+   -30.2,
+   -21.1,
+   -30.2,
+   -33.7,
+   -21.1,
+   -30.2,
+   -21.9,
+   -22.6,
+   -21.5,
+   -16.9,
+   -19.7,
+   -19.7,
+   -20.8,
+   -20.1,
+   -18.4,
+   -18.8,
+   -21.2,
+   -18.1,
+   -12.0,
+   -13.1,
+   -15.5,
+   -14.8,
+   -19.8,
+   -20.3,
+   -18.0,
+   -19.1,
+   -24.5,
+   -15.2,
+   -16.5,
+   -16.9,
+   -17.2,
+   -19.2,
+   -16.6,
+   -25.5,
+   -14.5,
+   -13.4,
+   -26.3,
+   -17.0,
+   -13.7,
+   -14.5,
+   -15.4,
+   -14.2,
+   -14.6,
+   -13.9,
+   -14.9,
+   -13.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.83 s (judged from screenshots); stopped at 116.8 s and the emulator closed",
+ "duration_s": 117.0,
+ "run_id": "amd64-linux-20261106-fixes-a4fc4b6"
+}
