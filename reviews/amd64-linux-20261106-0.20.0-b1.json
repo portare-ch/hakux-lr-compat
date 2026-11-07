@@ -66,8 +66,8 @@
   "game": "rayman-3-hoodlum-havoc-u-en-fr-de-es-it",
   "stage": "Playable",
   "outcome": "Completed",
-  "graphics": "Intro cutscene, the dark forest level with Rayman and the health HUD, and the Fairy Council pause screen render correctly at 60 fps.",
-  "notes": "In game at 30 s; from 45 s the Start presses left it on the Fairy Council pause/score screen (silent) until the end at 303 s."
+  "graphics": "Intro cutscene and the dark forest level with Rayman, the health HUD and the glowing plants render correctly at 60 fps.",
+  "notes": "With the override (no default presses after 29 s, A every 5 s) Rayman is in the first level from about 30 s, with sound, until the run stopped at 57 s. In the first run the Start presses kept the Fairy Council pause screen open from 45 s."
  },
  {
   "game": "redcard-20-03-u",
@@ -267,9 +267,9 @@
  },
  {
   "game": "silent-hill-2-restless-dreams-u-en-ja",
-  "stage": "Playable",
+  "stage": "In-game",
   "outcome": "Completed",
-  "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen's background is broken: split into shifted blocks at 45 s, and at 70 s only the top-left quarter is right with the rest smeared lines.",
-  "notes": "In control of James in the restroom from about 30 s; the Start presses paused it at 45 s and 70 s, and the run stopped at 75 s."
+  "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen is broken: only the top-left part of the frozen game picture is drawn and the rest of the screen is smeared lines (45 s and 70 s).",
+  "notes": "In control of James in the restroom from about 30 s, with sound. The Start presses paused it at 45 s and 70 s, and each time the pause screen was unreadable, so this stays In-game until that is fixed."
  }
 ]
