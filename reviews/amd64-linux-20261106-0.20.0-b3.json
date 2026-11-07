@@ -74,7 +74,7 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "PSL logo, the garage intro, Create Player, Quick Race (Plymouth Hemi Cuda, San Francisco 2) and the Loading screen render correctly.",
-  "notes": "Loading screen from about 70 s; repeated 5 s JIT-compile hangs from about 20 s (fps 5-20), then the game relaunched into TDGame.xbe at about 112 s after a 25 s hang, the core did not stop within 10 s and RetroArch exited at 121 s. No audio was recorded (empty capture)."
+  "notes": "Loading screen from about 70 s; repeated 5 s JIT-compile hangs from about 20 s (fps 5-20), then the game relaunched into TDGame.xbe at about 112 s after a 25 s hang, the core did not stop within 10 s and RetroArch exited at 121 s. No audio was recorded (empty capture). Issue: hakuX-lr #149 (https://github.com/portare-ch/hakuX-lr/issues/149)."
  },
  {
   "game": "tetris-worlds-u",
@@ -88,14 +88,14 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Title, the park with coaster and HUD (0/25, $2,000, Next Park) and the pause menu render, 44-60 fps, but the bottom of the picture is cut off in every frame: the lower fifth to third is black and the PAUSED menu is cut off below SAVE.",
-  "notes": "Walking in the park at 50 s, then the pause menu at 70 s and at the early stop (76 s); the missing lower part of the picture is in all frames from 45 s. Sound comes in short bursts with silent gaps (audible 34% of the run)."
+  "notes": "Walking in the park at 50 s, then the pause menu at 70 s and at the early stop (76 s); the missing lower part of the picture is in all frames from 45 s. Sound comes in short bursts with silent gaps (audible 34% of the run). Issue: hakuX-lr #153 (https://github.com/portare-ch/hakuX-lr/issues/153)."
  },
  {
   "game": "terminator-the-dawn-of-fate-u",
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "The SAVE NAME keyboard renders correctly; black otherwise.",
-  "notes": "Save named and written by 30 s; while loading the training level the core stopped at about 45 s with 'unhandled exception c0000005 at 0009e67f, writing 000000a8'; black for the rest of the run."
+  "notes": "Save named and written by 30 s; while loading the training level the core stopped at about 45 s with 'unhandled exception c0000005 at 0009e67f, writing 000000a8'; black for the rest of the run. Issue: hakuX-lr #146 (https://github.com/portare-ch/hakuX-lr/issues/146)."
  },
  {
   "game": "tiger-woods-pga-tour-06-u",
@@ -130,14 +130,14 @@
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "Only the 10 s shot exists: a frame of the intro movie (soldier at a door), which looks right.",
-  "notes": "RetroArch exited by itself at about 15 s during the intro (after the Ubisoft logo movie, while the game cached files to the hard disk); the core log just ends, with no error or stop line."
+  "notes": "RetroArch exited by itself at about 15 s during the intro (after the Ubisoft logo movie, while the game cached files to the hard disk); the core log just ends, with no error or stop line. Issue: hakuX-lr #148 (https://github.com/portare-ch/hakuX-lr/issues/148)."
  },
  {
   "game": "tim-burton-s-the-nightmare-before-christmas-oogie-s-revenge-u",
   "stage": "Boot",
   "outcome": "Timeout",
   "graphics": "Only the 'Now Loading...' screen with the pumpkin icon is drawn, from 10 s to the end; it looks right but never changes.",
-  "notes": "Stuck on the first loading screen for the whole run: the guest made only 25 flips, no displayed-fps reports, silence throughout, and nothing is read from the disc after the first seconds."
+  "notes": "Stuck on the first loading screen for the whole run: the guest made only 25 flips, no displayed-fps reports, silence throughout, and nothing is read from the disc after the first seconds. Issue: hakuX-lr #152 (https://github.com/portare-ch/hakuX-lr/issues/152)."
  },
  {
   "game": "toejam-earl-iii-mission-to-earth-u",
@@ -151,7 +151,7 @@
   "stage": "Intro",
   "outcome": "Timeout",
   "graphics": "The ESRB 'Mature 17+' notice renders correctly but is frozen from about 12 s to the end.",
-  "notes": "Hangs on the ESRB notice: the core reports a hang from frame 352 (about 12 s) for the rest of the run, with the guest busy and nothing new drawn; sound keeps playing at a steady level."
+  "notes": "Hangs on the ESRB notice: the core reports a hang from frame 352 (about 12 s) for the rest of the run, with the guest busy and nothing new drawn; sound keeps playing at a steady level. Issue: hakuX-lr #150 (https://github.com/portare-ch/hakuX-lr/issues/150)."
  },
  {
   "game": "tom-and-jerry-in-war-of-the-whiskers-u",
@@ -214,7 +214,7 @@
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "Activision logo at 10 s; black from 30 s (the core had stopped).",
-  "notes": "The core stopped at about 15 s during the intro with 'unhandled exception c0000005 at 00011985, reading 7f93ca71'; RetroArch stayed without content to the end."
+  "notes": "The core stopped at about 15 s during the intro with 'unhandled exception c0000005 at 00011985, reading 7f93ca71'; RetroArch stayed without content to the end. Issue: hakuX-lr #147 (https://github.com/portare-ch/hakuX-lr/issues/147)."
  },
  {
   "game": "total-overdose-u-en-fr-de-es-it",
@@ -235,7 +235,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Rage logo, Select Track, the loading screen and the derby arena with car, scores, timer, radar and speedometer render correctly, but at only 12-25 fps.",
-  "notes": "Free-for-all derby from about 50 s: displayed fps falls from about 50 to 22-25 at 50-60 s and 12 at 70 s, and the timer moved only from 3:30 to 3:20 in 20 s; stopped early at 79 s."
+  "notes": "Free-for-all derby from about 50 s: displayed fps falls from about 50 to 22-25 at 50-60 s and 12 at 70 s, and the timer moved only from 3:30 to 3:20 in 20 s; stopped early at 79 s. Issue: hakuX-lr #154 (https://github.com/portare-ch/hakuX-lr/issues/154)."
  },
  {
   "game": "toxic-grind-u",
@@ -256,6 +256,6 @@
   "stage": "Menu",
   "outcome": "Timeout",
   "graphics": "Atari logo and the main menu render correctly, but the menu is frozen from about 20 s to the end.",
-  "notes": "After the relaunch into UPP_Structure.xbe at about 10 s the main menu appears and the core reports a hang from frame 91 (about 20 s) for the rest of the run, with nothing new drawn; the menu music keeps playing."
+  "notes": "After the relaunch into UPP_Structure.xbe at about 10 s the main menu appears and the core reports a hang from frame 91 (about 20 s) for the rest of the run, with nothing new drawn; the menu music keeps playing. Issue: hakuX-lr #151 (https://github.com/portare-ch/hakuX-lr/issues/151)."
  }
 ]
