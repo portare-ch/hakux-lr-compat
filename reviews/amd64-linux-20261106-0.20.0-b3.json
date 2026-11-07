@@ -1,0 +1,261 @@
+[
+ {
+  "game": "superman-returns-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "DC Comics logo, the Start New Game menu and Superman on a Metropolis street with health/power bars and radar render correctly, steady 30 fps.",
+  "notes": "In control of Superman in Metropolis from about 50 s (tutorial text 'On Earth, you'll have the ability to defy gravity') with sound until the early stop at 78 s."
+ },
+ {
+  "game": "syberia-ii-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Microids logo and Kate Walker in the train carriage with the inventory icon render correctly, 60 fps from about 40 s.",
+  "notes": "In control of Kate in the train from about 30 s to the early stop at 55 s (she stands still, as Start/A don't move her). Sound after the first 25 s is only a quiet low hum at about -50 dBFS; worth a listen."
+ },
+ {
+  "game": "tmnt-mutant-melee-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Konami logo, the Adventure intro (Leo's bio) and the training dojo with Leonardo, dummies, KO counter and timer render correctly, 60 fps.",
+  "notes": "Adventure-mode training from about 45 s (timer 0:59 at 45 s, 0:41 at 70 s) with sound until the early stop at 76 s."
+ },
+ {
+  "game": "suffering-the-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Midway logo, the journal intro and the letterboxed in-engine prison cutscene render correctly, 60 fps.",
+  "notes": "From about 45 s to the end the opening death-row cutscene plays (guards, Torque, inmates in their cells, a family photo); Start/A never skip it and gameplay was not seen. From about 130 s it keeps cutting between the same cell shots (190 s and 290 s nearly identical) and no file is opened after about 30 s, so it may be stuck in the cutscene; retest or check by hand."
+ },
+ {
+  "game": "tao-feng-fist-of-the-lotus-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, Versus character select, the museum loading screen and the fight (Master Sage vs Wulong Goth) with health and chi bars render correctly, 55-60 fps.",
+  "notes": "Versus fight from about 70 s with sound; with only Start/A pressed one fighter is down by 90 s. Stopped early at 98 s."
+ },
+ {
+  "game": "teenage-mutant-ninja-turtles-2-battle-nexus-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, Character Select and the first room with Leonardo, health dial and score HUD render correctly, 30 fps in play.",
+  "notes": "Playing as Leonardo from about 45 s with sound until the early stop at 75 s; a steady 30 fps in game (60 in the menus)."
+ },
+ {
+  "game": "teenage-mutant-ninja-turtles-3-mutant-nightmare-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Splinter intro movie, Episode 1 title, the mission briefing and the street fight with four turtles, radar and HUD render correctly, 30 fps in play.",
+  "notes": "Briefing from 45 s to about 75 s, then Mission 1 from about 90 s: Leo fighting Triceratons with three CPU turtles, with sound, until the early stop at 116 s; steady 30 fps in game."
+ },
+ {
+  "game": "teenage-mutant-ninja-turtles-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the Player 1 select, Story Mode, Stage Select, the Leonardo/Splinter cutscene and the sewer stage with Michelangelo, radar and score HUD render correctly, 60 fps.",
+  "notes": "The character and mode menus looped from 30 s to about 170 s (B at 53 s and Down at 113 s got through); after the stage-1 cutscene, playing Michelangelo in the sewers from about 210 s (score 300) with sound until the early stop at 236 s."
+ },
+ {
+  "game": "terminator-3-rise-of-the-machines-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the loading screen and the first-person tunnel with fire, weapon, health 100 and radar HUD render correctly, 30 fps.",
+  "notes": "In control in the burning tunnel from about 45 s with sound until the early stop at 79 s; steady 30 fps in game."
+ },
+ {
+  "game": "test-drive-eve-of-destruction-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the speedway and the race car with position, lap, damage and speed HUD render correctly, 59-60 fps.",
+  "notes": "Race under way from about 45 s (position 14/14, lap 1/3, car stopped as there is no throttle) with sound until the early stop at 75 s; the relaunch into default.xbe at about 10 s worked."
+ },
+ {
+  "game": "test-drive-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "PSL logo, the garage intro, Create Player, Quick Race (Plymouth Hemi Cuda, San Francisco 2) and the Loading screen render correctly.",
+  "notes": "Loading screen from about 70 s; repeated 5 s JIT-compile hangs from about 20 s (fps 5-20), then the game relaunched into TDGame.xbe at about 112 s after a 25 s hang, the core did not stop within 10 s and RetroArch exited at 121 s. No audio was recorded (empty capture)."
+ },
+ {
+  "game": "tetris-worlds-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "THQ logo and the Tetris board with Hold/Next, lines, level and countdown render correctly, 60 fps.",
+  "notes": "Playing a timed Tetris game from about 30 s (timer 1:59 at 30 s, 1:41 at 53 s) with sound until the early stop at 56 s."
+ },
+ {
+  "game": "thrillville-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Title, the park with coaster and HUD (0/25, $2,000, Next Park) and the pause menu render, 44-60 fps, but the bottom of the picture is cut off in every frame: the lower fifth to third is black and the PAUSED menu is cut off below SAVE.",
+  "notes": "Walking in the park at 50 s, then the pause menu at 70 s and at the early stop (76 s); the missing lower part of the picture is in all frames from 45 s. Sound comes in short bursts with silent gaps (audible 34% of the run)."
+ },
+ {
+  "game": "terminator-the-dawn-of-fate-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "The SAVE NAME keyboard renders correctly; black otherwise.",
+  "notes": "Save named and written by 30 s; while loading the training level the core stopped at about 45 s with 'unhandled exception c0000005 at 0009e67f, writing 000000a8'; black for the rest of the run."
+ },
+ {
+  "game": "tiger-woods-pga-tour-06-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the Play Now tip screen, a Caddy Tip and Tiger on the tee with club, distance and wind HUD render correctly, 60 fps.",
+  "notes": "On the first tee from about 45 s (3 Wood, 285 yards) with sound until the early stop at 78 s; a 6.1 s hang while loading at about 35 s, recovered."
+ },
+ {
+  "game": "tiger-woods-pga-tour-07-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal screen, the Play Now loading tip and Tiger on the tee with club, distance and wind HUD render correctly, 60 fps.",
+  "notes": "On the first tee from about 45 s (3 Wood, 285 yards) with sound until the early stop at 77 s; a 6.1 s hang while loading at about 35 s, recovered."
+ },
+ {
+  "game": "timesplitters-future-perfect-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Main menu, the 2401 briefing, loading screen, the opening cutscene and first-person play with the sci-fi handgun, ammo counter and control tips render correctly, 60 fps.",
+  "notes": "Story mission from about 110 s (Cortez in the canyon, ammo 112) with sound until the early stop at 140 s."
+ },
+ {
+  "game": "tom-clancy-s-ghost-recon-advanced-warfighter-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo, the camo, game-mode and campaign menus, the Mexico City loading screen and the helicopter insertion with cross-com HUD and clock render correctly, 60 fps.",
+  "notes": "New campaign started by 50 s (relaunch into default.xbe worked); in the helicopter with the HUD from about 130 s, with sound, until the early stop at 160 s."
+ },
+ {
+  "game": "tom-clancy-s-rainbow-six-lockdown-u-en-fr-de-es-it",
+  "stage": "Intro",
+  "outcome": "Crash",
+  "graphics": "Only the 10 s shot exists: a frame of the intro movie (soldier at a door), which looks right.",
+  "notes": "RetroArch exited by itself at about 15 s during the intro (after the Ubisoft logo movie, while the game cached files to the hard disk); the core log just ends, with no error or stop line."
+ },
+ {
+  "game": "tim-burton-s-the-nightmare-before-christmas-oogie-s-revenge-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Only the 'Now Loading...' screen with the pumpkin icon is drawn, from 10 s to the end; it looks right but never changes.",
+  "notes": "Stuck on the first loading screen for the whole run: the guest made only 25 flips, no displayed-fps reports, silence throughout, and nothing is read from the disc after the first seconds."
+ },
+ {
+  "game": "toejam-earl-iii-mission-to-earth-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Visual Concepts logo, the Player Stats screen and ToeJam on Funkotron with the health HUD render correctly, 60 fps.",
+  "notes": "In control of ToeJam from about 50 s; Start toggles the Player Stats screen, so frames alternate between it and play to the end, with sound."
+ },
+ {
+  "game": "tom-clancy-s-rainbow-six-critical-hour-u-en-fr",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "The ESRB 'Mature 17+' notice renders correctly but is frozen from about 12 s to the end.",
+  "notes": "Hangs on the ESRB notice: the core reports a hang from frame 352 (about 12 s) for the rest of the run, with the guest busy and nothing new drawn; sound keeps playing at a steady level."
+ },
+ {
+  "game": "tom-and-jerry-in-war-of-the-whiskers-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "VIS logo, 'Player 2 Ready!' and the beach-front arena with Tom, Jerry, health bars and timer render correctly, 57-60 fps.",
+  "notes": "Match from about 45 s (timer 85 to 65) with sound until the early stop at 76 s."
+ },
+ {
+  "game": "tom-clancy-s-splinter-cell-double-agent-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the main menu, the loading screen and Sam Fisher on the Icelandic coast with the HUD and subtitles render correctly, 30 fps in play.",
+  "notes": "New Game from the menu at about 90 s (relaunch into default.xbe worked, 17-19 fps while loading), in control on the ice from about 130 s with sound until the early stop at 157 s."
+ },
+ {
+  "game": "tony-hawk-s-pro-skater-3-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision O2 logo, The Foundry goal screen and the skater with score, timer and balance meter render correctly, 60 fps.",
+  "notes": "Skating The Foundry from about 45 s (timer 1:58 to 1:39) with sound until the early stop at 75 s."
+ },
+ {
+  "game": "tony-hawk-s-pro-skater-4-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision logo, Level Select and the College level with skater, score, cash and pro-points HUD render correctly, 60 fps.",
+  "notes": "Skating the College level from about 45 s with sound until the early stop at 77 s."
+ },
+ {
+  "game": "tony-hawk-s-pro-skater-2x-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "The Hangar checklist and the Hangar level with skater, score, special meter and timer render correctly, 60 fps from 40 s.",
+  "notes": "Skating the Hangar from about 45 s (timer 1:51 to 1:21) with sound until the early stop at 98 s."
+ },
+ {
+  "game": "tom-clancy-s-rainbow-six-3-black-arrow-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro and the main menu with its animated background render correctly, steady 30 fps.",
+  "notes": "On the main menu (CAMPAIGN highlighted, profile CHAVEZ; X Sign In, A Select) from 30 s to the end; the A presses every 5 s never opened Campaign, as with Rainbow Six 3 before, so it is not clear that A reaches this game."
+ },
+ {
+  "game": "top-gear-rpm-tuning-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo and the night street race with lap, position, timer, compass and gauges render correctly, 30 fps in the race.",
+  "notes": "Race under way from about 30 s (timer 0:12.96 at 45 s, car not accelerating) with sound until the early stop at 57 s; 44-58 fps before the race, a steady 30 in it."
+ },
+ {
+  "game": "total-immersion-racing-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, Team Selection (Abt Audi TT-R) and the race with track map, lap timer and rev counter render correctly, 60 fps.",
+  "notes": "On track from about 45 s (rolling at 58 mph, then stopped) with sound until the early stop at 79 s."
+ },
+ {
+  "game": "tony-hawk-s-american-wasteland-u-en-fr-de-es-it",
+  "stage": "Intro",
+  "outcome": "Crash",
+  "graphics": "Activision logo at 10 s; black from 30 s (the core had stopped).",
+  "notes": "The core stopped at about 15 s during the intro with 'unhandled exception c0000005 at 00011985, reading 7f93ca71'; RetroArch stayed without content to the end."
+ },
+ {
+  "game": "total-overdose-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the zip-line and warehouse scenes, the GAME PAUSED score panel and third-person play with ammo, radar and health HUD render correctly, steady 30 fps.",
+  "notes": "In game from about 45 s (zip-line, then the warehouse), with pause panels at 45 s and 70 s, playing with sound until the early stop at 96 s."
+ },
+ {
+  "game": "tork-prehistoric-punk-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, the letterboxed intro cutscenes and Tork in the burning village with lives and health HUD render correctly, steady 30 fps.",
+  "notes": "Intro cutscenes to about 170 s, then in control of Tork in the village from about 190 s with sound until the early stop at 219 s."
+ },
+ {
+  "game": "totaled-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Rage logo, Select Track, the loading screen and the derby arena with car, scores, timer, radar and speedometer render correctly, but at only 12-25 fps.",
+  "notes": "Free-for-all derby from about 50 s: displayed fps falls from about 50 to 22-25 at 50-60 s and 12 at 70 s, and the timer moved only from 3:30 to 3:20 in 20 s; stopped early at 79 s."
+ },
+ {
+  "game": "toxic-grind-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the save-location menu, the Bunny Hop tutorial panel and the BMX park with trick HUD and tutorial text render correctly, 58-60 fps.",
+  "notes": "Riding the tutorial from about 50 s until the early stop at 78 s. Sound plays, but at about 53-56 s and 75-77 s there are bursts of very loud, clipped low sound (about -2 dBFS, the loudest in the run); worth a listen."
+ },
+ {
+  "game": "triple-play-2002-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "The ballpark with batter, pitcher, fielders, scoreboard and Swing/Bunt prompt render correctly, 44-60 fps.",
+  "notes": "At bat from about 30 s (Cincinnati at Boston, a ball in play at 45 s) with sound until the early stop at 84 s; 2-3 s JIT-compile hangs while loading at about 20 s, recovered."
+ },
+ {
+  "game": "transworld-snowboarding-u",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "Atari logo and the main menu render correctly, but the menu is frozen from about 20 s to the end.",
+  "notes": "After the relaunch into UPP_Structure.xbe at about 10 s the main menu appears and the core reports a hang from frame 91 (about 20 s) for the rest of the run, with nothing new drawn; the menu music keeps playing."
+ }
+]
