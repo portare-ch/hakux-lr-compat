@@ -95,7 +95,7 @@
   "stage": "Menu",
   "outcome": "Timeout",
   "graphics": "The loading screen and a hangar cutscene render, but the front-end menu screens show only their animated backgrounds, with no text or menu items; 50-57 fps before the hang.",
-  "notes": "Original run. The picture freezes on a menu background at about 70 s (the core log reports a hang from then on) and stays frozen until the run was killed at the hard limit (315 s). Gameplay not reached."
+  "notes": "Original run. The picture freezes on a menu background at about 70 s (the core log reports a hang from then on) and stays frozen until the run was killed at the hard limit (315 s). Gameplay not reached. Issue: hakuX-lr #127 (https://github.com/portare-ch/hakuX-lr/issues/127)."
  },
  {
   "game": "sega-gt-2002-jsrf-jet-set-radio-future-u-en-ja",
@@ -137,14 +137,14 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "Omega Force logo and the story overview, stage select and battle preparation screens render correctly, 60 fps.",
-  "notes": "With an override (B, Down x4 and A for 戦闘開始 on the battle preparation menu at about 51-55 s), the core stopped with an unhandled exception (c0000005 at 00174091) at about 58 s as the first battle loaded; black screen from then on."
+  "notes": "With an override (B, Down x4 and A for 戦闘開始 on the battle preparation menu at about 51-55 s), the core stopped with an unhandled exception (c0000005 at 00174091) at about 58 s as the first battle loaded; black screen from then on. Issue: hakuX-lr #121 (https://github.com/portare-ch/hakuX-lr/issues/121)."
  },
  {
   "game": "silent-hill-4-the-room-u-en-ja-ko",
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Content warning, intro and Henry's dark room (first person, no HUD) render correctly, 30 fps.",
-  "notes": "With an override (no Start after 42 s, A every 4 s), the room is on screen from about 45 s to the end with no sound at all from about 44 s (the earlier run, where Start toggled a PAUSE screen over this room, was silent there too apart from the pause sound); the view never changes, so gameplay evidence thin."
+  "notes": "With an override (no Start after 42 s, A every 4 s), the room is on screen from about 45 s to the end with no sound at all from about 44 s (the earlier run, where Start toggled a PAUSE screen over this room, was silent there too apart from the pause sound); the view never changes, so gameplay evidence thin. Issue: hakuX-lr #155 (https://github.com/portare-ch/hakuX-lr/issues/155)."
  },
  {
   "game": "silent-scope-complete-u",
@@ -165,7 +165,7 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "Maxis logo, Create-A-Sim with the Sim and the Bustin' Out loading screen render correctly, 30 fps.",
-  "notes": "With an override (Right x3 to the check mark, then A and A to save the Sim), the core stopped with an unhandled exception (c0000005 at 00147c15) at about 46 s while the house loaded; black from then on."
+  "notes": "With an override (Right x3 to the check mark, then A and A to save the Sim), the core stopped with an unhandled exception (c0000005 at 00147c15) at about 46 s while the house loaded; black from then on. Issue: hakuX-lr #160 (https://github.com/portare-ch/hakuX-lr/issues/160)."
  },
  {
   "game": "sneak-king-u",
@@ -256,14 +256,14 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "LucasArts logo, the shuttle scenes and the Yavin level with HUD render, but character models in the in-engine intro are broken (a face on a box at 30 s, a body torn into stretched shards at 70 s), and in the level a rectangular patch of blurry jungle image covers the ground in front of the player; 55-60 fps.",
-  "notes": "With an override (no presses from 132 s so the mission load isn't interrupted), the in-engine intro runs to about 135 s and the first mission is in play from about 150 s until the stop at 176 s."
+  "notes": "With an override (no presses from 132 s so the mission load isn't interrupted), the in-engine intro runs to about 135 s and the first mission is in play from about 150 s until the stop at 176 s. Issue: hakuX-lr #126 (https://github.com/portare-ch/hakuX-lr/issues/126)."
  },
  {
   "game": "star-wars-jedi-starfighter-u",
   "stage": "Playable",
   "outcome": "Completed",
   "graphics": "Title, prompts, the pilot keyboard, profile and Act menus and the space battle with HUD and target display render correctly, 53-60 fps in play; the front end runs at only 4-9 fps, and the 90 s frame shows large hull polygons cutting across the Act menu (possibly a transition).",
-  "notes": "With an override (Y to confirm the pilot name), the first mission is in play from about 110 s until the stop at 136 s."
+  "notes": "With an override (Y to confirm the pilot name), the first mission is in play from about 110 s until the stop at 136 s. Issue: hakuX-lr #128 (https://github.com/portare-ch/hakuX-lr/issues/128)."
  },
  {
   "game": "star-wars-knights-of-the-old-republic-ii-the-sith-lords-u",
@@ -277,28 +277,28 @@
   "stage": "Playable",
   "outcome": "Completed",
   "graphics": "BioWare logo, Character Generation, the opening crawl, cutscenes and the Endar Spire bunk room with HUD render correctly; 52-56 fps in the room, but the crawl and intro cutscenes run at only 8-15 fps (about 80-150 s).",
-  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin."
+  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin. Issue: hakuX-lr #133 (https://github.com/portare-ch/hakuX-lr/issues/133)."
  },
  {
   "game": "star-wars-knights-of-the-old-republic-u-rev-1",
   "stage": "Playable",
   "outcome": "Completed",
   "graphics": "BioWare logo, Character Generation, the opening crawl, cutscenes and the Endar Spire bunk room with HUD render correctly; 53-59 fps in the room, but the crawl and intro cutscenes run at only 8-15 fps (about 80-150 s).",
-  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin."
+  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin. Issue: hakuX-lr #133 (https://github.com/portare-ch/hakuX-lr/issues/133)."
  },
  {
   "game": "star-wars-obi-wan-u",
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "LucasArts logo and the ENTER NAME keyboard render correctly, but the keyboard runs at only 6.5-10 fps.",
-  "notes": "Stuck on ENTER NAME ('JEDI 1YYYY') from about 30 s: at this frame rate the menu drops presses, and even 400 ms presses 2 s apart did not reach PROCEED. In a hand test PROCEED led to the opening crawl and the first level."
+  "notes": "Stuck on ENTER NAME ('JEDI 1YYYY') from about 30 s: at this frame rate the menu drops presses, and even 400 ms presses 2 s apart did not reach PROCEED. In a hand test PROCEED led to the opening crawl and the first level. Issue: hakuX-lr #129 (https://github.com/portare-ch/hakuX-lr/issues/129)."
  },
  {
   "game": "star-wars-starfighter-special-edition-u",
   "stage": "Playable",
   "outcome": "Completed",
   "graphics": "Loading screen, the hard disk save list, main menu wheel, difficulty prompt and the canyon flight with radar and shield HUD render correctly; 43-59 fps in play, 7-11 fps in the front end.",
-  "notes": "With an override (Y to create a save on the empty hard disk list), the first mission is in play from about 70 s until the stop at 98 s."
+  "notes": "With an override (Y to create a save on the empty hard disk list), the first mission is in play from about 70 s until the stop at 98 s. Issue: hakuX-lr #130 (https://github.com/portare-ch/hakuX-lr/issues/130)."
  },
  {
   "game": "still-life-u-en-fr-de-es-it",
@@ -312,7 +312,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "ESRB notice, the save message and the Alex vs Necro fight with HUD render correctly at 60 fps, but the Super Arts select (45 s) and the versus screen (50 s) are corrupted: garbled icons and text, and white and yellow blocks with letter fragments over the right half.",
-  "notes": "With an override (no Start after 62 s, A every 4 s), Third Strike's first fight is in play from about 70 s until the stop at 96 s."
+  "notes": "With an override (no Start after 62 s, A every 4 s), Third Strike's first fight is in play from about 70 s until the stop at 96 s. Issue: hakuX-lr #156 (https://github.com/portare-ch/hakuX-lr/issues/156)."
  },
  {
   "game": "strike-force-bowling-u",
@@ -333,7 +333,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Atari logo, the Fortress cutscene, the mission loading screen and Metropolis with Superman and health bar render correctly, but play runs at only 15-20 fps.",
-  "notes": "With an override (no Start after 42 s, A every 4 s), Superman is in play on a rooftop from about 50 s until the stop at 80 s; menus and cutscenes ran at 30 fps."
+  "notes": "With an override (no Start after 42 s, A every 4 s), Superman is in play on a rooftop from about 50 s until the stop at 80 s; menus and cutscenes ran at 30 fps. Issue: hakuX-lr #157 (https://github.com/portare-ch/hakuX-lr/issues/157)."
  },
  {
   "game": "super-monkey-ball-deluxe-u",
@@ -382,7 +382,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Activision logo, the Now loading screen, the letterboxed intro cutscene and the dark forest by a stream render at 60 fps, but no HUD is drawn in the forest frames (Tenchu normally shows a health bar and ki meter in play).",
-  "notes": "With an override (no Start from 42 s, A every 4 s until 119 s), the cutscene runs at 70-90 s, then from 110 s to the early stop at 158 s the full-frame forest view with a ninja at the right edge, half hidden by bushes, barely changes. The first run's Start paused this view (PAUSED), so it looks like play with the HUD missing, but it may be a level-start view; check by hand."
+  "notes": "With an override (no Start from 42 s, A every 4 s until 119 s), the cutscene runs at 70-90 s, then from 110 s to the early stop at 158 s the full-frame forest view with a ninja at the right edge, half hidden by bushes, barely changes. The first run's Start paused this view (PAUSED), so it looks like play with the HUD missing, but it may be a level-start view; check by hand. Issue: hakuX-lr #158 (https://github.com/portare-ch/hakuX-lr/issues/158)."
  },
  {
   "game": "tennis-masters-series-2003-u",
@@ -445,7 +445,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Ubisoft logo, ESRB notice, the NAME PROFILE wheel, main menu, Equipment Setup and the snowy mountain mission with radar and ammo HUD render, but all small-font text is garbled into scattered coloured dots: the button hints under every menu and the in-game message box at 90 s. 60 fps in menus, 30-31 fps in game.",
-  "notes": "With an override (A every 2 s from 50 s, no Start), in game from about 90 s to the early stop at 118 s, with sound. Large text (ACCEPT, menu items) is fine; Ghost Recon 2's 0.19.1 run shows the same garbled button hints."
+  "notes": "With an override (A every 2 s from 50 s, no Start), in game from about 90 s to the early stop at 118 s, with sound. Large text (ACCEPT, menu items) is fine; Ghost Recon 2's 0.19.1 run shows the same garbled button hints. Issue: hakuX-lr #159 (https://github.com/portare-ch/hakuX-lr/issues/159)."
  },
  {
   "game": "tom-clancy-s-ghost-recon-island-thunder-u",
@@ -459,7 +459,7 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Logos, the skater Information screen and the Suburbs level behind the goal cards render correctly at 60 fps, but the first loading screen (about 32 s) shows a full-width band of random coloured pixels and the 'P8 SUBURBS LOADING' photo area stays blank grey.",
-  "notes": "With an override (name, Customize and START GAME) the Suburbs level loads by about 100 s, then it waits on a chain of goal cards ('Uncover the Pool', 'Koi Catastrophe', A Continue); free skating was not seen in this run. Sound only in about a quarter of the run."
+  "notes": "With an override (name, Customize and START GAME) the Suburbs level loads by about 100 s, then it waits on a chain of goal cards ('Uncover the Pool', 'Koi Catastrophe', A Continue); free skating was not seen in this run. Sound only in about a quarter of the run. Issue: hakuX-lr #162 (https://github.com/portare-ch/hakuX-lr/issues/162)."
  },
  {
   "game": "top-spin-u-en-fr-de",
@@ -543,14 +543,14 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Black from launch to about 45 s while the intro movies (atari.wmv, ucintro.wmv) play with sound but no picture; the Welcome notice, Game Setup and Pick Your Teammates screens render correctly at 60 fps.",
-  "notes": "'You must create a profile' at 50 s; from 70 s to the end it loops Pick Your Teammates (A selects or deselects a teammate) and Game Setup (A Next, reached with the B unsticks). Needs the d-pad down to FINISH on Pick Your Teammates, then A."
+  "notes": "'You must create a profile' at 50 s; from 70 s to the end it loops Pick Your Teammates (A selects or deselects a teammate) and Game Setup (A Next, reached with the B unsticks). Needs the d-pad down to FINISH on Pick Your Teammates, then A. Issue: hakuX-lr #139 (https://github.com/portare-ch/hakuX-lr/issues/139)."
  },
  {
   "game": "unreal-championship-u-en-fr-de-es-it",
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Black from launch to about 45 s while the intro movies (atari.wmv, ucintro.wmv) play with sound but no picture; the Welcome notice, Game Setup and Pick Your Teammates screens render correctly at 60 fps.",
-  "notes": "Same as the Japan/Asia version: 'You must create a profile' at 50 s, then from 70 s to the end Pick Your Teammates (A selects or deselects) and Game Setup (A Next). Needs the d-pad down to FINISH, then A."
+  "notes": "Same as the Japan/Asia version: 'You must create a profile' at 50 s, then from 70 s to the end Pick Your Teammates (A selects or deselects) and Game Setup (A Next). Needs the d-pad down to FINISH, then A. Issue: hakuX-lr #139 (https://github.com/portare-ch/hakuX-lr/issues/139)."
  },
  {
   "game": "unreal-ii-the-awakening-u",
@@ -606,14 +606,14 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "Eidos logo, the player icon picker, the save prompt, the Player list and the intro cutscene render correctly, 60 fps.",
-  "notes": "With an override (B = OK on the save prompt at 91 and 101 s), the intro cutscene plays from about 110 s; at 243 s, about 2.5 s after a Start press, the core stopped with an unhandled exception (c0000005 at 002c66a9, writing 00000030), the same address as the earlier crash. No final shot and no audio (empty capture)."
+  "notes": "With an override (B = OK on the save prompt at 91 and 101 s), the intro cutscene plays from about 110 s; at 243 s, about 2.5 s after a Start press, the core stopped with an unhandled exception (c0000005 at 002c66a9, writing 00000030), the same address as the earlier crash. No final shot and no audio (empty capture). Issue: hakuX-lr #145 (https://github.com/portare-ch/hakuX-lr/issues/145)."
  },
  {
   "game": "wings-of-war-u",
   "stage": "Menu",
   "outcome": "Timeout",
   "graphics": "Copyright screen, Create Player and the Briefing (Verdun, winter) render correctly at 30 fps; from 50 s only the game's black error screen 'There's a problem with the disc you're using. It may be dirty or damaged.'",
-  "notes": "With an override (Y, then A on OK at 32-34 s), the player was created and Play Campaign reached the briefing at 45 s; starting the mission gave the disc error at about 50 s, which stays to the end, silent. The log shows a failed 4 KiB contiguous memory allocation just before."
+  "notes": "With an override (Y, then A on OK at 32-34 s), the player was created and Play Campaign reached the briefing at 45 s; starting the mission gave the disc error at about 50 s, which stays to the end, silent. The log shows a failed 4 KiB contiguous memory allocation just before. Issue: hakuX-lr #161 (https://github.com/portare-ch/hakuX-lr/issues/161)."
  },
  {
   "game": "world-championship-pool-2004-u",

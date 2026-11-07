@@ -11,7 +11,7 @@
   "stage": "Boot",
   "outcome": "Timeout",
   "graphics": "Only the game's animated error screen 'There's a problem with the disc you're using. It may be dirty or damaged.', 30 fps, from before 10 s to the end.",
-  "notes": "Silent for the whole run. The log shows the intro movies opened in DataXbox\\English\\Video, then looked up again in DataXbox\\Video, which is not on the disc, right before the error screen; no logo or menu was reached."
+  "notes": "Silent for the whole run. The log shows the intro movies opened in DataXbox\\English\\Video, then looked up again in DataXbox\\Video, which is not on the disc, right before the error screen; no logo or menu was reached. Issue: hakuX-lr #137 (https://github.com/portare-ch/hakuX-lr/issues/137)."
  },
  {
   "game": "turok-evolution-u-beta",
@@ -46,7 +46,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Intro, the octagon fights with fighters, health bars and round clock, the Game Over tip and the UFC Mode menu render correctly at 28-37 fps.",
-  "notes": "Fights from 45 s (Lajcik vs Mezger, 'Game Over' at 70 s, a tap-out at 110 s), the UFC Mode menu at 130 s and Lajcik vs Matt Hughes at 150-170 s until the stop at 177 s. The round clock runs 4.5-7.5 times faster than real time (3:59 to 3:39 in 4.4 s, 4:44 to 2:12 in 20 s) and the guest presents 70-590 frames per second; may be by design, worth a check."
+  "notes": "Fights from 45 s (Lajcik vs Mezger, 'Game Over' at 70 s, a tap-out at 110 s), the UFC Mode menu at 130 s and Lajcik vs Matt Hughes at 150-170 s until the stop at 177 s. The round clock runs 4.5-7.5 times faster than real time (3:59 to 3:39 in 4.4 s, 4:44 to 2:12 in 20 s) and the guest presents 70-590 frames per second; may be by design, worth a check. Issue: hakuX-lr #143 (https://github.com/portare-ch/hakuX-lr/issues/143)."
  },
  {
   "game": "unreal-championship-2-the-liandri-conflict-u-en-fr-de-es-it",
@@ -60,7 +60,7 @@
   "stage": "Intro",
   "outcome": "Timeout",
   "graphics": "Only the animated 'Now Loading' bubbles on white, from 10 s to the end, 60 fps.",
-  "notes": "Music plays the whole run, but the screen never leaves 'Now Loading' and no logo or title appears; the disc goes idle after about 20 s while the log's per-second draw count keeps rising from about 300 to 4,500, and the presses change nothing."
+  "notes": "Music plays the whole run, but the screen never leaves 'Now Loading' and no logo or title appears; the disc goes idle after about 20 s while the log's per-second draw count keeps rising from about 300 to 4,500, and the presses change nothing. Issue: hakuX-lr #138 (https://github.com/portare-ch/hakuX-lr/issues/138)."
  },
  {
   "game": "van-helsing-u",
@@ -95,7 +95,7 @@
   "stage": "Playable",
   "outcome": "Completed",
   "graphics": "Legal screen, title, Quick Start Superstar Select, The Undertaker's entrance and the match (The Rock vs The Undertaker) with names, health and clock render correctly at 60 fps (4-34 fps during the first 30 s of boot).",
-  "notes": "Quick Start picked at 70 s; in the match from 110 s (clock 00:04, 'TAP ANY BUTTON' while pinned) to 130 s (00:21) until the run stopped at 138 s. The core stopped, but RetroArch did not finish closing and was killed at 148 s; the audio recording is empty, so sound can't be judged."
+  "notes": "Quick Start picked at 70 s; in the match from 110 s (clock 00:04, 'TAP ANY BUTTON' while pinned) to 130 s (00:21) until the run stopped at 138 s. The core stopped, but RetroArch did not finish closing and was killed at 148 s; the audio recording is empty, so sound can't be judged. Issue: hakuX-lr #144 (https://github.com/portare-ch/hakuX-lr/issues/144)."
  },
  {
   "game": "wakeboarding-unleashed-featuring-shaun-murray-u",
@@ -123,14 +123,14 @@
   "stage": "Boot",
   "outcome": "Timeout",
   "graphics": "Nothing: black for the whole run.",
-  "notes": "The log shows a push-buffer fault ('invalid command' at the first draws) right after the screen was first cleared, and the game never presented a frame (0 swaps) to the end; the B/Down presses changed nothing and the audio recording is empty."
+  "notes": "The log shows a push-buffer fault ('invalid command' at the first draws) right after the screen was first cleared, and the game never presented a frame (0 swaps) to the end; the B/Down presses changed nothing and the audio recording is empty. Issue: hakuX-lr #136 (https://github.com/portare-ch/hakuX-lr/issues/136)."
  },
  {
   "game": "wallace-gromit-the-curse-of-the-were-rabbit-u-en-fr-de-es-it",
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "Konami logo, the intro cutscene and Wallace's first dialog over the manor render, but the bottom of the screen stays black: the cutscene sits high in the frame with a bottom bar about twice the top one, and from 210 s the game view and dialog box end at about 80 % (then 67 %) of the height, 60 fps.",
-  "notes": "Intro cutscene from 30 s to about 210 s (Start/A didn't skip it); from 230 s to the end Wallace's dialog ('Righto, Gromit...', A) stays up and the A presses never dismiss it; not confirmed whether that and the black bottom are related."
+  "notes": "Intro cutscene from 30 s to about 210 s (Start/A didn't skip it); from 230 s to the end Wallace's dialog ('Righto, Gromit...', A) stays up and the A presses never dismiss it; not confirmed whether that and the black bottom are related. Issue: hakuX-lr #140 (https://github.com/portare-ch/hakuX-lr/issues/140)."
  },
  {
   "game": "whiteout-u",
@@ -193,7 +193,7 @@
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "The Crave logo at 10 s, then black for the rest of the run.",
-  "notes": "At about 13 s, right after opening DATA\\Loading.sfp, the core stopped on an unhandled access violation at 0006f109 (reading 00000000); black and silent from then on."
+  "notes": "At about 13 s, right after opening DATA\\Loading.sfp, the core stopped on an unhandled access violation at 0006f109 (reading 00000000); black and silent from then on. Issue: hakuX-lr #135 (https://github.com/portare-ch/hakuX-lr/issues/135)."
  },
  {
   "game": "world-series-baseball-u",
@@ -249,7 +249,7 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "ESRB notice and the name keyboard over the battleship movie render correctly, 60 fps.",
-  "notes": "From 30 s to the end it stays on the name keyboard ('Player1', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen while the background movie kept playing; not confirmed why the presses have no effect."
+  "notes": "From 30 s to the end it stays on the name keyboard ('Player1', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen while the background movie kept playing; not confirmed why the presses have no effect. Issue: hakuX-lr #141 (https://github.com/portare-ch/hakuX-lr/issues/141)."
  },
  {
   "game": "x2-wolverine-s-revenge-u",
@@ -263,7 +263,7 @@
   "stage": "Menu",
   "outcome": "Needs manual input",
   "graphics": "ESRB rating screen and the name keyboard over the animated map backdrop render correctly, 60 fps.",
-  "notes": "From 30 s to the end it stays on the name keyboard ('Player', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen; same as Iwo Jima, not confirmed why the presses have no effect."
+  "notes": "From 30 s to the end it stays on the name keyboard ('Player', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen; same as Iwo Jima, not confirmed why the presses have no effect. Issue: hakuX-lr #142 (https://github.com/portare-ch/hakuX-lr/issues/142)."
  },
  {
   "game": "xyanide-u-en-fr-de-es",
@@ -277,7 +277,7 @@
   "stage": "Boot",
   "outcome": "Crash",
   "graphics": "Nothing: black for the whole run.",
-  "notes": "About 4 s after launch, right after loading mapmenu.lin, the game throws several C++ exceptions ('Can't resolve package name') and the core stops with 'seh: exceptions nested too deep'; black and silent for the rest of the run."
+  "notes": "About 4 s after launch, right after loading mapmenu.lin, the game throws several C++ exceptions ('Can't resolve package name') and the core stops with 'seh: exceptions nested too deep'; black and silent for the rest of the run. Issue: hakuX-lr #134 (https://github.com/portare-ch/hakuX-lr/issues/134)."
  },
  {
   "game": "zapper-u",

@@ -11,7 +11,7 @@
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "Only the TDK Mediactive logo (10 s) renders; black from then on.",
-  "notes": "The core stops at about 19 s with an unhandled access violation at 000ba334 (writing 00000000), right after a 12 KiB contiguous memory allocation failed; black and silent for the rest of the run."
+  "notes": "The core stops at about 19 s with an unhandled access violation at 000ba334 (writing 00000000), right after a 12 KiB contiguous memory allocation failed; black and silent for the rest of the run. Issue: hakuX-lr #118 (https://github.com/portare-ch/hakuX-lr/issues/118)."
  },
  {
   "game": "smashing-drive-u",
@@ -25,21 +25,21 @@
   "stage": "Intro",
   "outcome": "Timeout",
   "graphics": "Fox Interactive logo, then the Radical Entertainment logo frozen from about 15 s to the end.",
-  "notes": "Hangs on the Radical logo: the core's hang report starts at frame 855 with the guest CPU 99% in JIT compiling and rendering idle, for the rest of the run. The audio recording is empty; after quit the process didn't exit and was killed at 310.6 s."
+  "notes": "Hangs on the Radical logo: the core's hang report starts at frame 855 with the guest CPU 99% in JIT compiling and rendering idle, for the rest of the run. The audio recording is empty; after quit the process didn't exit and was killed at 310.6 s. Issue: hakuX-lr #123 (https://github.com/portare-ch/hakuX-lr/issues/123)."
  },
  {
   "game": "sneakers-u",
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Intro, the Loading screen and the rat-chase level with the tutorial banner, map, 'Rats Left 30' and timer render correctly, but only 7-31 fps.",
-  "notes": "In game from about 50 s until the run stopped at 80 s; the game stalls again and again for 2-4.6 s (the core's hang report shows the guest CPU busy in JIT compiling), so the displayed rate swings between 7 and 31 fps. The audio recording is empty, so sound can't be judged; on quit the process didn't exit and was killed at 90 s."
+  "notes": "In game from about 50 s until the run stopped at 80 s; the game stalls again and again for 2-4.6 s (the core's hang report shows the guest CPU busy in JIT compiling), so the displayed rate swings between 7 and 31 fps. The audio recording is empty, so sound can't be judged; on quit the process didn't exit and was killed at 90 s. Issue: hakuX-lr #131 (https://github.com/portare-ch/hakuX-lr/issues/131)."
  },
  {
   "game": "sims-the-u",
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "The Sims logo and the Create a Sim name keyboard ('PAT') render correctly; black after the crash.",
-  "notes": "The core stops at about 41 s on the Create a Sim name screen with an unhandled access violation at 0013e596 (writing 00607992); black and silent for the rest of the run."
+  "notes": "The core stops at about 41 s on the Create a Sim name screen with an unhandled access violation at 0013e596 (writing 00607992); black and silent for the rest of the run. Issue: hakuX-lr #119 (https://github.com/portare-ch/hakuX-lr/issues/119)."
  },
  {
   "game": "soldier-of-fortune-ii-double-helix-u",
@@ -81,7 +81,7 @@
   "stage": "Intro",
   "outcome": "Timeout",
   "graphics": "The Sniper Elite copyright screen, frozen from the first seconds to the end.",
-  "notes": "Hangs on the copyright screen: the core's hang report starts at frame 31 and runs to the end (guest CPU busy in JIT compiling, nothing drawn); silent, and the B/Down presses changed nothing."
+  "notes": "Hangs on the copyright screen: the core's hang report starts at frame 31 and runs to the end (guest CPU busy in JIT compiling, nothing drawn); silent, and the B/Down presses changed nothing. Issue: hakuX-lr #124 (https://github.com/portare-ch/hakuX-lr/issues/124)."
  },
  {
   "game": "splat-magazine-renegade-paintball-u",
@@ -102,21 +102,21 @@
   "stage": "Menu",
   "outcome": "Completed",
   "graphics": "Logos and the loading screen are correct, but the whole in-engine intro (45-300 s) has wrong colours: faces, skin, sky, banners and armies are drawn in false green, cyan, yellow and purple tones; 60 fps.",
-  "notes": "From about 45 s to the end the in-engine intro (the speech in Sparta, the army, the Roman attack) plays with sound; Start and A don't skip it and gameplay was not reached."
+  "notes": "From about 45 s to the end the in-engine intro (the speech in Sparta, the army, the Roman attack) plays with sound; Start and A don't skip it and gameplay was not reached. Issue: hakuX-lr #125 (https://github.com/portare-ch/hakuX-lr/issues/125)."
  },
  {
   "game": "spyhunter-u",
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Logos, the Mission Data screen and the car at the start line with the HUD render correctly, but only 15-22 fps in game.",
-  "notes": "On the road from about 45 s (mission timer 7:57 to 7:45) until the run stopped at 77 s, with sound; the displayed rate drops from 60 to 15-22 fps once the mission is running."
+  "notes": "On the road from about 45 s (mission timer 7:57 to 7:45) until the run stopped at 77 s, with sound; the displayed rate drops from 60 to 15-22 fps once the mission is running. Issue: hakuX-lr #132 (https://github.com/portare-ch/hakuX-lr/issues/132)."
  },
  {
   "game": "spikeout-battle-street-u-en-ja-fr-de-es-it",
   "stage": "Boot",
   "outcome": "Crash",
   "graphics": "Nothing: black for the whole run.",
-  "notes": "The core can't start the game: 'xbe: parse failed (-3)' then 'core: boot failed' right after reading the disc, and RetroArch runs without content for the rest of the run."
+  "notes": "The core can't start the game: 'xbe: parse failed (-3)' then 'core: boot failed' right after reading the disc, and RetroArch runs without content for the rest of the run. Issue: hakuX-lr #122 (https://github.com/portare-ch/hakuX-lr/issues/122)."
  },
  {
   "game": "spyhunter-2-u",
@@ -193,7 +193,7 @@
   "stage": "Boot",
   "outcome": "Crash",
   "graphics": "Nothing: black for the whole run.",
-  "notes": "Within the first second the disc's launcher relaunches into dashupdate.xbe, which stops with an unhandled access violation at 0002f1cd (reading 00000008); black and silent for the rest of the run."
+  "notes": "Within the first second the disc's launcher relaunches into dashupdate.xbe, which stops with an unhandled access violation at 0002f1cd (reading 00000008); black and silent for the rest of the run. Issue: hakuX-lr #120 (https://github.com/portare-ch/hakuX-lr/issues/120)."
  },
  {
   "game": "stubbs-the-zombie-in-rebel-without-a-pulse-u",
