@@ -1,0 +1,1487 @@
+{
+ "game_file": "Spawn - Armageddon (U).chd",
+ "game_size": 669525309,
+ "system": "amd64-linux",
+ "started": "2026-11-06T23:44:23+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": null,
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.82,
+  "confirmed_by": "w070",
+  "stopped_at_s": 78.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 78.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "held",
+   "start"
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "held",
+   "start"
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "held",
+   "start"
+  ],
+  [
+   73.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "held",
+   "start"
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 366391
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.3,
+   "bytes": 27595
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 48.4,
+   "bytes": 1063707
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 53.6,
+   "bytes": 1617502
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 73.6,
+   "bytes": 1617715
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.84,
+   "got_s": 73.6,
+   "bytes": 1617715,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Spawn - Armageddon (U),crc32=68b70dd6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.6,
+   60.0,
+   59.3,
+   60.0,
+   58.8,
+   59.1,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 3103 words 8547790 headers 1400718 methods 7147012 faults 0 GET 03f96460 PUT 03fc2fa8 binds 4 semaphores 71474 flips 4460 traps 10667 (5=6198 21=4460 9=8 28=1) runs 0 surfaces 15 clears 11808 swaps 4461 draws 2970913 ff 2970913 skipped 42141 (draw_empty=42141) textures 109 (107 h",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 38.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=62041 verts=3653346 mergeable=0 (not: strip 36840 idx 25201 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4378 set1=42669 pc=23774 vi=1096 vb=28096 vp=348 sc=348 dyn=11227 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2968229 prog_fog=2896470 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 59.8 fps (299 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 3075 words 8367795 headers 1357230 methods 7010500 faults 0 GET 03f947f4 PUT 03fcdae8 binds 4 semaphores 72859 flips 4520 traps 10847 (5=6318 21=4520 9=8 28=1) runs 0 surfaces 15 clears 12048 swaps 4521 draws 3030833 ff 3030833 skipped 42201 (draw_empty=42201) textures 109 (107 h",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.4 ms (max 37.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=59920 verts=3640620 mergeable=0 (not: strip 36840 idx 23080 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4342 set1=40553 pc=22098 vi=1048 vb=28030 vp=344 sc=344 dyn=10998 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3028149 prog_fog=2956390 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3102 words 8502081 headers 1395259 methods 7106756 faults 0 GET 03f971e4 PUT 03fd04a8 binds 4 semaphores 74261 flips 4580 traps 11027 (5=6438 21=4580 9=8 28=1) runs 0 surfaces 15 clears 12288 swaps 4581 draws 3091031 ff 3091031 skipped 42261 (draw_empty=42261) textures 109 (107 h",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.1 ms (max 37.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=60198 verts=3648944 mergeable=0 (not: strip 36840 idx 23358 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4423 set1=40838 pc=21955 vi=1051 vb=28052 vp=344 sc=344 dyn=11301 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3088347 prog_fog=3016588 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 93749 sysops 96043 (int 808, of them ticks 3; hook 0) schedules 2352 switches 2320 idle 0 slices 0 page faults 0 mmio 17980 apu waits 0 vm pages +0 -0 isr irq1:500 (max 1.5 ms) irq3:240 (max 0.3 ms) irq5:2 (max 0.1 ms) | dpc max wait 0.6 run 1.7 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 4801 (pages 03283000:9600 03273000:4864 03263000:4736 03253000:4736 03261000:128 03251000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 14772 KiB, contiguous 13720 KiB (301 blocks), virtual 35664 KiB, kernel pool 10 of 64 KiB (Ex 45, objects 8, lost 0 KiB, 2 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=5276325 first_call=PsCreateSystemThreadEx threads=12",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 33 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55c6a4d9aa00",
+   "[Gamescope WSI] Destroyed swapchain: 0x55c6a4d9aa00",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 77.0,
+  "peak_rms_dbfs": -21.5,
+  "first_sound_s": 16.0,
+  "audible_fraction": 0.63,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -24.9,
+   -22.5,
+   -22.0,
+   -21.5,
+   -25.6,
+   -77.7,
+   -31.4,
+   -29.7,
+   -27.1,
+   -25.5,
+   -26.5,
+   -26.5,
+   -50.2,
+   -120.0,
+   -26.1,
+   -25.8,
+   -24.9,
+   -54.3,
+   -120.0,
+   -24.9,
+   -25.3,
+   -24.3,
+   -24.1,
+   -24.7,
+   -24.9,
+   -24.6,
+   -26.0,
+   -24.4,
+   -24.6,
+   -23.8,
+   -25.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.82 s (judged from screenshots); stopped at 78.5 s and the emulator closed",
+ "duration_s": 78.6,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

@@ -1,0 +1,233 @@
+[
+ {
+  "game": "simpsons-the-hit-run-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "20th Century Fox logo, the newspaper and Krusty TV intro, the loading screen, the tutorial box and Homer and Marge on the street with the HUD and radar render correctly, 60 fps in game.",
+  "notes": "Tutorial box at about 90 s, then Homer on the street from about 110 s until the run stopped at 117 s, with sound."
+ },
+ {
+  "game": "shrek-super-party-u",
+  "stage": "Intro",
+  "outcome": "Crash",
+  "graphics": "Only the TDK Mediactive logo (10 s) renders; black from then on.",
+  "notes": "The core stops at about 19 s with an unhandled access violation at 000ba334 (writing 00000000), right after a 12 KiB contiguous memory allocation failed; black and silent for the rest of the run."
+ },
+ {
+  "game": "smashing-drive-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "City intro and the taxi driving through the streets with timer, speed and damage HUD render correctly, 56-60 fps.",
+  "notes": "Driving from about 30 s (timer 43, then 31 and 26) until the run stopped at 57 s, with sound."
+ },
+ {
+  "game": "simpsons-the-road-rage-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "Fox Interactive logo, then the Radical Entertainment logo frozen from about 15 s to the end.",
+  "notes": "Hangs on the Radical logo: the core's hang report starts at frame 855 with the guest CPU 99% in JIT compiling and rendering idle, for the rest of the run. The audio recording is empty; after quit the process didn't exit and was killed at 310.6 s."
+ },
+ {
+  "game": "sneakers-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the Loading screen and the rat-chase level with the tutorial banner, map, 'Rats Left 30' and timer render correctly, but only 7-31 fps.",
+  "notes": "In game from about 50 s until the run stopped at 80 s; the game stalls again and again for 2-4.6 s (the core's hang report shows the guest CPU busy in JIT compiling), so the displayed rate swings between 7 and 31 fps. The audio recording is empty, so sound can't be judged; on quit the process didn't exit and was killed at 90 s."
+ },
+ {
+  "game": "sims-the-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "The Sims logo and the Create a Sim name keyboard ('PAT') render correctly; black after the crash.",
+  "notes": "The core stops at about 41 s on the Create a Sim name screen with an unhandled access violation at 0013e596 (writing 00607992); black and silent for the rest of the run."
+ },
+ {
+  "game": "soldier-of-fortune-ii-double-helix-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision logo, difficulty select, the Prague mission briefing, a cutscene and the alley with crosshair and weapon HUD render correctly, 57-60 fps.",
+  "notes": "Mission Info ('B Resume') from 45 s until the B at 73 s; after the cutscene, in the Prague alley from about 110 s until the run stopped at 135 s, with sound."
+ },
+ {
+  "game": "spawn-armageddon-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Copyright screen, the loading screen, the 'General' status screen and Spawn in the alley with the HUD render correctly, 59-60 fps.",
+  "notes": "Status screen at 45 s (mission time 00:04), then Spawn in the alley from 50 s until the run stopped at 78 s, with sound."
+ },
+ {
+  "game": "sonic-riders-u-en-ja-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the Normal Race menu, Player Entry and the race with HUD render correctly, 60 fps.",
+  "notes": "Free Race started; at the start line from about 70 s (race timer 00'01\" then 00'19\") until the run stopped at 97 s, with sound; Sonic stays at speed 0 as nothing accelerates."
+ },
+ {
+  "game": "speed-kings-europe-australia-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, the Boost Start challenge briefing and the rider on the track with countdown and speedometer HUD render correctly, 60 fps in game.",
+  "notes": "Challenge '1. Boost Start' from about 30 s; the countdown runs 57, 54, 36 until the run stopped at 77 s, with sound (the bike stays stationary)."
+ },
+ {
+  "game": "speed-kings-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, the Boost Start challenge briefing and the rider on the track with countdown and speedometer HUD render correctly, 60 fps in game.",
+  "notes": "Same as the European release: challenge '1. Boost Start' from about 30 s, countdown 57, 54, 36 until the run stopped at 77 s, with sound."
+ },
+ {
+  "game": "sniper-elite-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "The Sniper Elite copyright screen, frozen from the first seconds to the end.",
+  "notes": "Hangs on the copyright screen: the core's hang report starts at frame 31 and runs to the end (guest CPU busy in JIT compiling, nothing drawn); silent, and the B/Down presses changed nothing."
+ },
+ {
+  "game": "splat-magazine-renegade-paintball-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, the Save Profile name keyboard, the arena and the paintball match with timer and kill feed render correctly, 52-60 fps.",
+  "notes": "Playing a match from about 45 s (timer 4:58 to 4:41) until the run stopped at 76 s, with sound."
+ },
+ {
+  "game": "splashdown-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, credits, the race start countdown and the jet-ski race with lap timer and speed render correctly, 51-60 fps.",
+  "notes": "Race starts at about 45 s; racing from 50 s until the run stopped at 77 s, with sound."
+ },
+ {
+  "game": "spartan-total-warrior-u",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "Logos and the loading screen are correct, but the whole in-engine intro (45-300 s) has wrong colours: faces, skin, sky, banners and armies are drawn in false green, cyan, yellow and purple tones; 60 fps.",
+  "notes": "From about 45 s to the end the in-engine intro (the speech in Sparta, the army, the Roman attack) plays with sound; Start and A don't skip it and gameplay was not reached."
+ },
+ {
+  "game": "spyhunter-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Logos, the Mission Data screen and the car at the start line with the HUD render correctly, but only 15-22 fps in game.",
+  "notes": "On the road from about 45 s (mission timer 7:57 to 7:45) until the run stopped at 77 s, with sound; the displayed rate drops from 60 to 15-22 fps once the mission is running."
+ },
+ {
+  "game": "spikeout-battle-street-u-en-ja-fr-de-es-it",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Nothing: black for the whole run.",
+  "notes": "The core can't start the game: 'xbe: parse failed (-3)' then 'core: boot failed' right after reading the disc, and RetroArch runs without content for the rest of the run."
+ },
+ {
+  "game": "spyhunter-2-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Midway logo, the Training Wheels mission screens and the car on the road with timer and HUD render correctly, 49-60 fps in game.",
+  "notes": "Training mission from about 45 s ('Press A to accelerate'), timer 4:57 to 4:40 until the run stopped at 76 s, with sound."
+ },
+ {
+  "game": "star-trek-shattered-universe-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "TDK logo, the opening space scene and the ship cockpit with HUD and mission message render correctly, 58-60 fps.",
+  "notes": "Flying from about 45 s ('You are ordered to make the Enterprise break off this attack now!') until the run stopped at 79 s, with sound."
+ },
+ {
+  "game": "star-wars-battlefront-ii-u-en-es-it-rev-1",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, the Singleplayer menu, the Geonosis loading screen, the spawn map and the clone trooper on Geonosis with HUD render correctly, 30-33 fps in game.",
+  "notes": "Spawn selection at 70 s, then playing as a clone trooper on Geonosis from about 90 s until the run stopped at 99 s, with sound; 20 fps only on the loading screen."
+ },
+ {
+  "game": "spyro-a-hero-s-tail-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "VU Games logo, the saving screens, the opening cutscenes and Spyro in the first level with HUD render correctly, 60 fps.",
+  "notes": "Cutscenes until about 160 s; a tutorial message at 170 s and Spyro in control at 190 s until the run stopped at 199 s, with sound."
+ },
+ {
+  "game": "star-wars-jedi-knight-ii-jedi-outcast-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, difficulty select, the opening cutscene and the first-person level with HUD render correctly, 44-60 fps in game.",
+  "notes": "In the first level from about 50 s ('Datapad updated') until the run stopped at 78 s, with sound; the opening cutscene runs at 15-30 fps."
+ },
+ {
+  "game": "star-wars-episode-iii-revenge-of-the-sith-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, the opening crawl, the cutscenes and the first level with HUD render correctly, 30 fps in game (60 in the cutscenes).",
+  "notes": "The game relaunches itself once at start-up, as intended; gameplay from about 170 s until the run stopped at 198 s, with sound."
+ },
+ {
+  "game": "star-wars-the-clone-wars-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, difficulty select, the Geonosis cutscenes and the tank with HUD render correctly, 30 fps in game.",
+  "notes": "Cutscenes until about 130 s; driving the tank from about 150 s ('Follow Luminara to the first anti-orbital cannon') until the run stopped at 177 s, with sound."
+ },
+ {
+  "game": "state-of-emergency-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Character select and the mall riot with health, score, target and timer HUD render correctly, 54-60 fps.",
+  "notes": "Playing in the mall from about 45 s (timer 2'55 to 2'38) until the run stopped at 79 s, with sound."
+ },
+ {
+  "game": "starsky-hutch-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "RenderWare logo, name entry, the main menu, the intro and the Torino on the streets with HUD render correctly, 30 fps in game.",
+  "notes": "Driving from about 90 s (timer 95 to 69, ammo 6 to 3) until the run stopped at 117 s, with sound; 16-20 fps on the early logo and menus."
+ },
+ {
+  "game": "street-hoops-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro and the street basketball game with scoreboard and player marker render correctly, 46-60 fps.",
+  "notes": "A game is on from about 30 s (tip-off at 5:00; 4:46 and 0-2 at 50 s) until the run stopped at 58 s, with sound."
+ },
+ {
+  "game": "star-wars-the-clone-wars-tetris-worlds-u",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Nothing: black for the whole run.",
+  "notes": "Within the first second the disc's launcher relaunches into dashupdate.xbe, which stops with an unhandled access violation at 0002f1cd (reading 00000008); black and silent for the rest of the run."
+ },
+ {
+  "game": "stubbs-the-zombie-in-rebel-without-a-pulse-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Wideload logo and Stubbs in the park with a victim and the 'Press X to attack' prompt render correctly, 30 fps.",
+  "notes": "In control from about 45 s (the attack tutorial) until the run stopped at 77 s, with sound."
+ },
+ {
+  "game": "steel-battalion-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Dolby logo and the title screen ('PRESS MAIN WEAPON BUTTON', colour-cycling logo) render correctly, 60 fps.",
+  "notes": "From before 30 s to the end on the title screen; after the first 10 s the core's USB log shows no transfers at all (0 TDs per 10 s), so the pad is never read, and it is silent from about 44 s."
+ },
+ {
+  "game": "steel-battalion-line-of-contact-world-en-ja",
+  "stage": "Intro",
+  "outcome": "Needs manual input",
+  "graphics": "Dolby logo and the controller message render correctly, 30 fps.",
+  "notes": "From before 30 s to the end: 'The STEEL BATTALION controller is not connected. Please connect the controller.' Silent from about 20 s."
+ },
+ {
+  "game": "super-bubble-pop-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Runecraft logo, the PLAY banner and the board with score and level HUD render correctly, 58-60 fps.",
+  "notes": "Playing from about 30 s (score 0 to 1800) until the run stopped at 58 s, with sound."
+ },
+ {
+  "game": "suffering-the-ties-that-bind-austria-switzerland-en-de",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Midway logo, the brightness setting, the prison cutscenes, the first-person chess scene and Torque in the prison yard render correctly, 60 fps.",
+  "notes": "Torque in control from about 130 s ('Use the right thumbstick to look around') and in the prison yard until the run stopped at 158 s, with sound."
+ }
+]
