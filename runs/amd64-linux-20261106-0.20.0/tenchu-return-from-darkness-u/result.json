@@ -1,0 +1,1542 @@
+{
+ "game_file": "Tenchu - Return from Darkness (U).chd",
+ "game_size": 1356240490,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:59:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 3,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run play is seen in one frame at 50 s, then paused, so play was seen too briefly to judge. No default presses from 42 s, A every 4 s for 80 s, and three in-game frames needed for the early stop.",
+  "watch_needed": 3,
+  "quiet": [
+   [
+    42.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    47.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.0,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   47.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 3,
+  "ingame_at_s": 109.84,
+  "confirmed_by": "w150",
+  "stopped_at_s": 158.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.2
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 158.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   47.01,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   51.03,
+   "tap",
+   "a"
+  ],
+  [
+   55.04,
+   "tap",
+   "a"
+  ],
+  [
+   59.02,
+   "tap",
+   "a"
+  ],
+  [
+   63.03,
+   "tap",
+   "a"
+  ],
+  [
+   67.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.11,
+   "tap",
+   "a"
+  ],
+  [
+   75.02,
+   "tap",
+   "a"
+  ],
+  [
+   79.04,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.01,
+   "tap",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   91.12,
+   "tap",
+   "a"
+  ],
+  [
+   95.04,
+   "tap",
+   "a"
+  ],
+  [
+   99.01,
+   "tap",
+   "a"
+  ],
+  [
+   103.03,
+   "tap",
+   "a"
+  ],
+  [
+   107.04,
+   "tap",
+   "a"
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   111.15,
+   "tap",
+   "a"
+  ],
+  [
+   115.01,
+   "tap",
+   "a"
+  ],
+  [
+   119.03,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.6,
+   "bytes": 404517
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 30.3,
+   "bytes": 29190
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 44.9,
+   "bytes": 15144
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.1,
+   "bytes": 4613
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 73.2,
+   "bytes": 594146
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 91.6,
+   "bytes": 384268
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 113.4,
+   "bytes": 1376558
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 133.5,
+   "bytes": 1360736
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 153.5,
+   "bytes": 1372614
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 149.84,
+   "got_s": 153.5,
+   "bytes": 1372614,
+   "from_watch": "w150"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   52.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Tenchu - Return from Darkness (U),crc32=a28a5dba"
+  ],
+  [
+   159.4,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55520.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.0,
+   60.0,
+   59.8,
+   60.0,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1545 words 4127110 headers 167615 methods 3959476 faults 0 GET 03fcc2e0 PUT 03fc2ee8 binds 5 semaphores 61520 flips 9337 traps 12916 (21=9337 5=3572 9=6 28=1) runs 0 surfaces 5 clears 15811 swaps 9337 draws 793174 ff 583657 skipped 0 () textures 320 (107 held, 7 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.6 ms (max 41.4, 60 frames)",
+   "hakuX-hle-pb: report gate: 3038 reads waited for their visibility tests (+31), 445.0 ms in all, 0 given up, 2897 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=6881 verts=6210973 mergeable=0 (not: strip 6069 idx 812 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1018 set1=4076 pc=3264 vi=897 vb=5204 vp=151 sc=151 dyn=3909 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=793045 prog_fog=234957 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1539 words 4136835 headers 169051 methods 3967748 faults 0 GET 03f9d92c PUT 03f95314 binds 5 semaphores 62127 flips 9397 traps 13027 (21=9397 5=3623 9=6 28=1) runs 0 surfaces 5 clears 15931 swaps 9397 draws 800151 ff 589254 skipped 0 () textures 320 (107 held, 7 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.7 ms (max 42.1, 60 frames)",
+   "hakuX-hle-pb: report gate: 3067 reads waited for their visibility tests (+29), 445.4 ms in all, 0 given up, 2924 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=6977 verts=6211151 mergeable=0 (not: strip 6108 idx 869 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1017 set1=4170 pc=3260 vi=896 vb=5261 vp=150 sc=150 dyn=3888 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=800022 prog_fog=237477 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1526 words 4128816 headers 167816 methods 3960960 faults 0 GET 03f67240 PUT 03f5f048 binds 5 semaphores 62732 flips 9457 traps 13137 (21=9457 5=3673 9=6 28=1) runs 0 surfaces 5 clears 16051 swaps 9457 draws 807049 ff 594772 skipped 0 () textures 320 (107 held, 7 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.7 ms (max 42.3, 60 frames)",
+   "hakuX-hle-pb: report gate: 3095 reads waited for their visibility tests (+28), 447.7 ms in all, 0 given up, 2951 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=6898 verts=6211094 mergeable=0 (not: strip 6092 idx 806 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1010 set1=4093 pc=3255 vi=892 vb=5226 vp=141 sc=141 dyn=3774 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=806920 prog_fog=239997 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=392064 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 62 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55e0c2dc6c40",
+   "[Gamescope WSI] Destroyed swapchain: 0x55e0c2dc6c40",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 157.6,
+  "peak_rms_dbfs": -13.1,
+  "first_sound_s": 3.0,
+  "audible_fraction": 0.83,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -37.3,
+   -34.1,
+   -29.3,
+   -21.2,
+   -120.0,
+   -120.0,
+   -26.2,
+   -19.5,
+   -26.4,
+   -25.8,
+   -25.0,
+   -24.2,
+   -21.6,
+   -62.2,
+   -24.8,
+   -22.5,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -15.4,
+   -16.9,
+   -15.2,
+   -13.1,
+   -15.7,
+   -16.3,
+   -16.5,
+   -17.1,
+   -15.6,
+   -15.5,
+   -15.7,
+   -17.0,
+   -18.0,
+   -18.3,
+   -18.0,
+   -18.4,
+   -19.4,
+   -24.6,
+   -23.2,
+   -23.3,
+   -24.5,
+   -21.0,
+   -26.8,
+   -31.2,
+   -56.0,
+   -120.0,
+   -39.3,
+   -33.1,
+   -28.8,
+   -34.3,
+   -28.5,
+   -31.5,
+   -27.7,
+   -32.5,
+   -28.8,
+   -34.1,
+   -28.6,
+   -30.8,
+   -28.5,
+   -32.3,
+   -34.4,
+   -32.7,
+   -32.5,
+   -30.4,
+   -33.0,
+   -32.6,
+   -34.2,
+   -32.3,
+   -31.6,
+   -30.6,
+   -32.5,
+   -34.5,
+   -34.2,
+   -32.3,
+   -30.9,
+   -30.8,
+   -32.3,
+   -34.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.84 s (judged from screenshots); stopped at 158.5 s and the emulator closed",
+ "duration_s": 158.7,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

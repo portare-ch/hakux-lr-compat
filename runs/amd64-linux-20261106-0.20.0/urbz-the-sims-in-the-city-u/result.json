@@ -1,0 +1,3256 @@
+{
+ "game_file": "Urbz, The - Sims in the City (U).chd",
+ "game_size": 1118421088,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:25:56+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'Are you sure you want to create a new saved game...?' (from about 45 s) has No selected, so A goes back and Start reopens it. Up then A picks Yes; tried at 46 and 56 s (elsewhere Up and A only move or select).",
+  "quiet": [
+   [
+    45.5,
+    49.0
+   ],
+   [
+    55.5,
+    59.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    46.0,
+    "tap",
+    "up"
+   ],
+   [
+    46.8,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "up"
+   ],
+   [
+    56.8,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   46.0,
+   "tap",
+   "up"
+  ],
+  [
+   46.8,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   56.0,
+   "tap",
+   "up"
+  ],
+  [
+   56.8,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    215.52,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w170",
+    "t": 169.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w270",
+    "t": 269.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w290",
+    "t": 289.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 303.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   46.14,
+   "tap",
+   "up"
+  ],
+  [
+   46.9,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   56.02,
+   "tap",
+   "up"
+  ],
+  [
+   56.83,
+   "tap",
+   "a"
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.85,
+   "watch",
+   "w170"
+  ],
+  [
+   170.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.52,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   218.04,
+   "held",
+   "a"
+  ],
+  [
+   220.54,
+   "held",
+   "start"
+  ],
+  [
+   223.05,
+   "held",
+   "a"
+  ],
+  [
+   225.51,
+   "held",
+   "start"
+  ],
+  [
+   228.01,
+   "held",
+   "a"
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.52,
+   "held",
+   "start"
+  ],
+  [
+   233.03,
+   "held",
+   "a"
+  ],
+  [
+   235.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   250.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.85,
+   "watch",
+   "w270"
+  ],
+  [
+   270.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.81,
+   "watch",
+   "w290"
+  ],
+  [
+   290.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.03,
+   "release"
+  ],
+  [
+   300.04,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 172996
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 32.2,
+   "bytes": 702115
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.8,
+   "bytes": 679532
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.8,
+   "got_s": 52.6,
+   "bytes": 812367
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 73.4,
+   "bytes": 1423360
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 93.4,
+   "bytes": 1423267
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 113.4,
+   "bytes": 1421880
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 133.4,
+   "bytes": 1422673
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 153.4,
+   "bytes": 1425873
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.85,
+   "got_s": 173.4,
+   "bytes": 1422589
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.8,
+   "got_s": 193.4,
+   "bytes": 1422604
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 213.4,
+   "bytes": 1421540
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 232.7,
+   "bytes": 927670
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 253.4,
+   "bytes": 1422708
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.85,
+   "got_s": 273.4,
+   "bytes": 1421777
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.81,
+   "got_s": 293.4,
+   "bytes": 1422733
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.04,
+   "got_s": 303.5,
+   "bytes": 1420841
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   18.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   19.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   25.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   158.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   170.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   171.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   179.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   194.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   201.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   202.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   203.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   208.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   209.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   210.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   214.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   215.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   216.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   217.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   221.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   222.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   228.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   236.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   237.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   242.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   243.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   244.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   249.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   250.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   251.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   255.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   256.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   257.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   258.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   262.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   263.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   264.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   265.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   268.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   269.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   270.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   271.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   272.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   273.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   276.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   277.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   278.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   279.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   282.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   283.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   284.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   285.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   286.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   288.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   289.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   290.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   291.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   292.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   293.4,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   294.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   295.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   296.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   297.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   298.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   299.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   300.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   301.5,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   302.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ],
+  [
+   303.6,
+   "GET_STATUS PLAYING xbox,Urbz, The - Sims in the City (U),crc32=8915ad10"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   35.3,
+   37.3,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   28.4,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fde000, intr 00000004/80000073",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.57 ms each (max 21.02), video 16.25 ms (max 20.82)",
+   "hakuX-hle-disp: stats: 30.0 new frames/s, age front to taken 8.34 ms (max 26.65), gap 33.33 ms (max 52.00, 300 over 25 ms)",
+   "hakuX-hle-pb: kicks 1025 words 4711079 headers 604286 methods 4106784 faults 0 GET 03eae7c4 PUT 03d7db9c binds 5 semaphores 163061 flips 9174 traps 18365 (7=9182 41=8830 21=344 9=8 28=1) runs 0 surfaces 3 clears 16186 swaps 9174 draws 4327232 ff 0 skipped 0 () textures 212 (89 held, 10 MiB) rt uploa",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 32.7 ms (max 37.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=17580 verts=1354170 mergeable=0 (not: strip 16050 idx 1530 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2726 set1=17580 pc=3966 vi=5749 vb=13108 vp=95 sc=95 dyn=1965 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4325978 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-hle-pb: kicks 1032 words 4710979 headers 604250 methods 4106720 faults 0 GET 03ea7efc PUT 03d8cac4 binds 5 semaphores 163736 flips 9204 traps 18425 (7=9212 41=8860 21=344 9=8 28=1) runs 0 surfaces 3 clears 16246 swaps 9204 draws 4344812 ff 0 skipped 0 () textures 212 (89 held, 10 MiB) rt uploa",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 33.3 ms (max 36.2, 30 frames)",
+   "hakuX-hle-emit: per s: draws=17580 verts=1354170 mergeable=0 (not: strip 16050 idx 1530 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2729 set1=17580 pc=3938 vi=5752 vb=13115 vp=96 sc=96 dyn=1980 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4343558 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1028 words 4710992 headers 604263 methods 4106720 faults 0 GET 03ea1c24 PUT 03d84c34 binds 5 semaphores 164411 flips 9234 traps 18485 (7=9242 41=8890 21=344 9=8 28=1) runs 0 surfaces 3 clears 16306 swaps 9234 draws 4362392 ff 0 skipped 0 () textures 212 (89 held, 10 MiB) rt uploa",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 34.1 ms (max 36.3, 30 frames)",
+   "hakuX-hle-emit: per s: draws=17580 verts=1354170 mergeable=0 (not: strip 16050 idx 1530 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2728 set1=17580 pc=3942 vi=5747 vb=13114 vp=95 sc=95 dyn=1965 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4361138 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=14391829 first_call=PsCreateSystemThreadEx threads=11",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 61 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5585026c8900",
+   "[Gamescope WSI] Destroyed swapchain: 0x5585026c8900",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 302.7,
+  "peak_rms_dbfs": -24.1,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.95,
+  "rms_dbfs_per_2s": [
+   -29.6,
+   -34.5,
+   -120.0,
+   -120.0,
+   -120.0,
+   -48.1,
+   -36.5,
+   -120.0,
+   -120.0,
+   -120.0,
+   -27.1,
+   -32.1,
+   -32.0,
+   -27.7,
+   -31.2,
+   -31.9,
+   -27.8,
+   -31.2,
+   -28.2,
+   -30.7,
+   -29.4,
+   -27.1,
+   -28.3,
+   -28.5,
+   -31.9,
+   -32.1,
+   -28.2,
+   -31.9,
+   -27.8,
+   -31.8,
+   -32.0,
+   -29.2,
+   -32.0,
+   -30.7,
+   -29.7,
+   -30.2,
+   -29.5,
+   -30.0,
+   -29.3,
+   -29.2,
+   -28.9,
+   -28.8,
+   -29.3,
+   -32.7,
+   -30.1,
+   -30.6,
+   -31.1,
+   -29.6,
+   -31.1,
+   -29.7,
+   -30.4,
+   -29.3,
+   -28.8,
+   -31.9,
+   -29.7,
+   -30.4,
+   -30.0,
+   -29.9,
+   -29.9,
+   -30.0,
+   -30.2,
+   -30.5,
+   -29.3,
+   -29.5,
+   -28.9,
+   -28.7,
+   -29.7,
+   -30.0,
+   -31.0,
+   -30.3,
+   -28.6,
+   -29.1,
+   -28.1,
+   -29.4,
+   -31.2,
+   -29.2,
+   -33.7,
+   -29.4,
+   -28.9,
+   -29.5,
+   -29.4,
+   -30.5,
+   -28.2,
+   -29.4,
+   -30.5,
+   -28.1,
+   -30.0,
+   -28.3,
+   -28.7,
+   -29.3,
+   -29.2,
+   -29.8,
+   -29.4,
+   -29.3,
+   -29.1,
+   -28.9,
+   -30.0,
+   -30.6,
+   -29.9,
+   -33.8,
+   -30.0,
+   -28.5,
+   -30.5,
+   -29.3,
+   -27.8,
+   -29.3,
+   -31.3,
+   -30.1,
+   -30.7,
+   -29.9,
+   -31.2,
+   -31.3,
+   -29.8,
+   -31.1,
+   -29.7,
+   -30.0,
+   -27.7,
+   -27.9,
+   -26.7,
+   -28.1,
+   -27.7,
+   -28.3,
+   -29.7,
+   -27.4,
+   -28.2,
+   -27.5,
+   -31.3,
+   -36.9,
+   -30.3,
+   -31.7,
+   -33.6,
+   -29.4,
+   -29.2,
+   -30.3,
+   -31.0,
+   -28.9,
+   -29.1,
+   -28.3,
+   -28.6,
+   -29.0,
+   -27.4,
+   -25.4,
+   -26.2,
+   -26.7,
+   -24.9,
+   -25.6,
+   -26.6,
+   -25.6,
+   -25.6,
+   -25.1,
+   -24.1,
+   -28.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 303.9,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

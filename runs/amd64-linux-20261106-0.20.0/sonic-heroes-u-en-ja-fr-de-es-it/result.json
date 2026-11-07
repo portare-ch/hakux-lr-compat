@@ -1,0 +1,1013 @@
+{
+ "game_file": "Sonic Heroes (U) (En,Ja,Fr,De,Es,It).chd",
+ "game_size": 3633576345,
+ "system": "amd64-linux",
+ "started": "2026-11-07T04:04:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run play starts at about 50 s and the next Start pauses it, so play was seen in one frame, so play was seen too briefly to judge. No default presses from 36 s (the Start at 40.5 s paused play in the first re-run); A every 4 s for 80 s (it skips text and pop-ups, in play it only jumps or acts) lets the judge see play.",
+  "quiet": [
+   [
+    36.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    37.0,
+    "tap",
+    "a"
+   ],
+   [
+    41.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    61.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    77.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "a"
+   ],
+   [
+    89.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    97.0,
+    "tap",
+    "a"
+   ],
+   [
+    101.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    109.0,
+    "tap",
+    "a"
+   ],
+   [
+    113.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   37.0,
+   "tap",
+   "a"
+  ],
+  [
+   41.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   61.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   77.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   97.0,
+   "tap",
+   "a"
+  ],
+  [
+   101.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   113.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.82,
+  "confirmed_by": "w070",
+  "stopped_at_s": 74.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 75.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   37.01,
+   "tap",
+   "a"
+  ],
+  [
+   41.01,
+   "tap",
+   "a"
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.12,
+   "tap",
+   "a"
+  ],
+  [
+   49.02,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   53.03,
+   "tap",
+   "a"
+  ],
+  [
+   57.04,
+   "tap",
+   "a"
+  ],
+  [
+   61.04,
+   "tap",
+   "a"
+  ],
+  [
+   65.05,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   73.01,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 41373
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.8,
+   "bytes": 673389
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 45.8,
+   "bytes": 2368341
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.9,
+   "bytes": 2418522
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 70.9,
+   "bytes": 2421499
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.81,
+   "got_s": 70.9,
+   "bytes": 2421499,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Sonic Heroes (U) (En,Ja,Fr,De,Es,It),crc32=5d77a226"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.4,
+   60.0,
+   59.7,
+   57.3,
+   59.6,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=789011 prog_fog=483038 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1693 words 4365267 headers 572810 methods 3792424 faults 0 GET 03f81044 PUT 03fd0690 binds 5 semaphores 31874 flips 4242 traps 6735 (21=4242 5=2480 9=12 28=1) runs 0 surfaces 13 clears 20953 swaps 4242 draws 808583 ff 581106 skipped 0 () textures 2455 (243 held, 16 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.3 ms (max 23.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=18990 verts=2934529 mergeable=0 (not: strip 18741 idx 249 state 0 work 0 gap 0) batches=180 of 360 draws indexed: no state between 0, contiguous 0 pipe=10049 set1=12043 pc=15831 vi=2321 vb=13861 vp=157 sc=157 dyn=20048 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=808001 prog_fog=497999 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1709 words 4392046 headers 577399 methods 3814610 faults 0 GET 03fce2f0 PUT 03f99e80 binds 5 semaphores 32565 flips 4302 traps 6855 (21=4302 5=2540 9=12 28=1) runs 0 surfaces 13 clears 21373 swaps 4302 draws 827820 ff 596443 skipped 0 () textures 2515 (243 held, 16 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.2 ms (max 23.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19237 verts=2949687 mergeable=0 (not: strip 18944 idx 293 state 0 work 0 gap 0) batches=181 of 362 draws indexed: no state between 0, contiguous 0 pipe=10103 set1=12298 pc=16003 vi=2421 vb=14061 vp=156 sc=156 dyn=20219 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=827238 prog_fog=513139 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1698 words 4414036 headers 578614 methods 3835402 faults 0 GET 03fb1ba4 PUT 03f7bb94 binds 5 semaphores 33260 flips 4362 traps 6975 (21=4362 5=2600 9=12 28=1) runs 0 surfaces 13 clears 21793 swaps 4362 draws 847234 ff 611957 skipped 0 () textures 2575 (243 held, 16 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.2 ms (max 23.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19414 verts=2975817 mergeable=0 (not: strip 19155 idx 259 state 0 work 0 gap 0) batches=180 of 360 draws indexed: no state between 0, contiguous 0 pipe=10085 set1=12469 pc=16058 vi=2390 vb=14210 vp=157 sc=157 dyn=20144 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=846652 prog_fog=528397 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2647 sysops 4691 (int 670, of them ticks 4; hook 0) schedules 2331 switches 1646 idle 565 slices 0 page faults 0 mmio 13532 apu waits 0 vm pages +0 -0 isr irq1:498 (max 1.7 ms) irq3:174 (max 1.3 ms) irq5:10 (max 0.2 ms) | dpc max wait 0.6 run 1.4 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 168 (pages 03750000:448 0374f000:192 03495000:128 03497000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 16048 KiB, contiguous 10116 KiB (45 blocks), virtual 36944 KiB, kernel pool 494 of 512 KiB (Ex 1045, objects 492, lost 0 KiB, 4 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=213098 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 35 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55587c007c40",
+   "[Gamescope WSI] Destroyed swapchain: 0x55587c007c40",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 74.1,
+  "peak_rms_dbfs": -16.1,
+  "first_sound_s": 6.5,
+  "audible_fraction": 0.88,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -72.0,
+   -71.8,
+   -33.9,
+   -34.4,
+   -25.2,
+   -26.1,
+   -21.8,
+   -22.9,
+   -26.8,
+   -24.0,
+   -23.5,
+   -22.5,
+   -20.7,
+   -22.3,
+   -21.1,
+   -40.3,
+   -39.1,
+   -23.8,
+   -24.6,
+   -24.6,
+   -24.1,
+   -16.1,
+   -26.9,
+   -17.7,
+   -27.4,
+   -18.2,
+   -26.9,
+   -18.4,
+   -23.6,
+   -17.4,
+   -27.0,
+   -18.0,
+   -26.3,
+   -18.2,
+   -26.5,
+   -17.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.82 s (judged from screenshots); stopped at 74.9 s and the emulator closed",
+ "duration_s": 75.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

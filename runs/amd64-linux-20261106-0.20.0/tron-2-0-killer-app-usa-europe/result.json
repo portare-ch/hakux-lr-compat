@@ -1,0 +1,3234 @@
+{
+ "game_file": "Tron 2 0 - Killer App (USA, Europe).chd",
+ "game_size": 1421001490,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:25:55+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The Sign In screen (from about 50 s) answers A with 'At least one valid account must be chosen / OK' and Start does nothing; B skips Xbox Live sign-in. A closes the message, then B twice (in case the first lands on the list).",
+  "quiet": [
+   [
+    50.0,
+    58.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.0,
+    "tap",
+    "b"
+   ],
+   [
+    55.5,
+    "tap",
+    "b"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   53.0,
+   "tap",
+   "b"
+  ],
+  [
+   55.5,
+   "tap",
+   "b"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w190",
+    "t": 189.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w250",
+    "t": 249.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w270",
+    "t": 269.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w290",
+    "t": 289.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 301.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   51.11,
+   "tap",
+   "a"
+  ],
+  [
+   53.02,
+   "tap",
+   "b"
+  ],
+  [
+   55.53,
+   "tap",
+   "b"
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   130.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.84,
+   "watch",
+   "w190"
+  ],
+  [
+   190.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.83,
+   "watch",
+   "w230"
+  ],
+  [
+   230.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.82,
+   "watch",
+   "w270"
+  ],
+  [
+   270.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.84,
+   "watch",
+   "w290"
+  ],
+  [
+   290.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.03,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.4,
+   "bytes": 1225557
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 31.7,
+   "bytes": 526720
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 46.0,
+   "bytes": 429550
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.4,
+   "bytes": 490693
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.6,
+   "bytes": 925454
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 92.4,
+   "bytes": 780633
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.8,
+   "got_s": 112.2,
+   "bytes": 1053188
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 133.8,
+   "bytes": 797364
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 152.0,
+   "bytes": 831428
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 172.4,
+   "bytes": 748581
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.84,
+   "got_s": 192.4,
+   "bytes": 779912
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 212.8,
+   "bytes": 687737
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.83,
+   "got_s": 232.2,
+   "bytes": 1088069
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.8,
+   "got_s": 252.0,
+   "bytes": 1147485
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.82,
+   "got_s": 271.6,
+   "bytes": 754342
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.84,
+   "got_s": 291.8,
+   "bytes": 556943
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.03,
+   "got_s": 301.3,
+   "bytes": 515028
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   139.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   145.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   146.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   147.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   154.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   166.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   167.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   180.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   194.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   195.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   201.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   202.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   203.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   208.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   209.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   210.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   214.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   215.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   216.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   217.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   221.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   222.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   227.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   228.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   233.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   234.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   235.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   236.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   237.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   240.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   241.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   242.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   243.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   244.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   247.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   248.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   249.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   250.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   251.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   253.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   254.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   255.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   256.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   257.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   258.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   261.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   262.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   263.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   264.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   265.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   267.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   268.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   269.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   270.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   271.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   272.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   273.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   276.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   277.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   278.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   279.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   282.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   283.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   284.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   285.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   286.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   290.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   291.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   292.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   293.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   294.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   295.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   296.4,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   297.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   298.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   299.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ],
+  [
+   300.5,
+   "GET_STATUS PLAYING xbox,Tron 2 0 - Killer App (USA, Europe),crc32=3e0b3187"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55520.",
+ "core_log": {
+  "flags": {
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\TRON20KA.xbe (launch type 0)",
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   35.9,
+   41.8,
+   58.6,
+   60.0,
+   59.6,
+   59.7,
+   43.5,
+   9.2,
+   15.6,
+   19.3,
+   12.0,
+   16.2,
+   16.9,
+   24.7,
+   17.4,
+   15.6,
+   12.5,
+   10.8,
+   16.2,
+   20.3,
+   24.1,
+   9.7,
+   8.2,
+   12.4,
+   9.7,
+   11.2,
+   8.6,
+   50.5,
+   39.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2714494 prog_fog=1734388 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #176 frame 7674: front 31.0 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 16 ms apart) | swap +16.0 write +16.0 ready +16.3 flip +31.0 front +31.0 shown +32.0 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 16 m",
+   "hakuX-hle-hitch: stutter #177 frame 7685: front 34.4 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 34 ms apart) | swap +17.8 write +17.8 ready +18.0 flip +34.4 front +34.4 shown +34.6 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 18 m",
+   "hakuX-hle-fps: 33.0 fps (166 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 708 words 1468901 headers 189790 methods 1279090 faults 0 GET 03f789d8 PUT 03f789d8 binds 5 semaphores 83098 flips 7720 traps 7742 (21=7720 5=15 9=6 28=1) runs 0 surfaces 13 clears 14696 swaps 7720 draws 2721869 ff 2525574 skipped 0 () textures 831 (688 held, 10 MiB) rt uploads 5",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 26.6 ms (max 41.1, 48 frames)",
+   "hakuX-hle-emit: per s: draws=4120 verts=1351204 mergeable=0 (not: strip 700 idx 3420 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2250 set1=3377 pc=3076 vi=1760 vb=3687 vp=161 sc=161 dyn=1712 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2718614 prog_fog=1738028 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #178 frame 7742: front 48.9 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 52 ms apart) | swap +24.9 write +24.9 ready +25.2 flip +48.9 front +48.9 shown +57.7 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 25 m",
+   "hakuX-hle-pb: kicks 531 words 1153705 headers 169921 methods 983778 faults 0 GET 03f628cc PUT 03f628cc binds 5 semaphores 83318 flips 7755 traps 7777 (21=7755 5=15 9=6 28=1) runs 0 surfaces 13 clears 14767 swaps 7755 draws 2725808 ff 2529023 skipped 0 () textures 831 (688 held, 10 MiB) rt uploads 5 ",
+   "hakuX-hle-pb: frame pace off: 35 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.9 ms (max 50.3, 34 frames)",
+   "hakuX-hle-emit: per s: draws=3939 verts=845932 mergeable=0 (not: strip 490 idx 3449 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2800 set1=3417 pc=2543 vi=2520 vb=3489 vp=118 sc=118 dyn=1280 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2722553 prog_fog=1741827 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.54 ms each (max 18.01), video 16.40 ms (max 17.70)",
+   "hakuX-native-usb: ohci: 6155 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fdc000, intr 00000004/80000073",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=39010275 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 298064 bytes (merged in 0.0 ms, serialized in 0.1 ms, written in 0.1 ms), spirv hits=421 misses=142",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 38 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x557241d9ee70",
+   "[Gamescope WSI] Destroyed swapchain: 0x557241d9ee70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 296.4,
+  "peak_rms_dbfs": -16.8,
+  "first_sound_s": 6.0,
+  "audible_fraction": 0.78,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -31.5,
+   -38.6,
+   -34.0,
+   -22.3,
+   -120.0,
+   -34.2,
+   -34.6,
+   -42.5,
+   -36.3,
+   -39.2,
+   -37.3,
+   -36.5,
+   -36.9,
+   -37.9,
+   -32.1,
+   -33.5,
+   -37.4,
+   -35.9,
+   -31.2,
+   -35.9,
+   -32.6,
+   -33.9,
+   -33.1,
+   -32.2,
+   -32.7,
+   -32.8,
+   -30.7,
+   -29.9,
+   -33.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -32.5,
+   -22.5,
+   -28.5,
+   -22.6,
+   -23.3,
+   -22.6,
+   -23.9,
+   -22.7,
+   -21.8,
+   -23.8,
+   -23.4,
+   -27.8,
+   -21.4,
+   -22.9,
+   -21.5,
+   -16.8,
+   -18.2,
+   -18.0,
+   -22.1,
+   -21.2,
+   -22.7,
+   -29.9,
+   -22.6,
+   -30.2,
+   -30.7,
+   -31.9,
+   -31.8,
+   -31.7,
+   -26.4,
+   -28.3,
+   -32.0,
+   -32.5,
+   -35.6,
+   -32.2,
+   -28.2,
+   -28.1,
+   -28.8,
+   -34.5,
+   -32.4,
+   -33.9,
+   -35.0,
+   -28.0,
+   -28.5,
+   -27.9,
+   -29.4,
+   -28.8,
+   -28.5,
+   -27.9,
+   -29.2,
+   -33.8,
+   -31.5,
+   -53.8,
+   -32.3,
+   -29.7,
+   -29.4,
+   -27.8,
+   -36.2,
+   -35.7,
+   -24.7,
+   -25.0,
+   -34.0,
+   -36.1,
+   -31.9,
+   -31.8,
+   -32.4,
+   -36.7,
+   -41.2,
+   -32.0,
+   -41.0,
+   -28.5,
+   -29.5,
+   -30.6,
+   -28.2,
+   -33.4,
+   -31.7,
+   -30.2,
+   -31.0,
+   -27.1,
+   -28.7,
+   -27.9,
+   -29.3,
+   -28.1,
+   -31.0,
+   -31.3,
+   -23.0,
+   -22.0,
+   -26.3,
+   -30.6,
+   -30.8,
+   -30.2,
+   -29.7,
+   -31.1,
+   -55.4,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -36.0,
+   -38.3,
+   -99.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 301.5,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

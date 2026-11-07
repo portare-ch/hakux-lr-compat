@@ -1,0 +1,1682 @@
+{
+ "game_file": "TY the Tasmanian Tiger (U).chd",
+ "game_size": 1243130570,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:03:13+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The main menu (from about 30 s) starts on LOAD GAME, which gives 'Unable to load saved game' with no saves, so Start/A loop between them. Down then A picks NEW GAME (twice, in case the message is up the first time); the defaults then pick GAME 1 and pass the intro into Rainbow Cliffs.",
+  "quiet": [
+   [
+    31.0,
+    41.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    32.0,
+    "tap",
+    "a"
+   ],
+   [
+    33.5,
+    "tap",
+    "down"
+   ],
+   [
+    34.3,
+    "tap",
+    "a"
+   ],
+   [
+    37.5,
+    "tap",
+    "down"
+   ],
+   [
+    38.3,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   32.0,
+   "tap",
+   "a"
+  ],
+  [
+   33.5,
+   "tap",
+   "down"
+  ],
+  [
+   34.3,
+   "tap",
+   "a"
+  ],
+  [
+   37.5,
+   "tap",
+   "down"
+  ],
+  [
+   38.3,
+   "tap",
+   "a"
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.83,
+  "confirmed_by": "w090",
+  "stopped_at_s": 98.8,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   10.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   32.11,
+   "tap",
+   "a"
+  ],
+  [
+   33.51,
+   "tap",
+   "down"
+  ],
+  [
+   34.31,
+   "tap",
+   "a"
+  ],
+  [
+   37.52,
+   "tap",
+   "down"
+  ],
+  [
+   38.32,
+   "tap",
+   "a"
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "held",
+   "start"
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "held",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "held",
+   "start"
+  ],
+  [
+   93.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.8,
+   "bytes": 389352
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 33.4,
+   "bytes": 731768
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 48.4,
+   "bytes": 919535
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 53.0,
+   "bytes": 870243
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 73.6,
+   "bytes": 1582729
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 93.6,
+   "bytes": 1555191
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.83,
+   "got_s": 93.6,
+   "bytes": 1555191,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger (U),crc32=fb559092"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55530.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.5,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.7,
+   29.9,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 2746 sysops 5836 (int 1025, of them ticks 3; hook 0) schedules 3117 switches 2108 idle 794 slices 0 page faults 0 mmio 19109 apu waits 0 vm pages +0 -0 isr irq1:497 (max 1.9 ms) irq3:532 (max 1.7 ms) irq5:2 (max 0.2 ms) | dpc max wait 0.7 run 2.9 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 30 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 17664 KiB, contiguous 24052 KiB (853 blocks), virtual 22176 KiB, kernel pool 107 of 128 KiB (Ex 923, objects 6, lost 0 KiB, 4 free ranges)",
+   "hakuX-hle-pb: kicks 3316 words 1907171 headers 476132 methods 1431024 faults 0 GET 03ed7d78 PUT 03ed7db0 binds 4 semaphores 17915 flips 2859 traps 75444 (9=70342 41=2859 5=2242 28=1) runs 0 surfaces 7 clears 8065 swaps 2859 draws 834997 ff 235483 skipped 3157 (draw_empty=3157) textures 449 (117 held",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.3 ms (max 69.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=20120 verts=3524744 mergeable=0 (not: strip 15410 idx 4710 state 0 work 0 gap 0) batches=753 of 1596 draws indexed: no state between 0, contiguous 0 pipe=1226 set1=14136 pc=8165 vi=425 vb=12707 vp=160 sc=160 dyn=3567 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=834832 prog_fog=746650 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3312 words 1895397 headers 473830 methods 1421564 faults 0 GET 03e13bd0 PUT 03e13c08 binds 4 semaphores 18236 flips 2889 traps 76344 (9=71182 41=2889 5=2272 28=1) runs 0 surfaces 7 clears 8155 swaps 2889 draws 855093 ff 236893 skipped 3247 (draw_empty=3247) textures 449 (117 held",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.2 ms (max 69.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=20096 verts=3526014 mergeable=0 (not: strip 15399 idx 4697 state 0 work 0 gap 0) batches=752 of 1593 draws indexed: no state between 0, contiguous 0 pipe=1230 set1=14153 pc=8176 vi=430 vb=12703 vp=164 sc=164 dyn=3634 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=854928 prog_fog=765636 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3314 words 1895969 headers 474238 methods 1421732 faults 0 GET 03e501d8 PUT 03e50210 binds 4 semaphores 18558 flips 2919 traps 77244 (9=72022 41=2919 5=2302 28=1) runs 0 surfaces 7 clears 8245 swaps 2919 draws 875158 ff 238299 skipped 3337 (draw_empty=3337) textures 449 (117 held",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.2 ms (max 70.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=20065 verts=3526163 mergeable=0 (not: strip 15395 idx 4670 state 0 work 0 gap 0) batches=749 of 1588 draws indexed: no state between 0, contiguous 0 pipe=1224 set1=14154 pc=8204 vi=428 vb=12701 vp=161 sc=161 dyn=3602 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=874993 prog_fog=784603 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=268539 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 45512 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=31 misses=19",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5575ff2d6dd0",
+   "[Gamescope WSI] Destroyed swapchain: 0x5575ff2d6dd0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 98.2,
+  "peak_rms_dbfs": -22.0,
+  "first_sound_s": 8.5,
+  "audible_fraction": 0.6,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -116.7,
+   -22.0,
+   -33.8,
+   -36.6,
+   -34.5,
+   -25.7,
+   -33.2,
+   -31.0,
+   -33.0,
+   -44.0,
+   -33.4,
+   -64.1,
+   -32.3,
+   -59.5,
+   -34.9,
+   -22.6,
+   -44.0,
+   -120.0,
+   -33.1,
+   -33.1,
+   -36.9,
+   -50.0,
+   -55.2,
+   -24.2,
+   -22.4,
+   -28.8,
+   -28.8,
+   -58.0,
+   -30.7,
+   -32.4,
+   -28.8,
+   -30.8,
+   -54.6,
+   -29.6,
+   -32.6,
+   -33.3,
+   -30.5,
+   -29.8,
+   -27.1,
+   -32.1,
+   -29.2,
+   -28.1,
+   -30.4,
+   -28.0,
+   -29.6,
+   -29.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.83 s (judged from screenshots); stopped at 98.8 s and the emulator closed",
+ "duration_s": 99.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

@@ -1,0 +1,1064 @@
+{
+ "game_file": "Superman - The Man of Steel (U).chd",
+ "game_size": 2099524920,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:37:13+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run play starts at about 50 s, but only the pause/'Restart?' prompt is seen after that, so play was seen too briefly to judge. No default presses from 42 s; A every 4 s for 80 s (it skips text and pop-ups, in play it only jumps or acts) lets the judge see play.",
+  "quiet": [
+   [
+    42.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    47.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.0,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   47.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.8,
+  "confirmed_by": "w070",
+  "stopped_at_s": 80.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 80.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a"
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   47.04,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.1,
+   "tap",
+   "a"
+  ],
+  [
+   55.06,
+   "tap",
+   "a"
+  ],
+  [
+   59.02,
+   "tap",
+   "a"
+  ],
+  [
+   63.03,
+   "tap",
+   "a"
+  ],
+  [
+   67.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   71.14,
+   "tap",
+   "a"
+  ],
+  [
+   75.1,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.6,
+   "bytes": 706689
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 33.4,
+   "bytes": 915036
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.7,
+   "bytes": 1637138
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.8,
+   "got_s": 55.8,
+   "bytes": 1338648
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 76.2,
+   "bytes": 1319727
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.84,
+   "got_s": 76.2,
+   "bytes": 1319727,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Superman - The Man of Steel (U),crc32=58d1cb4e"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55530.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   26.9,
+   30.0,
+   29.9,
+   30.0,
+   20.6,
+   14.8,
+   17.2
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2510324 prog_fog=2464382 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: trap 009 (packet of 1, word 0): arg 00400b80 color 45ead10e (flip read 0 write 1)",
+   "hakuX-hle-pb: kicks 21578 words 11471140 headers 1472616 methods 9996148 faults 0 GET 00554870 PUT 03e14a10 binds 4 semaphores 69735 flips 1828 traps 199644 (9=163482 a=19966 8a=12459 5=1908 41=1828 28=1) runs 0 surfaces 12 clears 2991 swaps 1828 draws 2594375 ff 2449809 skipped 0 () textures 200 (1",
+   "hakuX-hle-pb: frame pace off: 17 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 65.1 ms (max 73.6, 17 frames)",
+   "hakuX-hle-pb: catch-up: 1602 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1602, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 356.7 ms",
+   "hakuX-hle-emit: per s: draws=82022 verts=7870354 mergeable=0 (not: strip 41748 idx 40276 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 17, contiguous 0 pipe=10848 set1=76990 pc=19269 vi=16593 vb=80687 vp=211 sc=211 dyn=20616 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2592345 prog_fog=2546165 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 5174 sysops 14289 (int 2992, of them ticks 25; hook 0) schedules 9071 switches 6592 idle 1307 slices 0 page faults 0 mmio 94302 apu waits 0 vm pages +0 -0 isr irq1:506 (max 1.3 ms) irq3:2512 (max 1.5 ms) irq5:30 (max 0.6 ms) | dpc max wait 3.4 run 4.2 ms, 0 over 8 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 175 (pages 00fc1000:192 03f2d000:128 02f6d000:128 03f2e000:128 02cd3000:128 0088f000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 664 KiB, contiguous 60768 KiB (31 blocks), virtual 2284 KiB, kernel pool 179 of 192 KiB (Ex 994, objects 6, lost 0 KiB, 6 free ranges)",
+   "hakuX-hle-pb: kicks 21729 words 11681530 headers 1490096 methods 10189654 faults 0 GET 03ee9540 PUT 03e6ce24 binds 4 semaphores 71872 flips 1845 traps 206047 (9=168780 a=20588 8a=12863 5=1970 41=1845 28=1) runs 0 surfaces 12 clears 3042 swaps 1845 draws 2678035 ff 2530638 skipped 0 () textures 200 (",
+   "hakuX-hle-pb: frame pace off: 17 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 66.6 ms (max 77.5, 18 frames)",
+   "hakuX-hle-pb: catch-up: 1656 stores waited for the decoder (caught up 0; it waited on the guest at a trap 1656, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 365.4 ms",
+   "hakuX-hle-emit: per s: draws=83738 verts=8057080 mergeable=0 (not: strip 42615 idx 41123 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 18, contiguous 0 pipe=11066 set1=78626 pc=19681 vi=16947 vb=82387 vp=208 sc=208 dyn=21187 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2676083 prog_fog=2629665 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 60.00 retro_run/s, 16.53 ms each (max 18.20), video 16.31 ms (max 17.90)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=341975 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 58 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55df15e31e70",
+   "[Gamescope WSI] Destroyed swapchain: 0x55df15e31e70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 79.7,
+  "peak_rms_dbfs": -10.9,
+  "first_sound_s": 6.0,
+  "audible_fraction": 0.75,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -19.1,
+   -17.5,
+   -34.0,
+   -120.0,
+   -120.0,
+   -24.1,
+   -24.3,
+   -14.6,
+   -20.5,
+   -14.8,
+   -27.9,
+   -10.9,
+   -120.0,
+   -17.2,
+   -15.0,
+   -36.7,
+   -29.0,
+   -41.7,
+   -33.9,
+   -24.7,
+   -27.4,
+   -30.6,
+   -27.1,
+   -31.4,
+   -27.0,
+   -30.3,
+   -27.2,
+   -31.3,
+   -26.5,
+   -30.8,
+   -27.2,
+   -30.3,
+   -26.5,
+   -31.2,
+   -26.8,
+   -29.7,
+   -27.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.8 s (judged from screenshots); stopped at 80.5 s and the emulator closed",
+ "duration_s": 80.7,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

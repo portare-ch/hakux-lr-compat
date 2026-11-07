@@ -1,0 +1,2433 @@
+{
+ "game_file": "Star Wars - Knights of the Old Republic II - The Sith Lords (U).chd",
+ "game_size": 2895704859,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:04:36+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The tutorial opens the galaxy map (from about 190 s), where A on Travel gives 'You are already at that location. A OK' and the next press reopens it. From 192 s: A closes the message, B twice leaves the map (in play B only cancels), then no presses so T3-M4 stays in view.",
+  "quiet": [
+   [
+    192.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    193.0,
+    "tap",
+    "a"
+   ],
+   [
+    195.5,
+    "tap",
+    "b"
+   ],
+   [
+    198.0,
+    "tap",
+    "b"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a"
+  ],
+  [
+   195.5,
+   "tap",
+   "b"
+  ],
+  [
+   198.0,
+   "tap",
+   "b"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 209.81,
+  "confirmed_by": "w230",
+  "stopped_at_s": 237.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w130",
+    "t": 129.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w190",
+    "t": 189.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 237.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.85,
+   "watch",
+   "w050"
+  ],
+  [
+   50.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.85,
+   "watch",
+   "w130"
+  ],
+  [
+   130.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.83,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.82,
+   "watch",
+   "w190"
+  ],
+  [
+   190.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.03,
+   "tap",
+   "a"
+  ],
+  [
+   195.53,
+   "tap",
+   "b"
+  ],
+  [
+   198.04,
+   "tap",
+   "b"
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   229.81,
+   "watch",
+   "w230"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 134527
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 30.5,
+   "bytes": 316845
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 44.9,
+   "bytes": 4613
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.85,
+   "got_s": 50.9,
+   "bytes": 522978
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.0,
+   "bytes": 699870
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 90.8,
+   "bytes": 783652
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 110.8,
+   "bytes": 548059
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.85,
+   "got_s": 130.8,
+   "bytes": 476604
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 152.0,
+   "bytes": 394298
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.83,
+   "got_s": 173.0,
+   "bytes": 1194435
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.82,
+   "got_s": 191.4,
+   "bytes": 754929
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 213.1,
+   "bytes": 1457569
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.81,
+   "got_s": 233.1,
+   "bytes": 1415495
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 229.81,
+   "got_s": 233.1,
+   "bytes": 1415495,
+   "from_watch": "w230"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   156.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   157.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   158.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   162.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   163.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   168.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   169.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   170.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   171.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   175.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   176.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   177.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   178.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   179.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   182.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   183.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   184.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   185.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   186.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   187.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   191.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   192.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   193.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   194.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   195.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   197.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   198.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   199.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   200.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   201.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   202.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   203.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   204.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   205.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   206.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   207.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   208.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   209.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   210.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   211.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   212.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   213.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   214.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   215.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   216.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   217.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   218.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   219.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   220.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   221.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   222.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   223.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   224.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   225.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   226.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   227.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   228.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   229.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   230.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   231.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   232.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   233.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   234.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   235.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ],
+  [
+   236.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Knights of the Old Republic II - The Sith Lords (U),crc32=1d542eb6"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55510.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   11.8,
+   26.5,
+   30.0,
+   21.1,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.8,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=471143 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1235 words 3990496 headers 424037 methods 3566436 faults 0 GET 03f97038 PUT 03f8c68c binds 5 semaphores 48162 flips 3390 traps 4873 (41=3390 5=1476 9=6 28=1) runs 0 surfaces 8 clears 21430 swaps 3390 draws 478108 ff 472087 skipped 0 () textures 317 (229 held, 6 MiB) rt uploads 1 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.4 ms (max 39.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=6755 verts=2968116 mergeable=0 (not: strip 0 idx 5975 state 780 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1894 set1=6755 pc=3835 vi=1298 vb=2960 vp=223 sc=431 dyn=2651 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=477898 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1262 words 4016904 headers 424343 methods 3592524 faults 0 GET 03f722dc PUT 03f65e14 binds 5 semaphores 48761 flips 3420 traps 4933 (41=3420 5=1506 9=6 28=1) runs 0 surfaces 8 clears 21640 swaps 3420 draws 484871 ff 478850 skipped 0 () textures 317 (229 held, 6 MiB) rt uploads 1 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 39.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=6763 verts=2994066 mergeable=0 (not: strip 0 idx 5983 state 780 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1892 set1=6763 pc=3828 vi=1306 vb=2883 vp=231 sc=441 dyn=2753 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=484661 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1252 words 4039273 headers 425693 methods 3613560 faults 0 GET 03f654e4 PUT 03fd9488 binds 5 semaphores 49362 flips 3450 traps 4993 (41=3450 5=1536 9=6 28=1) runs 0 surfaces 8 clears 21850 swaps 3450 draws 491662 ff 485641 skipped 0 () textures 317 (229 held, 6 MiB) rt uploads 1 ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 39.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=6791 verts=3015396 mergeable=0 (not: strip 0 idx 6011 state 780 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1896 set1=6791 pc=3850 vi=1305 vb=2959 vp=227 sc=436 dyn=2712 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=491452 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3262 sysops 5377 (int 749, of them ticks 2; hook 0) schedules 2187 switches 1518 idle 657 slices 0 page faults 0 mmio 10414 apu waits 0 vm pages +180 -180 isr irq1:537 (max 1.8 ms) irq3:120 (max 0.5 ms) irq5:14 (max 1.3 ms) | dpc max wait 0.2 run 1.1 ms, 0 over 8 ms",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 42 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 13272 KiB, contiguous 19628 KiB (162 blocks), virtual 31084 KiB, kernel pool 12 of 64 KiB (Ex 435, objects 8, lost 0 KiB, 2 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=12294447 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 44 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x559e12add860",
+   "[Gamescope WSI] Destroyed swapchain: 0x559e12add860",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 234.9,
+  "peak_rms_dbfs": -14.2,
+  "first_sound_s": 9.0,
+  "audible_fraction": 0.9,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -46.8,
+   -40.3,
+   -40.6,
+   -44.0,
+   -43.7,
+   -41.1,
+   -41.5,
+   -39.7,
+   -44.9,
+   -36.6,
+   -40.8,
+   -39.4,
+   -44.1,
+   -45.3,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -24.3,
+   -29.3,
+   -25.2,
+   -25.1,
+   -26.8,
+   -26.5,
+   -26.6,
+   -24.6,
+   -26.0,
+   -26.0,
+   -27.1,
+   -26.0,
+   -24.6,
+   -31.3,
+   -31.1,
+   -30.4,
+   -29.9,
+   -30.1,
+   -26.8,
+   -25.4,
+   -25.4,
+   -27.2,
+   -27.3,
+   -24.1,
+   -26.9,
+   -24.8,
+   -24.5,
+   -25.3,
+   -24.8,
+   -26.8,
+   -25.4,
+   -26.3,
+   -26.8,
+   -28.4,
+   -29.3,
+   -30.1,
+   -27.1,
+   -28.8,
+   -28.1,
+   -33.3,
+   -32.9,
+   -35.2,
+   -27.3,
+   -27.1,
+   -19.9,
+   -23.9,
+   -26.0,
+   -29.2,
+   -33.4,
+   -37.1,
+   -17.0,
+   -21.9,
+   -23.3,
+   -22.5,
+   -19.0,
+   -16.2,
+   -16.8,
+   -22.4,
+   -19.1,
+   -19.4,
+   -20.7,
+   -14.2,
+   -17.0,
+   -38.7,
+   -39.2,
+   -38.6,
+   -43.7,
+   -40.5,
+   -36.5,
+   -34.7,
+   -36.3,
+   -38.2,
+   -37.6,
+   -39.1,
+   -39.6,
+   -29.8,
+   -25.2,
+   -22.9,
+   -22.3,
+   -25.4,
+   -25.0,
+   -23.0,
+   -25.1,
+   -22.9,
+   -22.0,
+   -22.8,
+   -24.0,
+   -22.7,
+   -22.6,
+   -24.6,
+   -23.8,
+   -23.5,
+   -25.4,
+   -22.1,
+   -22.1,
+   -26.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 209.81 s (judged from screenshots); stopped at 237.4 s and the emulator closed",
+ "duration_s": 237.6,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

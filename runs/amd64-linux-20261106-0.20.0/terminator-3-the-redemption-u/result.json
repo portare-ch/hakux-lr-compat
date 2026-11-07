@@ -1,0 +1,2551 @@
+{
+ "game_file": "Terminator 3 - The Redemption (U).chd",
+ "game_size": 1891189885,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:01:50+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "From about 90 s the game waits on 'PRESS B TO ACTIVATE SCAN VISION'; the judge's in-game verdicts hold back the unstick B. B every 4 s from 88 to 120 s (in play it only toggles scan vision).",
+  "quiet": [
+   [
+    87.5,
+    122.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    88.0,
+    "tap",
+    "b"
+   ],
+   [
+    92.0,
+    "tap",
+    "b"
+   ],
+   [
+    96.0,
+    "tap",
+    "b"
+   ],
+   [
+    100.0,
+    "tap",
+    "b"
+   ],
+   [
+    104.0,
+    "tap",
+    "b"
+   ],
+   [
+    108.0,
+    "tap",
+    "b"
+   ],
+   [
+    112.0,
+    "tap",
+    "b"
+   ],
+   [
+    116.0,
+    "tap",
+    "b"
+   ],
+   [
+    120.0,
+    "tap",
+    "b"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "b"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   92.0,
+   "tap",
+   "b"
+  ],
+  [
+   96.0,
+   "tap",
+   "b"
+  ],
+  [
+   100.0,
+   "tap",
+   "b"
+  ],
+  [
+   104.0,
+   "tap",
+   "b"
+  ],
+  [
+   108.0,
+   "tap",
+   "b"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   112.0,
+   "tap",
+   "b"
+  ],
+  [
+   116.0,
+   "tap",
+   "b"
+  ],
+  [
+   120.0,
+   "tap",
+   "b"
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 189.82,
+  "confirmed_by": "w210",
+  "stopped_at_s": 217.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 4.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w170",
+    "t": 169.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w190",
+    "t": 189.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 217.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "b"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   92.12,
+   "tap",
+   "b"
+  ],
+  [
+   96.04,
+   "tap",
+   "b"
+  ],
+  [
+   100.05,
+   "tap",
+   "b"
+  ],
+  [
+   104.01,
+   "tap",
+   "b"
+  ],
+  [
+   108.02,
+   "tap",
+   "b"
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   112.14,
+   "tap",
+   "b"
+  ],
+  [
+   116.0,
+   "tap",
+   "b"
+  ],
+  [
+   120.02,
+   "tap",
+   "b"
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.83,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.64,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.82,
+   "watch",
+   "w190"
+  ],
+  [
+   190.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.08,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.63,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.55,
+   "held",
+   "start"
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.51,
+   "held",
+   "start"
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.52,
+   "held",
+   "start"
+  ],
+  [
+   213.13,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.8,
+   "bytes": 171281
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 31.8,
+   "bytes": 769115
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 47.4,
+   "bytes": 1470128
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 53.6,
+   "bytes": 1315644
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 74.8,
+   "bytes": 939884
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 92.8,
+   "bytes": 1454219
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 114.6,
+   "bytes": 966065
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 135.0,
+   "bytes": 1029224
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 154.6,
+   "bytes": 980408
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.83,
+   "got_s": 175.6,
+   "bytes": 837487
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.82,
+   "got_s": 196.1,
+   "bytes": 1186652
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 213.4,
+   "bytes": 1703741
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 209.82,
+   "got_s": 213.4,
+   "bytes": 1703741,
+   "from_watch": "w210"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   139.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   140.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   141.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   142.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   143.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   144.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   145.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   146.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   147.1,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   148.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   149.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   150.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   151.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   152.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   153.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   154.2,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   155.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   156.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   157.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   158.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   159.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   160.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   161.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   162.3,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   169.4,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   170.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   171.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   172.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   173.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   174.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   175.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   176.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   177.5,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   178.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   179.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   180.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   181.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   182.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   183.6,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   184.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   185.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   186.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   187.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   188.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   189.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   190.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   191.7,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   192.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   193.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   194.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   195.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   196.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   197.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   198.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   199.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   200.8,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   201.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   202.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   203.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   204.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   205.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   206.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   207.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   208.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   209.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   210.9,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   212.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   213.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   214.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   215.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   216.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ],
+  [
+   217.0,
+   "GET_STATUS PLAYING xbox,Terminator 3 - The Redemption (U),crc32=2b7547f4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55520.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   12.1,
+   30.7,
+   29.2,
+   28.8,
+   30.2,
+   30.8,
+   30.8,
+   30.7,
+   30.3,
+   28.4,
+   29.4,
+   26.8,
+   29.3,
+   26.6,
+   30.2,
+   29.9,
+   28.6,
+   23.5,
+   29.2,
+   29.0,
+   30.5
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 50.2 ms (max 57.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 29234 stores waited for the decoder (caught up 584; it waited on the guest at a trap 1038, a flip stall 27612, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3930.2 ms",
+   "hakuX-hle-emit: per s: draws=378616 verts=2110487 mergeable=0 (not: strip 371603 idx 7013 state 0 work 0 gap 0) batches=3665 of 21188 draws indexed: no state between 31, contiguous 0 pipe=14515 set1=33818 pc=20713 vi=5298 vb=318651 vp=404 sc=404 dyn=5406 fb=30",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=88425591 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1978 words 8121301 headers 2167677 methods 5953824 faults 0 GET 03f94928 PUT 03f4b63c binds 5 semaphores 260858 flips 6125 traps 15814 (5=9682 21=6125 9=6 28=1) runs 0 surfaces 5 clears 20852 swaps 6125 draws 88840712 ff 52441921 skipped 0 () textures 797 (266 held, 14 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 49.4 ms (max 58.1, 31 frames)",
+   "hakuX-hle-pb: catch-up: 29380 stores waited for the decoder (caught up 592; it waited on the guest at a trap 1038, a flip stall 27750, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3952.7 ms",
+   "hakuX-hle-emit: per s: draws=379892 verts=2116313 mergeable=0 (not: strip 372856 idx 7036 state 0 work 0 gap 0) batches=3758 of 21735 draws indexed: no state between 31, contiguous 0 pipe=14739 set1=33663 pc=20191 vi=5422 vb=318870 vp=405 sc=405 dyn=5437 fb=31",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=88805483 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2143 words 8744830 headers 2386895 methods 6357907 faults 0 GET 03f3dd00 PUT 03f3f120 binds 5 semaphores 262030 flips 6155 traps 15880 (5=9718 21=6155 9=6 28=1) runs 0 surfaces 5 clears 21006 swaps 6155 draws 89272434 ff 52721452 skipped 0 () textures 797 (266 held, 14 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 52.5 ms (max 57.9, 31 frames)",
+   "hakuX-hle-pb: catch-up: 29526 stores waited for the decoder (caught up 593; it waited on the guest at a trap 1041, a flip stall 27892, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3961.1 ms",
+   "hakuX-hle-emit: per s: draws=431748 verts=2365664 mergeable=0 (not: strip 421655 idx 10093 state 0 work 0 gap 0) batches=3799 of 22664 draws indexed: no state between 30, contiguous 0 pipe=14809 set1=37717 pc=21366 vi=5424 vb=366724 vp=408 sc=408 dyn=5477 fb=31",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=89237231 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.7 fps (154 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=3236919 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 324736 bytes (merged in 0.0 ms, serialized in 0.1 ms, written in 0.1 ms), spirv hits=556 misses=119",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 43 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55e6e210de50",
+   "[Gamescope WSI] Destroyed swapchain: 0x55e6e210de50",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 215.9,
+  "peak_rms_dbfs": -13.3,
+  "first_sound_s": 5.0,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -38.9,
+   -33.2,
+   -22.4,
+   -25.3,
+   -25.7,
+   -18.8,
+   -18.4,
+   -23.7,
+   -19.5,
+   -21.4,
+   -33.4,
+   -35.9,
+   -35.6,
+   -21.0,
+   -21.1,
+   -19.7,
+   -19.7,
+   -22.6,
+   -20.0,
+   -20.8,
+   -24.5,
+   -20.6,
+   -21.3,
+   -20.5,
+   -20.5,
+   -21.7,
+   -21.7,
+   -23.0,
+   -19.2,
+   -20.3,
+   -25.0,
+   -21.5,
+   -22.4,
+   -24.0,
+   -22.9,
+   -22.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -24.4,
+   -20.5,
+   -20.1,
+   -19.1,
+   -22.2,
+   -21.5,
+   -22.7,
+   -19.2,
+   -18.8,
+   -18.9,
+   -20.6,
+   -22.2,
+   -21.3,
+   -20.4,
+   -18.5,
+   -18.4,
+   -18.2,
+   -20.6,
+   -20.9,
+   -19.4,
+   -19.1,
+   -19.3,
+   -18.1,
+   -18.3,
+   -21.8,
+   -20.7,
+   -20.1,
+   -20.7,
+   -20.6,
+   -21.5,
+   -20.7,
+   -21.1,
+   -22.2,
+   -28.4,
+   -26.3,
+   -36.5,
+   -19.4,
+   -22.6,
+   -22.9,
+   -21.8,
+   -22.0,
+   -19.8,
+   -22.0,
+   -20.2,
+   -20.8,
+   -21.2,
+   -18.1,
+   -24.1,
+   -24.0,
+   -32.1,
+   -20.1,
+   -13.3,
+   -18.0,
+   -15.2,
+   -20.1,
+   -19.1,
+   -18.0,
+   -16.7,
+   -16.1,
+   -18.7,
+   -17.9,
+   -16.8,
+   -14.4,
+   -18.0,
+   -17.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 189.82 s (judged from screenshots); stopped at 217.6 s and the emulator closed",
+ "duration_s": 217.7,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

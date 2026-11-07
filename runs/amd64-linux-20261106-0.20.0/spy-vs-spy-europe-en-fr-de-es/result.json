@@ -1,0 +1,1429 @@
+{
+ "game_file": "Spy vs Spy (Europe) (En,Fr,De,Es).chd",
+ "game_size": 604711512,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:34:50+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run the hideout is in play from about 50 s, but every frame shows a tutorial pop-up or the pause menu, so play was seen too briefly to judge. No default presses from 42 s; A every 4 s for 80 s (it skips text and pop-ups, in play it only jumps or acts) lets the judge see play.",
+  "quiet": [
+   [
+    42.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    47.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.0,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   47.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.81,
+  "confirmed_by": "w130",
+  "stopped_at_s": 137.0,
+  "unstuck": [
+   [
+    95.03,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 137.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a"
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   47.01,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   51.12,
+   "tap",
+   "a"
+  ],
+  [
+   55.03,
+   "tap",
+   "a"
+  ],
+  [
+   59.03,
+   "tap",
+   "a"
+  ],
+  [
+   63.04,
+   "tap",
+   "a"
+  ],
+  [
+   67.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   71.15,
+   "tap",
+   "a"
+  ],
+  [
+   75.01,
+   "tap",
+   "a"
+  ],
+  [
+   79.01,
+   "tap",
+   "a"
+  ],
+  [
+   83.02,
+   "tap",
+   "a"
+  ],
+  [
+   87.02,
+   "tap",
+   "a"
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   91.13,
+   "tap",
+   "a"
+  ],
+  [
+   95.03,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   99.04,
+   "held",
+   "a"
+  ],
+  [
+   103.04,
+   "held",
+   "a"
+  ],
+  [
+   107.0,
+   "held",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   111.11,
+   "held",
+   "a"
+  ],
+  [
+   115.01,
+   "tap",
+   "a"
+  ],
+  [
+   119.02,
+   "tap",
+   "a"
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 116619
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 31.8,
+   "bytes": 591321
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 46.1,
+   "bytes": 563843
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 51.6,
+   "bytes": 593280
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 73.3,
+   "bytes": 1011557
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 93.2,
+   "bytes": 1011557
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 112.5,
+   "bytes": 933957
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 132.3,
+   "bytes": 948009
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.84,
+   "got_s": 132.3,
+   "bytes": 948009,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   95.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   101.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   102.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   107.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   108.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Spy vs Spy (Europe) (En,Fr,De,Es),crc32=3deb59c7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55520.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   10.6,
+   24.0,
+   22.3,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 450 stores waited for the decoder (caught up 236; it waited on the guest at a trap 214, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 28.1 ms",
+   "hakuX-hle-emit: per s: draws=6570 verts=2376420 mergeable=0 (not: strip 5370 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1080 set1=6570 pc=2850 vi=570 vb=5790 vp=240 sc=240 dyn=1110 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=622896 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 323 words 1969931 headers 182180 methods 1787688 faults 0 GET 03fd93e0 PUT 03fd93e0 binds 5 semaphores 15058 flips 3699 traps 3706 (1=3699 9=6 28=1) runs 0 surfaces 10 clears 18132 swaps 3699 draws 629483 ff 0 skipped 0 () textures 164 (164 held, 7 MiB) rt uploads 5 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.1 ms (max 42.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 468 stores waited for the decoder (caught up 246; it waited on the guest at a trap 222, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 31.1 ms",
+   "hakuX-hle-emit: per s: draws=6570 verts=2376420 mergeable=0 (not: strip 5370 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1080 set1=6570 pc=2850 vi=570 vb=5787 vp=240 sc=240 dyn=1110 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=629466 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2275 sysops 4051 (int 590, of them ticks 4; hook 0) schedules 1834 switches 1282 idle 531 slices 0 page faults 0 mmio 5631 apu waits 0 vm pages +0 -0 isr irq1:500 (max 1.1 ms) irq3:90 (max 0.2 ms) | dpc max wait 0.2 run 0.3 ms, 0 over 8 ms | holds 85 (longest 1.2 ms",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 361 (pages 02fbc000:640 03f85000:576 02f58000:576) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 15076 KiB, contiguous 33172 KiB (39 blocks), virtual 15964 KiB, kernel pool 13 of 64 KiB (Ex 122, objects 6, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 307 words 1969931 headers 182180 methods 1787688 faults 0 GET 03fde138 PUT 03fde138 binds 5 semaphores 15183 flips 3729 traps 3736 (1=3729 9=6 28=1) runs 0 surfaces 10 clears 18282 swaps 3729 draws 636053 ff 0 skipped 0 () textures 164 (164 held, 7 MiB) rt uploads 5 blits 0 m2mf ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.3 ms (max 41.4, 30 frames)",
+   "hakuX-hle-pb: catch-up: 470 stores waited for the decoder (caught up 247; it waited on the guest at a trap 223, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 31.1 ms",
+   "hakuX-hle-emit: per s: draws=6570 verts=2376420 mergeable=0 (not: strip 5370 idx 1200 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1080 set1=6570 pc=2850 vi=570 vb=5774 vp=240 sc=240 dyn=1110 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=636036 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=762981 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55bae9a29ee0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55bae9a29ee0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 136.4,
+  "peak_rms_dbfs": -19.8,
+  "first_sound_s": 12.5,
+  "audible_fraction": 0.88,
+  "rms_dbfs_per_2s": [
+   -95.7,
+   -95.7,
+   -95.5,
+   -95.6,
+   -95.7,
+   -95.7,
+   -21.0,
+   -19.8,
+   -32.0,
+   -27.0,
+   -25.8,
+   -26.3,
+   -27.1,
+   -25.4,
+   -26.7,
+   -28.0,
+   -25.9,
+   -27.0,
+   -24.6,
+   -26.1,
+   -27.0,
+   -25.8,
+   -27.2,
+   -26.3,
+   -23.1,
+   -34.4,
+   -26.4,
+   -26.5,
+   -30.1,
+   -28.3,
+   -30.5,
+   -28.0,
+   -30.3,
+   -28.6,
+   -33.3,
+   -27.7,
+   -31.1,
+   -27.6,
+   -29.4,
+   -26.4,
+   -25.7,
+   -27.8,
+   -31.7,
+   -26.2,
+   -29.0,
+   -26.8,
+   -27.9,
+   -27.9,
+   -29.7,
+   -29.1,
+   -30.1,
+   -29.7,
+   -29.0,
+   -30.8,
+   -30.8,
+   -29.1,
+   -31.5,
+   -27.1,
+   -29.9,
+   -27.3,
+   -38.6,
+   -47.7,
+   -41.9,
+   -34.3,
+   -30.4,
+   -30.7,
+   -29.8,
+   -31.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.81 s (judged from screenshots); stopped at 137.0 s and the emulator closed",
+ "duration_s": 137.1,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

@@ -1,0 +1,2283 @@
+{
+ "game_file": "Teen Titans (U).chd",
+ "game_size": 598932382,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:00:51+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'Would you like to create a Teen Titans save game?' (from about 90 s) has NO selected, and the follow-up 'continue without saving?' too, so Start/A loop between them. Up then A picks YES; tried at 91 and 101 s.",
+  "quiet": [
+   [
+    90.5,
+    94.0
+   ],
+   [
+    100.5,
+    104.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    91.0,
+    "tap",
+    "up"
+   ],
+   [
+    91.8,
+    "tap",
+    "a"
+   ],
+   [
+    101.0,
+    "tap",
+    "up"
+   ],
+   [
+    101.8,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "up"
+  ],
+  [
+   91.8,
+   "tap",
+   "a"
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   101.0,
+   "tap",
+   "up"
+  ],
+  [
+   101.8,
+   "tap",
+   "a"
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 149.85,
+  "confirmed_by": "w170",
+  "stopped_at_s": 176.9,
+  "unstuck": [
+   [
+    73.03,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 177.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.03,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   75.53,
+   "held",
+   "start"
+  ],
+  [
+   78.04,
+   "held",
+   "a"
+  ],
+  [
+   80.55,
+   "held",
+   "start"
+  ],
+  [
+   83.0,
+   "held",
+   "a"
+  ],
+  [
+   85.51,
+   "held",
+   "start"
+  ],
+  [
+   88.01,
+   "held",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   91.12,
+   "tap",
+   "up"
+  ],
+  [
+   91.82,
+   "held",
+   "a"
+  ],
+  [
+   95.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   101.01,
+   "tap",
+   "up"
+  ],
+  [
+   101.81,
+   "tap",
+   "a"
+  ],
+  [
+   105.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.85,
+   "watch",
+   "w150"
+  ],
+  [
+   150.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.52,
+   "held",
+   "start"
+  ],
+  [
+   158.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "held",
+   "start"
+  ],
+  [
+   163.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.54,
+   "held",
+   "start"
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.52,
+   "held",
+   "start"
+  ],
+  [
+   173.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.54,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.3,
+   "bytes": 4613
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.8,
+   "bytes": 566451
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.8,
+   "bytes": 480512
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.4,
+   "bytes": 426563
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.4,
+   "bytes": 426563
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 91.4,
+   "bytes": 424320
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 111.4,
+   "bytes": 417570
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 130.1,
+   "bytes": 12676
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.85,
+   "got_s": 152.9,
+   "bytes": 965600
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 172.5,
+   "bytes": 986533
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 169.82,
+   "got_s": 172.5,
+   "bytes": 986533,
+   "from_watch": "w170"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   52.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   58.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   64.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   95.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   101.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   102.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   107.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   108.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   114.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   120.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   126.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   132.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   139.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   140.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   146.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   152.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   158.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   159.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   160.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   165.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   166.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   172.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   173.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   174.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,Teen Titans (U),crc32=c2296a45"
+  ],
+  [
+   177.7,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   23.3,
+   29.9,
+   29.8,
+   29.9,
+   29.7,
+   29.9,
+   29.9,
+   29.9,
+   29.9,
+   29.8,
+   28.5,
+   28.6,
+   29.8,
+   29.9,
+   29.8,
+   29.9,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 8060 KiB, contiguous 43504 KiB (345 blocks), virtual 11172 KiB, kernel pool 12 of 64 KiB (Ex 105, objects 11, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 1512 words 3130913 headers 474452 methods 2656439 faults 0 GET 01a9a374 PUT 01a9a374 binds 5 semaphores 31310 flips 5098 traps 13567 (21=5098 28=4231 8=4230 9=6 5=2) runs 0 surfaces 7 clears 12997 swaps 5098 draws 692790 ff 0 skipped 0 () textures 459 (121 held, 12 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.4 ms (max 43.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=13282 verts=1353827 mergeable=0 (not: strip 12847 idx 435 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=960 set1=13108 pc=2380 vi=438 vb=10000 vp=147 sc=147 dyn=2912 fb=174",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=692248 prog_fog=594551 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1553 words 3241001 headers 490826 methods 2750162 faults 0 GET 01a813c0 PUT 01a813c0 binds 5 semaphores 31792 flips 5128 traps 13777 (21=5128 28=4321 8=4320 9=6 5=2) runs 0 surfaces 7 clears 13117 swaps 5128 draws 706530 ff 0 skipped 0 () textures 459 (121 held, 12 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 37.0 ms (max 39.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=13740 verts=1400862 mergeable=0 (not: strip 13290 idx 450 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=990 set1=13560 pc=2460 vi=450 vb=10360 vp=150 sc=150 dyn=3000 fb=180",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=705988 prog_fog=607361 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1567 words 3289036 headers 492451 methods 2796560 faults 0 GET 01a975d8 PUT 01a975d8 binds 5 semaphores 32280 flips 5158 traps 13987 (21=5158 28=4411 8=4410 9=6 5=2) runs 0 surfaces 7 clears 13237 swaps 5158 draws 720406 ff 0 skipped 0 () textures 459 (121 held, 12 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 42.5 ms (max 49.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=13876 verts=1406876 mergeable=0 (not: strip 13426 idx 450 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1068 set1=13696 pc=2586 vi=460 vb=10369 vp=160 sc=160 dyn=3040 fb=180",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=719864 prog_fog=620171 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 29.9 fps (150 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=311213 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 69512 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=43 misses=31",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 42 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55700b7089d0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55700b7089d0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 176.2,
+  "peak_rms_dbfs": -16.2,
+  "first_sound_s": 8.5,
+  "audible_fraction": 0.79,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -16.2,
+   -18.8,
+   -32.3,
+   -18.0,
+   -33.3,
+   -20.2,
+   -29.5,
+   -120.0,
+   -120.0,
+   -35.9,
+   -34.9,
+   -34.7,
+   -34.8,
+   -29.0,
+   -26.7,
+   -28.7,
+   -35.4,
+   -26.9,
+   -34.9,
+   -27.0,
+   -35.3,
+   -35.1,
+   -35.5,
+   -35.7,
+   -35.4,
+   -35.5,
+   -35.5,
+   -35.9,
+   -35.8,
+   -35.6,
+   -34.6,
+   -35.7,
+   -35.1,
+   -35.1,
+   -34.9,
+   -34.7,
+   -35.0,
+   -34.6,
+   -35.1,
+   -35.2,
+   -34.9,
+   -35.1,
+   -35.0,
+   -34.7,
+   -34.2,
+   -29.0,
+   -27.3,
+   -35.7,
+   -35.0,
+   -26.8,
+   -35.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -56.0,
+   -31.5,
+   -40.4,
+   -120.0,
+   -70.8,
+   -35.0,
+   -30.3,
+   -32.8,
+   -30.6,
+   -35.1,
+   -32.8,
+   -30.7,
+   -32.8,
+   -30.6,
+   -34.9,
+   -32.9,
+   -30.6,
+   -34.7,
+   -27.3,
+   -35.3,
+   -34.7,
+   -35.7,
+   -35.0,
+   -35.0,
+   -35.1,
+   -35.4,
+   -27.6,
+   -35.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 149.85 s (judged from screenshots); stopped at 176.9 s and the emulator closed",
+ "duration_s": 177.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

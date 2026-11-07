@@ -1,0 +1,2454 @@
+{
+ "game_file": "Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It).chd",
+ "game_size": 1536878264,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:02:35+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Same loop as Ghost Recon 2: the default Start opens the START menu (Return / Online Options) over the campaign menus, and A there goes back, so the run never starts a campaign. A on Single Player gives a 'create a profile' dialog, then A the Name Profile wheel, but the next default press is Start, which opens the START MENU, and A there picks Main Menu, so the run loops back to the main menu. Only A presses are needed: ACCEPT (default name PROFILE) > Activate > Single Player > Campaign > ACCEPT > Normal > Equipment > the intro cinematic > gameplay. An A every 2 s works from any point in the loop; it runs to the end, as the main menu can take until about 110 s.",
+  "extra_steps": [
+   [
+    50.2,
+    "tap",
+    "a"
+   ],
+   [
+    52.2,
+    "tap",
+    "a"
+   ],
+   [
+    54.2,
+    "tap",
+    "a"
+   ],
+   [
+    56.2,
+    "tap",
+    "a"
+   ],
+   [
+    58.2,
+    "tap",
+    "a"
+   ],
+   [
+    60.2,
+    "tap",
+    "a"
+   ],
+   [
+    62.2,
+    "tap",
+    "a"
+   ],
+   [
+    64.2,
+    "tap",
+    "a"
+   ],
+   [
+    66.2,
+    "tap",
+    "a"
+   ],
+   [
+    68.2,
+    "tap",
+    "a"
+   ],
+   [
+    70.2,
+    "tap",
+    "a"
+   ],
+   [
+    72.2,
+    "tap",
+    "a"
+   ],
+   [
+    74.2,
+    "tap",
+    "a"
+   ],
+   [
+    76.2,
+    "tap",
+    "a"
+   ],
+   [
+    78.2,
+    "tap",
+    "a"
+   ],
+   [
+    80.2,
+    "tap",
+    "a"
+   ],
+   [
+    82.2,
+    "tap",
+    "a"
+   ],
+   [
+    84.2,
+    "tap",
+    "a"
+   ],
+   [
+    86.2,
+    "tap",
+    "a"
+   ],
+   [
+    88.2,
+    "tap",
+    "a"
+   ],
+   [
+    90.2,
+    "tap",
+    "a"
+   ],
+   [
+    92.2,
+    "tap",
+    "a"
+   ],
+   [
+    94.2,
+    "tap",
+    "a"
+   ],
+   [
+    96.2,
+    "tap",
+    "a"
+   ],
+   [
+    98.2,
+    "tap",
+    "a"
+   ],
+   [
+    100.2,
+    "tap",
+    "a"
+   ],
+   [
+    102.2,
+    "tap",
+    "a"
+   ],
+   [
+    104.2,
+    "tap",
+    "a"
+   ],
+   [
+    106.2,
+    "tap",
+    "a"
+   ],
+   [
+    108.2,
+    "tap",
+    "a"
+   ],
+   [
+    110.2,
+    "tap",
+    "a"
+   ],
+   [
+    112.2,
+    "tap",
+    "a"
+   ],
+   [
+    114.2,
+    "tap",
+    "a"
+   ],
+   [
+    116.2,
+    "tap",
+    "a"
+   ],
+   [
+    118.2,
+    "tap",
+    "a"
+   ],
+   [
+    120.2,
+    "tap",
+    "a"
+   ],
+   [
+    122.2,
+    "tap",
+    "a"
+   ],
+   [
+    124.2,
+    "tap",
+    "a"
+   ],
+   [
+    126.2,
+    "tap",
+    "a"
+   ],
+   [
+    128.2,
+    "tap",
+    "a"
+   ],
+   [
+    130.2,
+    "tap",
+    "a"
+   ],
+   [
+    132.2,
+    "tap",
+    "a"
+   ],
+   [
+    134.2,
+    "tap",
+    "a"
+   ],
+   [
+    136.2,
+    "tap",
+    "a"
+   ],
+   [
+    138.2,
+    "tap",
+    "a"
+   ],
+   [
+    140.2,
+    "tap",
+    "a"
+   ],
+   [
+    142.2,
+    "tap",
+    "a"
+   ],
+   [
+    144.2,
+    "tap",
+    "a"
+   ],
+   [
+    146.2,
+    "tap",
+    "a"
+   ],
+   [
+    148.2,
+    "tap",
+    "a"
+   ],
+   [
+    150.2,
+    "tap",
+    "a"
+   ],
+   [
+    152.2,
+    "tap",
+    "a"
+   ],
+   [
+    154.2,
+    "tap",
+    "a"
+   ],
+   [
+    156.2,
+    "tap",
+    "a"
+   ],
+   [
+    158.2,
+    "tap",
+    "a"
+   ],
+   [
+    160.2,
+    "tap",
+    "a"
+   ],
+   [
+    162.2,
+    "tap",
+    "a"
+   ],
+   [
+    164.2,
+    "tap",
+    "a"
+   ],
+   [
+    166.2,
+    "tap",
+    "a"
+   ],
+   [
+    168.2,
+    "tap",
+    "a"
+   ],
+   [
+    170.2,
+    "tap",
+    "a"
+   ],
+   [
+    172.2,
+    "tap",
+    "a"
+   ],
+   [
+    174.2,
+    "tap",
+    "a"
+   ],
+   [
+    176.2,
+    "tap",
+    "a"
+   ],
+   [
+    178.2,
+    "tap",
+    "a"
+   ],
+   [
+    180.2,
+    "tap",
+    "a"
+   ],
+   [
+    182.2,
+    "tap",
+    "a"
+   ],
+   [
+    184.2,
+    "tap",
+    "a"
+   ],
+   [
+    186.2,
+    "tap",
+    "a"
+   ],
+   [
+    188.2,
+    "tap",
+    "a"
+   ],
+   [
+    190.2,
+    "tap",
+    "a"
+   ],
+   [
+    192.2,
+    "tap",
+    "a"
+   ],
+   [
+    194.2,
+    "tap",
+    "a"
+   ],
+   [
+    196.2,
+    "tap",
+    "a"
+   ],
+   [
+    198.2,
+    "tap",
+    "a"
+   ],
+   [
+    200.2,
+    "tap",
+    "a"
+   ],
+   [
+    202.2,
+    "tap",
+    "a"
+   ],
+   [
+    204.2,
+    "tap",
+    "a"
+   ],
+   [
+    206.2,
+    "tap",
+    "a"
+   ],
+   [
+    208.2,
+    "tap",
+    "a"
+   ],
+   [
+    210.2,
+    "tap",
+    "a"
+   ],
+   [
+    212.2,
+    "tap",
+    "a"
+   ],
+   [
+    214.2,
+    "tap",
+    "a"
+   ],
+   [
+    216.2,
+    "tap",
+    "a"
+   ],
+   [
+    218.2,
+    "tap",
+    "a"
+   ],
+   [
+    220.2,
+    "tap",
+    "a"
+   ],
+   [
+    222.2,
+    "tap",
+    "a"
+   ],
+   [
+    224.2,
+    "tap",
+    "a"
+   ],
+   [
+    226.2,
+    "tap",
+    "a"
+   ],
+   [
+    228.2,
+    "tap",
+    "a"
+   ],
+   [
+    230.2,
+    "tap",
+    "a"
+   ],
+   [
+    232.2,
+    "tap",
+    "a"
+   ],
+   [
+    234.2,
+    "tap",
+    "a"
+   ],
+   [
+    236.2,
+    "tap",
+    "a"
+   ],
+   [
+    238.2,
+    "tap",
+    "a"
+   ],
+   [
+    240.2,
+    "tap",
+    "a"
+   ],
+   [
+    242.2,
+    "tap",
+    "a"
+   ],
+   [
+    244.2,
+    "tap",
+    "a"
+   ],
+   [
+    246.2,
+    "tap",
+    "a"
+   ],
+   [
+    248.2,
+    "tap",
+    "a"
+   ],
+   [
+    250.2,
+    "tap",
+    "a"
+   ],
+   [
+    252.2,
+    "tap",
+    "a"
+   ],
+   [
+    254.2,
+    "tap",
+    "a"
+   ],
+   [
+    256.2,
+    "tap",
+    "a"
+   ],
+   [
+    258.2,
+    "tap",
+    "a"
+   ],
+   [
+    260.2,
+    "tap",
+    "a"
+   ],
+   [
+    262.2,
+    "tap",
+    "a"
+   ],
+   [
+    264.2,
+    "tap",
+    "a"
+   ],
+   [
+    266.2,
+    "tap",
+    "a"
+   ],
+   [
+    268.2,
+    "tap",
+    "a"
+   ],
+   [
+    270.2,
+    "tap",
+    "a"
+   ],
+   [
+    272.2,
+    "tap",
+    "a"
+   ],
+   [
+    274.2,
+    "tap",
+    "a"
+   ],
+   [
+    276.2,
+    "tap",
+    "a"
+   ],
+   [
+    278.2,
+    "tap",
+    "a"
+   ],
+   [
+    280.2,
+    "tap",
+    "a"
+   ],
+   [
+    282.2,
+    "tap",
+    "a"
+   ],
+   [
+    284.2,
+    "tap",
+    "a"
+   ],
+   [
+    286.2,
+    "tap",
+    "a"
+   ],
+   [
+    288.2,
+    "tap",
+    "a"
+   ],
+   [
+    290.2,
+    "tap",
+    "a"
+   ],
+   [
+    292.2,
+    "tap",
+    "a"
+   ],
+   [
+    294.2,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    50.0,
+    300.0
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.2,
+   "tap",
+   "a"
+  ],
+  [
+   52.2,
+   "tap",
+   "a"
+  ],
+  [
+   54.2,
+   "tap",
+   "a"
+  ],
+  [
+   56.2,
+   "tap",
+   "a"
+  ],
+  [
+   58.2,
+   "tap",
+   "a"
+  ],
+  [
+   60.2,
+   "tap",
+   "a"
+  ],
+  [
+   62.2,
+   "tap",
+   "a"
+  ],
+  [
+   64.2,
+   "tap",
+   "a"
+  ],
+  [
+   66.2,
+   "tap",
+   "a"
+  ],
+  [
+   68.2,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.2,
+   "tap",
+   "a"
+  ],
+  [
+   72.2,
+   "tap",
+   "a"
+  ],
+  [
+   74.2,
+   "tap",
+   "a"
+  ],
+  [
+   76.2,
+   "tap",
+   "a"
+  ],
+  [
+   78.2,
+   "tap",
+   "a"
+  ],
+  [
+   80.2,
+   "tap",
+   "a"
+  ],
+  [
+   82.2,
+   "tap",
+   "a"
+  ],
+  [
+   84.2,
+   "tap",
+   "a"
+  ],
+  [
+   86.2,
+   "tap",
+   "a"
+  ],
+  [
+   88.2,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.2,
+   "tap",
+   "a"
+  ],
+  [
+   92.2,
+   "tap",
+   "a"
+  ],
+  [
+   94.2,
+   "tap",
+   "a"
+  ],
+  [
+   96.2,
+   "tap",
+   "a"
+  ],
+  [
+   98.2,
+   "tap",
+   "a"
+  ],
+  [
+   100.2,
+   "tap",
+   "a"
+  ],
+  [
+   102.2,
+   "tap",
+   "a"
+  ],
+  [
+   104.2,
+   "tap",
+   "a"
+  ],
+  [
+   106.2,
+   "tap",
+   "a"
+  ],
+  [
+   108.2,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.2,
+   "tap",
+   "a"
+  ],
+  [
+   112.2,
+   "tap",
+   "a"
+  ],
+  [
+   114.2,
+   "tap",
+   "a"
+  ],
+  [
+   116.2,
+   "tap",
+   "a"
+  ],
+  [
+   118.2,
+   "tap",
+   "a"
+  ],
+  [
+   120.2,
+   "tap",
+   "a"
+  ],
+  [
+   122.2,
+   "tap",
+   "a"
+  ],
+  [
+   124.2,
+   "tap",
+   "a"
+  ],
+  [
+   126.2,
+   "tap",
+   "a"
+  ],
+  [
+   128.2,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.2,
+   "tap",
+   "a"
+  ],
+  [
+   132.2,
+   "tap",
+   "a"
+  ],
+  [
+   134.2,
+   "tap",
+   "a"
+  ],
+  [
+   136.2,
+   "tap",
+   "a"
+  ],
+  [
+   138.2,
+   "tap",
+   "a"
+  ],
+  [
+   140.2,
+   "tap",
+   "a"
+  ],
+  [
+   142.2,
+   "tap",
+   "a"
+  ],
+  [
+   144.2,
+   "tap",
+   "a"
+  ],
+  [
+   146.2,
+   "tap",
+   "a"
+  ],
+  [
+   148.2,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.2,
+   "tap",
+   "a"
+  ],
+  [
+   152.2,
+   "tap",
+   "a"
+  ],
+  [
+   154.2,
+   "tap",
+   "a"
+  ],
+  [
+   156.2,
+   "tap",
+   "a"
+  ],
+  [
+   158.2,
+   "tap",
+   "a"
+  ],
+  [
+   160.2,
+   "tap",
+   "a"
+  ],
+  [
+   162.2,
+   "tap",
+   "a"
+  ],
+  [
+   164.2,
+   "tap",
+   "a"
+  ],
+  [
+   166.2,
+   "tap",
+   "a"
+  ],
+  [
+   168.2,
+   "tap",
+   "a"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.2,
+   "tap",
+   "a"
+  ],
+  [
+   172.2,
+   "tap",
+   "a"
+  ],
+  [
+   174.2,
+   "tap",
+   "a"
+  ],
+  [
+   176.2,
+   "tap",
+   "a"
+  ],
+  [
+   178.2,
+   "tap",
+   "a"
+  ],
+  [
+   180.2,
+   "tap",
+   "a"
+  ],
+  [
+   182.2,
+   "tap",
+   "a"
+  ],
+  [
+   184.2,
+   "tap",
+   "a"
+  ],
+  [
+   186.2,
+   "tap",
+   "a"
+  ],
+  [
+   188.2,
+   "tap",
+   "a"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.2,
+   "tap",
+   "a"
+  ],
+  [
+   192.2,
+   "tap",
+   "a"
+  ],
+  [
+   194.2,
+   "tap",
+   "a"
+  ],
+  [
+   196.2,
+   "tap",
+   "a"
+  ],
+  [
+   198.2,
+   "tap",
+   "a"
+  ],
+  [
+   200.2,
+   "tap",
+   "a"
+  ],
+  [
+   202.2,
+   "tap",
+   "a"
+  ],
+  [
+   204.2,
+   "tap",
+   "a"
+  ],
+  [
+   206.2,
+   "tap",
+   "a"
+  ],
+  [
+   208.2,
+   "tap",
+   "a"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.2,
+   "tap",
+   "a"
+  ],
+  [
+   212.2,
+   "tap",
+   "a"
+  ],
+  [
+   214.2,
+   "tap",
+   "a"
+  ],
+  [
+   216.2,
+   "tap",
+   "a"
+  ],
+  [
+   218.2,
+   "tap",
+   "a"
+  ],
+  [
+   220.2,
+   "tap",
+   "a"
+  ],
+  [
+   222.2,
+   "tap",
+   "a"
+  ],
+  [
+   224.2,
+   "tap",
+   "a"
+  ],
+  [
+   226.2,
+   "tap",
+   "a"
+  ],
+  [
+   228.2,
+   "tap",
+   "a"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.2,
+   "tap",
+   "a"
+  ],
+  [
+   232.2,
+   "tap",
+   "a"
+  ],
+  [
+   234.2,
+   "tap",
+   "a"
+  ],
+  [
+   236.2,
+   "tap",
+   "a"
+  ],
+  [
+   238.2,
+   "tap",
+   "a"
+  ],
+  [
+   240.2,
+   "tap",
+   "a"
+  ],
+  [
+   242.2,
+   "tap",
+   "a"
+  ],
+  [
+   244.2,
+   "tap",
+   "a"
+  ],
+  [
+   246.2,
+   "tap",
+   "a"
+  ],
+  [
+   248.2,
+   "tap",
+   "a"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.2,
+   "tap",
+   "a"
+  ],
+  [
+   252.2,
+   "tap",
+   "a"
+  ],
+  [
+   254.2,
+   "tap",
+   "a"
+  ],
+  [
+   256.2,
+   "tap",
+   "a"
+  ],
+  [
+   258.2,
+   "tap",
+   "a"
+  ],
+  [
+   260.2,
+   "tap",
+   "a"
+  ],
+  [
+   262.2,
+   "tap",
+   "a"
+  ],
+  [
+   264.2,
+   "tap",
+   "a"
+  ],
+  [
+   266.2,
+   "tap",
+   "a"
+  ],
+  [
+   268.2,
+   "tap",
+   "a"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.2,
+   "tap",
+   "a"
+  ],
+  [
+   272.2,
+   "tap",
+   "a"
+  ],
+  [
+   274.2,
+   "tap",
+   "a"
+  ],
+  [
+   276.2,
+   "tap",
+   "a"
+  ],
+  [
+   278.2,
+   "tap",
+   "a"
+  ],
+  [
+   280.2,
+   "tap",
+   "a"
+  ],
+  [
+   282.2,
+   "tap",
+   "a"
+  ],
+  [
+   284.2,
+   "tap",
+   "a"
+  ],
+  [
+   286.2,
+   "tap",
+   "a"
+  ],
+  [
+   288.2,
+   "tap",
+   "a"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.2,
+   "tap",
+   "a"
+  ],
+  [
+   292.2,
+   "tap",
+   "a"
+  ],
+  [
+   294.2,
+   "tap",
+   "a"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.82,
+  "confirmed_by": "w110",
+  "stopped_at_s": 117.8,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 118.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.31,
+   "tap",
+   "a"
+  ],
+  [
+   52.22,
+   "tap",
+   "a"
+  ],
+  [
+   54.22,
+   "tap",
+   "a"
+  ],
+  [
+   56.23,
+   "tap",
+   "a"
+  ],
+  [
+   58.23,
+   "tap",
+   "a"
+  ],
+  [
+   60.24,
+   "tap",
+   "a"
+  ],
+  [
+   62.24,
+   "tap",
+   "a"
+  ],
+  [
+   64.21,
+   "tap",
+   "a"
+  ],
+  [
+   66.21,
+   "tap",
+   "a"
+  ],
+  [
+   68.22,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.33,
+   "tap",
+   "a"
+  ],
+  [
+   72.28,
+   "tap",
+   "a"
+  ],
+  [
+   74.24,
+   "tap",
+   "a"
+  ],
+  [
+   76.24,
+   "tap",
+   "a"
+  ],
+  [
+   78.25,
+   "tap",
+   "a"
+  ],
+  [
+   80.2,
+   "tap",
+   "a"
+  ],
+  [
+   82.21,
+   "tap",
+   "a"
+  ],
+  [
+   84.21,
+   "tap",
+   "a"
+  ],
+  [
+   86.21,
+   "tap",
+   "a"
+  ],
+  [
+   88.22,
+   "tap",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.32,
+   "tap",
+   "a"
+  ],
+  [
+   92.27,
+   "tap",
+   "a"
+  ],
+  [
+   94.23,
+   "tap",
+   "a"
+  ],
+  [
+   96.23,
+   "tap",
+   "a"
+  ],
+  [
+   98.24,
+   "tap",
+   "a"
+  ],
+  [
+   100.24,
+   "tap",
+   "a"
+  ],
+  [
+   102.24,
+   "tap",
+   "a"
+  ],
+  [
+   104.25,
+   "tap",
+   "a"
+  ],
+  [
+   106.2,
+   "tap",
+   "a"
+  ],
+  [
+   108.21,
+   "tap",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.31,
+   "tap",
+   "a"
+  ],
+  [
+   112.26,
+   "tap",
+   "a"
+  ],
+  [
+   114.23,
+   "tap",
+   "a"
+  ],
+  [
+   116.23,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 11.0,
+   "bytes": 327731
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.3,
+   "bytes": 161262
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.0,
+   "bytes": 482540
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.2,
+   "bytes": 463751
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 72.2,
+   "bytes": 763156
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 92.6,
+   "bytes": 1475339
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 112.6,
+   "bytes": 1482105
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.81,
+   "got_s": 112.6,
+   "bytes": 1482105,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Tom Clancy's Ghost Recon 2 - Summit Strike (U) (En,Fr,De,Es,It),crc32=b2b00d29"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55550.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   46.3,
+   58.3,
+   59.8,
+   60.0,
+   59.6,
+   59.6,
+   43.5,
+   30.7,
+   30.6,
+   30.7,
+   30.6
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 3292 sysops 7919 (int 1541, of them ticks 34; hook 0) schedules 4550 switches 3200 idle 1097 slices 0 page faults 0 mmio 29155 apu waits 0 vm pages +0 -0 isr irq1:498 (max 2.7 ms) irq3:983 (max 2.1 ms) irq5:6 (max 0.6 ms) | dpc max wait 1.0 run 2.0 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 3810 (pages 03cb7000:256 0201c000:192 03cf6000:128 03d70000:128 03cf7000:128 03cbb000:64) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7476 KiB, contiguous 31620 KiB (301 blocks), virtual 25160 KiB, kernel pool 180 of 192 KiB (Ex 663, objects 14, lost 0 KiB, 6 free ranges)",
+   "hakuX-hle-hitch: stutter #76 frame 5276: front 50.2 ms after the last (expected 33.4), 0 dropped: guest flipped 17 ms after its vblank, ready 33 ms before | swap -0.3 write -0.3 ready +0.4 flip +50.2 front +50.2 shown +60.6 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 5087 words 9711660 headers 956912 methods 8750387 faults 0 GET 03e96c10 PUT 03e96c38 binds 10 semaphores 69510 flips 5289 traps 52649 (28=5657 8=5655 21=5289 2d=4529 6d=4507 ad=4472 ed=4467 cd=4449) runs 0 surfaces 10 clears 12977 swaps 5289 draws 1209420 ff 0 skipped 3345 (draw_",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 48.5 ms (max 60.8, 31 frames)",
+   "hakuX-hle-emit: per s: draws=24421 verts=9059504 mergeable=0 (not: strip 21557 idx 2864 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 124, contiguous 0 pipe=17865 set1=24297 pc=18471 vi=7822 vb=20234 vp=461 sc=461 dyn=21293 fb=62",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1208338 prog_fog=283191 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.9 fps (155 frames in 5.02 s)",
+   "hakuX-hle-hitch: stutter #77 frame 5297: front 49.9 ms after the last (expected 33.4), 0 dropped: guest flipped 17 ms after its vblank, ready 35 ms before | swap -2.0 write -2.0 ready -1.6 flip +49.9 front +49.9 shown +59.0 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 5037 words 9625374 headers 951865 methods 8669220 faults 0 GET 03e5d3ac PUT 03e8d5d0 binds 10 semaphores 70672 flips 5319 traps 53655 (28=5777 8=5775 21=5319 2d=4619 6d=4600 ad=4565 ed=4559 cd=4539) runs 0 surfaces 10 clears 13128 swaps 5319 draws 1233731 ff 0 skipped 3405 (draw_",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 49.4 ms (max 61.0, 31 frames)",
+   "hakuX-hle-emit: per s: draws=24310 verts=8958815 mergeable=0 (not: strip 21495 idx 2815 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 120, contiguous 0 pipe=17805 set1=24191 pc=18412 vi=7790 vb=20168 vp=445 sc=445 dyn=21174 fb=60",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1232649 prog_fog=289071 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #78 frame 5341: front 50.3 ms after the last (expected 33.4), 0 dropped: guest flipped 17 ms after its vblank, ready 34 ms before | swap -1.0 write -0.9 ready -0.4 flip +50.3 front +50.3 shown +57.9 ms (vs the last front)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=378006 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 121256 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=54 misses=58",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 46 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55c37da88730",
+   "[Gamescope WSI] Destroyed swapchain: 0x55c37da88730",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 115.9,
+  "peak_rms_dbfs": -12.2,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.98,
+  "rms_dbfs_per_2s": [
+   -21.6,
+   -19.3,
+   -19.0,
+   -19.5,
+   -25.7,
+   -22.7,
+   -22.8,
+   -22.6,
+   -21.9,
+   -22.8,
+   -21.9,
+   -25.0,
+   -21.6,
+   -24.6,
+   -27.1,
+   -23.9,
+   -23.4,
+   -25.2,
+   -23.7,
+   -22.9,
+   -24.2,
+   -22.7,
+   -23.4,
+   -22.7,
+   -23.1,
+   -22.8,
+   -23.2,
+   -23.0,
+   -22.4,
+   -25.6,
+   -25.3,
+   -22.7,
+   -17.4,
+   -17.4,
+   -26.5,
+   -26.7,
+   -25.2,
+   -12.2,
+   -14.4,
+   -14.9,
+   -17.7,
+   -17.5,
+   -19.4,
+   -23.9,
+   -24.1,
+   -21.0,
+   -24.1,
+   -26.4,
+   -23.2,
+   -24.4,
+   -28.5,
+   -17.5,
+   -14.7,
+   -31.5,
+   -23.3,
+   -24.7,
+   -25.2,
+   -22.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.82 s (judged from screenshots); stopped at 117.8 s and the emulator closed",
+ "duration_s": 118.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

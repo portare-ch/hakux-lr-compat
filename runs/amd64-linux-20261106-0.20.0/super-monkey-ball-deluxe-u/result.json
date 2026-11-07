@@ -1,0 +1,2216 @@
+{
+ "game_file": "Super Monkey Ball Deluxe (U).chd",
+ "game_size": 2419920841,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:17:08+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Story Mode's Stage Select (from about 50-130 s, after the intro) needs the monkey moved onto a stage ball ('Select a stage with the Left Thumbstick'), where A alone does nothing; the d-pad moves it too. Every 10 s from 50 to 150 s: Down 300 ms, Right 300 ms, A (in the story text A only advances, in play the ball only rolls).",
+  "quiet": [
+   [
+    49.5,
+    53.0
+   ],
+   [
+    59.5,
+    63.0
+   ],
+   [
+    69.5,
+    73.0
+   ],
+   [
+    79.5,
+    83.0
+   ],
+   [
+    89.5,
+    93.0
+   ],
+   [
+    99.5,
+    103.0
+   ],
+   [
+    109.5,
+    113.0
+   ],
+   [
+    119.5,
+    123.0
+   ],
+   [
+    129.5,
+    133.0
+   ],
+   [
+    139.5,
+    143.0
+   ],
+   [
+    149.5,
+    153.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    50.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    50.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    51.8,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    60.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    61.8,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    70.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    71.8,
+    "tap",
+    "a"
+   ],
+   [
+    80.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    80.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    81.8,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    90.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    91.8,
+    "tap",
+    "a"
+   ],
+   [
+    100.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    100.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    101.8,
+    "tap",
+    "a"
+   ],
+   [
+    110.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    110.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    111.8,
+    "tap",
+    "a"
+   ],
+   [
+    120.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    120.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    121.8,
+    "tap",
+    "a"
+   ],
+   [
+    130.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    130.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    131.8,
+    "tap",
+    "a"
+   ],
+   [
+    140.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    140.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    141.8,
+    "tap",
+    "a"
+   ],
+   [
+    150.0,
+    "tap",
+    "down",
+    300
+   ],
+   [
+    150.8,
+    "tap",
+    "right",
+    300
+   ],
+   [
+    151.8,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   50.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   51.8,
+   "tap",
+   "a"
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   60.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   61.8,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   70.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   71.8,
+   "tap",
+   "a"
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   80.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   81.8,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   90.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   91.8,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   100.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   101.8,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   110.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   111.8,
+   "tap",
+   "a"
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   120.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   121.8,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   130.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   131.8,
+   "tap",
+   "a"
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   140.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   141.8,
+   "tap",
+   "a"
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.0,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   150.8,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   151.8,
+   "tap",
+   "a"
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.84,
+  "confirmed_by": "w110",
+  "stopped_at_s": 115.7,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 115.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.14,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   50.84,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   51.85,
+   "tap",
+   "a"
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.02,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   60.82,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   61.82,
+   "tap",
+   "a"
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.14,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   70.84,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   71.95,
+   "tap",
+   "a"
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.02,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   80.82,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   81.82,
+   "tap",
+   "a"
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.14,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   90.84,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   91.85,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "held",
+   "start"
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.02,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   100.82,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   101.82,
+   "tap",
+   "a"
+  ],
+  [
+   103.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.53,
+   "held",
+   "start"
+  ],
+  [
+   108.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.14,
+   "tap",
+   "down",
+   300
+  ],
+  [
+   110.84,
+   "tap",
+   "right",
+   300
+  ],
+  [
+   111.84,
+   "tap",
+   "a"
+  ],
+  [
+   113.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.55,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 12.4,
+   "bytes": 529739
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 32.3,
+   "bytes": 915706
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.8,
+   "bytes": 1066848
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.5,
+   "bytes": 379383
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 72.2,
+   "bytes": 1197516
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 91.3,
+   "bytes": 2125411
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 111.3,
+   "bytes": 2118575
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.84,
+   "got_s": 111.3,
+   "bytes": 2118575,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Super Monkey Ball Deluxe (U),crc32=979fccac"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   39.9,
+   59.9,
+   59.8,
+   58.7,
+   56.5,
+   47.0,
+   58.9,
+   59.8,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 100092 sysops 102322 (int 800, of them ticks 43; hook 0) schedules 99557 switches 2339 idle 0 slices 0 page faults 0 mmio 8073 apu waits 0 vm pages +0 -0 isr irq1:493 (max 0.9 ms) irq3:220 (max 0.4 ms) irq5:2 (max 0.1 ms) | dpc max wait 0.8 run 1.2 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 19772 KiB, contiguous 17076 KiB (703 blocks), virtual 26312 KiB, kernel pool 586 of 640 KiB (Ex 1133, objects 584, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 877 words 6494509 headers 464302 methods 6030196 faults 0 GET 03ce6620 PUT 03dbb010 binds 5 semaphores 17427 flips 6362 traps 16362 (21=6362 7=6360 5=3633 9=6 28=1) runs 0 surfaces 10 clears 6631 swaps 6363 draws 1982436 ff 0 skipped 0 () textures 630 (305 held, 9 MiB) rt uploads",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 56.0 ms (max 56.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=29115 verts=2961146 mergeable=0 (not: strip 24905 idx 4210 state 0 work 0 gap 0) batches=419 of 838 draws indexed: no state between 0, contiguous 0 pipe=3532 set1=8767 pc=12504 vi=2721 vb=15555 vp=80 sc=200 dyn=23174 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1980779 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 871 words 6299506 headers 404332 methods 5895168 faults 0 GET 03dd0920 PUT 03caaef4 binds 5 semaphores 17647 flips 6422 traps 16539 (21=6422 7=6420 5=3690 9=6 28=1) runs 0 surfaces 10 clears 6691 swaps 6423 draws 2007952 ff 0 skipped 0 () textures 630 (305 held, 9 MiB) rt uploads",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 56.1 ms (max 56.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=25516 verts=2830068 mergeable=0 (not: strip 21256 idx 4260 state 0 work 0 gap 0) batches=419 of 838 draws indexed: no state between 0, contiguous 0 pipe=3557 set1=7142 pc=12474 vi=2838 vb=15767 vp=84 sc=204 dyn=19490 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2006295 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 877 words 6286115 headers 400172 methods 5885932 faults 0 GET 03cd7388 PUT 03da3ab0 binds 5 semaphores 17867 flips 6482 traps 16718 (21=6482 7=6480 5=3749 9=6 28=1) runs 0 surfaces 10 clears 6751 swaps 6483 draws 2033177 ff 0 skipped 0 () textures 630 (305 held, 9 MiB) rt uploads",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 55.9 ms (max 56.5, 60 frames)",
+   "hakuX-hle-emit: per s: draws=25225 verts=2788466 mergeable=0 (not: strip 20965 idx 4260 state 0 work 0 gap 0) batches=387 of 774 draws indexed: no state between 0, contiguous 0 pipe=3549 set1=7032 pc=12352 vi=2831 vb=15753 vp=72 sc=192 dyn=19096 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=2031520 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=8913230 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 105104 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=35 misses=56",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56464b9b1900",
+   "[Gamescope WSI] Destroyed swapchain: 0x56464b9b1900",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 114.6,
+  "peak_rms_dbfs": -11.7,
+  "first_sound_s": 9.0,
+  "audible_fraction": 0.9,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -59.4,
+   -59.4,
+   -33.9,
+   -32.3,
+   -19.8,
+   -16.6,
+   -16.1,
+   -17.5,
+   -16.7,
+   -17.4,
+   -16.6,
+   -15.2,
+   -17.4,
+   -15.9,
+   -18.7,
+   -17.4,
+   -11.7,
+   -17.3,
+   -17.6,
+   -12.2,
+   -18.5,
+   -16.2,
+   -17.0,
+   -17.5,
+   -16.9,
+   -13.0,
+   -14.5,
+   -26.5,
+   -24.1,
+   -23.3,
+   -26.5,
+   -16.6,
+   -14.4,
+   -15.0,
+   -25.3,
+   -20.0,
+   -13.8,
+   -16.1,
+   -11.9,
+   -18.2,
+   -18.9,
+   -13.6,
+   -16.8,
+   -17.5,
+   -17.9,
+   -17.1,
+   -16.6,
+   -17.5,
+   -17.6,
+   -17.3,
+   -16.0,
+   -17.1,
+   -17.1,
+   -17.5,
+   -16.8,
+   -19.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.84 s (judged from screenshots); stopped at 115.7 s and the emulator closed",
+ "duration_s": 115.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

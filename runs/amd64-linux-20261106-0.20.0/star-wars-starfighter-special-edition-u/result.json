@@ -1,0 +1,1657 @@
+{
+ "game_file": "Star Wars - Starfighter Special Edition (U).chd",
+ "game_size": 901001263,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:38:56+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The hard disk save list (from about 30 s, eight EMPTY slots) creates a save with Y; Start/A do nothing there. Y, tried at 32 and 42 s.",
+  "quiet": [
+   [
+    31.5,
+    34.0
+   ],
+   [
+    41.5,
+    44.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    32.0,
+    "tap",
+    "y"
+   ],
+   [
+    42.0,
+    "tap",
+    "y"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   32.0,
+   "tap",
+   "y"
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   42.0,
+   "tap",
+   "y"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 98.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.8,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 98.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   32.0,
+   "tap",
+   "y"
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   42.02,
+   "tap",
+   "y"
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "held",
+   "start"
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "held",
+   "start"
+  ],
+  [
+   83.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "held",
+   "start"
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "held",
+   "start"
+  ],
+  [
+   93.11,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.51,
+   "held",
+   "start"
+  ],
+  [
+   98.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.0,
+   "bytes": 641215
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 31.0,
+   "bytes": 512270
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 46.2,
+   "bytes": 640500
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 50.8,
+   "bytes": 421615
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.0,
+   "bytes": 1639643
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.8,
+   "got_s": 94.4,
+   "bytes": 1395236
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.8,
+   "got_s": 94.4,
+   "bytes": 1395236,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Starfighter Special Edition (U),crc32=9672596b"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   41.9,
+   35.9,
+   11.1,
+   9.0,
+   6.7,
+   39.6,
+   43.1,
+   51.9,
+   59.3
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #151 frame 3355: front 33.5 ms after the last (expected 16.7), 0 dropped: guest 31 ms: guest CPU-bound (495 draws) | swap +19.5 write +19.5 ready +19.7 flip +33.5 front +33.5 shown +41.3 ms (vs the last front) | guest: vCPU cpu 29 ms halted -1% | render cpu 1 run 1 idle 30 c",
+   "hakuX-hle-hitch: stutter #152 frame 3357: front 32.4 ms after the last (expected 16.7), 0 dropped: guest flipped 16 ms late (guest 29 ms: decoder waited 12 ms for the flip (display)) | swap +16.5 write +16.7 ready +16.8 flip +32.4 front +32.4 shown +40.6 ms (vs the last front) | guest: vCPU cpu 28 m",
+   "hakuX-native-io: open \\Device\\CdRom0\\commline.txt: not on the disc",
+   "hakuX-ktrace: t8 NtCreateFile from 0030530e [d007d090 80100080 d007d074 d007d080 00000000 00000080] -> c0000034 | frames 002e5c92",
+   "hakuX-ktrace: t8 NtCreateFile from 0030530e [d007d090 80100080 d007d074 d007d080 00000000 00000080] -> c00000a2 | frames 002e5cd0",
+   "hakuX-hle-hitch: stutter #153 frame 3379: front 33.4 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms late (guest 28 ms: guest CPU-bound (506 draws)) | swap +16.6 write +16.7 ready +16.9 flip +33.4 front +33.4 shown +41.3 ms (vs the last front) | guest: vCPU cpu 27 ms halted -1% | r",
+   "hakuX-hle-hitch: stutter #154 frame 3387: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 30 ms: guest CPU-bound (499 draws) | swap +17.4 write +17.6 ready +17.8 flip +33.3 front +33.3 shown +41.3 ms (vs the last front) | guest: vCPU cpu 28 ms halted -1% | render cpu 1 run 1 idle 29 c",
+   "hakuX-hle-hitch: stutter #155 frame 3389: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms late (guest 27 ms: guest CPU-bound (497 draws)) | swap +17.2 write +17.2 ready +17.4 flip +33.3 front +33.3 shown +41.6 ms (vs the last front) | guest: vCPU cpu 26 ms halted -1% | r",
+   "hakuX-hle-hitch: stutter #156 frame 3391: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 31 ms: decoder waited 13 ms for the flip (display) | swap +18.1 write +18.1 ready +18.3 flip +33.3 front +33.3 shown +41.4 ms (vs the last front) | guest: vCPU cpu 29 ms halted -1% | render cpu 1",
+   "hakuX-hle-hitch: stutter #157 frame 3393: front 33.3 ms after the last (expected 16.7), 0 dropped: guest 29 ms: guest CPU-bound (498 draws) | swap +17.7 write +17.9 ready +18.1 flip +33.3 front +33.3 shown +41.6 ms (vs the last front) | guest: vCPU cpu 28 ms halted -1% | render cpu 1 run 0 idle 28 c",
+   "hakuX-hle-hitch: stutter #158 frame 3395: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms late (guest 27 ms: guest CPU-bound (501 draws)) | swap +17.4 write +17.5 ready +17.7 flip +33.3 front +33.3 shown +41.7 ms (vs the last front) | guest: vCPU cpu 25 ms halted -1% | r",
+   "hakuX-hle-pb: kicks 2810 words 8992513 headers 1436249 methods 7556204 faults 0 GET 03f6e26c PUT 03f6e274 binds 4 semaphores 337483 flips 3398 traps 4164 (4=3398 10=759 20=6 1c=1) runs 0 surfaces 3 clears 24470 swaps 3398 draws 745030 ff 483063 skipped 0 () textures 253 (159 held, 15 MiB) rt uploads",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 17.3 ms (max 24.7, 50 frames)",
+   "hakuX-hle-emit: per s: draws=25139 verts=2490657 mergeable=0 (not: strip 0 idx 25139 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2041 set1=24989 pc=13829 vi=1938 vb=25139 vp=98 sc=98 dyn=2712 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=744776 prog_fog=329946 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1762688 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 81952 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=150 misses=38",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 42 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x556f38025c70",
+   "[Gamescope WSI] Destroyed swapchain: 0x556f38025c70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 91.0,
+  "peak_rms_dbfs": -18.3,
+  "first_sound_s": 4.0,
+  "audible_fraction": 0.77,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -32.1,
+   -41.7,
+   -120.0,
+   -120.0,
+   -34.9,
+   -33.4,
+   -31.6,
+   -35.0,
+   -29.9,
+   -30.2,
+   -31.0,
+   -35.0,
+   -31.9,
+   -31.3,
+   -32.9,
+   -32.4,
+   -33.4,
+   -32.1,
+   -31.7,
+   -40.7,
+   -113.4,
+   -120.0,
+   -36.7,
+   -19.8,
+   -25.3,
+   -50.1,
+   -25.4,
+   -26.3,
+   -40.0,
+   -24.9,
+   -48.1,
+   -18.9,
+   -18.3,
+   -21.8,
+   -24.8,
+   -25.3,
+   -27.4,
+   -18.9,
+   -24.4,
+   -29.5,
+   -26.5,
+   -25.7,
+   -26.5,
+   -25.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 98.2 s and the emulator closed",
+ "duration_s": 98.3,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

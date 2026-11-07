@@ -1,0 +1,2562 @@
+{
+ "game_file": "WarPath (U).chd",
+ "game_size": 966788861,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:27:39+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "From about 90 s the Start presses open Settings and A goes into Controls, which only B leaves. No default presses from 86 s; B twice, then A every 4 s (zone and match selection, then fire).",
+  "quiet": [
+   [
+    86.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    87.0,
+    "tap",
+    "b"
+   ],
+   [
+    89.0,
+    "tap",
+    "b"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ],
+   [
+    127.0,
+    "tap",
+    "a"
+   ],
+   [
+    131.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.0,
+    "tap",
+    "a"
+   ],
+   [
+    139.0,
+    "tap",
+    "a"
+   ],
+   [
+    143.0,
+    "tap",
+    "a"
+   ],
+   [
+    147.0,
+    "tap",
+    "a"
+   ],
+   [
+    151.0,
+    "tap",
+    "a"
+   ],
+   [
+    155.0,
+    "tap",
+    "a"
+   ],
+   [
+    159.0,
+    "tap",
+    "a"
+   ],
+   [
+    163.0,
+    "tap",
+    "a"
+   ],
+   [
+    167.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   87.0,
+   "tap",
+   "b"
+  ],
+  [
+   89.0,
+   "tap",
+   "b"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   127.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   131.0,
+   "tap",
+   "a"
+  ],
+  [
+   135.0,
+   "tap",
+   "a"
+  ],
+  [
+   139.0,
+   "tap",
+   "a"
+  ],
+  [
+   143.0,
+   "tap",
+   "a"
+  ],
+  [
+   147.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   151.0,
+   "tap",
+   "a"
+  ],
+  [
+   155.0,
+   "tap",
+   "a"
+  ],
+  [
+   159.0,
+   "tap",
+   "a"
+  ],
+  [
+   163.0,
+   "tap",
+   "a"
+  ],
+  [
+   167.0,
+   "tap",
+   "a"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w170",
+    "t": 169.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 302.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   87.04,
+   "tap",
+   "b"
+  ],
+  [
+   89.04,
+   "tap",
+   "b"
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   91.15,
+   "tap",
+   "a"
+  ],
+  [
+   95.02,
+   "tap",
+   "a"
+  ],
+  [
+   99.03,
+   "tap",
+   "a"
+  ],
+  [
+   103.04,
+   "tap",
+   "a"
+  ],
+  [
+   107.05,
+   "tap",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   111.11,
+   "tap",
+   "a"
+  ],
+  [
+   115.03,
+   "tap",
+   "a"
+  ],
+  [
+   119.04,
+   "tap",
+   "a"
+  ],
+  [
+   123.05,
+   "tap",
+   "a"
+  ],
+  [
+   127.01,
+   "tap",
+   "a"
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   131.12,
+   "tap",
+   "a"
+  ],
+  [
+   135.04,
+   "tap",
+   "a"
+  ],
+  [
+   139.01,
+   "tap",
+   "a"
+  ],
+  [
+   143.02,
+   "tap",
+   "a"
+  ],
+  [
+   147.03,
+   "tap",
+   "a"
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   151.14,
+   "tap",
+   "a"
+  ],
+  [
+   155.0,
+   "tap",
+   "a"
+  ],
+  [
+   159.02,
+   "tap",
+   "a"
+  ],
+  [
+   163.03,
+   "tap",
+   "a"
+  ],
+  [
+   167.04,
+   "tap",
+   "a"
+  ],
+  [
+   169.85,
+   "watch",
+   "w170"
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   269.81,
+   "watch",
+   "w270"
+  ],
+  [
+   289.83,
+   "watch",
+   "w290"
+  ],
+  [
+   295.05,
+   "release"
+  ],
+  [
+   300.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.4,
+   "bytes": 639253
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.3,
+   "bytes": 34312
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.4,
+   "bytes": 593252
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 50.8,
+   "bytes": 477118
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.4,
+   "bytes": 838087
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 91.6,
+   "bytes": 598620
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 111.4,
+   "bytes": 751902
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 131.4,
+   "bytes": 750979
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 151.6,
+   "bytes": 755847
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.85,
+   "got_s": 171.5,
+   "bytes": 750767
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 191.5,
+   "bytes": 750767
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 211.5,
+   "bytes": 750767
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 231.5,
+   "bytes": 750767
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 251.5,
+   "bytes": 750767
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.81,
+   "got_s": 271.5,
+   "bytes": 750767
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.83,
+   "got_s": 291.5,
+   "bytes": 750767
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.02,
+   "got_s": 301.8,
+   "bytes": 750767
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   165.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   167.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   168.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   172.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   173.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   174.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   176.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   177.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   178.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   179.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   180.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   182.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   183.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   184.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   185.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   186.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   187.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   188.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   189.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   190.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   191.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   192.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   193.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   194.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   195.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   196.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   197.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   199.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   201.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   205.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   207.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   208.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   211.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   212.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   213.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   214.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   217.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   218.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   219.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   220.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   221.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   222.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   223.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   224.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   225.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   226.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   227.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   228.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   229.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   230.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   231.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   232.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   233.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   234.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   235.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   236.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   237.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   238.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   239.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   240.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   241.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   242.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   244.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   245.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   246.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   247.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   248.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   249.0,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   250.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   251.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   252.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   253.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   254.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   255.1,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   256.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   257.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   258.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   259.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   260.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   261.2,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   262.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   263.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   264.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   265.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   266.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   267.3,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   268.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   269.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   270.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   271.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   272.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   273.4,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   274.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   275.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   276.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   277.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   278.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   279.5,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   280.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   281.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   282.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   283.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   284.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   285.6,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   286.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   287.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   288.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   289.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   290.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   291.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   292.7,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   293.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   294.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   295.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   296.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   297.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   298.8,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   299.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   300.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ],
+  [
+   301.9,
+   "GET_STATUS PLAYING xbox,WarPath (U),crc32=33c5fa6e"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55510.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\Default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   12.5,
+   26.3,
+   29.9,
+   29.9,
+   28.5,
+   29.9,
+   29.9,
+   27.5,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: ram: free 22432 KiB, contiguous 14784 KiB (191 blocks), virtual 26928 KiB, kernel pool 32 of 64 KiB (Ex 565, objects 18, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-fps: 30.0 fps (150 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 216 words 50988 headers 10494 methods 40496 faults 0 GET 03fceb9c PUT 03fd2084 binds 5 semaphores 15134 flips 6762 traps 6907 (41=6762 d=16 2d=16 4d=16 6d=16 8d=16 ad=16 cd=16) runs 0 surfaces 4 clears 13523 swaps 6762 draws 125369 ff 124148 skipped 0 () textures 65 (65 held, 2 M",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.7 ms (max 76.1, 30 frames)",
+   "hakuX-hle-emit: per s: draws=540 verts=30600 mergeable=0 (not: strip 0 idx 0 state 540 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=92 pc=510 vi=30 vb=301 vp=30 sc=30 dyn=510 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=125367 prog_fog=3213 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #12 frame 6770: front 66.7 ms after the last (expected 33.4), 1 dropped: UI missed 1 front frame (pickups 69 ms apart) | swap +0.6 write +0.7 ready +0.8 flip +66.7 front +66.7 shown +77.2 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 33 ms), ",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.62 ms each (max 17.32), video 16.54 ms (max 17.26)",
+   "hakuX-hle-pb: kicks 216 words 50989 headers 10494 methods 40496 faults 0 GET 03f80a30 PUT 03f83f18 binds 5 semaphores 15200 flips 6792 traps 6937 (41=6792 d=16 2d=16 4d=16 6d=16 8d=16 ad=16 cd=16) runs 0 surfaces 4 clears 13583 swaps 6792 draws 125909 ff 124688 skipped 0 () textures 65 (65 held, 2 M",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.5 ms (max 76.6, 29 frames)",
+   "hakuX-hle-emit: per s: draws=540 verts=30600 mergeable=0 (not: strip 0 idx 0 state 540 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=92 pc=510 vi=31 vb=301 vp=31 sc=31 dyn=525 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=125907 prog_fog=3213 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 217 words 50988 headers 10494 methods 40496 faults 0 GET 03fb26e0 PUT 03fb5be8 binds 5 semaphores 15266 flips 6822 traps 6967 (41=6822 d=16 2d=16 4d=16 6d=16 8d=16 ad=16 cd=16) runs 0 surfaces 4 clears 13643 swaps 6822 draws 126449 ff 125228 skipped 0 () textures 65 (65 held, 2 M",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 74.4 ms (max 75.4, 30 frames)",
+   "hakuX-hle-emit: per s: draws=540 verts=30600 mergeable=0 (not: strip 0 idx 0 state 540 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=92 pc=510 vi=30 vb=301 vp=30 sc=30 dyn=510 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=126447 prog_fog=3213 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=763752 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 39 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55deba932940",
+   "[Gamescope WSI] Destroyed swapchain: 0x55deba932940",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 292.7,
+  "peak_rms_dbfs": -12.1,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -16.7,
+   -14.3,
+   -27.0,
+   -26.3,
+   -26.3,
+   -26.4,
+   -25.6,
+   -26.4,
+   -25.7,
+   -26.9,
+   -27.5,
+   -23.4,
+   -15.5,
+   -21.1,
+   -24.8,
+   -18.3,
+   -17.7,
+   -13.4,
+   -14.6,
+   -27.8,
+   -14.6,
+   -13.6,
+   -12.3,
+   -12.3,
+   -12.1,
+   -15.2,
+   -13.7,
+   -12.6,
+   -13.1,
+   -18.1,
+   -36.4,
+   -30.3,
+   -22.8,
+   -19.0,
+   -24.8,
+   -23.5,
+   -23.1,
+   -22.8,
+   -22.3,
+   -22.5,
+   -21.4,
+   -23.2,
+   -22.1,
+   -23.3,
+   -23.1,
+   -23.1,
+   -22.3,
+   -23.3,
+   -23.2,
+   -23.1,
+   -22.1,
+   -23.1,
+   -22.4,
+   -22.8,
+   -21.8,
+   -23.1,
+   -22.4,
+   -22.8,
+   -21.8,
+   -23.1,
+   -22.3,
+   -22.8,
+   -23.8,
+   -31.1,
+   -28.7,
+   -27.0,
+   -31.2,
+   -30.4,
+   -29.0,
+   -30.0,
+   -23.8,
+   -20.4,
+   -21.6,
+   -21.9,
+   -21.4,
+   -20.8,
+   -21.5,
+   -21.9,
+   -21.4,
+   -20.5,
+   -21.4,
+   -21.8,
+   -21.4,
+   -20.5,
+   -21.5,
+   -21.7,
+   -22.5,
+   -23.9,
+   -23.6,
+   -23.7,
+   -23.8,
+   -24.1,
+   -24.1,
+   -25.3,
+   -23.9,
+   -23.0,
+   -22.7,
+   -22.7,
+   -22.1,
+   -22.9,
+   -22.7,
+   -22.4,
+   -22.1,
+   -22.8,
+   -22.0,
+   -22.2,
+   -22.1,
+   -23.0,
+   -22.1,
+   -22.2,
+   -22.1,
+   -22.9,
+   -22.1,
+   -22.2,
+   -22.4,
+   -23.4,
+   -23.0,
+   -22.7,
+   -22.7,
+   -23.5,
+   -23.0,
+   -22.7,
+   -24.2,
+   -42.1,
+   -81.2,
+   -94.7,
+   -24.3,
+   -23.5,
+   -22.7,
+   -22.3,
+   -22.6,
+   -23.3,
+   -23.0,
+   -22.6,
+   -22.5,
+   -23.2,
+   -22.7,
+   -22.5,
+   -22.7,
+   -23.4,
+   -22.9,
+   -22.5,
+   -22.3,
+   -22.8,
+   -22.1,
+   -22.1,
+   -27.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 302.1,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

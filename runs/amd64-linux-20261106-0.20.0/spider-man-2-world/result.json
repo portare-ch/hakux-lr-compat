@@ -1,0 +1,992 @@
+{
+ "game_file": "Spider-Man 2 (World).chd",
+ "game_size": 1347774160,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:52:13+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Play starts at about 45 s, and a Start then opens the pause menu (Missions page, 'B Resume'), which A never closes, so the run sat there. No default presses from 36 s; B at 46 and 50 s resumes if paused (in play it only acts), then A every 4 s lets the judge see play.",
+  "quiet": [
+   [
+    36.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    46.0,
+    "tap",
+    "b"
+   ],
+   [
+    50.0,
+    "tap",
+    "b"
+   ],
+   [
+    54.0,
+    "tap",
+    "a"
+   ],
+   [
+    58.0,
+    "tap",
+    "a"
+   ],
+   [
+    62.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    74.0,
+    "tap",
+    "a"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    82.0,
+    "tap",
+    "a"
+   ],
+   [
+    86.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ],
+   [
+    94.0,
+    "tap",
+    "a"
+   ],
+   [
+    98.0,
+    "tap",
+    "a"
+   ],
+   [
+    102.0,
+    "tap",
+    "a"
+   ],
+   [
+    106.0,
+    "tap",
+    "a"
+   ],
+   [
+    110.0,
+    "tap",
+    "a"
+   ],
+   [
+    114.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   46.0,
+   "tap",
+   "b"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "b"
+  ],
+  [
+   54.0,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   62.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "a"
+  ],
+  [
+   74.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   82.0,
+   "tap",
+   "a"
+  ],
+  [
+   86.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   94.0,
+   "tap",
+   "a"
+  ],
+  [
+   98.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.0,
+   "tap",
+   "a"
+  ],
+  [
+   106.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.0,
+   "tap",
+   "a"
+  ],
+  [
+   114.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.84,
+  "confirmed_by": "w070",
+  "stopped_at_s": 77.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 77.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   46.13,
+   "tap",
+   "b"
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.14,
+   "tap",
+   "b"
+  ],
+  [
+   54.04,
+   "tap",
+   "a"
+  ],
+  [
+   58.05,
+   "tap",
+   "a"
+  ],
+  [
+   62.01,
+   "tap",
+   "a"
+  ],
+  [
+   66.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.12,
+   "tap",
+   "a"
+  ],
+  [
+   74.03,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 499913
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 30.1,
+   "bytes": 21214
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.4,
+   "bytes": 1554799
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 52.8,
+   "bytes": 1635794
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.0,
+   "bytes": 1459054
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.82,
+   "got_s": 73.0,
+   "bytes": 1459054,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Spider-Man 2 (World),crc32=52a32d20"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55550.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   5.4,
+   29.3,
+   29.6,
+   30.0,
+   29.8,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pipe: per s: cache=1 queued=3 built=3 inplace=0 inflight=0 prebuilt_used=0 skipped_draws=158 | pipelines 93 (prebuilt 0)",
+   "hakuX-hle-pb: kicks 2461 words 2487629 headers 318578 methods 2168986 faults 0 GET 03ca82ec PUT 03b9f104 binds 5 semaphores 13847 flips 1991 traps 35444 (9=30266 41=1988 5=1830 d=170 2d=170 4d=170 6d=170 8d=169) runs 0 surfaces 19 clears 4876 swaps 1991 draws 763958 ff 0 skipped 0 () textures 811 (4",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 71.5 ms (max 74.3, 30 frames)",
+   "hakuX-hle-emit: per s: draws=14290 verts=2470559 mergeable=0 (not: strip 4164 idx 10126 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 30, contiguous 0 pipe=3436 set1=10998 pc=9539 vi=985 vb=12468 vp=209 sc=209 dyn=8581 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=761517 prog_fog=61686 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: texture 016b8000 (640x480) reads depth target 2",
+   "hakuX-hle-pb: texture 016b8000 over depth target 2: the CPU's writes (640x480, first 8 logged)",
+   "hakuX-hle-drawlog: rt-tex id=431 surf=1 img=1 layout=5 slot=420 fmt=44 640x480 rt=3",
+   "hakuX-hle-pipe: pipeline caf111a9fa67ce3b fvf=0x0 vsh=6810e30b5abddacb in=1f combiners=5 ok in 17.1 ms (spirv 7.1)",
+   "hakuX-hle-pipe: pipeline 0bbe57fd7c81e6c2 fvf=0x0 vsh=6810e30b5abddacb in=1f combiners=5 ok in 17.2 ms (spirv 7.0)",
+   "hakuX-hle-pipe: pipeline 6afd8ad9fef9e785 fvf=0x0 vsh=6810e30b5abddacb in=1f combiners=5 ok in 0.4 ms (spirv 0.1)",
+   "hakuX-hle-pipe: pipeline 592e05244d171c17 fvf=0x0 vsh=3073e88383aab1b3 in=1 combiners=1 ok in 4.2 ms (spirv 4.0)",
+   "hakuX-hle-pipe: pipeline 93bed80fc4794ba8 fvf=0x0 vsh=f4515a8e73433215 in=7 combiners=1 ok in 4.2 ms (spirv 4.0)",
+   "hakuX-hle-back: zread: depth-as-colour pass ready",
+   "hakuX-hle-back: zread: texture 431 reads depth surface 2 (1280x960 fmt 130)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1665258 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 190984 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=121 misses=82",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 39 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564289cc7ec0",
+   "[Gamescope WSI] Destroyed swapchain: 0x564289cc7ec0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 75.7,
+  "peak_rms_dbfs": -26.1,
+  "first_sound_s": 11.0,
+  "audible_fraction": 0.55,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -37.7,
+   -32.3,
+   -28.7,
+   -120.0,
+   -32.8,
+   -28.5,
+   -28.5,
+   -28.5,
+   -48.4,
+   -48.9,
+   -50.6,
+   -52.0,
+   -46.8,
+   -54.1,
+   -48.5,
+   -49.4,
+   -51.0,
+   -49.0,
+   -50.7,
+   -26.1,
+   -27.3,
+   -30.8,
+   -28.2,
+   -30.1,
+   -29.6,
+   -33.7,
+   -32.5,
+   -26.8,
+   -28.7,
+   -29.9,
+   -30.1,
+   -28.3,
+   -32.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.84 s (judged from screenshots); stopped at 77.0 s and the emulator closed",
+ "duration_s": 77.1,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}
