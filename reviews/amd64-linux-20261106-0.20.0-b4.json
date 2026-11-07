@@ -1,0 +1,296 @@
+[
+ {
+  "game": "trigger-man-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "WXP Games logo, the save prompt, the mission briefing, the casino level with the player, ammo and radar HUD, and the Mission 1 pause screen render correctly, 60 fps.",
+  "notes": "New save created at 30 s, briefing at 45 s, in the Cesario Casino from 50 s; from 90 s to the end the Start presses alternate the pause screen (elapsed time 00:00:10 at 90 s, 00:00:49 at 290 s) with the player standing in the lobby, with sound during play."
+ },
+ {
+  "game": "trivial-pursuit-unhinged-u",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Only the game's animated error screen 'There's a problem with the disc you're using. It may be dirty or damaged.', 30 fps, from before 10 s to the end.",
+  "notes": "Silent for the whole run. The log shows the intro movies opened in DataXbox\\English\\Video, then looked up again in DataXbox\\Video, which is not on the disc, right before the error screen; no logo or menu was reached."
+ },
+ {
+  "game": "turok-evolution-u-beta",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Acclaim Studios logo and the first-person jungle with the war club and health HUD render correctly at 27-29 fps.",
+  "notes": "Pre-release build. In control in the jungle from 30 s until the run stopped at 57 s, with sound; guest frame rate 25-30 fps."
+ },
+ {
+  "game": "turok-evolution-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Acclaim Studios logo and the first-person jungle with the war club and health HUD render correctly at 27-29 fps.",
+  "notes": "In control in the jungle from 30 s until the run stopped at 57 s, with sound; guest frame rate 25-30 fps."
+ },
+ {
+  "game": "uefa-euro-2004-portugal-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Licence screen and the match (Portugal vs France) with players, score/clock and name bars render correctly at 55-60 fps; the Select Team screen at 30 s shows only its text on black (no flags, panels or button icons), possibly caught mid-fade.",
+  "notes": "A match is running from 45 s (0:27) to 70 s (2:54, 0-0) until the run stopped at 75 s, with sound."
+ },
+ {
+  "game": "ultimate-spider-man-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the Create New Profile screen sliding in, the 'COMBAT!' tutorial card and the football-field fight with Venom and both health bars render correctly at 26-30 fps (11 fps while loading at about 40 s).",
+  "notes": "Profile at 30 s, combat tutorial at 45 s, fighting from 50 s to the stop at 79 s with sound; at 70 s an empty hint panel sits at the bottom of the screen (likely just appearing)."
+ },
+ {
+  "game": "ufc-ultimate-fighting-championship-tapout-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Intro, the octagon fights with fighters, health bars and round clock, the Game Over tip and the UFC Mode menu render correctly at 28-37 fps.",
+  "notes": "Fights from 45 s (Lajcik vs Mezger, 'Game Over' at 70 s, a tap-out at 110 s), the UFC Mode menu at 130 s and Lajcik vs Matt Hughes at 150-170 s until the stop at 177 s. The round clock runs 4.5-7.5 times faster than real time (3:59 to 3:39 in 4.4 s, 4:44 to 2:12 in 20 s) and the guest presents 70-590 frames per second; may be by design, worth a check."
+ },
+ {
+  "game": "unreal-championship-2-the-liandri-conflict-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "ESRB screen, the Story Mode brief, the letterboxed cutscene and the cave level with the player, health, compass and weapon HUD render correctly, 60 fps.",
+  "notes": "Basic Training picked at 30 s, cutscene 45-70 s, then in the cave with the tutorial pop-ups ('Follow Sobek on your compass') at 90 s and 110 s until the run stopped at 118 s."
+ },
+ {
+  "game": "ultra-bust-a-move-u",
+  "stage": "Intro",
+  "outcome": "Timeout",
+  "graphics": "Only the animated 'Now Loading' bubbles on white, from 10 s to the end, 60 fps.",
+  "notes": "Music plays the whole run, but the screen never leaves 'Now Loading' and no logo or title appears; the disc goes idle after about 20 s while the log's per-second draw count keeps rising from about 300 to 4,500, and the presses change nothing."
+ },
+ {
+  "game": "van-helsing-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro logo, the letterboxed Paris cutscene and the Notre Dame level with Van Helsing render correctly at 53-60 fps.",
+  "notes": "Cutscene at 30-45 s, then in control in the cathedral at 50 s and 70 s until the run stopped at 78 s, with sound."
+ },
+ {
+  "game": "vietcong-purple-haze-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Gathering logo, title, the Campaign mission menus, the loading hint and the first-person jungle patrol with squad, compass and ammo HUD render correctly at about 60 fps.",
+  "notes": "Thunder Creek started at 50 s, loading at 70 s, then on patrol with the squad at 90 s and 110 s until the run stopped at 116 s, with sound."
+ },
+ {
+  "game": "virtual-pool-tournament-edition-u-en-fr-de-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Global Star logo, Load Profile, the main menu and the 9-ball table with cue, balls and HUD render correctly at 54-60 fps.",
+  "notes": "Load Profile from 30 s to 50 s (a 9-Ball Medium profile), main menu at 70 s, then lining up the break shot in Quick Play 9-ball from 90 s until the stop at 115 s; sound is quiet (about -33 dBFS)."
+ },
+ {
+  "game": "wta-tour-tennis-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, the ranking list and the match (1P Capriati vs COM Lucic) with score HUD render correctly at 56-60 fps.",
+  "notes": "A match is running from 45 s: the CPU serves at 92 mph, and the score is 0-15 at 70 s, until the run stopped at 78 s."
+ },
+ {
+  "game": "wwe-raw-2-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal screen, title, Quick Start Superstar Select, The Undertaker's entrance and the match (The Rock vs The Undertaker) with names, health and clock render correctly at 60 fps (4-34 fps during the first 30 s of boot).",
+  "notes": "Quick Start picked at 70 s; in the match from 110 s (clock 00:04, 'TAP ANY BUTTON' while pinned) to 130 s (00:21) until the run stopped at 138 s. The core stopped, but RetroArch did not finish closing and was killed at 148 s; the audio recording is empty, so sound can't be judged."
+ },
+ {
+  "game": "wakeboarding-unleashed-featuring-shaun-murray-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the tutorial welcome card and the wakeboarding tutorial behind the boat with HUD render correctly at about 30 fps.",
+  "notes": "Tutorial welcome at 30 s; riding behind the boat ('Hold to cut hard right') from 45 s to the stop at 76 s, with sound."
+ },
+ {
+  "game": "wallace-gromit-in-project-zoo-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the letterboxed cutscene with its binocular views and the zoo greenhouse with Wallace, Gromit and the nut counter render correctly, 60 fps.",
+  "notes": "Cutscene from 45 s to 70 s, then controlling Gromit next to Wallace at 90 s and 110 s until the run stopped at 117 s."
+ },
+ {
+  "game": "wallace-gromit-in-project-zoo-uk",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the loading screen, the letterboxed cutscene and the zoo greenhouse with Wallace, Gromit and the nut counter render correctly at 50 fps (PAL).",
+  "notes": "Cutscene from 45 s to 70 s, then controlling Gromit next to Wallace at 90 s and 110 s until the run stopped at 117 s."
+ },
+ {
+  "game": "wwe-wrestlemania-21-u-rev-1",
+  "stage": "Boot",
+  "outcome": "Timeout",
+  "graphics": "Nothing: black for the whole run.",
+  "notes": "The log shows a push-buffer fault ('invalid command' at the first draws) right after the screen was first cleared, and the game never presented a frame (0 swaps) to the end; the B/Down presses changed nothing and the audio recording is empty."
+ },
+ {
+  "game": "wallace-gromit-the-curse-of-the-were-rabbit-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Konami logo, the intro cutscene and Wallace's first dialog over the manor render, but the bottom of the screen stays black: the cutscene sits high in the frame with a bottom bar about twice the top one, and from 210 s the game view and dialog box end at about 80 % (then 67 %) of the height, 60 fps.",
+  "notes": "Intro cutscene from 30 s to about 210 s (Start/A didn't skip it); from 230 s to the end Wallace's dialog ('Righto, Gromit...', A) stays up and the A presses never dismiss it; not confirmed whether that and the black bottom are related."
+ },
+ {
+  "game": "whiteout-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Konami logo, Choose Your Driver and the snowmobile race with lap, time, position and health HUD render correctly at 55-60 fps.",
+  "notes": "Race countdown at 45 s, racing from 50 s (00:03.58) to 70 s (00:20.35, 6th, lap 1 of 3) at 0 mph as nothing accelerates, until the stop at 75 s."
+ },
+ {
+  "game": "warriors-the-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Paramount logo, the profile/name/subtitle screens, the Coney Island yard with the tutorial text and the pause menu render correctly at 30 fps.",
+  "notes": "Profile and name entry 30-70 s, then in control in the yard ('Move it to move into the yellow marker') at 110 s, the pause menu at 130 s and in game again at 150-170 s until the run stopped at 177 s."
+ },
+ {
+  "game": "winter-x-games-snowboarding-2002-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Konami logo, Board Select and the halfpipe/slopestyle run with the rider, timer and score HUD render correctly at 53-60 fps.",
+  "notes": "Riding from 45 s (timer 166:41) to 70 s (146:84) until the run stopped at 76 s, with sound."
+ },
+ {
+  "game": "winback-2-project-poseidon-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Cavia logo, the title with the no-save notice, the Story mission select and the subway level with the player, weapon, map and timer HUD render correctly, 60 fps.",
+  "notes": "Mission 01 picked at 45 s; in the subway from 70 s (04:56:47) to 90 s (04:41:43) until the run stopped at 98 s; sound in play is quiet (about -30 to -39 dBFS)."
+ },
+ {
+  "game": "world-championship-poker-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Crave logo, the Sit & Go rules screen and the Saloon table with players, cards, chips and pot render correctly at 30-51 fps.",
+  "notes": "Texas Hold'em Sit & Go from 45 s (blinds posted, player holding 8 hearts and J clubs) to the flop at 70 s (pot $535) until the run stopped at 80 s."
+ },
+ {
+  "game": "world-racing-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "TDK logo, the race briefing and the Nevada race with car, position, lap and speedometer HUD render correctly, 45-60 fps.",
+  "notes": "On the grid of a 4-lap race from 45 s (6/6, lap 0/4, start lights) to the stop at 78 s; the car stays at 0 km/h as nothing accelerates."
+ },
+ {
+  "game": "world-poker-tour-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "2K Sports logo, the WPT ad, Play Poker menus and the table with players, cards and HUD render correctly at 30 fps.",
+  "notes": "Slow start (0.2-8 fps in the first 15 s), then Play Poker > Quick Draw at 45-50 s; the deal at 70 s and a hand in progress at 90 s (player holding the 2 of hearts and 3 of clubs, 'CALLED', pot $50) until the run stopped at 97 s."
+ },
+ {
+  "game": "world-series-of-poker-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision logo, the Quickplay menu and the poker table with players, chips and the Call/Bet/Fold/All In wheel render correctly, 40-50 fps.",
+  "notes": "Quickplay Texas Hold'em started; from 45 s to the stop at 79 s the table waits on the Rookie's turn (pot $15, Call $10), which the A presses don't answer."
+ },
+ {
+  "game": "world-championship-poker-2-featuring-howard-lederer-u",
+  "stage": "Intro",
+  "outcome": "Crash",
+  "graphics": "The Crave logo at 10 s, then black for the rest of the run.",
+  "notes": "At about 13 s, right after opening DATA\\Loading.sfp, the core stopped on an unhandled access violation at 0006f109 (reading 00000000); black and silent from then on."
+ },
+ {
+  "game": "world-series-baseball-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Sega logo, intro, title, loading screen, the Game Options pause screen and the game at Yankees vs Diamondbacks with batter, pitch HUD and count render correctly, 60 fps.",
+  "notes": "Controller 1 is on the visiting Yankees; from 70 s to 170 s the Start presses kept the Game Options pause screen open, then at 190 s and 210 s Soriano bats against Ra. Johnson (count 0-1, then 0-2) until the run stopped at 217 s."
+ },
+ {
+  "game": "worms-3d-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Team17 logo and the 3D island level with worms, weapon and turn HUD render correctly, 60 fps.",
+  "notes": "In a Human vs CPU match from 30 s (Weener's turn), the CPU's turn at 45 s and the human's again at 50 s (19:39 left) until the run stopped at 57 s."
+ },
+ {
+  "game": "world-soccer-winning-eleven-9-u-en-es",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "JFA logo, the option-file prompts, Player Settings, team select and the match with players, radar and HUD render correctly, 60 fps.",
+  "notes": "Skipped the missing option file (30-70 s), then Player Settings, Austria vs Austria and kick-off; the match runs from 150 s (00:00) to 170 s (00:46, 0-0) until the run stopped at 175 s."
+ },
+ {
+  "game": "worms-forts-under-siege-u-en-fr",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Team17 logo and the castle level with the worm, star and turn HUD render correctly, 60 fps.",
+  "notes": "In game from 30 s: Chesh's turn with the timer running from 56 to 41 (44:55 to 44:40) until the run stopped at 58 s."
+ },
+ {
+  "game": "worms-4-mayhem-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Team17 logo, the player-count menu, the loading tip and the grassy level with the worm and HUD render correctly at 30 fps.",
+  "notes": "1 Player picked at 30 s, loading at 45-50 s, then the worm's turn from 70 s (timer 41) to 90 s (timer 26, 29:38) until the run stopped at 98 s; sound during play is quiet (about -41 to -50 dBFS)."
+ },
+ {
+  "game": "wreckless-the-yakuza-missions-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title and the Hong Kong mission with the police car, timer, speed and map HUD render correctly at about 30 fps.",
+  "notes": "Mission start ('READY?') at 30 s; driving at 45 s (00:13.16) and 50 s (00:18.26) until the run stopped at 56 s."
+ },
+ {
+  "game": "x-men-next-dimension-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro and the fight (Wolverine vs Rogue) with health bars and timer render correctly, 60 fps.",
+  "notes": "Fighting from 30 s (timer 95) to 50 s (timer 81, '2 HITS') with 'PRESS START' on the second player's side, until the run stopped at 58 s."
+ },
+ {
+  "game": "world-war-ii-combat-iwo-jima-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "ESRB notice and the name keyboard over the battleship movie render correctly, 60 fps.",
+  "notes": "From 30 s to the end it stays on the name keyboard ('Player1', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen while the background movie kept playing; not confirmed why the presses have no effect."
+ },
+ {
+  "game": "x2-wolverine-s-revenge-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the Enter Name screen and the Weapon X level with Wolverine, enemies and health HUD render correctly at 50-60 fps; at 70 s the picture is tinted pink and motion-blurred while Wolverine fights.",
+  "notes": "Name entered at 30 s; fighting from 45 s ('Part I: Weapon X') to the stop at 79 s, with sound."
+ },
+ {
+  "game": "world-war-ii-combat-road-to-berlin-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "ESRB rating screen and the name keyboard over the animated map backdrop render correctly, 60 fps.",
+  "notes": "From 30 s to the end it stays on the name keyboard ('Player', cursor on 1). Its hints say A Select and START Done, yet 57 A and 57 Start presses never changed the name or left the screen; same as Iwo Jima, not confirmed why the presses have no effect."
+ },
+ {
+  "game": "xyanide-u-en-fr-de-es",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Playlogic logo, loading screens, Difficulty Settings and the tunnel shooter with ship, enemies and HUD render correctly at 60 fps (1-2 fps only on the loading screens).",
+  "notes": "Shooting from 45 s to 130 s, Game Over at 150 s, then a new game (difficulty at 170 s) playing again at 210-230 s until the run stopped at 236 s."
+ },
+ {
+  "game": "xiii-u-en-fr-de-es-it",
+  "stage": "Boot",
+  "outcome": "Crash",
+  "graphics": "Nothing: black for the whole run.",
+  "notes": "About 4 s after launch, right after loading mapmenu.lin, the game throws several C++ exceptions ('Can't resolve package name') and the core stops with 'seh: exceptions nested too deep'; black and silent for the rest of the run."
+ },
+ {
+  "game": "zapper-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Infogrames logo, the title menu and the Overgrown Undergrowth level with Zapper and HUD render correctly, 52-60 fps.",
+  "notes": "In the first level from 45 s to the stop at 77 s."
+ },
+ {
+  "game": "zathura-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, title, main menu, a cutscene and the third-person level with Danny and HUD render correctly, 55-60 fps.",
+  "notes": "Start Game at 45 s, cutscene at 50 s, then in control of Danny in the basement at 70 s and 90 s until the run stopped at 97 s."
+ }
+]
