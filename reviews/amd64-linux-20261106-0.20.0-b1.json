@@ -123,7 +123,7 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "Intro movie and the Basic Training mission screen render correctly at 30-60 fps; black after the crash.",
-  "notes": "Reached the Basic Training mission screen at 30 s; at about 35 s, shortly after A was pressed there, the core stopped with an unhandled exception (c0000005 at 000ab080, writing 00000000) and the screen stayed black."
+  "notes": "Reached the Basic Training mission screen at 30 s; at about 35 s, shortly after A was pressed there, the core stopped with an unhandled exception (c0000005 at 000ab080, writing 00000000) and the screen stayed black. Issue: hakuX-lr #111 (https://github.com/portare-ch/hakuX-lr/issues/111)."
  },
  {
   "game": "reservoir-dogs-u",
@@ -137,21 +137,21 @@
   "stage": "Menu",
   "outcome": "Crash",
   "graphics": "MGM logo, the Game Menu, the briefing cutscene and the city overview render correctly; black after the crash.",
-  "notes": "New Game at 30 s, briefing ('Good evening, Robocop...') at 45 s and the city overview at 50 s; at about 53 s, before gameplay, the core stopped with an unhandled exception (c0000005 at 0009644b, reading 0000000c)."
+  "notes": "New Game at 30 s, briefing ('Good evening, Robocop...') at 45 s and the city overview at 50 s; at about 53 s, before gameplay, the core stopped with an unhandled exception (c0000005 at 0009644b, reading 0000000c). Issue: hakuX-lr #112 (https://github.com/portare-ch/hakuX-lr/issues/112)."
  },
  {
   "game": "snk-vs-capcom-svc-chaos-europe-en-fr-de-es-it",
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "Only the Ignition Entertainment logo was captured (10 s), and it renders correctly.",
-  "notes": "The emulator exited by itself at 15 s during the intro, with no error in the core log."
+  "notes": "The emulator exited by itself at 15 s during the intro, with no error in the core log. Issue: hakuX-lr #113 (https://github.com/portare-ch/hakuX-lr/issues/113)."
  },
  {
   "game": "snk-vs-capcom-svc-chaos-usa",
   "stage": "Boot",
   "outcome": "Crash",
   "graphics": "Nothing was captured: the emulator closed before the first screenshot at 10 s.",
-  "notes": "The emulator exited by itself at about 5 s, with no error in the core log and no sound."
+  "notes": "The emulator exited by itself at about 5 s, with no error in the core log and no sound. Issue: hakuX-lr #113 (https://github.com/portare-ch/hakuX-lr/issues/113)."
  },
  {
   "game": "room-zoom-race-for-impact-u",
@@ -179,14 +179,14 @@
   "stage": "Intro",
   "outcome": "Crash",
   "graphics": "The only screenshot (10 s) is a plain dark grey screen; the core log shows the Acclaim and CMX logo movies playing, with sound.",
-  "notes": "Exited by itself at about 30 s with a guest fault (write to 00000000, eip 001b4e77), right after the main menu movie and music started loading."
+  "notes": "Exited by itself at about 30 s with a guest fault (write to 00000000, eip 001b4e77), right after the main menu movie and music started loading. Issue: hakuX-lr #114 (https://github.com/portare-ch/hakuX-lr/issues/114)."
  },
  {
   "game": "rogue-trooper-u-en-fr-de-it",
   "stage": "Intro",
   "outcome": "Timeout",
   "graphics": "Rebellion logo and the Rogue Trooper legal screen with 'Loading...' render correctly.",
-  "notes": "Froze on the 'Loading...' legal screen from about 20 s to the end at 301 s: no new frames after that (the core log reports an ongoing hang) and no sound."
+  "notes": "Froze on the 'Loading...' legal screen from about 20 s to the end at 301 s: no new frames after that (the core log reports an ongoing hang) and no sound. Issue: hakuX-lr #115 (https://github.com/portare-ch/hakuX-lr/issues/115)."
  },
  {
   "game": "swat-global-strike-team-u",
@@ -200,7 +200,7 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Title and the fight render with correct characters and HUD at 55-60 fps, but the stage background is corrupted: misplaced tile strips and white and black blocks across the floor and buildings.",
-  "notes": "Fighting (Yoshitora vs Mina) from about 30 s until the run stopped at 55 s; the background corruption is visible in every fight frame."
+  "notes": "Fighting (Yoshitora vs Mina) from about 30 s until the run stopped at 55 s; the background corruption is visible in every fight frame. Issue: hakuX-lr #116 (https://github.com/portare-ch/hakuX-lr/issues/116)."
  },
  {
   "game": "scooby-doo-night-of-100-frights-u",
@@ -270,6 +270,6 @@
   "stage": "In-game",
   "outcome": "Completed",
   "graphics": "Title and the restroom scene with James render correctly at about 40-45 fps in game, but the Paused screen is broken: only the top-left part of the frozen game picture is drawn and the rest of the screen is smeared lines (45 s and 70 s).",
-  "notes": "In control of James in the restroom from about 30 s, with sound. The Start presses paused it at 45 s and 70 s, and each time the pause screen was unreadable, so this stays In-game until that is fixed."
+  "notes": "In control of James in the restroom from about 30 s, with sound. The Start presses paused it at 45 s and 70 s, and each time the pause screen was unreadable, so this stays In-game until that is fixed. Issue: hakuX-lr #117 (https://github.com/portare-ch/hakuX-lr/issues/117)."
  }
 ]
