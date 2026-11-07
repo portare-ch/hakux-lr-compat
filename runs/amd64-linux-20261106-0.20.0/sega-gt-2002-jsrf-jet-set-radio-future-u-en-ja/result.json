@@ -1,0 +1,1676 @@
+{
+ "game_file": "Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja).chd",
+ "game_size": 4217002240,
+ "system": "amd64-linux",
+ "started": "2026-11-07T00:23:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The disc menu starts Sega GT 2002, whose main menu (from about 34 s) starts on SEGA GT 2002, the career, where the car shop loops on 'You don't have enough money' and NO LICENSE; the default Start at 35.5 would enter it. Down then A at 36 s picks QUICK BATTLE; the defaults then go Single Race > Ford > Mustang GT > Iron City Circuit into a race.",
+  "quiet": [
+   [
+    34.0,
+    40.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    36.0,
+    "tap",
+    "down"
+   ],
+   [
+    36.8,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   36.0,
+   "tap",
+   "down"
+  ],
+  [
+   36.8,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.83,
+  "confirmed_by": "w090",
+  "stopped_at_s": 100.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 101.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   30.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   36.04,
+   "tap",
+   "down"
+  ],
+  [
+   36.84,
+   "tap",
+   "a"
+  ],
+  [
+   40.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "held",
+   "start"
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "held",
+   "start"
+  ],
+  [
+   88.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "held",
+   "start"
+  ],
+  [
+   93.11,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.67,
+   "held",
+   "start"
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.8,
+   "bytes": 849444
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 32.0,
+   "bytes": 995799
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 45.1,
+   "bytes": 44164
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 52.4,
+   "bytes": 870654
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 74.6,
+   "bytes": 1276141
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 95.8,
+   "bytes": 1266851
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.81,
+   "got_s": 95.8,
+   "bytes": 1266851,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   46.7,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   53.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   54.8,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   60.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   61.9,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   68.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   69.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   70.0,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   75.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   76.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   77.1,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   81.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   82.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   83.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   84.2,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   91.3,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Sega GT 2002 + JSRF - Jet Set Radio Future (U) (En,Ja),crc32=53271ec3"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\segagt.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.6,
+   60.0,
+   59.8,
+   60.0,
+   59.1,
+   60.0,
+   57.2,
+   54.7,
+   56.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #150 frame 5071: front 33.4 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 16 ms before | swap +0.3 write +0.3 ready +0.6 flip +33.4 front +33.4 shown +42.7 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 6278 words 9336854 headers 1864288 methods 7472535 faults 0 GET 0376a8fc PUT 03613a30 binds 4 semaphores 61858 flips 5102 traps 58082 (28=25955 8=25955 21=5102 5=1064 9=6) runs 0 surfaces 70 clears 40242 swaps 5103 draws 3509595 ff 2827982 skipped 0 () textures 3885 (861 held, 25",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 72.6, 49 frames)",
+   "hakuX-hle-pb: report gate: 71 reads waited for their visibility tests (+4), 89.4 ms in all, 0 given up, 54 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=90843 verts=3662731 mergeable=0 (not: strip 90793 idx 0 state 50 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=26430 set1=39893 pc=71735 vi=2499 vb=74367 vp=791 sc=838 dyn=19305 fb=2500",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3508361 prog_fog=2669460 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #151 frame 5108: front 33.3 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 15 ms before | swap -0.7 write -0.2 ready +1.6 flip +33.3 front +33.3 shown +43.5 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #152 frame 5111: front 33.9 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 31 ms before | swap -14.7 write -14.7 ready -14.4 flip +33.9 front +33.9 shown +42.2 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #153 frame 5115: front 33.9 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 22 ms before | swap -5.8 write -5.7 ready -5.5 flip +33.9 front +33.9 shown +40.3 ms (vs the last front)",
+   "hakuX-libretro: stats: 60.00 retro_run/s, 16.52 ms each (max 19.40), video 16.27 ms (max 19.17)",
+   "hakuX-hle-hitch: stutter #154 frame 5123: front 34.2 ms after the last (expected 16.7), 0 dropped: guest flipped 18 ms after its vblank, ready 19 ms before | swap -2.2 write -2.2 ready -2.1 flip +34.2 front +34.2 shown +41.2 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #155 frame 5127: front 33.5 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 18 ms before | swap -1.8 write -1.7 ready -1.5 flip +33.5 front +33.5 shown +40.8 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #156 frame 5135: front 34.1 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 17 ms before | swap -0.1 write -0.1 ready +0.1 flip +34.1 front +34.1 shown +41.1 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #157 frame 5142: front 32.8 ms after the last (expected 16.7), 0 dropped: guest flipped 16 ms after its vblank, ready 20 ms before | swap -3.6 write -3.3 ready -2.8 flip +32.8 front +32.8 shown +42.9 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #158 frame 5147: front 33.5 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 18 ms before | swap -1.7 write -1.7 ready -1.5 flip +33.5 front +33.5 shown +42.9 ms (vs the last front)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1127987 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 300472 bytes (merged in 0.0 ms, serialized in 0.1 ms, written in 0.2 ms), spirv hits=314 misses=131",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 67 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55f398ace960",
+   "[Gamescope WSI] Destroyed swapchain: 0x55f398ace960",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Connection reset by peer"
+  ]
+ },
+ "audio": {
+  "seconds": 99.5,
+  "peak_rms_dbfs": -15.5,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.77,
+  "rms_dbfs_per_2s": [
+   -30.9,
+   -25.5,
+   -28.1,
+   -22.9,
+   -25.0,
+   -36.6,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -74.6,
+   -19.8,
+   -19.9,
+   -20.5,
+   -25.7,
+   -23.9,
+   -22.1,
+   -22.1,
+   -21.8,
+   -23.7,
+   -23.3,
+   -22.2,
+   -23.3,
+   -21.2,
+   -21.7,
+   -20.8,
+   -21.5,
+   -120.0,
+   -22.0,
+   -16.1,
+   -15.5,
+   -16.5,
+   -19.0,
+   -23.9,
+   -19.1,
+   -22.1,
+   -19.2,
+   -19.3,
+   -18.7,
+   -19.0,
+   -19.0,
+   -19.3,
+   -19.1,
+   -18.9,
+   -19.1,
+   -18.9,
+   -18.7,
+   -18.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.83 s (judged from screenshots); stopped at 100.9 s and the emulator closed",
+ "duration_s": 101.1,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

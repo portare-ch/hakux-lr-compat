@@ -1,0 +1,1645 @@
+{
+ "game_file": "True Crime - New York City (U).chd",
+ "game_size": 1479025133,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:31:04+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run the Start presses kept the STATUS pause screen open from 110 s, so play was seen only in the last frame. No default presses from 98 s; A every 4 s lets the judge see play.",
+  "quiet": [
+   [
+    98.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ],
+   [
+    127.0,
+    "tap",
+    "a"
+   ],
+   [
+    131.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.0,
+    "tap",
+    "a"
+   ],
+   [
+    139.0,
+    "tap",
+    "a"
+   ],
+   [
+    143.0,
+    "tap",
+    "a"
+   ],
+   [
+    147.0,
+    "tap",
+    "a"
+   ],
+   [
+    151.0,
+    "tap",
+    "a"
+   ],
+   [
+    155.0,
+    "tap",
+    "a"
+   ],
+   [
+    159.0,
+    "tap",
+    "a"
+   ],
+   [
+    163.0,
+    "tap",
+    "a"
+   ],
+   [
+    167.0,
+    "tap",
+    "a"
+   ],
+   [
+    171.0,
+    "tap",
+    "a"
+   ],
+   [
+    175.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   127.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   131.0,
+   "tap",
+   "a"
+  ],
+  [
+   135.0,
+   "tap",
+   "a"
+  ],
+  [
+   139.0,
+   "tap",
+   "a"
+  ],
+  [
+   143.0,
+   "tap",
+   "a"
+  ],
+  [
+   147.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   151.0,
+   "tap",
+   "a"
+  ],
+  [
+   155.0,
+   "tap",
+   "a"
+  ],
+  [
+   159.0,
+   "tap",
+   "a"
+  ],
+  [
+   163.0,
+   "tap",
+   "a"
+  ],
+  [
+   167.0,
+   "tap",
+   "a"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   171.0,
+   "tap",
+   "a"
+  ],
+  [
+   175.0,
+   "tap",
+   "a"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.82,
+  "confirmed_by": "w130",
+  "stopped_at_s": 138.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 138.6,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   99.04,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.01,
+   "tap",
+   "a"
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   111.12,
+   "tap",
+   "a"
+  ],
+  [
+   115.03,
+   "tap",
+   "a"
+  ],
+  [
+   119.03,
+   "tap",
+   "a"
+  ],
+  [
+   123.04,
+   "tap",
+   "a"
+  ],
+  [
+   127.05,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   131.1,
+   "tap",
+   "a"
+  ],
+  [
+   135.01,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 135525
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 30.3,
+   "bytes": 85699
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 45.1,
+   "bytes": 241906
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 50.3,
+   "bytes": 245622
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 70.3,
+   "bytes": 261956
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 90.3,
+   "bytes": 244374
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 114.4,
+   "bytes": 1204348
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 134.4,
+   "bytes": 1201908
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.8,
+   "got_s": 134.4,
+   "bytes": 1201908,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   46.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   101.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   102.5,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   106.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   107.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   108.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   109.6,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   113.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   114.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   115.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   116.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   117.7,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   133.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   134.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   135.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   136.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   137.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ],
+  [
+   138.0,
+   "GET_STATUS PLAYING xbox,True Crime - New York City (U),crc32=dfafb34d"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.5,
+   29.8,
+   28.6,
+   29.8,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   28.6,
+   28.3,
+   29.8,
+   30.0,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 13254 stores waited for the decoder (caught up 13173; it waited on the guest at a trap 81, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3324.8 ms",
+   "hakuX-hle-emit: per s: draws=20224 verts=2495919 mergeable=0 (not: strip 16429 idx 3795 state 0 work 0 gap 0) batches=30 of 60 draws indexed: no state between 0, contiguous 0 pipe=7804 set1=17631 pc=10802 vi=3008 vb=15406 vp=638 sc=698 dyn=11844 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1126423 prog_fog=821 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1366 words 5931358 headers 1188029 methods 4743312 faults 0 GET 03894dd8 PUT 03894dd8 binds 5 semaphores 46458 flips 4050 traps 4057 (41=4050 9=6 28=1) runs 0 surfaces 18 clears 4624 swaps 4050 draws 1150939 ff 0 skipped 6516 (draw_empty=6516) textures 439 (439 held, 10 MiB) rt u",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 30.2 ms (max 36.8, 30 frames)",
+   "hakuX-hle-pb: catch-up: 13610 stores waited for the decoder (caught up 13529; it waited on the guest at a trap 81, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3429.3 ms",
+   "hakuX-hle-emit: per s: draws=20237 verts=2483064 mergeable=0 (not: strip 16440 idx 3797 state 0 work 0 gap 0) batches=30 of 60 draws indexed: no state between 0, contiguous 0 pipe=7801 set1=17639 pc=10806 vi=3042 vb=15401 vp=647 sc=707 dyn=11987 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1146660 prog_fog=821 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 76951 sysops 78930 (int 713, of them ticks 61; hook 0) schedules 1865 switches 1817 idle 0 slices 0 page faults 0 mmio 12092 apu waits 0 vm pages +0 -0 isr irq1:515 (max 1.9 ms) irq3:89 (max 1.1 ms) irq5:16 (max 0.6 ms) | dpc max wait 0.4 run 0.6 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 3659 (pages 01e95000:768 01e4a000:768 01e9b000:704 01f1b000:576 01e8d000:576 01e94000:576) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 21840 KiB, contiguous 34748 KiB (202 blocks), virtual 7776 KiB, kernel pool 44 of 64 KiB (Ex 470, objects 4, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 1379 words 5923515 headers 1185747 methods 4737760 faults 0 GET 0392ec08 PUT 0392ec08 binds 5 semaphores 47253 flips 4080 traps 4087 (41=4080 9=6 28=1) runs 0 surfaces 18 clears 4684 swaps 4080 draws 1171175 ff 0 skipped 6688 (draw_empty=6688) textures 439 (439 held, 10 MiB) rt u",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 33.9 ms (max 36.5, 30 frames)",
+   "hakuX-hle-pb: catch-up: 13992 stores waited for the decoder (caught up 13911; it waited on the guest at a trap 81, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 3501.0 ms",
+   "hakuX-hle-emit: per s: draws=20236 verts=2481743 mergeable=0 (not: strip 16435 idx 3801 state 0 work 0 gap 0) batches=30 of 60 draws indexed: no state between 0, contiguous 0 pipe=7796 set1=17636 pc=10807 vi=3038 vb=15397 vp=638 sc=698 dyn=11867 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1166896 prog_fog=821 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=11196223 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 60 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56377f7b8900",
+   "[Gamescope WSI] Destroyed swapchain: 0x56377f7b8900",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 137.5,
+  "peak_rms_dbfs": -8.9,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.47,
+  "rms_dbfs_per_2s": [
+   -31.5,
+   -26.3,
+   -20.6,
+   -12.7,
+   -42.8,
+   -10.2,
+   -8.9,
+   -9.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -58.2,
+   -56.9,
+   -43.8,
+   -35.5,
+   -36.7,
+   -39.7,
+   -43.7,
+   -57.4,
+   -58.9,
+   -43.9,
+   -58.0,
+   -43.8,
+   -56.7,
+   -47.9,
+   -46.6,
+   -56.6,
+   -45.0,
+   -55.7,
+   -52.8,
+   -44.3,
+   -57.3,
+   -46.2,
+   -56.9,
+   -52.0,
+   -44.1,
+   -56.3,
+   -45.1,
+   -57.4,
+   -46.6,
+   -47.1,
+   -63.9,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -34.8,
+   -40.0,
+   -32.4,
+   -27.7,
+   -37.1,
+   -39.9,
+   -38.3,
+   -39.5,
+   -37.3,
+   -37.9,
+   -39.4,
+   -39.6,
+   -32.2,
+   -33.1,
+   -36.5,
+   -31.7,
+   -35.9,
+   -33.2,
+   -35.7,
+   -31.6,
+   -36.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.82 s (judged from screenshots); stopped at 138.4 s and the emulator closed",
+ "duration_s": 138.6,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

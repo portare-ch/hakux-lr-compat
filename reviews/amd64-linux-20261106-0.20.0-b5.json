@@ -1,0 +1,688 @@
+[
+ {
+  "game": "pump-it-up-exceed-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Andamiro logo, the Exceed title and the Arcade difficulty screen (Banya Channel) render correctly, 60 fps.",
+  "notes": "Original run. From about 30 s the difficulty select ('2P PRESS CENTER BUTTON') ignores Start and A; its timer runs out and the game drops back to the title, looping like this to the end. Gameplay not reached."
+ },
+ {
+  "game": "punisher-the-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Comic intro, profile and apartment menus, the mission briefing and the alley with the Punisher, health bar and score render correctly, 30 fps.",
+  "notes": "With an override (Left then A for YES on 'Save profile (PUNISHER)?', then only A), the first mission is in play from about 70 s until the run stopped at 96 s."
+ },
+ {
+  "game": "pure-pinball-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Iridon logo, profile screens, Select Table and the Excessive Speed table with its dot-matrix display render correctly, 60 fps.",
+  "notes": "With an override (Y to create a profile, then only A), the Excessive Speed table is in play from about 70 s ('Race Again', then 'BONUS' on the display) until the stop at 97 s."
+ },
+ {
+  "game": "rallisport-challenge-2-japan-europe-en-ja-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro video, the profile keyboard, car select, the stage loading screen and the Australian rally stage with car, race timer and speedometer render correctly, 60 fps.",
+  "notes": "With an override (Down x4, Left and A to reach Done on the profile keyboard), the first rally stage is under way from about 70 s (race time 0:02.6, then 0:19.1 at 90 s) until the stop at 96 s."
+ },
+ {
+  "game": "rayman-arena-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Save message, race type and character select, and the race with Rayman, position, lap counter and track map render correctly, 60 fps.",
+  "notes": "With an override (A to close the save message, then Up and A for Single Player), an obstacle race is under way from about 70 s (countdown, then lap 1/3) until the stop at 97 s."
+ },
+ {
+  "game": "red-faction-ii-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logos, the profile prompt, the opening cutscene and the first level with weapon, ammo and health HUD render correctly; 60 fps in play.",
+  "notes": "With an override (Left then A for YES on 'No profile ... continue?', then only A, as Start pauses the level) the first level is in play from about 90 s until the early stop at 110 s, with sound."
+ },
+ {
+  "game": "rent-a-hero-no-1-japan",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "CNE logo, the Sega title and the kana/kanji NAME ENTRY screens render correctly, 60 fps.",
+  "notes": "With an override (cursor to 決定 and はい on each name screen), the family-name screen was passed, but the given-name screen (名前を入力してください, from about 70 s) was not: the presses fill the name with 予亜亜亜... in kanji mode until the end. Gameplay not reached."
+ },
+ {
+  "game": "rogue-ops-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, the Enter Name keyboard, a letterboxed cutscene and the alley with Nikki, health bar and minimap render correctly, 30 fps.",
+  "notes": "With an override (cursor to Done on Enter Name, then SAVE on Create Profile), the first mission is in play from about 50 s until the stop at 81 s."
+ },
+ {
+  "game": "rollercoaster-tycoon-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Chris Sawyer/Frontier logo and the title screen with its three icons over changing demo parks render correctly, 20-34 fps.",
+  "notes": "With an override (timed d-pad moves of the pointer and 300 ms A presses), the pointer never reaches the icons and the title screen stays from about 30 s to the end. No audio was captured, and RetroArch hung while closing and was killed at the hard limit (312 s)."
+ },
+ {
+  "game": "r-racing-evolution-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Dolby logo, the Enter the World of R and Racing Life menus, the car screen, a track overview and the Motegi race with position, lap and timer HUD render correctly, 60 fps.",
+  "notes": "With an override (Up and A for New Game, then Down x6 and A on the Racing Life setup for Start Race), the first race is under way from about 110 s (lap time 0:08, then 0:28) until the stop at 138 s."
+ },
+ {
+  "game": "rugby-06-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Team logos, the tutorial and save prompts, Team Select and the match at Eden Park with score, clock and player name render correctly, 57-60 fps.",
+  "notes": "With an override (Left then A on Team Select to give controller 1 a team), the match is in play from about 90 s (kick-off, then a ruck) until the stop at 119 s."
+ },
+ {
+  "game": "rugby-2005-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Team logos, the save prompt, menus, Select Controller and the training drill on the pitch (controlled player ringed, controller graphic) render correctly, 57-60 fps.",
+  "notes": "With an override (Right then A on Select Controller), the game goes into 'Exercise 1: Sprinting and Scoring' at about 70 s rather than a match: the player is in control on the pitch, and the drill restarts with its instruction panel every 20-40 s until the end."
+ },
+ {
+  "game": "scarface-the-world-is-yours-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Opening cutscene, the office tutorial and Tony in the mansion with the Rage meter render correctly at 30 fps.",
+  "notes": "With an override (Y three times exits the front-end tutorial) Tony is in control in the mansion from about 30 s to the early stop at 70 s (three in-game frames needed), with sound."
+ },
+ {
+  "game": "seablade-u",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "The loading screen and a hangar cutscene render, but the front-end menu screens show only their animated backgrounds, with no text or menu items; 50-57 fps before the hang.",
+  "notes": "Original run. The picture freezes on a menu background at about 70 s (the core log reports a hang from then on) and stays frozen until the run was killed at the hard limit (315 s). Gameplay not reached."
+ },
+ {
+  "game": "sega-gt-2002-jsrf-jet-set-radio-future-u-en-ja",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Disc menu, the Sega GT 2002 title, car select and the Iron City race with lap, time, position, tachometer and rear-view mirror render correctly, 55-60 fps.",
+  "notes": "With an override (Down then A for Quick Battle), a race is under way from about 70 s (lap time 0:03.7, then 0:17.3) until the stop at 101 s."
+ },
+ {
+  "game": "sega-gt-online-u-en-ja",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "WOW logo, menus, car and course select and the Iron City race with lap, time, position and tachometer render correctly, 54-59 fps.",
+  "notes": "With an override (Down then A for Quick Battle), a race is under way from about 70 s (lap time 0:03.6, then 0:17.4) until the stop at 100 s."
+ },
+ {
+  "game": "sega-soccer-slam-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Visual Concepts logo, Choose Sides and the match with score, clock, turbo meter and point pop-ups render correctly, 56-60 fps.",
+  "notes": "With an override (Right then A on Choose Sides to put controller 1 on a team), a match is in play from about 45 s (clock 3:59 down to 3:41) until the stop at 79 s."
+ },
+ {
+  "game": "shadow-ops-red-mercury-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal screen, name keyboard, menus, level select and the first level with weapon, health and ammo HUD render correctly, 58-60 fps.",
+  "notes": "With an override (cursor to ENTER on the name keyboard, then CREATE PROFILE and CONTINUE), the first mission is in play from about 70 s (health 100, then 76) until the stop at 96 s."
+ },
+ {
+  "game": "shattered-union-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "PopTop logo, loading screen, the unit purchase screen and the battle map with hex grid and unit panel render correctly, 60 fps.",
+  "notes": "With an override (300 ms presses: buy units, Start, B to close the objectives), the battle's deployment phase ('Deploy your units, 2 units remaining') waits for the player from about 70 s until the stop at 95 s."
+ },
+ {
+  "game": "shin-sangoku-musou-3-japan-asia",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Omega Force logo and the story overview, stage select and battle preparation screens render correctly, 60 fps.",
+  "notes": "With an override (B, Down x4 and A for 戦闘開始 on the battle preparation menu at about 51-55 s), the core stopped with an unhandled exception (c0000005 at 00174091) at about 58 s as the first battle loaded; black screen from then on."
+ },
+ {
+  "game": "silent-hill-4-the-room-u-en-ja-ko",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Content warning, intro and Henry's dark room (first person, no HUD) render correctly, 30 fps.",
+  "notes": "With an override (no Start after 42 s, A every 4 s), the room is on screen from about 45 s to the end with no sound at all from about 44 s (the earlier run, where Start toggled a PAUSE screen over this room, was silent there too apart from the pause sound); the view never changes, so gameplay evidence thin."
+ },
+ {
+  "game": "silent-scope-complete-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Konami logo, Game Selection, Mode Select and the London stage with scope, timer, score and life HUD render correctly, 30 fps.",
+  "notes": "With an override (Up and Right to put the scope cursor on Silent Scope 2, then A), the first London stage is in play from about 70 s until the stop at 96 s."
+ },
+ {
+  "game": "sims-2-the-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Maxis logo, the neighbourhood Continue Game screen and the save-game list render correctly, 30 fps.",
+  "notes": "Original run. From about 45 s to the end it sits on 'Please choose The Sims 2 save game you wish to play' (eight 'No Sim saved game' slots); the Start/A presses never leave it. Gameplay not reached."
+ },
+ {
+  "game": "sims-the-bustin-out-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Maxis logo, Create-A-Sim with the Sim and the Bustin' Out loading screen render correctly, 30 fps.",
+  "notes": "With an override (Right x3 to the check mark, then A and A to save the Sim), the core stopped with an unhandled exception (c0000005 at 00147c15) at about 46 s while the house loaded; black from then on."
+ },
+ {
+  "game": "sneak-king-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, the 'No saved games present' message and the forest camp with the King, minimap and mission counter render correctly, 30 fps.",
+  "notes": "With an override (B to close 'No saved games present'), the first level is in play from about 45 s until the stop at 77 s."
+ },
+ {
+  "game": "sonic-heroes-u-en-ja-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Dolby logo, the Story team select and Seaside Hill with Team Sonic and the score, time and ring HUD render correctly at 60 fps.",
+  "notes": "With an override (no default presses from 36 s, A every 4 s) Seaside Hill is in play from about 50 s, the stage timer running from 00:12 to 00:32 by 70 s, with sound."
+ },
+ {
+  "game": "sonic-mega-collection-plus-world-en-ja",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, SEGA logo and Sonic the Hedgehog's Green Hill Zone with the score, time and ring HUD render correctly at 60 fps.",
+  "notes": "With an override (no default presses from 36 s, A every 4 s) Green Hill is in play from about 50 s, the timer running from 0:10 to 0:30, with sound."
+ },
+ {
+  "game": "sphinx-and-the-cursed-mummy-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, 'Game saved', the story dialogue scenes and the temple corridor with Sphinx and the button HUD render correctly, 60 fps.",
+  "notes": "With an override (X, B and Y in turn to advance the story dialogue), play is seen from about 170 s until the stop at 198 s."
+ },
+ {
+  "game": "spider-man-2-world",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal screen, loading screen, the Chapter 1 title and the rooftop with Spider-Man, health emblem and tutorial tip render correctly, 30 fps.",
+  "notes": "With an override (B to resume if paused, then A every 4 s), Spider-Man is in play on the rooftop from about 50 s until the stop at 77 s."
+ },
+ {
+  "game": "spider-man-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the Movement Style menu and the training level with Peter Parker and health bar render correctly, 56-60 fps.",
+  "notes": "With an override (no Start after 36 s, A every 4 s), the first level is in play from about 45 s (Peter jumping) until the stop at 74 s."
+ },
+ {
+  "game": "spyhunter-nowhere-to-run-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Terminal Reality logo, mission loading screen, the pause menu and the night street with the car, HUD and tutorial tips render correctly, 30 fps.",
+  "notes": "With an override (B to close the Mission Briefing, then A every 4 s), the first mission is in play from about 50 s until the stop at 78 s."
+ },
+ {
+  "game": "spy-vs-spy-europe-en-fr-de-es",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Global Star logo, profile and spy select screens, the intro cutscene, the embassy telegram and the hideout with HUD behind tutorial pop-ups render correctly, 30 fps.",
+  "notes": "With an override (no Start after 42 s, A every 4 s), the hideout is reached at about 110 s, but every frame until the stop at 137 s shows a tutorial pop-up (Hideout, then Telegrams) over it; gameplay evidence thin."
+ },
+ {
+  "game": "spy-vs-spy-usa",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Global Star logo, profile and spy select screens, the intro cutscene, the embassy telegram and the hideout with HUD behind tutorial pop-ups render correctly, 30 fps.",
+  "notes": "With an override (no Start after 42 s, A every 4 s), the hideout is reached at about 110 s, but every frame until the stop at 138 s shows a tutorial pop-up (Hideout, then Telegrams) over it; gameplay evidence thin."
+ },
+ {
+  "game": "srs-street-racing-syndicate-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal screen, loading screen, the empty Load Profile screen and the night race with lap, timer, position and speedometer render correctly, 52-60 fps.",
+  "notes": "With an override (B, Down and A for New Profile, then only A from 64 s), the first race is under way from about 70 s (4th, lap 1/3, 0:19.9 at 90 s) until the stop at 99 s."
+ },
+ {
+  "game": "stacked-with-daniel-negreanu-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "MTV Games logo, Enter Name, Save Player and the poker table with players, pot and HUD render correctly, 30 fps.",
+  "notes": "With an override (cursor to DONE on Enter Name), a poker game is in play from about 70 s until the stop at 98 s."
+ },
+ {
+  "game": "star-wars-battlefront-ii-u-en-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, Singleplayer menu, the Geonosis loading screen, unit select and the battlefield with Clone Trooper, HUD and minimap render correctly, 30 fps (20 fps while loading).",
+  "notes": "With an override (no Start after 66 s, A every 4 s), the Geonosis campaign mission is in play from about 90 s until the stop at 118 s."
+ },
+ {
+  "game": "star-wars-jedi-knight-jedi-academy-japan-asia-en-fr-de",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "LucasArts logo, the shuttle scenes and the Yavin level with HUD render, but character models in the in-engine intro are broken (a face on a box at 30 s, a body torn into stretched shards at 70 s), and in the level a rectangular patch of blurry jungle image covers the ground in front of the player; 55-60 fps.",
+  "notes": "With an override (no presses from 132 s so the mission load isn't interrupted), the in-engine intro runs to about 135 s and the first mission is in play from about 150 s until the stop at 176 s."
+ },
+ {
+  "game": "star-wars-jedi-starfighter-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, prompts, the pilot keyboard, profile and Act menus and the space battle with HUD and target display render correctly, 53-60 fps in play; the front end runs at only 4-9 fps, and the 90 s frame shows large hull polygons cutting across the Act menu (possibly a transition).",
+  "notes": "With an override (Y to confirm the pilot name), the first mission is in play from about 110 s until the stop at 136 s."
+ },
+ {
+  "game": "star-wars-knights-of-the-old-republic-ii-the-sith-lords-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "ESRB screen, the Character Generation keyboard, the opening crawl, the galaxy map and the Ebon Hawk with T3-M4 and HUD render correctly, 30 fps.",
+  "notes": "With an override (A, then B twice to leave the galaxy map), T3-M4 is in control in the Ebon Hawk from about 210 s until the stop at 237 s."
+ },
+ {
+  "game": "star-wars-knights-of-the-old-republic-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "BioWare logo, Character Generation, the opening crawl, cutscenes and the Endar Spire bunk room with HUD render correctly; 52-56 fps in the room, but the crawl and intro cutscenes run at only 8-15 fps (about 80-150 s).",
+  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin."
+ },
+ {
+  "game": "star-wars-knights-of-the-old-republic-u-rev-1",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "BioWare logo, Character Generation, the opening crawl, cutscenes and the Endar Spire bunk room with HUD render correctly; 53-59 fps in the room, but the crawl and intro cutscenes run at only 8-15 fps (about 80-150 s).",
+  "notes": "With an override (A every 6 s until 250 s), the player is in control in the bunk room with Trask targeted at about 270 s, but Trask's tutorial dialogue ('Okay. Can you repeat that?') is back by 290 s and stays to the end; gameplay evidence thin."
+ },
+ {
+  "game": "star-wars-obi-wan-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "LucasArts logo and the ENTER NAME keyboard render correctly, but the keyboard runs at only 6.5-10 fps.",
+  "notes": "Stuck on ENTER NAME ('JEDI 1YYYY') from about 30 s: at this frame rate the menu drops presses, and even 400 ms presses 2 s apart did not reach PROCEED. In a hand test PROCEED led to the opening crawl and the first level."
+ },
+ {
+  "game": "star-wars-starfighter-special-edition-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Loading screen, the hard disk save list, main menu wheel, difficulty prompt and the canyon flight with radar and shield HUD render correctly; 43-59 fps in play, 7-11 fps in the front end.",
+  "notes": "With an override (Y to create a save on the empty hard disk list), the first mission is in play from about 70 s until the stop at 98 s."
+ },
+ {
+  "game": "still-life-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "The intro and credits film, the loading screen, the PDA menu and the pre-rendered street with Victoria, an ambulance and a police car render correctly, 60 fps.",
+  "notes": "With an override (no Start after 178 s, A every 4 s), the crime-scene street is on screen from about 210 s to the end with Victoria standing by the police car (the game has no HUD); she never moves, so gameplay evidence thin."
+ },
+ {
+  "game": "street-fighter-anniversary-collection-japan-europe-en-ja",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "ESRB notice, the save message and the Alex vs Necro fight with HUD render correctly at 60 fps, but the Super Arts select (45 s) and the versus screen (50 s) are corrupted: garbled icons and text, and white and yellow blocks with letter fragments over the right half.",
+  "notes": "With an override (no Start after 62 s, A every 4 s), Third Strike's first fight is in play from about 70 s until the stop at 96 s."
+ },
+ {
+  "game": "strike-force-bowling-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Crave logo, Player Select and the Name Entry letter wheel render correctly at 60 fps.",
+  "notes": "Stuck in Name Entry from about 45 s to the end: the d-pad changes the letter instead of moving to Done, so neither the default presses nor the override's Down presses leave it."
+ },
+ {
+  "game": "sudeki-world-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the character loading screen, the main menu and the courtyard fight with HP/SP HUD and tutorial hints render correctly at 30 fps.",
+  "notes": "With an override (no default presses from 82 s, A every 4 s) Tal is fighting the training guards from about 90 s; at 110-130 s the game shows 'Game Paused' over the fight. With sound."
+ },
+ {
+  "game": "superman-the-man-of-steel-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Atari logo, the Fortress cutscene, the mission loading screen and Metropolis with Superman and health bar render correctly, but play runs at only 15-20 fps.",
+  "notes": "With an override (no Start after 42 s, A every 4 s), Superman is in play on a rooftop from about 50 s until the stop at 80 s; menus and cutscenes ran at 30 fps."
+ },
+ {
+  "game": "super-monkey-ball-deluxe-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, save message, menus, Stage Select and the stage with the monkey ball, timer, score and minimap render correctly, 60 fps.",
+  "notes": "With an override (Down, Right and A every 10 s to pick a stage), stage 1-3 is in play from about 90 s (timer 54, then 34) until the stop at 116 s."
+ },
+ {
+  "game": "syberia-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "The intro movie (30 fps), the in-game menu's 'Are you sure you want to start a new game?' prompt and Kate in the Valadilene hotel lobby render correctly, 60 fps in the lobby.",
+  "notes": "With an override (no Start from 162 s, then A every 4 s), Kate stands in the hotel lobby from 170 s to the end; the A presses bring no visible action and nothing moves her, so gameplay evidence thin. The lobby is very quiet (about -56 dBFS) with occasional louder sounds."
+ },
+ {
+  "game": "taito-legends-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Empire logo, the Position Screen menu over Rainbow Islands, the Battle Shark controls card and title, and Battle Shark play (periscope view, score, DAMAGE bar) render correctly, 60 fps.",
+  "notes": "With an override (B back to the carousel, Battle Shark, White for a coin, B to play, A to fire), Battle Shark is in play from about 70 s (score 3000, round 1) to the early stop at 94 s (score 14000), with sound."
+ },
+ {
+  "game": "taz-wanted-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Infogrames logo, the Start Game slot screen, the cage cutscene and Taz in Tutorial 1 render correctly, 58-60 fps.",
+  "notes": "With an override (no Start from 62 s, A every 4 s until 139 s), Taz is in Tutorial 1 from about 70 s to the end: jumping at 70-130 s, then idle animations and asleep once the presses stopped. No HUD is shown in these frames; sound throughout."
+ },
+ {
+  "game": "tecmo-classic-arcade-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Warning screen, the Tecmo Cup title and the match in the arcade bezel (scoreboard, timer, radar) render correctly, 60 fps.",
+  "notes": "With an override (X inserts a coin at 30 and 32 s), Start began a one-player match: RED against COM from about 45 s (time 01:20) to the early stop at 76 s (COM leading 1-0 at 00:59). Sound from 17 s."
+ },
+ {
+  "game": "teen-titans-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Title, the save prompts, the loading logo and the fight with Robin's portrait and health bar render correctly, 30 fps.",
+  "notes": "With an override (Up then A for YES on the save prompt at 91 s), the save was created at 110 s and Robin fights a Slade robot in a ruined city from about 150 s to the early stop at 177 s, with the 'Press X / Y' attack tutorial prompt at 170 s. Sound plays."
+ },
+ {
+  "game": "tenchu-return-from-darkness-u",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Activision logo, the Now loading screen, the letterboxed intro cutscene and the dark forest by a stream render at 60 fps, but no HUD is drawn in the forest frames (Tenchu normally shows a health bar and ki meter in play).",
+  "notes": "With an override (no Start from 42 s, A every 4 s until 119 s), the cutscene runs at 70-90 s, then from 110 s to the early stop at 158 s the full-frame forest view with a ninja at the right edge, half hidden by bushes, barely changes. The first run's Start paused this view (PAUSED), so it looks like play with the HUD missing, but it may be a level-start view; check by hand."
+ },
+ {
+  "game": "tennis-masters-series-2003-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Microids logo, the court/side selection, the stadium flyover and the hard-court match (Silva vs Kolyev) with the score panel render correctly, 58-60 fps.",
+  "notes": "With an override (no Start from 40 s, A every 4 s), the match is under way from about 50 s to the early stop at 99 s (Kolyev leading 40-0 by 90 s), with sound. A short stall (2 fps) at about 10-13 s during boot."
+ },
+ {
+  "game": "terminator-3-the-redemption-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the red scan-vision screens, the bunker cutscenes and the T-850 outdoors with the plasma rifle's aiming laser and PWR/time HUD render correctly, about 30 fps (dips to 21-24).",
+  "notes": "With an override (B every 4 s at 88-120 s for 'PRESS B TO ACTIVATE SCAN VISION'), scan vision was done at 90 s ('0901 MODE COMPLETE'), cutscenes ran to about 170 s and the T-850 was in play at 190-217 s (early stop), with sound."
+ },
+ {
+  "game": "test-drive-off-road-wide-open-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Arcel logo, the players/difficulty and vehicle screens, the PLAYER NAME keyboard, the track flyover and the race with timer, lap, speed, position and map HUD render correctly, 30 fps.",
+  "notes": "With an override (Down five times, then A on ACCEPT at 42 s), a Hummer was picked and the race is live from about 90 s to the early stop at 116 s: the timer runs (0:05 to 0:23) but the Hummer stays at the start at 0 mph, as nothing presses the throttle. Sound plays."
+ },
+ {
+  "game": "tetris-worlds-u-online-enabled",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Legal text, the Player 1/2 panels, the Tetris Live message, the main menu and the Story Mode game (board, falling pieces, timer, lines and level) render correctly, 58-60 fps.",
+  "notes": "With an override (B twice back to the main menu at 46 s, then only A), Story Mode is in play from about 70 s to the early stop at 97 s; the game timer ran from 1:51 to 1:31 in 20 s. Sound plays."
+ },
+ {
+  "game": "thing-the-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Black Label logo, the Auto Aiming menu (the selected item has a faint offset copy, likely a highlight effect), the snowy intro cutscene and the compound with objective text, item and weapon icons and a status bar render correctly; steady 30 fps in game.",
+  "notes": "With an override (no Start from 106 s, A every 4 s), in game from about 115 s to the early stop at 161 s. The core log shows long stalls before play (seven of about 5 s and one of 15 s between 5 s and 100 s; screenshots up to 26 s late), none during play. No audio was recorded (empty capture), and RetroArch did not close after the stop and was killed at 176 s (auto outcome Timeout)."
+ },
+ {
+  "game": "tiger-woods-pga-tour-2003-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro video, the course flyover and the 'Lesson 1 - Straight Shot' tutorial (tip panel and controller graphic) with Tiger render correctly, 60 fps.",
+  "notes": "From about 45 s to the early stop at 119 s Tiger walks and demonstrates swings in Lesson 1 with no golf HUD; the judge took it for play. The lesson needs the analog-stick swing."
+ },
+ {
+  "game": "tiger-woods-pga-tour-2004-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Intro video, the course flyover and the 'Lesson 1 - Straight Shot' tutorial (tip panel and controller graphic) with Tiger render correctly, 60 fps.",
+  "notes": "From about 45 s to the early stop at 139 s Tiger demonstrates the swing in Lesson 1 ('Timing the downswing is the key to full power') with no golf HUD; the judge took it for play. The lesson needs the analog-stick swing."
+ },
+ {
+  "game": "tiger-woods-pga-tour-2005-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro video, course flyovers, Tiger in engine and Lesson 1 with Tiger at address and the club, distance, wind and lie HUD render correctly, 60 fps.",
+  "notes": "With an override (no Start from 122 s, A every 4 s), Tiger is at address in Lesson 1 with the full HUD (3 Wood, 302 yards, fairway) from about 90 s to the early stop at 137 s, with sound; no shot was played, as the swing needs the analog stick."
+ },
+ {
+  "game": "tom-clancy-s-ghost-recon-2-summit-strike-u-en-fr-de-es-it",
+  "stage": "In-game",
+  "outcome": "Completed",
+  "graphics": "Ubisoft logo, ESRB notice, the NAME PROFILE wheel, main menu, Equipment Setup and the snowy mountain mission with radar and ammo HUD render, but all small-font text is garbled into scattered coloured dots: the button hints under every menu and the in-game message box at 90 s. 60 fps in menus, 30-31 fps in game.",
+  "notes": "With an override (A every 2 s from 50 s, no Start), in game from about 90 s to the early stop at 118 s, with sound. Large text (ACCEPT, menu items) is fine; Ghost Recon 2's 0.19.1 run shows the same garbled button hints."
+ },
+ {
+  "game": "tom-clancy-s-ghost-recon-island-thunder-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the Dossier screen, the main menu and the jungle mission with reticle and stance, weapon (30 rounds) and compass HUD render correctly, 50-60 fps.",
+  "notes": "With an override (A every 2 s from 50 s, no Start), the campaign started and the squad is in the jungle from about 70 s to the early stop at 98 s, with sound."
+ },
+ {
+  "game": "tony-hawk-s-project-8-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Logos, the skater Information screen and the Suburbs level behind the goal cards render correctly at 60 fps, but the first loading screen (about 32 s) shows a full-width band of random coloured pixels and the 'P8 SUBURBS LOADING' photo area stays blank grey.",
+  "notes": "With an override (name, Customize and START GAME) the Suburbs level loads by about 100 s, then it waits on a chain of goal cards ('Uncover the Pool', 'Koi Catastrophe', A Continue); free skating was not seen in this run. Sound only in about a quarter of the run."
+ },
+ {
+  "game": "top-spin-u-en-fr-de",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, Exhibition settings, Controller Select, Player Select and the hard-court match with scoreboard render correctly, 47-60 fps.",
+  "notes": "With an override (Left moves 1P to Team One, then A, at 46 s), a singles match 1P vs COM is under way from about 70 s (1P serving) to the early stop at 97 s, with sound."
+ },
+ {
+  "game": "torino-2006-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Logo, Select Nation, the venue views, the Downhill and Luge introductions and both runs with time and speed HUD render correctly, 51-60 fps.",
+  "notes": "With an override (no Start from 182 s, A every 4 s), the downhill run is seen at 110 s (0:02.80, 105.5 km/h), then the luge: start at 170 s and the run at 190 s (0:19.21, 56.6 km/h) until the early stop at 198 s. Sound plays."
+ },
+ {
+  "game": "transworld-surf-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Arcel logo, the storage, Settings and Location screens and the free-surf session with the surfer and the karma and trick HUD render correctly; 30 fps in the session.",
+  "notes": "With an override (Create Arcade Data on the hard disk, then Free Surf), the session is live from about 70 s ('Press A to Stand') to the early stop at 97 s with the surfer paddling, with sound."
+ },
+ {
+  "game": "tron-2-0-killer-app-usa-europe",
+  "stage": "Menu",
+  "outcome": "Completed",
+  "graphics": "ESRB/title screen, the Sign In screens, the 'Unauthorized User' loading screens, the in-engine intro (Jet, Alan, the laser lab) and the opening credits on blue cubes render correctly; the intro runs at only 8-24 fps (about 70-270 s), 50-60 fps elsewhere.",
+  "notes": "With an override (A, then B to skip Xbox Live sign-in at 51-56 s), it went on: loading at 70 s, the intro cutscene 90-250 s, loading again at 270 s and the opening credits at 290-300 s; gameplay was not reached in the 5 minutes. Silent from about 270 s (loading and credits)."
+ },
+ {
+  "game": "true-crime-new-york-city-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision logo, the main menu, the licence-plate name entry, the loading hint and Marcus in the hideout with aim hints, reticle and weapon HUD render correctly, 30 fps.",
+  "notes": "With an override (no Start from 98 s, A every 4 s), Marcus is in control in the hideout from about 110 s to the early stop at 138 s, with sound."
+ },
+ {
+  "game": "true-crime-streets-of-la-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Activision logo, the licence-plate name entry and the LAPD shooting range with Nick, target counter, reticle and hints render correctly; 60 fps in the range.",
+  "notes": "With an override (Up, Left to OK, A at 30-32 s, then A every 4 s), the shooting-range tutorial is live from about 45 s ('OBJECTIVE: DESTROY 1', 0/10) to the early stop at 78 s, with sound; no targets were hit, as firing is on R."
+ },
+ {
+  "game": "ty-the-tasmanian-tiger-2-bush-rescue-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "EA Games logo, the Load Game screen, the intro cutscenes and Ty on the road by the barriers render correctly, 60 fps.",
+  "notes": "With an override (B, Down to New Game, A, then A every 3 s), the intro cutscenes run 45-90 s and Ty is in the game world from about 110 s to the early stop at 138 s (no HUD on screen), with sound."
+ },
+ {
+  "game": "ty-the-tasmanian-tiger-night-of-the-quinkan-usa-australia",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Publisher logo, the Load Game screen, the intro cutscenes and Ty in the courtyard with the minimap and the 'Use the LEFT THUMBSTICK to move' hint render correctly, 60 fps.",
+  "notes": "With an override (B, Down to New Game, A, then A every 3 s), the intro runs to about 110 s and Ty is in control from about 130 s to the early stop at 158 s, with sound."
+ },
+ {
+  "game": "ty-the-tasmanian-tiger-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "EA Games logo, the Load Game and New Game messages, the intro and Ty at Bli Bli Station render correctly, 30 fps.",
+  "notes": "With an override (Down then A for NEW GAME at 34 and 38 s), the save was created at 45 s and Ty is in Rainbow Cliffs by Bli Bli Station from about 70 s to the early stop at 99 s (no HUD on screen), with sound."
+ },
+ {
+  "game": "ufc-ultimate-fighting-championship-tapout-2-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "TDK logo and the Exhibition Mode fighter select render correctly, 60 fps.",
+  "notes": "From about 30 s to the end on fighter select with player 1's cursor on Josh Barnett and 'PRESS START' on player 2's side; the Start/A presses never lock in a fight."
+ },
+ {
+  "game": "ultimate-beach-soccer-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "A plain white screen at 10 s, then the title, Select Players, Team Selection, the walk-out and the match with score, timer, names and the 1P marker render correctly, 60 fps.",
+  "notes": "With an override (Right moves controller 1 to a team, then A and Start, at 46 s), USA vs Mexico is in play from about 90 s (10:59) to the early stop at 116 s (09:55), with sound."
+ },
+ {
+  "game": "unreal-championship-japan-asia",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Black from launch to about 45 s while the intro movies (atari.wmv, ucintro.wmv) play with sound but no picture; the Welcome notice, Game Setup and Pick Your Teammates screens render correctly at 60 fps.",
+  "notes": "'You must create a profile' at 50 s; from 70 s to the end it loops Pick Your Teammates (A selects or deselects a teammate) and Game Setup (A Next, reached with the B unsticks). Needs the d-pad down to FINISH on Pick Your Teammates, then A."
+ },
+ {
+  "game": "unreal-championship-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Black from launch to about 45 s while the intro movies (atari.wmv, ucintro.wmv) play with sound but no picture; the Welcome notice, Game Setup and Pick Your Teammates screens render correctly at 60 fps.",
+  "notes": "Same as the Japan/Asia version: 'You must create a profile' at 50 s, then from 70 s to the end Pick Your Teammates (A selects or deselects) and Game Setup (A Next). Needs the d-pad down to FINISH, then A."
+ },
+ {
+  "game": "unreal-ii-the-awakening-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Atari logo, the Select Profile message, the NEW PROFILE keyboard and the main menu render correctly, 60 fps.",
+  "notes": "With an override (Y at 31 and 41 s), the NEW PROFILE keyboard opened, but the A presses only edited the name ('PLAY' at 45 s, 'PLA' at 50 s, empty from 70 s) and DONE was never chosen; the B unstick at 95 s backed out, and from 110 s to the end it loops Select Profile ('No profiles exist... Press Y') and the main menu. Mostly silent from 100 s."
+ },
+ {
+  "game": "urban-chaos-riot-response-u-en-fr-de-es-it",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro movie, the profile-saving notice, the Hope Street cutscenes and the first-person view in the van with pistol, ammo and health HUD render correctly; 60 fps in cutscenes, 28-30 fps in game.",
+  "notes": "With an override (no Start from 82 s, A every 4 s), in control in the van from about 90 s to the early stop at 135 s, with sound."
+ },
+ {
+  "game": "urbz-the-sims-in-the-city-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Maxis logo, the save prompts, Select the Urb, Create-an-Urb (Gender page) and Select a Style render correctly, 30 fps.",
+  "notes": "With an override (Up then A for Yes at 46 s), the new save was made; from about 70 s to the end it sits in Create-an-Urb on the Gender page (three female Urbz) where A changes nothing; the B unstick at 215 s went back to Select a Style (230 s) and A returned to Gender."
+ },
+ {
+  "game": "vexx-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Acclaim intro, the main menu, the tutorial message and Vexx on the walkway with health and item HUD render correctly, 60 fps.",
+  "notes": "With an override (Down then A for New Game at 31 s), the tutorial ('LEFT THUMBSTICK. Try moving to the end of the walkway') is up at 70 s and Vexx is in control with the HUD until the early stop at 98 s, with sound."
+ },
+ {
+  "game": "volvo-drive-for-life-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Warning screen, the Safety Center loading screen and menu, the 'Our Favorite Crashes' list and the crash-test movies render correctly at 52-59 fps (0.3-10 fps in the first 10 s).",
+  "notes": "Start/A went into the Safety Center (loading at 30 s); from 45 s to the end the presses keep restarting the crash-test movies, with the Safety Center menu at 110 and 270 s and the movie list at 210 s. Needs B out of the Safety Center and the d-pad to a driving mode."
+ },
+ {
+  "game": "warpath-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Groove logo, the intro movie, the Conflict Zones map and the Settings/Controls pages render correctly, 30 fps.",
+  "notes": "Conflict Zones at 70 s; with an override (B twice at 87-89 s, then A every 4 s), the B presses only reached 'Saving settings' (90 s) and the A presses went back into Settings > Controls, which shows from 110 s to the end (A cycles the thumbstick layouts; only B Back offered)."
+ },
+ {
+  "game": "whacked-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Microsoft Game Studios logo, the Contestant select, the intro and the Studio B lobby with Lucky standing on pad 1 render correctly; 54-55 fps in the lobby.",
+  "notes": "Lucky picked at 45 s; from 70 s to the end Lucky stands on pad 1 in the Studio B lobby with no prompt or HUD while Start/A change nothing."
+ },
+ {
+  "game": "whiplash-u",
+  "stage": "Menu",
+  "outcome": "Crash",
+  "graphics": "Eidos logo, the player icon picker, the save prompt, the Player list and the intro cutscene render correctly, 60 fps.",
+  "notes": "With an override (B = OK on the save prompt at 91 and 101 s), the intro cutscene plays from about 110 s; at 243 s, about 2.5 s after a Start press, the core stopped with an unhandled exception (c0000005 at 002c66a9, writing 00000030), the same address as the earlier crash. No final shot and no audio (empty capture)."
+ },
+ {
+  "game": "wings-of-war-u",
+  "stage": "Menu",
+  "outcome": "Timeout",
+  "graphics": "Copyright screen, Create Player and the Briefing (Verdun, winter) render correctly at 30 fps; from 50 s only the game's black error screen 'There's a problem with the disc you're using. It may be dirty or damaged.'",
+  "notes": "With an override (Y, then A on OK at 32-34 s), the player was created and Play Campaign reached the briefing at 45 s; starting the mission gave the disc error at about 50 s, which stays to the end, silent. The log shows a failed 4 KiB contiguous memory allocation just before."
+ },
+ {
+  "game": "world-championship-pool-2004-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Load Character, New Character and Match Length screens, the arena with referee and opponent, and the first-person aiming view with the ball indicator render correctly; 60 fps in menus, 50 fps in the arena.",
+  "notes": "With an override (Up then A for Yes on 'Create a Character now?', Down then A on Start 9 Ball Season), the season match starts at about 90 s: table overview at 110 s and the player's aiming view at 130 s until the early stop at 137 s, with sound. Gameplay evidence thin (one aiming frame)."
+ },
+ {
+  "game": "world-series-baseball-2k3-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Sega Sports logo, the intro, Team Select, Player Substitutions and the game at Edison Field (batter, score bug, strike-zone grid, fielding view with diamond) render correctly, 60 fps.",
+  "notes": "With an override (Right puts controller 1 on Home, then A, at 46 s), the game is live from about 70 s (Durham batting for the Giants, controller 1 on the Angels) to the early stop at 97 s, with a fielding view at 90 s and sound."
+ },
+ {
+  "game": "world-soccer-winning-eleven-8-international-u-en-es",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Konami logo, the option-file prompts, Player Settings, General Settings and the pre-match team setup render correctly, 60 fps.",
+  "notes": "Skipped the missing option file (30-70 s), Player Settings at 90 s and General Settings at 110 s; from 130 s to the end it stays in the Home team setup (menu with Exit highlighted, then the Change player screen from 190 s). Start/A on Exit did not leave it; the way to kick off needs a manual look."
+ },
+ {
+  "game": "wrath-unleashed-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "LucasArts logo, the War Games mode menu and the Battle Select Options screen render correctly, 60 fps.",
+  "notes": "Battle picked at 30 s; from 45 s to the end on Select Options (2 players, Aenna and Epothos both Human; A Select, B Exit) with the cursor on player 1. Needs the d-pad down to 'OK?' (and probably player 2 set to CPU), then A."
+ },
+ {
+  "game": "wwf-raw-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Sofdec/ADX and THQ/Anchor logos, the credits, the title and Superstar Select render correctly at 55-60 fps.",
+  "notes": "Silent until about 30 s. From 90 s to the end on Superstar Select: The Rock 'DECIDED', the cursor on Steve Austin and all four slots CPU; the A presses never confirm the second wrestler."
+ },
+ {
+  "game": "xgra-extreme-g-racing-association-u-en-fr-de-es-it",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Acclaim logo and the SINN front-end screens (hard-disk check, No save data, New Profile / Load Profile) render correctly at 60 fps.",
+  "notes": "With an override (no presses during the hard-disk check, then A) it reaches New Profile / Load Profile at about 70 s, but A there leads back to 'No XGRA save game data is present' for the rest of the run."
+ },
+ {
+  "game": "xiaolin-showdown-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "WB logo, the join screen, the Adventure level select, the Shen Gong Wu screen and Temple Garden with the four characters and P1-P4 markers render correctly, 60 fps.",
+  "notes": "With an override (Y = Ready on the Shen Gong Wu screen at 71 s), Temple Garden is in play from about 90 s to the early stop at 115 s, with sound."
+ },
+ {
+  "game": "yager-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "The 'presents' intro, the profile menu, the 'Back to Basics' loading screen and the cockpit view with crosshair, radar and gauges render correctly, 30 fps.",
+  "notes": "With an override (Down then A for Create New Profile at 31 s), the first mission is in play from about 50 s to the early stop at 76 s, with sound."
+ },
+ {
+  "game": "yourself-fitness-u",
+  "stage": "Menu",
+  "outcome": "Needs manual input",
+  "graphics": "Respondesign logo, the Profile name keyboard, the vital-statistics page and the equipment page render correctly, 60 fps.",
+  "notes": "With an override (Up, Left to 'done', A at 30-32 s), the name was accepted and the vital statistics passed (45-50 s); from 70 s to the end it is on the equipment page ('Select all of the following exercise equipment that you own'), where A only toggles 'heart monitor'. Needs Down to Done, then A (page 2 of about 12)."
+ },
+ {
+  "game": "yu-gi-oh-the-dawn-of-destiny-u",
+  "stage": "Playable",
+  "outcome": "Completed",
+  "graphics": "Intro, the name keyboard, Kaiba's dialogue and the duel with field, hand, card info and life points render correctly, 60 fps.",
+  "notes": "With an override (Up, Right twice to Ok, A at 31-33 s), the first duel against the Duel Machine starts by 70 s and the player is choosing cards from about 130 s to the early stop at 158 s, with sound."
+ }
+]

@@ -1,0 +1,985 @@
+{
+ "game_file": "True Crime - Streets of LA (U).chd",
+ "game_size": 1445746055,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:19:47+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The licence-plate name entry (from about 28 s, 'A' typed) is finished with OK at the end of the bottom row; A only types and Start does nothing. Up wraps to the bottom row (0), Left wraps to OK, then A; the game saves and the LAPD shooting-range tutorial follows. In the range, Start opens COP STATS for the rest of the run, so from 36 s only A every 4 s until 90 s (it skips the save message and the intro).",
+  "quiet": [
+   [
+    30.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    30.5,
+    "tap",
+    "up"
+   ],
+   [
+    31.1,
+    "tap",
+    "left"
+   ],
+   [
+    31.9,
+    "tap",
+    "a"
+   ],
+   [
+    36.0,
+    "tap",
+    "a"
+   ],
+   [
+    40.0,
+    "tap",
+    "a"
+   ],
+   [
+    44.0,
+    "tap",
+    "a"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    52.0,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    68.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    76.0,
+    "tap",
+    "a"
+   ],
+   [
+    80.0,
+    "tap",
+    "a"
+   ],
+   [
+    84.0,
+    "tap",
+    "a"
+   ],
+   [
+    88.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "up"
+  ],
+  [
+   31.1,
+   "tap",
+   "left"
+  ],
+  [
+   31.9,
+   "tap",
+   "a"
+  ],
+  [
+   36.0,
+   "tap",
+   "a"
+  ],
+  [
+   40.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   52.0,
+   "tap",
+   "a"
+  ],
+  [
+   56.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.0,
+   "tap",
+   "a"
+  ],
+  [
+   68.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   76.0,
+   "tap",
+   "a"
+  ],
+  [
+   80.0,
+   "tap",
+   "a"
+  ],
+  [
+   84.0,
+   "tap",
+   "a"
+  ],
+  [
+   88.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.83,
+  "confirmed_by": "w070",
+  "stopped_at_s": 78.1,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 78.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "up"
+  ],
+  [
+   31.15,
+   "tap",
+   "left"
+  ],
+  [
+   31.9,
+   "tap",
+   "a"
+  ],
+  [
+   36.01,
+   "tap",
+   "a"
+  ],
+  [
+   40.02,
+   "tap",
+   "a"
+  ],
+  [
+   44.02,
+   "tap",
+   "a"
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   48.13,
+   "tap",
+   "a"
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   52.13,
+   "tap",
+   "a"
+  ],
+  [
+   56.04,
+   "tap",
+   "a"
+  ],
+  [
+   60.05,
+   "tap",
+   "a"
+  ],
+  [
+   64.0,
+   "tap",
+   "a"
+  ],
+  [
+   68.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   72.12,
+   "tap",
+   "a"
+  ],
+  [
+   76.02,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 130977
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 30.8,
+   "bytes": 289801
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 48.8,
+   "bytes": 810480
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 54.0,
+   "bytes": 912311
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 74.0,
+   "bytes": 898205
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.82,
+   "got_s": 74.0,
+   "bytes": 898205,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   39.6,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   68.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   69.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   70.0,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   75.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   76.1,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,True Crime - Streets of LA (U),crc32=4c912d74"
+  ],
+  [
+   79.0,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.9,
+   36.3,
+   30.0,
+   28.3,
+   59.4,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 30390 stores waited for the decoder (caught up 1990; it waited on the guest at a trap 1802, a flip stall 26598, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2312.5 ms",
+   "hakuX-hle-emit: per s: draws=11267 verts=2222303 mergeable=0 (not: strip 10967 idx 300 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3840 set1=9362 pc=5393 vi=501 vb=10729 vp=82 sc=82 dyn=12073 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1338010 prog_fog=659172 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2388 sysops 4535 (int 844, of them ticks 203; hook 0) schedules 1926 switches 1756 idle 93 slices 0 page faults 0 mmio 7730 apu waits 0 vm pages +0 -0 isr irq1:514 (max 2.2 ms) irq3:128 (max 0.5 ms) irq5:5 (max 0.3 ms) | dpc max wait 1.0 run 2.0 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1009 (pages 02e2a000:448 02e27000:384 030b0000:384 02edb000:384 02edd000:320 02ee1000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 33104 KiB, contiguous 26128 KiB (162 blocks), virtual 4660 KiB, kernel pool 95 of 128 KiB (Ex 911, objects 4, lost 0 KiB, 4 free ranges)",
+   "hakuX-hle-pb: kicks 1425 words 2013032 headers 467758 methods 1545264 faults 0 GET 03fc84dc PUT 03f8a724 binds 5 semaphores 31208 flips 3744 traps 4644 (21=2975 5=893 41=769 9=6 28=1) runs 0 surfaces 5 clears 6006 swaps 3744 draws 1350779 ff 0 skipped 2119 (draw_empty=2119) textures 1213 (841 held, ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.2 ms (max 41.3, 60 frames)",
+   "hakuX-hle-pb: catch-up: 31066 stores waited for the decoder (caught up 1990; it waited on the guest at a trap 1852, a flip stall 27224, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2344.9 ms",
+   "hakuX-hle-emit: per s: draws=11247 verts=2221355 mergeable=0 (not: strip 10947 idx 300 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3823 set1=9342 pc=5379 vi=499 vb=10709 vp=80 sc=80 dyn=12032 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1349257 prog_fog=659172 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=194534 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-hle-pb: kicks 1406 words 1943111 headers 447192 methods 1495904 faults 0 GET 03fb39b0 PUT 03f73d08 binds 5 semaphores 31563 flips 3803 traps 4710 (21=3034 5=900 41=769 9=6 28=1) runs 0 surfaces 5 clears 6124 swaps 3803 draws 1361351 ff 0 skipped 2178 (draw_empty=2178) textures 1213 (841 held, ",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.4 ms (max 41.3, 59 frames)",
+   "hakuX-hle-pb: catch-up: 31742 stores waited for the decoder (caught up 1990; it waited on the guest at a trap 1904, a flip stall 27848, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2374.1 ms",
+   "hakuX-hle-emit: per s: draws=10572 verts=2041584 mergeable=0 (not: strip 10277 idx 295 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3576 set1=8699 pc=5003 vi=483 vb=10041 vp=71 sc=71 dyn=11730 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1359829 prog_fog=659172 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 55 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x555de6c1d890",
+   "[Gamescope WSI] Destroyed swapchain: 0x555de6c1d890",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 77.4,
+  "peak_rms_dbfs": -17.1,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.93,
+  "rms_dbfs_per_2s": [
+   -34.7,
+   -30.9,
+   -25.6,
+   -22.6,
+   -46.3,
+   -23.4,
+   -20.4,
+   -21.5,
+   -20.4,
+   -22.7,
+   -20.5,
+   -21.1,
+   -19.3,
+   -20.0,
+   -20.3,
+   -21.3,
+   -21.9,
+   -20.1,
+   -24.0,
+   -23.8,
+   -21.2,
+   -21.4,
+   -26.0,
+   -23.1,
+   -17.1,
+   -17.4,
+   -24.3,
+   -26.5,
+   -22.0,
+   -25.5,
+   -20.0,
+   -20.5,
+   -18.5,
+   -22.0,
+   -17.9,
+   -24.9,
+   -25.5,
+   -24.2,
+   -22.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.83 s (judged from screenshots); stopped at 78.1 s and the emulator closed",
+ "duration_s": 78.3,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

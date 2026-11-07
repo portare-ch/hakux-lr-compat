@@ -1,0 +1,2155 @@
+{
+ "game_file": "Yu-Gi-Oh! The Dawn of Destiny (U).chd",
+ "game_size": 650799853,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:31:11+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The name keyboard (from about 30 s, 'AAA' entered) needs Ok at the bottom right; A only types and Start does nothing. Up wraps to Previous, Right x2 reaches Ok, then A; the defaults then go Duel (Single) > Duel Machine 1 into the first duel.",
+  "quiet": [
+   [
+    30.5,
+    35.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    31.0,
+    "tap",
+    "up"
+   ],
+   [
+    31.6,
+    "tap",
+    "right"
+   ],
+   [
+    32.2,
+    "tap",
+    "right"
+   ],
+   [
+    33.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   31.0,
+   "tap",
+   "up"
+  ],
+  [
+   31.6,
+   "tap",
+   "right"
+  ],
+  [
+   32.2,
+   "tap",
+   "right"
+  ],
+  [
+   33.0,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 129.8,
+  "confirmed_by": "w150",
+  "stopped_at_s": 158.6,
+  "unstuck": [
+   [
+    115.51,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 158.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   31.12,
+   "tap",
+   "up"
+  ],
+  [
+   31.67,
+   "tap",
+   "right"
+  ],
+  [
+   32.22,
+   "tap",
+   "right"
+  ],
+  [
+   33.02,
+   "tap",
+   "a"
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.54,
+   "held",
+   "start"
+  ],
+  [
+   83.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.51,
+   "held",
+   "start"
+  ],
+  [
+   88.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.52,
+   "held",
+   "start"
+  ],
+  [
+   93.12,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "held",
+   "start"
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   118.02,
+   "held",
+   "a"
+  ],
+  [
+   120.52,
+   "held",
+   "start"
+  ],
+  [
+   123.03,
+   "held",
+   "a"
+  ],
+  [
+   125.53,
+   "held",
+   "start"
+  ],
+  [
+   128.04,
+   "held",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "held",
+   "start"
+  ],
+  [
+   133.01,
+   "held",
+   "a"
+  ],
+  [
+   135.51,
+   "held",
+   "start"
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.52,
+   "held",
+   "start"
+  ],
+  [
+   143.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.53,
+   "held",
+   "start"
+  ],
+  [
+   148.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   150.54,
+   "held",
+   "start"
+  ],
+  [
+   153.14,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "held",
+   "start"
+  ],
+  [
+   158.05,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.2,
+   "bytes": 468258
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 32.2,
+   "bytes": 1740140
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 48.8,
+   "bytes": 1155447
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.2,
+   "bytes": 1319886
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.6,
+   "bytes": 1549883
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 93.4,
+   "bytes": 1164915
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 113.4,
+   "bytes": 1161712
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 132.7,
+   "bytes": 1693981
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 153.4,
+   "bytes": 1351756
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 149.84,
+   "got_s": 153.4,
+   "bytes": 1351756,
+   "from_watch": "w150"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   156.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   157.5,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,Yu-Gi-Oh! The Dawn of Destiny (U),crc32=93056449"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55530.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   51.8,
+   59.9,
+   59.8,
+   54.8,
+   56.4,
+   60.0,
+   46.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=19260 verts=2371560 mergeable=0 (not: strip 18600 idx 0 state 600 work 0 gap 60) batches=481 of 1799 draws indexed: no state between 0, contiguous 0 pipe=4412 set1=5351 pc=9140 vi=2860 vb=16603 vp=103 sc=103 dyn=4530 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1841322 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-io: open \\Device\\CdRom0\\sound\\BGM\\ds_friend.xau ->",
+   "hakuX-ktrace: t20 NtClose from 0011cc28 [ffffffff 00000000 00000000 00000000 00000000 00000000] -> c0000008 | frames 00040001",
+   "hakuX-hle-pb: kicks 849 words 1647180 headers 451764 methods 1195408 faults 0 GET 03fb1664 PUT 03fcc37c binds 5 semaphores 38109 flips 9016 traps 15277 (21=9016 5=6254 9=6 28=1) runs 0 surfaces 3 clears 82238 swaps 9016 draws 1860675 ff 1860675 skipped 0 () textures 67 (67 held, 28 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.6 ms (max 42.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19260 verts=2371560 mergeable=0 (not: strip 18600 idx 0 state 600 work 0 gap 60) batches=477 of 1791 draws indexed: no state between 0, contiguous 0 pipe=4409 set1=5352 pc=9142 vi=2860 vb=16612 vp=104 sc=104 dyn=4543 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1860582 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 128948 sysops 131155 (int 761, of them ticks 1; hook 0) schedules 83564 switches 83485 idle 0 slices 0 page faults 0 mmio 8453 apu waits 0 vm pages +0 -0 isr irq1:529 (max 0.8 ms) irq3:193 (max 0.3 ms) irq5:1 (max 0.1 ms) | dpc max wait 0.1 run 1.1 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 16924 KiB, contiguous 15036 KiB (280 blocks), virtual 31768 KiB, kernel pool 7 of 64 KiB (Ex 45, objects 5, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 838 words 1647295 headers 451821 methods 1195456 faults 0 GET 03f7b7b4 PUT 03f96524 binds 5 semaphores 38430 flips 9076 traps 15409 (21=9076 5=6326 9=6 28=1) runs 0 surfaces 3 clears 83018 swaps 9076 draws 1879935 ff 1879935 skipped 0 () textures 67 (67 held, 28 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.6 ms (max 42.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19260 verts=2371560 mergeable=0 (not: strip 18600 idx 0 state 600 work 0 gap 60) batches=480 of 1798 draws indexed: no state between 0, contiguous 0 pipe=4414 set1=5361 pc=9138 vi=2864 vb=16611 vp=110 sc=110 dyn=4632 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1879842 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=17740117 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 35 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55b1d1144e70",
+   "[Gamescope WSI] Destroyed swapchain: 0x55b1d1144e70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 157.3,
+  "peak_rms_dbfs": -27.9,
+  "first_sound_s": 8.0,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -28.4,
+   -30.3,
+   -32.3,
+   -35.7,
+   -35.4,
+   -37.4,
+   -36.4,
+   -34.1,
+   -36.9,
+   -35.4,
+   -39.0,
+   -36.4,
+   -33.0,
+   -30.2,
+   -30.0,
+   -29.1,
+   -29.7,
+   -34.2,
+   -29.1,
+   -29.0,
+   -38.5,
+   -29.1,
+   -29.8,
+   -35.5,
+   -27.9,
+   -29.3,
+   -35.7,
+   -28.3,
+   -43.6,
+   -28.4,
+   -28.3,
+   -31.0,
+   -35.1,
+   -29.9,
+   -31.8,
+   -29.6,
+   -31.3,
+   -29.2,
+   -31.2,
+   -29.5,
+   -31.1,
+   -29.6,
+   -29.3,
+   -29.1,
+   -31.5,
+   -27.9,
+   -30.0,
+   -31.0,
+   -28.7,
+   -35.2,
+   -36.4,
+   -28.1,
+   -29.3,
+   -28.4,
+   -29.9,
+   -30.1,
+   -30.7,
+   -29.7,
+   -30.9,
+   -30.0,
+   -29.7,
+   -29.5,
+   -30.5,
+   -27.9,
+   -30.4,
+   -29.9,
+   -30.8,
+   -30.0,
+   -28.2,
+   -34.0,
+   -34.9,
+   -34.6,
+   -34.5,
+   -37.0,
+   -36.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 129.8 s (judged from screenshots); stopped at 158.6 s and the emulator closed",
+ "duration_s": 158.7,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

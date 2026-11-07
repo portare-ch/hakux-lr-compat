@@ -1,0 +1,1768 @@
+{
+ "game_file": "Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De).chd",
+ "game_size": 1283160560,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:49:50+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The in-engine intro runs to about 135 s, then the first mission loads ('No briefing is available for this mission') and starts at about 150 s; a Start during the load opens LOAD GAME, which only B leaves, so the run sat there from 150 s. No default presses from 132 s; the mission is in play (Jaden on Yavin with HUD) from about 160 s.",
+  "quiet": [
+   [
+    132.0,
+    330.0
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 149.8,
+  "confirmed_by": "w170",
+  "stopped_at_s": 175.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 4.5
+   },
+   {
+    "shot": "w150",
+    "t": 149.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 176.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   110.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 237872
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 32.0,
+   "bytes": 1036332
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.6,
+   "bytes": 1364226
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.6,
+   "bytes": 614065
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 71.8,
+   "bytes": 1371866
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 92.2,
+   "bytes": 1022278
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 112.8,
+   "bytes": 1058254
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 131.2,
+   "bytes": 1517784
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.8,
+   "got_s": 151.5,
+   "bytes": 2157811
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 171.5,
+   "bytes": 2151058
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 169.84,
+   "got_s": 171.5,
+   "bytes": 2151058,
+   "from_watch": "w170"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   32.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   38.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   39.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   44.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   45.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   52.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   53.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   58.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   59.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   64.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   76.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   77.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   82.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   88.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   94.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   95.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   102.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   108.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   114.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   118.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   120.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   121.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   122.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   123.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   124.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   127.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   128.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   129.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   130.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   139.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   140.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   141.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   142.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   145.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   146.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   151.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   152.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   157.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   158.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   159.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   160.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   163.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   164.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   165.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   166.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   169.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   170.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   171.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   172.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   174.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   175.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De),crc32=458e8fcb"
+  ],
+  [
+   176.8,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   27.9,
+   57.1,
+   46.5,
+   59.9,
+   59.6,
+   60.0,
+   58.6,
+   59.2,
+   55.2,
+   60.0,
+   59.8,
+   60.0,
+   41.2,
+   54.1,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 35.7 ms (max 37.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 142126 stores waited for the decoder (caught up 34119; it waited on the guest at a trap 2972, a flip stall 105035, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7398.8 ms",
+   "hakuX-hle-emit: per s: draws=41627 verts=3495214 mergeable=0 (not: strip 2880 idx 38687 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8308 set1=41146 pc=12566 vi=6719 vb=38153 vp=345 sc=345 dyn=28549 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3331775 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #62 frame 9728: front 31.1 ms after the last (expected 16.7), 0 dropped: guest flipped 14 ms after its vblank, ready 28 ms before | swap -11.4 write -11.4 ready -11.2 flip +31.1 front +31.1 shown +39.1 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 2578 words 12655472 headers 1203783 methods 11417112 faults 0 GET 02e2954c PUT 02e5f3f0 binds 5 semaphores 129054 flips 9749 traps 18051 (21=9619 5=8295 1=130 9=6 28=1) runs 0 surfaces 7 clears 18183 swaps 9749 draws 3373031 ff 3311940 skipped 44 (draw_arrays_arena2=44) textures ",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 36.4 ms (max 50.5, 59 frames)",
+   "hakuX-hle-pb: catch-up: 143290 stores waited for the decoder (caught up 34425; it waited on the guest at a trap 3002, a flip stall 105863, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7538.2 ms",
+   "hakuX-hle-emit: per s: draws=41187 verts=3421670 mergeable=0 (not: strip 2832 idx 38296 state 59 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8141 set1=40717 pc=12378 vi=6603 vb=37769 vp=341 sc=341 dyn=27993 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3372962 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2649 words 12872823 headers 1224731 methods 11612913 faults 0 GET 02ea46ac PUT 02e3bfe8 binds 5 semaphores 130074 flips 9809 traps 18171 (21=9679 5=8355 1=130 9=6 28=1) runs 0 surfaces 7 clears 18303 swaps 9809 draws 3414940 ff 3353009 skipped 44 (draw_arrays_arena2=44) textures ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 37.2 ms (max 38.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 144496 stores waited for the decoder (caught up 34741; it waited on the guest at a trap 3022, a flip stall 106733, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 7619.9 ms",
+   "hakuX-hle-emit: per s: draws=41909 verts=3504162 mergeable=0 (not: strip 2880 idx 38969 state 60 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=8291 set1=41429 pc=12595 vi=6720 vb=38436 vp=365 sc=365 dyn=28719 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3414871 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1989133 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 30904 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=192 misses=26",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 63 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55d4527c6a70",
+   "[Gamescope WSI] Destroyed swapchain: 0x55d4527c6a70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 174.7,
+  "peak_rms_dbfs": -6.9,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -23.4,
+   -24.3,
+   -16.9,
+   -19.9,
+   -21.2,
+   -30.7,
+   -30.6,
+   -30.4,
+   -33.0,
+   -33.1,
+   -44.5,
+   -48.9,
+   -33.2,
+   -23.0,
+   -28.2,
+   -32.4,
+   -32.4,
+   -23.4,
+   -27.5,
+   -32.4,
+   -24.4,
+   -22.8,
+   -25.0,
+   -23.4,
+   -23.8,
+   -22.5,
+   -25.2,
+   -22.5,
+   -20.5,
+   -24.7,
+   -25.6,
+   -24.6,
+   -24.9,
+   -28.1,
+   -33.9,
+   -22.8,
+   -24.2,
+   -24.0,
+   -24.6,
+   -6.9,
+   -20.3,
+   -23.2,
+   -32.4,
+   -33.5,
+   -29.5,
+   -25.9,
+   -25.9,
+   -24.0,
+   -25.8,
+   -25.9,
+   -25.7,
+   -33.7,
+   -23.8,
+   -25.8,
+   -33.2,
+   -33.1,
+   -32.6,
+   -31.2,
+   -32.6,
+   -32.8,
+   -32.3,
+   -32.1,
+   -33.2,
+   -31.3,
+   -30.8,
+   -28.6,
+   -31.4,
+   -24.3,
+   -26.9,
+   -25.1,
+   -26.8,
+   -23.0,
+   -44.5,
+   -33.2,
+   -40.5,
+   -40.3,
+   -39.0,
+   -41.0,
+   -37.2,
+   -40.4,
+   -43.6,
+   -33.5,
+   -43.3,
+   -42.8,
+   -44.5,
+   -33.9,
+   -44.2,
+   -42.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 149.8 s (judged from screenshots); stopped at 175.9 s and the emulator closed",
+ "duration_s": 176.1,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

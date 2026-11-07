@@ -1,0 +1,1179 @@
+{
+ "game_file": "Tennis Masters Series 2003 (U).chd",
+ "game_size": 234689376,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:59:08+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 3,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run the match is seen at 45-50 s only, then the stats overlay, so play was seen too briefly to judge. No default presses from 40 s, A every 4 s for 80 s, and three in-game frames needed for the early stop.",
+  "watch_needed": 3,
+  "quiet": [
+   [
+    40.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    41.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    61.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    77.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "a"
+   ],
+   [
+    89.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    97.0,
+    "tap",
+    "a"
+   ],
+   [
+    101.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    109.0,
+    "tap",
+    "a"
+   ],
+   [
+    113.0,
+    "tap",
+    "a"
+   ],
+   [
+    117.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   41.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   61.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   77.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   97.0,
+   "tap",
+   "a"
+  ],
+  [
+   101.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   113.0,
+   "tap",
+   "a"
+  ],
+  [
+   117.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 3,
+  "ingame_at_s": 49.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 99.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   41.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   45.11,
+   "tap",
+   "a"
+  ],
+  [
+   49.01,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   53.13,
+   "tap",
+   "a"
+  ],
+  [
+   57.04,
+   "tap",
+   "a"
+  ],
+  [
+   61.01,
+   "tap",
+   "a"
+  ],
+  [
+   65.02,
+   "tap",
+   "a"
+  ],
+  [
+   69.03,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   73.15,
+   "tap",
+   "a"
+  ],
+  [
+   77.01,
+   "tap",
+   "a"
+  ],
+  [
+   81.02,
+   "tap",
+   "a"
+  ],
+  [
+   85.03,
+   "tap",
+   "a"
+  ],
+  [
+   89.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   93.15,
+   "tap",
+   "a"
+  ],
+  [
+   97.02,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 303977
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 34.4,
+   "bytes": 845426
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 47.6,
+   "bytes": 1996381
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 54.8,
+   "bytes": 1522139
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 74.8,
+   "bytes": 1521125
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 95.1,
+   "bytes": 1525098
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.85,
+   "got_s": 95.1,
+   "bytes": 1525098,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Tennis Masters Series 2003 (U),crc32=cc16b855"
+  ],
+  [
+   100.4,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   11.8,
+   42.1,
+   51.0,
+   53.1,
+   58.0,
+   60.0,
+   59.0,
+   59.9,
+   58.4
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=820514 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2838 words 5130576 headers 329354 methods 4801173 faults 0 GET 03f8fd5c PUT 03f5f84c binds 4 semaphores 145317 flips 4630 traps 4938 (2=4630 5=301 9=6 8=1) runs 0 surfaces 3 clears 4583 swaps 4631 draws 836106 ff 831477 skipped 0 () textures 3180 (272 held, 8 MiB) rt uploads 1 bl",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.5 ms (max 39.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 3073 stores waited for the decoder (caught up 3018; it waited on the guest at a trap 3, a flip stall 52, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2068.0 ms",
+   "hakuX-hle-emit: per s: draws=15171 verts=6749634 mergeable=0 (not: strip 1260 idx 11871 state 2040 work 0 gap 0) batches=59 of 118 draws indexed: no state between 8, contiguous 0 pipe=3851 set1=12619 pc=6418 vi=1939 vb=12593 vp=180 sc=180 dyn=5427 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=835685 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 59.6 fps (299 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 2864 words 5221688 headers 360257 methods 4861392 faults 0 GET 03f89788 PUT 03fda4d8 binds 4 semaphores 147196 flips 4690 traps 5000 (2=4690 5=303 9=6 8=1) runs 0 surfaces 3 clears 4643 swaps 4691 draws 852864 ff 848175 skipped 0 () textures 3203 (273 held, 8 MiB) rt uploads 1 bl",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.6 ms (max 39.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 3133 stores waited for the decoder (caught up 3078; it waited on the guest at a trap 3, a flip stall 52, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 2108.1 ms",
+   "hakuX-hle-emit: per s: draws=16758 verts=6658296 mergeable=0 (not: strip 1260 idx 13458 state 2040 work 0 gap 0) batches=60 of 120 draws indexed: no state between 2, contiguous 0 pipe=4069 set1=14329 pc=6651 vi=1921 vb=12791 vp=180 sc=180 dyn=5775 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=852443 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2559 sysops 4770 (int 936, of them ticks 239; hook 0) schedules 2009 switches 1987 idle 5 slices 45 page faults 0 mmio 16731 apu waits 0 vm pages +0 -0 isr irq1:500 (max 1.2 ms) irq3:120 (max 0.5 ms) irq5:9 (max 0.5 ms) | dpc max wait 0.4 run 1.4 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1387 (pages 02ebb000:6208 030fd000:128 030fb000:128 030f9000:128 03107000:128 03105000:128) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 15036 KiB, contiguous 20848 KiB (419 blocks), virtual 28088 KiB, kernel pool 65 of 128 KiB (Ex 856, objects 30, lost 0 KiB, 3 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=296355 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 59452 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=83 misses=34",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 57 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x557708770ef0",
+   "[Gamescope WSI] Destroyed swapchain: 0x557708770ef0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 89.7,
+  "peak_rms_dbfs": -20.4,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -22.9,
+   -22.3,
+   -22.0,
+   -36.4,
+   -29.0,
+   -28.6,
+   -27.0,
+   -27.6,
+   -29.2,
+   -28.1,
+   -28.1,
+   -27.1,
+   -28.1,
+   -26.5,
+   -26.7,
+   -26.7,
+   -33.8,
+   -25.7,
+   -28.3,
+   -27.3,
+   -30.5,
+   -27.2,
+   -30.0,
+   -33.3,
+   -39.4,
+   -43.5,
+   -45.4,
+   -28.0,
+   -30.6,
+   -34.1,
+   -39.4,
+   -43.0,
+   -45.1,
+   -20.4,
+   -29.6,
+   -34.0,
+   -39.5,
+   -43.4,
+   -44.5,
+   -20.8,
+   -25.6,
+   -26.7,
+   -35.9,
+   -41.3,
+   -28.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.82 s (judged from screenshots); stopped at 99.5 s and the emulator closed",
+ "duration_s": 99.7,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

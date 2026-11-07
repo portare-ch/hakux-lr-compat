@@ -1,0 +1,2404 @@
+{
+ "game_file": "Sphinx and the Cursed Mummy (U).chd",
+ "game_size": 814170714,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:33:25+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The story dialogue (from about 45 s, red next arrow) doesn't advance with A or Start; in a test one of X, B and Y moved it on. From 44 s only X, B, Y in turn every 3 s until 250 s (in play they only act).",
+  "quiet": [
+   [
+    44.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    46.0,
+    "tap",
+    "x"
+   ],
+   [
+    49.0,
+    "tap",
+    "b"
+   ],
+   [
+    52.0,
+    "tap",
+    "y"
+   ],
+   [
+    55.0,
+    "tap",
+    "x"
+   ],
+   [
+    58.0,
+    "tap",
+    "b"
+   ],
+   [
+    61.0,
+    "tap",
+    "y"
+   ],
+   [
+    64.0,
+    "tap",
+    "x"
+   ],
+   [
+    67.0,
+    "tap",
+    "b"
+   ],
+   [
+    70.0,
+    "tap",
+    "y"
+   ],
+   [
+    73.0,
+    "tap",
+    "x"
+   ],
+   [
+    76.0,
+    "tap",
+    "b"
+   ],
+   [
+    79.0,
+    "tap",
+    "y"
+   ],
+   [
+    82.0,
+    "tap",
+    "x"
+   ],
+   [
+    85.0,
+    "tap",
+    "b"
+   ],
+   [
+    88.0,
+    "tap",
+    "y"
+   ],
+   [
+    91.0,
+    "tap",
+    "x"
+   ],
+   [
+    94.0,
+    "tap",
+    "b"
+   ],
+   [
+    97.0,
+    "tap",
+    "y"
+   ],
+   [
+    100.0,
+    "tap",
+    "x"
+   ],
+   [
+    103.0,
+    "tap",
+    "b"
+   ],
+   [
+    106.0,
+    "tap",
+    "y"
+   ],
+   [
+    109.0,
+    "tap",
+    "x"
+   ],
+   [
+    112.0,
+    "tap",
+    "b"
+   ],
+   [
+    115.0,
+    "tap",
+    "y"
+   ],
+   [
+    118.0,
+    "tap",
+    "x"
+   ],
+   [
+    121.0,
+    "tap",
+    "b"
+   ],
+   [
+    124.0,
+    "tap",
+    "y"
+   ],
+   [
+    127.0,
+    "tap",
+    "x"
+   ],
+   [
+    130.0,
+    "tap",
+    "b"
+   ],
+   [
+    133.0,
+    "tap",
+    "y"
+   ],
+   [
+    136.0,
+    "tap",
+    "x"
+   ],
+   [
+    139.0,
+    "tap",
+    "b"
+   ],
+   [
+    142.0,
+    "tap",
+    "y"
+   ],
+   [
+    145.0,
+    "tap",
+    "x"
+   ],
+   [
+    148.0,
+    "tap",
+    "b"
+   ],
+   [
+    151.0,
+    "tap",
+    "y"
+   ],
+   [
+    154.0,
+    "tap",
+    "x"
+   ],
+   [
+    157.0,
+    "tap",
+    "b"
+   ],
+   [
+    160.0,
+    "tap",
+    "y"
+   ],
+   [
+    163.0,
+    "tap",
+    "x"
+   ],
+   [
+    166.0,
+    "tap",
+    "b"
+   ],
+   [
+    169.0,
+    "tap",
+    "y"
+   ],
+   [
+    172.0,
+    "tap",
+    "x"
+   ],
+   [
+    175.0,
+    "tap",
+    "b"
+   ],
+   [
+    178.0,
+    "tap",
+    "y"
+   ],
+   [
+    181.0,
+    "tap",
+    "x"
+   ],
+   [
+    184.0,
+    "tap",
+    "b"
+   ],
+   [
+    187.0,
+    "tap",
+    "y"
+   ],
+   [
+    190.0,
+    "tap",
+    "x"
+   ],
+   [
+    193.0,
+    "tap",
+    "b"
+   ],
+   [
+    196.0,
+    "tap",
+    "y"
+   ],
+   [
+    199.0,
+    "tap",
+    "x"
+   ],
+   [
+    202.0,
+    "tap",
+    "b"
+   ],
+   [
+    205.0,
+    "tap",
+    "y"
+   ],
+   [
+    208.0,
+    "tap",
+    "x"
+   ],
+   [
+    211.0,
+    "tap",
+    "b"
+   ],
+   [
+    214.0,
+    "tap",
+    "y"
+   ],
+   [
+    217.0,
+    "tap",
+    "x"
+   ],
+   [
+    220.0,
+    "tap",
+    "b"
+   ],
+   [
+    223.0,
+    "tap",
+    "y"
+   ],
+   [
+    226.0,
+    "tap",
+    "x"
+   ],
+   [
+    229.0,
+    "tap",
+    "b"
+   ],
+   [
+    232.0,
+    "tap",
+    "y"
+   ],
+   [
+    235.0,
+    "tap",
+    "x"
+   ],
+   [
+    238.0,
+    "tap",
+    "b"
+   ],
+   [
+    241.0,
+    "tap",
+    "y"
+   ],
+   [
+    244.0,
+    "tap",
+    "x"
+   ],
+   [
+    247.0,
+    "tap",
+    "b"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   46.0,
+   "tap",
+   "x"
+  ],
+  [
+   49.0,
+   "tap",
+   "b"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   52.0,
+   "tap",
+   "y"
+  ],
+  [
+   55.0,
+   "tap",
+   "x"
+  ],
+  [
+   58.0,
+   "tap",
+   "b"
+  ],
+  [
+   61.0,
+   "tap",
+   "y"
+  ],
+  [
+   64.0,
+   "tap",
+   "x"
+  ],
+  [
+   67.0,
+   "tap",
+   "b"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "y"
+  ],
+  [
+   73.0,
+   "tap",
+   "x"
+  ],
+  [
+   76.0,
+   "tap",
+   "b"
+  ],
+  [
+   79.0,
+   "tap",
+   "y"
+  ],
+  [
+   82.0,
+   "tap",
+   "x"
+  ],
+  [
+   85.0,
+   "tap",
+   "b"
+  ],
+  [
+   88.0,
+   "tap",
+   "y"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "x"
+  ],
+  [
+   94.0,
+   "tap",
+   "b"
+  ],
+  [
+   97.0,
+   "tap",
+   "y"
+  ],
+  [
+   100.0,
+   "tap",
+   "x"
+  ],
+  [
+   103.0,
+   "tap",
+   "b"
+  ],
+  [
+   106.0,
+   "tap",
+   "y"
+  ],
+  [
+   109.0,
+   "tap",
+   "x"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   112.0,
+   "tap",
+   "b"
+  ],
+  [
+   115.0,
+   "tap",
+   "y"
+  ],
+  [
+   118.0,
+   "tap",
+   "x"
+  ],
+  [
+   121.0,
+   "tap",
+   "b"
+  ],
+  [
+   124.0,
+   "tap",
+   "y"
+  ],
+  [
+   127.0,
+   "tap",
+   "x"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.0,
+   "tap",
+   "b"
+  ],
+  [
+   133.0,
+   "tap",
+   "y"
+  ],
+  [
+   136.0,
+   "tap",
+   "x"
+  ],
+  [
+   139.0,
+   "tap",
+   "b"
+  ],
+  [
+   142.0,
+   "tap",
+   "y"
+  ],
+  [
+   145.0,
+   "tap",
+   "x"
+  ],
+  [
+   148.0,
+   "tap",
+   "b"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   151.0,
+   "tap",
+   "y"
+  ],
+  [
+   154.0,
+   "tap",
+   "x"
+  ],
+  [
+   157.0,
+   "tap",
+   "b"
+  ],
+  [
+   160.0,
+   "tap",
+   "y"
+  ],
+  [
+   163.0,
+   "tap",
+   "x"
+  ],
+  [
+   166.0,
+   "tap",
+   "b"
+  ],
+  [
+   169.0,
+   "tap",
+   "y"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   172.0,
+   "tap",
+   "x"
+  ],
+  [
+   175.0,
+   "tap",
+   "b"
+  ],
+  [
+   178.0,
+   "tap",
+   "y"
+  ],
+  [
+   181.0,
+   "tap",
+   "x"
+  ],
+  [
+   184.0,
+   "tap",
+   "b"
+  ],
+  [
+   187.0,
+   "tap",
+   "y"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.0,
+   "tap",
+   "x"
+  ],
+  [
+   193.0,
+   "tap",
+   "b"
+  ],
+  [
+   196.0,
+   "tap",
+   "y"
+  ],
+  [
+   199.0,
+   "tap",
+   "x"
+  ],
+  [
+   202.0,
+   "tap",
+   "b"
+  ],
+  [
+   205.0,
+   "tap",
+   "y"
+  ],
+  [
+   208.0,
+   "tap",
+   "x"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   211.0,
+   "tap",
+   "b"
+  ],
+  [
+   214.0,
+   "tap",
+   "y"
+  ],
+  [
+   217.0,
+   "tap",
+   "x"
+  ],
+  [
+   220.0,
+   "tap",
+   "b"
+  ],
+  [
+   223.0,
+   "tap",
+   "y"
+  ],
+  [
+   226.0,
+   "tap",
+   "x"
+  ],
+  [
+   229.0,
+   "tap",
+   "b"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   232.0,
+   "tap",
+   "y"
+  ],
+  [
+   235.0,
+   "tap",
+   "x"
+  ],
+  [
+   238.0,
+   "tap",
+   "b"
+  ],
+  [
+   241.0,
+   "tap",
+   "y"
+  ],
+  [
+   244.0,
+   "tap",
+   "x"
+  ],
+  [
+   247.0,
+   "tap",
+   "b"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 169.84,
+  "confirmed_by": "w190",
+  "stopped_at_s": 198.3,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 4.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w130",
+    "t": 129.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w170",
+    "t": 169.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 198.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   46.13,
+   "tap",
+   "x"
+  ],
+  [
+   49.03,
+   "tap",
+   "b"
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   52.14,
+   "tap",
+   "y"
+  ],
+  [
+   55.04,
+   "tap",
+   "x"
+  ],
+  [
+   58.05,
+   "tap",
+   "b"
+  ],
+  [
+   61.0,
+   "tap",
+   "y"
+  ],
+  [
+   64.01,
+   "tap",
+   "x"
+  ],
+  [
+   67.01,
+   "tap",
+   "b"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.12,
+   "tap",
+   "y"
+  ],
+  [
+   73.03,
+   "tap",
+   "x"
+  ],
+  [
+   76.03,
+   "tap",
+   "b"
+  ],
+  [
+   79.04,
+   "tap",
+   "y"
+  ],
+  [
+   82.04,
+   "tap",
+   "x"
+  ],
+  [
+   85.05,
+   "tap",
+   "b"
+  ],
+  [
+   88.01,
+   "tap",
+   "y"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   91.02,
+   "tap",
+   "x"
+  ],
+  [
+   94.02,
+   "tap",
+   "b"
+  ],
+  [
+   97.03,
+   "tap",
+   "y"
+  ],
+  [
+   100.03,
+   "tap",
+   "x"
+  ],
+  [
+   103.04,
+   "tap",
+   "b"
+  ],
+  [
+   106.05,
+   "tap",
+   "y"
+  ],
+  [
+   109.01,
+   "tap",
+   "x"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   112.11,
+   "tap",
+   "b"
+  ],
+  [
+   115.02,
+   "tap",
+   "y"
+  ],
+  [
+   118.02,
+   "tap",
+   "x"
+  ],
+  [
+   121.03,
+   "tap",
+   "b"
+  ],
+  [
+   124.04,
+   "tap",
+   "y"
+  ],
+  [
+   127.04,
+   "tap",
+   "x"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.1,
+   "tap",
+   "b"
+  ],
+  [
+   133.01,
+   "tap",
+   "y"
+  ],
+  [
+   136.02,
+   "tap",
+   "x"
+  ],
+  [
+   139.02,
+   "tap",
+   "b"
+  ],
+  [
+   142.03,
+   "tap",
+   "y"
+  ],
+  [
+   145.03,
+   "tap",
+   "x"
+  ],
+  [
+   148.04,
+   "tap",
+   "b"
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ],
+  [
+   151.15,
+   "tap",
+   "y"
+  ],
+  [
+   154.01,
+   "tap",
+   "x"
+  ],
+  [
+   157.01,
+   "tap",
+   "b"
+  ],
+  [
+   160.02,
+   "tap",
+   "y"
+  ],
+  [
+   163.02,
+   "tap",
+   "x"
+  ],
+  [
+   166.03,
+   "tap",
+   "b"
+  ],
+  [
+   169.04,
+   "tap",
+   "y"
+  ],
+  [
+   169.84,
+   "watch",
+   "w170"
+  ],
+  [
+   172.14,
+   "tap",
+   "x"
+  ],
+  [
+   175.05,
+   "tap",
+   "b"
+  ],
+  [
+   178.01,
+   "tap",
+   "y"
+  ],
+  [
+   181.01,
+   "tap",
+   "x"
+  ],
+  [
+   184.02,
+   "tap",
+   "b"
+  ],
+  [
+   187.02,
+   "tap",
+   "y"
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.13,
+   "tap",
+   "x"
+  ],
+  [
+   193.08,
+   "tap",
+   "b"
+  ],
+  [
+   196.04,
+   "tap",
+   "y"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.0,
+   "bytes": 150234
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 33.4,
+   "bytes": 1445543
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 47.6,
+   "bytes": 1822948
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 52.6,
+   "bytes": 1852425
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 71.8,
+   "bytes": 2088299
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 90.1,
+   "bytes": 4613
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 113.0,
+   "bytes": 1300773
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.8,
+   "got_s": 132.4,
+   "bytes": 1311996
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 151.4,
+   "bytes": 2236662
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.84,
+   "got_s": 173.8,
+   "bytes": 1353268
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 194.4,
+   "bytes": 1227229
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 189.83,
+   "got_s": 194.4,
+   "bytes": 1227229,
+   "from_watch": "w190"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   31.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   32.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   46.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   103.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   104.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   105.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   110.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   111.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   112.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   123.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   124.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   131.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   132.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   138.1,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   153.3,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   165.5,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   186.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   187.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   195.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,Sphinx and the Cursed Mummy (U),crc32=f84aba1a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   56.0,
+   60.0,
+   59.8,
+   58.3,
+   59.6,
+   59.9,
+   59.8,
+   60.0,
+   59.2,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1226 words 1941247 headers 265923 methods 1675324 faults 0 GET 00e3e4d4 PUT 00e5de7c binds 5 semaphores 28753 flips 11719 traps 54924 (6=23438 21=11719 28=9362 8=9361 5=1036 9=8) runs 0 surfaces 5 clears 46204 swaps 11719 draws 5981538 ff 0 skipped 0 () textures 390 (191 held, 6 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.4 ms (max 22.9, 60 frames)",
+   "hakuX-hle-pb: catch-up: 29429 stores waited for the decoder (caught up 0; it waited on the guest at a trap 17618, a flip stall 11811, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 5720.8 ms",
+   "hakuX-hle-emit: per s: draws=12420 verts=1293240 mergeable=0 (not: strip 12420 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4096 set1=10506 pc=7808 vi=808 vb=12420 vp=210 sc=210 dyn=2286 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5981106 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1230 words 1967616 headers 269449 methods 1698152 faults 0 GET 00dc1604 PUT 00de26cc binds 5 semaphores 28888 flips 11779 traps 55224 (6=23558 21=11779 28=9422 8=9421 5=1036 9=8) runs 0 surfaces 5 clears 46444 swaps 11779 draws 5994211 ff 0 skipped 0 () textures 390 (191 held, 6 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.3 ms (max 22.9, 60 frames)",
+   "hakuX-hle-pb: catch-up: 29549 stores waited for the decoder (caught up 0; it waited on the guest at a trap 17720, a flip stall 11829, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 5742.0 ms",
+   "hakuX-hle-emit: per s: draws=12673 verts=1296856 mergeable=0 (not: strip 12673 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4120 set1=10761 pc=7862 vi=865 vb=12477 vp=209 sc=209 dyn=2245 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=5993779 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1229 words 2028704 headers 277477 methods 1751228 faults 0 GET 00f7f864 PUT 00da0c18 binds 5 semaphores 29023 flips 11839 traps 55524 (6=23678 21=11839 28=9482 8=9481 5=1036 9=8) runs 0 surfaces 5 clears 46684 swaps 11839 draws 6007628 ff 0 skipped 0 () textures 390 (191 held, 6 ",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.5 ms (max 23.0, 60 frames)",
+   "hakuX-hle-pb: catch-up: 29669 stores waited for the decoder (caught up 0; it waited on the guest at a trap 17818, a flip stall 11851, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 5763.6 ms",
+   "hakuX-hle-emit: per s: draws=13417 verts=1308388 mergeable=0 (not: strip 13417 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=4153 set1=11503 pc=7989 vi=925 vb=12602 vp=209 sc=209 dyn=2245 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=6007196 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=494492 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 53 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5600ddb73c40",
+   "[Gamescope WSI] Destroyed swapchain: 0x5600ddb73c40",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 197.5,
+  "peak_rms_dbfs": -7.6,
+  "first_sound_s": 3.0,
+  "audible_fraction": 0.97,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -35.4,
+   -26.8,
+   -32.0,
+   -25.0,
+   -29.2,
+   -24.6,
+   -23.2,
+   -23.6,
+   -23.8,
+   -24.2,
+   -18.7,
+   -24.8,
+   -13.0,
+   -10.1,
+   -15.0,
+   -52.5,
+   -34.3,
+   -32.5,
+   -26.4,
+   -12.3,
+   -9.4,
+   -13.2,
+   -21.8,
+   -21.8,
+   -24.3,
+   -24.3,
+   -24.1,
+   -22.6,
+   -24.3,
+   -23.1,
+   -23.1,
+   -23.3,
+   -24.1,
+   -15.8,
+   -17.1,
+   -15.3,
+   -19.6,
+   -25.1,
+   -12.0,
+   -23.3,
+   -23.1,
+   -10.5,
+   -11.5,
+   -11.8,
+   -33.8,
+   -36.6,
+   -35.0,
+   -36.8,
+   -39.0,
+   -38.6,
+   -31.5,
+   -26.5,
+   -36.3,
+   -39.2,
+   -29.3,
+   -38.2,
+   -43.3,
+   -7.6,
+   -11.0,
+   -17.8,
+   -29.0,
+   -36.6,
+   -35.8,
+   -28.7,
+   -33.4,
+   -33.1,
+   -26.1,
+   -27.0,
+   -28.1,
+   -38.6,
+   -24.5,
+   -33.7,
+   -28.8,
+   -34.6,
+   -38.4,
+   -42.5,
+   -46.7,
+   -23.4,
+   -28.1,
+   -44.5,
+   -35.3,
+   -30.3,
+   -38.1,
+   -33.7,
+   -27.4,
+   -39.0,
+   -38.8,
+   -40.6,
+   -33.4,
+   -34.8,
+   -40.0,
+   -37.6,
+   -41.7,
+   -43.1,
+   -38.9,
+   -39.4,
+   -39.9,
+   -43.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 169.84 s (judged from screenshots); stopped at 198.3 s and the emulator closed",
+ "duration_s": 198.5,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

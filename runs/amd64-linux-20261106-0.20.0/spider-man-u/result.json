@@ -1,0 +1,1009 @@
+{
+ "game_file": "Spider-Man (U).chd",
+ "game_size": 1802895242,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:37:40+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The first level (ORIGIN_Z) is in play before 45 s, but the default Start opens the pause menu and A goes into Audio Options, where only B leaves, so play is never seen again. No default presses from 36 s; A every 4 s (jump in play) lets the judge see play.",
+  "quiet": [
+   [
+    36.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    37.0,
+    "tap",
+    "a"
+   ],
+   [
+    41.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    61.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    77.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "a"
+   ],
+   [
+    89.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    97.0,
+    "tap",
+    "a"
+   ],
+   [
+    101.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    109.0,
+    "tap",
+    "a"
+   ],
+   [
+    113.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   37.0,
+   "tap",
+   "a"
+  ],
+  [
+   41.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   61.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   77.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   97.0,
+   "tap",
+   "a"
+  ],
+  [
+   101.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   113.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.85,
+  "confirmed_by": "w070",
+  "stopped_at_s": 73.7,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 73.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   37.03,
+   "tap",
+   "a"
+  ],
+  [
+   41.03,
+   "tap",
+   "a"
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.14,
+   "tap",
+   "a"
+  ],
+  [
+   49.05,
+   "tap",
+   "a"
+  ],
+  [
+   49.85,
+   "watch",
+   "w050"
+  ],
+  [
+   53.01,
+   "tap",
+   "a"
+  ],
+  [
+   57.01,
+   "tap",
+   "a"
+  ],
+  [
+   61.02,
+   "tap",
+   "a"
+  ],
+  [
+   65.03,
+   "tap",
+   "a"
+  ],
+  [
+   69.03,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   73.04,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.8,
+   "bytes": 295477
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.0,
+   "bytes": 543920
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.8,
+   "bytes": 750211
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.85,
+   "got_s": 51.5,
+   "bytes": 652261
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.5,
+   "bytes": 648963
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.84,
+   "got_s": 71.5,
+   "bytes": 648963,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Spider-Man (U),crc32=173fb96d"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.3,
+   58.6,
+   56.3,
+   57.8,
+   59.6,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-disp: stats: 59.8 new frames/s, age front to taken 8.22 ms (max 10.72), gap 16.72 ms (max 52.01, 1 over 25 ms)",
+   "hakuX-hle-pb: kicks 944 words 2244673 headers 254950 methods 1989712 faults 0 GET 03f8e7dc PUT 03fb0cd8 binds 4 semaphores 19771 flips 4133 traps 4368 (2=4133 5=228 9=6 8=1) runs 0 surfaces 7 clears 10938 swaps 4133 draws 577936 ff 0 skipped 0 () textures 354 (100 held, 6 MiB) rt uploads 3 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 53.5 ms (max 55.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=9940 verts=2137320 mergeable=0 (not: strip 8040 idx 1900 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3312 set1=9707 pc=5471 vi=498 vb=7968 vp=154 sc=154 dyn=7320 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=577904 prog_fog=577904 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2249 sysops 4430 (int 937, of them ticks 260; hook 0) schedules 1937 switches 1922 idle 0 slices 45 page faults 0 mmio 12002 apu waits 0 vm pages +0 -0 isr irq1:500 (max 1.7 ms) irq3:120 (max 0.2 ms) irq5:2 (max 0.2 ms) | dpc max wait 0.4 run 0.7 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 9300 KiB, contiguous 36772 KiB (255 blocks), virtual 18708 KiB, kernel pool 14 of 64 KiB (Ex 68, objects 9, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 944 words 2244577 headers 254962 methods 1989592 faults 0 GET 03fa40a4 PUT 03fc82f0 binds 4 semaphores 20183 flips 4193 traps 4428 (2=4193 5=228 9=6 8=1) runs 0 surfaces 7 clears 11178 swaps 4193 draws 587874 ff 0 skipped 0 () textures 354 (100 held, 6 MiB) rt uploads 3 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 53.9 ms (max 54.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=9938 verts=2137308 mergeable=0 (not: strip 8040 idx 1898 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3312 set1=9700 pc=5472 vi=499 vb=7976 vp=153 sc=153 dyn=7298 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=587842 prog_fog=587842 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 944 words 2244987 headers 255010 methods 1989964 faults 0 GET 03fb9c34 PUT 03f5d170 binds 4 semaphores 20595 flips 4253 traps 4488 (2=4253 5=228 9=6 8=1) runs 0 surfaces 7 clears 11418 swaps 4253 draws 597819 ff 0 skipped 0 () textures 354 (100 held, 6 MiB) rt uploads 3 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 53.9 ms (max 54.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=9945 verts=2137350 mergeable=0 (not: strip 8040 idx 1905 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3308 set1=9711 pc=5467 vi=491 vb=7968 vp=150 sc=150 dyn=7262 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=597787 prog_fog=597787 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=191039 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 53 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x561276541ca0",
+   "[Gamescope WSI] Destroyed swapchain: 0x561276541ca0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 72.6,
+  "peak_rms_dbfs": -17.6,
+  "first_sound_s": 5.0,
+  "audible_fraction": 0.79,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -44.4,
+   -41.4,
+   -30.2,
+   -24.1,
+   -31.5,
+   -33.1,
+   -120.0,
+   -32.0,
+   -30.5,
+   -24.3,
+   -25.4,
+   -24.4,
+   -25.6,
+   -42.9,
+   -120.0,
+   -18.5,
+   -18.6,
+   -17.6,
+   -21.7,
+   -23.3,
+   -22.1,
+   -23.3,
+   -22.6,
+   -22.9,
+   -23.2,
+   -23.3,
+   -22.8,
+   -22.9,
+   -22.6,
+   -22.3,
+   -22.9,
+   -22.0,
+   -22.6,
+   -22.5,
+   -23.4
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.85 s (judged from screenshots); stopped at 73.7 s and the emulator closed",
+ "duration_s": 73.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

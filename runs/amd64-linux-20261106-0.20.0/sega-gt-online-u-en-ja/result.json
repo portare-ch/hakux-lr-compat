@@ -1,0 +1,1666 @@
+{
+ "game_file": "Sega GT Online (U) (En,Ja).chd",
+ "game_size": 3238344275,
+ "system": "amd64-linux",
+ "started": "2026-11-07T00:21:51+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The main menu (from about 30 s) starts on SEGA GT 2002, the career, where the car shop loops on 'You don't have enough money' and NO LICENSE. Down then A picks QUICK BATTLE; the defaults then go Single Race > Ford > Mustang GT > Iron City Circuit into a race.",
+  "quiet": [
+   [
+    30.0,
+    35.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    33.0,
+    "tap",
+    "down"
+   ],
+   [
+    33.8,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   33.0,
+   "tap",
+   "down"
+  ],
+  [
+   33.8,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.84,
+  "confirmed_by": "w090",
+  "stopped_at_s": 99.7,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   33.03,
+   "tap",
+   "down"
+  ],
+  [
+   33.84,
+   "tap",
+   "a"
+  ],
+  [
+   35.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   70.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "held",
+   "start"
+  ],
+  [
+   83.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.54,
+   "held",
+   "start"
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "held",
+   "start"
+  ],
+  [
+   93.12,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.53,
+   "held",
+   "start"
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.5,
+   "bytes": 129336
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 31.9,
+   "bytes": 1075494
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 48.4,
+   "bytes": 965479
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 53.0,
+   "bytes": 681089
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 73.6,
+   "bytes": 1558986
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 94.2,
+   "bytes": 1557631
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.81,
+   "got_s": 94.2,
+   "bytes": 1557631,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   59.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   60.9,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   68.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   69.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   70.0,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   74.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   75.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   76.1,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   78.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   79.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   80.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   81.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   82.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   83.2,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Sega GT Online (U) (En,Ja),crc32=1aceee38"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.2,
+   59.9,
+   57.0,
+   58.5,
+   58.0,
+   55.1,
+   58.7,
+   56.2,
+   54.3
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: stutter #175 frame 5543: front 44.6 ms after the last (expected 33.4), 0 dropped: guest flipped 11 ms after its vblank, ready 33 ms before | swap +0.4 write +0.5 ready +0.6 flip +44.6 front +44.6 shown +48.7 ms (vs the last front)",
+   "hakuX-native-irq: line 1 delivered 11.0 ms after it rose: 0 refusals, first none: no kernel entry meanwhile (IRQL 0, ISR line -1, thread t0); the guest CPU's thread ran 0.0 ms of it",
+   "hakuX-native-irq: line 1 taken 11.0 ms after it rose",
+   "hakuX-hle-hitch: stutter #176 frame 5569: front 38.5 ms after the last (expected 16.7), 0 dropped: guest flipped 22 ms after its vblank, ready 16 ms before | swap +0.1 write +0.1 ready +1.0 flip +38.5 front +38.5 shown +46.5 ms (vs the last front)",
+   "hakuX-hle-hitch: stutter #177 frame 5572: front 34.6 ms after the last (expected 16.7), 1 dropped: UI missed 1 front frame (pickups 33 ms apart) | swap +21.8 write +21.8 ready +21.9 flip +34.6 front +34.6 shown +37.0 ms (vs the last front) | skipped: 1 written 1 ready 1 front (largest front gap 21 m",
+   "hakuX-hle-pb: kicks 5414 words 7791794 headers 1361587 methods 6430477 faults 0 GET 036f2434 PUT 03735948 binds 5 semaphores 72156 flips 5588 traps 60847 (28=27106 8=27105 21=5588 5=1042 9=6) runs 0 surfaces 70 clears 40361 swaps 5588 draws 3516817 ff 2838365 skipped 0 () textures 1380 (718 held, 18",
+   "hakuX-hle-pb: frame pace off: 47 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 28.2 ms (max 52.8, 45 frames)",
+   "hakuX-hle-pb: report gate: 366 reads waited for their visibility tests (+1), 403.9 ms in all, 0 given up, 303 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=70974 verts=3439025 mergeable=0 (not: strip 70927 idx 0 state 47 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=23151 set1=26671 pc=59501 vi=6783 vb=56479 vp=690 sc=737 dyn=18184 fb=2350",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3512744 prog_fog=2671235 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 6974 words 10037780 headers 1755832 methods 8281932 faults 0 GET 03743a48 PUT 0386974c binds 5 semaphores 73735 flips 5649 traps 62255 (28=27779 8=27778 21=5649 5=1043 9=6) runs 0 surfaces 70 clears 41216 swaps 5649 draws 3608296 ff 2913557 skipped 0 () textures 1380 (718 held, 1",
+   "hakuX-hle-pb: frame pace off: 61 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 34.6 ms (max 50.3, 61 frames)",
+   "hakuX-hle-pb: report gate: 375 reads waited for their visibility tests (+9), 410.5 ms in all, 0 given up, 307 at once (the decoder held short of them)",
+   "hakuX-hle-emit: per s: draws=91479 verts=4406351 mergeable=0 (not: strip 91418 idx 0 state 61 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=29753 set1=34351 pc=76781 vi=8606 vb=72668 vp=864 sc=925 dyn=23054 fb=3050",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3604223 prog_fog=2743907 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2414046 first_call=PsCreateSystemThreadEx threads=8",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 328296 bytes (merged in 0.0 ms, serialized in 0.1 ms, written in 0.1 ms), spirv hits=347 misses=145",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 49 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55e55b7fedc0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55e55b7fedc0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 98.8,
+  "peak_rms_dbfs": -16.7,
+  "first_sound_s": 19.5,
+  "audible_fraction": 0.66,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -43.1,
+   -120.0,
+   -120.0,
+   -27.9,
+   -29.2,
+   -22.7,
+   -21.3,
+   -20.9,
+   -20.5,
+   -20.8,
+   -21.4,
+   -23.8,
+   -23.1,
+   -21.8,
+   -23.7,
+   -20.9,
+   -20.9,
+   -19.5,
+   -19.7,
+   -50.2,
+   -21.7,
+   -17.5,
+   -16.7,
+   -18.0,
+   -18.0,
+   -19.0,
+   -120.0,
+   -18.9,
+   -19.6,
+   -19.9,
+   -18.9,
+   -19.0,
+   -19.1,
+   -19.0,
+   -19.1,
+   -18.9,
+   -19.1,
+   -19.1,
+   -18.9,
+   -18.4,
+   -19.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.84 s (judged from screenshots); stopped at 99.7 s and the emulator closed",
+ "duration_s": 99.9,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

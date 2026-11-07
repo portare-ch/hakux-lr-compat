@@ -1,0 +1,3255 @@
+{
+ "game_file": "Star Wars - Obi-Wan (U).chd",
+ "game_size": 1200538856,
+ "system": "amd64-linux",
+ "started": "2026-11-07T04:04:50+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "ENTER NAME (from about 30 s, 'JEDI 1YYY', cursor on Y) needs PROCEED at the bottom right; A only types, and B goes back to the main menu, whose New Game returns here. The menu runs at 6-9 fps and drops quick presses, so 400 ms presses 2 s apart (250 ms ones were still dropped in the run): Down x2 to SPACE, Right x2 to PROCEED, A. Loading and the opening crawl follow.",
+  "quiet": [
+   [
+    31.0,
+    43.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    31.5,
+    "tap",
+    "down",
+    400
+   ],
+   [
+    33.5,
+    "tap",
+    "down",
+    400
+   ],
+   [
+    35.5,
+    "tap",
+    "right",
+    400
+   ],
+   [
+    37.5,
+    "tap",
+    "right",
+    400
+   ],
+   [
+    39.5,
+    "tap",
+    "a",
+    400
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   31.5,
+   "tap",
+   "down",
+   400
+  ],
+  [
+   33.5,
+   "tap",
+   "down",
+   400
+  ],
+  [
+   35.5,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   37.5,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   39.5,
+   "tap",
+   "a",
+   400
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    73.02,
+    "b"
+   ],
+   [
+    130.54,
+    "down"
+   ],
+   [
+    170.53,
+    "b"
+   ],
+   [
+    230.5,
+    "down"
+   ],
+   [
+    270.54,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w110",
+    "t": 109.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w210",
+    "t": 209.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w230",
+    "t": 229.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 300.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   31.5,
+   "tap",
+   "down",
+   400
+  ],
+  [
+   33.51,
+   "tap",
+   "down",
+   400
+  ],
+  [
+   35.51,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   37.51,
+   "tap",
+   "right",
+   400
+  ],
+  [
+   39.51,
+   "tap",
+   "a",
+   400
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.02,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   75.53,
+   "held",
+   "start"
+  ],
+  [
+   78.03,
+   "held",
+   "a"
+  ],
+  [
+   80.54,
+   "held",
+   "start"
+  ],
+  [
+   83.04,
+   "held",
+   "a"
+  ],
+  [
+   85.55,
+   "held",
+   "start"
+  ],
+  [
+   88.0,
+   "held",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   90.51,
+   "held",
+   "start"
+  ],
+  [
+   93.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.54,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   133.05,
+   "held",
+   "a"
+  ],
+  [
+   135.5,
+   "held",
+   "start"
+  ],
+  [
+   138.01,
+   "held",
+   "a"
+  ],
+  [
+   140.51,
+   "held",
+   "start"
+  ],
+  [
+   143.02,
+   "held",
+   "a"
+  ],
+  [
+   145.52,
+   "held",
+   "start"
+  ],
+  [
+   148.03,
+   "held",
+   "a"
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   150.53,
+   "held",
+   "start"
+  ],
+  [
+   153.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.53,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   173.03,
+   "held",
+   "a"
+  ],
+  [
+   175.54,
+   "held",
+   "start"
+  ],
+  [
+   178.04,
+   "held",
+   "a"
+  ],
+  [
+   180.55,
+   "held",
+   "start"
+  ],
+  [
+   183.0,
+   "held",
+   "a"
+  ],
+  [
+   185.51,
+   "held",
+   "start"
+  ],
+  [
+   188.01,
+   "held",
+   "a"
+  ],
+  [
+   189.82,
+   "watch",
+   "w190"
+  ],
+  [
+   190.52,
+   "held",
+   "start"
+  ],
+  [
+   193.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.81,
+   "watch",
+   "w210"
+  ],
+  [
+   210.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "down",
+   "instead of",
+   "start"
+  ],
+  [
+   233.01,
+   "held",
+   "a"
+  ],
+  [
+   235.52,
+   "held",
+   "start"
+  ],
+  [
+   238.02,
+   "held",
+   "a"
+  ],
+  [
+   240.53,
+   "held",
+   "start"
+  ],
+  [
+   243.03,
+   "held",
+   "a"
+  ],
+  [
+   245.54,
+   "held",
+   "start"
+  ],
+  [
+   248.04,
+   "held",
+   "a"
+  ],
+  [
+   249.85,
+   "watch",
+   "w250"
+  ],
+  [
+   250.55,
+   "held",
+   "start"
+  ],
+  [
+   253.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   270.54,
+   "tap",
+   "b",
+   "instead of",
+   "start"
+  ],
+  [
+   273.0,
+   "held",
+   "a"
+  ],
+  [
+   275.51,
+   "held",
+   "start"
+  ],
+  [
+   278.01,
+   "held",
+   "a"
+  ],
+  [
+   280.52,
+   "held",
+   "start"
+  ],
+  [
+   283.02,
+   "held",
+   "a"
+  ],
+  [
+   285.53,
+   "held",
+   "start"
+  ],
+  [
+   288.03,
+   "held",
+   "a"
+  ],
+  [
+   289.84,
+   "watch",
+   "w290"
+  ],
+  [
+   290.54,
+   "held",
+   "start"
+  ],
+  [
+   293.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.05,
+   "release"
+  ],
+  [
+   300.01,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 105648
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 30.3,
+   "bytes": 267146
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 45.1,
+   "bytes": 264790
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 50.3,
+   "bytes": 267745
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 70.5,
+   "bytes": 267633
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 90.7,
+   "bytes": 587773
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.8,
+   "got_s": 110.5,
+   "bytes": 265096
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 130.3,
+   "bytes": 264967
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 150.3,
+   "bytes": 264980
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 170.3,
+   "bytes": 264921
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.82,
+   "got_s": 190.9,
+   "bytes": 587773
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.81,
+   "got_s": 210.3,
+   "bytes": 265874
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.8,
+   "got_s": 230.3,
+   "bytes": 265521
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.85,
+   "got_s": 250.5,
+   "bytes": 264745
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 270.3,
+   "bytes": 264692
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.84,
+   "got_s": 290.9,
+   "bytes": 587773
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.01,
+   "got_s": 300.5,
+   "bytes": 263534
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   24.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   156.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   157.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   158.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   161.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   162.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   163.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   167.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   168.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   169.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   170.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   171.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   173.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   174.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   175.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   176.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   177.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   178.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   179.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   180.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   181.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   182.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   183.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   184.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   186.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   187.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   188.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   189.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   190.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   191.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   192.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   193.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   194.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   195.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   196.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   197.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   199.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   200.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   201.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   202.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   203.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   204.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   205.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   206.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   207.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   208.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   209.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   210.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   211.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   212.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   213.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   214.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   215.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   216.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   217.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   218.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   219.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   220.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   221.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   222.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   223.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   224.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   225.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   226.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   227.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   228.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   229.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   230.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   231.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   232.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   233.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   234.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   235.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   236.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   237.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   238.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   239.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   240.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   241.8,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   242.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   243.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   244.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   245.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   246.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   247.9,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   249.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   250.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   251.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   252.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   253.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   254.0,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   255.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   256.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   257.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   258.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   259.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   260.1,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   261.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   262.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   263.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   264.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   265.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   266.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   267.2,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   268.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   269.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   270.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   271.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   272.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   273.3,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   274.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   275.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   276.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   277.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   278.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   279.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   280.4,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   281.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   282.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   283.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   284.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   285.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   286.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   287.5,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   288.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   289.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   290.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   291.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   292.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   293.6,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   294.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   295.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   296.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   297.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   298.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   299.7,
+   "GET_STATUS PLAYING xbox,Star Wars - Obi-Wan (U),crc32=eb197ef5"
+  ],
+  [
+   301.5,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55540.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   11.4,
+   23.7,
+   6.7,
+   6.5,
+   6.5,
+   6.6,
+   6.6,
+   9.4,
+   9.4,
+   9.0,
+   6.6,
+   6.6,
+   6.5,
+   6.6,
+   6.6,
+   6.7,
+   6.5,
+   10.2,
+   9.4,
+   8.8,
+   6.5,
+   6.6,
+   6.5,
+   6.6,
+   6.5,
+   6.7,
+   7.3,
+   9.9,
+   9.5
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=11251 verts=107568 mergeable=0 (not: strip 10969 idx 282 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1245 set1=11251 pc=714 vi=624 vb=7587 vp=49 sc=49 dyn=801 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3248362 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 10899 words 1355962 headers 338917 methods 1017040 faults 0 GET 03de1d1c PUT 03de1d1c binds 4 semaphores 3046784 flips 2446 traps 2453 (4=2446 20=6 1c=1) runs 0 surfaces 3 clears 9402 swaps 2446 draws 3259730 ff 3259730 skipped 0 () textures 50 (30 held, 5 MiB) rt uploads 2 blits",
+   "hakuX-hle-pb: frame pace off: 7 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 16.2 ms (max 18.5, 7 frames)",
+   "hakuX-hle-pb: catch-up: 5715 stores waited for the decoder (caught up 2311; it waited on the guest at a trap 541, a flip stall 2863, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 176.1 ms",
+   "hakuX-hle-emit: per s: draws=11364 verts=105784 mergeable=0 (not: strip 11035 idx 329 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1226 set1=11364 pc=704 vi=620 vb=7593 vp=51 sc=51 dyn=828 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3259726 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 10137 words 1262573 headers 315296 methods 947264 faults 0 GET 03e33d20 PUT 03e33d20 binds 4 semaphores 3056694 flips 2452 traps 2459 (4=2452 20=6 1c=1) runs 0 surfaces 3 clears 9422 swaps 2452 draws 3270287 ff 3270287 skipped 0 () textures 50 (30 held, 5 MiB) rt uploads 2 blits ",
+   "hakuX-hle-pb: frame pace off: 6 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.7 ms (max 55.0, 6 frames)",
+   "hakuX-hle-pb: catch-up: 5727 stores waited for the decoder (caught up 2314; it waited on the guest at a trap 542, a flip stall 2871, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 176.5 ms",
+   "hakuX-hle-emit: per s: draws=10557 verts=100560 mergeable=0 (not: strip 10275 idx 282 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1136 set1=10557 pc=636 vi=590 vb=7138 vp=46 sc=46 dyn=757 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3270283 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #194 frame 2453: front 250.0 ms after the last (expected 133.5), 0 dropped: guest 246 ms: JIT compiling: 100% of the vCPU in FEX | swap +234.7 write +234.8 ready +234.9 flip +250.0 front +250.0 shown +258.1 ms (vs the last front) | guest: vCPU cpu 218 ms halted 0% | render c",
+   "hakuX-native-usb: ohci: 5000 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fde000, intr 00000004/80000073",
+   "hakuX-hle-fps: 7.0 fps (35 frames in 5.02 s)",
+   "hakuX-libretro: stats: 59.80 retro_run/s, 16.61 ms each (max 17.52), video 16.51 ms (max 17.46)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=744731 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 54 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x562982a51920",
+   "[Gamescope WSI] Destroyed swapchain: 0x562982a51920",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 299.6,
+  "peak_rms_dbfs": -16.2,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.99,
+  "rms_dbfs_per_2s": [
+   -31.5,
+   -30.8,
+   -23.0,
+   -19.0,
+   -25.4,
+   -16.2,
+   -28.2,
+   -26.3,
+   -28.2,
+   -28.3,
+   -27.7,
+   -28.1,
+   -28.1,
+   -26.4,
+   -28.1,
+   -27.4,
+   -25.9,
+   -30.1,
+   -28.2,
+   -23.6,
+   -21.0,
+   -21.1,
+   -22.7,
+   -21.9,
+   -22.2,
+   -21.6,
+   -25.3,
+   -25.2,
+   -23.2,
+   -23.8,
+   -23.0,
+   -23.8,
+   -24.8,
+   -23.0,
+   -25.3,
+   -25.6,
+   -25.3,
+   -22.7,
+   -23.0,
+   -25.0,
+   -23.1,
+   -22.8,
+   -25.7,
+   -23.6,
+   -24.6,
+   -24.6,
+   -24.2,
+   -24.2,
+   -24.1,
+   -24.4,
+   -26.0,
+   -27.2,
+   -27.2,
+   -26.0,
+   -25.4,
+   -25.3,
+   -26.7,
+   -25.5,
+   -25.2,
+   -24.6,
+   -27.7,
+   -33.6,
+   -26.3,
+   -28.6,
+   -28.6,
+   -27.3,
+   -28.5,
+   -28.0,
+   -26.0,
+   -28.0,
+   -26.2,
+   -28.2,
+   -27.8,
+   -27.9,
+   -20.9,
+   -22.3,
+   -21.0,
+   -23.2,
+   -21.8,
+   -21.3,
+   -23.2,
+   -25.4,
+   -25.2,
+   -23.1,
+   -23.6,
+   -22.8,
+   -23.6,
+   -23.6,
+   -23.5,
+   -25.4,
+   -25.2,
+   -25.0,
+   -22.9,
+   -23.0,
+   -25.1,
+   -23.0,
+   -22.4,
+   -24.9,
+   -23.7,
+   -24.2,
+   -25.3,
+   -24.0,
+   -23.8,
+   -24.5,
+   -24.2,
+   -26.9,
+   -26.9,
+   -27.8,
+   -25.9,
+   -25.3,
+   -25.3,
+   -28.4,
+   -25.4,
+   -24.5,
+   -25.7,
+   -27.5,
+   -36.7,
+   -25.9,
+   -28.9,
+   -28.7,
+   -27.2,
+   -28.2,
+   -28.0,
+   -25.7,
+   -27.9,
+   -26.5,
+   -28.5,
+   -27.9,
+   -22.7,
+   -20.6,
+   -22.2,
+   -20.9,
+   -22.9,
+   -21.8,
+   -21.3,
+   -23.3,
+   -25.3,
+   -25.7,
+   -23.5,
+   -23.0,
+   -23.6,
+   -23.4,
+   -23.3,
+   -24.3,
+   -25.7,
+   -25.4,
+   -25.0,
+   -22.4,
+   -23.0,
+   -24.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 300.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

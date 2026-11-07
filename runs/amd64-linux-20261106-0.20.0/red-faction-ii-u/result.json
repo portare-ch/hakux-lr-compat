@@ -1,0 +1,1218 @@
+{
+ "game_file": "Red Faction II (U).chd",
+ "game_size": 1228303117,
+ "system": "amd64-linux",
+ "started": "2026-11-07T04:04:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'No profile has been selected ... Do you want to continue?' (from about 21 s) defaults to NO, so Start/A loop between it and the main menu. Left then A at 31 s picks YES; then only A every 4 s from 44 s (Level Select, Difficulty, loading), as a Start in the level pauses it for the rest of the run.",
+  "quiet": [
+   [
+    30.0,
+    35.0
+   ],
+   [
+    44.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    31.0,
+    "tap",
+    "left"
+   ],
+   [
+    31.8,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    61.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    77.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "a"
+   ],
+   [
+    89.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   31.0,
+   "tap",
+   "left"
+  ],
+  [
+   31.8,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   61.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   77.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 89.81,
+  "confirmed_by": "w110",
+  "stopped_at_s": 117.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.9
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 117.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   31.04,
+   "tap",
+   "left"
+  ],
+  [
+   31.85,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.12,
+   "tap",
+   "a"
+  ],
+  [
+   49.02,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   53.03,
+   "tap",
+   "a"
+  ],
+  [
+   57.04,
+   "tap",
+   "a"
+  ],
+  [
+   61.04,
+   "tap",
+   "a"
+  ],
+  [
+   65.05,
+   "tap",
+   "a"
+  ],
+  [
+   69.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   73.02,
+   "tap",
+   "a"
+  ],
+  [
+   77.03,
+   "tap",
+   "a"
+  ],
+  [
+   81.04,
+   "tap",
+   "a"
+  ],
+  [
+   85.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   109.85,
+   "watch",
+   "w110"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.5,
+   "bytes": 101909
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.9,
+   "bytes": 420011
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.8,
+   "bytes": 677351
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 52.5,
+   "bytes": 1034357
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 72.1,
+   "bytes": 622949
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 93.7,
+   "bytes": 1182161
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.85,
+   "got_s": 113.7,
+   "bytes": 1160280
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 109.85,
+   "got_s": 113.7,
+   "bytes": 1160280,
+   "from_watch": "w110"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   102.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   103.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   104.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   108.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   109.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   110.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   111.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   114.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   115.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   116.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ],
+  [
+   117.0,
+   "GET_STATUS PLAYING xbox,Red Faction II (U),crc32=84088796"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55510.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.0,
+   39.5,
+   59.8,
+   60.0,
+   59.1,
+   37.8,
+   29.9,
+   30.0,
+   44.8,
+   59.9,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1657126 prog_fog=1363072 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3477 sysops 5993 (int 948, of them ticks 8; hook 0) schedules 2458 switches 1943 idle 448 slices 0 page faults 0 mmio 18911 apu waits 0 vm pages +0 -0 isr irq1:529 (max 2.1 ms) irq3:223 (max 0.9 ms) irq5:17 (max 0.3 ms) | dpc max wait 0.8 run 1.2 ms, 0 over 8 ms | h",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 479 (pages 029d2000:2560) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 7872 KiB, contiguous 23148 KiB (1977 blocks), virtual 33412 KiB, kernel pool 29 of 64 KiB (Ex 63, objects 9, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-pb: kicks 2512 words 4041663 headers 657283 methods 3384347 faults 0 GET 03fb89f4 PUT 03fb89f4 binds 4 semaphores 94066 flips 5367 traps 11915 (5=6541 1=5367 9=6 28=1) runs 0 surfaces 11 clears 20120 swaps 5367 draws 1686782 ff 1621281 skipped 0 () textures 260 (260 held, 19 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 24.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2207 stores waited for the decoder (caught up 2207; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 733.0 ms",
+   "hakuX-hle-emit: per s: draws=28923 verts=3490734 mergeable=0 (not: strip 0 idx 20763 state 8160 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1140, contiguous 0 pipe=6662 set1=8462 pc=20583 vi=781 vb=22149 vp=60 sc=300 dyn=9723 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1686049 prog_fog=1386653 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2523 words 4038505 headers 657088 methods 3381395 faults 0 GET 03fab2ec PUT 03fab2ec binds 4 semaphores 95431 flips 5427 traps 12086 (5=6652 1=5427 9=6 28=1) runs 0 surfaces 11 clears 20360 swaps 5427 draws 1715699 ff 1649120 skipped 0 () textures 260 (260 held, 19 MiB) rt upload",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 24.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2267 stores waited for the decoder (caught up 2267; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 749.9 ms",
+   "hakuX-hle-emit: per s: draws=28917 verts=3486270 mergeable=0 (not: strip 0 idx 20757 state 8160 work 0 gap 0) batches=0 of 0 draws indexed: no state between 1140, contiguous 0 pipe=6658 set1=8460 pc=20577 vi=779 vb=22149 vp=60 sc=300 dyn=9717 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1714966 prog_fog=1410232 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1100171 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 123952 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=155 misses=66",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 56 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55caa9ce3c50",
+   "[Gamescope WSI] Destroyed swapchain: 0x55caa9ce3c50",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 115.9,
+  "peak_rms_dbfs": -13.0,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.95,
+  "rms_dbfs_per_2s": [
+   -19.9,
+   -13.8,
+   -23.3,
+   -30.8,
+   -13.0,
+   -15.2,
+   -120.0,
+   -28.5,
+   -23.6,
+   -26.2,
+   -25.0,
+   -26.2,
+   -28.3,
+   -28.0,
+   -26.3,
+   -26.1,
+   -25.2,
+   -24.5,
+   -25.1,
+   -23.5,
+   -18.8,
+   -16.2,
+   -16.1,
+   -15.7,
+   -18.5,
+   -17.1,
+   -17.4,
+   -25.5,
+   -25.0,
+   -16.8,
+   -15.9,
+   -18.7,
+   -17.0,
+   -17.0,
+   -21.0,
+   -19.9,
+   -19.4,
+   -18.1,
+   -14.8,
+   -15.0,
+   -16.0,
+   -23.4,
+   -25.5,
+   -17.2,
+   -16.5,
+   -17.4,
+   -22.1,
+   -21.8,
+   -21.0,
+   -19.9,
+   -19.6,
+   -19.9,
+   -18.7,
+   -21.8,
+   -24.6,
+   -26.5,
+   -25.7,
+   -25.6
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.81 s (judged from screenshots); stopped at 117.2 s and the emulator closed",
+ "duration_s": 117.4,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

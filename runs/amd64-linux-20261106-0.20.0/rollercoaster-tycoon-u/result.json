@@ -1,0 +1,3146 @@
+{
+ "game_file": "RollerCoaster Tycoon (U).chd",
+ "game_size": 163579095,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:00:38+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 300,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The game misses 150 ms presses and its menus use a pointer moved with the d-pad. After Start on the title (from about 30 s) the three icons appear with the pointer above them; Down 0.8 s then Left 0.6 s puts it on 'Start New Game', and a 300 ms A opens Select Scenario, with the pointer at the bottom of the list. Up 1.2 s reaches Forest Frontiers and a 300 ms A starts it; the park opens with its objective window.",
+  "press_ms": 300,
+  "quiet": [
+   [
+    39.5,
+    52.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "down",
+    800
+   ],
+   [
+    41.0,
+    "tap",
+    "left",
+    600
+   ],
+   [
+    42.0,
+    "tap",
+    "a",
+    300
+   ],
+   [
+    45.0,
+    "tap",
+    "up",
+    1200
+   ],
+   [
+    47.0,
+    "tap",
+    "a",
+    300
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   40.0,
+   "tap",
+   "down",
+   800
+  ],
+  [
+   41.0,
+   "tap",
+   "left",
+   600
+  ],
+  [
+   42.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "up",
+   1200
+  ],
+  [
+   47.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.8,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w190",
+    "t": 189.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w210",
+    "t": 209.85,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w230",
+    "t": 229.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w250",
+    "t": 249.84,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w270",
+    "t": 269.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w290",
+    "t": 289.85,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "killed",
+  "at_s": 311.9,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   35.52,
+   "held",
+   "start"
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   40.02,
+   "tap",
+   "down",
+   800
+  ],
+  [
+   41.02,
+   "tap",
+   "left",
+   600
+  ],
+  [
+   42.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.13,
+   "tap",
+   "up",
+   1200
+  ],
+  [
+   47.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   55.5,
+   "held",
+   "start"
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.53,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   73.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   75.55,
+   "held",
+   "start"
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   80.51,
+   "held",
+   "start"
+  ],
+  [
+   83.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   85.51,
+   "held",
+   "start"
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "held",
+   "start"
+  ],
+  [
+   93.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.05,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   103.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   105.51,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.51,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   113.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   115.53,
+   "held",
+   "start"
+  ],
+  [
+   118.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   120.54,
+   "held",
+   "start"
+  ],
+  [
+   123.05,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   125.55,
+   "held",
+   "start"
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   130.51,
+   "held",
+   "start"
+  ],
+  [
+   133.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   135.53,
+   "held",
+   "start"
+  ],
+  [
+   138.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   140.54,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   145.51,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   148.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   153.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   155.53,
+   "held",
+   "start"
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   160.54,
+   "held",
+   "start"
+  ],
+  [
+   163.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   165.55,
+   "held",
+   "start"
+  ],
+  [
+   168.05,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "held",
+   "start"
+  ],
+  [
+   173.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   175.53,
+   "held",
+   "start"
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   180.54,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   183.05,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   189.81,
+   "watch",
+   "w190"
+  ],
+  [
+   190.51,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   193.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   195.53,
+   "held",
+   "start"
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   200.53,
+   "held",
+   "start"
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   205.54,
+   "held",
+   "start"
+  ],
+  [
+   208.05,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   209.85,
+   "watch",
+   "w210"
+  ],
+  [
+   210.55,
+   "held",
+   "start"
+  ],
+  [
+   213.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   215.51,
+   "held",
+   "start"
+  ],
+  [
+   218.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   220.52,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   223.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   225.53,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   228.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   229.84,
+   "watch",
+   "w230"
+  ],
+  [
+   230.54,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   235.51,
+   "held",
+   "start"
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   240.51,
+   "held",
+   "start"
+  ],
+  [
+   243.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   245.53,
+   "held",
+   "start"
+  ],
+  [
+   248.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   249.84,
+   "watch",
+   "w250"
+  ],
+  [
+   250.55,
+   "held",
+   "start"
+  ],
+  [
+   253.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   255.52,
+   "held",
+   "start"
+  ],
+  [
+   258.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   260.53,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   263.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   265.54,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   269.81,
+   "watch",
+   "w270"
+  ],
+  [
+   270.51,
+   "tap",
+   "start",
+   300
+  ],
+  [
+   273.02,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   275.52,
+   "held",
+   "start"
+  ],
+  [
+   278.03,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   280.53,
+   "held",
+   "start"
+  ],
+  [
+   283.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   285.54,
+   "held",
+   "start"
+  ],
+  [
+   288.04,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   289.85,
+   "watch",
+   "w290"
+  ],
+  [
+   290.55,
+   "held",
+   "start"
+  ],
+  [
+   293.01,
+   "tap",
+   "a",
+   300
+  ],
+  [
+   295.01,
+   "release"
+  ],
+  [
+   300.02,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 11.0,
+   "bytes": 302152
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 31.6,
+   "bytes": 1974969
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 46.5,
+   "bytes": 1957779
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.5,
+   "bytes": 1949439
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.4,
+   "bytes": 1925452
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 91.7,
+   "bytes": 1773651
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 111.8,
+   "bytes": 2269562
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 131.9,
+   "bytes": 1666468
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 151.8,
+   "bytes": 1880485
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.8,
+   "got_s": 171.9,
+   "bytes": 1883801
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.81,
+   "got_s": 191.8,
+   "bytes": 1683204
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.85,
+   "got_s": 211.5,
+   "bytes": 1598353
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.84,
+   "got_s": 231.6,
+   "bytes": 1813662
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.84,
+   "got_s": 251.3,
+   "bytes": 2071862
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.81,
+   "got_s": 271.8,
+   "bytes": 2088672
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.85,
+   "got_s": 291.9,
+   "bytes": 1884892
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.02,
+   "got_s": 301.8,
+   "bytes": 1618245
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   78.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   105.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   130.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   136.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   137.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   141.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   142.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   143.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   144.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   148.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   149.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   150.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   151.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   152.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   159.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   160.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   161.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   162.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   163.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   164.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   172.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   173.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   174.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   175.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   176.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   177.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   178.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   179.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   180.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   181.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   182.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   183.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   184.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   185.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   186.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   187.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   188.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   189.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   190.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   191.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   192.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   193.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   195.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   196.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   197.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   198.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   199.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   200.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   201.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   202.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   203.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   204.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   205.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   206.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   207.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   208.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   209.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   210.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   211.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   212.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   213.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   214.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   215.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   216.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   217.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   218.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   219.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   220.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   221.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   222.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   228.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   234.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   235.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   236.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   237.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   238.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   239.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   240.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   241.6,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   242.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   243.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   244.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   245.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   246.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   247.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   248.7,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   249.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   250.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   251.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   252.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   253.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   254.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   255.8,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   256.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   257.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   258.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   259.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   260.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   261.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   262.9,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   264.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   265.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   266.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   267.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   268.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   269.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   270.0,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   271.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   272.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   273.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   274.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   275.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   276.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   277.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   278.1,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   279.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   280.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   281.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   282.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   283.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   284.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   285.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   286.2,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   287.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   288.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   289.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   290.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   291.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   292.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   293.3,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   294.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   295.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   296.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   297.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   298.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   299.4,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   300.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   301.5,
+   "GET_STATUS PLAYING xbox,RollerCoaster Tycoon (U),crc32=d05ec567"
+  ],
+  [
+   303.3,
+   null
+  ],
+  [
+   305.1,
+   null
+  ],
+  [
+   306.9,
+   null
+  ],
+  [
+   308.7,
+   null
+  ],
+  [
+   310.5,
+   null
+  ],
+  [
+   312.3,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\rct_american.xbe (launch type 4294967295)",
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.6,
+   8.9,
+   30.0,
+   33.6,
+   26.0,
+   26.2,
+   19.8,
+   24.9,
+   33.8,
+   27.9,
+   33.5,
+   24.0,
+   24.3,
+   21.0,
+   10.0,
+   26.2,
+   21.8,
+   24.3,
+   20.4,
+   28.0,
+   32.3,
+   29.9,
+   28.3,
+   32.0,
+   29.7,
+   20.0,
+   26.1,
+   29.9,
+   30.1
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-hitch: hang vCPU: eip 001910c2 eflags 00000202 (IF 1) irql 0 halted 0 eax 00000000 ebx 00000000 ecx 00000000 edx 00000000 esi 00000000 edi 00000000 ebp 00000000 esp d0050ddc fs 80020000",
+   "hakuX-hle-hitch: hang code @001910b2: 6a006a016a01e8ee05000033c0c204008b0d18010100a1080101002bc105000001003b0173028901a148454d002b0538",
+   "hakuX-hle-hitch: hang stack @d0050ddc: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+   "hakuX-hle-hitch: HANG started 0.50 s since frame 7696: JIT compiling: 98% of the vCPU in FEX | render idle for 501 ms | vCPU cpu 366 ms halted 0% | render cpu 0 run 0 idle 501 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 7754/7754, last done 501 ms ago | swaps 0 vblanks 30 draws 0 | dvd 0 ops 0.",
+   "hakuX-hle-hitch: HANG #137 frame 7697: 532.4 ms (expected 33.4, reported live): JIT compiling: 98% of the vCPU in FEX | vCPU cpu 390 ms halted 0% | render cpu 0 run 0 idle 532 compile 0 (0) submit 0 (1) gpu 0 display 0 | GPU 7754/7754, last done 532 ms ago | swaps 1 vblanks 32 draws 2 | dvd 0 ops 0.",
+   "hakuX-hle-hitch: stutter #761 frame 7696: front 532.6 ms after the last (expected 33.4), 0 dropped: guest flipped 499 ms after its vblank, ready 37 ms before | swap -3.7 write -3.7 ready -3.6 flip +532.6 front +532.6 shown +542.4 ms (vs the last front)",
+   "hakuX-hle-disp: stats: 30.1 new frames/s, age front to taken 8.21 ms (max 28.49), gap 33.18 ms (max 535.02, 155 over 25 ms)",
+   "hakuX-hle-hitch: stutter #762 frame 7705: front 33.5 ms after the last (expected 16.7), 0 dropped: guest flipped 17 ms after its vblank, ready 18 ms before | swap -1.7 write -1.7 ready -1.5 flip +33.5 front +33.5 shown +41.5 ms (vs the last front)",
+   "hakuX-hle-pb: kicks 245 words 7986 headers 1795 methods 6192 faults 0 GET 03fc3020 PUT 03fc3020 binds 4 semaphores 30627 flips 7724 traps 7731 (21=7724 9=6 28=1) runs 0 surfaces 2 clears 7724 swaps 7724 draws 15058 ff 0 skipped 0 () textures 7297 (7 held, 3 MiB) rt uploads 0 blits 0 m2mf 0 copies sk",
+   "hakuX-hle-pb: frame pace off: 28 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 58.7 ms (max 546.1, 28 frames)",
+   "hakuX-hle-emit: per s: draws=56 verts=224 mergeable=0 (not: strip 56 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=28 set1=56 pc=56 vi=28 vb=56 vp=28 sc=28 dyn=420 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=15051 prog_fog=76 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\CdRom0\\Scenarios\\SC58.SC4 ->",
+   "hakuX-hle-hitch: stutter #763 frame 7729: front 50.0 ms after the last (expected 33.4), 0 dropped: guest flipped 17 ms after its vblank, ready 45 ms before | swap -12.3 write -12.2 ready -12.1 flip +50.0 front +50.0 shown +58.6 ms (vs the last front)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=761078 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-native-usb: ohci: 690 TDs in 10 s, ctl 000000be (lists PCB), hcca 03fe4000, intr 00000006/80000073",
+   "[gamescopereaper] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mreaper:\u001b[0m Parent of gamescopereaper was killed. Killing children.",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mwlserver:\u001b[0m [xwayland/server.c:218] Restarting Xwayland",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mxwm:\u001b[0m X11 I/O error while shutting down, exiting.",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mwlserver:\u001b[0m [xwayland/server.c:108] Starting Xwayland on :4",
+   "warning: queue 0x563d2b296220 destroyed while proxies still attached:",
+   "  wl_surface#8 still attached"
+  ]
+ },
+ "audio": {
+  "seconds": 0.0,
+  "peak_rms_dbfs": -120.0,
+  "first_sound_s": null,
+  "audible_fraction": 0,
+  "rms_dbfs_per_2s": [],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Timeout",
+ "outcome_why": "hard limit reached while closing; killed",
+ "duration_s": 311.9,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

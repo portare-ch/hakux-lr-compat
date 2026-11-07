@@ -1,0 +1,1672 @@
+{
+ "game_file": "TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia).chd",
+ "game_size": 1114306335,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:03:48+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The first screen (from about 28 s) is Load Game: 'The hard disk does not contain any TY3 saved games' (B Back), and A/Start lead back to it. B, Down to New Game, A; then only A every 3 s (Game 1, the intro), as Start in the game opens the Callsheet menu.",
+  "quiet": [
+   [
+    29.5,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    30.5,
+    "tap",
+    "b"
+   ],
+   [
+    32.5,
+    "tap",
+    "down"
+   ],
+   [
+    33.3,
+    "tap",
+    "a"
+   ],
+   [
+    36.0,
+    "tap",
+    "a"
+   ],
+   [
+    39.0,
+    "tap",
+    "a"
+   ],
+   [
+    42.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    54.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    84.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    96.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    102.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    108.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    114.0,
+    "tap",
+    "a"
+   ],
+   [
+    117.0,
+    "tap",
+    "a"
+   ],
+   [
+    120.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "b"
+  ],
+  [
+   32.5,
+   "tap",
+   "down"
+  ],
+  [
+   33.3,
+   "tap",
+   "a"
+  ],
+  [
+   36.0,
+   "tap",
+   "a"
+  ],
+  [
+   39.0,
+   "tap",
+   "a"
+  ],
+  [
+   42.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   54.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   84.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   96.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   114.0,
+   "tap",
+   "a"
+  ],
+  [
+   117.0,
+   "tap",
+   "a"
+  ],
+  [
+   120.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 129.81,
+  "confirmed_by": "w150",
+  "stopped_at_s": 158.1,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w110",
+    "t": 109.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w150",
+    "t": 149.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 158.3,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "b"
+  ],
+  [
+   32.52,
+   "tap",
+   "down"
+  ],
+  [
+   33.32,
+   "tap",
+   "a"
+  ],
+  [
+   36.02,
+   "tap",
+   "a"
+  ],
+  [
+   39.03,
+   "tap",
+   "a"
+  ],
+  [
+   42.04,
+   "tap",
+   "a"
+  ],
+  [
+   44.65,
+   "shot",
+   "mid"
+  ],
+  [
+   45.15,
+   "tap",
+   "a"
+  ],
+  [
+   48.1,
+   "tap",
+   "a"
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   51.11,
+   "tap",
+   "a"
+  ],
+  [
+   54.01,
+   "tap",
+   "a"
+  ],
+  [
+   57.02,
+   "tap",
+   "a"
+  ],
+  [
+   60.03,
+   "tap",
+   "a"
+  ],
+  [
+   63.03,
+   "tap",
+   "a"
+  ],
+  [
+   66.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   72.15,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.01,
+   "tap",
+   "a"
+  ],
+  [
+   81.01,
+   "tap",
+   "a"
+  ],
+  [
+   84.02,
+   "tap",
+   "a"
+  ],
+  [
+   87.03,
+   "tap",
+   "a"
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.13,
+   "tap",
+   "a"
+  ],
+  [
+   93.04,
+   "tap",
+   "a"
+  ],
+  [
+   96.04,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.01,
+   "tap",
+   "a"
+  ],
+  [
+   105.02,
+   "tap",
+   "a"
+  ],
+  [
+   108.02,
+   "tap",
+   "a"
+  ],
+  [
+   109.83,
+   "watch",
+   "w110"
+  ],
+  [
+   111.13,
+   "tap",
+   "a"
+  ],
+  [
+   114.03,
+   "tap",
+   "a"
+  ],
+  [
+   117.04,
+   "tap",
+   "a"
+  ],
+  [
+   120.05,
+   "tap",
+   "a"
+  ],
+  [
+   123.05,
+   "tap",
+   "a"
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ],
+  [
+   149.84,
+   "watch",
+   "w150"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.0,
+   "bytes": 297070
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.0,
+   "bytes": 788281
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.65,
+   "got_s": 48.1,
+   "bytes": 828810
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 53.0,
+   "bytes": 937040
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 72.6,
+   "bytes": 1122790
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 92.2,
+   "bytes": 848372
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.83,
+   "got_s": 111.6,
+   "bytes": 520730
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 133.7,
+   "bytes": 1171366
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.84,
+   "got_s": 153.9,
+   "bytes": 1131244
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 149.84,
+   "got_s": 153.9,
+   "bytes": 1131244,
+   "from_watch": "w150"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   138.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   139.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   140.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   155.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   156.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ],
+  [
+   157.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger - Night of the Quinkan (USA, Australia),crc32=7116a85b"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   53.5,
+   59.7,
+   59.8,
+   59.8,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.8,
+   60.0,
+   59.7,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7786018 prog_fog=7149199 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 2028 words 7434506 headers 1197057 methods 6237772 faults 0 GET 00d6b964 PUT 00ea6b8c binds 5 semaphores 92807 flips 11211 traps 17291 (21=9217 5=6073 1=1994 9=6 28=1) runs 0 surfaces 8 clears 26022 swaps 11211 draws 7855193 ff 0 skipped 0 () textures 436 (163 held, 6 MiB) rt upl",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 53.4 ms (max 55.9, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 1893, copies queued behind them 0 (the decoder waited 1), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=68957 verts=7071422 mergeable=0 (not: strip 68329 idx 628 state 0 work 0 gap 0) batches=2121 of 12590 draws indexed: no state between 0, contiguous 0 pipe=5557 set1=57947 pc=9073 vi=2473 vb=234 vp=679 sc=679 dyn=17310 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7854975 prog_fog=7214256 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2481 sysops 4566 (int 721, of them ticks 43; hook 0) schedules 2115 switches 1563 idle 484 slices 1 page faults 0 mmio 13295 apu waits 0 vm pages +0 -0 isr irq1:492 (max 3.0 ms) irq3:172 (max 0.9 ms) irq5:13 (max 0.4 ms) | dpc max wait 1.7 run 2.1 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 299 (pages 02528000:448 022f7000:320 01779000:256 01739000:192 02524000:128) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 1820 KiB, contiguous 58540 KiB (25 blocks), virtual 3848 KiB, kernel pool 95 of 128 KiB (Ex 515, objects 8, lost 0 KiB, 14 free ranges)",
+   "hakuX-hle-pb: kicks 2049 words 7680362 headers 1252036 methods 6428312 faults 0 GET 00cb9d80 PUT 00dc0bbc binds 5 semaphores 93895 flips 11271 traps 17401 (21=9277 5=6123 1=1994 9=6 28=1) runs 0 surfaces 8 clears 26264 swaps 11271 draws 7924702 ff 0 skipped 0 () textures 436 (163 held, 6 MiB) rt upl",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 54.0 ms (max 55.5, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 1954, copies queued behind them 0 (the decoder waited 1), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=69518 verts=7142889 mergeable=0 (not: strip 68590 idx 928 state 0 work 0 gap 0) batches=2130 of 12593 draws indexed: no state between 0, contiguous 0 pipe=5678 set1=58507 pc=9279 vi=2500 vb=238 vp=675 sc=675 dyn=17463 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=7924493 prog_fog=7279858 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=406092 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 54136 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=46 misses=27",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 67 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x556a63c7d900",
+   "[Gamescope WSI] Destroyed swapchain: 0x556a63c7d900",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 157.2,
+  "peak_rms_dbfs": -15.1,
+  "first_sound_s": 6.0,
+  "audible_fraction": 0.95,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -75.2,
+   -40.7,
+   -40.0,
+   -34.8,
+   -21.3,
+   -21.3,
+   -26.2,
+   -24.0,
+   -24.4,
+   -23.7,
+   -25.6,
+   -26.2,
+   -24.3,
+   -24.1,
+   -24.0,
+   -30.6,
+   -33.6,
+   -29.2,
+   -31.7,
+   -26.1,
+   -23.3,
+   -26.5,
+   -23.6,
+   -23.4,
+   -22.6,
+   -22.9,
+   -22.2,
+   -22.2,
+   -23.5,
+   -22.5,
+   -22.2,
+   -25.0,
+   -26.5,
+   -31.4,
+   -26.9,
+   -28.9,
+   -30.3,
+   -23.0,
+   -15.1,
+   -18.3,
+   -23.0,
+   -24.2,
+   -23.3,
+   -23.1,
+   -23.2,
+   -22.7,
+   -23.6,
+   -22.4,
+   -24.0,
+   -23.7,
+   -20.5,
+   -21.3,
+   -24.2,
+   -26.0,
+   -23.3,
+   -24.1,
+   -24.4,
+   -24.0,
+   -22.6,
+   -22.6,
+   -23.2,
+   -22.5,
+   -29.0,
+   -27.9,
+   -22.8,
+   -23.2,
+   -22.4,
+   -23.8,
+   -24.7,
+   -24.4,
+   -23.9,
+   -21.4,
+   -23.7,
+   -23.8,
+   -23.7,
+   -23.9,
+   -24.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 129.81 s (judged from screenshots); stopped at 158.1 s and the emulator closed",
+ "duration_s": 158.3,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

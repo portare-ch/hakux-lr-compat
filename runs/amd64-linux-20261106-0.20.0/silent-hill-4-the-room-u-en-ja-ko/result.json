@@ -1,0 +1,2348 @@
+{
+ "game_file": "Silent Hill 4 - The Room (U) (En,Ja,Ko).chd",
+ "game_size": 2047964017,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:34:17+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run Henry's room is in play from about 50 s, but every later Start toggles the pause screen, so play was seen too briefly to judge. No default presses from 42 s; A every 4 s for 80 s (it skips text and pop-ups, in play it only jumps or acts) lets the judge see play.",
+  "quiet": [
+   [
+    42.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    47.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.0,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   47.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": null,
+  "confirmed_by": null,
+  "stopped_at_s": null,
+  "unstuck": [
+   [
+    75.0,
+    "b"
+   ],
+   [
+    95.03,
+    "down"
+   ],
+   [
+    115.01,
+    "b"
+   ]
+  ],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w190",
+    "t": 189.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w230",
+    "t": 229.81,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w250",
+    "t": 249.8,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w270",
+    "t": 269.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w290",
+    "t": 289.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 304.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a"
+  ],
+  [
+   44.61,
+   "shot",
+   "mid"
+  ],
+  [
+   47.12,
+   "tap",
+   "a"
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   51.12,
+   "tap",
+   "a"
+  ],
+  [
+   55.02,
+   "tap",
+   "a"
+  ],
+  [
+   59.03,
+   "tap",
+   "a"
+  ],
+  [
+   63.03,
+   "tap",
+   "a"
+  ],
+  [
+   67.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   71.15,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   79.01,
+   "held",
+   "a"
+  ],
+  [
+   83.01,
+   "held",
+   "a"
+  ],
+  [
+   87.02,
+   "held",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   91.12,
+   "held",
+   "a"
+  ],
+  [
+   95.03,
+   "tap",
+   "down",
+   "instead of",
+   "a"
+  ],
+  [
+   99.03,
+   "held",
+   "a"
+  ],
+  [
+   103.04,
+   "held",
+   "a"
+  ],
+  [
+   107.0,
+   "held",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   111.11,
+   "held",
+   "a"
+  ],
+  [
+   115.01,
+   "tap",
+   "b",
+   "instead of",
+   "a"
+  ],
+  [
+   119.02,
+   "held",
+   "a"
+  ],
+  [
+   129.83,
+   "watch",
+   "w130"
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   189.82,
+   "watch",
+   "w190"
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   229.81,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.84,
+   "watch",
+   "w270"
+  ],
+  [
+   289.84,
+   "watch",
+   "w290"
+  ],
+  [
+   295.04,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 255602
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.1,
+   "bytes": 4613
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.61,
+   "got_s": 48.2,
+   "bytes": 682148
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 53.4,
+   "bytes": 681376
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 73.4,
+   "bytes": 681161
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 93.5,
+   "bytes": 682552
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 113.5,
+   "bytes": 681371
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.83,
+   "got_s": 133.5,
+   "bytes": 681712
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 153.5,
+   "bytes": 681658
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 173.9,
+   "bytes": 681632
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.82,
+   "got_s": 193.5,
+   "bytes": 681623
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 213.5,
+   "bytes": 682060
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.81,
+   "got_s": 233.7,
+   "bytes": 681893
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.8,
+   "got_s": 253.5,
+   "bytes": 682416
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.84,
+   "got_s": 273.5,
+   "bytes": 681438
+  },
+  "w290": {
+   "file": "w290.jpg",
+   "asked_s": 289.84,
+   "got_s": 293.7,
+   "bytes": 681843
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 300.0,
+   "got_s": 303.8,
+   "bytes": 681904
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   106.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   107.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   108.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   112.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   113.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   114.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   115.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   119.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   120.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   121.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   122.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   125.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   126.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   127.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   128.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   131.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   132.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   133.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   134.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   143.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   144.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   145.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   146.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   147.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   161.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   162.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   163.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   164.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   165.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   166.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   167.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   168.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   169.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   170.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   171.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   172.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   173.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   174.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   175.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   176.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   177.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   178.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   180.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   181.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   182.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   183.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   184.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   185.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   186.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   187.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   188.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   189.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   190.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   191.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   192.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   193.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   194.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   195.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   196.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   197.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   198.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   199.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   201.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   205.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   207.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   208.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   211.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   212.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   213.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   214.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   217.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   218.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   219.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   220.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   221.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   222.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   223.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   224.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   225.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   226.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   227.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   228.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   229.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   230.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   231.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   232.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   233.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   234.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   235.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   236.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   237.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   238.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   239.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   240.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   242.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   243.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   244.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   245.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   246.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   247.0,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   248.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   249.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   250.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   251.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   252.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   253.1,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   254.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   255.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   256.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   257.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   258.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   259.2,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   260.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   261.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   262.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   263.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   264.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   265.3,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   266.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   267.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   268.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   269.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   270.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   271.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   272.4,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   273.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   274.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   275.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   276.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   277.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   278.5,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   279.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   280.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   281.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   282.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   283.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   284.6,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   285.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   286.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   287.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   288.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   289.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   290.7,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   291.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   292.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   293.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   294.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   295.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   296.8,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   297.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   298.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   299.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   300.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   301.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   302.9,
+   "GET_STATUS PLAYING xbox,Silent Hill 4 - The Room (U) (En,Ja,Ko),crc32=a4746ac1"
+  ],
+  [
+   304.7,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   28.4,
+   28.4,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   30.0,
+   30.0,
+   30.0,
+   29.9,
+   29.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 4260 KiB, contiguous 43892 KiB (34 blocks), virtual 16300 KiB, kernel pool 62 of 128 KiB (Ex 490, objects 1, lost 0 KiB, 3 free ranges)",
+   "hakuX-hle-disp: stats: 29.9 new frames/s, age front to taken 8.20 ms (max 10.01), gap 33.44 ms (max 68.43, 300 over 25 ms)",
+   "hakuX-hle-pb: kicks 705 words 1954740 headers 36495 methods 1918232 faults 0 GET 03f8102c PUT 03fd4bc8 binds 5 semaphores 55040 flips 8996 traps 17147 (41=8996 5=8144 9=6 28=1) runs 0 surfaces 8 clears 25518 swaps 8996 draws 264547 ff 0 skipped 0 () textures 161 (26 held, 21 MiB) rt uploads 1 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.1 ms (max 40.9, 30 frames)",
+   "hakuX-hle-emit: per s: draws=960 verts=1839360 mergeable=0 (not: strip 780 idx 180 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=360 set1=480 pc=570 vi=180 vb=420 vp=30 sc=30 dyn=1170 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=264520 prog_fog=192874 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (150 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 705 words 1954740 headers 36495 methods 1918232 faults 0 GET 03f8102c PUT 03fd4bc8 binds 5 semaphores 55235 flips 9026 traps 17207 (41=9026 5=8174 9=6 28=1) runs 0 surfaces 8 clears 25608 swaps 9026 draws 265507 ff 0 skipped 0 () textures 161 (26 held, 21 MiB) rt uploads 1 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.9 ms (max 40.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=960 verts=1839360 mergeable=0 (not: strip 780 idx 180 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=360 set1=480 pc=570 vi=180 vb=420 vp=30 sc=30 dyn=1170 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=265480 prog_fog=193594 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 705 words 1954740 headers 36495 methods 1918232 faults 0 GET 03f8102c PUT 03fd4bc8 binds 5 semaphores 55430 flips 9056 traps 17267 (41=9056 5=8204 9=6 28=1) runs 0 surfaces 8 clears 25698 swaps 9056 draws 266467 ff 0 skipped 0 () textures 161 (26 held, 21 MiB) rt uploads 1 blits ",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.0 ms (max 41.0, 30 frames)",
+   "hakuX-hle-emit: per s: draws=960 verts=1839360 mergeable=0 (not: strip 780 idx 180 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=360 set1=480 pc=570 vi=180 vb=420 vp=30 sc=30 dyn=1170 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=266440 prog_fog=194314 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=681933 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 42 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56292bd2aba0",
+   "[Gamescope WSI] Destroyed swapchain: 0x56292bd2aba0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 302.9,
+  "peak_rms_dbfs": -23.7,
+  "first_sound_s": 11.5,
+  "audible_fraction": 0.06,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -44.9,
+   -31.6,
+   -28.5,
+   -60.3,
+   -43.7,
+   -29.8,
+   -27.0,
+   -23.7,
+   -28.0,
+   -32.9,
+   -38.2,
+   -120.0,
+   -35.1,
+   -120.0,
+   -39.1,
+   -34.5,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "the input plan ran to the end and the emulator closed",
+ "duration_s": 304.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

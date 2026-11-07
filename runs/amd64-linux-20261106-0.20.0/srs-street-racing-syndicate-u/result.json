@@ -1,0 +1,1292 @@
+{
+ "game_file": "SRS - Street Racing Syndicate (U).chd",
+ "game_size": 1426839878,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:39:43+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The first screen after loading is Load Profile with an empty list (from about 36-50 s); Start/A do nothing there. B goes back to LOAD PROFILE / NEW PROFILE, Down then A picks NEW PROFILE; the defaults accept the name wheel (Player) and go through the main menu and story intro into the first drive. The race is under way by about 70 s, and the next Start opens the pause menu's Sound page for the rest of the run, so from 64 s only A (accelerate) is pressed, every 4 s.",
+  "quiet": [
+   [
+    51.5,
+    57.0
+   ],
+   [
+    64.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    52.0,
+    "tap",
+    "b"
+   ],
+   [
+    54.0,
+    "tap",
+    "down"
+   ],
+   [
+    54.8,
+    "tap",
+    "a"
+   ],
+   [
+    65.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    77.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "a"
+   ],
+   [
+    89.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    97.0,
+    "tap",
+    "a"
+   ],
+   [
+    101.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    109.0,
+    "tap",
+    "a"
+   ],
+   [
+    113.0,
+    "tap",
+    "a"
+   ],
+   [
+    117.0,
+    "tap",
+    "a"
+   ],
+   [
+    121.0,
+    "tap",
+    "a"
+   ],
+   [
+    125.0,
+    "tap",
+    "a"
+   ],
+   [
+    129.0,
+    "tap",
+    "a"
+   ],
+   [
+    133.0,
+    "tap",
+    "a"
+   ],
+   [
+    137.0,
+    "tap",
+    "a"
+   ],
+   [
+    141.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   52.0,
+   "tap",
+   "b"
+  ],
+  [
+   54.0,
+   "tap",
+   "down"
+  ],
+  [
+   54.8,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   77.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   97.0,
+   "tap",
+   "a"
+  ],
+  [
+   101.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   113.0,
+   "tap",
+   "a"
+  ],
+  [
+   117.0,
+   "tap",
+   "a"
+  ],
+  [
+   121.0,
+   "tap",
+   "a"
+  ],
+  [
+   125.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   133.0,
+   "tap",
+   "a"
+  ],
+  [
+   137.0,
+   "tap",
+   "a"
+  ],
+  [
+   141.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 98.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 98.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   52.04,
+   "tap",
+   "b"
+  ],
+  [
+   54.05,
+   "tap",
+   "down"
+  ],
+  [
+   54.85,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.02,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   73.13,
+   "tap",
+   "a"
+  ],
+  [
+   77.04,
+   "tap",
+   "a"
+  ],
+  [
+   81.05,
+   "tap",
+   "a"
+  ],
+  [
+   85.01,
+   "tap",
+   "a"
+  ],
+  [
+   89.01,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   93.12,
+   "tap",
+   "a"
+  ],
+  [
+   97.03,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 894568
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 30.3,
+   "bytes": 207217
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 45.8,
+   "bytes": 265470
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.2,
+   "bytes": 303668
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.1,
+   "bytes": 1300002
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 93.4,
+   "bytes": 1284152
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.81,
+   "got_s": 93.4,
+   "bytes": 1284152,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,SRS - Street Racing Syndicate (U),crc32=36ee62b4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55510.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   46.7,
+   57.2,
+   59.6,
+   60.0,
+   59.6,
+   60.0,
+   52.3,
+   59.2,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 25867 sysops 28628 (int 988, of them ticks 126; hook 0) schedules 24997 switches 24782 idle 0 slices 24 page faults 0 mmio 71486 apu waits 0 vm pages +0 -0 isr irq1:516 (max 1.6 ms) irq3:356 (max 1.7 ms) irq5:11 (max 0.3 ms) | dpc max wait 1.4 run 1.7 ms, 0 over 8 m",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 63 (pages 0270e000:320) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 5996 KiB, contiguous 44344 KiB (113 blocks), virtual 13940 KiB, kernel pool 18 of 64 KiB (Ex 440, objects 9, lost 0 KiB, 10 free ranges)",
+   "hakuX-hle-pb: kicks 3819 words 10392793 headers 1892769 methods 8499434 faults 0 GET 03d981f4 PUT 03d0f138 binds 5 semaphores 53533 flips 5545 traps 13115 (21=5480 28=3371 8=3370 5=823 41=65 9=6) runs 0 surfaces 30 clears 24878 swaps 5545 draws 3319639 ff 0 skipped 0 () textures 711 (641 held, 17 Mi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 29.1 ms (max 34.6, 60 frames)",
+   "hakuX-hle-emit: per s: draws=108162 verts=7165927 mergeable=0 (not: strip 100542 idx 6180 state 1440 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=22289 set1=68826 pc=37851 vi=14949 vb=85415 vp=461 sc=461 dyn=40373 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3314472 prog_fog=280142 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3862 words 10436803 headers 1900930 methods 8535688 faults 0 GET 03d70c0c PUT 03ede820 binds 5 semaphores 54992 flips 5605 traps 13464 (21=5540 28=3491 8=3490 5=872 41=65 9=6) runs 0 surfaces 30 clears 25478 swaps 5605 draws 3427618 ff 0 skipped 0 () textures 711 (641 held, 17 Mi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 29.6 ms (max 34.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=107963 verts=7140501 mergeable=0 (not: strip 100269 idx 6254 state 1440 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=22058 set1=68999 pc=37956 vi=14816 vb=85343 vp=458 sc=458 dyn=40858 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3422435 prog_fog=289952 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3829 words 10365096 headers 1889975 methods 8475830 faults 0 GET 03d030a8 PUT 03e5a7c0 binds 5 semaphores 56441 flips 5665 traps 13807 (21=5600 28=3611 8=3610 5=915 41=65 9=6) runs 0 surfaces 30 clears 26076 swaps 5665 draws 3535101 ff 0 skipped 0 () textures 711 (641 held, 17 Mi",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 29.6 ms (max 34.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=107637 verts=7118895 mergeable=0 (not: strip 99842 idx 6355 state 1440 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=21874 set1=68946 pc=37864 vi=14694 vb=84990 vp=449 sc=449 dyn=40582 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3530072 prog_fog=299762 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=1249025 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 105304 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=158 misses=53",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 58 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5642618bce70",
+   "[Gamescope WSI] Destroyed swapchain: 0x5642618bce70",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 95.9,
+  "peak_rms_dbfs": -5.7,
+  "first_sound_s": 15.5,
+  "audible_fraction": 0.78,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -36.7,
+   -30.7,
+   -29.2,
+   -34.0,
+   -30.1,
+   -30.4,
+   -31.8,
+   -27.9,
+   -28.8,
+   -26.6,
+   -28.1,
+   -26.7,
+   -27.6,
+   -26.8,
+   -27.9,
+   -27.2,
+   -27.0,
+   -27.4,
+   -27.5,
+   -25.8,
+   -27.5,
+   -26.9,
+   -27.5,
+   -29.3,
+   -120.0,
+   -15.1,
+   -5.7,
+   -6.7,
+   -18.9,
+   -23.3,
+   -23.4,
+   -22.5,
+   -22.7,
+   -22.7,
+   -21.6,
+   -22.8,
+   -21.8,
+   -21.5,
+   -21.8,
+   -22.2,
+   -22.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 98.6 s and the emulator closed",
+ "duration_s": 98.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

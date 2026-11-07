@@ -1,0 +1,1243 @@
+{
+ "game_file": "Street Fighter Anniversary Collection (Japan, Europe) (En,Ja).chd",
+ "game_size": 3424247549,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:36:01+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run the first fight starts at about 70 s ('FIGHT!') and the next Start pauses it, so play was seen too briefly to judge. No default presses from 62 s; A every 4 s for 80 s (it skips text and pop-ups, in play it only jumps or acts) lets the judge see play.",
+  "quiet": [
+   [
+    62.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    67.0,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    79.0,
+    "tap",
+    "a"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ],
+   [
+    127.0,
+    "tap",
+    "a"
+   ],
+   [
+    131.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.0,
+    "tap",
+    "a"
+   ],
+   [
+    139.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   79.0,
+   "tap",
+   "a"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   127.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   131.0,
+   "tap",
+   "a"
+  ],
+  [
+   135.0,
+   "tap",
+   "a"
+  ],
+  [
+   139.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 96.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 96.2,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   67.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   71.12,
+   "tap",
+   "a"
+  ],
+  [
+   75.03,
+   "tap",
+   "a"
+  ],
+  [
+   79.04,
+   "tap",
+   "a"
+  ],
+  [
+   83.05,
+   "tap",
+   "a"
+  ],
+  [
+   87.01,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   91.12,
+   "tap",
+   "a"
+  ],
+  [
+   95.03,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.5,
+   "bytes": 104878
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.8,
+   "bytes": 332733
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 46.0,
+   "bytes": 774332
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 51.2,
+   "bytes": 661196
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 71.1,
+   "bytes": 940506
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 91.4,
+   "bytes": 891188
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.81,
+   "got_s": 91.4,
+   "bytes": 891188,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Street Fighter Anniversary Collection (Japan, Europe) (En,Ja),crc32=ae6b321a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\sf33rd.xbe (launch type 4294967295)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   57.3,
+   53.7,
+   59.7,
+   59.6,
+   60.0,
+   59.7,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 1874 words 1848091 headers 426847 methods 1421200 faults 0 GET 03fb0e20 PUT 03fb0e20 binds 5 semaphores 54079 flips 4357 traps 4370 (21=4357 9=6 5=6 28=1) runs 0 surfaces 5 clears 13061 swaps 4357 draws 1132187 ff 0 skipped 0 () textures 4981 (393 held, 73 MiB) rt uploads 2 blits",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.1, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19155 verts=76620 mergeable=0 (not: strip 19155 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=301 set1=19155 pc=6933 vi=120 vb=159 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1132186 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 3722 sysops 6586 (int 1069, of them ticks 159; hook 0) schedules 3072 switches 2954 idle 0 slices 0 page faults 0 mmio 14887 apu waits 0 vm pages +0 -0 isr irq1:737 (max 1.4 ms) irq3:120 (max 0.1 ms) irq5:21 (max 0.3 ms) | dpc max wait 0.6 run 0.9 ms, 0 over 8 ms | ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 1835 (pages 0319b000:1984 03305000:1536 0316b000:1408 032e5000:896 03365000:832 0315b000:832) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 10804 KiB, contiguous 39284 KiB (989 blocks), virtual 13944 KiB, kernel pool 37 of 64 KiB (Ex 804, objects 8, lost 0 KiB, 7 free ranges)",
+   "hakuX-hle-pb: kicks 1887 words 1873619 headers 434534 methods 1439048 faults 0 GET 03fba59c PUT 03fba59c binds 5 semaphores 55116 flips 4417 traps 4430 (21=4417 9=6 5=6 28=1) runs 0 surfaces 5 clears 13239 swaps 4417 draws 1152040 ff 0 skipped 0 () textures 4981 (393 held, 73 MiB) rt uploads 2 blits",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 26.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=19853 verts=79412 mergeable=0 (not: strip 19853 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=299 set1=19853 pc=7182 vi=120 vb=158 vp=61 sc=61 dyn=915 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1152039 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (301 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 1911 words 1865713 headers 435802 methods 1429880 faults 0 GET 03fbc25c PUT 03fbc25c binds 5 semaphores 56149 flips 4477 traps 4490 (21=4477 9=6 5=6 28=1) runs 0 surfaces 5 clears 13421 swaps 4477 draws 1172420 ff 0 skipped 0 () textures 5038 (395 held, 73 MiB) rt uploads 2 blits",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.5 ms (max 27.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=20380 verts=81520 mergeable=0 (not: strip 20380 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=301 set1=20380 pc=7585 vi=121 vb=159 vp=60 sc=60 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1172419 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=281769 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 62 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564bc921a940",
+   "[Gamescope WSI] Destroyed swapchain: 0x564bc921a940",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 94.5,
+  "peak_rms_dbfs": -12.3,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.7,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -36.3,
+   -34.2,
+   -120.0,
+   -34.7,
+   -28.1,
+   -36.4,
+   -21.0,
+   -20.4,
+   -120.0,
+   -20.0,
+   -120.0,
+   -20.7,
+   -31.9,
+   -28.6,
+   -19.9,
+   -20.5,
+   -17.1,
+   -16.7,
+   -19.2,
+   -15.2,
+   -18.3,
+   -15.3,
+   -16.5,
+   -16.2,
+   -36.7,
+   -22.8,
+   -19.8,
+   -17.0,
+   -21.3,
+   -20.9,
+   -19.1,
+   -16.4,
+   -18.5,
+   -16.0,
+   -17.2,
+   -15.6,
+   -14.9,
+   -15.5,
+   -17.0,
+   -14.9,
+   -16.2,
+   -12.3,
+   -15.4,
+   -16.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 96.0 s and the emulator closed",
+ "duration_s": 96.2,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

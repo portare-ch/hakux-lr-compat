@@ -1,0 +1,997 @@
+{
+ "game_file": "SpyHunter - Nowhere to Run (U).chd",
+ "game_size": 1849818483,
+ "system": "amd64-linux",
+ "started": "2026-11-07T01:52:17+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The first level opens with the Mission Briefing ('Get to the transport truck', 'B Back', from about 45 s), which A doesn't close; play was seen once at 45 s in the first run. No default presses from 38 s; B at 48, 52 and 56 s closes the briefing, then A every 4 s lets the judge see play.",
+  "quiet": [
+   [
+    38.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    48.0,
+    "tap",
+    "b"
+   ],
+   [
+    52.0,
+    "tap",
+    "b"
+   ],
+   [
+    56.0,
+    "tap",
+    "b"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    68.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    76.0,
+    "tap",
+    "a"
+   ],
+   [
+    80.0,
+    "tap",
+    "a"
+   ],
+   [
+    84.0,
+    "tap",
+    "a"
+   ],
+   [
+    88.0,
+    "tap",
+    "a"
+   ],
+   [
+    92.0,
+    "tap",
+    "a"
+   ],
+   [
+    96.0,
+    "tap",
+    "a"
+   ],
+   [
+    100.0,
+    "tap",
+    "a"
+   ],
+   [
+    104.0,
+    "tap",
+    "a"
+   ],
+   [
+    108.0,
+    "tap",
+    "a"
+   ],
+   [
+    112.0,
+    "tap",
+    "a"
+   ],
+   [
+    116.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   48.0,
+   "tap",
+   "b"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   52.0,
+   "tap",
+   "b"
+  ],
+  [
+   56.0,
+   "tap",
+   "b"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.0,
+   "tap",
+   "a"
+  ],
+  [
+   68.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   76.0,
+   "tap",
+   "a"
+  ],
+  [
+   80.0,
+   "tap",
+   "a"
+  ],
+  [
+   84.0,
+   "tap",
+   "a"
+  ],
+  [
+   88.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   92.0,
+   "tap",
+   "a"
+  ],
+  [
+   96.0,
+   "tap",
+   "a"
+  ],
+  [
+   100.0,
+   "tap",
+   "a"
+  ],
+  [
+   104.0,
+   "tap",
+   "a"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   112.0,
+   "tap",
+   "a"
+  ],
+  [
+   116.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 49.84,
+  "confirmed_by": "w070",
+  "stopped_at_s": 77.7,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.6
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 77.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   48.03,
+   "tap",
+   "b"
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   52.14,
+   "tap",
+   "b"
+  ],
+  [
+   56.04,
+   "tap",
+   "b"
+  ],
+  [
+   60.05,
+   "tap",
+   "a"
+  ],
+  [
+   64.01,
+   "tap",
+   "a"
+  ],
+  [
+   68.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   72.12,
+   "tap",
+   "a"
+  ],
+  [
+   76.03,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 241000
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 31.8,
+   "bytes": 1083224
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.3,
+   "bytes": 959890
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 53.4,
+   "bytes": 1295174
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.6,
+   "bytes": 1473712
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 69.82,
+   "got_s": 73.6,
+   "bytes": 1473712,
+   "from_watch": "w070"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   23.4,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   29.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   30.5,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   35.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   36.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   37.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   38.6,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   42.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   43.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   44.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   45.7,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   48.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   49.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   50.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   51.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   52.8,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   56.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   57.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   58.9,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   63.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   64.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   65.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   66.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   67.0,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   69.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   70.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   71.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   72.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   73.1,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,SpyHunter - Nowhere to Run (U),crc32=3e3ac5c7"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55530.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   29.7,
+   28.7,
+   29.5,
+   29.1,
+   29.9,
+   30.0,
+   30.0
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=30066 verts=13855761 mergeable=0 (not: strip 0 idx 29485 state 582 work 0 gap 0) batches=0 of 0 draws indexed: no state between 14040, contiguous 0 pipe=6355 set1=10276 pc=8551 vi=996 vb=11935 vp=766 sc=766 dyn=3701 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1719529 prog_fog=1183165 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 30.0 fps (151 frames in 5.03 s)",
+   "hakuX-native-io: open \\Device\\CdRom0\\XBXSNDC.POD ->",
+   "hakuX-hle-pb: kicks 4441 words 8245404 headers 606143 methods 7639238 faults 0 GET 03d23a8c PUT 03e01120 binds 5 semaphores 113734 flips 2245 traps 5525 (41=2245 28=1359 8=1358 5=557 9=6) runs 0 surfaces 24 clears 16360 swaps 2245 draws 1747508 ff 0 skipped 0 () textures 570 (161 held, 8 MiB) rt upl",
+   "hakuX-hle-pb: frame pace off: 31 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 68.9 ms (max 70.3, 30 frames)",
+   "hakuX-hle-emit: per s: draws=27448 verts=12601881 mergeable=0 (not: strip 0 idx 26908 state 540 work 0 gap 0) batches=0 of 0 draws indexed: no state between 11823, contiguous 0 pipe=6323 set1=10229 pc=8291 vi=999 vb=11696 vp=766 sc=766 dyn=3703 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1746976 prog_fog=1198807 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\CdRom0\\XBXSNDC.POD ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\XBXMUSC.POD ->",
+   "hakuX-native-io: open \\Device\\CdRom0\\XBXSNDA.POD ->",
+   "hakuX-hle-pb: kicks 3891 words 7123722 headers 588824 methods 6534883 faults 0 GET 03d565a4 PUT 03db4ea0 binds 5 semaphores 115573 flips 2275 traps 5618 (41=2275 28=1389 8=1388 5=560 9=6) runs 0 surfaces 24 clears 16690 swaps 2275 draws 1773690 ff 0 skipped 0 () textures 570 (161 held, 8 MiB) rt upl",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 69.7 ms (max 71.8, 30 frames)",
+   "hakuX-hle-emit: per s: draws=26182 verts=10482942 mergeable=0 (not: strip 0 idx 25605 state 577 work 0 gap 0) batches=0 of 0 draws indexed: no state between 11373, contiguous 0 pipe=6438 set1=10151 pc=8157 vi=808 vb=11005 vp=759 sc=759 dyn=3582 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1773158 prog_fog=1213663 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-io: open \\Device\\CdRom0\\XBXSNDB.POD ->",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=185064 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 36 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5571c835ce50",
+   "[Gamescope WSI] Destroyed swapchain: 0x5571c835ce50",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 76.9,
+  "peak_rms_dbfs": -9.0,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.94,
+  "rms_dbfs_per_2s": [
+   -17.4,
+   -15.8,
+   -32.3,
+   -25.1,
+   -23.3,
+   -120.0,
+   -28.1,
+   -25.5,
+   -27.5,
+   -29.7,
+   -32.1,
+   -28.7,
+   -32.7,
+   -29.3,
+   -24.9,
+   -21.5,
+   -23.2,
+   -23.3,
+   -38.1,
+   -38.0,
+   -38.2,
+   -37.4,
+   -38.5,
+   -29.1,
+   -24.7,
+   -20.4,
+   -22.1,
+   -22.7,
+   -22.8,
+   -16.7,
+   -17.4,
+   -18.7,
+   -16.6,
+   -15.2,
+   -9.0,
+   -16.9,
+   -17.8,
+   -19.3,
+   -20.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 49.84 s (judged from screenshots); stopped at 77.7 s and the emulator closed",
+ "duration_s": 77.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

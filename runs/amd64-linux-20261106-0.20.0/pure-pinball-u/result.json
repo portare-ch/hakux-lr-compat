@@ -1,0 +1,1692 @@
+{
+ "game_file": "Pure Pinball (U).chd",
+ "game_size": 169940950,
+ "system": "amd64-linux",
+ "started": "2026-11-07T00:09:34+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "'You must have a profile to play this game. Press Y to create a new profile.' (from about 20 s); Start/A do nothing there. Y creates AAA; then only A: the three letters, 'Profile AAA created', the profile, 'selected', Select Table and the first table. Start in between only undoes steps.",
+  "quiet": [
+   [
+    30.0,
+    75.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    31.0,
+    "tap",
+    "y"
+   ],
+   [
+    33.5,
+    "tap",
+    "a"
+   ],
+   [
+    36.0,
+    "tap",
+    "a"
+   ],
+   [
+    38.5,
+    "tap",
+    "a"
+   ],
+   [
+    41.0,
+    "tap",
+    "a"
+   ],
+   [
+    43.5,
+    "tap",
+    "a"
+   ],
+   [
+    46.0,
+    "tap",
+    "a"
+   ],
+   [
+    48.5,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    53.5,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "a"
+   ],
+   [
+    58.5,
+    "tap",
+    "a"
+   ],
+   [
+    61.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.5,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    68.5,
+    "tap",
+    "a"
+   ],
+   [
+    71.0,
+    "tap",
+    "a"
+   ],
+   [
+    73.5,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   31.0,
+   "tap",
+   "y"
+  ],
+  [
+   33.5,
+   "tap",
+   "a"
+  ],
+  [
+   36.0,
+   "tap",
+   "a"
+  ],
+  [
+   38.5,
+   "tap",
+   "a"
+  ],
+  [
+   41.0,
+   "tap",
+   "a"
+  ],
+  [
+   43.5,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   46.0,
+   "tap",
+   "a"
+  ],
+  [
+   48.5,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   53.5,
+   "tap",
+   "a"
+  ],
+  [
+   56.0,
+   "tap",
+   "a"
+  ],
+  [
+   58.5,
+   "tap",
+   "a"
+  ],
+  [
+   61.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.5,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   68.5,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   71.0,
+   "tap",
+   "a"
+  ],
+  [
+   73.5,
+   "tap",
+   "a"
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.84,
+  "confirmed_by": "w090",
+  "stopped_at_s": 96.9,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 97.0,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   31.02,
+   "tap",
+   "y"
+  ],
+  [
+   33.52,
+   "tap",
+   "a"
+  ],
+  [
+   36.03,
+   "tap",
+   "a"
+  ],
+  [
+   38.53,
+   "tap",
+   "a"
+  ],
+  [
+   41.04,
+   "tap",
+   "a"
+  ],
+  [
+   43.54,
+   "tap",
+   "a"
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   46.14,
+   "tap",
+   "a"
+  ],
+  [
+   48.5,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.01,
+   "tap",
+   "a"
+  ],
+  [
+   53.51,
+   "tap",
+   "a"
+  ],
+  [
+   56.02,
+   "tap",
+   "a"
+  ],
+  [
+   58.52,
+   "tap",
+   "a"
+  ],
+  [
+   61.03,
+   "tap",
+   "a"
+  ],
+  [
+   63.53,
+   "tap",
+   "a"
+  ],
+  [
+   66.04,
+   "tap",
+   "a"
+  ],
+  [
+   68.54,
+   "tap",
+   "a"
+  ],
+  [
+   69.84,
+   "watch",
+   "w070"
+  ],
+  [
+   71.15,
+   "tap",
+   "a"
+  ],
+  [
+   73.5,
+   "tap",
+   "a"
+  ],
+  [
+   75.5,
+   "held",
+   "start"
+  ],
+  [
+   78.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.51,
+   "held",
+   "start"
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.52,
+   "held",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.53,
+   "held",
+   "start"
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 191865
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.7,
+   "bytes": 655441
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 46.4,
+   "bytes": 776760
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.8,
+   "got_s": 50.7,
+   "bytes": 995713
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.84,
+   "got_s": 71.8,
+   "bytes": 1959866
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 91.9,
+   "bytes": 1801854
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.83,
+   "got_s": 91.9,
+   "bytes": 1801854,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   54.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   55.9,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   62.0,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   68.1,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   75.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   76.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   77.2,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,Pure Pinball (U),crc32=44b40a15"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   27.5,
+   3.5,
+   45.4,
+   44.6,
+   50.3,
+   59.8,
+   59.8,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.4 ms (max 23.7, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2455 stores waited for the decoder (caught up 2431; it waited on the guest at a trap 24, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1356.3 ms",
+   "hakuX-hle-emit: per s: draws=10509 verts=9099054 mergeable=0 (not: strip 0 idx 10149 state 360 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3628 set1=10509 pc=4710 vi=1057 vb=10151 vp=100 sc=100 dyn=4256 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=444015 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-hitch: stutter #33 frame 3745: front 33.4 ms after the last (expected 16.7), 0 dropped: guest 33 ms: vCPU starved: 7 ms CPU of 33 (host) | swap +20.2 write +20.2 ready +20.4 flip +33.4 front +33.4 shown +40.8 ms (vs the last front) | guest: vCPU cpu 7 ms halted -1% | render cpu 0 run 0 idl",
+   "hakuX-hle-pb: kicks 3018 words 8726928 headers 977070 methods 7749799 faults 0 GET 03f69390 PUT 03f60870 binds 5 semaphores 65468 flips 3502 traps 7197 (5=3688 21=3502 9=6 28=1) runs 0 surfaces 3 clears 5842 swaps 3502 draws 454548 ff 420375 skipped 0 () textures 647 (85 held, 17 MiB) rt uploads 61 ",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 20.7 ms (max 24.3, 59 frames)",
+   "hakuX-hle-pb: catch-up: 2517 stores waited for the decoder (caught up 2491; it waited on the guest at a trap 26, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1409.9 ms",
+   "hakuX-hle-emit: per s: draws=10379 verts=8947674 mergeable=0 (not: strip 0 idx 10025 state 354 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3561 set1=10379 pc=4617 vi=1031 vb=10013 vp=96 sc=96 dyn=4145 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=454394 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3053 words 8921607 headers 1004567 methods 7916974 faults 0 GET 03f860a4 PUT 03f7e324 binds 5 semaphores 66737 flips 3562 traps 7351 (5=3782 21=3562 9=6 28=1) runs 0 surfaces 3 clears 5962 swaps 3562 draws 465222 ff 430749 skipped 0 () textures 647 (85 held, 17 MiB) rt uploads 61",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 22.6 ms (max 23.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2578 stores waited for the decoder (caught up 2552; it waited on the guest at a trap 26, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1441.4 ms",
+   "hakuX-hle-emit: per s: draws=10674 verts=9100044 mergeable=0 (not: strip 0 idx 10314 state 360 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3618 set1=10674 pc=4695 vi=1051 vb=10281 vp=99 sc=99 dyn=4226 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=465068 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 59.8 fps (300 frames in 5.02 s)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=277750 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5626596d07f0",
+   "[Gamescope WSI] Destroyed swapchain: 0x5626596d07f0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 96.3,
+  "peak_rms_dbfs": -19.6,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.96,
+  "rms_dbfs_per_2s": [
+   -35.1,
+   -30.1,
+   -28.6,
+   -26.0,
+   -27.0,
+   -36.2,
+   -34.1,
+   -34.3,
+   -33.7,
+   -34.1,
+   -33.7,
+   -33.7,
+   -34.0,
+   -29.8,
+   -29.7,
+   -29.3,
+   -29.5,
+   -29.2,
+   -29.9,
+   -29.3,
+   -29.9,
+   -29.1,
+   -28.9,
+   -29.0,
+   -29.2,
+   -29.0,
+   -22.4,
+   -21.5,
+   -24.0,
+   -19.6,
+   -27.3,
+   -22.7,
+   -24.1,
+   -21.7,
+   -20.7,
+   -23.9,
+   -21.6,
+   -21.5,
+   -22.1,
+   -21.3,
+   -20.8,
+   -21.1,
+   -21.8,
+   -22.2,
+   -24.0,
+   -42.9,
+   -45.2,
+   -42.9
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.84 s (judged from screenshots); stopped at 96.9 s and the emulator closed",
+ "duration_s": 97.0,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

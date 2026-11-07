@@ -1,0 +1,1388 @@
+{
+ "game_file": "Taito Legends (U).chd",
+ "game_size": 295682550,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:14:13+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The defaults end in Global Settings > Video Settings > Resize Screen over a Rainbow Islands still (from about 29 s), which the judge took for play. B x3 back to the game carousel (it starts on the Taito History tile), Right to Battle Shark, A, A (Start Game), Start on the controls card; in the arcade game White inserts a coin, B is Play, and the trigger (RT/A) starts and fires. Then A every 3 s.",
+  "quiet": [
+   [
+    29.5,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    30.0,
+    "tap",
+    "b"
+   ],
+   [
+    31.5,
+    "tap",
+    "b"
+   ],
+   [
+    33.0,
+    "tap",
+    "b"
+   ],
+   [
+    35.0,
+    "tap",
+    "right"
+   ],
+   [
+    37.0,
+    "tap",
+    "a"
+   ],
+   [
+    40.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "start"
+   ],
+   [
+    50.0,
+    "tap",
+    "white",
+    200
+   ],
+   [
+    51.0,
+    "tap",
+    "white",
+    200
+   ],
+   [
+    53.0,
+    "tap",
+    "b",
+    200
+   ],
+   [
+    56.0,
+    "tap",
+    "rt",
+    200
+   ],
+   [
+    57.0,
+    "tap",
+    "a",
+    200
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    84.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    96.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    102.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    108.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    114.0,
+    "tap",
+    "a"
+   ],
+   [
+    117.0,
+    "tap",
+    "a"
+   ],
+   [
+    120.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ],
+   [
+    126.0,
+    "tap",
+    "a"
+   ],
+   [
+    129.0,
+    "tap",
+    "a"
+   ],
+   [
+    132.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.0,
+    "tap",
+    "a"
+   ],
+   [
+    138.0,
+    "tap",
+    "a"
+   ],
+   [
+    141.0,
+    "tap",
+    "a"
+   ],
+   [
+    144.0,
+    "tap",
+    "a"
+   ],
+   [
+    147.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.0,
+   "tap",
+   "b"
+  ],
+  [
+   31.5,
+   "tap",
+   "b"
+  ],
+  [
+   33.0,
+   "tap",
+   "b"
+  ],
+  [
+   35.0,
+   "tap",
+   "right"
+  ],
+  [
+   37.0,
+   "tap",
+   "a"
+  ],
+  [
+   40.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "start"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "white",
+   200
+  ],
+  [
+   51.0,
+   "tap",
+   "white",
+   200
+  ],
+  [
+   53.0,
+   "tap",
+   "b",
+   200
+  ],
+  [
+   56.0,
+   "tap",
+   "rt",
+   200
+  ],
+  [
+   57.0,
+   "tap",
+   "a",
+   200
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   84.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   96.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   114.0,
+   "tap",
+   "a"
+  ],
+  [
+   117.0,
+   "tap",
+   "a"
+  ],
+  [
+   120.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   126.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   132.0,
+   "tap",
+   "a"
+  ],
+  [
+   135.0,
+   "tap",
+   "a"
+  ],
+  [
+   138.0,
+   "tap",
+   "a"
+  ],
+  [
+   141.0,
+   "tap",
+   "a"
+  ],
+  [
+   144.0,
+   "tap",
+   "a"
+  ],
+  [
+   147.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.81,
+  "confirmed_by": "w090",
+  "stopped_at_s": 94.2,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.6
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 94.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.01,
+   "shot",
+   "boot"
+  ],
+  [
+   10.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.15,
+   "tap",
+   "b"
+  ],
+  [
+   31.55,
+   "tap",
+   "b"
+  ],
+  [
+   33.0,
+   "tap",
+   "b"
+  ],
+  [
+   35.0,
+   "tap",
+   "right"
+  ],
+  [
+   37.01,
+   "tap",
+   "a"
+  ],
+  [
+   40.01,
+   "tap",
+   "a"
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.12,
+   "tap",
+   "start"
+  ],
+  [
+   49.83,
+   "watch",
+   "w050"
+  ],
+  [
+   50.13,
+   "tap",
+   "white",
+   200
+  ],
+  [
+   51.03,
+   "tap",
+   "white",
+   200
+  ],
+  [
+   53.03,
+   "tap",
+   "b",
+   200
+  ],
+  [
+   56.04,
+   "tap",
+   "rt",
+   200
+  ],
+  [
+   57.04,
+   "tap",
+   "a",
+   200
+  ],
+  [
+   60.04,
+   "tap",
+   "a"
+  ],
+  [
+   63.05,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   72.01,
+   "tap",
+   "a"
+  ],
+  [
+   75.02,
+   "tap",
+   "a"
+  ],
+  [
+   78.02,
+   "tap",
+   "a"
+  ],
+  [
+   81.03,
+   "tap",
+   "a"
+  ],
+  [
+   84.03,
+   "tap",
+   "a"
+  ],
+  [
+   87.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.14,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.01,
+   "got_s": 10.8,
+   "bytes": 284976
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 30.6,
+   "bytes": 615029
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 45.4,
+   "bytes": 382067
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.83,
+   "got_s": 50.5,
+   "bytes": 96286
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 70.7,
+   "bytes": 590054
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 90.6,
+   "bytes": 909822
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.84,
+   "got_s": 90.6,
+   "bytes": 909822,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   46.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   79.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   80.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Taito Legends (U),crc32=8f7416bf"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55540.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   30.0,
+   60.0,
+   59.8,
+   58.6,
+   58.9,
+   60.0,
+   59.8,
+   60.0,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: kicks 698 words 739632 headers 119344 methods 620284 faults 0 GET 03eee65c PUT 03eee65c binds 5 semaphores 16100 flips 5102 traps 9485 (1=5102 5=4094 28=141 8=140 9=8) runs 0 surfaces 12 clears 13056 swaps 5102 draws 183304 ff 0 skipped 0 () textures 674 (372 held, 12 MiB) rt uploads 5",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 25.2, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2485 verts=93612 mergeable=0 (not: strip 0 idx 2485 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=540 pc=2425 vi=120 vb=106 vp=180 sc=180 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=183285 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 727 words 787948 headers 128344 methods 659612 faults 0 GET 03e03780 PUT 03e03780 binds 5 semaphores 16293 flips 5162 traps 9603 (1=5162 5=4152 28=141 8=140 9=8) runs 0 surfaces 12 clears 13296 swaps 5162 draws 186070 ff 0 skipped 0 () textures 682 (372 held, 12 MiB) rt uploads 5",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 24.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2766 verts=95496 mergeable=0 (not: strip 0 idx 2766 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=540 pc=2706 vi=120 vb=112 vp=180 sc=180 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=186051 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 723 words 815977 headers 133428 methods 682540 faults 0 GET 03e344ac PUT 03e344ac binds 5 semaphores 16485 flips 5222 traps 9720 (1=5222 5=4209 28=141 8=140 9=8) runs 0 surfaces 12 clears 13536 swaps 5222 draws 188995 ff 0 skipped 0 () textures 697 (384 held, 12 MiB) rt uploads 5",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 25.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2925 verts=96828 mergeable=0 (not: strip 0 idx 2925 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=540 pc=2865 vi=120 vb=110 vp=180 sc=180 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=188976 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 715 words 795587 headers 129240 methods 666348 faults 0 GET 03e46130 PUT 03e46130 binds 5 semaphores 16678 flips 5282 traps 9834 (1=5282 5=4263 28=141 8=140 9=8) runs 0 surfaces 12 clears 13776 swaps 5282 draws 191789 ff 0 skipped 0 () textures 701 (385 held, 12 MiB) rt uploads 5",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 24.6 ms (max 24.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=2794 verts=96744 mergeable=0 (not: strip 0 idx 2794 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=300 set1=540 pc=2734 vi=120 vb=107 vp=180 sc=180 dyn=900 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=191770 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=310582 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 43 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55cf5e2f0ec0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55cf5e2f0ec0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 93.5,
+  "peak_rms_dbfs": -17.8,
+  "first_sound_s": 5.0,
+  "audible_fraction": 0.85,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -29.3,
+   -28.0,
+   -28.0,
+   -27.5,
+   -29.3,
+   -19.8,
+   -20.2,
+   -20.7,
+   -21.0,
+   -21.0,
+   -21.2,
+   -19.6,
+   -19.2,
+   -19.2,
+   -18.4,
+   -19.4,
+   -17.8,
+   -19.8,
+   -120.0,
+   -120.0,
+   -20.7,
+   -19.9,
+   -35.5,
+   -26.0,
+   -56.1,
+   -50.1,
+   -26.8,
+   -33.5,
+   -32.2,
+   -28.3,
+   -28.4,
+   -30.2,
+   -30.2,
+   -30.6,
+   -28.6,
+   -30.5,
+   -32.6,
+   -29.1,
+   -19.5,
+   -32.0,
+   -28.6,
+   -31.8,
+   -32.3,
+   -31.7,
+   -31.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.81 s (judged from screenshots); stopped at 94.2 s and the emulator closed",
+ "duration_s": 94.4,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

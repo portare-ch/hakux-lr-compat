@@ -1,0 +1,1562 @@
+{
+ "game_file": "TY the Tasmanian Tiger 2 - Bush Rescue (U).chd",
+ "game_size": 1230762332,
+ "system": "amd64-linux",
+ "started": "2026-11-07T03:03:53+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The first screen (from about 28 s) is Load Game: 'The hard disk does not contain any TY2 saved games' (B Back), and A/Start lead back to it. B, Down to New Game, A; then only A every 3 s (Game 1, the intro), as Start in the game opens the Callsheet menu.",
+  "quiet": [
+   [
+    29.5,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    30.5,
+    "tap",
+    "b"
+   ],
+   [
+    32.5,
+    "tap",
+    "down"
+   ],
+   [
+    33.3,
+    "tap",
+    "a"
+   ],
+   [
+    36.0,
+    "tap",
+    "a"
+   ],
+   [
+    39.0,
+    "tap",
+    "a"
+   ],
+   [
+    42.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.0,
+    "tap",
+    "a"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    51.0,
+    "tap",
+    "a"
+   ],
+   [
+    54.0,
+    "tap",
+    "a"
+   ],
+   [
+    57.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "a"
+   ],
+   [
+    72.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.0,
+    "tap",
+    "a"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    81.0,
+    "tap",
+    "a"
+   ],
+   [
+    84.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    96.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    102.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.0,
+    "tap",
+    "a"
+   ],
+   [
+    108.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    114.0,
+    "tap",
+    "a"
+   ],
+   [
+    117.0,
+    "tap",
+    "a"
+   ],
+   [
+    120.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "b"
+  ],
+  [
+   32.5,
+   "tap",
+   "down"
+  ],
+  [
+   33.3,
+   "tap",
+   "a"
+  ],
+  [
+   36.0,
+   "tap",
+   "a"
+  ],
+  [
+   39.0,
+   "tap",
+   "a"
+  ],
+  [
+   42.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.0,
+   "tap",
+   "a"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   51.0,
+   "tap",
+   "a"
+  ],
+  [
+   54.0,
+   "tap",
+   "a"
+  ],
+  [
+   57.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   81.0,
+   "tap",
+   "a"
+  ],
+  [
+   84.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   96.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.0,
+   "tap",
+   "a"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   114.0,
+   "tap",
+   "a"
+  ],
+  [
+   117.0,
+   "tap",
+   "a"
+  ],
+  [
+   120.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.84,
+  "confirmed_by": "w130",
+  "stopped_at_s": 137.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 137.8,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "b"
+  ],
+  [
+   32.66,
+   "tap",
+   "down"
+  ],
+  [
+   33.41,
+   "tap",
+   "a"
+  ],
+  [
+   36.02,
+   "tap",
+   "a"
+  ],
+  [
+   39.03,
+   "tap",
+   "a"
+  ],
+  [
+   42.04,
+   "tap",
+   "a"
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.14,
+   "tap",
+   "a"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   51.12,
+   "tap",
+   "a"
+  ],
+  [
+   54.02,
+   "tap",
+   "a"
+  ],
+  [
+   57.03,
+   "tap",
+   "a"
+  ],
+  [
+   60.04,
+   "tap",
+   "a"
+  ],
+  [
+   63.04,
+   "tap",
+   "a"
+  ],
+  [
+   66.05,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   72.01,
+   "tap",
+   "a"
+  ],
+  [
+   75.01,
+   "tap",
+   "a"
+  ],
+  [
+   78.02,
+   "tap",
+   "a"
+  ],
+  [
+   81.03,
+   "tap",
+   "a"
+  ],
+  [
+   84.03,
+   "tap",
+   "a"
+  ],
+  [
+   87.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   90.15,
+   "tap",
+   "a"
+  ],
+  [
+   93.01,
+   "tap",
+   "a"
+  ],
+  [
+   96.01,
+   "tap",
+   "a"
+  ],
+  [
+   99.02,
+   "tap",
+   "a"
+  ],
+  [
+   102.02,
+   "tap",
+   "a"
+  ],
+  [
+   105.03,
+   "tap",
+   "a"
+  ],
+  [
+   108.03,
+   "tap",
+   "a"
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   111.14,
+   "tap",
+   "a"
+  ],
+  [
+   114.04,
+   "tap",
+   "a"
+  ],
+  [
+   117.05,
+   "tap",
+   "a"
+  ],
+  [
+   120.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.01,
+   "tap",
+   "a"
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 12.2,
+   "bytes": 643279
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 34.5,
+   "bytes": 1071406
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 47.7,
+   "bytes": 1146742
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 52.0,
+   "bytes": 1408871
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 71.5,
+   "bytes": 1468679
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 92.7,
+   "bytes": 964643
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 113.4,
+   "bytes": 1213675
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 133.5,
+   "bytes": 1216441
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.82,
+   "got_s": 133.5,
+   "bytes": 1216441,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   8.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   9.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   10.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   14.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   15.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   16.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   20.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   21.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   22.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   26.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   27.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   28.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   33.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   34.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   40.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   41.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   47.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   53.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   60.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   61.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   81.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   102.6,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   123.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   129.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   135.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   136.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ],
+  [
+   137.2,
+   "GET_STATUS PLAYING xbox,TY the Tasmanian Tiger 2 - Bush Rescue (U),crc32=cd544c06"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   56.7,
+   58.6,
+   59.8,
+   59.6,
+   59.6,
+   60.0,
+   59.8,
+   60.0,
+   59.7,
+   60.0,
+   59.8,
+   60.0,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=72467 verts=4144226 mergeable=0 (not: strip 72107 idx 360 state 0 work 0 gap 0) batches=980 of 7494 draws indexed: no state between 0, contiguous 0 pipe=4702 set1=65653 pc=7636 vi=601 vb=187 vp=647 sc=647 dyn=11891 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=6407092 prog_fog=5932902 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2431 sysops 4410 (int 678, of them ticks 46; hook 0) schedules 2032 switches 1483 idle 466 slices 2 page faults 0 mmio 9571 apu waits 0 vm pages +0 -0 isr irq1:493 (max 2.6 ms) irq3:158 (max 1.3 ms) | dpc max wait 0.9 run 2.1 ms, 0 over 8 ms | holds 281 (longest 1.3",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 207 (pages 01739000:320 02442000:256 01779000:256) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 2284 KiB, contiguous 58540 KiB (25 blocks), virtual 3384 KiB, kernel pool 94 of 128 KiB (Ex 515, objects 8, lost 0 KiB, 12 free ranges)",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 1316 words 4769565 headers 854211 methods 3915356 faults 0 GET 00c09c88 PUT 00ca5870 binds 5 semaphores 74191 flips 11255 traps 16598 (21=7986 5=5336 1=3269 9=6 28=1) runs 0 surfaces 10 clears 33926 swaps 11255 draws 6480827 ff 0 skipped 0 () textures 2161 (177 held, 6 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 56.2 ms (max 62.3, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 9087, copies queued behind them 0 (the decoder waited 1), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=72575 verts=4143150 mergeable=0 (not: strip 72215 idx 360 state 0 work 0 gap 0) batches=979 of 7496 draws indexed: no state between 0, contiguous 0 pipe=4737 set1=65758 pc=7677 vi=572 vb=180 vp=631 sc=631 dyn=11747 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=6479667 prog_fog=6004097 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1318 words 4760402 headers 852135 methods 3908256 faults 0 GET 00c33aa4 PUT 00ccc9ac binds 5 semaphores 74908 flips 11315 traps 16718 (21=8046 5=5396 1=3269 9=6 28=1) runs 0 surfaces 10 clears 34166 swaps 11315 draws 6553423 ff 0 skipped 0 () textures 2161 (177 held, 6 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 56.0 ms (max 61.2, 60 frames)",
+   "hakuX-hle-pb: targets' images landed 9148, copies queued behind them 0 (the decoder waited 1), accesses beside guards served 0 (hot pages 0)",
+   "hakuX-hle-emit: per s: draws=72596 verts=4141880 mergeable=0 (not: strip 72236 idx 360 state 0 work 0 gap 0) batches=978 of 7493 draws indexed: no state between 0, contiguous 0 pipe=4727 set1=65781 pc=7666 vi=583 vb=183 vp=642 sc=642 dyn=11803 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=6552263 prog_fog=6075313 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=418472 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 57 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x556f81675b20",
+   "[Gamescope WSI] Destroyed swapchain: 0x556f81675b20",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 136.8,
+  "peak_rms_dbfs": -8.1,
+  "first_sound_s": 8.0,
+  "audible_fraction": 0.92,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -30.0,
+   -34.2,
+   -34.5,
+   -26.5,
+   -27.5,
+   -22.0,
+   -27.2,
+   -33.2,
+   -32.5,
+   -29.1,
+   -25.9,
+   -28.0,
+   -31.2,
+   -29.1,
+   -31.6,
+   -31.2,
+   -35.3,
+   -34.4,
+   -35.3,
+   -17.8,
+   -18.9,
+   -21.7,
+   -21.4,
+   -20.2,
+   -22.7,
+   -17.2,
+   -20.7,
+   -8.8,
+   -18.6,
+   -14.9,
+   -8.1,
+   -10.7,
+   -16.1,
+   -22.8,
+   -29.5,
+   -24.6,
+   -25.5,
+   -22.5,
+   -24.8,
+   -26.7,
+   -25.1,
+   -22.6,
+   -23.5,
+   -21.8,
+   -22.4,
+   -22.0,
+   -20.2,
+   -20.1,
+   -21.6,
+   -30.8,
+   -29.2,
+   -29.0,
+   -30.9,
+   -29.1,
+   -29.0,
+   -29.9,
+   -29.0,
+   -28.6,
+   -31.2,
+   -31.4,
+   -32.1,
+   -31.1,
+   -31.2,
+   -31.8,
+   -32.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.84 s (judged from screenshots); stopped at 137.6 s and the emulator closed",
+ "duration_s": 137.8,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}

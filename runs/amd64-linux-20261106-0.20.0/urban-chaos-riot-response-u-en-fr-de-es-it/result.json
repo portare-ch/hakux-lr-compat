@@ -1,0 +1,1580 @@
+{
+ "game_file": "Urban Chaos - Riot Response (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2766972213,
+ "system": "amd64-linux",
+ "started": "2026-11-07T02:31:07+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 3,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "In the first run play was seen in one frame before the early stop. No default presses from 82 s and three in-game frames needed, so play is seen for longer.",
+  "watch_needed": 3,
+  "quiet": [
+   [
+    82.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.0,
+    "tap",
+    "a"
+   ],
+   [
+    91.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.0,
+    "tap",
+    "a"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    107.0,
+    "tap",
+    "a"
+   ],
+   [
+    111.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.0,
+    "tap",
+    "a"
+   ],
+   [
+    119.0,
+    "tap",
+    "a"
+   ],
+   [
+    123.0,
+    "tap",
+    "a"
+   ],
+   [
+    127.0,
+    "tap",
+    "a"
+   ],
+   [
+    131.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.0,
+    "tap",
+    "a"
+   ],
+   [
+    139.0,
+    "tap",
+    "a"
+   ],
+   [
+    143.0,
+    "tap",
+    "a"
+   ],
+   [
+    147.0,
+    "tap",
+    "a"
+   ],
+   [
+    151.0,
+    "tap",
+    "a"
+   ],
+   [
+    155.0,
+    "tap",
+    "a"
+   ],
+   [
+    159.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   91.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.0,
+   "tap",
+   "a"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   107.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   111.0,
+   "tap",
+   "a"
+  ],
+  [
+   115.0,
+   "tap",
+   "a"
+  ],
+  [
+   119.0,
+   "tap",
+   "a"
+  ],
+  [
+   123.0,
+   "tap",
+   "a"
+  ],
+  [
+   127.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   131.0,
+   "tap",
+   "a"
+  ],
+  [
+   135.0,
+   "tap",
+   "a"
+  ],
+  [
+   139.0,
+   "tap",
+   "a"
+  ],
+  [
+   143.0,
+   "tap",
+   "a"
+  ],
+  [
+   147.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   151.0,
+   "tap",
+   "a"
+  ],
+  [
+   155.0,
+   "tap",
+   "a"
+  ],
+  [
+   159.0,
+   "tap",
+   "a"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 3,
+  "ingame_at_s": 89.81,
+  "confirmed_by": "w130",
+  "stopped_at_s": 135.3,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w050",
+    "t": 49.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w090",
+    "t": 89.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 135.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.64,
+   "shot",
+   "mid"
+  ],
+  [
+   45.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.85,
+   "watch",
+   "w050"
+  ],
+  [
+   50.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.04,
+   "tap",
+   "a"
+  ],
+  [
+   87.05,
+   "tap",
+   "a"
+  ],
+  [
+   89.81,
+   "watch",
+   "w090"
+  ],
+  [
+   91.11,
+   "tap",
+   "a"
+  ],
+  [
+   95.02,
+   "tap",
+   "a"
+  ],
+  [
+   99.03,
+   "tap",
+   "a"
+  ],
+  [
+   103.03,
+   "tap",
+   "a"
+  ],
+  [
+   107.04,
+   "tap",
+   "a"
+  ],
+  [
+   109.85,
+   "watch",
+   "w110"
+  ],
+  [
+   111.15,
+   "tap",
+   "a"
+  ],
+  [
+   115.01,
+   "tap",
+   "a"
+  ],
+  [
+   119.01,
+   "tap",
+   "a"
+  ],
+  [
+   123.02,
+   "tap",
+   "a"
+  ],
+  [
+   127.03,
+   "tap",
+   "a"
+  ],
+  [
+   129.83,
+   "watch",
+   "w130"
+  ],
+  [
+   131.14,
+   "tap",
+   "a"
+  ],
+  [
+   135.01,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.8,
+   "bytes": 921025
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.8,
+   "bytes": 728712
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.64,
+   "got_s": 48.4,
+   "bytes": 1382751
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.85,
+   "got_s": 53.1,
+   "bytes": 1456303
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 72.8,
+   "bytes": 1109485
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.81,
+   "got_s": 91.4,
+   "bytes": 1007354
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.85,
+   "got_s": 111.5,
+   "bytes": 1008993
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.83,
+   "got_s": 131.4,
+   "bytes": 1002729
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.83,
+   "got_s": 131.4,
+   "bytes": 1002729,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   11.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   12.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   13.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   17.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   18.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   19.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   20.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   21.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   22.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   23.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   24.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   25.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   26.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   27.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   28.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   29.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   30.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   31.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   32.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   33.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   34.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   35.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   36.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   37.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   38.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   39.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   40.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   41.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   42.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   43.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   44.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   45.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   46.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   47.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   48.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   49.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   50.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   51.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   52.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   54.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   55.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   56.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   57.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   58.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   59.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   60.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   61.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   62.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   63.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   64.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   65.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   66.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   67.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   70.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   71.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   72.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   73.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   74.2,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   82.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   83.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   84.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   85.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   99.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   100.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   101.6,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   109.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   116.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   117.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   118.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   119.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   120.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   121.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   122.9,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   124.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   125.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   126.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   127.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   128.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   129.0,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   130.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   131.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   132.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   133.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   134.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ],
+  [
+   135.1,
+   "GET_STATUS PLAYING xbox,Urban Chaos - Riot Response (U) (En,Fr,De,Es,It),crc32=44c3b29d"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55500.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   42.5,
+   60.0,
+   59.8,
+   60.0,
+   29.2,
+   30.0,
+   29.1,
+   30.0,
+   28.7,
+   30.0,
+   29.0,
+   29.7,
+   29.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+  "tail": [
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-hle-pb: kicks 3545 words 12402608 headers 1153721 methods 11203374 faults 0 GET 03c6734c PUT 03c6734c binds 5 semaphores 69577 flips 5062 traps 79233 (c=19570 8c=19538 1=5062 6d=4107 ad=4106 4d=4097 8d=4086 2d=4067) runs 0 surfaces 6 clears 4463 swaps 5062 draws 3411291 ff 0 skipped 0 () textu",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 41.2 ms (max 41.6, 30 frames)",
+   "hakuX-hle-emit: per s: draws=36515 verts=9638349 mergeable=0 (not: strip 31641 idx 4874 state 0 work 0 gap 0) batches=150 of 330 draws indexed: no state between 0, contiguous 0 pipe=10476 set1=12580 pc=14318 vi=6137 vb=29997 vp=404 sc=404 dyn=12536 fb=120",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=3411000 prog_fog=70162 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: front buffer: 1 surfaces written back, 0 whose memory is newer kept",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=447533 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x56195c404af0",
+   "[Gamescope WSI] Destroyed swapchain: 0x56195c404af0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 134.4,
+  "peak_rms_dbfs": -15.1,
+  "first_sound_s": 2.5,
+  "audible_fraction": 0.8,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -30.3,
+   -27.9,
+   -30.0,
+   -30.5,
+   -33.2,
+   -32.7,
+   -31.6,
+   -27.0,
+   -23.6,
+   -24.6,
+   -24.1,
+   -93.0,
+   -38.4,
+   -120.0,
+   -45.5,
+   -43.0,
+   -46.8,
+   -36.8,
+   -32.9,
+   -38.3,
+   -24.5,
+   -15.3,
+   -22.8,
+   -18.7,
+   -46.7,
+   -17.2,
+   -20.5,
+   -15.1,
+   -18.3,
+   -56.2,
+   -23.6,
+   -22.8,
+   -22.2,
+   -26.5,
+   -68.9,
+   -19.9,
+   -21.4,
+   -18.6,
+   -22.7,
+   -61.6,
+   -26.0,
+   -15.3,
+   -27.5,
+   -19.1,
+   -21.8,
+   -15.3,
+   -15.4,
+   -22.3,
+   -15.6,
+   -21.4,
+   -21.5,
+   -25.6,
+   -23.3,
+   -15.9,
+   -27.2,
+   -19.7,
+   -27.3,
+   -19.4,
+   -23.0,
+   -26.1,
+   -18.4,
+   -26.4,
+   -18.2,
+   -26.2,
+   -27.4,
+   -27.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 89.81 s (judged from screenshots); stopped at 135.3 s and the emulator closed",
+ "duration_s": 135.4,
+ "run_id": "amd64-linux-20261106-0.20.0"
+}
