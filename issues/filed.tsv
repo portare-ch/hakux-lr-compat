@@ -10,3 +10,55 @@ far-cry-instincts-evolution	https://github.com/portare-ch/hakuX-lr/issues/100	Fa
 call-of-cthulhu	https://github.com/portare-ch/hakuX-lr/issues/101	Call of Cthulhu: Dark Corners of the Earth: main menu at 20 fps
 cold-fear	https://github.com/portare-ch/hakuX-lr/issues/102	Cold Fear: black loading screen from 22 s on (check with a longer run)
 splinter-cell-pandora-tomorrow	https://github.com/portare-ch/hakuX-lr/issues/103	Splinter Cell: Pandora Tomorrow: 10 s stall, then a still image (check with a longer run)
+reign-of-fire	https://github.com/portare-ch/hakuX-lr/issues/111	Reign of Fire: access violation (c0000005 at 000ab080) when the Basic Training level loads
+robocop	https://github.com/portare-ch/hakuX-lr/issues/112	RoboCop: sound-system fatal error, then access violation at 0009644b when the first level loads
+svc-chaos	https://github.com/portare-ch/hakuX-lr/issues/113	SNK vs Capcom - SVC Chaos: RetroArch exits by itself after 4 KiB contiguous allocations fail (USA and Europe)
+sx-superstar	https://github.com/portare-ch/hakuX-lr/issues/114	SX Superstar: guest fault (write to 00000000 at eip 001b4e77) closes RetroArch when the main menu loads
+rogue-trooper	https://github.com/portare-ch/hakuX-lr/issues/115	Rogue Trooper: hangs on the "Loading..." legal screen, the guest calls NtWriteFile about 108,000 times a second
+samurai-shodown-v	https://github.com/portare-ch/hakuX-lr/issues/116	Samurai Shodown V: stage background corrupted in fights, texture table full
+silent-hill-2	https://github.com/portare-ch/hakuX-lr/issues/117	Silent Hill 2 - Restless Dreams: Paused screen draws only the top-left quarter of the frozen picture
+shrek-super-party	https://github.com/portare-ch/hakuX-lr/issues/118	Shrek Super Party: access violation at 000ba334 after a 12 KiB contiguous allocation fails
+the-sims	https://github.com/portare-ch/hakuX-lr/issues/119	Sims, The: access violation at 0013e596 on the Create a Sim name screen
+clone-wars-tetris-worlds	https://github.com/portare-ch/hakuX-lr/issues/120	Star Wars - The Clone Wars + Tetris Worlds: dashupdate.xbe crashes (c0000005 at 0002f1cd) right after the launcher starts it
+shin-sangoku-musou-3	https://github.com/portare-ch/hakuX-lr/issues/121	Shin Sangoku Musou 3: access violation at 00174091 when the first battle loads
+spikeout	https://github.com/portare-ch/hakuX-lr/issues/122	Spikeout - Battle Street: does not boot, "xbe: parse failed (-3)" on an XBE with 398 sections
+simpsons-road-rage	https://github.com/portare-ch/hakuX-lr/issues/123	Simpsons, The - Road Rage: hangs on the Radical Entertainment logo
+sniper-elite	https://github.com/portare-ch/hakuX-lr/issues/124	Sniper Elite: hangs on the copyright screen, the guest calls NtWriteFile about 108,000 times a second
+spartan-total-warrior	https://github.com/portare-ch/hakuX-lr/issues/125	Spartan - Total Warrior: wrong colours in the in-engine intro
+jedi-academy-jp	https://github.com/portare-ch/hakuX-lr/issues/126	Star Wars - Jedi Knight - Jedi Academy: torn character models in the intro, blurry patch over the ground in the first level
+seablade	https://github.com/portare-ch/hakuX-lr/issues/127	SeaBlade: front-end menus without text or items, thousands of swaps a second, then a hang
+jedi-starfighter	https://github.com/portare-ch/hakuX-lr/issues/128	Star Wars - Jedi Starfighter: front end runs at 2-9 fps, one push-buffer kick per draw
+obi-wan	https://github.com/portare-ch/hakuX-lr/issues/129	Star Wars - Obi-Wan: ENTER NAME keyboard runs at 6-11 fps and doesn't follow the d-pad
+starfighter-se	https://github.com/portare-ch/hakuX-lr/issues/130	Star Wars - Starfighter Special Edition: front end runs at 4-14 fps, one push-buffer kick per draw
+sneakers	https://github.com/portare-ch/hakuX-lr/issues/131	Sneakers: freezes of 2-4.6 s ("JIT compiling") during the intro and level start; Quit doesn't end the process
+spyhunter	https://github.com/portare-ch/hakuX-lr/issues/132	SpyHunter: first mission runs at 13-23 fps (about 29,000 draws a frame)
+kotor	https://github.com/portare-ch/hakuX-lr/issues/133	Star Wars - Knights of the Old Republic: opening crawl and intro movie drop from 30 to 15, 10 and 7.5 fps
+xiii	https://github.com/portare-ch/hakuX-lr/issues/134	XIII: stops 4 s after launch with "exceptions nested too deep" after repeated "Can't resolve package name" throws
+world-championship-poker-2	https://github.com/portare-ch/hakuX-lr/issues/135	World Championship Poker 2 featuring Howard Lederer: access violation at 0006f109 about 13 s after launch
+wwe-wrestlemania-21	https://github.com/portare-ch/hakuX-lr/issues/136	WWE WrestleMania 21: push-buffer "invalid command" after the first clear, then no frames at all
+trivial-pursuit-unhinged	https://github.com/portare-ch/hakuX-lr/issues/137	Trivial Pursuit - Unhinged: disc error screen at boot after looking up DataXbox\Video and Data\HelpDisplay.txt without the language folder
+ultra-bust-a-move	https://github.com/portare-ch/hakuX-lr/issues/138	Ultra Bust-A-Move: never leaves "Now Loading" while drawing about 4,500 times a second
+unreal-championship	https://github.com/portare-ch/hakuX-lr/issues/139	Unreal Championship: intro movies through the video overlay are black, with sound
+wallace-gromit-were-rabbit	https://github.com/portare-ch/hakuX-lr/issues/140	Wallace & Gromit - The Curse of the Were-Rabbit: bottom of the picture is black (color surfaces logged as 640x409 and 640x339)
+wwii-combat-iwo-jima	https://github.com/portare-ch/hakuX-lr/issues/141	World War II Combat - Iwo Jima: the name keyboard ignores Start and A
+wwii-combat-road-to-berlin	https://github.com/portare-ch/hakuX-lr/issues/142	World War II Combat - Road to Berlin: the name keyboard ignores Start and A
+ufc-tapout	https://github.com/portare-ch/hakuX-lr/issues/143	UFC - Ultimate Fighting Championship - Tapout: runs too fast, the round clock at 4.5-7.7 times real time
+wwe-raw-2	https://github.com/portare-ch/hakuX-lr/issues/144	WWE Raw 2: RetroArch doesn't exit after Quit once the core has stopped
+whiplash	https://github.com/portare-ch/hakuX-lr/issues/145	Whiplash: access violation at 002c66a9 during the intro cutscene
+terminator-dawn-of-fate	https://github.com/portare-ch/hakuX-lr/issues/146	Terminator, The - Dawn of Fate: access violation at 0009e67f while the training level loads
+thaw	https://github.com/portare-ch/hakuX-lr/issues/147	Tony Hawk's American Wasteland: access violation at 00011985 about 15 s after launch
+rainbow-six-lockdown	https://github.com/portare-ch/hakuX-lr/issues/148	Tom Clancy's Rainbow Six - Lockdown: RetroArch crashes with SIGSEGV in the core during the intro
+test-drive	https://github.com/portare-ch/hakuX-lr/issues/149	Test Drive: the core doesn't stop for the relaunch into TDGame.xbe and the process ends
+rainbow-six-critical-hour	https://github.com/portare-ch/hakuX-lr/issues/150	Tom Clancy's Rainbow Six - Critical Hour: freezes on the ESRB notice, sound still playing
+transworld-snowboarding	https://github.com/portare-ch/hakuX-lr/issues/151	TransWorld Snowboarding: main menu freezes after the relaunch into UPP_Structure.xbe, music still playing
+nightmare-before-christmas	https://github.com/portare-ch/hakuX-lr/issues/152	Tim Burton's The Nightmare Before Christmas - Oogie's Revenge: stops on the first "Now Loading..." screen, silent
+thrillville	https://github.com/portare-ch/hakuX-lr/issues/153	Thrillville: the bottom fifth to third of the picture is black
+totaled	https://github.com/portare-ch/hakuX-lr/issues/154	Totaled!: 12-25 fps in the derby, guest CPU-bound
+silent-hill-4	https://github.com/portare-ch/hakuX-lr/issues/155	Silent Hill 4 - The Room: no sound in Henry's room
+sf-anniversary-collection	https://github.com/portare-ch/hakuX-lr/issues/156	Street Fighter Anniversary Collection: garbled sprites on the Super Arts select and VS screens
+superman-man-of-steel	https://github.com/portare-ch/hakuX-lr/issues/157	Superman - The Man of Steel: 15-20 fps in play, the decoder waits on the guest's GPU interrupt handler
+tenchu-return-from-darkness	https://github.com/portare-ch/hakuX-lr/issues/158	Tenchu - Return from Darkness: no HUD in the first forest view
+ghost-recon-2-summit-strike	https://github.com/portare-ch/hakuX-lr/issues/159	Tom Clancy's Ghost Recon 2 - Summit Strike: small-font text drawn as scattered dots
+sims-bustin-out	https://github.com/portare-ch/hakuX-lr/issues/160	Sims, The - Bustin' Out: access violation at 00147c15 when the house loads
+wings-of-war	https://github.com/portare-ch/hakuX-lr/issues/161	Wings of War: "problem with the disc" error after a failed 4 KiB contiguous allocation when the first mission loads
+tony-hawks-project-8	https://github.com/portare-ch/hakuX-lr/issues/162	Tony Hawk's Project 8: band of random pixels on the first loading screen, blank Suburbs loading photo
