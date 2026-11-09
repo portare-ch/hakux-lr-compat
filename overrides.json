@@ -11651,5 +11651,127 @@
     "a"
    ]
   ]
+ },
+ "world-war-ii-combat-iwo-jima-u": {
+  "_why": "Start/A from 10.5 s loop on NEW PROFILE: A on Name opens the name keyboard, Start confirms it, so the keyboard is on screen in every screenshot (looked like the game ignored A and Start, #141/#142). Without the default presses the attract demo plays; Start, then A opens NEW PROFILE, Down Down A creates the profile, A picks Campaign, the level and the briefing's Start. The menus fade slowly, so presses are 4 s apart.",
+  "quiet": [
+   [
+    10.0,
+    300.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "start"
+   ],
+   [
+    44.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "down"
+   ],
+   [
+    50.0,
+    "tap",
+    "down"
+   ],
+   [
+    52.0,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "world-war-ii-combat-road-to-berlin-u": {
+  "_why": "Start/A from 10.5 s loop on NEW PROFILE: A on Name opens the name keyboard, Start confirms it, so the keyboard is on screen in every screenshot (looked like the game ignored A and Start, #141/#142). Without the default presses the attract demo plays; Start, then A opens NEW PROFILE, Down Down A creates the profile, A picks Campaign, the level and the briefing's Start. The menus fade slowly, so presses are 4 s apart.",
+  "quiet": [
+   [
+    10.0,
+    300.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "start"
+   ],
+   [
+    44.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "down"
+   ],
+   [
+    50.0,
+    "tap",
+    "down"
+   ],
+   [
+    52.0,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ]
+  ]
  }
 }
