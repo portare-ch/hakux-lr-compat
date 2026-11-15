@@ -471,6 +471,36 @@ def resign_saves(saves_dir):
     return done
 
 
+def recorded_override(res, run_id=None):
+    """The override that repeats a guided run without the guide: every press the run made, at the
+    time it made it (the planned ones before the guide took over, those made to unstick, and the
+    guide's), with the planned presses, the unstick presses and the guide all off. None unless the
+    guide gave presses and the run then reached gameplay."""
+    w = res.get("watch") or {}
+    if not w.get("ingame_at_s") or not any(g.get("presses") for g in w.get("guided") or []):
+        return None
+    taps = [[round(s[0], 1), "tap", s[2]] for s in res.get("steps_done") or [] if len(s) > 2 and s[1] == "tap"]
+    if not taps:
+        return None
+    screens = []
+    for g in w["guided"]:
+        if g.get("presses") and g.get("screen") and g["screen"] not in screens:
+            screens.append(g["screen"])
+    end = max(DEFAULT_PLAN["input_time"], taps[-1][0] + 40.0)
+    ov = {k: v for k, v in (res.get("override") or {}).items() if k in ("save", "resign")}
+    ov.update({
+        "_why": ("Recorded from a guided run" + (f" ({run_id or res.get('run_id')})" if run_id or res.get("run_id") else "")
+                 + f": gameplay from {w['ingame_at_s']} s. Screens the guide passed: " + "; ".join(screens)[:600]),
+        "guide": False,
+        "unstick": [],
+        "quiet": [[0, 100000]],
+        "input_time": end,
+        "hard_limit": end + 45.0,
+        "extra_steps": taps,
+    })
+    return ov
+
+
 # RetroArch
 
 def ra_send(msg, want_reply=False, timeout=0.5):
@@ -1117,6 +1147,9 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     }
     res["ended_early_s"] = ended_early
     res["steps_done"] = done_steps
+    rec = recorded_override(res, args.run_id)
+    if rec:
+        res["recorded_override"] = rec
     res["shots"] = shots
     res["missing_shots"] = missing
     res["status"] = status

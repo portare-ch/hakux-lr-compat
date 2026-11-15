@@ -97,9 +97,24 @@ never to overwrite or delete saved data. A game whose override has
 `extra_steps` or `steps` keeps its timed presses and is not guided unless the
 override sets `"guide": true`; `"guide": false` turns it off for a game.
 
-A guided result shows that the game can be reached and played with a pad, not
-that Start and A alone get there. To make it repeatable without the guide,
-copy the guided presses from `steps_done` into an override.
+The guide is only for finding the way. A guided run that reaches gameplay
+records it as an override: `result.json` → `recorded_override` holds every
+press the run made, at the time it made it (the planned ones before the
+guide took over, the unstick presses and the guide's), with the planned
+presses, the unstick presses and the guide switched off. Results for the
+list come from running the game again from that override, without the guide:
+
+```sh
+python3 runs/record-overrides.py runs/<guided run id> > games.txt   # writes overrides.json
+mapfile -t G < <(sed "s|^|<CHD-dir>/|" games.txt)
+python3 runner.py --system amd64-linux --core <core> --games "${G[@]}" --out runs --run-id <replay run id>
+```
+
+`record-overrides.py` leaves a game that already has an override alone
+(`--force` replaces it; `--dry-run` only lists). The replay needs no model:
+with `--judge-model none` it makes the recorded presses and runs to the end
+of the plan. A replay that does not reach gameplay (a load that took longer
+than in the guided run) leaves the game as it was.
 
 ### Saved games
 
