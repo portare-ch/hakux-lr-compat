@@ -37378,20 +37378,20 @@
   "driv3r-u-en-fr-de-es-it": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Atari logo and the profile prompt render correctly.",
-      "audio": "sound from 6.5 s, audible in 5 % of the run, loudest -26.8 dBFS RMS",
-      "notes": "From 30 s to the end the run sat on 'Sign-In Failed - No DRIV3R profile was found. Would you like to create one?' with No selected (yellow); Start/A and the B and d-pad down presses never got past it. Needs left to Yes, then A (profile creation may then need text entry). 30 fps."
+      "graphics": "Name entry and Tanner on foot with health, weapon and minimap HUD render correctly, 46 fps.",
+      "audio": "sound from 6.5 s, audible in 53 % of the run, loudest -26.8 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. With the archived save (re-signed for hakuX-lr) on the console disk. In play on foot from about 110 s until the early stop at 137 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 109.81 s (judged from screenshots); stopped at 137.3 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 300.7,
+       "at_s": 137.4,
        "code": 0,
        "signal": null
       },
@@ -37405,15 +37405,15 @@
        "not-implemented"
       ],
       "fps_median": 30.0,
-      "fps_min": 29.9,
+      "fps_min": 29.7,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
       "audio_peak_rms_dbfs": -26.8,
       "audio_first_sound_s": 6.5,
-      "audio_audible_fraction": 0.05,
-      "audio_seconds": 299.4,
+      "audio_audible_fraction": 0.53,
+      "audio_seconds": 135.8,
       "images": {
        "boot": {
         "mean": 0.707,
@@ -37426,105 +37426,77 @@
         "black": false
        },
        "final": {
-        "mean": 0.033,
-        "sd": 0.165,
+        "mean": 0.414,
+        "sd": 0.184,
         "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.447
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 109.81,
+       "stopped_at_s": 137.3,
        "verdicts": [
         [
-         29.84,
+         29.8,
          "OTHER"
         ],
         [
-         49.85,
+         49.84,
          "OTHER"
         ],
         [
-         69.84,
+         69.83,
          "OTHER"
         ],
         [
-         89.85,
+         89.82,
          "OTHER"
         ],
         [
-         109.85,
-         "OTHER"
+         109.81,
+         "INGAME"
         ],
         [
          129.81,
-         "OTHER"
+         "INGAME"
         ],
         [
-         149.81,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.83,
-         "OTHER"
-        ],
-        [
-         269.85,
-         "OTHER"
-        ],
-        [
-         289.81,
-         "OTHER"
+         129.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/driv3r-u-en-fr-de-es-it/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/driv3r-u-en-fr-de-es-it/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -37539,16 +37511,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:53:55+01:00",
+     "tested_at": "2026-11-15T15:57:01+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:08:37+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -38247,20 +38216,20 @@
   "dynasty-warriors-5-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Logos, the Musou mode briefing and the Preparation screens render correctly at 60 fps.",
-      "audio": "sound from -0.0 s, audible in 99 % of the run, loudest -17.4 dBFS RMS",
-      "notes": "Reached the Ji Province briefing by 45 s, then from 70 s to the end the frames alternate between the Preparation menu and its Weapon screen (Bronze Spear equipped); the B unstick presses at 93, 173 and 253 s returned to the Preparation menu and A re-entered Weapon. Needs the press that begins the battle from the Preparation menu, which Start did not do here (not confirmed which). One 2.4 s stall at frame 47 while JIT compiling (fps min 15.6)."
+      "graphics": "Weapon preparation and the battle with the minimap, officer portrait, messages and K.O. count render correctly, 59 fps.",
+      "audio": "sound from -0.0 s, audible in 98 % of the run, loudest -17.6 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. A Musou Mode battle is in play from about 170 s until the early stop at 199 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 169.85 s (judged from screenshots); stopped at 198.9 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.3,
+       "at_s": 199.0,
        "code": 0,
        "signal": null
       },
@@ -38273,41 +38242,41 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
+      "fps_median": 59.5,
       "fps_min": 15.6,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
+      "guest_swaps_median": 59.9,
       "longest_hang_s": 1.5,
       "longest_hang_after_frame": 46,
-      "audio_peak_rms_dbfs": -17.4,
+      "audio_peak_rms_dbfs": -17.6,
       "audio_first_sound_s": -0.0,
-      "audio_audible_fraction": 0.99,
-      "audio_seconds": 301.1,
+      "audio_audible_fraction": 0.98,
+      "audio_seconds": 197.3,
       "images": {
        "boot": {
-        "mean": 0.021,
-        "sd": 0.066,
+        "mean": 0.02,
+        "sd": 0.06,
         "black": false
        },
        "mid": {
-        "mean": 0.496,
+        "mean": 0.497,
         "sd": 0.179,
         "black": false
        },
        "final": {
-        "mean": 0.411,
-        "sd": 0.13,
+        "mean": 0.209,
+        "sd": 0.083,
         "black": false
        },
-       "mid_final_rmse": 0.239
+       "mid_final_rmse": 0.339
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 169.85,
+       "stopped_at_s": 198.9,
        "verdicts": [
         [
-         29.85,
+         29.81,
          "OTHER"
         ],
         [
@@ -38315,19 +38284,19 @@
          "OTHER"
         ],
         [
-         69.81,
+         69.83,
          "OTHER"
         ],
         [
-         89.8,
+         89.83,
          "OTHER"
         ],
         [
-         109.8,
+         109.84,
          "OTHER"
         ],
         [
-         129.8,
+         129.81,
          "OTHER"
         ],
         [
@@ -38335,65 +38304,49 @@
          "OTHER"
         ],
         [
-         169.81,
-         "OTHER"
+         169.85,
+         "INGAME"
         ],
         [
-         189.82,
-         "OTHER"
+         189.8,
+         "INGAME"
         ],
         [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.84,
-         "OTHER"
+         189.8,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/dynasty-warriors-5-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/dynasty-warriors-5-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -38408,16 +38361,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:11:09+01:00",
+     "tested_at": "2026-11-15T15:59:21+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:36:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -38436,20 +38386,20 @@
   "ed-edd-n-eddy-the-mis-edventures-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "No picture: black in all three screenshots and all 14 watch frames; the core presented no frame.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "The title stopped within the first second: shortly after its open of '\\??\\engine.ini' failed ('unknown device (a missing name)', NtCreateFile c0000034) it returned to the firmware (routine 2, empty launch path) and the core stopped ('the title left') after 581 kernel calls; with no dashboard installed RetroArch stayed on a black screen until 300 s. No exception or KeBugCheck is logged; changed from Completed to Crash because the game never ran."
+      "graphics": "The save prompt and the first level with the character portraits, counter and tutorial panel render correctly, 30 fps.",
+      "audio": "sound from 5.0 s, audible in 83 % of the run, loudest -24.3 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. The first level is in play from about 230 s until the early stop at 257 s, with sound. The crash at boot of the earlier run did not occur."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 229.84 s (judged from screenshots); stopped at 256.8 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 300.5,
+       "at_s": 257.0,
        "code": 0,
        "signal": null
       },
@@ -38460,43 +38410,44 @@
        "S2"
       ],
       "log_flags": [
+       "not-implemented",
        "stop"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
-      "longest_hang_s": 0.0,
-      "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "fps_median": 29.9,
+      "fps_min": 22.9,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 29.9,
+      "longest_hang_s": 1.5,
+      "longest_hang_after_frame": 2,
+      "audio_peak_rms_dbfs": -24.3,
+      "audio_first_sound_s": 5.0,
+      "audio_audible_fraction": 0.83,
+      "audio_seconds": 244.8,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.067,
+        "sd": 0.092,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.309,
+        "sd": 0.152,
+        "black": false
        },
        "final": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.372,
+        "sd": 0.184,
+        "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.308
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 229.84,
+       "stopped_at_s": 256.8,
        "verdicts": [
         [
-         29.8,
+         29.82,
          "OTHER"
         ],
         [
@@ -38504,85 +38455,85 @@
          "OTHER"
         ],
         [
-         69.82,
+         69.84,
          "OTHER"
         ],
         [
-         89.82,
+         89.84,
          "OTHER"
         ],
         [
-         109.83,
+         109.82,
          "OTHER"
         ],
         [
-         129.84,
+         129.82,
          "OTHER"
         ],
         [
-         149.84,
+         149.82,
          "OTHER"
         ],
         [
-         169.81,
+         169.82,
          "OTHER"
         ],
         [
-         189.82,
-         "OTHER"
+         189.81,
+         "INGAME"
         ],
         [
-         209.83,
+         209.8,
+         "INGAME"
+        ],
+        [
+         209.8,
          "OTHER"
         ],
         [
          229.84,
-         "OTHER"
+         "INGAME"
         ],
         [
-         249.8,
-         "OTHER"
+         249.82,
+         "INGAME"
         ],
         [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.83,
-         "OTHER"
+         249.82,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/ed-edd-n-eddy-the-mis-edventures-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/ed-edd-n-eddy-the-mis-edventures-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -38597,16 +38548,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:11:12+01:00",
+     "tested_at": "2026-11-15T16:02:43+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:36:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -39178,20 +39126,20 @@
   "enter-the-matrix-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "The boot shot at 10 s is a flat grey frame; the load screen renders correctly at 30 fps.",
-      "audio": "sound from 0.5 s, audible in 99 % of the run, loudest -19.9 dBFS RMS",
-      "notes": "From 30 s to the end it sat on 'Select a saved game to load.' with the Xbox hard disk showing 'No saved games available.' (A Select, B Back); Start and A don't leave it and no unstick press was sent. Needs B, then a new game from the menu it returns to (not confirmed)."
+      "graphics": "The memory device screen and Niobe in the first level with health, focus and weapon HUD render correctly, 59 fps.",
+      "audio": "sound from -0.0 s, audible in 93 % of the run, loudest -19.4 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. With the archived save (re-signed for hakuX-lr) on the console disk. The first level is in play from about 310 s until the early stop at 340 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 309.8 s (judged from screenshots); stopped at 339.7 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 304.5,
+       "at_s": 339.8,
        "code": 0,
        "signal": null
       },
@@ -39204,85 +39152,85 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 30.0,
+      "fps_median": 29.9,
       "fps_min": 29.3,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -19.9,
-      "audio_first_sound_s": 0.5,
-      "audio_audible_fraction": 0.99,
-      "audio_seconds": 303.3,
+      "audio_peak_rms_dbfs": -19.4,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.93,
+      "audio_seconds": 337.6,
       "images": {
        "boot": {
-        "mean": 0.738,
+        "mean": 0.805,
         "sd": 0.0,
         "black": false
        },
        "mid": {
-        "mean": 0.036,
-        "sd": 0.06,
+        "mean": 0.092,
+        "sd": 0.081,
         "black": false
        },
        "final": {
-        "mean": 0.039,
-        "sd": 0.063,
+        "mean": 0.232,
+        "sd": 0.072,
         "black": false
        },
-       "mid_final_rmse": 0.023
+       "mid_final_rmse": 0.176
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 309.8,
+       "stopped_at_s": 339.7,
        "verdicts": [
         [
-         29.81,
+         29.85,
          "OTHER"
         ],
         [
-         49.8,
+         49.81,
          "OTHER"
         ],
         [
-         69.8,
+         69.82,
          "OTHER"
         ],
         [
-         89.85,
+         89.84,
          "OTHER"
         ],
         [
-         109.8,
+         109.84,
          "OTHER"
         ],
         [
-         129.8,
+         129.81,
          "OTHER"
         ],
         [
-         149.85,
+         149.81,
          "OTHER"
         ],
         [
-         169.81,
+         169.82,
          "OTHER"
         ],
         [
-         189.81,
+         189.84,
          "OTHER"
         ],
         [
-         209.81,
+         209.8,
          "OTHER"
         ],
         [
-         229.81,
+         229.85,
          "OTHER"
         ],
         [
-         249.82,
+         249.83,
          "OTHER"
         ],
         [
@@ -39292,42 +39240,54 @@
         [
          289.84,
          "OTHER"
+        ],
+        [
+         309.8,
+         "INGAME"
+        ],
+        [
+         329.82,
+         "INGAME"
+        ],
+        [
+         329.82,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/enter-the-matrix-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/enter-the-matrix-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 338.7,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -39339,16 +39299,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
-       "hard_limit": 330.0
+       "unstick": [],
+       "hard_limit": 383.7
       }
      },
-     "tested_at": "2026-11-05T22:11:18+01:00",
+     "tested_at": "2026-11-15T16:07:04+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:36:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -40496,20 +40453,20 @@
   "espn-nba-2night-2002-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "In-game",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Team logos, title screen, the main menu, the Clubhouses menu and the Starter/Profile roster render correctly, 60 fps.",
-      "audio": "sound from 23.0 s, audible in 91 % of the run, loudest -14.4 dBFS RMS",
-      "notes": "From about 45 s to the end it cycles between the main menu with its SUB MENU open (Clubhouses selected), the Clubhouses menu (Team Select: L.A. Lakers) and the Lakers Starter/Profile roster; B goes back to the main menu with the sub menu still open. Needs B to close the sub menu, then the d-pad to EXHIBITION and A (the highlighted main-menu item is hidden behind the sub menu)."
+      "graphics": "Main menu and the game at tip-off with score and clock render correctly, but at 17 to 19 fps.",
+      "audio": "sound from 23.0 s, audible in 83 % of the run, loudest -12.4 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. A game is in play from about 210 s until the early stop at 237 s, with sound, at 17 to 19 fps."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 209.82 s (judged from screenshots); stopped at 237.2 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 300.8,
+       "at_s": 237.3,
        "code": 0,
        "signal": null
       },
@@ -40522,16 +40479,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
-      "fps_min": 44.6,
+      "fps_median": 53.2,
+      "fps_min": 17.3,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
+      "guest_swaps_median": 55.5,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -14.4,
+      "audio_peak_rms_dbfs": -12.4,
       "audio_first_sound_s": 23.0,
-      "audio_audible_fraction": 0.91,
-      "audio_seconds": 299.6,
+      "audio_audible_fraction": 0.83,
+      "audio_seconds": 235.7,
       "images": {
        "boot": {
         "mean": 0.763,
@@ -40544,19 +40501,19 @@
         "black": false
        },
        "final": {
-        "mean": 0.154,
-        "sd": 0.222,
+        "mean": 0.294,
+        "sd": 0.221,
         "black": false
        },
-       "mid_final_rmse": 0.301
+       "mid_final_rmse": 0.404
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 209.82,
+       "stopped_at_s": 237.2,
        "verdicts": [
         [
-         29.8,
+         29.83,
          "OTHER"
         ],
         [
@@ -40564,72 +40521,64 @@
          "OTHER"
         ],
         [
-         69.81,
+         69.82,
          "OTHER"
         ],
         [
-         89.81,
+         89.82,
          "OTHER"
         ],
         [
-         109.85,
+         109.84,
          "OTHER"
         ],
         [
-         129.83,
+         129.82,
          "OTHER"
         ],
         [
-         149.82,
+         149.81,
          "OTHER"
         ],
         [
-         169.81,
+         169.83,
+         "INGAME"
+        ],
+        [
+         189.83,
          "OTHER"
         ],
         [
-         189.81,
-         "OTHER"
+         209.82,
+         "INGAME"
         ],
         [
-         209.8,
-         "OTHER"
+         229.81,
+         "INGAME"
         ],
         [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.82,
-         "OTHER"
-        ],
-        [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.81,
-         "OTHER"
+         229.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-2night-2002-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-2night-2002-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -40640,12 +40589,12 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat6), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 373.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -40657,16 +40606,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
-       "hard_limit": 330.0
+       "unstick": [],
+       "hard_limit": 418.0
       }
      },
-     "tested_at": "2026-11-05T17:18:43+01:00",
+     "tested_at": "2026-11-15T16:12:49+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T17:49:58+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -40685,20 +40631,20 @@
   "espn-nba-basketball-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Team logo screen, intro and the Team Lineups screen render correctly, 60 fps.",
-      "audio": "sound from 10.0 s, audible in 96 % of the run, loudest -26.9 dBFS RMS",
-      "notes": "From about 45 s to the end it stays on Team Lineups (Spurs starters, T. Parker highlighted); Start and A change nothing there and the only legend is 'Press R to view Player Card'. B was never pressed (the animated background kept the unstick logic off), so the press that leaves it is not confirmed."
+      "graphics": "Team lineups and the game behind the pause menu render correctly, 60 fps.",
+      "audio": "sound from 11.5 s, audible in 82 % of the run, loudest -22.8 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. With the archived save (re-signed for hakuX-lr) on the console disk. A game is in play from about 210 s (the pause menu is open over it in the judged frames) until the early stop at 236 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 209.82 s (judged from screenshots); stopped at 235.6 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.2,
+       "at_s": 235.7,
        "code": 0,
        "signal": null
       },
@@ -40711,57 +40657,57 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
-      "fps_min": 27.2,
+      "fps_median": 59.3,
+      "fps_min": 19.2,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
-      "longest_hang_s": 0.0,
-      "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -26.9,
-      "audio_first_sound_s": 10.0,
-      "audio_audible_fraction": 0.96,
-      "audio_seconds": 300.9,
+      "guest_swaps_median": 59.9,
+      "longest_hang_s": 4.5,
+      "longest_hang_after_frame": 5,
+      "audio_peak_rms_dbfs": -22.8,
+      "audio_first_sound_s": 11.5,
+      "audio_audible_fraction": 0.82,
+      "audio_seconds": 232.3,
       "images": {
        "boot": {
-        "mean": 0.685,
+        "mean": 0.686,
         "sd": 0.315,
         "black": false
        },
        "mid": {
         "mean": 0.272,
-        "sd": 0.268,
+        "sd": 0.269,
         "black": false
        },
        "final": {
-        "mean": 0.268,
-        "sd": 0.267,
+        "mean": 0.277,
+        "sd": 0.289,
         "black": false
        },
-       "mid_final_rmse": 0.091
+       "mid_final_rmse": 0.373
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 209.82,
+       "stopped_at_s": 235.6,
        "verdicts": [
         [
-         29.85,
+         29.81,
          "OTHER"
         ],
         [
-         49.82,
+         49.84,
          "OTHER"
         ],
         [
-         69.81,
+         69.83,
          "OTHER"
         ],
         [
-         89.84,
+         89.83,
          "OTHER"
         ],
         [
-         109.82,
+         109.84,
          "OTHER"
         ],
         [
@@ -40769,56 +40715,48 @@
          "OTHER"
         ],
         [
-         149.84,
+         149.81,
          "OTHER"
         ],
         [
-         169.84,
+         169.83,
          "OTHER"
         ],
         [
-         189.82,
+         189.81,
          "OTHER"
         ],
         [
-         209.8,
-         "OTHER"
+         209.82,
+         "INGAME"
         ],
         [
          229.84,
-         "OTHER"
+         "INGAME"
         ],
         [
-         249.85,
-         "OTHER"
-        ],
-        [
-         269.84,
-         "OTHER"
-        ],
-        [
-         289.83,
-         "OTHER"
+         229.84,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/espn-nba-basketball-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/espn-nba-basketball-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -40829,9 +40767,9 @@
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat6), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -40846,16 +40784,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T17:19:11+01:00",
+     "tested_at": "2026-11-15T16:16:50+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T17:49:58+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -41932,20 +41867,20 @@
   "fable-u-limited-edition-bonus-dvd": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
+     "stage": "Playable",
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Disc menus with their preview videos and the feature movie's FABLE title card render correctly.",
-      "audio": "sound from -0.0 s, audible in 90 % of the run, loudest -20.9 dBFS RMS",
-      "notes": "Bonus video disc: Fable behind-the-scenes feature, Microsoft playable demos and game trailers. Selecting the Fable Feature opens its movie (the log shows Fable_Hero and Fable BTS .xmv files opened), but the next Start/A goes back to the menu within seconds, so only the title card was seen and full playback is not confirmed. The demos menu was not entered."
+      "graphics": "The disc menu and a playable demo (snowboarding, with its instruction banner) render correctly, 30 fps.",
+      "audio": "sound from -0.0 s, audible in 98 % of the run, loudest -17.4 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. This is the bonus disc: one of its playable demos is in play from about 290 s until the early stop at 317 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 289.83 s (judged from screenshots); stopped at 317.3 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 303.3,
+       "at_s": 317.4,
        "code": 0,
        "signal": null
       },
@@ -41956,22 +41891,23 @@
        "S2"
       ],
       "log_flags": [
-       "not-implemented"
+       "not-implemented",
+       "stop"
       ],
-      "fps_median": 37.9,
-      "fps_min": 30.2,
+      "fps_median": 58.5,
+      "fps_min": 29.8,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 30.7,
+      "guest_swaps_median": 59.9,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -20.9,
+      "audio_peak_rms_dbfs": -17.4,
       "audio_first_sound_s": -0.0,
-      "audio_audible_fraction": 0.9,
-      "audio_seconds": 301.6,
+      "audio_audible_fraction": 0.98,
+      "audio_seconds": 314.3,
       "images": {
        "boot": {
         "mean": 0.156,
-        "sd": 0.174,
+        "sd": 0.173,
         "black": false
        },
        "mid": {
@@ -41980,39 +41916,39 @@
         "black": false
        },
        "final": {
-        "mean": 0.145,
-        "sd": 0.175,
+        "mean": 0.528,
+        "sd": 0.18,
         "black": false
        },
-       "mid_final_rmse": 0.254
+       "mid_final_rmse": 0.555
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 289.83,
+       "stopped_at_s": 317.3,
        "verdicts": [
         [
-         29.83,
+         29.85,
          "OTHER"
         ],
         [
-         49.8,
+         49.84,
          "OTHER"
         ],
         [
-         69.84,
+         69.83,
          "OTHER"
         ],
         [
-         89.84,
+         89.82,
          "OTHER"
         ],
         [
-         109.83,
+         109.81,
          "OTHER"
         ],
         [
-         129.83,
+         129.81,
          "OTHER"
         ],
         [
@@ -42020,15 +41956,15 @@
          "OTHER"
         ],
         [
-         169.82,
+         169.85,
          "OTHER"
         ],
         [
-         189.84,
+         189.85,
          "OTHER"
         ],
         [
-         209.81,
+         209.8,
          "OTHER"
         ],
         [
@@ -42036,52 +41972,60 @@
          "OTHER"
         ],
         [
-         249.83,
+         249.84,
          "OTHER"
         ],
         [
-         269.85,
+         269.82,
          "OTHER"
         ],
         [
-         289.81,
-         "OTHER"
+         289.83,
+         "INGAME"
+        ],
+        [
+         309.81,
+         "INGAME"
+        ],
+        [
+         309.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/fable-u-limited-edition-bonus-dvd/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/fable-u-limited-edition-bonus-dvd/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 321.8,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -42093,16 +42037,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
-       "hard_limit": 330.0
+       "unstick": [],
+       "hard_limit": 366.8
       }
      },
-     "tested_at": "2026-11-05T23:26:20+01:00",
+     "tested_at": "2026-11-15T16:20:49+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:54:14+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -42483,20 +42424,20 @@
   "fairly-oddparents-the-breakin-da-rules-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
+     "stage": "Playable",
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "THQ logo and the cel-shaded in-engine cutscenes with subtitles render correctly at 60 fps (min 40.3).",
-      "audio": "sound from 6.5 s, audible in 69 % of the run, loudest -24.0 dBFS RMS",
-      "notes": "A new game's opening cutscene ran from before 30 s to the end: every judged frame is a different subtitled scene (Timmy's parents leaving, Da Rules, the Fairy World courtroom with Jorgen at 300 s), so it was still advancing; no gameplay seen."
+      "graphics": "The opening cartoon and the first level behind the pause menu, with its counters, render correctly, 59 fps.",
+      "audio": "sound from 6.5 s, audible in 51 % of the run, loudest -25.3 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. The first level is in play from about 130 s (the pause menu is open over it in the judged frames) until the early stop at 156 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 129.84 s (judged from screenshots); stopped at 156.1 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 301.2,
+       "at_s": 156.3,
        "code": 0,
        "signal": null
       },
@@ -42509,16 +42450,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
-      "fps_min": 40.3,
+      "fps_median": 58.2,
+      "fps_min": 40.2,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 59.8,
+      "guest_swaps_median": 59.6,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -24.0,
+      "audio_peak_rms_dbfs": -25.3,
       "audio_first_sound_s": 6.5,
-      "audio_audible_fraction": 0.69,
-      "audio_seconds": 299.5,
+      "audio_audible_fraction": 0.51,
+      "audio_seconds": 152.9,
       "images": {
        "boot": {
         "mean": 0.076,
@@ -42531,31 +42472,31 @@
         "black": false
        },
        "final": {
-        "mean": 0.659,
-        "sd": 0.137,
+        "mean": 0.499,
+        "sd": 0.201,
         "black": false
        },
-       "mid_final_rmse": 0.356
+       "mid_final_rmse": 0.303
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 129.84,
+       "stopped_at_s": 156.1,
        "verdicts": [
         [
-         29.81,
+         29.8,
          "OTHER"
         ],
         [
-         49.81,
+         49.82,
          "OTHER"
         ],
         [
-         69.81,
+         69.83,
          "OTHER"
         ],
         [
-         89.81,
+         89.83,
          "OTHER"
         ],
         [
@@ -42563,73 +42504,49 @@
          "OTHER"
         ],
         [
-         129.82,
-         "OTHER"
+         129.84,
+         "INGAME"
         ],
         [
-         149.82,
-         "OTHER"
+         149.85,
+         "INGAME"
         ],
         [
-         169.83,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.81,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.8,
-         "OTHER"
-        ],
-        [
-         289.82,
-         "OTHER"
+         149.85,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/fairly-oddparents-the-breakin-da-rules-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/fairly-oddparents-the-breakin-da-rules-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -42644,16 +42561,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:11:21+01:00",
+     "tested_at": "2026-11-15T16:26:11+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:36:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -45841,20 +45755,20 @@
   "flatout-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Logos and the name-entry keyboard render correctly at 30 fps.",
-      "audio": "sound from -0.0 s, audible in 99 % of the run, loudest -19.0 dBFS RMS",
-      "notes": "Stalled from 30 s to the end on the profile name keyboard with DELETE selected: the A presses erased the default name ('PL' left at 30 s, empty from 50 s) and Start does not confirm it; no unstick press was sent. Needs the d-pad to a letter and A, then the d-pad to DONE and A."
+      "graphics": "Profile select and the race with times, position, lap, track map and speedometer render correctly, 30 fps.",
+      "audio": "sound from -0.0 s, audible in 99 % of the run, loudest -17.4 dBFS RMS",
+      "notes": "Inputs recorded from a guided run and replayed without the guide. With the archived save (re-signed for hakuX-lr) on the console disk. A race is in play from about 210 s until the early stop at 243 s, with sound. The profile screen lists the archived profile as a damaged game; the race was reached without it."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 209.84 s (judged from screenshots); stopped at 242.9 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 303.0,
+       "at_s": 243.1,
        "code": 0,
        "signal": null
       },
@@ -45867,61 +45781,61 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 30.0,
-      "fps_min": 22.5,
+      "fps_median": 29.8,
+      "fps_min": 22.7,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 30.0,
+      "guest_swaps_median": 29.9,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -19.0,
+      "audio_peak_rms_dbfs": -17.4,
       "audio_first_sound_s": -0.0,
       "audio_audible_fraction": 0.99,
-      "audio_seconds": 301.8,
+      "audio_seconds": 238.3,
       "images": {
        "boot": {
-        "mean": 0.998,
-        "sd": 0.011,
+        "mean": 0.985,
+        "sd": 0.097,
         "black": false
        },
        "mid": {
-        "mean": 0.297,
-        "sd": 0.193,
+        "mean": 0.263,
+        "sd": 0.177,
         "black": false
        },
        "final": {
-        "mean": 0.301,
-        "sd": 0.197,
+        "mean": 0.367,
+        "sd": 0.225,
         "black": false
        },
-       "mid_final_rmse": 0.135
+       "mid_final_rmse": 0.307
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 209.84,
+       "stopped_at_s": 242.9,
        "verdicts": [
         [
-         29.82,
+         29.84,
          "OTHER"
         ],
         [
-         49.83,
+         49.84,
          "OTHER"
         ],
         [
-         69.84,
+         69.83,
          "OTHER"
         ],
         [
-         89.83,
+         89.82,
          "OTHER"
         ],
         [
-         109.81,
+         109.8,
          "OTHER"
         ],
         [
-         129.82,
+         129.81,
          "OTHER"
         ],
         [
@@ -45929,65 +45843,57 @@
          "OTHER"
         ],
         [
-         169.84,
+         169.8,
          "OTHER"
         ],
         [
-         189.82,
+         189.84,
          "OTHER"
         ],
         [
-         209.85,
-         "OTHER"
+         209.84,
+         "INGAME"
         ],
         [
-         229.82,
-         "OTHER"
+         229.8,
+         "INGAME"
         ],
         [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.8,
-         "OTHER"
+         229.8,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/flatout-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0-replay/flatout-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0-replay",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat8), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
        "input_time": 285.0,
@@ -46002,16 +45908,13 @@
        "watch_from": 30.0,
        "watch_every": 20.0,
        "watch_needed": 2,
-       "unstick": [
-        "b",
-        "down"
-       ],
+       "unstick": [],
        "hard_limit": 330.0
       }
      },
-     "tested_at": "2026-11-05T22:16:14+01:00",
+     "tested_at": "2026-11-15T16:34:00+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:36:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -66082,20 +65985,20 @@
   "legacy-of-kain-defiance-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Intro",
-     "outcome": "Timeout",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "The Eidos logo is the only frame of the whole run.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Hangs on the Eidos logo: the guest stopped presenting after frame 47 with its vCPU busy, 93% of it in the FEX JIT (host eip 083464e0), and the hang report runs to 87.55 s while the frame never changes. On quit the core did not stop within 10 s and the process was killed at 310.9 s."
+      "graphics": "The save prompt and the first area with Raziel, the glyph on the floor and the health coil render correctly, 60 fps.",
+      "audio": "sound from -0.0 s, audible in 43 % of the run, loudest -15.9 dBFS RMS",
+      "notes": "With the archived save (re-signed for hakuX-lr) on the console disk. In play from about 70 s until the early stop at 97 s, with sound. The JIT hang of the earlier run did not occur."
      },
      "auto": {
-      "outcome": "Timeout",
-      "why": "hard limit reached while closing; killed",
+      "outcome": "Completed",
+      "why": "in game from 69.84 s (judged from screenshots); stopped at 97.3 s and the emulator closed",
       "exit": {
-       "how": "killed",
-       "at_s": 310.9,
+       "how": "quit",
+       "at_s": 97.4,
        "code": 0,
        "signal": null
       },
@@ -66108,130 +66011,94 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
-      "longest_hang_s": 87.55,
-      "longest_hang_after_frame": 47,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "fps_median": 59.2,
+      "fps_min": 33.0,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 59.9,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -15.9,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.43,
+      "audio_seconds": 95.7,
       "images": {
        "boot": {
-        "mean": 0.967,
-        "sd": 0.089,
+        "mean": 0.019,
+        "sd": 0.064,
         "black": false
        },
        "mid": {
-        "mean": 0.967,
-        "sd": 0.089,
+        "mean": 0.595,
+        "sd": 0.419,
         "black": false
        },
        "final": {
-        "mean": 0.967,
-        "sd": 0.089,
+        "mean": 0.194,
+        "sd": 0.122,
         "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.572
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 69.84,
+       "stopped_at_s": 97.3,
        "verdicts": [
         [
-         29.8,
+         29.83,
          "OTHER"
         ],
         [
-         49.84,
+         49.85,
          "OTHER"
         ],
         [
-         69.81,
-         "OTHER"
+         69.84,
+         "INGAME"
         ],
         [
          89.83,
-         "OTHER"
+         "INGAME"
         ],
         [
-         109.84,
-         "OTHER"
-        ],
-        [
-         129.8,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.83,
-         "OTHER"
-        ],
-        [
-         189.85,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.8,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.8,
-         "OTHER"
+         89.83,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/legacy-of-kain-defiance-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/legacy-of-kain-defiance-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -66247,12 +66114,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T23:11:31+01:00",
+     "tested_at": "2026-11-15T15:53:53+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:30:28+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -73394,20 +73261,20 @@
   "maximum-chase-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Genki logo, the save-slot screen and its prompts render correctly, 30 fps.",
-      "audio": "sound from 10.0 s, audible in 88 % of the run, loudest -18.6 dBFS RMS",
-      "notes": "Looped from 30 s to the end on the save-slot screen: 'Would you like to create a new place to save your data?' Yes/No with No selected, then 'If you start the game now, you will not be able to save your game...' Yes/No with No selected, back to the slot list. Needs up then A on the first prompt."
+      "graphics": "The street chase with the Corvette, damage bars and speed readout renders correctly, 25 to 30 fps.",
+      "audio": "sound from 10.0 s, audible in 77 % of the run, loudest -12.7 dBFS RMS",
+      "notes": "With the archived save on the console disk. A chase is in play from about 50 s until the early stop at 84 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 49.8 s (judged from screenshots); stopped at 83.5 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 303.0,
+       "at_s": 83.7,
        "code": 0,
        "signal": null
       },
@@ -73420,16 +73287,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 30.0,
-      "fps_min": 29.6,
+      "fps_median": 29.6,
+      "fps_min": 24.6,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -18.6,
+      "audio_peak_rms_dbfs": -12.7,
       "audio_first_sound_s": 10.0,
-      "audio_audible_fraction": 0.88,
-      "audio_seconds": 301.1,
+      "audio_audible_fraction": 0.77,
+      "audio_seconds": 81.7,
       "images": {
        "boot": {
         "mean": 0.084,
@@ -73437,113 +73304,73 @@
         "black": false
        },
        "mid": {
-        "mean": 0.094,
-        "sd": 0.131,
+        "mean": 0.255,
+        "sd": 0.213,
         "black": false
        },
        "final": {
-        "mean": 0.097,
-        "sd": 0.135,
+        "mean": 0.251,
+        "sd": 0.209,
         "black": false
        },
-       "mid_final_rmse": 0.068
+       "mid_final_rmse": 0.06
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 49.8,
+       "stopped_at_s": 83.5,
        "verdicts": [
         [
-         29.82,
+         29.81,
          "OTHER"
         ],
         [
-         49.83,
-         "OTHER"
+         49.8,
+         "INGAME"
         ],
         [
-         69.83,
-         "OTHER"
+         69.85,
+         "INGAME"
         ],
         [
-         89.83,
-         "OTHER"
-        ],
-        [
-         109.83,
-         "OTHER"
-        ],
-        [
-         129.83,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.85,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.85,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.85,
-         "OTHER"
-        ],
-        [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.8,
-         "OTHER"
+         69.85,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/maximum-chase-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/maximum-chase-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -73559,12 +73386,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T22:33:23+01:00",
+     "tested_at": "2026-11-15T16:00:39+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T22:49:37+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -85837,20 +85664,20 @@
   "nba-inside-drive-2002-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Timeout",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Black screen in all three screenshots and every watch frame.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Hangs about 6 s after launch: the guest stops presenting after frame 174 (swap count frozen at 173 for the rest of the run) with the vCPU 99% in JIT compiling when last reported. At quit the core did not stop within 10 s and the process was killed."
+      "graphics": "The matchup card, player introductions and the tip-off render correctly, 60 fps.",
+      "audio": "sound from -0.0 s, audible in 72 % of the run, loudest -15.0 dBFS RMS",
+      "notes": "An exhibition game is in play from about 70 s until the early stop at 97 s, with sound. The earlier run timed out before the first frame."
      },
      "auto": {
-      "outcome": "Timeout",
-      "why": "hard limit reached while closing; killed",
+      "outcome": "Completed",
+      "why": "in game from 69.81 s (judged from screenshots); stopped at 97.1 s and the emulator closed",
       "exit": {
-       "how": "killed",
-       "at_s": 310.6,
+       "how": "quit",
+       "at_s": 97.3,
        "code": 0,
        "signal": null
       },
@@ -85863,16 +85690,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": 29.5,
-      "longest_hang_s": 3.5,
-      "longest_hang_after_frame": 174,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "fps_median": 58.9,
+      "fps_min": 0.4,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 58.9,
+      "longest_hang_s": 4.5,
+      "longest_hang_after_frame": 175,
+      "audio_peak_rms_dbfs": -15.0,
+      "audio_first_sound_s": -0.0,
+      "audio_audible_fraction": 0.72,
+      "audio_seconds": 96.0,
       "images": {
        "boot": {
         "mean": 0.0,
@@ -85880,97 +85707,61 @@
         "black": true
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.211,
+        "sd": 0.186,
+        "black": false
        },
        "final": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.416,
+        "sd": 0.234,
+        "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.321
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 69.81,
+       "stopped_at_s": 97.1,
        "verdicts": [
         [
-         29.84,
+         29.8,
          "OTHER"
         ],
         [
-         49.82,
+         49.83,
          "OTHER"
         ],
         [
-         69.85,
-         "OTHER"
+         69.81,
+         "INGAME"
         ],
         [
-         89.83,
-         "OTHER"
+         89.81,
+         "INGAME"
         ],
         [
-         109.81,
-         "OTHER"
-        ],
-        [
-         129.84,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.85,
-         "OTHER"
-        ],
-        [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.85,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.82,
-         "OTHER"
+         89.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2002-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2002-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -85983,10 +85774,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -86002,12 +85793,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:06:22+01:00",
+     "tested_at": "2026-11-15T16:11:09+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:28:22+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -86215,20 +86006,20 @@
   "nba-inside-drive-2004-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
+     "stage": "Playable",
      "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Logos, menus, the Controllers screen, loading tips and the arena with the matchup overlay render correctly, about 57 fps.",
-      "audio": "sound from 2.0 s, audible in 69 % of the run, loudest -21.1 dBFS RMS",
-      "notes": "The override holds Right for 400 ms three times at 49–55 s, then presses A at 56.5 s (all in steps_done). Controller 1 moves to Home at 50 s and Exhibition loads. From about 90–300 s, the Nets at Spurs presentation never reaches tip-off despite Start/A; the camera settles on one courtside view by 150 s at about 18,000 draws/s. Cause unknown. A 4.5 s guest-idle hang after frame 184 recovered (minimum 0.4 fps)."
+      "graphics": "Pre-game scenes and the game with score bar, clock and player names render correctly, 59 fps.",
+      "audio": "sound from 1.5 s, audible in 73 % of the run, loudest -19.3 dBFS RMS",
+      "notes": "With the existing override. With the archived save (re-signed for hakuX-lr) on the console disk. A game is in play from about 250 s until the early stop at 276 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 249.82 s (judged from screenshots); stopped at 275.5 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.8,
+       "at_s": 275.7,
        "code": 0,
        "signal": null
       },
@@ -86241,41 +86032,41 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 55.7,
+      "fps_median": 57.6,
       "fps_min": 0.4,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 56.8,
-      "longest_hang_s": 4.51,
-      "longest_hang_after_frame": 184,
-      "audio_peak_rms_dbfs": -21.1,
-      "audio_first_sound_s": 2.0,
-      "audio_audible_fraction": 0.69,
-      "audio_seconds": 301.1,
+      "guest_swaps_median": 58.2,
+      "longest_hang_s": 4.5,
+      "longest_hang_after_frame": 176,
+      "audio_peak_rms_dbfs": -19.3,
+      "audio_first_sound_s": 1.5,
+      "audio_audible_fraction": 0.73,
+      "audio_seconds": 273.9,
       "images": {
        "boot": {
-        "mean": 0.116,
+        "mean": 0.115,
         "sd": 0.096,
         "black": false
        },
        "mid": {
-        "mean": 0.138,
-        "sd": 0.122,
+        "mean": 0.163,
+        "sd": 0.15,
         "black": false
        },
        "final": {
-        "mean": 0.258,
-        "sd": 0.232,
+        "mean": 0.353,
+        "sd": 0.225,
         "black": false
        },
-       "mid_final_rmse": 0.293
+       "mid_final_rmse": 0.328
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 249.82,
+       "stopped_at_s": 275.5,
        "verdicts": [
         [
-         29.83,
+         29.81,
          "OTHER"
         ],
         [
@@ -86283,36 +86074,40 @@
          "OTHER"
         ],
         [
-         69.84,
+         69.81,
          "OTHER"
         ],
         [
-         89.84,
+         89.83,
          "OTHER"
         ],
         [
-         109.81,
+         109.82,
          "OTHER"
         ],
         [
-         129.81,
+         129.82,
          "OTHER"
         ],
         [
-         149.8,
+         149.84,
          "OTHER"
         ],
         [
-         169.84,
+         169.85,
          "OTHER"
         ],
         [
-         189.82,
+         189.81,
          "OTHER"
         ],
         [
-         209.85,
-         "OTHER"
+         209.8,
+         "INGAME"
+        ],
+        [
+         229.82,
+         "INGAME"
         ],
         [
          229.82,
@@ -86320,35 +86115,35 @@
         ],
         [
          249.82,
-         "OTHER"
+         "INGAME"
         ],
         [
-         269.83,
-         "OTHER"
+         269.81,
+         "INGAME"
         ],
         [
-         289.83,
-         "OTHER"
+         269.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/nba-inside-drive-2004-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/nba-inside-drive-2004-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -86361,10 +86156,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -86380,12 +86175,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T19:15:22+01:00",
+     "tested_at": "2026-11-15T16:12:20+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T19:45:27+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -89846,20 +89641,20 @@
   "ncaa-football-2005-top-spin-u-en-fr-de": {
    "results": {
     "amd64-linux": {
-     "stage": "Boot",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Black screen in all screenshots; no frame was presented.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "The disc's launcher relaunches into dashupdate.xbe at once, which hits an access violation at 0002ffd0 (reading 00000008); its DashUnhandledExceptionFilter reboots, the title returns to the firmware and the core stops within about 1 s (the log notes no dashboard is installed). Outcome changed from Completed to Crash."
+      "graphics": "The coin toss, play selection and the kick-off of NCAA Football 2005 render correctly, 59 fps.",
+      "audio": "sound from 10.5 s, audible in 66 % of the run, loudest -18.0 dBFS RMS",
+      "notes": "NCAA Football 2005 from the combo disc: a game is in play (kick-off return) from about 90 s until the early stop at 120 s, with sound. The crash at boot of the earlier run did not occur. Top Spin was not started."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 89.83 s (judged from screenshots); stopped at 119.6 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 300.5,
+       "at_s": 119.8,
        "code": 0,
        "signal": null
       },
@@ -89873,114 +89668,82 @@
        "not-implemented",
        "stop"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": null,
+      "fps_median": 57.4,
+      "fps_min": 39.6,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 58.3,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "audio_peak_rms_dbfs": -18.0,
+      "audio_first_sound_s": 10.5,
+      "audio_audible_fraction": 0.66,
+      "audio_seconds": 117.5,
       "images": {
        "boot": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.418,
+        "sd": 0.32,
+        "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.282,
+        "sd": 0.166,
+        "black": false
        },
        "final": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.28,
+        "sd": 0.118,
+        "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.216
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 89.83,
+       "stopped_at_s": 119.6,
        "verdicts": [
         [
-         29.84,
+         29.85,
          "OTHER"
         ],
         [
-         49.83,
+         49.85,
          "OTHER"
         ],
         [
-         69.81,
+         69.83,
          "OTHER"
         ],
         [
-         89.85,
-         "OTHER"
+         89.83,
+         "INGAME"
         ],
         [
          109.83,
-         "OTHER"
+         "INGAME"
         ],
         [
-         129.82,
-         "OTHER"
-        ],
-        [
-         149.8,
-         "OTHER"
-        ],
-        [
-         169.84,
-         "OTHER"
-        ],
-        [
-         189.83,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.85,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.82,
-         "OTHER"
+         109.83,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/ncaa-football-2005-top-spin-u-en-fr-de/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/ncaa-football-2005-top-spin-u-en-fr-de/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -89993,10 +89756,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -90012,12 +89775,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:17:34+01:00",
+     "tested_at": "2026-11-15T16:16:59+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:41:44+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -90483,20 +90246,20 @@
   "need-for-speed-carbon-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro movie, the Career menu and the new-alias prompt render correctly at 60 fps.",
-      "audio": "sound from 2.0 s, audible in 99 % of the run, loudest -19.0 dBFS RMS",
-      "notes": "Stalled from about 30 s to the end between the Career menu's START CAREER and 'You must create a new alias to start a new Career. Do you want to create a new alias?', which defaults to No. Down then A picks Yes (the same loop the Need for Speed Most Wanted override solves); no hang."
+      "graphics": "The name screen and the night canyon race with speedometer, map and timer render correctly, 30 fps.",
+      "audio": "sound from 2.0 s, audible in 83 % of the run, loudest -13.2 dBFS RMS",
+      "notes": "With the existing override. A race is in play from about 90 s until the early stop at 116 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 89.8 s (judged from screenshots); stopped at 115.9 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.6,
+       "at_s": 116.0,
        "code": 0,
        "signal": null
       },
@@ -90509,16 +90272,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
-      "fps_min": 52.0,
+      "fps_median": 52.2,
+      "fps_min": 29.9,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
+      "guest_swaps_median": 45.8,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -19.0,
+      "audio_peak_rms_dbfs": -13.2,
       "audio_first_sound_s": 2.0,
-      "audio_audible_fraction": 0.99,
-      "audio_seconds": 301.4,
+      "audio_audible_fraction": 0.83,
+      "audio_seconds": 114.9,
       "images": {
        "boot": {
         "mean": 0.112,
@@ -90526,97 +90289,65 @@
         "black": false
        },
        "mid": {
-        "mean": 0.06,
-        "sd": 0.081,
+        "mean": 0.065,
+        "sd": 0.101,
         "black": false
        },
        "final": {
-        "mean": 0.061,
-        "sd": 0.081,
+        "mean": 0.067,
+        "sd": 0.127,
         "black": false
        },
-       "mid_final_rmse": 0.017
+       "mid_final_rmse": 0.166
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 89.8,
+       "stopped_at_s": 115.9,
        "verdicts": [
         [
-         29.85,
+         29.8,
          "OTHER"
         ],
         [
-         49.82,
+         49.83,
          "OTHER"
         ],
         [
-         69.8,
+         69.81,
          "OTHER"
         ],
         [
-         89.84,
-         "OTHER"
+         89.8,
+         "INGAME"
         ],
         [
-         109.82,
-         "OTHER"
+         109.8,
+         "INGAME"
         ],
         [
-         129.85,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.8,
-         "OTHER"
-        ],
-        [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.81,
-         "OTHER"
+         109.8,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-carbon-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/need-for-speed-carbon-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -90629,13 +90360,15 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
+        "a",
+        "down",
         "a"
        ],
        "press_ms": 150,
@@ -90648,12 +90381,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:19:19+01:00",
+     "tested_at": "2026-11-15T16:17:00+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:41:44+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -90987,20 +90720,20 @@
   "need-for-speed-most-wanted-black-edition-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Intro movie, career main menu and the 'Xbox hard disk' dialog render correctly, 60 fps.",
-      "audio": "sound from 2.0 s, audible in 97 % of the run, loudest -22.9 dBFS RMS",
-      "notes": "From before 30 s to the end it loops between the career main menu and 'You must create a new alias to start a new career. Do you want to create a new alias?' with No selected: A on Start Career opens it and Start/A on No close it. Down then A picks Yes, as the override for need-for-speed-most-wanted-u does."
+      "graphics": "The opening scene and the race with speedometer, map, lap and position HUD render correctly, 30 fps.",
+      "audio": "sound from 2.0 s, audible in 82 % of the run, loudest -14.8 dBFS RMS",
+      "notes": "With the existing override. A race is in play from about 125 s until the early stop at 137 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 125.55 s (judged from screenshots); stopped at 137.0 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.6,
+       "at_s": 137.2,
        "code": 0,
        "signal": null
       },
@@ -91013,16 +90746,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 59.8,
-      "fps_min": 51.0,
+      "fps_median": 30.0,
+      "fps_min": 29.6,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 60.0,
+      "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -22.9,
+      "audio_peak_rms_dbfs": -14.8,
       "audio_first_sound_s": 2.0,
-      "audio_audible_fraction": 0.97,
-      "audio_seconds": 301.3,
+      "audio_audible_fraction": 0.82,
+      "audio_seconds": 135.8,
       "images": {
        "boot": {
         "mean": 0.257,
@@ -91030,97 +90763,73 @@
         "black": false
        },
        "mid": {
-        "mean": 0.09,
-        "sd": 0.123,
+        "mean": 0.091,
+        "sd": 0.144,
         "black": false
        },
        "final": {
-        "mean": 0.09,
-        "sd": 0.123,
+        "mean": 0.294,
+        "sd": 0.208,
         "black": false
        },
-       "mid_final_rmse": 0.005
+       "mid_final_rmse": 0.321
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 125.55,
+       "stopped_at_s": 137.0,
        "verdicts": [
         [
-         29.84,
+         29.8,
          "OTHER"
         ],
         [
-         49.82,
+         49.81,
          "OTHER"
         ],
         [
-         69.81,
+         69.82,
          "OTHER"
         ],
         [
          89.84,
+         "INGAME"
+        ],
+        [
+         109.83,
          "OTHER"
         ],
         [
-         109.82,
-         "OTHER"
+         125.55,
+         "INGAME"
         ],
         [
-         129.85,
-         "OTHER"
+         129.81,
+         "INGAME"
         ],
         [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.84,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.82,
-         "OTHER"
+         129.81,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/need-for-speed-most-wanted-black-edition-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/need-for-speed-most-wanted-black-edition-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -91133,13 +90842,15 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
+        "a",
+        "down",
         "a"
        ],
        "press_ms": 150,
@@ -91152,12 +90863,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:19:22+01:00",
+     "tested_at": "2026-11-15T16:18:24+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:44:10+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -91482,20 +91193,20 @@
   "new-legends-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Intro",
-     "outcome": "Timeout",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "THQ logo renders correctly and stays on screen for the whole run.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Frozen on the THQ logo from about 10 s: the hang report shows the vCPU 99 % in the FEX JIT compiler from frame 297 with rendering idle for the rest of the run. The core stopped at the time limit but RetroArch did not finish closing and was killed at 310.9 s."
+      "graphics": "The courtyard fight with the character portrait, enemies and weapon icons renders correctly, 60 fps.",
+      "audio": "sound from 3.0 s, audible in 71 % of the run, loudest -8.9 dBFS RMS",
+      "notes": "With the archived save on the console disk. In play from about 30 s until the early stop at 57 s, with sound. The JIT hang of the earlier run did not occur."
      },
      "auto": {
-      "outcome": "Timeout",
-      "why": "hard limit reached while closing; killed",
+      "outcome": "Completed",
+      "why": "in game from 29.81 s (judged from screenshots); stopped at 57.2 s and the emulator closed",
       "exit": {
-       "how": "killed",
-       "at_s": 310.9,
+       "how": "quit",
+       "at_s": 57.3,
        "code": 0,
        "signal": null
       },
@@ -91506,132 +91217,89 @@
        "S2"
       ],
       "log_flags": [
-       "not-implemented"
+       "not-implemented",
+       "stop"
       ],
-      "fps_median": null,
-      "fps_min": null,
-      "fps_source": "guest swaps",
-      "guest_swaps_median": 29.5,
-      "longest_hang_s": 58.54,
-      "longest_hang_after_frame": 297,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "fps_median": 55.9,
+      "fps_min": 29.6,
+      "fps_source": "displayed frames (HAKUX_DISP_STATS)",
+      "guest_swaps_median": 59.0,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -8.9,
+      "audio_first_sound_s": 3.0,
+      "audio_audible_fraction": 0.71,
+      "audio_seconds": 51.7,
       "images": {
        "boot": {
         "mean": 0.075,
-        "sd": 0.245,
+        "sd": 0.244,
         "black": false
        },
        "mid": {
-        "mean": 0.074,
-        "sd": 0.244,
+        "mean": 0.356,
+        "sd": 0.186,
         "black": false
        },
        "final": {
-        "mean": 0.074,
-        "sd": 0.244,
+        "mean": 0.359,
+        "sd": 0.186,
         "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.09
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 29.81,
+       "stopped_at_s": 57.2,
        "verdicts": [
         [
-         29.8,
-         "OTHER"
+         29.81,
+         "INGAME"
         ],
         [
-         49.83,
-         "OTHER"
+         49.8,
+         "INGAME"
         ],
         [
-         69.85,
-         "OTHER"
-        ],
-        [
-         89.82,
-         "OTHER"
-        ],
-        [
-         109.81,
-         "OTHER"
-        ],
-        [
-         129.84,
-         "OTHER"
-        ],
-        [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.83,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.81,
-         "OTHER"
-        ],
-        [
-         229.81,
-         "OTHER"
-        ],
-        [
-         249.83,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.84,
-         "OTHER"
+         49.8,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/new-legends-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/new-legends-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/new-legends-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/new-legends-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/new-legends-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/new-legends-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/new-legends-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/new-legends-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/new-legends-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/new-legends-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/new-legends-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -91647,12 +91315,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T23:18:06+01:00",
+     "tested_at": "2026-11-15T16:18:59+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:41:22+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -92219,20 +91887,20 @@
   "nfl-blitz-2003-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Intro",
-     "outcome": "Timeout",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Logo animation and the copyright screen render correctly; the copyright screen then stays frozen to the end.",
-      "audio": "sound from -0.0 s, audible in 4 % of the run, loudest -9.2 dBFS RMS",
-      "notes": "Hangs on the copyright screen: the hang report shows the decoder waiting on the guest's GPU interrupt handler from frame 974, still ongoing at 112.6 s when the reports stop, and the swap count stays at 973 to the end of the log. Every frame from 30 s to 300 s is identical; RetroArch closed normally at 302 s."
+      "graphics": "The field with players, score, clock, down markers and the tutorial panel renders correctly, 60 fps.",
+      "audio": "sound from -0.0 s, audible in 89 % of the run, loudest -9.5 dBFS RMS",
+      "notes": "A game is in play from about 110 s until the early stop at 142 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 109.83 s (judged from screenshots); stopped at 141.9 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 302.3,
+       "at_s": 142.0,
        "code": 0,
        "signal": null
       },
@@ -92245,114 +91913,86 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 49.9,
-      "fps_min": 49.9,
+      "fps_median": 59.8,
+      "fps_min": 57.7,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 59.0,
-      "longest_hang_s": 112.57,
-      "longest_hang_after_frame": 974,
-      "audio_peak_rms_dbfs": -9.2,
+      "guest_swaps_median": 59.9,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -9.5,
       "audio_first_sound_s": -0.0,
-      "audio_audible_fraction": 0.04,
-      "audio_seconds": 301.2,
+      "audio_audible_fraction": 0.89,
+      "audio_seconds": 140.9,
       "images": {
        "boot": {
-        "mean": 0.197,
-        "sd": 0.199,
+        "mean": 0.195,
+        "sd": 0.203,
         "black": false
        },
        "mid": {
-        "mean": 0.368,
-        "sd": 0.264,
+        "mean": 0.192,
+        "sd": 0.224,
         "black": false
        },
        "final": {
-        "mean": 0.368,
-        "sd": 0.264,
+        "mean": 0.299,
+        "sd": 0.177,
         "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.304
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 109.83,
+       "stopped_at_s": 141.9,
        "verdicts": [
         [
-         29.84,
+         29.81,
          "OTHER"
         ],
         [
-         49.82,
+         49.83,
          "OTHER"
         ],
         [
-         69.8,
-         "OTHER"
+         69.81,
+         "INGAME"
         ],
         [
          89.84,
          "OTHER"
         ],
         [
-         109.82,
-         "OTHER"
+         109.83,
+         "INGAME"
         ],
         [
-         129.85,
-         "OTHER"
+         129.83,
+         "INGAME"
         ],
         [
-         149.83,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.84,
-         "OTHER"
-        ],
-        [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.81,
-         "OTHER"
-        ],
-        [
-         289.8,
-         "OTHER"
+         129.83,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/nfl-blitz-2003-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/nfl-blitz-2003-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -92365,10 +92005,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -92384,12 +92024,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:22:27+01:00",
+     "tested_at": "2026-11-15T16:19:54+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:44:10+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -95719,135 +95359,100 @@
   "nhl-rivals-2004-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Crash",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Team logo screen and Team Select render correctly; black from about 43 s after the core stopped.",
-      "audio": "sound from 3.0 s, audible in 45 % of the run, loudest -19.7 dBFS RMS",
-      "notes": "Reached Team Select (Mighty Ducks at Devils) at 30 s; at about 43 s, while the game loaded its player animation files, the core stopped with 'seh: unhandled exception c0000005 at 000af55c (no handler took it), writing 00000034'. No final screenshot."
+      "graphics": "The face-off with score bug and button prompts and the rink render correctly, 59 fps.",
+      "audio": "sound from 20.0 s, audible in 70 % of the run, loudest -19.6 dBFS RMS",
+      "notes": "With the archived save (re-signed for hakuX-lr) on the console disk. A game is in play from about 50 s until the early stop at 80 s, with sound. The crash of the earlier run did not occur."
      },
      "auto": {
-      "outcome": "Crash",
-      "why": "the core stopped (RetroArch reported no content)",
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 80.2 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 305.2,
+       "at_s": 80.3,
        "code": 0,
        "signal": null
       },
-      "missing_shots": [
-       "final"
-      ],
+      "missing_shots": [],
       "boot_stages": [
        "S0",
        "S1",
        "S2"
       ],
       "log_flags": [
-       "not-implemented",
-       "stop"
+       "not-implemented"
       ],
-      "fps_median": 55.8,
-      "fps_min": 41.9,
+      "fps_median": 58.4,
+      "fps_min": 42.3,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 56.0,
+      "guest_swaps_median": 59.3,
       "longest_hang_s": 1.5,
-      "longest_hang_after_frame": 1954,
-      "audio_peak_rms_dbfs": -19.7,
-      "audio_first_sound_s": 3.0,
-      "audio_audible_fraction": 0.45,
-      "audio_seconds": 42.4,
+      "longest_hang_after_frame": 2065,
+      "audio_peak_rms_dbfs": -19.6,
+      "audio_first_sound_s": 20.0,
+      "audio_audible_fraction": 0.7,
+      "audio_seconds": 78.4,
       "images": {
        "boot": {
-        "mean": 0.186,
-        "sd": 0.245,
+        "mean": 0.182,
+        "sd": 0.222,
         "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
-       }
+        "mean": 0.551,
+        "sd": 0.327,
+        "black": false
+       },
+       "final": {
+        "mean": 0.576,
+        "sd": 0.328,
+        "black": false
+       },
+       "mid_final_rmse": 0.428
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 80.2,
        "verdicts": [
         [
-         29.8,
+         29.81,
          "OTHER"
         ],
         [
-         49.84,
-         "OTHER"
+         49.81,
+         "INGAME"
         ],
         [
-         69.82,
-         "OTHER"
+         69.84,
+         "INGAME"
         ],
         [
-         89.81,
-         "OTHER"
-        ],
-        [
-         109.84,
-         "OTHER"
-        ],
-        [
-         129.83,
-         "OTHER"
-        ],
-        [
-         149.84,
-         "OTHER"
-        ],
-        [
-         169.81,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.82,
-         "OTHER"
-        ],
-        [
-         229.83,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.82,
-         "OTHER"
-        ],
-        [
-         289.84,
-         "OTHER"
+         69.84,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/thumbs/mid.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/nhl-rivals-2004-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/nhl-rivals-2004-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -95860,10 +95465,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -95879,12 +95484,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:32:33+01:00",
+     "tested_at": "2026-11-15T16:22:19+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T18:56:35+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -98770,20 +98375,20 @@
   "otogi-2-immortal-warriors-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Menu",
-     "outcome": "Needs manual input",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "From Software logo and the Game Settings screen render correctly at 30 fps.",
-      "audio": "sound from 11.5 s, audible in 3 % of the run, loudest -18.6 dBFS RMS",
-      "notes": "On Game Settings page 1 with Vibration selected from 30 s to the end; Start and A change nothing, and the animated background kept the harness from pressing B or down. Needs down four times to 'Next Page', then A."
+      "graphics": "The opening moon scene and the first stage with the character, fan gauges and scenery render correctly, 30 fps.",
+      "audio": "sound from 11.5 s, audible in 84 % of the run, loudest -14.3 dBFS RMS",
+      "notes": "With the archived save (re-signed for hakuX-lr) on the console disk. The first stage is in play from about 70 s until the early stop at 96 s, with sound."
      },
      "auto": {
       "outcome": "Completed",
-      "why": "the input plan ran to the end and the emulator closed",
+      "why": "in game from 69.82 s (judged from screenshots); stopped at 96.4 s and the emulator closed",
       "exit": {
        "how": "quit",
-       "at_s": 303.5,
+       "at_s": 96.5,
        "code": 0,
        "signal": null
       },
@@ -98796,16 +98401,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 30.0,
-      "fps_min": 29.0,
+      "fps_median": 29.9,
+      "fps_min": 28.2,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
       "guest_swaps_median": 30.0,
       "longest_hang_s": 0.0,
       "longest_hang_after_frame": null,
-      "audio_peak_rms_dbfs": -18.6,
+      "audio_peak_rms_dbfs": -14.3,
       "audio_first_sound_s": 11.5,
-      "audio_audible_fraction": 0.03,
-      "audio_seconds": 302.1,
+      "audio_audible_fraction": 0.84,
+      "audio_seconds": 95.2,
       "images": {
        "boot": {
         "mean": 0.058,
@@ -98813,113 +98418,77 @@
         "black": false
        },
        "mid": {
-        "mean": 0.236,
-        "sd": 0.177,
+        "mean": 0.242,
+        "sd": 0.164,
         "black": false
        },
        "final": {
-        "mean": 0.237,
-        "sd": 0.178,
+        "mean": 0.392,
+        "sd": 0.234,
         "black": false
        },
-       "mid_final_rmse": 0.07
+       "mid_final_rmse": 0.369
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 69.82,
+       "stopped_at_s": 96.4,
        "verdicts": [
         [
-         29.83,
+         29.81,
          "OTHER"
         ],
         [
-         49.84,
+         49.85,
          "OTHER"
         ],
         [
-         69.81,
-         "OTHER"
+         69.82,
+         "INGAME"
         ],
         [
-         89.83,
-         "OTHER"
+         89.84,
+         "INGAME"
         ],
         [
-         109.81,
-         "OTHER"
-        ],
-        [
-         129.83,
-         "OTHER"
-        ],
-        [
-         149.8,
-         "OTHER"
-        ],
-        [
-         169.85,
-         "OTHER"
-        ],
-        [
-         189.82,
-         "OTHER"
-        ],
-        [
-         209.83,
-         "OTHER"
-        ],
-        [
-         229.84,
-         "OTHER"
-        ],
-        [
-         249.81,
-         "OTHER"
-        ],
-        [
-         269.83,
-         "OTHER"
-        ],
-        [
-         289.84,
-         "OTHER"
+         89.84,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-master-8b4c43f/otogi-2-immortal-warriors-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/otogi-2-immortal-warriors-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-master-8b4c43f",
-      "emulator": "hakuX-lr master 8b4c43ff23 (0.19.1 + #104)",
-      "commit": "8b4c43ff23",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
-      "cpu_backend": "KVM",
+      "cpu_backend": "KVM; Linux 5.16+, /dev/kvm, TSC scaling and UMIP required",
       "gpu": "AMD Radeon RX 9070 XT (RADV GFX1201)",
       "driver": "Mesa 26.2.6-arch3.1",
       "vulkan": "1.4.354",
       "kernel": "7.3.1-1-cachyos",
       "frontend": "retroarch 1.22.2-5",
       "display": "gamescope headless, Vulkan, 1920x1080",
-      "audio": "pulse to a null sink (hakux_compat7), recorded",
+      "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -98935,12 +98504,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T22:43:31+01:00",
+     "tested_at": "2026-11-15T16:26:41+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T23:03:11+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
@@ -104598,20 +104167,20 @@
   "pro-race-driver-u": {
    "results": {
     "amd64-linux": {
-     "stage": "Intro",
-     "outcome": "Timeout",
+     "stage": "Playable",
+     "outcome": "Completed",
      "reviewed": true,
      "observations": {
-      "graphics": "Codemasters legal screen renders correctly; black screen from 30 s to the end.",
-      "audio": "silent for the whole run (recorded)",
-      "notes": "Hangs after the legal screen: the hang report shows no frame after frame 287 for 275.6 s, with the vCPU starved (17.3 s of host CPU in 275.6 s) and rendering idle. RetroArch was killed at the hard limit while closing (310 s); displayed fps 9.0."
+      "graphics": "The race with lap, time, position, track map and speedometer renders; a translucent green box covers the upper left of the view at the start and is gone 10 s later, 58 fps.",
+      "audio": "sound from 18.0 s, audible in 53 % of the run, loudest -13.4 dBFS RMS",
+      "notes": "With the archived save (re-signed for hakuX-lr) on the console disk. A race is in play from about 50 s until the early stop at 100 s, with sound. What the green box at the start is (a panel without its text, or the game's own) was not checked."
      },
      "auto": {
-      "outcome": "Timeout",
-      "why": "hard limit reached while closing; killed",
+      "outcome": "Completed",
+      "why": "in game from 49.81 s (judged from screenshots); stopped at 99.7 s and the emulator closed",
       "exit": {
-       "how": "killed",
-       "at_s": 310.4,
+       "how": "quit",
+       "at_s": 104.9,
        "code": 0,
        "signal": null
       },
@@ -104624,16 +104193,16 @@
       "log_flags": [
        "not-implemented"
       ],
-      "fps_median": 9.0,
+      "fps_median": 54.1,
       "fps_min": 3.9,
       "fps_source": "displayed frames (HAKUX_DISP_STATS)",
-      "guest_swaps_median": 4.0,
-      "longest_hang_s": 275.64,
-      "longest_hang_after_frame": 287,
-      "audio_peak_rms_dbfs": -120.0,
-      "audio_first_sound_s": null,
-      "audio_audible_fraction": 0,
-      "audio_seconds": 0.0,
+      "guest_swaps_median": 58.3,
+      "longest_hang_s": 0.0,
+      "longest_hang_after_frame": null,
+      "audio_peak_rms_dbfs": -13.4,
+      "audio_first_sound_s": 18.0,
+      "audio_audible_fraction": 0.53,
+      "audio_seconds": 101.7,
       "images": {
        "boot": {
         "mean": 0.057,
@@ -104641,97 +104210,57 @@
         "black": false
        },
        "mid": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.381,
+        "sd": 0.152,
+        "black": false
        },
        "final": {
-        "mean": 0.0,
-        "sd": 0.0,
-        "black": true
+        "mean": 0.4,
+        "sd": 0.162,
+        "black": false
        },
-       "mid_final_rmse": 0.0
+       "mid_final_rmse": 0.221
       },
       "judge": {
        "model": "haiku",
-       "ingame_at_s": null,
-       "stopped_at_s": null,
+       "ingame_at_s": 49.81,
+       "stopped_at_s": 99.7,
        "verdicts": [
         [
-         29.83,
+         29.81,
          "OTHER"
         ],
         [
-         49.82,
-         "OTHER"
+         49.81,
+         "INGAME"
         ],
         [
-         69.85,
-         "OTHER"
+         69.84,
+         "INGAME"
         ],
         [
-         89.81,
-         "OTHER"
-        ],
-        [
-         109.81,
-         "OTHER"
-        ],
-        [
-         129.82,
-         "OTHER"
-        ],
-        [
-         149.8,
-         "OTHER"
-        ],
-        [
-         169.84,
-         "OTHER"
-        ],
-        [
-         189.85,
-         "OTHER"
-        ],
-        [
-         209.81,
-         "OTHER"
-        ],
-        [
-         229.82,
-         "OTHER"
-        ],
-        [
-         249.8,
-         "OTHER"
-        ],
-        [
-         269.85,
-         "OTHER"
-        ],
-        [
-         289.85,
-         "OTHER"
+         69.84,
+         "INGAME"
         ]
        ]
       }
      },
      "captures": {
-      "boot": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/boot.png",
-      "boot_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/thumbs/boot.jpg",
-      "mid": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/mid.png",
-      "mid_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/thumbs/mid.jpg",
-      "final": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/final.png",
-      "final_thumb": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/thumbs/final.jpg",
-      "log": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/hakux.log",
-      "retroarch_log": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/retroarch.log",
-      "audio": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/audio.opus",
-      "result": "runs/amd64-linux-20261105-0.19.1-ingame/pro-race-driver-u/result.json"
+      "boot": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/boot.png",
+      "boot_thumb": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/thumbs/boot.jpg",
+      "mid": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/mid.png",
+      "mid_thumb": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/thumbs/mid.jpg",
+      "final": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/final.png",
+      "final_thumb": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/thumbs/final.jpg",
+      "log": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/hakux.log",
+      "retroarch_log": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/retroarch.log",
+      "audio": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/audio.opus",
+      "result": "runs/amd64-linux-20261115-0.27.0/pro-race-driver-u/result.json"
      },
      "config": {
-      "run_id": "amd64-linux-20261105-0.19.1-ingame",
-      "emulator": "hakuX-lr 0.19.1",
-      "commit": "8e28a8fe4b21e1f16f2fbd9182b3bf3821b13635",
+      "run_id": "amd64-linux-20261115-0.27.0",
+      "emulator": "hakuX-lr 0.27.0",
+      "commit": "5a0b855f908351b14999acb0704b25f86fb502f7",
       "device": "zenbox",
       "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
       "arch": "x86_64",
@@ -104744,10 +104273,10 @@
       "display": "gamescope headless, Vulkan, 1920x1080",
       "audio": "pulse to a null sink (hakux_compat6), recorded",
       "input": "RetroArch network RetroPad (UDP), player 1",
-      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network off, resampler sinc, audio processing dsp, frame pacing off, communicator off",
+      "core_options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
       "plan": {
        "boot_wait": 10.0,
-       "input_time": 285.0,
+       "input_time": 420.0,
        "input_gap": 2.5,
        "buttons": [
         "start",
@@ -104763,12 +104292,12 @@
         "b",
         "down"
        ],
-       "hard_limit": 330.0
+       "hard_limit": 470.0
       }
      },
-     "tested_at": "2026-11-05T18:42:04+01:00",
+     "tested_at": "2026-11-15T16:37:06+01:00",
      "reviewed_by": "Claude (from screenshots)",
-     "reviewed_at": "2026-11-05T19:14:46+01:00"
+     "reviewed_at": "2026-11-15T16:41:45+01:00"
     },
     "aarch64-linux": {
      "stage": "Untested"
