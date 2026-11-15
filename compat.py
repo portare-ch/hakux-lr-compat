@@ -292,9 +292,10 @@ def cmd_ingest(args):
     run_cfg = json.load(open(os.path.join(run_dir, "config.json")))
     sid = run_cfg["system"]
     n = 0
+    only = {r["game"] for r in json.load(open(args.only))} if args.only else None
     for slug in sorted(os.listdir(run_dir)):
         rpath = os.path.join(run_dir, slug, "result.json")
-        if not os.path.exists(rpath):
+        if not os.path.exists(rpath) or (only is not None and slug not in only):
             continue
         res = json.load(open(rpath))
         gdir = os.path.dirname(rpath)
@@ -603,6 +604,8 @@ def main():
     p = sub.add_parser("ingest")
     p.add_argument("run_dir")
     p.add_argument("--force", action="store_true", help="replace reviewed entries of the same run")
+    p.add_argument("--only", metavar="REVIEWS", help="ingest only the games a review file names (a list of "
+                                                      "{game: slug, ...}); the run's other games keep their results")
     p.set_defaults(fn=cmd_ingest)
     p = sub.add_parser("review")
     p.add_argument("system", nargs="?", choices=[s for s, _ in SYSTEMS])
