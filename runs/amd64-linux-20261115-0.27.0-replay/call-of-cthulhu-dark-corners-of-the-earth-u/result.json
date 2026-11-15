@@ -1,0 +1,1875 @@
+{
+ "game_file": "Call of Cthulhu - Dark Corners of the Earth (U).chd",
+ "game_size": 1706238631,
+ "system": "amd64-linux",
+ "started": "2026-11-15T18:37:10+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 465.0
+ },
+ "override": {
+  "_why": "Recorded from a guided run (amd64-linux-20261115-0.27.0): gameplay from 145.52 s. Screens the guide passed: Dark letterboxed cutscene with a gramophone and a figure leaning over a table",
+  "guide": false,
+  "unstick": [],
+  "quiet": [
+   [
+    0,
+    100000
+   ]
+  ],
+  "input_time": 420.0,
+  "hard_limit": 465.0,
+  "extra_steps": [
+   [
+    10.5,
+    "tap",
+    "start"
+   ],
+   [
+    13.1,
+    "tap",
+    "a"
+   ],
+   [
+    15.5,
+    "tap",
+    "start"
+   ],
+   [
+    18.0,
+    "tap",
+    "a"
+   ],
+   [
+    20.5,
+    "tap",
+    "start"
+   ],
+   [
+    23.0,
+    "tap",
+    "a"
+   ],
+   [
+    25.5,
+    "tap",
+    "start"
+   ],
+   [
+    28.0,
+    "tap",
+    "a"
+   ],
+   [
+    30.7,
+    "tap",
+    "start"
+   ],
+   [
+    33.0,
+    "tap",
+    "a"
+   ],
+   [
+    35.5,
+    "tap",
+    "start"
+   ],
+   [
+    38.0,
+    "tap",
+    "a"
+   ],
+   [
+    40.5,
+    "tap",
+    "start"
+   ],
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.7,
+    "tap",
+    "start"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    50.5,
+    "tap",
+    "start"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.5,
+    "tap",
+    "start"
+   ],
+   [
+    58.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.5,
+    "tap",
+    "start"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.5,
+    "tap",
+    "start"
+   ],
+   [
+    68.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.7,
+    "tap",
+    "start"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.5,
+    "tap",
+    "start"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    80.5,
+    "tap",
+    "start"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.5,
+    "tap",
+    "start"
+   ],
+   [
+    88.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.5,
+    "tap",
+    "start"
+   ],
+   [
+    93.0,
+    "tap",
+    "a"
+   ],
+   [
+    95.5,
+    "tap",
+    "start"
+   ],
+   [
+    98.0,
+    "tap",
+    "a"
+   ],
+   [
+    100.5,
+    "tap",
+    "start"
+   ],
+   [
+    103.0,
+    "tap",
+    "a"
+   ],
+   [
+    105.5,
+    "tap",
+    "start"
+   ],
+   [
+    108.0,
+    "tap",
+    "a"
+   ],
+   [
+    110.7,
+    "tap",
+    "start"
+   ],
+   [
+    113.0,
+    "tap",
+    "a"
+   ],
+   [
+    135.6,
+    "tap",
+    "start"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start"
+  ],
+  [
+   13.1,
+   "tap",
+   "a"
+  ],
+  [
+   15.5,
+   "tap",
+   "start"
+  ],
+  [
+   18.0,
+   "tap",
+   "a"
+  ],
+  [
+   20.5,
+   "tap",
+   "start"
+  ],
+  [
+   23.0,
+   "tap",
+   "a"
+  ],
+  [
+   25.5,
+   "tap",
+   "start"
+  ],
+  [
+   28.0,
+   "tap",
+   "a"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.7,
+   "tap",
+   "start"
+  ],
+  [
+   33.0,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start"
+  ],
+  [
+   38.0,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start"
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.7,
+   "tap",
+   "start"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.5,
+   "tap",
+   "start"
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.5,
+   "tap",
+   "start"
+  ],
+  [
+   68.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.7,
+   "tap",
+   "start"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.5,
+   "tap",
+   "start"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   80.5,
+   "tap",
+   "start"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.5,
+   "tap",
+   "start"
+  ],
+  [
+   88.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start"
+  ],
+  [
+   93.0,
+   "tap",
+   "a"
+  ],
+  [
+   95.5,
+   "tap",
+   "start"
+  ],
+  [
+   98.0,
+   "tap",
+   "a"
+  ],
+  [
+   100.5,
+   "tap",
+   "start"
+  ],
+  [
+   103.0,
+   "tap",
+   "a"
+  ],
+  [
+   105.5,
+   "tap",
+   "start"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.7,
+   "tap",
+   "start"
+  ],
+  [
+   113.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   135.6,
+   "tap",
+   "start"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 149.83,
+  "confirmed_by": "w170",
+  "stopped_at_s": 176.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "blank frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w150",
+    "t": 149.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "INGAME",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w170",
+    "t": 169.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 176.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.53,
+   "tap",
+   "start"
+  ],
+  [
+   13.14,
+   "tap",
+   "a"
+  ],
+  [
+   15.54,
+   "tap",
+   "start"
+  ],
+  [
+   18.01,
+   "tap",
+   "a"
+  ],
+  [
+   20.51,
+   "tap",
+   "start"
+  ],
+  [
+   23.02,
+   "tap",
+   "a"
+  ],
+  [
+   25.55,
+   "tap",
+   "start"
+  ],
+  [
+   28.0,
+   "tap",
+   "a"
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.87,
+   "tap",
+   "start"
+  ],
+  [
+   33.01,
+   "tap",
+   "a"
+  ],
+  [
+   35.52,
+   "tap",
+   "start"
+  ],
+  [
+   38.03,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start"
+  ],
+  [
+   43.02,
+   "tap",
+   "a"
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.88,
+   "tap",
+   "start"
+  ],
+  [
+   48.03,
+   "tap",
+   "a"
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.55,
+   "tap",
+   "start"
+  ],
+  [
+   53.02,
+   "tap",
+   "a"
+  ],
+  [
+   55.53,
+   "tap",
+   "start"
+  ],
+  [
+   58.04,
+   "tap",
+   "a"
+  ],
+  [
+   60.54,
+   "tap",
+   "start"
+  ],
+  [
+   63.04,
+   "tap",
+   "a"
+  ],
+  [
+   65.5,
+   "tap",
+   "start"
+  ],
+  [
+   68.02,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.88,
+   "tap",
+   "start"
+  ],
+  [
+   73.03,
+   "tap",
+   "a"
+  ],
+  [
+   75.54,
+   "tap",
+   "start"
+  ],
+  [
+   78.05,
+   "tap",
+   "a"
+  ],
+  [
+   80.5,
+   "tap",
+   "start"
+  ],
+  [
+   83.01,
+   "tap",
+   "a"
+  ],
+  [
+   85.52,
+   "tap",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a"
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start"
+  ],
+  [
+   93.04,
+   "tap",
+   "a"
+  ],
+  [
+   95.5,
+   "tap",
+   "start"
+  ],
+  [
+   98.01,
+   "tap",
+   "a"
+  ],
+  [
+   100.52,
+   "tap",
+   "start"
+  ],
+  [
+   103.03,
+   "tap",
+   "a"
+  ],
+  [
+   105.54,
+   "tap",
+   "start"
+  ],
+  [
+   108.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.86,
+   "tap",
+   "start"
+  ],
+  [
+   113.02,
+   "tap",
+   "a"
+  ],
+  [
+   129.83,
+   "watch",
+   "w130"
+  ],
+  [
+   135.61,
+   "tap",
+   "start"
+  ],
+  [
+   149.83,
+   "watch",
+   "w150"
+  ],
+  [
+   169.81,
+   "watch",
+   "w170"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 10.4,
+   "bytes": 142622
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.2,
+   "bytes": 501133
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 48.3,
+   "bytes": 716916
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 50.0,
+   "bytes": 9622
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 72.0,
+   "bytes": 704233
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 90.2,
+   "bytes": 4613
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 112.8,
+   "bytes": 581554
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.83,
+   "got_s": 132.2,
+   "bytes": 484675
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.83,
+   "got_s": 153.5,
+   "bytes": 744665
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.81,
+   "got_s": 173.4,
+   "bytes": 756895
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 169.81,
+   "got_s": 173.4,
+   "bytes": 756895,
+   "from_watch": "w170"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   5.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   6.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   7.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   8.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   9.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   10.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   11.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   12.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   13.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   14.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   15.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   16.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   17.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   18.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   19.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   20.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   21.1,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   43.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   44.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   45.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   46.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   47.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   48.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   49.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   50.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   51.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   52.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   53.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   54.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   55.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   56.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   57.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   58.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   59.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   60.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   61.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   62.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   63.2,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   64.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   65.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   66.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   67.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   68.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   69.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   86.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   87.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   88.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   89.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   90.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   99.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   100.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   101.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   102.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   103.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   104.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   105.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   106.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   107.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   108.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   109.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   110.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   111.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   112.4,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   113.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   114.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   115.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   116.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   117.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   118.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   119.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   120.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   121.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   122.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   123.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   124.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   125.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   126.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   127.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   128.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   129.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   130.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   131.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   132.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   133.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   134.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   135.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   136.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   137.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   138.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   139.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   140.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   141.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   142.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   143.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   144.5,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   145.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   146.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   147.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   148.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   149.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   150.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   151.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   152.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   153.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   154.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   155.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   156.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   157.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   158.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   159.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   160.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   161.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   162.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   163.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   164.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   165.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   166.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   167.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   168.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   169.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   170.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   171.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   172.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   173.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   174.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   175.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ],
+  [
+   176.6,
+   "GET_STATUS PLAYING xbox,Call of Cthulhu - Dark Corners of the Earth (U),crc32=3d043fba"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55450.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   32.7,
+   29.9,
+   19.7,
+   19.9,
+   24.9,
+   30.6,
+   32.5,
+   32.4,
+   32.5,
+   32.6,
+   32.3,
+   32.4,
+   32.5,
+   32.9,
+   32.9,
+   33.0,
+   32.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-pb: frame pace off: 33 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.2 ms (max 54.5, 33 frames)",
+   "hakuX-hle-emit: per s: draws=5112 verts=5632689 mergeable=0 (not: strip 2310 idx 2703 state 99 work 0 gap 0) batches=0 of 0 draws indexed: no state between 33, contiguous 0 pipe=2248 set1=4863 pc=3071 vi=1065 vb=3371 vp=377 sc=377 dyn=2558 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=667403 prog_fog=423213 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1886 words 3646580 headers 187025 methods 3459534 faults 0 GET 03f70e0c PUT 03f70e0c binds 5 semaphores 70615 flips 5254 traps 14626 (21=5254 5=3135 28=3116 8=3115 9=6) runs 0 surfaces 24 clears 12577 swaps 5254 draws 672704 ff 8324 skipped 0 () textures 4042 (94 held, 7 MiB) rt ",
+   "hakuX-hle-pb: frame pace off: 33 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.5 ms (max 54.9, 33 frames)",
+   "hakuX-hle-emit: per s: draws=5113 verts=5632675 mergeable=0 (not: strip 2310 idx 2704 state 99 work 0 gap 0) batches=0 of 0 draws indexed: no state between 33, contiguous 0 pipe=2250 set1=4855 pc=3071 vi=1067 vb=3372 vp=378 sc=378 dyn=2590 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=672516 prog_fog=425952 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1881 words 3645944 headers 186935 methods 3459002 faults 0 GET 03f97284 PUT 03f972ac binds 5 semaphores 71180 flips 5287 traps 14748 (21=5287 5=3158 28=3149 8=3148 9=6) runs 0 surfaces 24 clears 12676 swaps 5287 draws 677804 ff 8390 skipped 0 () textures 4075 (94 held, 7 MiB) rt ",
+   "hakuX-hle-pb: frame pace off: 33 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.7 ms (max 54.3, 33 frames)",
+   "hakuX-hle-emit: per s: draws=5100 verts=5632641 mergeable=0 (not: strip 2310 idx 2691 state 99 work 0 gap 0) batches=0 of 0 draws indexed: no state between 32, contiguous 0 pipe=2238 set1=4853 pc=3058 vi=1065 vb=3368 vp=377 sc=377 dyn=2544 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=677616 prog_fog=428691 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 16275 sysops 18427 (int 731, of them ticks 2; hook 0) schedules 2184 switches 1613 idle 583 slices 0 page faults 0 mmio 12524 apu waits 0 vm pages +0 -0 isr irq1:509 (max 13.6 ms) irq3:181 (max 4.1 ms) irq5:7 (max 0.4 ms) | dpc max wait 0.3 run 15.8 ms, 1 over 8 ms ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 33 (pages 035de000:192) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 13964 KiB, contiguous 33792 KiB (118 blocks), virtual 16636 KiB, kernel pool 92 of 128 KiB (Ex 502, objects 6, lost 0 KiB, 7 free ranges)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2767071 first_call=PsCreateSystemThreadEx threads=4",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 133640 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=104 misses=59",
+   "hakuX-native-kvm: RSQRT: 0 instructions corrected in the guest, 0 through the host",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 43 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5559fb6671b0",
+   "[Gamescope WSI] Destroyed swapchain: 0x5559fb6671b0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 174.8,
+  "peak_rms_dbfs": -14.2,
+  "first_sound_s": 9.0,
+  "audible_fraction": 0.76,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -29.4,
+   -14.2,
+   -18.5,
+   -35.8,
+   -37.3,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -47.2,
+   -37.6,
+   -31.0,
+   -30.6,
+   -120.0,
+   -120.0,
+   -48.3,
+   -38.5,
+   -32.9,
+   -34.5,
+   -27.4,
+   -19.6,
+   -38.0,
+   -18.3,
+   -23.8,
+   -24.7,
+   -22.4,
+   -38.2,
+   -22.8,
+   -24.8,
+   -23.2,
+   -23.7,
+   -39.6,
+   -23.0,
+   -26.0,
+   -24.3,
+   -29.0,
+   -38.9,
+   -25.9,
+   -24.2,
+   -31.8,
+   -21.8,
+   -38.8,
+   -25.0,
+   -23.6,
+   -23.9,
+   -24.7,
+   -24.2,
+   -28.2,
+   -30.6,
+   -30.0,
+   -25.5,
+   -24.1,
+   -26.3,
+   -26.7,
+   -24.1,
+   -27.0,
+   -38.2,
+   -32.5,
+   -29.7,
+   -29.4,
+   -29.1,
+   -30.0,
+   -29.2,
+   -29.1,
+   -29.1,
+   -30.6,
+   -28.7,
+   -28.6,
+   -29.3,
+   -29.4,
+   -30.0,
+   -29.1,
+   -29.5,
+   -29.8,
+   -28.9,
+   -29.2,
+   -29.7
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 149.83 s (judged from screenshots); stopped at 176.6 s and the emulator closed",
+ "duration_s": 176.7,
+ "run_id": "amd64-linux-20261115-0.27.0-replay"
+}
