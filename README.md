@@ -72,6 +72,57 @@ it, then suppresses Start/A until the next verdict. These inputs are recorded
 in `watch.unstuck` and `steps_done`. The 0.19.0 tests used a 45 s plan without
 a judge.
 
+### Guide
+
+`--guide-model <model>` (off by default) lets a second model operate the pad
+when a game does not reach gameplay with the planned presses. It takes over
+when a judged frame is unchanged and shows no gameplay, or when no gameplay
+has been seen by 100 s. From then on:
+
+- the planned Start and A presses are held back;
+- each judged frame that shows no gameplay is sent to the guide model, which
+  answers with up to 10 presses for that screen (a prompt's answer, the way
+  to Done on a name keyboard, the menu entry that starts play);
+- the runner makes those presses 0.45 s apart, takes a new frame (`wgNN`)
+  about 5 s later and has it judged;
+- nothing is pressed while the last frame showed gameplay; two gameplay
+  verdicts in a row end the run as usual;
+- after 18 answers the planned presses resume.
+
+A guided run presses for up to 420 s instead of 285 s (hard limit 470 s).
+The guide's answers are saved in `result.json` → `watch.guided` (frame, time,
+presses, what it took the screen to be), the presses made in `steps_done`
+marked `guided`, and the prompt in the run's `config.json`. The guide is told
+never to overwrite or delete saved data. A game whose override has
+`extra_steps` or `steps` keeps its timed presses and is not guided unless the
+override sets `"guide": true`; `"guide": false` turns it off for a game.
+
+A guided result shows that the game can be reached and played with a pad, not
+that Start and A alone get there. To make it repeatable without the guide,
+copy the guided presses from `steps_done` into an override.
+
+### Saved games
+
+`--saves <dir>` copies a game's saved game onto its fresh console disk before
+the game starts, so that a title can be tested past profile creation. `<dir>`
+is laid out as `<game>/UDATA/<title id>/...`, with `TDATA` beside it where a
+save has one, as in the
+[Xbox save archive](https://github.com/Triticum0/Xbox-save-archive)
+(hakuX-lr issue 213). The title ID comes from `compat.json`. `result.json` →
+`save` names the archive folder used and the files copied. An override's
+`"save": false` leaves a game's save out.
+
+Saves from a console are signed with keys hakuX-lr does not have, and a game
+reports them as damaged. The runner therefore signs each copied file again as
+hakuX-lr's kernel signs (HMAC-SHA1 with a zero title key). It has no console
+key to check where the old signature is, so it replaces a signature only
+where exactly one of the usual places (the file's first 20 bytes, 20 bytes at
+offset 4, the last 20 bytes, also before zero padding) looks like a digest
+and the file is not random-looking throughout. Files where that is not so are
+left as they are, and saves locked to their console are not handled.
+`save.resigned` lists the files changed and where; `"resign": false` in an
+override turns it off. The archive itself is never modified.
+
 The runner records core statistics (`HAKUX_LR_STATS`, `HAKUX_DISP_STATS`),
 RetroArch logs, core options, one-second `GET_STATUS` samples and Opus audio
 with loudness measurements. Automatic outcomes are:
@@ -99,8 +150,8 @@ Use `--only <name-part>` or `--limit N` to restrict the queue. Existing
 `overrides.json` keys are file names, stems or slugs. Entries can change
 `DEFAULT_PLAN` settings (`boot_wait`, `input_time`, `input_gap`, `buttons`,
 `press_ms`, `settle`, `mid_shot`, `hard_limit`), replace `steps`, add
-`extra_steps`, suppress default inputs with `quiet: [[from, to], ...]`, or
-set `skip` to a reason.
+`extra_steps`, suppress default inputs with `quiet: [[from, to], ...]`, set
+`skip` to a reason, or set `guide`, `save` and `resign` (see above).
 
 Steps use `[seconds, action, args...]`: `shot <name>`, `tap <button> [ms]`,
 `down <buttons...>`, `up <buttons...>` or `release`.
