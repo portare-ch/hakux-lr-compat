@@ -1,0 +1,3680 @@
+{
+ "game_file": "Rent a Hero No 1 (Japan).chd",
+ "game_size": 1957788242,
+ "system": "amd64-linux",
+ "started": "2026-11-15T16:45:26+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 470.0
+ },
+ "override": {
+  "_why": "New Game opens NAME ENTRY for the family name (from about 49 s, \u3084\u307e\u3060 filled in); A and Start only type kana, and confirming needs \u6c7a\u5b9a at the end of the bottom row, then \u306f\u3044 on a prompt that defaults to \u3044\u3044\u3048. First screen: A, Down x6 to the bottom row, Left wraps to \u6c7a\u5b9a, A, Left to \u306f\u3044, A. The given-name screen starts with the cursor in the mode column (\u3072\u3089\u304c\u306a); Up x3 then A puts it on \u3042 (in the grid Up only moves), then the same confirm. The story intro follows.",
+  "quiet": [
+   [
+    57.5,
+    80.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    58.0,
+    "tap",
+    "a"
+   ],
+   [
+    59.0,
+    "tap",
+    "down"
+   ],
+   [
+    59.5,
+    "tap",
+    "down"
+   ],
+   [
+    60.0,
+    "tap",
+    "down"
+   ],
+   [
+    60.5,
+    "tap",
+    "down"
+   ],
+   [
+    61.0,
+    "tap",
+    "down"
+   ],
+   [
+    61.5,
+    "tap",
+    "down"
+   ],
+   [
+    62.2,
+    "tap",
+    "left"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.5,
+    "tap",
+    "left"
+   ],
+   [
+    65.3,
+    "tap",
+    "a"
+   ],
+   [
+    69.0,
+    "tap",
+    "up"
+   ],
+   [
+    69.4,
+    "tap",
+    "up"
+   ],
+   [
+    69.8,
+    "tap",
+    "up"
+   ],
+   [
+    70.4,
+    "tap",
+    "a"
+   ],
+   [
+    71.4,
+    "tap",
+    "down"
+   ],
+   [
+    71.9,
+    "tap",
+    "down"
+   ],
+   [
+    72.4,
+    "tap",
+    "down"
+   ],
+   [
+    72.9,
+    "tap",
+    "down"
+   ],
+   [
+    73.4,
+    "tap",
+    "down"
+   ],
+   [
+    73.9,
+    "tap",
+    "down"
+   ],
+   [
+    74.6,
+    "tap",
+    "left"
+   ],
+   [
+    75.4,
+    "tap",
+    "a"
+   ],
+   [
+    76.9,
+    "tap",
+    "left"
+   ],
+   [
+    77.7,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "down"
+  ],
+  [
+   59.5,
+   "tap",
+   "down"
+  ],
+  [
+   60.0,
+   "tap",
+   "down"
+  ],
+  [
+   60.5,
+   "tap",
+   "down"
+  ],
+  [
+   61.0,
+   "tap",
+   "down"
+  ],
+  [
+   61.5,
+   "tap",
+   "down"
+  ],
+  [
+   62.2,
+   "tap",
+   "left"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.5,
+   "tap",
+   "left"
+  ],
+  [
+   65.3,
+   "tap",
+   "a"
+  ],
+  [
+   69.0,
+   "tap",
+   "up"
+  ],
+  [
+   69.4,
+   "tap",
+   "up"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   69.8,
+   "tap",
+   "up"
+  ],
+  [
+   70.4,
+   "tap",
+   "a"
+  ],
+  [
+   71.4,
+   "tap",
+   "down"
+  ],
+  [
+   71.9,
+   "tap",
+   "down"
+  ],
+  [
+   72.4,
+   "tap",
+   "down"
+  ],
+  [
+   72.9,
+   "tap",
+   "down"
+  ],
+  [
+   73.4,
+   "tap",
+   "down"
+  ],
+  [
+   73.9,
+   "tap",
+   "down"
+  ],
+  [
+   74.6,
+   "tap",
+   "left"
+  ],
+  [
+   75.4,
+   "tap",
+   "a"
+  ],
+  [
+   76.9,
+   "tap",
+   "left"
+  ],
+  [
+   77.7,
+   "tap",
+   "a"
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   298.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   300.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   303.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   305.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   308.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   310.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   313.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   315.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   318.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   320.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   323.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   325.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   328.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   330.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   333.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   335.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   338.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   340.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   343.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   345.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   348.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   350.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   353.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   355.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   358.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   360.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   363.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   365.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   368.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   370.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   373.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   375.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   378.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   380.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   383.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   385.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   388.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   390.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   393.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   395.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   398.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   400.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   403.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   405.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   408.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   410.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   413.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   415.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   418.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   420.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   423.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   425.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   428.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 249.83,
+  "confirmed_by": "w270",
+  "stopped_at_s": 276.3,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w110",
+    "t": 109.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w130",
+    "t": 129.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w150",
+    "t": 149.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 5.3
+   },
+   {
+    "shot": "w170",
+    "t": 169.82,
+    "verdict": "OTHER",
+    "how": "confirm (sonnet)"
+   },
+   {
+    "shot": "w190",
+    "t": 189.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.5
+   },
+   {
+    "shot": "w230",
+    "t": 229.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 3.8
+   },
+   {
+    "shot": "w250",
+    "t": 249.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 4.0
+   },
+   {
+    "shot": "w270",
+    "t": 269.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 3.2
+   },
+   {
+    "shot": "w270",
+    "t": 269.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 276.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.84,
+   "watch",
+   "w030"
+  ],
+  [
+   30.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   59.0,
+   "tap",
+   "down"
+  ],
+  [
+   59.51,
+   "tap",
+   "down"
+  ],
+  [
+   60.01,
+   "tap",
+   "down"
+  ],
+  [
+   60.52,
+   "tap",
+   "down"
+  ],
+  [
+   61.02,
+   "tap",
+   "down"
+  ],
+  [
+   61.52,
+   "tap",
+   "down"
+  ],
+  [
+   62.23,
+   "tap",
+   "left"
+  ],
+  [
+   63.05,
+   "tap",
+   "a"
+  ],
+  [
+   64.52,
+   "tap",
+   "left"
+  ],
+  [
+   65.33,
+   "tap",
+   "a"
+  ],
+  [
+   69.01,
+   "tap",
+   "up"
+  ],
+  [
+   69.41,
+   "tap",
+   "up"
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   69.81,
+   "tap",
+   "up"
+  ],
+  [
+   70.42,
+   "tap",
+   "a"
+  ],
+  [
+   71.42,
+   "tap",
+   "down"
+  ],
+  [
+   71.93,
+   "tap",
+   "down"
+  ],
+  [
+   72.43,
+   "tap",
+   "down"
+  ],
+  [
+   72.93,
+   "tap",
+   "down"
+  ],
+  [
+   73.44,
+   "tap",
+   "down"
+  ],
+  [
+   73.94,
+   "tap",
+   "down"
+  ],
+  [
+   74.64,
+   "tap",
+   "left"
+  ],
+  [
+   75.45,
+   "tap",
+   "a"
+  ],
+  [
+   76.91,
+   "tap",
+   "left"
+  ],
+  [
+   77.71,
+   "tap",
+   "a"
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.84,
+   "watch",
+   "w110"
+  ],
+  [
+   110.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.1,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.82,
+   "watch",
+   "w130"
+  ],
+  [
+   130.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.66,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.54,
+   "held",
+   "start"
+  ],
+  [
+   158.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.53,
+   "held",
+   "start"
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.53,
+   "held",
+   "start"
+  ],
+  [
+   168.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.82,
+   "watch",
+   "w170"
+  ],
+  [
+   170.52,
+   "held",
+   "start"
+  ],
+  [
+   173.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "held",
+   "start"
+  ],
+  [
+   178.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.84,
+   "watch",
+   "w190"
+  ],
+  [
+   190.69,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.55,
+   "held",
+   "start"
+  ],
+  [
+   198.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.53,
+   "held",
+   "start"
+  ],
+  [
+   203.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.51,
+   "held",
+   "start"
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.67,
+   "held",
+   "start"
+  ],
+  [
+   213.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.82,
+   "watch",
+   "w230"
+  ],
+  [
+   230.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.83,
+   "watch",
+   "w250"
+  ],
+  [
+   250.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.52,
+   "held",
+   "start"
+  ],
+  [
+   258.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.51,
+   "held",
+   "start"
+  ],
+  [
+   263.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.53,
+   "held",
+   "start"
+  ],
+  [
+   268.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.81,
+   "watch",
+   "w270"
+  ],
+  [
+   270.51,
+   "held",
+   "start"
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.53,
+   "held",
+   "start"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.4,
+   "bytes": 125940
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.84,
+   "got_s": 30.2,
+   "bytes": 144548
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 45.2,
+   "bytes": 256573
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 50.5,
+   "bytes": 258009
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 70.3,
+   "bytes": 255858
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 90.2,
+   "bytes": 137116
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.84,
+   "got_s": 113.0,
+   "bytes": 1559631
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.82,
+   "got_s": 131.6,
+   "bytes": 2130105
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.8,
+   "got_s": 151.2,
+   "bytes": 2381133
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.82,
+   "got_s": 171.1,
+   "bytes": 2378093
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.84,
+   "got_s": 190.6,
+   "bytes": 2525731
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 210.6,
+   "bytes": 2579554
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.82,
+   "got_s": 231.2,
+   "bytes": 2372938
+  },
+  "w250": {
+   "file": "w250.jpg",
+   "asked_s": 249.83,
+   "got_s": 251.0,
+   "bytes": 2578799
+  },
+  "w270": {
+   "file": "w270.jpg",
+   "asked_s": 269.81,
+   "got_s": 270.7,
+   "bytes": 2521719
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 269.81,
+   "got_s": 270.7,
+   "bytes": 2521719,
+   "from_watch": "w270"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   14.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   15.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   16.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   17.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   18.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   19.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   20.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   21.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   22.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   23.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   24.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   25.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   26.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   27.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   28.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   29.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   30.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   31.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   32.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   33.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   34.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   35.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   36.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   37.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   38.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   39.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   40.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   41.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   42.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   43.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   44.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   45.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   46.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   47.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   48.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   49.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   50.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   51.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   52.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   53.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   54.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   55.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   56.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   57.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   58.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   59.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   60.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   61.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   62.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   63.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   64.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   65.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   66.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   67.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   68.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   69.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   70.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   71.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   72.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   73.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   74.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   75.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   76.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   77.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   78.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   79.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   80.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   81.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   82.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   83.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   84.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   85.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   86.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   87.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   88.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   94.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   95.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   96.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   97.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   98.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   99.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   100.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   101.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   102.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   103.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   104.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   105.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   106.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   107.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   108.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   109.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   110.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   111.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   112.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   113.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   114.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   115.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   116.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   117.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   118.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   119.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   120.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   121.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   122.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   123.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   124.8,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   125.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   126.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   127.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   128.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   129.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   130.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   131.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   132.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   133.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   134.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   135.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   136.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   137.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   138.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   139.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   140.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   141.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   142.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   143.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   144.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   145.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   146.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   147.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   148.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   149.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   150.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   151.9,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   153.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   154.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   155.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   156.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   157.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   158.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   159.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   160.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   161.0,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   162.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   163.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   164.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   165.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   166.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   167.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   168.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   169.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   170.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   171.1,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   172.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   173.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   174.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   175.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   176.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   177.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   178.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   179.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   180.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   181.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   182.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   183.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   184.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   185.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   186.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   187.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   188.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   189.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   190.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   191.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   192.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   193.2,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   194.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   195.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   196.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   197.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   198.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   199.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   200.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   201.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   202.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   203.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   204.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   205.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   206.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   207.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   208.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   209.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   210.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   211.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   212.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   213.3,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   214.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   215.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   216.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   217.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   218.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   219.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   220.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   221.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   222.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   223.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   224.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   225.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   226.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   227.4,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   228.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   239.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   240.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   241.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   242.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   243.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   244.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   245.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   246.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   247.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   248.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   249.5,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   250.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   251.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   252.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   253.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   254.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   255.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   256.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   257.6,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   258.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   259.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   260.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   261.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   262.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   263.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   264.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   265.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   266.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   267.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   268.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   269.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   270.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   271.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   272.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   273.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   274.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ],
+  [
+   275.7,
+   "GET_STATUS PLAYING xbox,Rent a Hero No 1 (Japan),crc32=ea0a1455"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   54.5,
+   59.9,
+   59.7,
+   59.9,
+   58.6,
+   59.9,
+   59.8,
+   59.8,
+   59.6,
+   59.9,
+   59.7,
+   59.4,
+   59.7,
+   59.0,
+   59.5,
+   59.7,
+   59.7,
+   59.7,
+   59.8,
+   59.9,
+   59.4,
+   59.9,
+   59.6,
+   59.9,
+   59.5,
+   59.9,
+   59.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-native-stats: per s: kcalls 4410 sysops 6466 (int 751, of them ticks 108; hook 0) schedules 2651 switches 1681 idle 347 slices 0 page faults 0 mmio 8412 apu waits 0 vm pages +0 -0 isr irq1:497 (max 0.7 ms) irq3:155 (max 0.8 ms) | dpc max wait 0.1 run 0.2 ms, 0 over 8 ms | holds 0 (longest 0.0 ",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 0 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 12896 KiB, contiguous 33000 KiB (618 blocks), virtual 17860 KiB, kernel pool 17 of 64 KiB (Ex 1133, objects 15, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 1071 words 2056000 headers 465364 methods 1590616 faults 0 GET 03fdd7e4 PUT 03fdd948 binds 4 semaphores 91319 flips 16351 traps 21422 (21=16351 5=5064 9=6 28=1) runs 0 surfaces 3 clears 16352 swaps 16351 draws 4682652 ff 0 skipped 0 () textures 811 (244 held, 21 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.5 ms (max 23.7, 60 frames)",
+   "hakuX-hle-emit: per s: draws=23100 verts=931440 mergeable=0 (not: strip 23100 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1990 set1=10787 pc=9906 vi=251 vb=71 vp=71 sc=71 dyn=1965 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4682450 prog_fog=4156601 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1060 words 2022264 headers 457719 methods 1564534 faults 0 GET 03f9b14c PUT 03fa9aa0 binds 4 semaphores 91762 flips 16410 traps 21519 (21=16410 5=5102 9=6 28=1) runs 0 surfaces 3 clears 16412 swaps 16410 draws 4705368 ff 0 skipped 0 () textures 811 (244 held, 21 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.5 ms (max 25.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=22716 verts=915975 mergeable=0 (not: strip 22716 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1954 set1=10594 pc=9742 vi=243 vb=66 vp=66 sc=66 dyn=1875 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4705166 prog_fog=4179317 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 1054 words 2055477 headers 465254 methods 1590208 faults 0 GET 03f791a8 PUT 03f7930c binds 4 semaphores 92207 flips 16470 traps 21614 (21=16470 5=5137 9=6 28=1) runs 0 surfaces 3 clears 16471 swaps 16470 draws 4728467 ff 0 skipped 0 () textures 811 (244 held, 21 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 23.5 ms (max 23.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=23099 verts=931381 mergeable=0 (not: strip 23099 idx 0 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=1990 set1=10788 pc=9909 vi=250 vb=70 vp=70 sc=70 dyn=1950 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4728265 prog_fog=4202416 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=2252689 first_call=PsCreateSystemThreadEx threads=6",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 75 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5583a6a24820",
+   "[Gamescope WSI] Destroyed swapchain: 0x5583a6a24820",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 275.0,
+  "peak_rms_dbfs": -16.5,
+  "first_sound_s": 3.5,
+  "audible_fraction": 0.7,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -31.7,
+   -22.4,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -16.5,
+   -55.5,
+   -17.7,
+   -17.7,
+   -48.4,
+   -23.2,
+   -17.0,
+   -17.1,
+   -17.2,
+   -23.7,
+   -17.0,
+   -17.1,
+   -17.1,
+   -17.2,
+   -25.4,
+   -25.3,
+   -18.9,
+   -17.9,
+   -18.3,
+   -18.3,
+   -22.2,
+   -23.2,
+   -18.5,
+   -17.1,
+   -25.0,
+   -26.5,
+   -22.4,
+   -22.9,
+   -21.2,
+   -26.3,
+   -23.5,
+   -24.7,
+   -28.1,
+   -21.5,
+   -21.7,
+   -26.4,
+   -23.0,
+   -22.0,
+   -22.7,
+   -21.6,
+   -27.3,
+   -23.5,
+   -25.2,
+   -26.6,
+   -26.1,
+   -24.4,
+   -21.8,
+   -22.9,
+   -23.8,
+   -22.9,
+   -21.7,
+   -22.6,
+   -22.0,
+   -19.5,
+   -24.4,
+   -120.0,
+   -120.0,
+   -25.6,
+   -23.1,
+   -20.6,
+   -21.2,
+   -20.5,
+   -24.3,
+   -25.9,
+   -22.7,
+   -24.4,
+   -21.4,
+   -27.8,
+   -27.0,
+   -22.0,
+   -23.8,
+   -20.4,
+   -26.2,
+   -26.6,
+   -21.0,
+   -24.9,
+   -21.6,
+   -32.7,
+   -120.0,
+   -34.4,
+   -25.9,
+   -21.2,
+   -22.1,
+   -21.6,
+   -24.1,
+   -27.4,
+   -22.1,
+   -23.5,
+   -21.6,
+   -26.0,
+   -23.8,
+   -21.7,
+   -22.6,
+   -20.5,
+   -25.8,
+   -120.0,
+   -120.0,
+   -23.0,
+   -21.9,
+   -20.9,
+   -25.5,
+   -19.5,
+   -30.3,
+   -120.0,
+   -24.2,
+   -25.7,
+   -21.1,
+   -22.1,
+   -20.8,
+   -26.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 249.83 s (judged from screenshots); stopped at 276.3 s and the emulator closed",
+ "duration_s": 276.5,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}
