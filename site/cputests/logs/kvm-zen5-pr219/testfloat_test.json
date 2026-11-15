@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "location_url_base": "https://github.com/abaire/nxdk_low_level_cpu_tests/blob/d7a6e7e68c27503d4019e763e973f7197d4d07cb",
+  "suite": "TestFloat",
+  "events": [
+    {"level": "info", "message": "Mounted Drive E: and initialized log at e:\\cputests\\testfloat.json", "file": "test_runner.cpp", "line": 112, "t_ms": 0},
+    {"level": "info", "message": "Running test suite...", "file": "test_runner.cpp", "line": 215, "t_ms": 34}
+  ],
+  "tests": [
+    {
+      "name": "TestFloat F32",
+      "source": "testfloat_tests/test_testfloat_f32.h",
+      "started_ms": 35,
+      "events": [
+        {"level": "pass", "message": "f32_add across all rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 67, "t_ms": 64},
+        {"level": "pass", "message": "f32_sub across all rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 67, "t_ms": 93},
+        {"level": "pass", "message": "f32_mul across all rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 67, "t_ms": 120},
+        {"level": "pass", "message": "f32_div across all rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 67, "t_ms": 149},
+        {"level": "pass", "message": "f32_sqrt across all rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 96, "t_ms": 150},
+        {"level": "pass", "message": "f32_eq", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 119, "t_ms": 155},
+        {"level": "pass", "message": "f32_le", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 119, "t_ms": 161},
+        {"level": "pass", "message": "f32_lt", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 119, "t_ms": 166}
+      ],
+      "result": "pass",
+      "duration_ms": 131
+    },
+    {
+      "name": "TestFloat F64",
+      "source": "testfloat_tests/test_testfloat_f64.h",
+      "started_ms": 262,
+      "events": [
+        {"level": "fail", "message": "f64_add (near_even): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 288, "fields": {"function": "f64_add", "rounding_mode": "near_even", "errors": 20}},
+        {"level": "fail", "message": "f64_sub (near_even): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 340, "fields": {"function": "f64_sub", "rounding_mode": "near_even", "errors": 20}},
+        {"level": "fail", "message": "f64_mul (near_even): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 390, "fields": {"function": "f64_mul", "rounding_mode": "near_even", "errors": 20}},
+        {"level": "fail", "message": "f64_mul (minMag): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 417, "fields": {"function": "f64_mul", "rounding_mode": "minMag", "errors": 20}},
+        {"level": "fail", "message": "f64_mul (min): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 444, "fields": {"function": "f64_mul", "rounding_mode": "min", "errors": 20}},
+        {"level": "fail", "message": "f64_mul (max): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 471, "fields": {"function": "f64_mul", "rounding_mode": "max", "errors": 20}},
+        {"level": "fail", "message": "f64_div (near_even): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 497, "fields": {"function": "f64_div", "rounding_mode": "near_even", "errors": 20}},
+        {"level": "fail", "message": "f64_div (minMag): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 525, "fields": {"function": "f64_div", "rounding_mode": "minMag", "errors": 20}},
+        {"level": "fail", "message": "f64_div (min): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 552, "fields": {"function": "f64_div", "rounding_mode": "min", "errors": 20}},
+        {"level": "fail", "message": "f64_div (max): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 142, "t_ms": 579, "fields": {"function": "f64_div", "rounding_mode": "max", "errors": 20}},
+        {"level": "fail", "message": "f64_sqrt (near_even): 20 error(s)", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 171, "t_ms": 600, "fields": {"function": "f64_sqrt", "rounding_mode": "near_even", "errors": 20}},
+        {"level": "pass", "message": "f64_eq", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 200, "t_ms": 606},
+        {"level": "pass", "message": "f64_le", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 200, "t_ms": 612},
+        {"level": "pass", "message": "f64_lt", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 200, "t_ms": 618}
+      ],
+      "result": "fail",
+      "duration_ms": 356
+    },
+    {
+      "name": "TestFloat ExtF80",
+      "source": "testfloat_tests/test_testfloat_extf80.h",
+      "started_ms": 729,
+      "events": [
+        {"level": "pass", "message": "extF80_add across all precision & rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 239, "t_ms": 815},
+        {"level": "pass", "message": "extF80_sub across all precision & rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 239, "t_ms": 902},
+        {"level": "pass", "message": "extF80_mul across all precision & rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 239, "t_ms": 987},
+        {"level": "pass", "message": "extF80_div across all precision & rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 239, "t_ms": 1077},
+        {"level": "pass", "message": "extF80_sqrt across all precision & rounding modes", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 278, "t_ms": 1080},
+        {"level": "pass", "message": "extF80_eq", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 303, "t_ms": 1084},
+        {"level": "pass", "message": "extF80_le", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 303, "t_ms": 1088},
+        {"level": "pass", "message": "extF80_lt", "file": "testfloat_tests/testfloat_test_common.cpp", "line": 303, "t_ms": 1093}
+      ],
+      "result": "pass",
+      "duration_ms": 364
+    }
+  ],
+  "summary": {"total": 3, "passed": 2, "failed": 1},
+  "duration_ms": 1210
+}
