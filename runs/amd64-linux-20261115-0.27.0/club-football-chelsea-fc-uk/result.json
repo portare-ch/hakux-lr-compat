@@ -1,0 +1,2120 @@
+{
+ "game_file": "Club Football - Chelsea FC (UK).chd",
+ "game_size": 688119980,
+ "system": "amd64-linux",
+ "started": "2026-11-15T14:07:04+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "From about 30 s: Right x3 to Skip, then A. By 70 s, Controller Select needs controller 1 assigned to the club's side. B then A clears the 'No human teams selected' alert or returns from Play Match. Right, A, A assigns Away and confirms; Up, A selects Play Match from Formation and Tactics. If the club is Home, those inputs only toggle the alert: B, A resynchronizes, then Left, A, A, Up, A starts from Home.",
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "right"
+   ],
+   [
+    40.5,
+    "tap",
+    "right"
+   ],
+   [
+    41.0,
+    "tap",
+    "right"
+   ],
+   [
+    41.6,
+    "tap",
+    "a"
+   ],
+   [
+    74.5,
+    "tap",
+    "b"
+   ],
+   [
+    76.5,
+    "tap",
+    "a"
+   ],
+   [
+    79.5,
+    "tap",
+    "right"
+   ],
+   [
+    80.5,
+    "tap",
+    "a"
+   ],
+   [
+    81.8,
+    "tap",
+    "a"
+   ],
+   [
+    85.0,
+    "tap",
+    "up"
+   ],
+   [
+    86.0,
+    "tap",
+    "a"
+   ],
+   [
+    87.5,
+    "tap",
+    "b"
+   ],
+   [
+    89.5,
+    "tap",
+    "a"
+   ],
+   [
+    92.5,
+    "tap",
+    "left"
+   ],
+   [
+    93.5,
+    "tap",
+    "a"
+   ],
+   [
+    94.8,
+    "tap",
+    "a"
+   ],
+   [
+    98.0,
+    "tap",
+    "up"
+   ],
+   [
+    99.0,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    39.5,
+    43.0
+   ],
+   [
+    74.0,
+    100.5
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.0,
+   "tap",
+   "right"
+  ],
+  [
+   40.5,
+   "tap",
+   "right"
+  ],
+  [
+   41.0,
+   "tap",
+   "right"
+  ],
+  [
+   41.6,
+   "tap",
+   "a"
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   74.5,
+   "tap",
+   "b"
+  ],
+  [
+   76.5,
+   "tap",
+   "a"
+  ],
+  [
+   79.5,
+   "tap",
+   "right"
+  ],
+  [
+   80.5,
+   "tap",
+   "a"
+  ],
+  [
+   81.8,
+   "tap",
+   "a"
+  ],
+  [
+   85.0,
+   "tap",
+   "up"
+  ],
+  [
+   86.0,
+   "tap",
+   "a"
+  ],
+  [
+   87.5,
+   "tap",
+   "b"
+  ],
+  [
+   89.5,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   92.5,
+   "tap",
+   "left"
+  ],
+  [
+   93.5,
+   "tap",
+   "a"
+  ],
+  [
+   94.8,
+   "tap",
+   "a"
+  ],
+  [
+   98.0,
+   "tap",
+   "up"
+  ],
+  [
+   99.0,
+   "tap",
+   "a"
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.8,
+  "confirmed_by": "w130",
+  "stopped_at_s": 140.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w110",
+    "t": 109.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.4
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 140.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.81,
+   "watch",
+   "w030"
+  ],
+  [
+   30.66,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.02,
+   "tap",
+   "right"
+  ],
+  [
+   40.52,
+   "tap",
+   "right"
+  ],
+  [
+   41.02,
+   "tap",
+   "right"
+  ],
+  [
+   41.62,
+   "tap",
+   "a"
+  ],
+  [
+   43.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.69,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   55.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   70.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   74.54,
+   "tap",
+   "b"
+  ],
+  [
+   76.54,
+   "tap",
+   "a"
+  ],
+  [
+   79.55,
+   "tap",
+   "right"
+  ],
+  [
+   80.55,
+   "tap",
+   "a"
+  ],
+  [
+   81.8,
+   "tap",
+   "a"
+  ],
+  [
+   85.01,
+   "tap",
+   "up"
+  ],
+  [
+   86.01,
+   "tap",
+   "a"
+  ],
+  [
+   87.51,
+   "tap",
+   "b"
+  ],
+  [
+   89.52,
+   "tap",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   92.67,
+   "tap",
+   "left"
+  ],
+  [
+   93.52,
+   "tap",
+   "a"
+  ],
+  [
+   94.83,
+   "tap",
+   "a"
+  ],
+  [
+   98.03,
+   "tap",
+   "up"
+  ],
+  [
+   99.04,
+   "tap",
+   "a"
+  ],
+  [
+   100.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.65,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.56,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.52,
+   "held",
+   "start"
+  ],
+  [
+   123.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.53,
+   "held",
+   "start"
+  ],
+  [
+   128.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.69,
+   "held",
+   "start"
+  ],
+  [
+   133.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.64,
+   "held",
+   "start"
+  ],
+  [
+   138.05,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.4,
+   "bytes": 371832
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.81,
+   "got_s": 31.4,
+   "bytes": 615478
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 47.4,
+   "bytes": 480963
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 51.8,
+   "bytes": 626897
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 71.0,
+   "bytes": 499577
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 93.2,
+   "bytes": 1197827
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.8,
+   "got_s": 115.9,
+   "bytes": 1363572
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 135.6,
+   "bytes": 1512988
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.84,
+   "got_s": 135.6,
+   "bytes": 1512988,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   5.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   6.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   7.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   8.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   9.1,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   43.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   44.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   45.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   46.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   47.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   48.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   49.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   50.2,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   51.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   52.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   53.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   54.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   55.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   56.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   57.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   58.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   59.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   60.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   61.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   62.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   63.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   64.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   65.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   66.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   67.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   68.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   69.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   91.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   92.3,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   99.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   100.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   101.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   102.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   103.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   104.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   105.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   106.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   107.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   108.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   109.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   110.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   111.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   112.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   113.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   114.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   115.4,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   116.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   117.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   118.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   119.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   120.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   121.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   122.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   123.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   124.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   125.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   126.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   127.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   128.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   129.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   130.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   131.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   132.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   133.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   134.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   135.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   136.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   137.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   138.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ],
+  [
+   139.5,
+   "GET_STATUS PLAYING xbox,Club Football - Chelsea FC (UK),crc32=a742168a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55430.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   12.8,
+   45.6,
+   49.5,
+   50.0,
+   49.4,
+   49.9,
+   49.8,
+   50.0,
+   39.2,
+   49.7,
+   49.4,
+   49.4,
+   49.7
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-emit: per s: draws=34327 verts=2827840 mergeable=0 (not: strip 28819 idx 5508 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 2, contiguous 0 pipe=1280 set1=18913 pc=24101 vi=634 vb=26484 vp=286 sc=286 dyn=4220 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1714393 prog_fog=1668759 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 50.0 fps (251 frames in 5.02 s)",
+   "hakuX-hle-pb: kicks 496 words 3308801 headers 329926 methods 2978864 faults 0 GET 03e5b588 PUT 03ed2698 binds 5 semaphores 19157 flips 6207 traps 8662 (21=6207 5=2446 9=8 28=1) runs 0 surfaces 8 clears 23335 swaps 6207 draws 1736965 ff 0 skipped 23 (draw_empty=23) textures 928 (431 held, 36 MiB) rt ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.4 ms (max 55.0, 51 frames)",
+   "hakuX-hle-emit: per s: draws=21809 verts=1816902 mergeable=0 (not: strip 17450 idx 4359 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 50, contiguous 0 pipe=863 set1=13956 pc=16011 vi=415 vb=16209 vp=115 sc=115 dyn=3373 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1736202 prog_fog=1690518 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 485 words 3233507 headers 325950 methods 2907541 faults 0 GET 03ec3304 PUT 03e341cc binds 5 semaphores 19356 flips 6257 traps 8715 (21=6257 5=2449 9=8 28=1) runs 0 surfaces 8 clears 23385 swaps 6257 draws 1758349 ff 0 skipped 23 (draw_empty=23) textures 929 (432 held, 36 MiB) rt ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.4 ms (max 56.8, 50 frames)",
+   "hakuX-hle-emit: per s: draws=21384 verts=1776198 mergeable=0 (not: strip 17088 idx 4296 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 35, contiguous 0 pipe=961 set1=13841 pc=15684 vi=512 vb=15811 vp=113 sc=113 dyn=3306 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1757586 prog_fog=1711852 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 508 words 3467437 headers 366188 methods 3101232 faults 0 GET 03e15338 PUT 03e93ef4 binds 5 semaphores 19563 flips 6307 traps 8773 (21=6307 5=2457 9=8 28=1) runs 0 surfaces 8 clears 23435 swaps 6307 draws 1782632 ff 0 skipped 23 (draw_empty=23) textures 929 (432 held, 36 MiB) rt ",
+   "hakuX-hle-pb: frame pace off: 50 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 46.6 ms (max 54.0, 50 frames)",
+   "hakuX-hle-emit: per s: draws=24283 verts=1930099 mergeable=0 (not: strip 20116 idx 4167 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=928 set1=16824 pc=17923 vi=479 vb=17447 vp=113 sc=113 dyn=3196 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1781869 prog_fog=1736085 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-libretro: stats: 58.73 retro_run/s, 48.64 frames/s to RetroArch, 2.88 ms each (max 62.12), video 1.93 ms (max 62.07)",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=424942 first_call=PsCreateSystemThreadEx threads=7",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 37 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55be531dc860",
+   "[Gamescope WSI] Destroyed swapchain: 0x55be531dc860",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 138.7,
+  "peak_rms_dbfs": -17.1,
+  "first_sound_s": 1.0,
+  "audible_fraction": 0.84,
+  "rms_dbfs_per_2s": [
+   -19.8,
+   -21.1,
+   -60.5,
+   -120.0,
+   -120.0,
+   -26.7,
+   -25.3,
+   -120.0,
+   -120.0,
+   -25.7,
+   -25.3,
+   -25.4,
+   -24.8,
+   -25.5,
+   -24.3,
+   -25.9,
+   -26.1,
+   -27.1,
+   -26.6,
+   -25.9,
+   -26.1,
+   -26.3,
+   -26.6,
+   -26.6,
+   -26.5,
+   -25.8,
+   -25.7,
+   -26.6,
+   -25.7,
+   -25.7,
+   -25.9,
+   -27.6,
+   -28.4,
+   -29.4,
+   -27.8,
+   -29.3,
+   -32.4,
+   -27.7,
+   -25.7,
+   -25.0,
+   -25.6,
+   -25.2,
+   -25.2,
+   -120.0,
+   -32.9,
+   -22.3,
+   -23.4,
+   -20.4,
+   -19.7,
+   -21.3,
+   -20.5,
+   -22.5,
+   -24.6,
+   -25.5,
+   -24.7,
+   -38.8,
+   -22.8,
+   -26.7,
+   -27.0,
+   -22.1,
+   -23.3,
+   -21.8,
+   -23.3,
+   -20.3,
+   -17.5,
+   -17.1,
+   -18.1,
+   -21.1,
+   -21.1,
+   -19.3
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.8 s (judged from screenshots); stopped at 140.4 s and the emulator closed",
+ "duration_s": 140.5,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}

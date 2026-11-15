@@ -1,0 +1,2071 @@
+{
+ "game_file": "FIFA Street 2 (U) (En,Es).chd",
+ "game_size": 1581197483,
+ "system": "amd64-linux",
+ "started": "2026-11-15T15:18:11+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 470.0
+ },
+ "override": {
+  "_why": "Pick Sides (from about 45 s) opens with controller 1 on HOME, but each default Start toggles it off/on, and it comes back on in the middle where A does nothing. Left, A continues from HOME or the middle; Start, left, A covers the off state (on Select Team, Start does nothing and left only changes the home team). The default A's pick the teams.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "left"
+   ],
+   [
+    54.6,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "start"
+   ],
+   [
+    56.8,
+    "tap",
+    "left"
+   ],
+   [
+    57.6,
+    "tap",
+    "a"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    58.5
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "left"
+  ],
+  [
+   54.6,
+   "tap",
+   "a"
+  ],
+  [
+   56.0,
+   "tap",
+   "start"
+  ],
+  [
+   56.8,
+   "tap",
+   "left"
+  ],
+  [
+   57.6,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   298.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   300.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   303.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   305.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   308.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   310.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   313.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   315.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   318.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   320.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   323.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   325.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   328.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   330.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   333.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   335.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   338.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   340.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   343.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   345.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   348.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   350.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   353.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   355.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   358.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   360.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   363.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   365.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   368.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   370.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   373.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   375.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   378.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   380.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   383.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   385.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   388.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   390.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   393.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   395.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   398.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   400.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   403.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   405.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   408.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   410.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   413.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   415.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   418.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   420.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   423.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   425.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   428.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.81,
+  "confirmed_by": "w090",
+  "stopped_at_s": 99.6,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w070",
+    "t": 69.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.6
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.67,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.7,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.07,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.03,
+   "tap",
+   "left"
+  ],
+  [
+   54.63,
+   "tap",
+   "a"
+  ],
+  [
+   56.03,
+   "tap",
+   "start"
+  ],
+  [
+   56.83,
+   "tap",
+   "left"
+  ],
+  [
+   57.63,
+   "tap",
+   "a"
+  ],
+  [
+   60.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.81,
+   "watch",
+   "w070"
+  ],
+  [
+   70.66,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "held",
+   "start"
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "held",
+   "start"
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.68,
+   "held",
+   "start"
+  ],
+  [
+   93.09,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.05,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 13.5,
+   "bytes": 1546069
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 33.0,
+   "bytes": 1461583
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 48.6,
+   "bytes": 1306613
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 53.9,
+   "bytes": 1296713
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.81,
+   "got_s": 75.1,
+   "bytes": 1506287
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 95.0,
+   "bytes": 1517516
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.83,
+   "got_s": 95.0,
+   "bytes": 1517516,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   5.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   6.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   7.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   8.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   9.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   10.1,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   43.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   44.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   45.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   46.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   47.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   48.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   49.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   50.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   51.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   52.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   53.2,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   54.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   55.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   56.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   57.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   58.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   59.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   60.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   61.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   62.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   63.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   64.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   65.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   66.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   67.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   68.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   69.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ],
+  [
+   99.4,
+   "GET_STATUS PLAYING xbox,FIFA Street 2 (U) (En,Es),crc32=cb22e7bc"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55420.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   19.5,
+   25.1,
+   59.8,
+   59.9,
+   58.6,
+   59.7,
+   56.9,
+   59.4,
+   59.4
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-pb: catch-up: 5166 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1594, a flip stall 3533, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1246.7 ms",
+   "hakuX-hle-emit: per s: draws=19193 verts=5108934 mergeable=0 (not: strip 17640 idx 1553 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6448 set1=13893 pc=13024 vi=1423 vb=18461 vp=397 sc=397 dyn=6111 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=794448 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1483 words 10394710 headers 733709 methods 9660977 faults 0 GET 013ba3ac PUT 0151c3b4 binds 5 semaphores 22650 flips 5017 traps 12908 (21=4791 5=3857 28=2012 8=2012 41=226 9=10) runs 0 surfaces 9 clears 7621 swaps 5017 draws 815438 ff 0 skipped 0 () textures 1037 (449 held, 31 Mi",
+   "hakuX-hle-pb: frame pace off: 59 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.7 ms (max 39.4, 60 frames)",
+   "hakuX-hle-pb: catch-up: 5224 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1645, a flip stall 3540, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1275.6 ms",
+   "hakuX-hle-emit: per s: draws=19799 verts=5211132 mergeable=0 (not: strip 17893 idx 1906 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6580 set1=14483 pc=13187 vi=1533 vb=19045 vp=400 sc=400 dyn=6561 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=814247 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 1558 words 11305537 headers 789050 methods 10515676 faults 0 GET 0133b2d0 PUT 014fbaa4 binds 5 semaphores 23118 flips 5077 traps 13126 (21=4851 5=3896 28=2072 8=2071 41=226 9=10) runs 0 surfaces 9 clears 7681 swaps 5077 draws 836171 ff 0 skipped 0 () textures 1037 (449 held, 31 M",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.6 ms (max 39.2, 60 frames)",
+   "hakuX-hle-pb: catch-up: 5283 stores waited for the decoder (caught up 39; it waited on the guest at a trap 1701, a flip stall 3543, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1307.1 ms",
+   "hakuX-hle-emit: per s: draws=20664 verts=5576792 mergeable=0 (not: strip 18825 idx 1839 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=6780 set1=15362 pc=13453 vi=1489 vb=19946 vp=399 sc=399 dyn=6307 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=834911 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=557241 first_call=PsCreateSystemThreadEx threads=9",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 86832 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=58 misses=41",
+   "hakuX-native-kvm: RSQRT: 111819 instructions corrected in the guest, 0 through the host",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 52 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x5609244df8a0",
+   "[Gamescope WSI] Destroyed swapchain: 0x5609244df8a0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 98.4,
+  "peak_rms_dbfs": -17.3,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.75,
+  "rms_dbfs_per_2s": [
+   -17.3,
+   -17.7,
+   -120.0,
+   -120.0,
+   -120.0,
+   -30.7,
+   -28.3,
+   -120.0,
+   -120.0,
+   -46.1,
+   -120.0,
+   -46.0,
+   -120.0,
+   -34.2,
+   -22.4,
+   -21.8,
+   -22.3,
+   -21.7,
+   -21.7,
+   -22.0,
+   -21.9,
+   -21.6,
+   -21.4,
+   -21.7,
+   -21.6,
+   -21.4,
+   -21.4,
+   -22.0,
+   -22.9,
+   -21.8,
+   -22.4,
+   -26.1,
+   -38.6,
+   -27.2,
+   -24.5,
+   -29.9,
+   -29.5,
+   -21.8,
+   -21.8,
+   -25.7,
+   -21.8,
+   -27.7,
+   -29.2,
+   -26.9,
+   -26.5,
+   -24.7,
+   -28.6,
+   -31.7,
+   -33.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.81 s (judged from screenshots); stopped at 99.6 s and the emulator closed",
+ "duration_s": 99.7,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}
