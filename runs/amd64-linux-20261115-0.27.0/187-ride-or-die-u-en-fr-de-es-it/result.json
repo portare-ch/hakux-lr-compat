@@ -1,0 +1,2773 @@
+{
+ "game_file": "187 - Ride or Die (U) (En,Fr,De,Es,It).chd",
+ "game_size": 960975234,
+ "system": "amd64-linux",
+ "started": "2026-11-15T14:32:15+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "The Player Profile keyboard (from about 50 s) only types with A; its legend gives Y for 'Validate text'. Y accepts the name.",
+  "extra_steps": [
+   [
+    54.0,
+    "tap",
+    "y"
+   ]
+  ],
+  "quiet": [
+   [
+    53.5,
+    55.5
+   ]
+  ],
+  "unstick": []
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.0,
+   "tap",
+   "y"
+  ],
+  [
+   55.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   58.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   63.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   73.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   98.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   108.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   113.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   143.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   148.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   150.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   153.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   178.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   183.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   188.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   190.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   193.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   210.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   218.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   223.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   228.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   233.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   238.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   240.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   243.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   245.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   248.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   250.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   253.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   255.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   258.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   260.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   263.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   265.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   268.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   270.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   273.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   275.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   278.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   280.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   283.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   285.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   288.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   290.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   293.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "save": {
+  "title_id": "55530036",
+  "from": "187 Ride or Die",
+  "files": 6,
+  "resigned": {
+   "UDATA/55530036/115416A91C2A/JayFNG.xsv": "start"
+  }
+ },
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 209.82,
+  "confirmed_by": "w230",
+  "stopped_at_s": 239.5,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w050",
+    "t": 49.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.6
+   },
+   {
+    "shot": "w070",
+    "t": 69.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.83,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w170",
+    "t": 169.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w190",
+    "t": 189.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.3
+   },
+   {
+    "shot": "w210",
+    "t": 209.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w230",
+    "t": 229.8,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w230",
+    "t": 229.8,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 239.7,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.67,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.85,
+   "watch",
+   "w030"
+  ],
+  [
+   30.7,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   33.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   35.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   38.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   40.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   43.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   44.62,
+   "shot",
+   "mid"
+  ],
+  [
+   45.67,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   48.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   49.82,
+   "watch",
+   "w050"
+  ],
+  [
+   50.67,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   53.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   54.03,
+   "tap",
+   "y"
+  ],
+  [
+   55.53,
+   "held",
+   "start"
+  ],
+  [
+   58.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   60.54,
+   "held",
+   "start"
+  ],
+  [
+   63.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   65.55,
+   "held",
+   "start"
+  ],
+  [
+   68.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.65,
+   "held",
+   "start"
+  ],
+  [
+   73.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   75.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   78.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   80.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   83.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   85.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   88.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   89.83,
+   "watch",
+   "w090"
+  ],
+  [
+   90.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   93.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   95.54,
+   "held",
+   "start"
+  ],
+  [
+   98.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   100.55,
+   "held",
+   "start"
+  ],
+  [
+   103.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   105.51,
+   "held",
+   "start"
+  ],
+  [
+   108.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   110.66,
+   "held",
+   "start"
+  ],
+  [
+   113.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   115.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   118.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   120.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   123.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   125.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   128.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   130.69,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   133.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   135.5,
+   "held",
+   "start"
+  ],
+  [
+   138.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   140.51,
+   "held",
+   "start"
+  ],
+  [
+   143.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   145.52,
+   "held",
+   "start"
+  ],
+  [
+   148.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ],
+  [
+   150.67,
+   "held",
+   "start"
+  ],
+  [
+   153.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   155.53,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   158.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   160.54,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   163.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   165.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   168.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   170.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   173.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   175.51,
+   "held",
+   "start"
+  ],
+  [
+   178.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   180.52,
+   "held",
+   "start"
+  ],
+  [
+   183.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   185.53,
+   "held",
+   "start"
+  ],
+  [
+   188.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   189.83,
+   "watch",
+   "w190"
+  ],
+  [
+   190.68,
+   "held",
+   "start"
+  ],
+  [
+   193.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   195.55,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   198.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   200.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   203.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   205.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   208.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   209.82,
+   "watch",
+   "w210"
+  ],
+  [
+   210.67,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   213.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   215.53,
+   "held",
+   "start"
+  ],
+  [
+   218.03,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   220.54,
+   "held",
+   "start"
+  ],
+  [
+   223.04,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   225.54,
+   "held",
+   "start"
+  ],
+  [
+   228.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   230.65,
+   "held",
+   "start"
+  ],
+  [
+   233.06,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   235.51,
+   "held",
+   "start"
+  ],
+  [
+   238.02,
+   "tap",
+   "a",
+   150
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 11.0,
+   "bytes": 206728
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.85,
+   "got_s": 31.8,
+   "bytes": 983211
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.62,
+   "got_s": 47.4,
+   "bytes": 1083737
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.82,
+   "got_s": 53.0,
+   "bytes": 781491
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.8,
+   "got_s": 71.8,
+   "bytes": 708980
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.83,
+   "got_s": 93.5,
+   "bytes": 1039585
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 112.0,
+   "bytes": 653892
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 133.5,
+   "bytes": 1034579
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 152.2,
+   "bytes": 528740
+  },
+  "w170": {
+   "file": "w170.jpg",
+   "asked_s": 169.8,
+   "got_s": 173.4,
+   "bytes": 1031450
+  },
+  "w190": {
+   "file": "w190.jpg",
+   "asked_s": 189.83,
+   "got_s": 192.2,
+   "bytes": 528550
+  },
+  "w210": {
+   "file": "w210.jpg",
+   "asked_s": 209.82,
+   "got_s": 213.5,
+   "bytes": 1046963
+  },
+  "w230": {
+   "file": "w230.jpg",
+   "asked_s": 229.8,
+   "got_s": 233.4,
+   "bytes": 823465
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 229.8,
+   "got_s": 233.4,
+   "bytes": 823465,
+   "from_watch": "w230"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   43.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   44.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   45.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   46.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   47.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   48.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   49.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   50.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   51.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   52.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   53.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   54.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   55.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   56.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   57.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   58.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   59.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   60.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   61.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   62.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   63.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   64.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   65.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   66.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   67.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   68.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   69.2,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   91.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   92.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   93.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   94.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   95.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   96.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   97.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   98.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   99.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   100.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   101.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   102.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   103.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   104.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   105.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   106.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   107.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   108.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   109.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   110.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   111.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   112.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   113.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   114.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   115.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   116.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   117.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   118.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   119.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   120.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   121.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   122.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   123.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   124.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   125.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   126.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   127.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   128.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   129.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   130.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   131.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   132.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   133.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   134.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   135.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   136.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   137.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   138.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   139.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   140.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   141.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   142.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   143.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   144.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   145.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   146.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   147.3,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   148.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   149.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   150.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   151.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   152.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   153.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   154.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   155.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   156.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   157.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   158.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   159.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   160.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   161.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   162.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   163.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   164.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   165.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   166.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   167.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   168.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   169.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   170.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   171.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   172.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   173.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   174.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   175.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   176.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   177.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   178.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   179.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   180.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   181.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   182.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   183.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   184.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   185.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   186.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   187.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   188.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   189.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   190.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   191.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   192.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   193.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   194.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   195.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   196.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   197.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   198.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   199.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   200.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   201.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   202.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   203.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   204.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   205.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   206.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   207.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   208.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   209.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   210.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   211.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   212.4,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   213.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   214.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   215.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   216.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   217.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   218.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   219.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   220.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   221.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   222.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   223.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   224.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   225.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   226.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   227.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   228.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   229.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   230.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   231.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   232.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   233.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   234.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   235.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   236.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   237.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   238.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ],
+  [
+   239.5,
+   "GET_STATUS PLAYING xbox,187 - Ride or Die (U) (En,Fr,De,Es,It),crc32=f411bad9"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   58.3,
+   31.7,
+   59.6,
+   59.8,
+   45.2,
+   58.9,
+   58.8,
+   59.5,
+   59.4,
+   59.9,
+   59.6,
+   59.6,
+   59.3,
+   59.9,
+   59.3,
+   59.2,
+   59.7,
+   59.9,
+   58.9,
+   59.2,
+   58.9,
+   59.9,
+   59.1
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4891372 prog_fog=3012167 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3138 words 9788588 headers 572276 methods 9216276 faults 0 GET 03ef8fb8 PUT 03eed608 binds 5 semaphores 257329 flips 13708 traps 27890 (5=14175 21=13708 9=6 28=1) runs 0 surfaces 8 clears 47700 swaps 13709 draws 4918379 ff 4738291 skipped 0 () textures 567 (138 held, 8 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 39.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=26880 verts=14584050 mergeable=0 (not: strip 540 idx 25860 state 480 work 0 gap 0) batches=0 of 0 draws indexed: no state between 171, contiguous 0 pipe=10379 set1=13679 pc=20132 vi=1791 vb=23377 vp=415 sc=415 dyn=13573 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4918252 prog_fog=3028127 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 3133 words 9717656 headers 563473 methods 9154146 faults 0 GET 03e15b78 PUT 03e07ab0 binds 5 semaphores 258673 flips 13768 traps 28042 (5=14267 21=13768 9=6 28=1) runs 0 surfaces 8 clears 47940 swaps 13769 draws 4945141 ff 4764033 skipped 0 () textures 567 (138 held, 8 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 40.4, 60 frames)",
+   "hakuX-hle-emit: per s: draws=26762 verts=14535486 mergeable=0 (not: strip 540 idx 25742 state 480 work 0 gap 0) batches=0 of 0 draws indexed: no state between 222, contiguous 0 pipe=10085 set1=13490 pc=19827 vi=1798 vb=23137 vp=420 sc=420 dyn=13102 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4945014 prog_fog=3044115 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2760 sysops 4936 (int 780, of them ticks 14; hook 0) schedules 2334 switches 1743 idle 617 slices 0 page faults 0 mmio 29788 apu waits 0 vm pages +0 -0 isr irq1:495 (max 24.8 ms) irq3:198 (max 16.5 ms) irq5:2 (max 0.1 ms) | dpc max wait 2.3 run 0.6 ms, 0 over 8 ms |",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 9 (pages) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 18908 KiB, contiguous 20256 KiB (1184 blocks), virtual 25100 KiB, kernel pool 35 of 64 KiB (Ex 521, objects 9, lost 0 KiB, 11 free ranges)",
+   "hakuX-hle-pb: kicks 3104 words 9717800 headers 561855 methods 9155904 faults 0 GET 03e34988 PUT 03e262ec binds 5 semaphores 260018 flips 13828 traps 28185 (5=14350 21=13828 9=6 28=1) runs 0 surfaces 8 clears 48180 swaps 13829 draws 4971913 ff 4789785 skipped 0 () textures 567 (138 held, 8 MiB) rt up",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 39.3 ms (max 39.8, 60 frames)",
+   "hakuX-hle-emit: per s: draws=26772 verts=14542086 mergeable=0 (not: strip 540 idx 25752 state 480 work 0 gap 0) batches=0 of 0 draws indexed: no state between 187, contiguous 0 pipe=10083 set1=13509 pc=19810 vi=1794 vb=23096 vp=419 sc=419 dyn=13029 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=4971786 prog_fog=3060157 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=981050 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 61 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x563f32d9b790",
+   "[Gamescope WSI] Destroyed swapchain: 0x563f32d9b790",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 237.6,
+  "peak_rms_dbfs": -18.3,
+  "first_sound_s": -0.0,
+  "audible_fraction": 0.83,
+  "rms_dbfs_per_2s": [
+   -28.1,
+   -25.7,
+   -24.9,
+   -18.3,
+   -19.1,
+   -120.0,
+   -120.0,
+   -28.3,
+   -26.8,
+   -27.3,
+   -27.5,
+   -24.7,
+   -25.8,
+   -25.8,
+   -39.8,
+   -41.7,
+   -33.2,
+   -41.0,
+   -32.6,
+   -38.8,
+   -38.0,
+   -36.7,
+   -31.1,
+   -29.9,
+   -28.8,
+   -22.2,
+   -26.3,
+   -23.6,
+   -26.6,
+   -28.7,
+   -24.0,
+   -21.9,
+   -20.0,
+   -19.9,
+   -26.4,
+   -25.7,
+   -23.6,
+   -25.2,
+   -24.6,
+   -29.6,
+   -35.8,
+   -24.0,
+   -33.3,
+   -29.5,
+   -29.9,
+   -35.4,
+   -29.5,
+   -28.3,
+   -22.2,
+   -21.1,
+   -21.7,
+   -19.8,
+   -20.5,
+   -27.7,
+   -48.6,
+   -35.1,
+   -23.3,
+   -26.2,
+   -23.5,
+   -29.1,
+   -35.2,
+   -29.5,
+   -41.8,
+   -30.2,
+   -28.8,
+   -35.0,
+   -29.1,
+   -23.6,
+   -20.9,
+   -20.7,
+   -20.5,
+   -20.5,
+   -26.7,
+   -26.7,
+   -23.3,
+   -23.0,
+   -23.2,
+   -48.5,
+   -27.4,
+   -29.2,
+   -33.3,
+   -29.2,
+   -50.9,
+   -29.8,
+   -29.7,
+   -32.9,
+   -29.7,
+   -23.6,
+   -23.0,
+   -20.3,
+   -20.1,
+   -25.0,
+   -27.2,
+   -25.6,
+   -22.5,
+   -23.0,
+   -23.4,
+   -54.0,
+   -27.6,
+   -29.2,
+   -31.9,
+   -30.2,
+   -60.3,
+   -29.4,
+   -29.5,
+   -30.9,
+   -29.8,
+   -25.0,
+   -22.1,
+   -20.6,
+   -26.7,
+   -24.0,
+   -22.9,
+   -27.9,
+   -22.5,
+   -26.4,
+   -29.1,
+   -29.2,
+   -26.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 209.82 s (judged from screenshots); stopped at 239.5 s and the emulator closed",
+ "duration_s": 239.7,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}
