@@ -16,6 +16,7 @@ listed configuration; a short test does not establish full-game compatibility.
 | `overrides.json` | Per-game input plans |
 | `runner.py`, `compat.py`, `vpad.py` | Test runner, data tools and optional virtual gamepad |
 | `export_page.py`, `page_template.html`, `packs.json` | Web export and media-pack assignments |
+| `site/cputests/`, `site/nv2atests/` | CPU test and PGRAPH scorecard pages, published as committed |
 | `issues/` | Issue drafts and filing records |
 
 Full PNG captures, recordings and logs stay on the test machine. Each game's
@@ -188,6 +189,23 @@ Re-ingesting a run preserves reviewed entries; `--force` replaces them.
 Keep review files in `reviews/<run-id>.json`.
 Generated local views include `report.html` and
 `contact-sheets/<system>/sheet-NN.png`.
+
+## Test pages
+
+Two more pages are published with the list, from folders of `site/` that are
+committed as they are:
+
+| Folder | Page | Contents |
+|---|---|---|
+| `site/cputests/` | [CPU tests](https://hakuxlr.portareos.org/cputests/) | hakuX-lr's CPU and FPU behaviour against a real Xbox (`nxdk_low_level_cpu_tests`): `index.html` and the runs' logs, `logs/<configuration>/<test>.json` |
+| `site/nv2atests/` | [PGRAPH scorecard](https://hakuxlr.portareos.org/nv2atests/) | NV2A rendering compared with real-Xbox captures (`nxdk_pgraph_tests`): `index.html` and `img/<test>.webp` |
+
+They serve regression and feature testing of the core beside the game list.
+To update one, replace its files and commit; the server publishes exactly
+what is committed and removes files a commit no longer has. It accepts only
+`index.html`, `logs/<name>/<name>.json` (CPU tests) and `img/<name>.webp`
+(PGRAPH), with plain names, up to 4 MiB each. The pages' generators are not
+in this repository yet.
 
 ## Web export
 
