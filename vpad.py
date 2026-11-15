@@ -10,7 +10,7 @@ Requires write access to /dev/uinput.
 
 Replies: "ok" or "err <reason>". Unknown lines are ignored, including a
 password left on stdin by sudo -S.
-Buttons: a b x y lb rb back start guide ls rs up down left right lt rt.
+Buttons: a b x y lb rb (also white, black) back start guide ls rs up down left right lt rt.
 Gamepad events avoid sending keyboard input to the active KMS console."""
 import fcntl
 import os
@@ -24,7 +24,7 @@ VENDOR, PRODUCT = 0x1209, 0x7778  # pid.codes test range
 EV_SYN, EV_KEY, EV_ABS = 0, 1, 3
 BTN = {
     "a": 0x130, "b": 0x131, "x": 0x133, "y": 0x134,
-    "lb": 0x136, "rb": 0x137, "back": 0x13A, "start": 0x13B,
+    "lb": 0x136, "rb": 0x137, "white": 0x136, "black": 0x137, "back": 0x13A, "start": 0x13B,
     "guide": 0x13C, "ls": 0x13D, "rs": 0x13E,
 }
 # axis code: (min, max, resting value)

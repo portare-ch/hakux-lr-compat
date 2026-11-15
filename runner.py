@@ -291,6 +291,8 @@ class Judge:
         elif self.guide_on and len(self.guided) >= GUIDE_MAX:
             self.guide_on = False       # out of answers: the planned presses again
         if verdict == "INGAME":
+            with self.lock:
+                self.plan = None        # presses for an earlier frame are not for gameplay
             self.streak.append((name, t))
             if len(self.streak) >= self.needed and not self.ingame.is_set():
                 # Confirm with a stronger model to catch in-engine cutscenes.
@@ -419,8 +421,9 @@ def resign_blind(path):
     """Sign a console's save file as hakuX's kernel signs (XCalculateSignature with zero title
     keys: HMAC-SHA1 over the data with a 16-byte zero key). The console's keys are not known
     here, so where the old signature is cannot be checked: it is taken to be the one place
-    among the usual ones (the file's first 20 bytes, 20 bytes at 4, or the last 20 bytes,
-    before zero padding too) that looks like a digest while the others don't. Returns what it
+    among the usual ones (the file's first 20 bytes, or 20 bytes at 4 after a header that
+    reads as text or a small number, or the last 20 bytes, before zero padding too) that looks
+    like a digest while the others don't. Returns what it
     did ("start", "at4", "end", "end-unpadded") or None when no single place stands out.
     Saves locked to their console are not handled."""
     import hashlib
@@ -436,10 +439,14 @@ def resign_blind(path):
     while m > 0 and d[m - 1] == 0:
         m -= 1
     cands = []
-    if _digest_like(d[0:20]):
-        cands.append(("start", 0, 20, n))
-    elif _digest_like(d[4:24]) and not _digest_like(d[24:44]):
+    # Four bytes that read as a header (text, or a small number) before 20 that look like a digest:
+    # the signature is at 4. A digest's own first four bytes rarely read so, and then it is at 0.
+    head = bytes(d[0:4])
+    headed = all(32 <= c < 127 for c in head) or 0 in head
+    if headed and _digest_like(d[4:24]) and not _digest_like(d[24:44]):
         cands.append(("at4", 4, 24, n))
+    elif not headed and _digest_like(d[0:20]):
+        cands.append(("start", 0, 20, n))
     if _digest_like(d[n - 20:n]):
         cands.append(("end", n - 20, 0, n - 20))
     elif m >= 60 and m < n and _digest_like(d[m - 20:m]):
@@ -1043,7 +1050,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
                 # The guide plays: its presses for the frame last judged, then a new frame to judge.
                 # Planned presses are held back, and nothing is pressed over gameplay.
                 plan_now = judge.take_plan()
-                if plan_now is not None:
+                if plan_now is not None and judge.latest != "INGAME":
                     for b in plan_now:
                         vpad.cmd(f"tap {b} 120")
                         done_steps.append([round(time.monotonic() - t0, 2), "tap", b, "guided"])
