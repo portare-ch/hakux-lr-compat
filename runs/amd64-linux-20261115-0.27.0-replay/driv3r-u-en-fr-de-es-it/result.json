@@ -1,0 +1,1463 @@
+{
+ "game_file": "Driv3r (U) (En,Fr,De,Es,It).chd",
+ "game_size": 2097848176,
+ "system": "amd64-linux",
+ "started": "2026-11-15T15:57:01+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 285.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 330.0
+ },
+ "override": {
+  "_why": "Recorded from a guided run (amd64-linux-20261115-0.27.0): gameplay from 105.53 s. Screens the guide passed: DRIV3R sign-in failed prompt: no profile found, create one? (cursor on No); Name Entry on-screen keyboard with an empty name field; Main menu with Undercover highlighted and a Sign-In Failed notice; Undercover main menu (Undercover highlighted, Sign-In Failed notice)",
+  "guide": false,
+  "unstick": [],
+  "quiet": [
+   [
+    0,
+    100000
+   ]
+  ],
+  "input_time": 285.0,
+  "hard_limit": 330.0,
+  "extra_steps": [
+   [
+    10.5,
+    "tap",
+    "start"
+   ],
+   [
+    13.0,
+    "tap",
+    "a"
+   ],
+   [
+    15.5,
+    "tap",
+    "start"
+   ],
+   [
+    18.0,
+    "tap",
+    "a"
+   ],
+   [
+    20.5,
+    "tap",
+    "start"
+   ],
+   [
+    23.0,
+    "tap",
+    "a"
+   ],
+   [
+    25.5,
+    "tap",
+    "start"
+   ],
+   [
+    28.0,
+    "tap",
+    "a"
+   ],
+   [
+    30.6,
+    "tap",
+    "start"
+   ],
+   [
+    33.0,
+    "tap",
+    "a"
+   ],
+   [
+    35.5,
+    "tap",
+    "start"
+   ],
+   [
+    38.0,
+    "tap",
+    "a"
+   ],
+   [
+    40.5,
+    "tap",
+    "start"
+   ],
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.5,
+    "tap",
+    "start"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.7,
+    "tap",
+    "left"
+   ],
+   [
+    56.2,
+    "tap",
+    "a"
+   ],
+   [
+    68.1,
+    "tap",
+    "a"
+   ],
+   [
+    68.7,
+    "tap",
+    "down"
+   ],
+   [
+    69.3,
+    "tap",
+    "down"
+   ],
+   [
+    69.8,
+    "tap",
+    "left"
+   ],
+   [
+    70.4,
+    "tap",
+    "a"
+   ],
+   [
+    93.2,
+    "tap",
+    "a"
+   ],
+   [
+    93.7,
+    "tap",
+    "a"
+   ],
+   [
+    94.3,
+    "tap",
+    "a"
+   ],
+   [
+    100.6,
+    "tap",
+    "a"
+   ],
+   [
+    101.2,
+    "tap",
+    "a"
+   ],
+   [
+    101.8,
+    "tap",
+    "a"
+   ],
+   [
+    102.3,
+    "tap",
+    "a"
+   ],
+   [
+    102.9,
+    "tap",
+    "start"
+   ],
+   [
+    103.5,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start"
+  ],
+  [
+   13.0,
+   "tap",
+   "a"
+  ],
+  [
+   15.5,
+   "tap",
+   "start"
+  ],
+  [
+   18.0,
+   "tap",
+   "a"
+  ],
+  [
+   20.5,
+   "tap",
+   "start"
+  ],
+  [
+   23.0,
+   "tap",
+   "a"
+  ],
+  [
+   25.5,
+   "tap",
+   "start"
+  ],
+  [
+   28.0,
+   "tap",
+   "a"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.6,
+   "tap",
+   "start"
+  ],
+  [
+   33.0,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start"
+  ],
+  [
+   38.0,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start"
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.5,
+   "tap",
+   "start"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   55.7,
+   "tap",
+   "left"
+  ],
+  [
+   56.2,
+   "tap",
+   "a"
+  ],
+  [
+   68.1,
+   "tap",
+   "a"
+  ],
+  [
+   68.7,
+   "tap",
+   "down"
+  ],
+  [
+   69.3,
+   "tap",
+   "down"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   69.8,
+   "tap",
+   "left"
+  ],
+  [
+   70.4,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   93.2,
+   "tap",
+   "a"
+  ],
+  [
+   93.7,
+   "tap",
+   "a"
+  ],
+  [
+   94.3,
+   "tap",
+   "a"
+  ],
+  [
+   100.6,
+   "tap",
+   "a"
+  ],
+  [
+   101.2,
+   "tap",
+   "a"
+  ],
+  [
+   101.8,
+   "tap",
+   "a"
+  ],
+  [
+   102.3,
+   "tap",
+   "a"
+  ],
+  [
+   102.9,
+   "tap",
+   "start"
+  ],
+  [
+   103.5,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   295.0,
+   "release"
+  ],
+  [
+   300.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "save": {
+  "title_id": "49470038",
+  "from": "Driv3r PAL",
+  "files": 5,
+  "resigned": {
+   "UDATA/49470038/E1853CD18A9E/ProfileData": "start"
+  }
+ },
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 109.81,
+  "confirmed_by": "w130",
+  "stopped_at_s": 137.3,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.0
+   },
+   {
+    "shot": "w070",
+    "t": 69.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 1.8
+   },
+   {
+    "shot": "w110",
+    "t": 109.81,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.7
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "INGAME",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w130",
+    "t": 129.81,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 137.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.52,
+   "tap",
+   "start"
+  ],
+  [
+   13.02,
+   "tap",
+   "a"
+  ],
+  [
+   15.53,
+   "tap",
+   "start"
+  ],
+  [
+   18.03,
+   "tap",
+   "a"
+  ],
+  [
+   20.53,
+   "tap",
+   "start"
+  ],
+  [
+   23.04,
+   "tap",
+   "a"
+  ],
+  [
+   25.55,
+   "tap",
+   "start"
+  ],
+  [
+   28.05,
+   "tap",
+   "a"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.61,
+   "tap",
+   "start"
+  ],
+  [
+   33.01,
+   "tap",
+   "a"
+  ],
+  [
+   35.52,
+   "tap",
+   "start"
+  ],
+  [
+   38.02,
+   "tap",
+   "a"
+  ],
+  [
+   40.52,
+   "tap",
+   "start"
+  ],
+  [
+   43.03,
+   "tap",
+   "a"
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   45.53,
+   "tap",
+   "start"
+  ],
+  [
+   48.04,
+   "tap",
+   "a"
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   55.7,
+   "tap",
+   "left"
+  ],
+  [
+   56.2,
+   "tap",
+   "a"
+  ],
+  [
+   68.13,
+   "tap",
+   "a"
+  ],
+  [
+   68.73,
+   "tap",
+   "down"
+  ],
+  [
+   69.33,
+   "tap",
+   "down"
+  ],
+  [
+   69.83,
+   "watch",
+   "w070"
+  ],
+  [
+   69.83,
+   "tap",
+   "left"
+  ],
+  [
+   70.43,
+   "tap",
+   "a"
+  ],
+  [
+   89.82,
+   "watch",
+   "w090"
+  ],
+  [
+   93.27,
+   "tap",
+   "a"
+  ],
+  [
+   93.72,
+   "tap",
+   "a"
+  ],
+  [
+   94.33,
+   "tap",
+   "a"
+  ],
+  [
+   100.63,
+   "tap",
+   "a"
+  ],
+  [
+   101.23,
+   "tap",
+   "a"
+  ],
+  [
+   101.84,
+   "tap",
+   "a"
+  ],
+  [
+   102.34,
+   "tap",
+   "a"
+  ],
+  [
+   102.94,
+   "tap",
+   "start"
+  ],
+  [
+   103.54,
+   "tap",
+   "a"
+  ],
+  [
+   109.81,
+   "watch",
+   "w110"
+  ],
+  [
+   129.81,
+   "watch",
+   "w130"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.4,
+   "bytes": 26306
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 30.2,
+   "bytes": 81289
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 45.0,
+   "bytes": 81289
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 50.2,
+   "bytes": 81289
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.83,
+   "got_s": 70.1,
+   "bytes": 127279
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.82,
+   "got_s": 93.2,
+   "bytes": 712741
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.81,
+   "got_s": 114.8,
+   "bytes": 1180716
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.81,
+   "got_s": 134.8,
+   "bytes": 1180633
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 129.81,
+   "got_s": 134.8,
+   "bytes": 1180633,
+   "from_watch": "w130"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   2.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   3.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   43.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   44.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   45.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   46.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   47.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   48.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   49.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   50.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   51.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   52.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   53.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   54.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   55.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   56.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   57.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   58.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   59.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   60.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   61.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   62.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   63.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   64.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   65.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   66.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   67.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   68.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   69.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   99.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   100.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   101.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   102.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   103.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   104.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   105.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   106.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   107.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   108.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   109.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   110.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   111.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   112.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   113.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   114.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   115.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   116.5,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   117.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   118.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   119.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   120.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   121.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   122.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   123.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   124.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   125.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   126.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   127.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   128.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   129.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   130.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   131.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   132.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   133.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   134.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   135.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ],
+  [
+   136.6,
+   "GET_STATUS PLAYING xbox,Driv3r (U) (En,Fr,De,Es,It),crc32=11d7932e"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55480.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   59.0,
+   31.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0,
+   56.2,
+   59.5,
+   46.3,
+   30.6,
+   29.7,
+   29.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-native-irq: line 1 delivered 9.1 ms after it rose: 0 refusals, first none: no kernel entry meanwhile (IRQL 0, ISR line -1, thread t0); the guest CPU's thread ran 0.0 ms of it",
+   "hakuX-native-irq: line 1 taken 9.1 ms after it rose",
+   "hakuX-hle-fps: 29.7 fps (149 frames in 5.03 s)",
+   "hakuX-native-stats: per s: kcalls 2716 sysops 4829 (int 855, of them ticks 288; hook 0) schedules 1887 switches 1848 idle 0 slices 0 page faults 0 mmio 9973 apu waits 0 vm pages +0 -0 isr irq1:524 (max 30.3 ms) irq3:89 (max 23.4 ms) irq5:7 (max 0.4 ms) | dpc max wait 1.6 run 0.7 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 193 (pages 03813000:320 03811000:320 037c5000:256) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 408 KiB, contiguous 56652 KiB (28 blocks), virtual 7764 KiB, kernel pool 62 of 64 KiB (Ex 164, objects 3, lost 0 KiB, 1 free ranges)",
+   "hakuX-hle-pb: kicks 583 words 4690915 headers 464359 methods 4226540 faults 0 GET 03e23e90 PUT 03e24260 binds 5 semaphores 18142 flips 5126 traps 5135 (41=3000 21=2126 9=6 5=2 28=1) runs 0 surfaces 6 clears 6166 swaps 5126 draws 1583944 ff 0 skipped 0 () textures 1270 (397 held, 24 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 30 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 71.5 ms (max 73.1, 30 frames)",
+   "hakuX-hle-pb: catch-up: 5991 stores waited for the decoder (caught up 5; it waited on the guest at a trap 165, a flip stall 5821, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 195.1 ms",
+   "hakuX-hle-emit: per s: draws=38445 verts=5032230 mergeable=0 (not: strip 38310 idx 135 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2514 set1=25051 pc=27107 vi=837 vb=1885 vp=99 sc=219 dyn=4484 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1583030 prog_fog=1071611 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 582 words 4690660 headers 464261 methods 4226372 faults 0 GET 03e0fc40 PUT 03e0fc40 binds 5 semaphores 18303 flips 5155 traps 5164 (41=3029 21=2126 9=6 5=2 28=1) runs 0 surfaces 6 clears 6226 swaps 5155 draws 1622389 ff 0 skipped 0 () textures 1270 (397 held, 24 MiB) rt uploads 1",
+   "hakuX-hle-pb: frame pace off: 29 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 71.3 ms (max 72.0, 30 frames)",
+   "hakuX-hle-pb: catch-up: 6166 stores waited for the decoder (caught up 5; it waited on the guest at a trap 168, a flip stall 5993, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 197.7 ms",
+   "hakuX-hle-emit: per s: draws=38445 verts=5032230 mergeable=0 (not: strip 38310 idx 135 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=2515 set1=25046 pc=27107 vi=837 vb=1904 vp=103 sc=222 dyn=4541 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1621475 prog_fog=1102931 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=377879 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 40 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x556335770580",
+   "[Gamescope WSI] Destroyed swapchain: 0x556335770580",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 135.8,
+  "peak_rms_dbfs": -26.8,
+  "first_sound_s": 6.5,
+  "audible_fraction": 0.53,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -26.8,
+   -32.8,
+   -95.8,
+   -45.4,
+   -45.4,
+   -45.4,
+   -120.0,
+   -45.4,
+   -45.4,
+   -45.4,
+   -45.4,
+   -120.0,
+   -45.4,
+   -45.4,
+   -45.4,
+   -45.4,
+   -120.0,
+   -45.4,
+   -45.4,
+   -45.4,
+   -45.4,
+   -120.0,
+   -120.0,
+   -120.0,
+   -45.4,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -45.4,
+   -45.4,
+   -40.9,
+   -39.7,
+   -38.2,
+   -32.3,
+   -34.1,
+   -33.8,
+   -33.6,
+   -33.3,
+   -33.6,
+   -33.5,
+   -33.9,
+   -33.4,
+   -120.0,
+   -44.0,
+   -43.6,
+   -39.4,
+   -40.6,
+   -39.4,
+   -36.8,
+   -37.3,
+   -36.3,
+   -35.0,
+   -35.8,
+   -36.4,
+   -35.7,
+   -33.7,
+   -33.9,
+   -33.4,
+   -33.4,
+   -35.0,
+   -34.4,
+   -35.5,
+   -34.5
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 109.81 s (judged from screenshots); stopped at 137.3 s and the emulator closed",
+ "duration_s": 137.4,
+ "run_id": "amd64-linux-20261115-0.27.0-replay"
+}
