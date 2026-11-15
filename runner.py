@@ -49,6 +49,28 @@ JUDGE_ASK = (
     "OTHER for anything else: black or blank screens, logos, legal or warning screens, videos and cutscenes "
     "(including in-engine scenes with letterbox bars or no HUD), title screens, menus, character, car or level "
     "selection, profile and save prompts, loading screens and briefings. Answer with one word: INGAME or OTHER.")
+GUIDE_BUTTONS = ("a", "b", "x", "y", "start", "back", "up", "down", "left", "right", "lt", "rt", "white", "black")
+GUIDE_SYSTEM = ("You operate the gamepad of an original Xbox game running in an emulator, to get from its menus "
+                "into gameplay. Reply with one JSON object only.")
+GUIDE_ASK = (
+    "This screenshot shows where the game is now. It is not gameplay yet, and pressing Start and A in turn "
+    "did not get past it. Give the button presses, in order, that most likely move on toward gameplay from "
+    "exactly this screen: start a new single-player game with the defaults, accept the default name, "
+    "character, car, team, difficulty and settings, confirm prompts, skip videos. Rules: read the button "
+    "hints on the screen and use the button they name for confirm, done, accept, next or continue. On an "
+    "on-screen keyboard, do not type: move the highlighted cursor to DONE, OK, ACCEPT, ENTER or END with the "
+    "direction buttons and press A, or press the button the screen names for it (often Start or Y); if the "
+    "name is empty, press A once on a letter first. On a prompt that asks whether to continue without "
+    "saving, without a profile or without signing in, choose the answer that continues. On a prompt that "
+    "asks whether to overwrite or delete saved data, do not overwrite or delete; go back or pick another "
+    "entry. Where a list offers a new game, a quick race, exhibition, arcade or practice mode, pick the one "
+    "that reaches play soonest. If the screen is black, a logo, a loading screen or a video, reply with no "
+    "presses, or Start to skip a video. At most 10 presses, counted from the cursor position visible in the "
+    "screenshot. Buttons: a b x y start back up down left right lt rt white black. Reply as "
+    '{"presses": ["down", "a"], "screen": "what the screen is, in a few words"}.')
+GUIDE_AFTER = 100.0  # seconds: with no gameplay by then the guide takes over even if the screen changes
+GUIDE_MAX = 18       # guide answers per run
+GUIDE_GAP = 0.45     # seconds between a guided plan's presses
 SHOT_WAIT = 5.0      # seconds to wait for a requested screenshot file
 QUIT_WAIT = 10.0     # seconds to wait for a clean exit after QUIT
 GAP = 2.0            # pause between games
@@ -119,8 +141,13 @@ class Judge:
     Blank frames count as no gameplay; unchanged frames reuse the last verdict.
     Set `ingame` after `needed` consecutive gameplay verdicts."""
 
-    def __init__(self, model, needed, confirm_model=None):
+    def __init__(self, model, needed, confirm_model=None, guide_model=None):
         self.model, self.needed, self.confirm_model = model, needed, confirm_model
+        self.guide_model = guide_model
+        self.guide_on = False     # the guide's presses replace the planned ones from here on
+        self.busy = False         # a frame is being judged (or its presses asked for)
+        self.plan = None          # presses for the frame last judged, until the run takes them
+        self.guided = []          # [{"shot", "t", "presses", "screen"}]
         self.magick = shutil.which("magick")
         self.lock = threading.Lock()
         self.todo = None
@@ -140,7 +167,46 @@ class Judge:
     def submit(self, name, png, t):
         with self.lock:
             self.todo = (name, png, t)  # only the newest frame matters
+            self.busy = True
         self.wake.set()
+
+    def take_plan(self):
+        with self.lock:
+            plan, self.plan = self.plan, None
+        return plan
+
+    def _guide(self, img, media):
+        """The presses the guide model gives for this frame: (list, what the screen is) or (None, error)."""
+        with open(img, "rb") as f:
+            data = base64.b64encode(f.read()).decode()
+        msg = {"type": "user", "message": {"role": "user", "content": [
+            {"type": "image", "source": {"type": "base64", "media_type": media, "data": data}},
+            {"type": "text", "text": GUIDE_ASK}]}}
+        env = {k: v for k, v in os.environ.items()
+               if not k.startswith(("CLAUDECODE", "CLAUDE_CODE_", "CLAUDE_PID", "CLAUDE_EFFORT"))}
+        cmd = ["claude", "-p", "--input-format", "stream-json", "--output-format", "stream-json", "--verbose",
+               "--model", self.guide_model, "--system-prompt", GUIDE_SYSTEM, "--tools", "", "--strict-mcp-config",
+               "--disable-slash-commands", "--no-session-persistence"]
+        try:
+            r = subprocess.run(cmd, input=json.dumps(msg) + "\n", capture_output=True, text=True, env=env,
+                               timeout=90, cwd=HERE)
+        except (OSError, subprocess.TimeoutExpired) as e:
+            return None, f"guide failed: {e}"
+        for line in r.stdout.splitlines():
+            try:
+                o = json.loads(line)
+            except ValueError:
+                continue
+            if o.get("type") == "result":
+                text = o.get("result") or ""
+                m = re.search(r"\{.*\}", text, re.S)
+                try:
+                    ans = json.loads(m.group(0)) if m else {}
+                except ValueError:
+                    ans = {}
+                presses = [str(b).lower() for b in ans.get("presses", []) if str(b).lower() in GUIDE_BUTTONS]
+                return presses[:10], str(ans.get("screen", ""))[:120]
+        return None, f"no answer (exit {r.returncode})"
 
     def close(self, wait=10):
         with self.lock:
@@ -215,7 +281,18 @@ class Judge:
         self.verdicts.append(rec)
         self.latest = verdict
         self.stuck = verdict == "OTHER" and unchanged
+        if self.guide_model and verdict == "OTHER" and len(self.guided) < GUIDE_MAX and (
+                self.guide_on or self.stuck or t >= GUIDE_AFTER):
+            self.guide_on = True
+            presses, screen = ([], "blank frame") if how == "blank frame" else self._guide(img, media)
+            self.guided.append({"shot": name, "t": t, "presses": presses, "screen": screen})
+            with self.lock:
+                self.plan = presses or []
+        elif self.guide_on and len(self.guided) >= GUIDE_MAX:
+            self.guide_on = False       # out of answers: the planned presses again
         if verdict == "INGAME":
+            with self.lock:
+                self.plan = None        # presses for an earlier frame are not for gameplay
             self.streak.append((name, t))
             if len(self.streak) >= self.needed and not self.ingame.is_set():
                 # Confirm with a stronger model to catch in-engine cutscenes.
@@ -246,6 +323,8 @@ class Judge:
                     self._judge(*job)
                 except Exception as e:  # Continue the run if the judge fails.
                     self.verdicts.append({"shot": job[0], "t": job[2], "verdict": None, "error": repr(e)})
+                with self.lock:
+                    self.busy = self.todo is not None
             if self.closed:
                 return
 
@@ -270,6 +349,163 @@ def plan_for(game, overrides):
     steps += [tuple(s) for s in ov.get("extra_steps", [])]
     steps.sort(key=lambda s: s[0])
     return p, steps, ov
+
+
+# Saved games
+
+def save_index(root):
+    """Title ID (lower case) -> {"UDATA": dir, "TDATA": dir, "from": game folder} for an
+    archive laid out as <game>/UDATA/<title id>/... (optionally TDATA beside it,
+    or the title ID folder directly under the game's)."""
+    idx = {}
+    if not root or not os.path.isdir(root):
+        return idx
+    for game in sorted(os.listdir(root)):
+        gd = os.path.join(root, game)
+        if not os.path.isdir(gd):
+            continue
+        for sub in sorted(os.listdir(gd)):
+            sd = os.path.join(gd, sub)
+            if not os.path.isdir(sd):
+                continue
+            if sub.upper() in ("UDATA", "TDATA"):
+                for tid in sorted(os.listdir(sd)):
+                    if re.fullmatch(r"[0-9a-fA-F]{8}", tid) and os.path.isdir(os.path.join(sd, tid)):
+                        e = idx.setdefault(tid.lower(), {"from": game})
+                        e.setdefault(sub.upper(), os.path.join(sd, tid))
+            elif re.fullmatch(r"[0-9a-fA-F]{8}", sub):
+                idx.setdefault(sub.lower(), {"from": game}).setdefault("UDATA", sd)
+    return idx
+
+
+def title_ids():
+    """Game file name -> title ID (lower case), from compat.json."""
+    try:
+        games = json.load(open(os.path.join(HERE, "compat.json")))["games"]
+    except (OSError, ValueError, KeyError):
+        return {}
+    return {g["file"]: g["title_id"].lower() for g in games.values() if g.get("file") and g.get("title_id")}
+
+
+def seed_save(saves_dir, entry):
+    """Copy an archived save onto the fresh console disk (E: is Partition1).
+    Regular files only; names as the archive has them."""
+    n = 0
+    for kind in ("UDATA", "TDATA"):
+        src = entry.get(kind)
+        if not src:
+            continue
+        dst = os.path.join(saves_dir, "hakuX", "hdd", "Partition1", kind, os.path.basename(src).lower())
+        for d, subdirs, files in os.walk(src):
+            subdirs[:] = [x for x in subdirs if not os.path.islink(os.path.join(d, x))]
+            out = os.path.join(dst, os.path.relpath(d, src))
+            os.makedirs(out, exist_ok=True)
+            for f in files:
+                fp = os.path.join(d, f)
+                if os.path.isfile(fp) and not os.path.islink(fp):
+                    shutil.copyfile(fp, os.path.join(out, f))
+                    n += 1
+    return n
+
+
+SAVE_META = {"titlemeta.xbx", "titleimage.xbx", "savemeta.xbx", "saveimage.xbx", "datelinfo.xbx", "contentmeta.xbx"}
+
+
+def _digest_like(b):
+    """20 bytes that could be an HMAC-SHA1: many distinct values, no run of zeros, not text."""
+    return (len(b) == 20 and len(set(b)) >= 15 and b"\0\0" not in b
+            and sum(32 <= c < 127 for c in b) < 16)
+
+
+def resign_blind(path):
+    """Sign a console's save file as hakuX's kernel signs (XCalculateSignature with zero title
+    keys: HMAC-SHA1 over the data with a 16-byte zero key). The console's keys are not known
+    here, so where the old signature is cannot be checked: it is taken to be the one place
+    among the usual ones (the file's first 20 bytes, or 20 bytes at 4 after a header that
+    reads as text or a small number, or the last 20 bytes, before zero padding too) that looks
+    like a digest while the others don't. Returns what it
+    did ("start", "at4", "end", "end-unpadded") or None when no single place stands out.
+    Saves locked to their console are not handled."""
+    import hashlib
+    import hmac
+    try:
+        d = bytearray(open(path, "rb").read())
+    except OSError:
+        return None
+    n = len(d)
+    if n <= 40 or n > (64 << 20):
+        return None
+    m = n
+    while m > 0 and d[m - 1] == 0:
+        m -= 1
+    cands = []
+    # Four bytes that read as a header (text, or a small number) before 20 that look like a digest:
+    # the signature is at 4. A digest's own first four bytes rarely read so, and then it is at 0.
+    head = bytes(d[0:4])
+    headed = all(32 <= c < 127 for c in head) or 0 in head
+    if headed and _digest_like(d[4:24]) and not _digest_like(d[24:44]):
+        cands.append(("at4", 4, 24, n))
+    elif not headed and _digest_like(d[0:20]):
+        cands.append(("start", 0, 20, n))
+    if _digest_like(d[n - 20:n]):
+        cands.append(("end", n - 20, 0, n - 20))
+    elif m >= 60 and m < n and _digest_like(d[m - 20:m]):
+        cands.append(("end-unpadded", m - 20, 0, m - 20))
+    # a file that looks random throughout (packed or encrypted) gives no hint
+    body = d[n // 2:n // 2 + 20]
+    if len(cands) != 1 or (_digest_like(body) and _digest_like(d[40:60])):
+        return None
+    what, at, lo, hi = cands[0]
+    d[at:at + 20] = hmac.new(bytes(16), bytes(d[lo:hi]), hashlib.sha1).digest()
+    st = os.stat(path)
+    with open(path, "wb") as f:
+        f.write(d)
+    os.utime(path, (st.st_atime, st.st_mtime))
+    return what
+
+
+def resign_saves(saves_dir):
+    """Re-sign every seeded save file; returns {relative path: how} for those changed."""
+    root = os.path.join(saves_dir, "hakuX", "hdd", "Partition1")
+    done = {}
+    for d, _, files in os.walk(root):
+        for f in files:
+            if f.lower() in SAVE_META:
+                continue
+            how = resign_blind(os.path.join(d, f))
+            if how:
+                done[os.path.relpath(os.path.join(d, f), root)] = how
+    return done
+
+
+def recorded_override(res, run_id=None):
+    """The override that repeats a guided run without the guide: every press the run made, at the
+    time it made it (the planned ones before the guide took over, those made to unstick, and the
+    guide's), with the planned presses, the unstick presses and the guide all off. None unless the
+    guide gave presses and the run then reached gameplay."""
+    w = res.get("watch") or {}
+    if not w.get("ingame_at_s") or not any(g.get("presses") for g in w.get("guided") or []):
+        return None
+    taps = [[round(s[0], 1), "tap", s[2]] for s in res.get("steps_done") or [] if len(s) > 2 and s[1] == "tap"]
+    if not taps:
+        return None
+    screens = []
+    for g in w["guided"]:
+        if g.get("presses") and g.get("screen") and g["screen"] not in screens:
+            screens.append(g["screen"])
+    end = max(DEFAULT_PLAN["input_time"], taps[-1][0] + 40.0)
+    ov = {k: v for k, v in (res.get("override") or {}).items() if k in ("save", "resign")}
+    ov.update({
+        "_why": ("Recorded from a guided run" + (f" ({run_id or res.get('run_id')})" if run_id or res.get("run_id") else "")
+                 + f": gameplay from {w['ingame_at_s']} s. Screens the guide passed: " + "; ".join(screens)[:600]),
+        "guide": False,
+        "unstick": [],
+        "quiet": [[0, 100000]],
+        "input_time": end,
+        "hard_limit": end + 45.0,
+        "extra_steps": taps,
+    })
+    return ov
 
 
 # RetroArch
@@ -705,6 +941,12 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
 
     profile = os.path.join(profile_root, "profile" + (str(system.worker) if getattr(system, "worker", 0) else ""))
     cfg_path, dirs = write_profile(system, profile, args.core, vpad)
+    tid = args.title_ids.get(os.path.basename(game))
+    save = args.save_index.get(tid) if tid and ov.get("save", True) else None
+    if save:
+        res["save"] = {"title_id": tid, "from": save["from"], "files": seed_save(dirs["saves"], save)}
+        if ov.get("resign", True):
+            res["save"]["resigned"] = resign_saves(dirs["saves"])
     ra_log_out = open(os.path.join(out_dir, "retroarch.stdout"), "w")
     core_log = os.path.join(out_dir, "hakux.log")
     core_log_f = open(core_log, "w")
@@ -734,7 +976,10 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     seen = set()
     stop = threading.Event()
     judge = (Judge(args.judge_model, int(plan["watch_needed"]),
-                   None if args.confirm_model == "none" else args.confirm_model)
+                   None if args.confirm_model == "none" else args.confirm_model,
+                   # a game with timed presses of its own keeps them unless its override asks for the guide
+                   args.guide_model if args.guide_model != "none" and ov.get(
+                       "guide", not (ov.get("extra_steps") or ov.get("steps"))) else None)
              if args.judge_model != "none" and plan.get("watch_every") else None)
     stopped_ingame = None
     unstick = list(plan.get("unstick") or [])
@@ -784,6 +1029,7 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
         return proc.poll() is None
 
     ended_early = None
+    guide_idle, guide_shots = 0, 0
     for step in steps:
         t, action, rest = step[0], step[1], list(step[2:])
         if not wait_until(t0 + t):
@@ -800,6 +1046,25 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
             ra_send("SCREENSHOT")
         elif action == "tap":
             btn = rest[0]
+            if judge and judge.guide_on:
+                # The guide plays: its presses for the frame last judged, then a new frame to judge.
+                # Planned presses are held back, and nothing is pressed over gameplay.
+                plan_now = judge.take_plan()
+                if plan_now is not None and judge.latest != "INGAME":
+                    for b in plan_now:
+                        vpad.cmd(f"tap {b} 120")
+                        done_steps.append([round(time.monotonic() - t0, 2), "tap", b, "guided"])
+                        time.sleep(GUIDE_GAP)
+                    guide_idle = 0
+                elif not judge.busy and not any(n.startswith("w") for n, _ in pending):
+                    guide_idle += 1
+                    if guide_idle >= 2:     # the presses have had their effect: look again
+                        guide_shots += 1
+                        pending.append((f"wg{guide_shots:02d}", at))
+                        ra_send("SCREENSHOT")
+                        guide_idle = 0
+                done_steps.append([at, "held", btn])
+                continue
             if judge:
                 nv = len(judge.verdicts)
                 if unstick and judge.stuck and acted_on != nv:
@@ -842,7 +1107,8 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
                 shots[name]["file"] = f"{name}.jpg"
         res["watch"] = {"model": args.judge_model, "needed": judge.needed, "ingame_at_s": judge.ingame_at,
                         "confirmed_by": judge.confirmed_by, "stopped_at_s": stopped_ingame,
-                        "unstuck": unstuck, "verdicts": judge.verdicts}
+                        "unstuck": unstuck, "verdicts": judge.verdicts,
+                        **({"guide_model": judge.guide_model, "guided": judge.guided} if judge.guide_model else {})}
 
     exit_how, forced = None, False
     if proc.poll() is not None:
@@ -888,6 +1154,9 @@ def run_game(system, vpad, game, out_dir, profile_root, overrides, args):
     }
     res["ended_early_s"] = ended_early
     res["steps_done"] = done_steps
+    rec = recorded_override(res, args.run_id)
+    if rec:
+        res["recorded_override"] = rec
     res["shots"] = shots
     res["missing_shots"] = missing
     res["status"] = status
@@ -991,8 +1260,19 @@ def main():
     ap.add_argument("--retroarch", help="RetroArch binary (default /usr/bin/retroarch)")
     ap.add_argument("--judge-model", default="haiku",
                     help="model the in-game judge asks through `claude -p`; none: no checks, full-length runs")
+    ap.add_argument("--guide-model", default="none",
+                    help="model that, once a game is stuck short of gameplay (an unchanged frame, or none by "
+                         f"{GUIDE_AFTER:.0f} s), reads each judged frame and gives the presses to make instead of the "
+                         "planned ones; the run is then longer (input to 420 s). none: off. An override's "
+                         "\"guide\": false leaves a game out")
+    ap.add_argument("--saves", help="archive of saved games (<game>/UDATA/<title id>/...): a game's save is "
+                                    "copied onto its fresh console disk; an override's \"save\": false leaves it out")
     args = ap.parse_args()
     args.core = os.path.abspath(args.core)
+    if args.guide_model != "none":
+        DEFAULT_PLAN.update(input_time=420.0, hard_limit=470.0)
+    args.save_index = save_index(args.saves)
+    args.title_ids = title_ids() if args.save_index else {}
     global PORT, NETPAD_PORT
     PORT += 10 * args.worker
     NETPAD_PORT += 10 * args.worker
@@ -1030,7 +1310,10 @@ def main():
     info.update(run_id=run_id, started=now_iso(), plan_default=DEFAULT_PLAN,
                 judge=None if args.judge_model == "none" else
                 {"via": "claude -p (Claude Code CLI)", "model": args.judge_model, "confirm_model": args.confirm_model,
-                 "system": JUDGE_SYSTEM, "ask": JUDGE_ASK})
+                 "system": JUDGE_SYSTEM, "ask": JUDGE_ASK,
+                 **({"guide": {"model": args.guide_model, "system": GUIDE_SYSTEM, "ask": GUIDE_ASK,
+                               "after_s": GUIDE_AFTER, "max_answers": GUIDE_MAX}}
+                    if args.guide_model != "none" else {})})
     with open(os.path.join(run_dir, "config.json"), "w") as f:
         json.dump(info, f, indent=1)
     print(f"run {run_id}: {len(games)} games -> {run_dir}", flush=True)
