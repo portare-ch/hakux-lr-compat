@@ -1,0 +1,1424 @@
+{
+ "game_file": "XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It).chd",
+ "game_size": 1719949755,
+ "system": "amd64-linux",
+ "started": "2026-11-15T17:29:15+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 470.0
+ },
+ "override": {
+  "_why": "'Checking the Xbox hard disk' (from about 30 s) starts again with every Start, so the default presses keep it going; 'No save data / Continue (A)' only came after they stopped. No default presses from 29 s; A twice at 50 s (Continue), then A every 4 s from 58 s for the menus and the race.",
+  "quiet": [
+   [
+    29.0,
+    330.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    50.0,
+    "tap",
+    "a"
+   ],
+   [
+    52.5,
+    "tap",
+    "a"
+   ],
+   [
+    58.0,
+    "tap",
+    "a"
+   ],
+   [
+    62.0,
+    "tap",
+    "a"
+   ],
+   [
+    66.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    74.0,
+    "tap",
+    "a"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    82.0,
+    "tap",
+    "a"
+   ],
+   [
+    86.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ],
+   [
+    94.0,
+    "tap",
+    "a"
+   ],
+   [
+    98.0,
+    "tap",
+    "a"
+   ],
+   [
+    102.0,
+    "tap",
+    "a"
+   ],
+   [
+    106.0,
+    "tap",
+    "a"
+   ],
+   [
+    110.0,
+    "tap",
+    "a"
+   ],
+   [
+    114.0,
+    "tap",
+    "a"
+   ],
+   [
+    118.0,
+    "tap",
+    "a"
+   ],
+   [
+    122.0,
+    "tap",
+    "a"
+   ],
+   [
+    126.0,
+    "tap",
+    "a"
+   ],
+   [
+    130.0,
+    "tap",
+    "a"
+   ],
+   [
+    134.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "a"
+  ],
+  [
+   52.5,
+   "tap",
+   "a"
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   62.0,
+   "tap",
+   "a"
+  ],
+  [
+   66.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "a"
+  ],
+  [
+   74.0,
+   "tap",
+   "a"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   82.0,
+   "tap",
+   "a"
+  ],
+  [
+   86.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   94.0,
+   "tap",
+   "a"
+  ],
+  [
+   98.0,
+   "tap",
+   "a"
+  ],
+  [
+   102.0,
+   "tap",
+   "a"
+  ],
+  [
+   106.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   110.0,
+   "tap",
+   "a"
+  ],
+  [
+   114.0,
+   "tap",
+   "a"
+  ],
+  [
+   118.0,
+   "tap",
+   "a"
+  ],
+  [
+   122.0,
+   "tap",
+   "a"
+  ],
+  [
+   126.0,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   130.0,
+   "tap",
+   "a"
+  ],
+  [
+   134.0,
+   "tap",
+   "a"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   330.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   333.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   335.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   338.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   340.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   343.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   345.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   348.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   350.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   353.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   355.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   358.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   360.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   363.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   365.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   368.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   370.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   373.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   375.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   378.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   380.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   383.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   385.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   388.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   390.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   393.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   395.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   398.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   400.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   403.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   405.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   408.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   410.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   413.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   415.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   418.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   420.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   423.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   425.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   428.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "save": {
+  "title_id": "41430014",
+  "from": "XGRA - Extreme G Racing Association",
+  "files": 6,
+  "resigned": {
+   "UDATA/41430014/57BD267AFF68/Profile A": "start"
+  }
+ },
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 99.3,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.83,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w050",
+    "t": 49.84,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w090",
+    "t": 89.85,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.4,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.03,
+   "shot",
+   "boot"
+  ],
+  [
+   10.68,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   13.05,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   15.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   18.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   20.51,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   23.01,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   25.52,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   28.02,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   29.83,
+   "watch",
+   "w030"
+  ],
+  [
+   44.63,
+   "shot",
+   "mid"
+  ],
+  [
+   49.84,
+   "watch",
+   "w050"
+  ],
+  [
+   50.15,
+   "tap",
+   "a"
+  ],
+  [
+   52.52,
+   "tap",
+   "a"
+  ],
+  [
+   58.04,
+   "tap",
+   "a"
+  ],
+  [
+   62.04,
+   "tap",
+   "a"
+  ],
+  [
+   66.01,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.07,
+   "tap",
+   "a"
+  ],
+  [
+   74.04,
+   "tap",
+   "a"
+  ],
+  [
+   78.01,
+   "tap",
+   "a"
+  ],
+  [
+   82.02,
+   "tap",
+   "a"
+  ],
+  [
+   86.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.85,
+   "watch",
+   "w090"
+  ],
+  [
+   90.1,
+   "tap",
+   "a"
+  ],
+  [
+   94.05,
+   "tap",
+   "a"
+  ],
+  [
+   98.04,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.03,
+   "got_s": 14.3,
+   "bytes": 1109765
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.83,
+   "got_s": 30.3,
+   "bytes": 225778
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.63,
+   "got_s": 45.1,
+   "bytes": 236892
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.84,
+   "got_s": 50.4,
+   "bytes": 226745
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.0,
+   "bytes": 1127796
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.85,
+   "got_s": 94.4,
+   "bytes": 1201496
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.85,
+   "got_s": 94.4,
+   "bytes": 1201496,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   5.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   6.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   7.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   8.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   9.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   10.1,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   24.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   25.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   26.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   27.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   28.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   29.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   30.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   31.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   32.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   33.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   34.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   35.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   36.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   37.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   38.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   39.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   40.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   41.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   42.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   43.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   44.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   45.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   46.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   47.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   48.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   49.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   50.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   51.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   52.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   53.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   54.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   55.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   56.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   57.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   58.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   59.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   60.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   61.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   62.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   63.3,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   64.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   65.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   66.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   67.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   68.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   69.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   70.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   71.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   72.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   73.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   74.4,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   75.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   76.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   77.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   78.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   79.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   80.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   81.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   82.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   83.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   84.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   85.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   86.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   87.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   88.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   89.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   90.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   91.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   92.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   93.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   94.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   95.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   96.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   97.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ],
+  [
+   98.5,
+   "GET_STATUS PLAYING xbox,XGRA - Extreme G Racing Association (U) (En,Fr,De,Es,It),crc32=153030c4"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55440.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   17.8,
+   52.7,
+   59.7,
+   59.9,
+   59.5,
+   59.8,
+   55.4,
+   52.8,
+   58.2
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-pb: kicks 1339 words 5954549 headers 958599 methods 4995948 faults 0 GET 01587c64 PUT 01587c64 binds 5 semaphores 29290 flips 5099 traps 9001 (21=5099 5=3895 9=6 28=1) runs 0 surfaces 3 clears 7742 swaps 5100 draws 1539251 ff 0 skipped 0 () textures 499 (375 held, 5 MiB) rt uploads 1 blits",
+   "hakuX-hle-pb: frame pace off: 58 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 12.3 ms (max 24.2, 58 frames)",
+   "hakuX-hle-pb: catch-up: 2198 stores waited for the decoder (caught up 2198; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1777.2 ms",
+   "hakuX-hle-emit: per s: draws=34169 verts=3140053 mergeable=0 (not: strip 31095 idx 3074 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 2, contiguous 0 pipe=12684 set1=13476 pc=30000 vi=12106 vb=32555 vp=122 sc=238 dyn=4323 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1538604 prog_fog=1022667 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1387 words 6161144 headers 992581 methods 5168553 faults 0 GET 015098e8 PUT 015098e8 binds 5 semaphores 29854 flips 5159 traps 9115 (21=5159 5=3949 9=6 28=1) runs 0 surfaces 3 clears 7802 swaps 5160 draws 1574734 ff 0 skipped 0 () textures 499 (375 held, 5 MiB) rt uploads 1 blits",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 11.9 ms (max 12.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2258 stores waited for the decoder (caught up 2258; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1829.2 ms",
+   "hakuX-hle-emit: per s: draws=35483 verts=3247924 mergeable=0 (not: strip 32303 idx 3180 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 5, contiguous 0 pipe=13157 set1=14064 pc=31143 vi=12511 vb=33684 vp=126 sc=246 dyn=4450 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1574087 prog_fog=1053924 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 1405 words 6339725 headers 1039950 methods 5299769 faults 0 GET 01539b6c PUT 01539b6c binds 5 semaphores 30429 flips 5219 traps 9231 (21=5219 5=4005 9=6 28=1) runs 0 surfaces 3 clears 7862 swaps 5220 draws 1610600 ff 0 skipped 0 () textures 499 (375 held, 5 MiB) rt uploads 1 blit",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 11.7 ms (max 12.8, 60 frames)",
+   "hakuX-hle-pb: catch-up: 2318 stores waited for the decoder (caught up 2318; it waited on the guest at a trap 0, a flip stall 0, the FIFO off 0; for arena room 0, the frame pace 0 of its 0 stalls; timed out 0), 1882.2 ms",
+   "hakuX-hle-emit: per s: draws=35866 verts=3266771 mergeable=0 (not: strip 32686 idx 3180 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=13497 set1=14438 pc=31423 vi=12510 vb=33747 vp=118 sc=238 dyn=4347 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=1609953 prog_fog=1085516 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=423664 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 142136 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=113 misses=67",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 61 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x55db3704e1d0",
+   "[Gamescope WSI] Destroyed swapchain: 0x55db3704e1d0",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 91.8,
+  "peak_rms_dbfs": -20.6,
+  "first_sound_s": 0.5,
+  "audible_fraction": 0.96,
+  "rms_dbfs_per_2s": [
+   -29.0,
+   -24.3,
+   -26.8,
+   -25.4,
+   -29.0,
+   -29.9,
+   -28.5,
+   -30.3,
+   -28.9,
+   -31.1,
+   -26.1,
+   -29.1,
+   -28.7,
+   -30.5,
+   -27.8,
+   -30.1,
+   -28.1,
+   -27.5,
+   -25.2,
+   -31.3,
+   -32.0,
+   -27.2,
+   -23.7,
+   -24.1,
+   -24.0,
+   -22.0,
+   -20.6,
+   -21.0,
+   -26.8,
+   -26.5,
+   -34.4,
+   -25.5,
+   -25.8,
+   -25.9,
+   -22.3,
+   -25.1,
+   -27.2,
+   -24.0,
+   -26.4,
+   -24.1,
+   -24.3,
+   -23.4,
+   -24.6,
+   -23.0,
+   -24.4,
+   -23.1
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 99.3 s and the emulator closed",
+ "duration_s": 99.4,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}

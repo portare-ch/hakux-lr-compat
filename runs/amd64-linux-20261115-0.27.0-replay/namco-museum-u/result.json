@@ -1,0 +1,1737 @@
+{
+ "game_file": "Namco Museum (U).chd",
+ "game_size": 259924316,
+ "system": "amd64-linux",
+ "started": "2026-11-15T17:46:52+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [],
+  "hard_limit": 465.0
+ },
+ "override": {
+  "_why": "Recorded from a guided run (amd64-linux-20261115-0.27.0): gameplay from 109.83 s. Screens the guide passed: Pac-Man options menu with the cursor on Volume; Done is the exit entry; Namco Museum game select menu showing Pac-Man, with A to play, Start for options and X for next",
+  "guide": false,
+  "unstick": [],
+  "quiet": [
+   [
+    0,
+    100000
+   ]
+  ],
+  "input_time": 420.0,
+  "hard_limit": 465.0,
+  "extra_steps": [
+   [
+    10.7,
+    "tap",
+    "start"
+   ],
+   [
+    13.0,
+    "tap",
+    "a"
+   ],
+   [
+    15.6,
+    "tap",
+    "start"
+   ],
+   [
+    18.0,
+    "tap",
+    "a"
+   ],
+   [
+    20.5,
+    "tap",
+    "start"
+   ],
+   [
+    23.0,
+    "tap",
+    "a"
+   ],
+   [
+    25.5,
+    "tap",
+    "start"
+   ],
+   [
+    28.0,
+    "tap",
+    "a"
+   ],
+   [
+    30.7,
+    "tap",
+    "start"
+   ],
+   [
+    33.0,
+    "tap",
+    "a"
+   ],
+   [
+    35.5,
+    "tap",
+    "start"
+   ],
+   [
+    38.0,
+    "tap",
+    "a"
+   ],
+   [
+    40.5,
+    "tap",
+    "start"
+   ],
+   [
+    43.0,
+    "tap",
+    "a"
+   ],
+   [
+    45.7,
+    "tap",
+    "start"
+   ],
+   [
+    48.0,
+    "tap",
+    "a"
+   ],
+   [
+    50.7,
+    "tap",
+    "start"
+   ],
+   [
+    53.0,
+    "tap",
+    "a"
+   ],
+   [
+    55.5,
+    "tap",
+    "start"
+   ],
+   [
+    58.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.5,
+    "tap",
+    "start"
+   ],
+   [
+    63.0,
+    "tap",
+    "a"
+   ],
+   [
+    65.5,
+    "tap",
+    "start"
+   ],
+   [
+    68.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.7,
+    "tap",
+    "start"
+   ],
+   [
+    73.0,
+    "tap",
+    "a"
+   ],
+   [
+    75.5,
+    "tap",
+    "start"
+   ],
+   [
+    78.0,
+    "tap",
+    "a"
+   ],
+   [
+    80.5,
+    "tap",
+    "start"
+   ],
+   [
+    83.0,
+    "tap",
+    "a"
+   ],
+   [
+    85.5,
+    "tap",
+    "start"
+   ],
+   [
+    88.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.7,
+    "tap",
+    "start"
+   ],
+   [
+    98.2,
+    "tap",
+    "down"
+   ],
+   [
+    98.7,
+    "tap",
+    "down"
+   ],
+   [
+    99.3,
+    "tap",
+    "down"
+   ],
+   [
+    99.9,
+    "tap",
+    "down"
+   ],
+   [
+    100.5,
+    "tap",
+    "down"
+   ],
+   [
+    101.0,
+    "tap",
+    "a"
+   ],
+   [
+    115.6,
+    "tap",
+    "a"
+   ],
+   [
+    116.2,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   10.7,
+   "tap",
+   "start"
+  ],
+  [
+   13.0,
+   "tap",
+   "a"
+  ],
+  [
+   15.6,
+   "tap",
+   "start"
+  ],
+  [
+   18.0,
+   "tap",
+   "a"
+  ],
+  [
+   20.5,
+   "tap",
+   "start"
+  ],
+  [
+   23.0,
+   "tap",
+   "a"
+  ],
+  [
+   25.5,
+   "tap",
+   "start"
+  ],
+  [
+   28.0,
+   "tap",
+   "a"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.7,
+   "tap",
+   "start"
+  ],
+  [
+   33.0,
+   "tap",
+   "a"
+  ],
+  [
+   35.5,
+   "tap",
+   "start"
+  ],
+  [
+   38.0,
+   "tap",
+   "a"
+  ],
+  [
+   40.5,
+   "tap",
+   "start"
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.7,
+   "tap",
+   "start"
+  ],
+  [
+   48.0,
+   "tap",
+   "a"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.7,
+   "tap",
+   "start"
+  ],
+  [
+   53.0,
+   "tap",
+   "a"
+  ],
+  [
+   55.5,
+   "tap",
+   "start"
+  ],
+  [
+   58.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start"
+  ],
+  [
+   63.0,
+   "tap",
+   "a"
+  ],
+  [
+   65.5,
+   "tap",
+   "start"
+  ],
+  [
+   68.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.7,
+   "tap",
+   "start"
+  ],
+  [
+   73.0,
+   "tap",
+   "a"
+  ],
+  [
+   75.5,
+   "tap",
+   "start"
+  ],
+  [
+   78.0,
+   "tap",
+   "a"
+  ],
+  [
+   80.5,
+   "tap",
+   "start"
+  ],
+  [
+   83.0,
+   "tap",
+   "a"
+  ],
+  [
+   85.5,
+   "tap",
+   "start"
+  ],
+  [
+   88.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.7,
+   "tap",
+   "start"
+  ],
+  [
+   98.2,
+   "tap",
+   "down"
+  ],
+  [
+   98.7,
+   "tap",
+   "down"
+  ],
+  [
+   99.3,
+   "tap",
+   "down"
+  ],
+  [
+   99.9,
+   "tap",
+   "down"
+  ],
+  [
+   100.5,
+   "tap",
+   "down"
+  ],
+  [
+   101.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   115.6,
+   "tap",
+   "a"
+  ],
+  [
+   116.2,
+   "tap",
+   "a"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "save": {
+  "title_id": "4e4d0007",
+  "from": "Namco Museum",
+  "files": 3,
+  "resigned": {}
+ },
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 129.84,
+  "confirmed_by": "w150",
+  "stopped_at_s": 155.4,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.8,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.2
+   },
+   {
+    "shot": "w070",
+    "t": 69.85,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.7
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "OTHER",
+    "how": "same as the last frame",
+    "s": 0.1
+   },
+   {
+    "shot": "w110",
+    "t": 109.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w130",
+    "t": 129.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.5
+   },
+   {
+    "shot": "w150",
+    "t": 149.82,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 155.5,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.02,
+   "shot",
+   "boot"
+  ],
+  [
+   10.87,
+   "tap",
+   "start"
+  ],
+  [
+   13.02,
+   "tap",
+   "a"
+  ],
+  [
+   15.63,
+   "tap",
+   "start"
+  ],
+  [
+   18.03,
+   "tap",
+   "a"
+  ],
+  [
+   20.54,
+   "tap",
+   "start"
+  ],
+  [
+   23.04,
+   "tap",
+   "a"
+  ],
+  [
+   25.55,
+   "tap",
+   "start"
+  ],
+  [
+   28.0,
+   "tap",
+   "a"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   30.85,
+   "tap",
+   "start"
+  ],
+  [
+   33.02,
+   "tap",
+   "a"
+  ],
+  [
+   35.53,
+   "tap",
+   "start"
+  ],
+  [
+   38.04,
+   "tap",
+   "a"
+  ],
+  [
+   40.54,
+   "tap",
+   "start"
+  ],
+  [
+   43.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   45.85,
+   "tap",
+   "start"
+  ],
+  [
+   48.01,
+   "tap",
+   "a"
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.86,
+   "tap",
+   "start"
+  ],
+  [
+   53.04,
+   "tap",
+   "a"
+  ],
+  [
+   55.54,
+   "tap",
+   "start"
+  ],
+  [
+   58.05,
+   "tap",
+   "a"
+  ],
+  [
+   60.5,
+   "tap",
+   "start"
+  ],
+  [
+   63.03,
+   "tap",
+   "a"
+  ],
+  [
+   65.53,
+   "tap",
+   "start"
+  ],
+  [
+   68.04,
+   "tap",
+   "a"
+  ],
+  [
+   69.85,
+   "watch",
+   "w070"
+  ],
+  [
+   70.9,
+   "tap",
+   "start"
+  ],
+  [
+   73.03,
+   "tap",
+   "a"
+  ],
+  [
+   75.54,
+   "tap",
+   "start"
+  ],
+  [
+   78.04,
+   "tap",
+   "a"
+  ],
+  [
+   80.51,
+   "tap",
+   "start"
+  ],
+  [
+   83.02,
+   "tap",
+   "a"
+  ],
+  [
+   85.53,
+   "tap",
+   "start"
+  ],
+  [
+   88.04,
+   "tap",
+   "a"
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.89,
+   "tap",
+   "start"
+  ],
+  [
+   98.24,
+   "tap",
+   "down"
+  ],
+  [
+   98.74,
+   "tap",
+   "down"
+  ],
+  [
+   99.34,
+   "tap",
+   "down"
+  ],
+  [
+   99.95,
+   "tap",
+   "down"
+  ],
+  [
+   100.55,
+   "tap",
+   "down"
+  ],
+  [
+   101.05,
+   "tap",
+   "a"
+  ],
+  [
+   109.82,
+   "watch",
+   "w110"
+  ],
+  [
+   115.65,
+   "tap",
+   "a"
+  ],
+  [
+   116.2,
+   "tap",
+   "a"
+  ],
+  [
+   129.84,
+   "watch",
+   "w130"
+  ],
+  [
+   149.82,
+   "watch",
+   "w150"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.02,
+   "got_s": 10.8,
+   "bytes": 305301
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.8,
+   "got_s": 31.6,
+   "bytes": 811673
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 46.4,
+   "bytes": 811673
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 51.8,
+   "bytes": 811419
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.85,
+   "got_s": 71.6,
+   "bytes": 811673
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 91.8,
+   "bytes": 811673
+  },
+  "w110": {
+   "file": "w110.jpg",
+   "asked_s": 109.82,
+   "got_s": 112.2,
+   "bytes": 1315219
+  },
+  "w130": {
+   "file": "w130.jpg",
+   "asked_s": 129.84,
+   "got_s": 130.2,
+   "bytes": 323987
+  },
+  "w150": {
+   "file": "w150.jpg",
+   "asked_s": 149.82,
+   "got_s": 150.2,
+   "bytes": 327226
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 149.82,
+   "got_s": 150.2,
+   "bytes": 327226,
+   "from_watch": "w150"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   4.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   5.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   6.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   7.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   8.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   9.1,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   41.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   42.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   43.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   44.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   45.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   46.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   47.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   48.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   49.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   50.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   51.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   52.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   53.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   54.2,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   55.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   56.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   57.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   58.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   59.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   60.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   61.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   62.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   63.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   64.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   65.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   66.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   67.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   68.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   69.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   70.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   71.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   72.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   73.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   74.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   75.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   76.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   77.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   78.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   79.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   80.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   81.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   82.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   83.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   84.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   85.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   86.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   87.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   88.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   89.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   90.3,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   91.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   92.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   93.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   94.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   95.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   96.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   97.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   98.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   99.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   100.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   101.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   102.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   103.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   104.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   105.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   106.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   107.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   108.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   109.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   110.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   111.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   112.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   113.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   114.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   115.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   116.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   117.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   118.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   119.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   120.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   121.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   122.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   123.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   124.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   125.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   126.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   127.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   128.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   129.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   130.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   131.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   132.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   133.4,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   134.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   135.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   136.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   137.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   138.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   139.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   140.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   141.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   142.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   143.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   144.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   145.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   146.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   147.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   148.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   149.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   150.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   151.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   152.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   153.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   154.5,
+   "GET_STATUS PLAYING xbox,Namco Museum (U),crc32=69f71ebc"
+  ],
+  [
+   156.3,
+   null
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   56.3,
+   58.3,
+   59.8,
+   59.9,
+   59.5,
+   59.9,
+   59.8,
+   59.7,
+   59.8,
+   59.8,
+   59.8,
+   59.6,
+   59.9,
+   59.9,
+   59.8
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=29575 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 490 words 36330 headers 10755 methods 25568 faults 0 GET 03eeede0 PUT 03eef100 binds 4 semaphores 35056 flips 9116 traps 9870 (21=9115 5=748 9=6 28=1) runs 0 surfaces 8 clears 9124 swaps 9116 draws 29695 ff 27442 skipped 0 () textures 19620 (26 held, 5 MiB) rt uploads 1 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 41.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=420 mergeable=0 (not: strip 60 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=120 pc=120 vi=120 vb=60 vp=120 sc=120 dyn=960 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=29695 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 488 words 36325 headers 10752 methods 25584 faults 0 GET 03e926a8 PUT 03e929c8 binds 4 semaphores 35300 flips 9176 traps 9930 (21=9175 5=748 9=6 28=1) runs 0 surfaces 8 clears 9184 swaps 9176 draws 29815 ff 27502 skipped 0 () textures 19680 (26 held, 5 MiB) rt uploads 1 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 41.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=420 mergeable=0 (not: strip 60 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=120 pc=120 vi=120 vb=61 vp=120 sc=120 dyn=974 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=29815 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-stats: per s: kcalls 2286 sysops 4465 (int 938, of them ticks 265; hook 0) schedules 1984 switches 1914 idle 0 slices 45 page faults 0 mmio 5788 apu waits 0 vm pages +0 -0 isr irq1:500 (max 0.3 ms) irq3:120 (max 0.1 ms) irq5:0 (max 0.1 ms) | dpc max wait 0.4 run 0.4 ms, 0 over 8 ms | ho",
+   "hakuX-native-stats: host faults per s: call-return 0 dirty pages 2279 (pages 03f4a000:704 03f64000:704 03f58000:704 03f4c000:704 03f66000:704 03f5a000:704) mmio 0 (eips) unaligned atomics 0",
+   "hakuX-native-stats: ram: free 33340 KiB, contiguous 12436 KiB (33 blocks), virtual 18484 KiB, kernel pool 11 of 64 KiB (Ex 49, objects 5, lost 0 KiB, 2 free ranges)",
+   "hakuX-hle-pb: kicks 490 words 36330 headers 10755 methods 25568 faults 0 GET 03eb5e50 PUT 03eb6170 binds 4 semaphores 35545 flips 9236 traps 9990 (21=9235 5=748 9=6 28=1) runs 0 surfaces 8 clears 9244 swaps 9236 draws 29935 ff 27562 skipped 0 () textures 19740 (26 held, 5 MiB) rt uploads 1 blits 0 m",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 40.9 ms (max 41.0, 60 frames)",
+   "hakuX-hle-emit: per s: draws=120 verts=420 mergeable=0 (not: strip 60 idx 60 state 0 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=120 set1=120 pc=120 vi=120 vb=60 vp=120 sc=120 dyn=960 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=29935 prog_fog=0 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=365832 first_call=PsCreateSystemThreadEx threads=5",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 42 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x564df5deec20",
+   "[Gamescope WSI] Destroyed swapchain: 0x564df5deec20",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 154.7,
+  "peak_rms_dbfs": -26.8,
+  "first_sound_s": 7.5,
+  "audible_fraction": 0.91,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -50.5,
+   -35.3,
+   -32.6,
+   -40.7,
+   -28.7,
+   -27.5,
+   -29.7,
+   -29.3,
+   -29.3,
+   -29.3,
+   -29.3,
+   -29.2,
+   -29.1,
+   -28.5,
+   -29.3,
+   -28.2,
+   -29.5,
+   -28.5,
+   -29.3,
+   -27.9,
+   -28.7,
+   -28.7,
+   -28.7,
+   -29.5,
+   -29.8,
+   -28.0,
+   -30.0,
+   -29.3,
+   -29.0,
+   -29.4,
+   -30.0,
+   -31.2,
+   -31.8,
+   -30.6,
+   -31.3,
+   -30.3,
+   -32.3,
+   -31.1,
+   -30.7,
+   -29.6,
+   -30.3,
+   -30.3,
+   -30.0,
+   -29.5,
+   -29.4,
+   -30.0,
+   -28.9,
+   -28.7,
+   -27.1,
+   -29.1,
+   -27.6,
+   -28.1,
+   -27.2,
+   -26.8,
+   -27.5,
+   -28.3,
+   -30.7,
+   -29.9,
+   -29.5,
+   -31.9,
+   -31.8,
+   -31.8,
+   -31.8,
+   -32.0,
+   -31.9,
+   -30.2,
+   -120.0,
+   -32.5,
+   -31.8,
+   -31.8,
+   -31.8,
+   -31.9,
+   -31.8,
+   -31.8,
+   -30.4,
+   -32.2
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 129.84 s (judged from screenshots); stopped at 155.4 s and the emulator closed",
+ "duration_s": 155.5,
+ "run_id": "amd64-linux-20261115-0.27.0-replay"
+}
