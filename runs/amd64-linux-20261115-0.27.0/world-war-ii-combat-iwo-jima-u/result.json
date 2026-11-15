@@ -1,0 +1,1259 @@
+{
+ "game_file": "World War II Combat - Iwo Jima (U).chd",
+ "game_size": 638886518,
+ "system": "amd64-linux",
+ "started": "2026-11-15T17:27:26+01:00",
+ "plan": {
+  "boot_wait": 10.0,
+  "input_time": 420.0,
+  "input_gap": 2.5,
+  "buttons": [
+   "start",
+   "a"
+  ],
+  "press_ms": 150,
+  "settle": 5.0,
+  "mid_shot": 45.0,
+  "watch_from": 30.0,
+  "watch_every": 20.0,
+  "watch_needed": 2,
+  "unstick": [
+   "b",
+   "down"
+  ],
+  "hard_limit": 470.0
+ },
+ "override": {
+  "_why": "Start/A from 10.5 s loop on NEW PROFILE: A on Name opens the name keyboard, Start confirms it, so the keyboard is on screen in every screenshot (looked like the game ignored A and Start, #141/#142). Without the default presses the attract demo plays; Start, then A opens NEW PROFILE, Down Down A creates the profile, A picks Campaign, the level and the briefing's Start. The menus fade slowly, so presses are 4 s apart.",
+  "quiet": [
+   [
+    10.0,
+    300.0
+   ]
+  ],
+  "extra_steps": [
+   [
+    40.0,
+    "tap",
+    "start"
+   ],
+   [
+    44.0,
+    "tap",
+    "a"
+   ],
+   [
+    49.0,
+    "tap",
+    "down"
+   ],
+   [
+    50.0,
+    "tap",
+    "down"
+   ],
+   [
+    52.0,
+    "tap",
+    "a"
+   ],
+   [
+    56.0,
+    "tap",
+    "a"
+   ],
+   [
+    60.0,
+    "tap",
+    "a"
+   ],
+   [
+    64.0,
+    "tap",
+    "a"
+   ],
+   [
+    70.0,
+    "tap",
+    "a"
+   ],
+   [
+    90.0,
+    "tap",
+    "a"
+   ]
+  ]
+ },
+ "steps": [
+  [
+   10.0,
+   "shot",
+   "boot"
+  ],
+  [
+   29.8,
+   "watch",
+   "w030"
+  ],
+  [
+   40.0,
+   "tap",
+   "start"
+  ],
+  [
+   44.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   49.0,
+   "tap",
+   "down"
+  ],
+  [
+   49.8,
+   "watch",
+   "w050"
+  ],
+  [
+   50.0,
+   "tap",
+   "down"
+  ],
+  [
+   52.0,
+   "tap",
+   "a"
+  ],
+  [
+   56.0,
+   "tap",
+   "a"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.0,
+   "tap",
+   "a"
+  ],
+  [
+   69.8,
+   "watch",
+   "w070"
+  ],
+  [
+   70.0,
+   "tap",
+   "a"
+  ],
+  [
+   89.8,
+   "watch",
+   "w090"
+  ],
+  [
+   90.0,
+   "tap",
+   "a"
+  ],
+  [
+   109.8,
+   "watch",
+   "w110"
+  ],
+  [
+   129.8,
+   "watch",
+   "w130"
+  ],
+  [
+   149.8,
+   "watch",
+   "w150"
+  ],
+  [
+   169.8,
+   "watch",
+   "w170"
+  ],
+  [
+   189.8,
+   "watch",
+   "w190"
+  ],
+  [
+   209.8,
+   "watch",
+   "w210"
+  ],
+  [
+   229.8,
+   "watch",
+   "w230"
+  ],
+  [
+   249.8,
+   "watch",
+   "w250"
+  ],
+  [
+   269.8,
+   "watch",
+   "w270"
+  ],
+  [
+   289.8,
+   "watch",
+   "w290"
+  ],
+  [
+   300.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   303.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   305.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   308.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   309.8,
+   "watch",
+   "w310"
+  ],
+  [
+   310.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   313.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   315.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   318.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   320.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   323.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   325.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   328.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   329.8,
+   "watch",
+   "w330"
+  ],
+  [
+   330.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   333.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   335.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   338.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   340.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   343.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   345.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   348.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   349.8,
+   "watch",
+   "w350"
+  ],
+  [
+   350.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   353.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   355.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   358.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   360.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   363.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   365.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   368.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   369.8,
+   "watch",
+   "w370"
+  ],
+  [
+   370.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   373.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   375.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   378.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   380.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   383.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   385.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   388.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   389.8,
+   "watch",
+   "w390"
+  ],
+  [
+   390.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   393.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   395.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   398.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   400.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   403.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   405.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   408.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   409.8,
+   "watch",
+   "w410"
+  ],
+  [
+   410.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   413.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   415.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   418.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   420.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   423.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   425.5,
+   "tap",
+   "start",
+   150
+  ],
+  [
+   428.0,
+   "tap",
+   "a",
+   150
+  ],
+  [
+   429.8,
+   "watch",
+   "w430"
+  ],
+  [
+   430.0,
+   "release"
+  ],
+  [
+   435.0,
+   "shot",
+   "final"
+  ]
+ ],
+ "watch": {
+  "model": "haiku",
+  "needed": 2,
+  "ingame_at_s": 69.82,
+  "confirmed_by": "w090",
+  "stopped_at_s": 99.0,
+  "unstuck": [],
+  "verdicts": [
+   {
+    "shot": "w030",
+    "t": 29.82,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.0
+   },
+   {
+    "shot": "w050",
+    "t": 49.81,
+    "verdict": "OTHER",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w070",
+    "t": 69.82,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 1.9
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "model",
+    "s": 2.1
+   },
+   {
+    "shot": "w090",
+    "t": 89.84,
+    "verdict": "INGAME",
+    "how": "confirm (sonnet)"
+   }
+  ]
+ },
+ "exit": {
+  "how": "quit",
+  "at_s": 99.1,
+  "code": 0,
+  "signal": null
+ },
+ "ended_early_s": null,
+ "steps_done": [
+  [
+   10.04,
+   "shot",
+   "boot"
+  ],
+  [
+   29.82,
+   "watch",
+   "w030"
+  ],
+  [
+   40.02,
+   "tap",
+   "start"
+  ],
+  [
+   44.0,
+   "tap",
+   "a"
+  ],
+  [
+   44.6,
+   "shot",
+   "mid"
+  ],
+  [
+   49.06,
+   "tap",
+   "down"
+  ],
+  [
+   49.81,
+   "watch",
+   "w050"
+  ],
+  [
+   50.11,
+   "tap",
+   "down"
+  ],
+  [
+   52.06,
+   "tap",
+   "a"
+  ],
+  [
+   56.04,
+   "tap",
+   "a"
+  ],
+  [
+   60.0,
+   "tap",
+   "a"
+  ],
+  [
+   64.05,
+   "tap",
+   "a"
+  ],
+  [
+   69.82,
+   "watch",
+   "w070"
+  ],
+  [
+   70.07,
+   "tap",
+   "a"
+  ],
+  [
+   89.84,
+   "watch",
+   "w090"
+  ],
+  [
+   90.09,
+   "tap",
+   "a"
+  ]
+ ],
+ "shots": {
+  "boot": {
+   "file": "boot.png",
+   "asked_s": 10.04,
+   "got_s": 10.4,
+   "bytes": 54496
+  },
+  "w030": {
+   "file": "w030.jpg",
+   "asked_s": 29.82,
+   "got_s": 30.8,
+   "bytes": 467690
+  },
+  "mid": {
+   "file": "mid.png",
+   "asked_s": 44.6,
+   "got_s": 49.0,
+   "bytes": 803621
+  },
+  "w050": {
+   "file": "w050.jpg",
+   "asked_s": 49.81,
+   "got_s": 54.2,
+   "bytes": 1035959
+  },
+  "w070": {
+   "file": "w070.jpg",
+   "asked_s": 69.82,
+   "got_s": 73.4,
+   "bytes": 891410
+  },
+  "w090": {
+   "file": "w090.jpg",
+   "asked_s": 89.84,
+   "got_s": 94.4,
+   "bytes": 1459858
+  },
+  "final": {
+   "file": "final.png",
+   "asked_s": 89.84,
+   "got_s": 94.4,
+   "bytes": 1459858,
+   "from_watch": "w090"
+  }
+ },
+ "missing_shots": [],
+ "status": [
+  [
+   1.1,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   2.1,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   3.1,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   4.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   5.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   6.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   7.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   8.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   9.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   10.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   11.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   12.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   13.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   14.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   15.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   16.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   17.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   18.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   19.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   20.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   21.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   22.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   23.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   24.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   25.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   26.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   27.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   28.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   29.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   30.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   31.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   32.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   33.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   34.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   35.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   36.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   37.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   38.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   39.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   40.2,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   41.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   42.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   43.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   44.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   45.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   46.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   47.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   48.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   49.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   50.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   51.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   52.3,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   53.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   54.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   55.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   56.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   57.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   58.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   59.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   60.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   61.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   62.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   63.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   64.4,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   65.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   66.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   67.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   68.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   69.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   70.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   71.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   72.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   73.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   74.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   75.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   76.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   77.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   78.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   79.5,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   80.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   81.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   82.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   83.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   84.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   85.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   86.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   87.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   88.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   89.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   90.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   91.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   92.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   93.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   94.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   95.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   96.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   97.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ],
+  [
+   98.6,
+   "GET_STATUS PLAYING xbox,World War II Combat - Iwo Jima (U),crc32=a2a0a37a"
+  ]
+ ],
+ "pad": "[INFO] [Network] Bringing up remote interface on port 55400.",
+ "core_log": {
+  "flags": {
+   "not-implemented": "WARNING: DSP56300 stack extension (SEN, OMR bit 20) enabled at PC=$00001B - not implemented",
+   "stop": "hakuX-native-frontier: stop: relaunch into \\Device\\CdRom0\\default.xbe (launch type 0)"
+  },
+  "stages": [
+   "S0",
+   "S1",
+   "S2"
+  ],
+  "fps": [
+   7.9,
+   29.6,
+   19.7,
+   31.9,
+   58.0,
+   51.2,
+   56.3,
+   57.9
+  ],
+  "options": "render scale 2x, overscan cropped, screen normal, language 1 (auto), video region auto, rumble off, network on, resampler hardware, audio processing dsp, frame pacing off, communicator off, combiner accurate",
+  "tail": [
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=514873 prog_fog=490598 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-fps: 60.0 fps (300 frames in 5.00 s)",
+   "hakuX-hle-pb: kicks 2918 words 8969713 headers 308572 methods 8661072 faults 0 GET 03f7ee00 PUT 03f6d670 binds 5 semaphores 34250 flips 2034 traps 3287 (21=2034 5=1246 9=6 28=1) runs 0 surfaces 4 clears 7627 swaps 2034 draws 540175 ff 491821 skipped 0 () textures 160 (96 held, 6 MiB) rt uploads 31 b",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.7 ms (max 39.6, 59 frames)",
+   "hakuX-hle-emit: per s: draws=22920 verts=14234460 mergeable=0 (not: strip 60 idx 22500 state 360 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3818 set1=20826 pc=21900 vi=2382 vb=22317 vp=119 sc=119 dyn=4652 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=537793 prog_fog=513038 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2916 words 8969516 headers 308583 methods 8660880 faults 0 GET 03fcfe84 PUT 03fb25d0 binds 5 semaphores 35536 flips 2094 traps 3407 (21=2094 5=1306 9=6 28=1) runs 0 surfaces 4 clears 7867 swaps 2094 draws 563095 ff 514261 skipped 0 () textures 160 (96 held, 6 MiB) rt uploads 31 b",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.7 ms (max 39.9, 60 frames)",
+   "hakuX-hle-emit: per s: draws=22920 verts=14234460 mergeable=0 (not: strip 60 idx 22500 state 360 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3822 set1=20824 pc=21902 vi=2385 vb=22324 vp=120 sc=120 dyn=4675 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=560713 prog_fog=535478 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-hle-pb: kicks 2908 words 8968655 headers 308178 methods 8660400 faults 0 GET 03f99298 PUT 03f65a38 binds 5 semaphores 36822 flips 2154 traps 3527 (21=2154 5=1366 9=6 28=1) runs 0 surfaces 4 clears 8107 swaps 2154 draws 586015 ff 536701 skipped 0 () textures 160 (96 held, 6 MiB) rt uploads 31 b",
+   "hakuX-hle-pb: frame pace off: 60 swaps, the decoder held after 0 for 0.0 ms (max 0.0); ahead of the GPU 1.00 swaps (max 1); swap to pickup 38.7 ms (max 39.3, 60 frames)",
+   "hakuX-hle-emit: per s: draws=22920 verts=14234460 mergeable=0 (not: strip 60 idx 22500 state 360 work 0 gap 0) batches=0 of 0 draws indexed: no state between 0, contiguous 0 pipe=3819 set1=20828 pc=21903 vi=2382 vb=22317 vp=119 sc=119 dyn=4658 fb=0",
+   "hakuX-hle-back: ff3d=0 lit=0 fog=0 texgen=0 texxform=0 blend=0 psprite=0 prog=583633 prog_fog=557918 dropped: state=0 target=0 skip=0 layout=0 pipeline=0",
+   "hakuX-native-frontier: stop: the front end stopped the console",
+   "hakuX-native-frontier: summary stage=S2 kernel_calls=136582 first_call=PsCreateSystemThreadEx threads=3",
+   "hakuX-libretro: core: stopped",
+   "hakuX-native: nv2a: push-buffer mode off",
+   "hakuX-hle-pipe: pipeline cache saved: 133296 bytes (merged in 0.0 ms, serialized in 0.0 ms, written in 0.1 ms), spirv hits=124 misses=93",
+   "hakuX-native-kvm: RSQRT: 3632918 instructions corrected in the guest, 1596354 through the host",
+   "hakuX-libretro: vulkan: RetroArch destroyed the context: the core stopped in 45 ms",
+   "[Gamescope WSI] Destroying swapchain: 0x559c1abdd940",
+   "[Gamescope WSI] Destroyed swapchain: 0x559c1abdd940",
+   "[gamescope] [\u001b[0;34mInfo\u001b[0m]  \u001b[0;37mlaunch:\u001b[0m Primary child shut down!",
+   "(EE) failed to read Wayland events: Broken pipe"
+  ]
+ },
+ "audio": {
+  "seconds": 96.2,
+  "peak_rms_dbfs": -15.1,
+  "first_sound_s": 9.5,
+  "audible_fraction": 0.86,
+  "rms_dbfs_per_2s": [
+   -120.0,
+   -120.0,
+   -120.0,
+   -120.0,
+   -20.3,
+   -18.4,
+   -25.1,
+   -21.5,
+   -15.1,
+   -18.1,
+   -15.8,
+   -22.9,
+   -25.0,
+   -15.9,
+   -16.8,
+   -16.1,
+   -17.1,
+   -19.0,
+   -18.6,
+   -20.6,
+   -34.5,
+   -19.7,
+   -24.1,
+   -29.3,
+   -34.6,
+   -18.4,
+   -20.0,
+   -20.4,
+   -28.5,
+   -28.9,
+   -32.6,
+   -31.1,
+   -36.5,
+   -23.7,
+   -21.6,
+   -20.9,
+   -21.4,
+   -22.0,
+   -23.2,
+   -21.3,
+   -21.4,
+   -22.0,
+   -21.9,
+   -32.0,
+   -38.2,
+   -28.8,
+   -27.8,
+   -27.8
+  ],
+  "file": "audio.opus"
+ },
+ "outcome_auto": "Completed",
+ "outcome_why": "in game from 69.82 s (judged from screenshots); stopped at 99.0 s and the emulator closed",
+ "duration_s": 99.1,
+ "run_id": "amd64-linux-20261115-0.27.0"
+}
