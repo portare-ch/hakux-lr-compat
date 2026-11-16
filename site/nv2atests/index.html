@@ -63,15 +63,15 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <body>
 <main>
 <header style="display:grid;gap:10px">
-<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (0839cf0) with PR #233 (FIFO wait fix), 2026-11-15</span>
+<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (636f4fa), 2026-11-16</span>
 <h1>hakuX against an Xbox, test by test</h1>
 <p class="lede">Each test draws one picture through the NV2A's graphics engine. Its picture from hakuX is compared with the same test's capture from a real Xbox 1.0. A test <b>matches</b> when under 0.5% of its pixels differ, is <b>close</b> under 5%, and is <b>different</b> otherwise. A pixel differs when a colour channel is more than 20 of 255 away; alpha is ignored, as the console's video output ignores it.</p>
 </header>
 <section class="totals" aria-label="Totals">
 <div class="tot"><b>3556</b><span>tests compared, of 3556 with a hardware capture</span></div>
-<div class="tot m"><b>55%</b><span>1965 match</span></div>
-<div class="tot c"><b>12%</b><span>438 close</span></div>
-<div class="tot d"><b>32%</b><span>1153 different</span></div>
+<div class="tot m"><b>59%</b><span>2109 match</span></div>
+<div class="tot c"><b>12%</b><span>441 close</span></div>
+<div class="tot d"><b>28%</b><span>1006 different</span></div>
 </section>
 <section>
 <h2>Suites, worst first</h2>
@@ -105,13 +105,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">0<small>/1</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/xemu_enhancement.webp" alt="xemu enhancement: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_carryover">
-<summary><span class="name">Fog carryover</span>
-<span class="bar" role="img" aria-label="0 match, 2 close, 12 different of 14">
-<i class="m" style="width:0.00%"></i><i class="c" style="width:14.29%"></i><i class="d" style="width:85.71%"></i></span>
-<span class="num">0<small>/14</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_carryover.webp" alt="Fog carryover: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Material_color_source">
 <summary><span class="name">Material color source</span>
 <span class="bar" role="img" aria-label="0 match, 8 close, 20 different of 28">
@@ -210,24 +203,17 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">1<small>/17</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Specular_back.webp" alt="Specular back: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_exceptional_value">
-<summary><span class="name">Fog exceptional value</span>
-<span class="bar" role="img" aria-label="12 match, 16 close, 68 different of 96">
-<i class="m" style="width:12.50%"></i><i class="c" style="width:16.67%"></i><i class="d" style="width:70.83%"></i></span>
-<span class="num">12<small>/96</small></span></summary>
+</figure></details><details class="suite" id="Fog_carryover">
+<summary><span class="name">Fog carryover</span>
+<span class="bar" role="img" aria-label="1 match, 2 close, 11 different of 14">
+<i class="m" style="width:7.14%"></i><i class="c" style="width:14.29%"></i><i class="d" style="width:78.57%"></i></span>
+<span class="num">1<small>/14</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_exceptional_value.webp" alt="Fog exceptional value: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="W_param">
-<summary><span class="name">W param</span>
-<span class="bar" role="img" aria-label="15 match, 1 close, 94 different of 110">
-<i class="m" style="width:13.64%"></i><i class="c" style="width:0.91%"></i><i class="d" style="width:85.45%"></i></span>
-<span class="num">15<small>/110</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/W_param.webp" alt="W param: hardware and hakuX pictures side by side, worst first">
+<img loading="lazy" src="img/Fog_carryover.webp" alt="Fog carryover: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Texture_render_target">
 <summary><span class="name">Texture render target</span>
-<span class="bar" role="img" aria-label="6 match, 30 close, 6 different of 42">
-<i class="m" style="width:14.29%"></i><i class="c" style="width:71.43%"></i><i class="d" style="width:14.29%"></i></span>
+<span class="bar" role="img" aria-label="6 match, 36 close, 0 different of 42">
+<i class="m" style="width:14.29%"></i><i class="c" style="width:85.71%"></i><i class="d" style="width:0.00%"></i></span>
 <span class="num">6<small>/42</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Texture_render_target.webp" alt="Texture render target: hardware and hakuX pictures side by side, worst first">
@@ -336,13 +322,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">9<small>/20</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Volume_texture.webp" alt="Volume texture: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_inf_coord">
-<summary><span class="name">Fog inf coord</span>
-<span class="bar" role="img" aria-label="3 match, 0 close, 3 different of 6">
-<i class="m" style="width:50.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:50.00%"></i></span>
-<span class="num">3<small>/6</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_inf_coord.webp" alt="Fog inf coord: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Texture_3D_as_2D">
 <summary><span class="name">Texture 3D as 2D</span>
 <span class="bar" role="img" aria-label="1 match, 0 close, 1 different of 2">
@@ -392,6 +371,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">11<small>/21</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Point_size.webp" alt="Point size: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Antialiasing_tests">
+<summary><span class="name">Antialiasing tests</span>
+<span class="bar" role="img" aria-label="9 match, 2 close, 6 different of 17">
+<i class="m" style="width:52.94%"></i><i class="c" style="width:11.76%"></i><i class="d" style="width:35.29%"></i></span>
+<span class="num">9<small>/17</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Antialiasing_tests.webp" alt="Antialiasing tests: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Texture_cubemap">
 <summary><span class="name">Texture cubemap</span>
 <span class="bar" role="img" aria-label="42 match, 4 close, 26 different of 72">
@@ -399,13 +385,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">42<small>/72</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Texture_cubemap.webp" alt="Texture cubemap: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Antialiasing_tests">
-<summary><span class="name">Antialiasing tests</span>
-<span class="bar" role="img" aria-label="10 match, 2 close, 5 different of 17">
-<i class="m" style="width:58.82%"></i><i class="c" style="width:11.76%"></i><i class="d" style="width:29.41%"></i></span>
-<span class="num">10<small>/17</small></span></summary>
+</figure></details><details class="suite" id="W_param">
+<summary><span class="name">W param</span>
+<span class="bar" role="img" aria-label="68 match, 2 close, 40 different of 110">
+<i class="m" style="width:61.82%"></i><i class="c" style="width:1.82%"></i><i class="d" style="width:36.36%"></i></span>
+<span class="num">68<small>/110</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Antialiasing_tests.webp" alt="Antialiasing tests: hardware and hakuX pictures side by side, worst first">
+<img loading="lazy" src="img/W_param.webp" alt="W param: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Alpha_func">
 <summary><span class="name">Alpha func</span>
 <span class="bar" role="img" aria-label="10 match, 2 close, 4 different of 16">
@@ -434,13 +420,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">54<small>/80</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Depth_buffer_fixed_function.webp" alt="Depth buffer fixed function: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_param">
-<summary><span class="name">Fog param</span>
-<span class="bar" role="img" aria-label="40 match, 6 close, 8 different of 54">
-<i class="m" style="width:74.07%"></i><i class="c" style="width:11.11%"></i><i class="d" style="width:14.81%"></i></span>
-<span class="num">40<small>/54</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_param.webp" alt="Fog param: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Surface_as_vertex_array">
 <summary><span class="name">Surface as vertex array</span>
 <span class="bar" role="img" aria-label="6 match, 0 close, 2 different of 8">
@@ -478,8 +457,8 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <img loading="lazy" src="img/Texture_signed_component_tests.webp" alt="Texture signed component tests: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Vertex_shader_rounding_tests">
 <summary><span class="name">Vertex shader rounding tests</span>
-<span class="bar" role="img" aria-label="49 match, 2 close, 11 different of 62">
-<i class="m" style="width:79.03%"></i><i class="c" style="width:3.23%"></i><i class="d" style="width:17.74%"></i></span>
+<span class="bar" role="img" aria-label="49 match, 5 close, 8 different of 62">
+<i class="m" style="width:79.03%"></i><i class="c" style="width:8.06%"></i><i class="d" style="width:12.90%"></i></span>
 <span class="num">49<small>/62</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Vertex_shader_rounding_tests.webp" alt="Vertex shader rounding tests: hardware and hakuX pictures side by side, worst first">
@@ -490,20 +469,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">8<small>/10</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Texgen.webp" alt="Texgen: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_gen">
-<summary><span class="name">Fog gen</span>
-<span class="bar" role="img" aria-label="50 match, 0 close, 10 different of 60">
-<i class="m" style="width:83.33%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:16.67%"></i></span>
-<span class="num">50<small>/60</small></span></summary>
+</figure></details><details class="suite" id="Fog_exceptional_value">
+<summary><span class="name">Fog exceptional value</span>
+<span class="bar" role="img" aria-label="80 match, 16 close, 0 different of 96">
+<i class="m" style="width:83.33%"></i><i class="c" style="width:16.67%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">80<small>/96</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_gen.webp" alt="Fog gen: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Fog_planar_vsh">
-<summary><span class="name">Fog planar vsh</span>
-<span class="bar" role="img" aria-label="5 match, 0 close, 1 different of 6">
-<i class="m" style="width:83.33%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:16.67%"></i></span>
-<span class="num">5<small>/6</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Fog_planar_vsh.webp" alt="Fog planar vsh: hardware and hakuX pictures side by side, worst first">
+<img loading="lazy" src="img/Fog_exceptional_value.webp" alt="Fog exceptional value: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="SetVertexData">
 <summary><span class="name">SetVertexData</span>
 <span class="bar" role="img" aria-label="6 match, 1 close, 0 different of 7">
@@ -511,6 +483,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">6<small>/7</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/SetVertexData.webp" alt="SetVertexData: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Fog_gen">
+<summary><span class="name">Fog gen</span>
+<span class="bar" role="img" aria-label="54 match, 0 close, 6 different of 60">
+<i class="m" style="width:90.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:10.00%"></i></span>
+<span class="num">54<small>/60</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Fog_gen.webp" alt="Fog gen: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Texgen_normal_map">
 <summary><span class="name">Texgen normal map</span>
 <span class="bar" role="img" aria-label="25 match, 2 close, 0 different of 27">
@@ -532,13 +511,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">278<small>/288</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Texture_shadow_comparator.webp" alt="Texture shadow comparator: hardware and hakuX pictures side by side, worst first">
-</figure></details><details class="suite" id="Vertex_shader_swizzle_tests">
-<summary><span class="name">Vertex shader swizzle tests</span>
-<span class="bar" role="img" aria-label="28 match, 1 close, 0 different of 29">
-<i class="m" style="width:96.55%"></i><i class="c" style="width:3.45%"></i><i class="d" style="width:0.00%"></i></span>
-<span class="num">28<small>/29</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
-<img loading="lazy" src="img/Vertex_shader_swizzle_tests.webp" alt="Vertex shader swizzle tests: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Fog_coord_vec4">
 <summary><span class="name">Fog coord vec4</span>
 <span class="bar" role="img" aria-label="40 match, 0 close, 1 different of 41">
@@ -630,6 +602,27 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">6<small>/6</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Fog.webp" alt="Fog: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Fog_inf_coord">
+<summary><span class="name">Fog inf coord</span>
+<span class="bar" role="img" aria-label="6 match, 0 close, 0 different of 6">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">6<small>/6</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Fog_inf_coord.webp" alt="Fog inf coord: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Fog_param">
+<summary><span class="name">Fog param</span>
+<span class="bar" role="img" aria-label="54 match, 0 close, 0 different of 54">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">54<small>/54</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Fog_param.webp" alt="Fog param: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Fog_planar_vsh">
+<summary><span class="name">Fog planar vsh</span>
+<span class="bar" role="img" aria-label="6 match, 0 close, 0 different of 6">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">6<small>/6</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Fog_planar_vsh.webp" alt="Fog planar vsh: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Fog_vsh">
 <summary><span class="name">Fog vsh</span>
 <span class="bar" role="img" aria-label="6 match, 0 close, 0 different of 6">
@@ -791,6 +784,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">2<small>/2</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
 <img loading="lazy" src="img/Vertex_shader_independence_tests.webp" alt="Vertex shader independence tests: hardware and hakuX pictures side by side, worst first">
+</figure></details><details class="suite" id="Vertex_shader_swizzle_tests">
+<summary><span class="name">Vertex shader swizzle tests</span>
+<span class="bar" role="img" aria-label="29 match, 0 close, 0 different of 29">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">29<small>/29</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX</span></div>
+<img loading="lazy" src="img/Vertex_shader_swizzle_tests.webp" alt="Vertex shader swizzle tests: hardware and hakuX pictures side by side, worst first">
 </figure></details><details class="suite" id="Viewport">
 <summary><span class="name">Viewport</span>
 <span class="bar" role="img" aria-label="12 match, 0 close, 0 different of 12">
@@ -817,7 +817,7 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 </section>
 <section class="notes">
 <h2>How this was run</h2>
-<p>hakuX-lr master (0839cf0) with PR #233 (FIFO wait fix), 2026-11-15. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
+<p>hakuX-lr master (636f4fa), 2026-11-16. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
 <p>Tests the capture set marks as deprecated are left out: the suite no longer contains them.</p>
 <p>Some tests save more than one picture, so the counts are pictures. A suite whose pictures hakuX never wrote is listed under "not run".</p>
 
