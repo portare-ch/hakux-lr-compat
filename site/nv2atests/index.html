@@ -63,15 +63,15 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <body>
 <main>
 <header style="display:grid;gap:10px">
-<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (5f87882), 2026-11-16</span>
+<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (60cf597), 2026-11-17</span>
 <h1>hakuX-lr against an Xbox, test by test</h1>
 <p class="lede">Each test draws one picture through the NV2A's graphics engine. Its picture from hakuX-lr is compared with the same test's capture from a real Xbox 1.0. A test <b>matches</b> when under 0.5% of its pixels differ, is <b>close</b> under 5%, and is <b>different</b> otherwise. A pixel differs when a colour channel is more than 20 of 255 away; alpha is ignored, as the console's video output ignores it.</p>
 </header>
 <section class="totals" aria-label="Totals">
 <div class="tot"><b>3556</b><span>tests compared, of 3556 with a hardware capture</span></div>
-<div class="tot m"><b>69%</b><span>2451 match</span></div>
-<div class="tot c"><b>12%</b><span>423 close</span></div>
-<div class="tot d"><b>19%</b><span>682 different</span></div>
+<div class="tot m"><b>77%</b><span>2726 match</span></div>
+<div class="tot c"><b>11%</b><span>395 close</span></div>
+<div class="tot d"><b>12%</b><span>435 different</span></div>
 </section>
 <section>
 <h2>Suites, worst first</h2>
@@ -163,9 +163,9 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <img loading="lazy" src="img/Fog_carryover.webp" alt="Fog carryover: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Bump_env_lum">
 <summary><span class="name">Bump env lum</span>
-<span class="bar" role="img" aria-label="3 match, 35 close, 4 different of 42">
-<i class="m" style="width:7.14%"></i><i class="c" style="width:83.33%"></i><i class="d" style="width:9.52%"></i></span>
-<span class="num">3<small>/42</small></span></summary>
+<span class="bar" role="img" aria-label="4 match, 34 close, 4 different of 42">
+<i class="m" style="width:9.52%"></i><i class="c" style="width:80.95%"></i><i class="d" style="width:9.52%"></i></span>
+<span class="num">4<small>/42</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Bump_env_lum.webp" alt="Bump env lum: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Attrib_float">
@@ -203,13 +203,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">13<small>/47</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Surface_clip.webp" alt="Surface clip: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="W_buffering">
-<summary><span class="name">W buffering</span>
-<span class="bar" role="img" aria-label="156 match, 122 close, 252 different of 530">
-<i class="m" style="width:29.43%"></i><i class="c" style="width:23.02%"></i><i class="d" style="width:47.55%"></i></span>
-<span class="num">156<small>/530</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/W_buffering.webp" alt="W buffering: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Surface_format">
 <summary><span class="name">Surface format</span>
 <span class="bar" role="img" aria-label="3 match, 2 close, 5 different of 10">
@@ -231,13 +224,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">8<small>/24</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Front_face.webp" alt="Front face: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Texture_projective_2D">
-<summary><span class="name">Texture projective 2D</span>
-<span class="bar" role="img" aria-label="5 match, 10 close, 0 different of 15">
-<i class="m" style="width:33.33%"></i><i class="c" style="width:66.67%"></i><i class="d" style="width:0.00%"></i></span>
-<span class="num">5<small>/15</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Texture_projective_2D.webp" alt="Texture projective 2D: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Line_width">
 <summary><span class="name">Line width</span>
 <span class="bar" role="img" aria-label="21 match, 16 close, 24 different of 61">
@@ -273,13 +259,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">4<small>/8</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Texture_perspective.webp" alt="Texture perspective: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Depth_buffer">
-<summary><span class="name">Depth buffer</span>
-<span class="bar" role="img" aria-label="72 match, 16 close, 56 different of 144">
-<i class="m" style="width:50.00%"></i><i class="c" style="width:11.11%"></i><i class="d" style="width:38.89%"></i></span>
-<span class="num">72<small>/144</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Depth_buffer.webp" alt="Depth buffer: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Lighting_control">
 <summary><span class="name">Lighting control</span>
 <span class="bar" role="img" aria-label="16 match, 16 close, 0 different of 32">
@@ -331,9 +310,9 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <img loading="lazy" src="img/Antialiasing_tests.webp" alt="Antialiasing tests: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="W_param">
 <summary><span class="name">W param</span>
-<span class="bar" role="img" aria-label="68 match, 2 close, 40 different of 110">
-<i class="m" style="width:61.82%"></i><i class="c" style="width:1.82%"></i><i class="d" style="width:36.36%"></i></span>
-<span class="num">68<small>/110</small></span></summary>
+<span class="bar" role="img" aria-label="67 match, 3 close, 40 different of 110">
+<i class="m" style="width:60.91%"></i><i class="c" style="width:2.73%"></i><i class="d" style="width:36.36%"></i></span>
+<span class="num">67<small>/110</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/W_param.webp" alt="W param: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Blend_surface">
@@ -357,13 +336,20 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">6<small>/9</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Color_zeta_overlap.webp" alt="Color zeta overlap: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Depth_buffer_fixed_function">
-<summary><span class="name">Depth buffer fixed function</span>
-<span class="bar" role="img" aria-label="54 match, 4 close, 22 different of 80">
-<i class="m" style="width:67.50%"></i><i class="c" style="width:5.00%"></i><i class="d" style="width:27.50%"></i></span>
-<span class="num">54<small>/80</small></span></summary>
+</figure></details><details class="suite" id="W_buffering">
+<summary><span class="name">W buffering</span>
+<span class="bar" role="img" aria-label="375 match, 106 close, 49 different of 530">
+<i class="m" style="width:70.75%"></i><i class="c" style="width:20.00%"></i><i class="d" style="width:9.25%"></i></span>
+<span class="num">375<small>/530</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Depth_buffer_fixed_function.webp" alt="Depth buffer fixed function: hardware and hakuX-lr pictures side by side, worst first">
+<img loading="lazy" src="img/W_buffering.webp" alt="W buffering: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Depth_buffer">
+<summary><span class="name">Depth buffer</span>
+<span class="bar" role="img" aria-label="106 match, 12 close, 26 different of 144">
+<i class="m" style="width:73.61%"></i><i class="c" style="width:8.33%"></i><i class="d" style="width:18.06%"></i></span>
+<span class="num">106<small>/144</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Depth_buffer.webp" alt="Depth buffer: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Surface_as_vertex_array">
 <summary><span class="name">Surface as vertex array</span>
 <span class="bar" role="img" aria-label="6 match, 0 close, 2 different of 8">
@@ -427,6 +413,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">16<small>/19</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Texture_signed_component_tests.webp" alt="Texture signed component tests: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Depth_buffer_fixed_function">
+<summary><span class="name">Depth buffer fixed function</span>
+<span class="bar" role="img" aria-label="68 match, 4 close, 8 different of 80">
+<i class="m" style="width:85.00%"></i><i class="c" style="width:5.00%"></i><i class="d" style="width:10.00%"></i></span>
+<span class="num">68<small>/80</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Depth_buffer_fixed_function.webp" alt="Depth buffer fixed function: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="SetVertexData">
 <summary><span class="name">SetVertexData</span>
 <span class="bar" role="img" aria-label="6 match, 1 close, 0 different of 7">
@@ -434,6 +427,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">6<small>/7</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/SetVertexData.webp" alt="SetVertexData: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Texture_projective_2D">
+<summary><span class="name">Texture projective 2D</span>
+<span class="bar" role="img" aria-label="13 match, 2 close, 0 different of 15">
+<i class="m" style="width:86.67%"></i><i class="c" style="width:13.33%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">13<small>/15</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Texture_projective_2D.webp" alt="Texture projective 2D: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Pixel_shader">
 <summary><span class="name">Pixel shader</span>
 <span class="bar" role="img" aria-label="8 match, 0 close, 1 different of 9">
@@ -817,7 +817,7 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 </section>
 <section class="notes">
 <h2>How this was run</h2>
-<p>hakuX-lr master (5f87882), 2026-11-16. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
+<p>hakuX-lr master (60cf597), 2026-11-17. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
 <p>Tests the capture set marks as deprecated are left out: the suite no longer contains them.</p>
 <p>Some tests save more than one picture, so the counts are pictures. A suite whose pictures hakuX-lr never wrote is listed under "not run".</p>
 
