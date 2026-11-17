@@ -63,15 +63,15 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <body>
 <main>
 <header style="display:grid;gap:10px">
-<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (60cf597), 2026-11-17</span>
+<span class="kicker">nxdk_pgraph_tests · hakuX-lr master (d473b96), 2026-11-17</span>
 <h1>hakuX-lr against an Xbox, test by test</h1>
 <p class="lede">Each test draws one picture through the NV2A's graphics engine. Its picture from hakuX-lr is compared with the same test's capture from a real Xbox 1.0. A test <b>matches</b> when under 0.5% of its pixels differ, is <b>close</b> under 5%, and is <b>different</b> otherwise. A pixel differs when a colour channel is more than 20 of 255 away; alpha is ignored, as the console's video output ignores it.</p>
 </header>
 <section class="totals" aria-label="Totals">
 <div class="tot"><b>3556</b><span>tests compared, of 3556 with a hardware capture</span></div>
-<div class="tot m"><b>77%</b><span>2726 match</span></div>
-<div class="tot c"><b>11%</b><span>395 close</span></div>
-<div class="tot d"><b>12%</b><span>435 different</span></div>
+<div class="tot m"><b>78%</b><span>2767 match</span></div>
+<div class="tot c"><b>11%</b><span>385 close</span></div>
+<div class="tot d"><b>11%</b><span>404 different</span></div>
 </section>
 <section>
 <h2>Suites, worst first</h2>
@@ -322,13 +322,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">20<small>/32</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Blend_surface.webp" alt="Blend surface: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Alpha_func">
-<summary><span class="name">Alpha func</span>
-<span class="bar" role="img" aria-label="10 match, 2 close, 4 different of 16">
-<i class="m" style="width:62.50%"></i><i class="c" style="width:12.50%"></i><i class="d" style="width:25.00%"></i></span>
-<span class="num">10<small>/16</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Alpha_func.webp" alt="Alpha func: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Color_zeta_overlap">
 <summary><span class="name">Color zeta overlap</span>
 <span class="bar" role="img" aria-label="6 match, 0 close, 3 different of 9">
@@ -364,6 +357,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">19<small>/25</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Point_params.webp" alt="Point params: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Vertex_shader_rounding_tests">
+<summary><span class="name">Vertex shader rounding tests</span>
+<span class="bar" role="img" aria-label="48 match, 3 close, 11 different of 62">
+<i class="m" style="width:77.42%"></i><i class="c" style="width:4.84%"></i><i class="d" style="width:17.74%"></i></span>
+<span class="num">48<small>/62</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Vertex_shader_rounding_tests.webp" alt="Vertex shader rounding tests: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="3D_primitive">
 <summary><span class="name">3D primitive</span>
 <span class="bar" role="img" aria-label="124 match, 36 close, 0 different of 160">
@@ -371,20 +371,6 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">124<small>/160</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/3D_primitive.webp" alt="3D primitive: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Shade_model">
-<summary><span class="name">Shade model</span>
-<span class="bar" role="img" aria-label="132 match, 9 close, 27 different of 168">
-<i class="m" style="width:78.57%"></i><i class="c" style="width:5.36%"></i><i class="d" style="width:16.07%"></i></span>
-<span class="num">132<small>/168</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Shade_model.webp" alt="Shade model: hardware and hakuX-lr pictures side by side, worst first">
-</figure></details><details class="suite" id="Vertex_shader_rounding_tests">
-<summary><span class="name">Vertex shader rounding tests</span>
-<span class="bar" role="img" aria-label="49 match, 2 close, 11 different of 62">
-<i class="m" style="width:79.03%"></i><i class="c" style="width:3.23%"></i><i class="d" style="width:17.74%"></i></span>
-<span class="num">49<small>/62</small></span></summary>
-<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
-<img loading="lazy" src="img/Vertex_shader_rounding_tests.webp" alt="Vertex shader rounding tests: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Texgen">
 <summary><span class="name">Texgen</span>
 <span class="bar" role="img" aria-label="8 match, 0 close, 2 different of 10">
@@ -490,6 +476,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">13<small>/13</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/2D_Lines.webp" alt="2D Lines: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Alpha_func">
+<summary><span class="name">Alpha func</span>
+<span class="bar" role="img" aria-label="16 match, 0 close, 0 different of 16">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">16<small>/16</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Alpha_func.webp" alt="Alpha func: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Attrib_carryover">
 <summary><span class="name">Attrib carryover</span>
 <span class="bar" role="img" aria-label="99 match, 0 close, 0 different of 99">
@@ -686,6 +679,13 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 <span class="num">4<small>/4</small></span></summary>
 <figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
 <img loading="lazy" src="img/Point_sprite.webp" alt="Point sprite: hardware and hakuX-lr pictures side by side, worst first">
+</figure></details><details class="suite" id="Shade_model">
+<summary><span class="name">Shade model</span>
+<span class="bar" role="img" aria-label="168 match, 0 close, 0 different of 168">
+<i class="m" style="width:100.00%"></i><i class="c" style="width:0.00%"></i><i class="d" style="width:0.00%"></i></span>
+<span class="num">168<small>/168</small></span></summary>
+<figure><div class="cols"><span>Xbox (hardware)</span><span>hakuX-lr</span></div>
+<img loading="lazy" src="img/Shade_model.webp" alt="Shade model: hardware and hakuX-lr pictures side by side, worst first">
 </figure></details><details class="suite" id="Stencil">
 <summary><span class="name">Stencil</span>
 <span class="bar" role="img" aria-label="16 match, 0 close, 0 different of 16">
@@ -817,7 +817,7 @@ figure img { display: block; width: 100%; max-width: 652px; border-radius: 4px; 
 </section>
 <section class="notes">
 <h2>How this was run</h2>
-<p>hakuX-lr master (60cf597), 2026-11-17. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
+<p>hakuX-lr master (d473b96), 2026-11-17. RetroArch 1.22.2 on x86-64 (Linux, KVM), render scale 1x (the Xbox's resolution) and pipelines built before their first draw (HAKUX_HLE_ASYNCPIPE=0), so no draw is skipped while a shader compiles; other core options at their defaults. nxdk_pgraph_tests release <code>v2026-10-31_21-06-59</code> with a config on the disc that starts the run at once; the hardware captures are <code>abaire/nxdk_pgraph_tests_golden_results</code>.</p>
 <p>Tests the capture set marks as deprecated are left out: the suite no longer contains them.</p>
 <p>Some tests save more than one picture, so the counts are pictures. A suite whose pictures hakuX-lr never wrote is listed under "not run".</p>
 
