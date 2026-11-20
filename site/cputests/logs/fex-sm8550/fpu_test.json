@@ -4,17 +4,17 @@
   "suite": "FPU",
   "events": [
     {"level": "info", "message": "Mounted Drive E: and initialized log at e:\\devkit\\nxdk_low_level_cpu_tests\\log_fpu.json", "file": "test_runner.cpp", "line": 112, "t_ms": 10},
-    {"level": "info", "message": "Running test suite...", "file": "test_runner.cpp", "line": 215, "t_ms": 34}
+    {"level": "info", "message": "Running test suite...", "file": "test_runner.cpp", "line": 215, "t_ms": 30}
   ],
   "tests": [
     {
       "name": "FPU Basic Arithmetic",
       "source": "fpu_tests/test_fpu_basic_arithmetic.h",
-      "started_ms": 37,
+      "started_ms": 33,
       "events": [
-        {"level": "pass", "message": "double sum(1..1000) == 500500.0 (got 500500.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 13, "t_ms": 38},
-        {"level": "pass", "message": "double 10! == 3628800.0 (got 3628800.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 25, "t_ms": 38},
-        {"level": "pass", "message": "float sum(1..10) == 55.0 (got 55.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 38, "t_ms": 38}
+        {"level": "pass", "message": "double sum(1..1000) == 500500.0 (got 500500.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 13, "t_ms": 36},
+        {"level": "pass", "message": "double 10! == 3628800.0 (got 3628800.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 25, "t_ms": 36},
+        {"level": "pass", "message": "float sum(1..10) == 55.0 (got 55.000000)", "file": "fpu_tests/test_fpu_basic_arithmetic.cpp", "line": 38, "t_ms": 36}
       ],
       "result": "pass",
       "duration_ms": 3
@@ -22,36 +22,36 @@
     {
       "name": "X87 fld/fstp Precision Control",
       "source": "fpu_tests/test_fpu_x87_precision_control.h",
-      "started_ms": 56,
+      "started_ms": 53,
       "events": [
         {
-          "scope": "Single precision (PC = 00b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 66,
+          "scope": "Single precision (PC = 00b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 59,
+          "events": [
+            {"level": "pass", "message": "qword copy preserved: 0xc80008f8c0023c2f", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 71},
+            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 72},
+            {"level": "pass", "message": "qword copy preserved: 0x3ff0000000000001", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 72}
+          ]
+        },
+        {
+          "scope": "Double precision (PC = 10b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 73,
           "events": [
             {"level": "pass", "message": "qword copy preserved: 0xc80008f8c0023c2f", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 74},
-            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 75},
+            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 74},
+            {"level": "pass", "message": "qword copy preserved: 0x3ff0000000000001", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 74}
+          ]
+        },
+        {
+          "scope": "Extended precision (PC = 11b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 74,
+          "events": [
+            {"level": "pass", "message": "qword copy preserved: 0xc80008f8c0023c2f", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 74},
+            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 74},
             {"level": "pass", "message": "qword copy preserved: 0x3ff0000000000001", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 75}
           ]
         },
-        {
-          "scope": "Double precision (PC = 10b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 76,
-          "events": [
-            {"level": "pass", "message": "qword copy preserved: 0xc80008f8c0023c2f", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 77},
-            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 77},
-            {"level": "pass", "message": "qword copy preserved: 0x3ff0000000000001", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 77}
-          ]
-        },
-        {
-          "scope": "Extended precision (PC = 11b)", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 61, "t_ms": 77,
-          "events": [
-            {"level": "pass", "message": "qword copy preserved: 0xc80008f8c0023c2f", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 77},
-            {"level": "pass", "message": "qword copy preserved: 0x0123456789abcdef", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 78},
-            {"level": "pass", "message": "qword copy preserved: 0x3ff0000000000001", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 70, "t_ms": 78}
-          ]
-        },
-        {"level": "pass", "message": "FPU control word restored; register stack empty", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 85, "t_ms": 78}
+        {"level": "pass", "message": "FPU control word restored; register stack empty", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 85, "t_ms": 75}
       ],
       "result": "pass",
-      "duration_ms": 23
+      "duration_ms": 22
     },
     {
       "name": "X87 Single Precision Control Arithmetic Rounding",
@@ -59,18 +59,18 @@
       "started_ms": 116,
       "events": [
         {"level": "pass", "message": "fsub just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 117},
-        {"level": "pass", "message": "fadd just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 117},
-        {"level": "pass", "message": "fsub just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 117},
-        {"level": "pass", "message": "fmul just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 117},
-        {"level": "pass", "message": "fmul just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 117},
-        {"level": "pass", "message": "fdiv just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 118},
-        {"level": "pass", "message": "fdiv just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 118},
-        {"level": "pass", "message": "FPU control word restored; register stack empty", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 217, "t_ms": 118}
+        {"level": "pass", "message": "fadd just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 119},
+        {"level": "pass", "message": "fsub just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 119},
+        {"level": "pass", "message": "fmul just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 120},
+        {"level": "pass", "message": "fmul just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 122},
+        {"level": "pass", "message": "fdiv just above halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 122},
+        {"level": "pass", "message": "fdiv just below halfway: 0x3ff0000020000000", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 201, "t_ms": 123},
+        {"level": "pass", "message": "FPU control word restored; register stack empty", "file": "fpu_tests/test_fpu_x87_precision_control.cpp", "line": 217, "t_ms": 123}
       ],
       "result": "pass",
-      "duration_ms": 2
+      "duration_ms": 7
     }
   ],
   "summary": {"total": 3, "passed": 3, "failed": 0},
-  "duration_ms": 148
+  "duration_ms": 145
 }
